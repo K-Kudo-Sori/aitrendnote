@@ -1,0 +1,2 @@
+# aitrendnote
+AIトレンドノート
