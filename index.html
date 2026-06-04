@@ -235,11 +235,14 @@
     (function () {
       var tabs = document.querySelectorAll('.nav-tab');
       var cards = document.querySelectorAll('.article-card');
+      // 新着(all)専用の概要セクション。ソース絞り込み時は隠す。
+      var overview = document.querySelectorAll('.home-highlights, .date-archive');
       tabs.forEach(function (t) {
         t.addEventListener('click', function () {
           tabs.forEach(function (x) { x.classList.remove('is-active'); });
           t.classList.add('is-active');
           var f = t.getAttribute('data-filter');
+          overview.forEach(function (o) { o.style.display = f === 'all' ? '' : 'none'; });
           cards.forEach(function (c) {
             var show = f === 'all' || c.getAttribute('data-source') === f;
             c.style.display = show ? '' : 'none';
