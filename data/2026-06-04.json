@@ -1,122 +1,94 @@
 {
   "date": "2026-06-04",
-  "generatedAt": "2026/6/4 13:30:00",
+  "generatedAt": "2026-06-04 07:10:00",
   "highlights": [
-    "UberがClaude CodeなどAIコーディングツールの月間使用上限を$1,500に設定し、AIツールのコスト管理が大企業でも本格化",
-    "Anthropicがエージェントの「爆発半径」を制御するアーキテクチャ設計を公開し、AI安全性エンジニアリングの知見を共有",
-    "UCバークレーCSクラスで不可（F）評定が急増、AI多用と数学基礎力低下の相関が問題視される",
-    "ゼロデイ攻撃の中央値がついに「0日」に――脆弱性公開前から攻撃されるケースが急増し従来の月例パッチ運用が破綻",
-    "Netflixエンジニア製トークン削減OSSツール「Headroom」がリリース直後に6k stars超え、ビルドログで93%削減を達成"
+    "AnthropicがAI活用の脆弱性発見フレームワークをオープンソース公開し、自律的なセキュリティスキャンとパッチ生成が可能に",
+    "AnthropicがAI自身によるAI開発（再帰的自己改善）の進捗を報告 ─ エンジニアの生産性が5年で8倍に向上",
+    "HuaweiがvLLM向けKVキャッシュ量子化バックエンド「KVarN」を公開、FP16と同精度・同速度でKVキャッシュ容量を3〜5倍に",
+    "Claude Managed Agentsを活用したSlack botがエンジニア問い合わせを大幅削減、導入4週間でbot対応スレッド数が4.5倍に",
+    "NetflixエンジニアによるAIエージェントのトークン削減ツール「Headroom」がリリース直後に6k starsを獲得"
   ],
   "items": [
     {
       "source": "hackernews",
-      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
-      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
-      "summary": "著者がFirebaseを用いたReact Native/FastAPIのサンプルアプリに意図的な「壊れたアクセス制御」脆弱性を仕込み、複数のLLMがそれを発見・悪用できるかを$1,500分のAPI費用で検証した。攻撃目標はFirebaseへの不正サインアップとFirestoreの直接読み取りで、これはSupabase/Firebaseアプリで実際によく見られる脆弱性クラスと同じものだ。Claudeがとりわけ優秀な成績を収めるなど、LLMのセキュリティ診断能力が実用水準に近づきつつあることが示された。一方で再現性のある科学的評価ではなく、費用の都合で試行回数が制限されたという留意点もある。",
-      "points": 97,
-      "comments": 38,
-      "author": "jc4p"
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "summary": "AnthropicがClaudeを活用した自律的な脆弱性発見・修正のオープンソースリファレンス実装「Defending Code Reference Harness」を公開しました。スキャン、トリアージ、パッチ生成などのClaude Codeスキル群と、DockerおよびASANを用いたC/C++メモリ脆弱性検出パイプラインが含まれます。このリポジトリは参考実装であり、独自パイプラインの構築や言語・検出器のカスタマイズに利用可能です。なお、ホスト型製品「Claude Security」も別途提供されており、複数プロジェクトを横断してリポジトリをスキャンし、誤検知を減らす多段階検証パイプラインを備えています。",
+      "points": 127,
+      "comments": 42,
+      "author": "binyu"
     },
     {
       "source": "hackernews",
-      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
-      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
-      "summary": "2026年春学期のUCバークレーCS10では受講生の35.3%、CS61Aでは10.6%がF評定を受け、教授らがAI利用の増大と数学基礎スキルの低下を深刻に懸念している。学生がAIに依存することで自力で問題を解く能力が身につかず、試験では対処できないという悪循環が起きているとみられる。教員側は講義設計の見直しやAI利用ポリシーの再検討を迫られており、AIが教育現場に与える負の影響として全米的な注目を集めている。",
-      "points": 64,
-      "comments": 36,
-      "author": "littlexsparkee"
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "summary": "AnthropicはAI開発の各工程をAI自身へ委任する割合を増やしており、再帰的自己改善（AI自身が次世代AIを構築する段階）に近づいていると報告しました。Anthropicのエンジニアは2021〜2025年比で平均8倍のコードを四半期ごとにリリースしており、AIが完遂できるタスクの長さは約4カ月ごとに倍増しています。2024年3月に4分程度だった自律タスク時間が、2026年現在では12時間にまで伸びており、2027年には数週間規模のタスクも射程に入る見込みです。このトレンドは科学・医療などに多大な恩恵をもたらす一方、AIの制御・監視・安全性の重要性が急速に高まっています。",
+      "points": 208,
+      "comments": 249,
+      "author": "meetpateltech"
     },
     {
       "source": "hackernews",
-      "title": "The ways we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "summary": "Anthropicが自社製品でClaudeエージェントの「爆発半径（blast radius）」を制御するためのアーキテクチャ設計を公開した。ヒューマン・イン・ザ・ループによる行動監視と、環境のサンドボックス化による被害範囲の物理的制限という2つのアプローチを軸に据えている。12ヶ月前は却下されていた社内サービスへのフルアクセス権付与が今や日常的になるほどエージェント活用が進んだが、能力拡大に伴うリスク管理の重要性も高まっていると指摘する。2026年4月にリリース見送りとなったClaude Mythos Previewは爆発半径が大きすぎると判断された一例として紹介されている。",
-      "points": 67,
-      "comments": 32,
-      "author": "jbredeche"
+      "title": "Castor: CERN Advanced STORage Manager",
+      "url": "https://castor.web.cern.ch/content/home.html",
+      "summary": "CERNが物理データのアーカイブを目的に開発した階層型ストレージ管理システム「CASTOR」の技術解説記事です。ディスクとテープを組み合わせたヒエラルキカルストレージで、XROOTやGridFTPといたアクセスプロトコルを提供していました。2020年6月から後継システム「CTA（CERN Tape Archive）」への移行が進み、現在はCTAが運用の中心となっています。同システムはLHCをはじめとする大規模な素粒子物理実験で生成される膨大なデータを長期保存するために設計されました。",
+      "points": 34,
+      "comments": 11,
+      "author": "naves"
     },
     {
       "source": "hackernews",
-      "title": "Artificial intelligence is not conscious – Ted Chiang",
-      "url": "https://www.theatlantic.com/philosophy/2026/06/no-artificial-intelligence-is-not-conscious/687378/",
-      "summary": "本文取得失敗（ネットワーク制限によりページがアクセスブロックされた）。SF作家のTed ChiangがThe Atlanticに寄稿したAIの意識に関する哲学的論考で、ポイント303・コメント551と高い注目を集めている。",
-      "points": 303,
-      "comments": 551,
-      "author": "lordleft"
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "summary": "HuaweiがvLLMのネイティブKVキャッシュ量子化バックエンド「KVarN」をオープンソース公開しました。FP16と同等の精度・スループットを保ちながら、KVキャッシュ容量を3〜5倍に拡大でき、アジェンティックや長文コンテキストのワークロードに特に有効です。キャリブレーション不要でvLLMにフラグ一つで組み込め、既存モデルの変更は不要です。HadamardローテーションとSinkhorn風の反復分散正規化によりアウトライアを分散させ、低ビット量子化での精度劣化を防ぐ独自手法を採用しています。",
+      "points": 99,
+      "comments": 10,
+      "author": "theanonymousone"
     },
     {
       "source": "hackernews",
-      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
-      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
-      "summary": "Uberが全エンジニアに対してCursorやClaude CodeなどAIコーディングツールの月間使用上限を1ツールあたり$1,500に設定したことをSimon Willisonが分析した。2026年初頭にAIツール予算を4ヶ月で使い切ったことへの対策で、複数ツールを使う場合も各ツールの上限は独立して適用される。2ツール分で年間$36,000というキャップはLevels.fyi掲載の中央年収$330,000の約11%に相当し、これはUberがAIコーディングツールに感じている価値の下限を示す有用な指標になるとWillisonは論じる。この種の制限は無尽蔵なトークン消費を競わせるリーダーボード文化よりも合理的な政策と評価されている。",
-      "points": 406,
-      "comments": 506,
-      "author": "pdyc"
+      "title": "Samurai City",
+      "url": "https://worksinprogress.co/issue/samurai-city/",
+      "summary": "江戸時代（1600〜1868年）の日本を支配した徳川幕府と、首都・江戸（現東京）の都市設計に関する歴史考察記事です。幕府は大名に江戸の屋敷に家族を常駐させる「参勤交代」制度を通じ、江戸を事実上の人質収容都市として機能させることで支配を維持しました。農民への高率課税（収穫の40%程度）で財源を確保し、武士階級（全人口の約6%）の生活を支える構造が敷かれていました。江戸は世界有数の大都市でありながら、政治的統制のための消費都市という独特の性格を持っていました。",
+      "points": 60,
+      "comments": 5,
+      "author": "zdw"
     },
     {
       "source": "zenn",
       "title": "なぜスライド作りはClaude Designでやるべきなのか？",
       "url": "https://zenn.dev/rakko_inc/articles/claude-design-company-deck",
-      "summary": "Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を使って採用向け会社紹介スライドを作成した体験記。既存スライドや資料からブランドの色・フォント・レイアウトを「デザインシステム」として一度学習させれば、原稿を渡すだけで統一感のある資料を短時間で量産できるようになるのが最大のメリット。Google Slidesで数日かかっていた作業が約1時間で完成し、デザイン知識のない人でもブランドを再現するコストがほぼゼロになった。PDF・PPTX・HTMLなど豊富なエクスポート形式と、DOCX/PPTX/画像/Webキャプチャなど柔軟な入力形式が実務での活用幅を広げている。",
-      "tags": [
-        "ai",
-        "claude",
-        "design"
-      ]
+      "summary": "Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を活用したスライド制作の具体的な手順を紹介した記事です。既存のPPTXやロゴからデザインシステムを約15分で自動抽出し、そのシステムを使えばデザイナーでなくても統一されたデザインのスライドを原稿を渡すだけで作れるようになります。著者は従来数日かかっていた採用資料を、デザインシステム生成15分＋スライド生成30分の合計1時間未満で完成させることに成功しました。複雑な図解は一度ChatGPTで「下絵」を作ってからClaude Designに渡す分業が、時間とコスト両面で効率的であると述べています。"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Managed Agentsで「まずエンジニアに聞こう」を「まずbotに聞こう」に変えた",
+      "url": "https://zenn.dev/dinii/articles/d7be3acc43d868",
+      "summary": "飲食業向けSaaSを提供するダイニー社が、Anthropic Claude Managed Agentsを用いてSlack bot「@ask-anything」を構築した事例紹介です。このbotはBigQueryへのSQL問い合わせ、Cloud Loggingの時系列読み取り、monorepのgrep調査などをread-onlyで自律実行し、従来エンジニアが10〜30分かけていた問い合わせ対応を1〜3分で完了します。Claude Managed AgentsによりAnthropicの実行サンドボックスとMCPサーバー連携が提供されるため、自前でオーケストレーションコードを書く量が約7割削減されました。本格稼働から4週間でbot対応スレッド数が週24件から109件へと4.5倍に増加し、エンジニアへの直接問い合わせ数も減少しています。"
     },
     {
       "source": "zenn",
       "title": "データサイエンティストのためのAGENTS.mdとSkills",
       "url": "https://zenn.dev/green_tea/articles/d310e5cf809190",
-      "summary": "データサイエンティストがGitHub Copilot等のAIコーディングツールを最大限活用するためのAGENTS.md・Skills設定の実践例を紹介した記事。全タスク共通のルールはAGENTS.mdに薄く、作業別の詳細ルールはSkillsに、プロジェクト固有情報はdocsにと階層を分けることでトークン効率と保守性を両立させる。Python・SQL・Jupyter Notebook・ドキュメント・データそれぞれに特化したインストラクションファイルとプロンプトテンプレートをGitHubで公開しており、分析業務へのAI導入のたたき台として活用できる。",
-      "tags": [
-        "ai",
-        "datascience",
-        "github-copilot",
-        "claude-code"
-      ]
+      "summary": "データサイエンス業務でAIコーディングツール（GitHub Copilot、Claude Codeなど）を最大限活用するための、AGENTS.mdとSkillsの設計・分類方法を解説した記事です。全タスク共通のルールはAGENTS.mdに最小限の記述にとどめ、作業別の詳細ルール（Python・SQL・notebooks等）はSkillsに分離し、プロジェクト固有の情報はdocsに置く構成を推奨しています。この分離によりコンテキスト効率が向上し、トークンベース課金が主流になった2026年以降においてコスト管理が容易になります。著者はGitHub上にサンプルリポジトリを公開しており、すぐ自分のプロジェクトに適用可能なたたき台として利用できます。"
+    },
+    {
+      "source": "zenn",
+      "title": "RTX 4080でローカルLLM 7モデルを実測したら「16GB VRAMの壁」が見えた",
+      "url": "https://zenn.dev/seeda_yuto/articles/ollama-vs-vllm-rtx4080-benchmark",
+      "summary": "RTX 4080（16GB VRAM）でOllama・vLLMの2バックエンドと12種のモデルを実測し、ベンチマーク結果を公開した記事です。最大の発見は「15GB以下のモデルのみフルスピードで動き、それを超えた瞬間にCPUオフロードが発生して速度が1/10以下になる」という16GBの壁で、MoEモデルが実効パラメータを小さく抑えられる点で有利と結論付けています。総合評価の最適解はgpt-oss:20b（MoEで13GB・122〜125 tok/s）＋Ollamaの組み合わせで、速度・品質のバランスが最も優れていました。vLLMはKVキャッシュ領域が極端に少なくなるため16GB単一GPU環境では不利であり、A100/H100の複数GPU環境で本領を発揮すると述べています。"
     },
     {
       "source": "zenn",
       "title": "Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう",
       "url": "https://zenn.dev/sora_kumo/articles/zenn-ai-filter",
-      "summary": "ZennにAI関連記事を非表示にするフィルター機能がないため、Chrome 138以降のBuilt-in AI（Gemini Nano）を使ったChrome拡張機能を自作した事例。外部のAI APIにデータを送らずにクライアントサイドだけで記事の要約・分類・フィルタリングを完結させることでプライバシーを確保している。ai.summarizerが失敗した場合はLanguageModelにフォールバックする二重構成を採用し、判定結果はキャッシュして繰り返し実行の負荷を削減。4GBのオンデバイスLLMのため誤判定もあるが、ローカルで動作する点は今後のブラウザAI標準化に向けた先進的な実装例となっている。",
-      "tags": [
-        "ai",
-        "chrome-extension",
-        "gemini-nano"
-      ]
-    },
-    {
-      "source": "zenn",
-      "title": "Claude Codeのために「臭うコード検出器」を開発し、Hooksに設定してみた話",
-      "url": "https://zenn.dev/manalink_dev/articles/coding-agent-with-syntax-tree-analyze",
-      "summary": "AIコーディングエージェントが量産するコードのレビュー負荷を下げるため、構文木解析を使った独自の「臭うコード検出器」をPHPStanカスタムルールとして実装した事例。CLAUDE.mdにルールを書いても確率で無視されるという問題を根本解決するため、CIでコードを検査しClaude Code Hooksにフィードバックを返す仕組みを構築した。これによりClaude Codeが自分の実装の問題点に自律的に気づき、自動修正するセルフレビューサイクルが実現した。AIコーディングが普及した今こそカスタムlintルールの整備が重要で、実装コストも大幅に下がっているとCTOが訴える。",
-      "tags": [
-        "ai",
-        "claude-code",
-        "lint",
-        "php"
-      ]
-    },
-    {
-      "source": "zenn",
-      "title": "【Snowflake Summit 2026】Snowflakeが買収した「Natoma」— エンタープライズMCPガバナンス設計を読み解く",
-      "url": "https://zenn.dev/finatext/articles/snowflake-summit-2026-natoma-mcp-governance",
-      "summary": "Snowflakeが2026年5月27日に買収意向を発表したエンタープライズMCPプラットフォーム「Natoma」のアーキテクチャとガバナンス設計をSnowflake Summit 2026の現地レポートとして解説。AIエージェントがメール送信・レコード更新・ワークフロー起動などのアクションを取る段階になった今、多くの企業はエージェントが「実際に何をできるか」を統制するガバナンス基盤を持っていないという課題が浮き彫りになった。NatomaはMCPゲートウェイとして動作し、エージェントのアクセス制御・権限管理・監査ログを一元管理することで、大企業が安全にエージェントを展開できる基盤を提供する。",
-      "tags": [
-        "ai",
-        "mcp",
-        "snowflake",
-        "governance"
-      ]
+      "summary": "Chrome 138以降で利用可能なBuilt-in AI（Gemini Nano）を活用してZennのAI関連記事をクライアントサイドでフィルタリングするChrome拡張機能を開発した記事です。記事本文を外部AIに送らずブラウザ内で要約・分類を行うため、プライバシーへの配慮がされています。複数記事タイトルをまとめて一度のプロンプトで判定するバッチ処理や、ローカルLLM特有の出力フォーマット崩れへの正規表現フォールバック、フィルター後のレイアウト崩れ防止UIハックなど実装上の工夫が詳しく解説されています。ローカルLLMゆえ誤判定もあるが、判定結果はキャッシュされるため繰り返し処理コストは抑えられます。"
     },
     {
       "source": "devto",
       "title": "Is This How We'll Build Websites Soon? (webMCP Live Demo 🚀)",
       "url": "https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33",
-      "summary": "Googleが実験的に開発中のAIエージェント向けウェブプロトコル「webMCP」を紹介した記事。著者はデモとして「AI CEO Simulator」を実際に作成し、ウェブサイトがスマートフォン・アクセシビリティに続いてAIエージェント対応に適応する時代が来るかもしれないと論じた。webMCPによって既存のウェブページがAIエージェントにとって操作可能なインターフェースになる可能性があり、ウェブ開発の新たなパラダイムとして注目されている。",
+      "summary": "GoogleがChrome上で試験中のwebMCPプロトコルを解説し、React＋TypeScriptで「AI CEO Simulator」デモアプリを構築した記事です。webMCPはWebサイトが利用可能なアクションの構造化情報をAIエージェントに公開する仕組みで、エージェントがページをスクレイピングして推測する従来手法より速く・安く・確実に機能します。HTML属性への宣言的アノテーションとJavaScript ImperativeAPIの2方式が提供されており、通常ユーザーへの影響は一切なく既存サイトのエージェント向け拡張として機能します。現時点ではChrome Canary・Betaや実験フラグ有効環境のみで動作する実験的技術です。",
       "tags": [
         "javascript",
         "react",
@@ -126,31 +98,33 @@
     },
     {
       "source": "devto",
-      "title": "Am I Becoming Too Slow for the AI World?",
-      "url": "https://dev.to/marcosomma/am-i-becoming-too-slow-for-the-ai-world-1904",
-      "summary": "AI開発ツールの急速な進化によって自分のペースが遅れているのではないかという不安を開発者が率直に吐露した記事。著者はビブコーディングや無秩序なツール多用を批判しつつ、AIの台頭によってシニアエンジニアに求められる能力の定義が根本的に変わりつつあると論じる。AIは現時点ではまだ「ツールフェーズ」にあり、本物の認知能力の代替には至っていないという立場を堅持しながら、速度ではなく深さで差別化することの重要性を説く。",
+      "title": "Agent Factory Recap: Building with Gemini 3, AI Studio, Antigravity, and Nano Banana",
+      "url": "https://dev.to/googleai/agent-factory-recap-building-with-gemini-3-ai-studio-antigravity-and-nano-banana-186h",
+      "summary": "GoogleのGemini 3モデル、新AIネイティブIDE「Antigravity」、メディア生成「Nano Banana Pro」など最新リリース群の技術的詳細を解説したポッドキャストのリキャップ記事です。Gemini 3はGemini 1（理解）→2（推論）→3（行動・コーディング）と進化し、ツール利用と関数呼び出しが強化されています。デモではGemini 3がReactアプリをスクラッチで生成し、自らデバッグするシーンや、AntigravityがスクリーンショットからWebサイトをデザインリファクタリングするシーンが紹介されました。DeepMindのPaige Bailey氏はGeminiの急速な進化について、開発者が今すぐ活用できるツールに焦点を当てた見解を語っています。",
       "tags": [
         "ai",
-        "programming",
-        "productivity",
-        "career"
+        "nanobanana",
+        "antigravity",
+        "agents"
       ]
     },
     {
       "source": "devto",
-      "title": "Every tool seems to have a coding agent horned in these days..... I don't think that makes sense.",
-      "url": "https://dev.to/ben/every-tool-seems-to-have-a-coding-agent-horned-in-these-days-i-dont-think-that-makes-sense-3db",
-      "summary": "あらゆるツールにコーディングエージェントが無理やり追加されている最近のトレンドに懐疑的な意見を述べた短編コラム。かつてのダークモードブームと同様に、本当に必要かどうかより流行に乗ることを優先した機能追加が横行していると指摘する。AIが本当に問題を解決するかどうかを問い直すことの重要性を訴えており、コメント欄でも多くの開発者が共感の声を上げている。",
+      "title": "AI gateways: why and how",
+      "url": "https://dev.to/nfrankel/ai-gateways-why-and-how-b5o",
+      "summary": "複数のLLMプロバイダーへのアクセスを統一し、認証・コスト管理・フェイルオーバーなどを一元化する「AIゲートウェイ」の概念と活用方法を解説した記事です。著者はClaude Codeを愛用しつつも米国拠点のAnthropicがPATRIOT法の対象になることを懸念し、EUに拠点を置くMistral AIのdevstralへコールをルーティングするためにAIゲートウェイ「Bifrost」を採用しました。LiteLLM・Bifrost・OpenRouterなどのOSSゲートウェイが紹介されており、Bifrostは5,000 req/sのベンチマークで1リクエストあたり11µsのオーバーヘッドに留まることが示されています。クライアント側はClaude Code、処理は好みのLLMへというプロバイダーロックイン回避の用途が主なユースケースです。",
       "tags": [
         "ai",
-        "opinion"
+        "codingassistants",
+        "aigateway",
+        "claude"
       ]
     },
     {
       "source": "devto",
-      "title": "Surviving the eviction: How to build interrupt-resilient AI workloads on GKE",
-      "url": "https://dev.to/googlecloud/surviving-the-eviction-how-to-build-interrupt-resilient-ai-workloads-on-gke-5581",
-      "summary": "Google Kubernetes Engine（GKE）のSpot VMを使ってAIモデルのトレーニングコストを最大90%削減しながら、ノード強制終了（eviction）に耐えられるアーキテクチャを設計する方法を解説したGoogle Cloud公式記事。GCSへのチェックポイント保存、Spot VMのACPI終了シグナル検知、PreStop hookによるgraceful shutdown、Kubernetes Jobの再開設定を組み合わせることで、38時間を超える長時間ジョブも途中から自動再開できる。コスト最適化とサービス継続性を両立させたい機械学習エンジニア向けの実践的ガイドとなっている。",
+      "title": "Seamless scaling with VPA In-place Pod Resize on GKE",
+      "url": "https://dev.to/googlecloud/seamless-scaling-with-vpa-in-place-pod-resize-on-gke-117p",
+      "summary": "GKEの新機能「In-place Pod Resize（IPPR）」とVertical Pod Autoscaler（VPA）を組み合わせた動的リソース最適化の仕組みを解説した記事です。従来のVPAはリソース変更にPodの再起動が必要でしたが、IPPRはコンテナランタイムを通じて実行中コンテナのCPU・メモリ制限をダウンタイムなしで変更できます。GKEバージョン1.34.0-gke.2201000以降で利用可能で、VPAのupdateModeを「InPlaceOrRecreate」に設定するだけで有効になります。ノードのキャパシティが不足する場合のみPod再起動にフォールバックし、ステートフルアプリや遅延に敏感なサービスでも安全なオートスケーリングを実現します。",
       "tags": [
         "kubernetes",
         "ai",
@@ -160,56 +134,21 @@
     },
     {
       "source": "devto",
-      "title": "I built a tool to stop Claude from forgetting everything then forgot about it myself",
-      "url": "https://dev.to/dannwaneri/i-built-a-tool-to-stop-claude-from-forgetting-everything-then-forgot-about-it-myself-2e7f",
-      "summary": "Claudeとのセッションでcatやnpm listなどのコマンド出力がコンテキストウィンドウを圧迫して応答品質が劣化する問題を解決するため、「edge-context-mode」を実装した開発者の体験記。Cloudflare Durable Objectsを活用してコンテキストを管理するツールを作ったが、仕組みを理解していないまま6週間放置してしまった。GitHub Finish-Up-A-Thon Challengeへの参加をきっかけに再訪したところ、Durable Objectsの動作に問題があることを発見し、コードを正直に向き合って最終的に完成させた経緯を語っている。",
+      "title": "Extending a MCP/A2A Currency Agent with A2UI",
+      "url": "https://dev.to/gde/extending-a-mcpa2a-currency-agent-with-a2ui-5hj3",
+      "summary": "Google ADKとMCP・A2Aプロトコルで構築された通貨エージェントを、A2UI（Agent-to-User Interface）プロトコルで拡張するチュートリアル記事です。A2UIはAIエージェントがリアルタイムでインタラクティブなUIコンポーネント（チャート・フォームなど）を動的生成・ストリーミングできるオープンソースプロトコルで、事前定義された画面やテキストのみの返答に依存しない柔軟なUI提供が可能です。実装にはGemini CLIの後継となるAntigravity CLIを使用し、既存のcurrency-agentサンプルリポジトリをベースに拡張しています。A2A・MCP・AG-UI・A2UIなど2026年の主要AIエージェントプロトコルスタックの位置付けも整理されています。",
       "tags": [
-        "discuss",
-        "devchallenge",
-        "githubchallenge",
-        "webdev"
-      ]
-    },
-    {
-      "source": "qiita",
-      "title": "日本酒記録アプリをAWSを使って作ってみた",
-      "url": "https://qiita.com/yo_arai/items/c61eb886faa1cee69054",
-      "summary": "AWSのフルサーバーレス構成（API Gateway/Lambda/DynamoDB/S3/Bedrock/CloudFront）で日本酒記録Webアプリ「酒ファイル」を個人開発した事例。裏ラベルを撮影するだけでBedrock上のClaude Sonnet 4.5が精米歩合・日本酒度・酸度などのスペックを自動入力する機能が最大の特徴で、手作業入力の手間を大幅に削減する。テイスティングノートをAIが日本酒らしい文章に改善する機能にはGPT-OSS-120bを採用し、IaCはTerraformで管理している。",
-      "tags": [
-        "AWS",
-        "S3",
-        "lambda",
-        "bedrock",
-        "Claude"
-      ]
-    },
-    {
-      "source": "qiita",
-      "title": "【脆弱性】脆弱性が発見されてから攻撃されるまでの平均時間が5年前の1/188になってる",
-      "url": "https://qiita.com/rana_kualu/items/d9254d21aab9bbd25a6f",
-      "summary": "「Zero Day Clock」のデータを基に、CVE公開から実悪用確認までの期間が急速に短縮している実態を分析した記事。2018年には中央値771日だった猶予期間が2023年には6日、2024年には4時間となり、2025年にはついに公開前から攻撃が始まる事態になった。AIによってセキュリティパッチのリバースエンジニアリングが数分で完了し脆弱点の特定が自動化されているため、月例パッチ運用はもはや有効な防御戦略ではないと警告する。2026年には実に3/4の脆弱性がゼロデイ攻撃に使われており、防御側は常に後手に回る構造的問題が露わになっている。",
-      "tags": [
-        "脆弱性",
-        "AI",
-        "cve",
-        "ゼロデイ攻撃"
-      ]
-    },
-    {
-      "source": "qiita",
-      "title": "育休期間の育児を、生成AIに評価してもらった話",
-      "url": "https://qiita.com/ma333/items/b2820c8f34fef3389fc2",
-      "summary": "2ヶ月の育休中に育児記録アプリ「ぴよログ」でデータを蓄積し、エクスポートしたデータを生成AIに分析してもらった体験談。AlexaとSiriの音声入力を活用して忙しい育児の合間にも記録を続け、PDFエクスポート後にシンプルなプロンプトでAIに評価を依頼した。AIが睡眠ログの「0時間/24時間」という異常値を単純なエラーとみなさず「記録漏れ」と文脈を踏まえて正確に指摘した点に驚いたと述べている。",
-      "tags": [
-        "ポエム",
-        "生成AI"
+        "agents",
+        "googleadk",
+        "a2aprotocol",
+        "a2ui"
       ]
     },
     {
       "source": "qiita",
       "title": "AIエージェントのトークン代を節約するNetflixのエンジニアが作ったツール「Headroom」について調べてみた",
       "url": "https://qiita.com/shinkai_/items/61b10d10c63db47a64e7",
-      "summary": "Netflixのシニアエンジニア・Tejas Chopra氏がオープンソースで公開したAIエージェントのトークン削減ライブラリ「Headroom」を詳しく解説した記事。ビルドログ93.9%・JSON90.6%という公式ベンチマーク数値を持ち、リリース数日で6k stars超えを記録した注目OSSだ。ContentRouterが入力データの種類（JSON/コード/プレーンテキスト）を自動判定し、SmartCrusher・CodeCompressor・Kompress-baseの3つのエンジンで最適な圧縮を施す設計。ただし実運用での中央値は4.8%にとどまるなど、コード中心のワークフローでは効果が限定的な点も正直に解説されている。",
+      "summary": "Netflixのシニアエンジニアがオープンソース公開したAIエージェント向けコンテキスト圧縮ツール「Headroom」を調査した記事です。JSONは最大90.6%、ビルドログは93.9%の削減実績を持ちますが、実運用の中央値は4.8%とギャップがあり、効果はJSON・DBクエリ結果・構造化ログが多い「ヘビーなツール使用」セッションほど高くなります。CLI・プロキシ・Pythonライブラリ・MCPサーバーと複数の利用形態が用意されており、既存のClaude Code・Cursor・Codexに対して最小限の変更で導入できます。原文をローカルに保存し必要時に取得できる「可逆圧縮（CCR）」機能により、単純な要約・切り捨てと異なり精度を損なわずに圧縮することが特徴です。",
       "tags": [
         "AI",
         "LLM",
@@ -220,14 +159,52 @@
     },
     {
       "source": "qiita",
-      "title": "Codex CLI × APEXLangで始めるOracle APEXアプリAI駆動開発",
-      "url": "https://qiita.com/ssfujita/items/68bb52511e97222f5b0b",
-      "summary": "2026年5月にGAとなったOracle APEX 26.1で新たに導入されたAPEXLangとCodex CLIを組み合わせたAI駆動開発の検証記事。APEXLangはOracle APEX専用の宣言的言語でAIコーディングとの親和性が設計段階から意識されており、Skillsを導入することでCodexが.apxファイルを自動生成できる。リモートLinuxサーバでCodex CLIを実行して生成したコードを直接APEX Workspaceへインポートするワークフローにより、承認フローを減らしながら安全に自動化を実現した。",
+      "title": "日本酒記録アプリをAWSを使って作ってみた",
+      "url": "https://qiita.com/yo_arai/items/c61eb886faa1cee69054",
+      "summary": "日本酒の銘柄・スペック・テイスティングノートを管理するWebアプリ「酒ファイル」をAWSのフルサーバーレス構成で個人開発した事例紹介です。裏ラベルを撮影すると、Bedrock上のClaude Sonnet4.5が画像解析を行い、精米歩合・日本酒度・酸度・酒米など各項目を自動入力するAI機能が実装されています。また、雑なメモをGPT-OSS-120bが日本酒らしい表現に膨らませる「テイスティングノートAI改善提案」機能も備えています。技術スタックはReact＋Vite＋TypeScript（フロントエンド）、Lambda＋DynamoDB＋S3＋Bedrock（バックエンド）、Terraform（IaC）で、昨月のLLM使用料はわずか36円でした。",
+      "tags": [
+        "AWS",
+        "S3",
+        "lambda",
+        "bedrock",
+        "Claude"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Codex + Oracle DB SkillsでOracle Databaseの実行計画レビューをしてみてみた",
+      "url": "https://qiita.com/shirok/items/45e2c49630fd002cf493",
+      "summary": "Oracle Database向けAIエージェント用ナレッジ集「Oracle DB Skills」をCodexにSkillとして導入し、SQLcl経由でOracle DBの実行計画レビューを試みた実験記事です。Oracle DB SkillsはSQL開発・パフォーマンスチューニング・セキュリティ・管理など14カテゴリ・100以上のMarkdownガイドから構成されています。AIエージェントにデータベースのパスワードを渡さず、SQLclの保存済み接続を活用することでセキュリティを確保した接続方法も詳細に解説されています。HRスキーマを用いたスキーマ確認・テーブル件数・制約・索引の確認に加え、意図的にチューニング要素を含むSQLの実行計画をClaude Codeがレビューする流れが示されています。",
       "tags": [
         "oracle",
-        "Apex",
-        "codex",
-        "AI駆動開発"
+        "AI",
+        "oci",
+        "OracleDatabase",
+        "codex"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "請負は『工数』を売っていない ― AI時代の『歪んだ物差し』論",
+      "url": "https://qiita.com/sgrs38/items/017679fdfe445a8cddb2",
+      "summary": "IT受託開発における「人月」という概念の本質を再考し、AIの普及がこの商習慣に与える影響を論じた記事です。請負が実際に売っているのは純粋な時間ではなく、成果物・完成責任・信用・安心のセットであり、「工数」は価格の根拠を説明するための共通言語として機能してきたと分析しています。AI効率化で工数が減った分をどう返すかは「値下げのみ」が正解ではなく、品質向上・納期短縮・上流提案強化など複数の選択肢があると主張しています。工数という物差しが残り続ける理由は「優れているから」ではなく「代わりの説明手段がない消去法の結果」であり、発注側の社内稟議にも工数表記が求められるという現実も指摘されています。",
+      "tags": [
+        "システム開発",
+        "AI",
+        "請負開発",
+        "SIer",
+        "上流工程"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "User-Agent情報についての分析から分かること",
+      "url": "https://qiita.com/melkruri/items/3dd80adf6b6206e54fba",
+      "summary": "三菱電機の情報技術総合研究所がIoT家電ハニーポットで観測したHTTPリクエストのUser-Agent情報を分析した研究報告です。2026年4月の約1ヶ月で6.4万件のリクエストを観測した結果、ブラウザからのアクセスより自動化ツールや広域スキャンサービスが多く、Palo Alto Networks・censys・Infrawatchによる調査スキャンが全体の15%以上を占めていました。マルウェア感染を狙う「libredtail-http」（マイニングマルウェアRedTail感染目的）や、iPhoneのUser-Agentに偽装した大量の攻撃リクエストも確認されています。User-Agent情報はIPアドレスやリクエスト内容と組み合わせることで攻撃者の実態把握に有用であると結論付けています。",
+      "tags": [
+        "HTTP",
+        "userAgent",
+        "honeypot"
       ]
     }
   ]
