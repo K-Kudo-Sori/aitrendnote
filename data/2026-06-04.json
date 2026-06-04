@@ -1,0 +1,227 @@
+{
+  "date": "2026-06-04",
+  "generatedAt": "2026/06/04 13:08 JST",
+  "highlights": [
+    "GPT-5.5がセキュリティハッキング実験で70%の成功率を達成。Claude・DeepSeekは20〜30%",
+    "UCバークレーのCS落第率がAI不正使用により35%超に急上昇",
+    "脆弱性公開から攻撃までの平均時間が2018年比で1/188（1.6日）に短縮。75%がゼロデイ攻撃",
+    "UberがAIコーディングツールの月額上限を1,500ドルに設定。AIツール費用相場の指標として注目",
+    "NetflixエンジニアのHeadroomがLLMトークン代削減ツールとして注目。JSONで90%削減も実運用中央値は4.8%"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "I built a vulnerable app and spent $1,500 seeing if LLMs could hack it",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+      "author": "jc4p",
+      "points": 87,
+      "comments": 38,
+      "summary": "セキュリティ研究者がReact NativeとFastAPIで脆弱なアプリを作り、Firebaseの認証バイパス脆弱性をLLMが発見できるか1,500ドルかけて実験した。APK内のgoogle-services.jsonを悪用してFirebaseに直接サインアップしFirestoreのデータを読み取るという攻撃手法がターゲット。GPT-5.5が10回中7回（70%）でトップ、DeepSeek V4 Proが3/10、Claude Sonnet 4.6とOpus 4.8が各2/10という結果だった。GPT-5.5はほぼ全試行でFirebaseの脆弱性に着目したのに対し、他のモデルはAPIエンドポイントに集中するケースが多かった。"
+    },
+    {
+      "source": "hackernews",
+      "title": "Failing grades soar with AI usage, dwindling math skills in Berkeley CS classes",
+      "url": "https://www.dailycal.org/news/campus/academics/failing-grades-soar-as-professors-see-greater-ai-usage-dwindling-math-skills-in-uc-berkeley/article_16fad0bf-02cb-4b8c-8d88-888ffd9f8608.html",
+      "author": "littlexsparkee",
+      "points": 52,
+      "comments": 25,
+      "summary": "2026年春学期のUCバークレーのCS 10（35.3%）とCS 61A（10.6%）で落第率が急上昇し、例年の10%未満から大幅に逸脱した。担当教授はLLMの過度な利用による学術不正の増加を主因として指摘し、CS 10だけで約30人がチート行為で摘発された。試験前にAIに頼りすぎて基礎理解が不十分な学生が増えており、数学的基礎力の低下も一因とされている。学科ガイドラインでは落第率7%以内が目安とされており、今学期の数値はその基準を大幅に超えている。"
+    },
+    {
+      "source": "hackernews",
+      "title": "The ways we contain Claude across products",
+      "url": "https://www.anthropic.com/engineering/the-ways-we-contain-claude",
+      "author": "vo2maxer",
+      "points": 64,
+      "comments": 0,
+      "summary": "Anthropicは1年前には拒否していたような高権限でのClaudeデプロイを今では日常的に行い、エンジニアの生産性が向上していると報告している。AIエージェントのリスクは「障害発生確率」と「損害規模（ブラストラジアス）」の2要素で構成され、セーフガード強化で前者は低下する一方、後者は能力拡大とともに増大し続けている。人間やチームが必要だった業務をエージェントが担えるようになるにつれ、導入しないコストが大きくなりリスク対ベネフィットの計算が導入側に傾く。ブラストラジアス制限の方法として「人間によるスーパービジョン」と「環境的な制約」の2つのアプローチが解説されている。"
+    },
+    {
+      "source": "hackernews",
+      "title": "Artificial intelligence is not conscious – Ted Chiang",
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/artificial-intelligence-is-not-conscious",
+      "author": "doodpants",
+      "points": 297,
+      "comments": 0,
+      "summary": "本文取得失敗（ネットワークポリシーによりブロック）。テッド・チャンによるAIの意識に関するNew Yorker寄稿記事。"
+    },
+    {
+      "source": "hackernews",
+      "title": "Uber's $1,500/month AI limit is a useful signal for AI tool pricing",
+      "url": "https://simonwillison.net/2026/Jun/3/ubers-1500month-ai-limit/",
+      "author": "thunderbong",
+      "points": 399,
+      "comments": 0,
+      "summary": "Uberは社員一人あたりのAIコーディングツール（CursorやClaude Codeなど）の月間利用上限を1,500ドルに設定し、ツールごとに独立した予算管理を行っている。エンジニア1人あたり2ツール利用で月3,000ドル（年36,000ドル）の上限となり、Uber米国エンジニアの中央値年収33万ドルの約11%に相当する。この上限設定はAIツールの実際の価値を示す指標として注目されており、過度な利用を競わせるリーダーボード方式よりも合理的な政策と評価されている。2026年のAIコーディングエージェントの普及が2025年の予算策定時点では予測できなかったことで、Uberは年間予算を4カ月で使い切っていた。"
+    },
+    {
+      "source": "zenn",
+      "title": "なぜスライド作りはClaude Designでやるべきなのか？",
+      "url": "https://zenn.dev/rakkolabs/articles/claude-design-slide",
+      "summary": "Claude DesignはAnthropicが2026年4月に発表したビジュアル制作ツールで、テキストや既存資料から対話形式でデザインを生成できる。従来はGoogle Slidesで数日かかっていたスライド制作が、Claude Designを使うことで既存資料からデザインシステムを自動抽出し、ブランドに統一した資料を約1時間で作れるようになった。デザイナーでなくても「デザインシステムを一度学習させれば統一された資料を原稿を渡すだけで作れる」という点が最大の強みだ。PDF・PPTX・HTMLなど多様なエクスポート形式に対応しており、複雑な図はChatGPTとの組み合わせで対応できる。"
+    },
+    {
+      "source": "zenn",
+      "title": "データサイエンティストのためのAGENTS.mdとSkills",
+      "url": "https://zenn.dev/redtea/articles/agents-md-for-ds",
+      "tags": [
+        "github-copilot",
+        "claude-code",
+        "data-science"
+      ],
+      "summary": "2026年現在、データサイエンティストもGitHub Copilot・Claude CodeなどのAIコーディングツールを活用しており、ツールの能力を引き出すための適切な設定が重要になっている。著者はAGENTS.mdには全タスク共通のシンプルなルールを、作業種別の詳細ルールはSkillsに、プロジェクト固有情報はdocsに分けるという構成を紹介している。EDA・モデリング・SQLレビューなどの各Skillテンプレートと、Python・SQL・Notebookの各instructionsファイルが公開されており、すぐに使えるたたき台として提供されている。守らせたい規則はCIやスクリプトでも検査する多層防衛アプローチが、AIエージェント時代のコーディング規律の維持に有効だ。"
+    },
+    {
+      "source": "zenn",
+      "title": "Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう",
+      "url": "https://zenn.dev/sora_kumo/articles/zenn-ai-filter",
+      "tags": [
+        "chrome-extension",
+        "gemini",
+        "built-in-ai"
+      ],
+      "summary": "ZennにAI/LLM関連記事を非表示にするフィルター機能がないため、著者がChrome拡張機能を自作した。Chrome 138以降のBuilt-in AI（Gemini Nano）を活用し、記事の要約・フィルタリングをクライアントサイドで完結させることで外部APIへのデータ送信なしにプライバシーを守る設計になっている。ai.summarizerとLanguageModelのダブルフォールバック、フィルター後のレイアウト崩れ防止のUIハックなどの技術的工夫が紹介されている。自然言語でフィルタールールを記述できるのが特徴で、4GBのローカルLLMのため誤判定もあるが判定結果はキャッシュされる。"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeのために「臭うコード検出器」を開発し、Hooksに設定してみた話",
+      "url": "https://zenn.dev/manaliink/articles/claude-code-smell-detector",
+      "tags": [
+        "claude-code",
+        "hooks",
+        "code-review"
+      ],
+      "summary": "AIコーディングエージェントが増えた今、CLAUDE.mdにルールを書いても確率で無視されることへの対策として、構文木解析でコードの問題点を検出するカスタムルールを自作する方法を紹介している。ESLintやPHPStanが公式サポートしていないルールを独自に実装し、CIで弾くか、Claude CodeのStop HookでAI自身に「臭うコード」として通知して自律的に修正させる仕組みを構築している。「Laravel標準Loggerではなく内製Loggerを使う」といったプロジェクト固有の規約も、カスタムルールで確実に守らせることができる。設定後はClaudeが特定パターンを実装した後に自律的に懸念点に気づき修正するようになったと報告されている。"
+    },
+    {
+      "source": "zenn",
+      "title": "【Snowflake Summit 2026】Snowflakeが買収した「Natoma」— エンタープライズMCPガバナンス設計を読み解く",
+      "url": "https://zenn.dev/finatext/articles/snowflake-natoma-mcp-governance",
+      "tags": [
+        "snowflake",
+        "mcp",
+        "governance",
+        "ai-agent"
+      ],
+      "summary": "Snowflakeは2026年5月27日にエンタープライズMCPプラットフォーム「Natoma」の買収意向を発表し、Snowflake Summit 2026でそのアーキテクチャが公開された。AIエージェントがクエリを超えてメール送信・レコード更新・ワークフロー起動などのアクションを取る時代に入った今、エンタープライズには「エージェントが実際に何をできるか」を統制するガバナンス基盤が必要とされている。Natomaはアプリ・環境・データのサイロ化、セキュアなアクセス制御の欠如、ガバナンスと監査可能性の欠如という3つの課題を解決するMCPゲートウェイプラットフォームだ。全社にChatGPT Enterpriseを展開しても「少しマシなメールとドキュメント」にしかならないという実顧客の声が紹介され、エンタープライズAI導入の真の課題が浮き彫りになっている。"
+    },
+    {
+      "source": "devto",
+      "title": "Is This How We'll Build Websites Soon? (webMCP Live Demo 🚀)",
+      "url": "https://dev.to/sylwiavargas/is-this-how-well-build-websites-soon-webmcp-live-demo-12h",
+      "tags": [
+        "javascript",
+        "react",
+        "mcp",
+        "ai"
+      ],
+      "summary": "GoogleはwebMCPというChrome向けの実験的プロトコルを開発中で、ウェブサイトがAIエージェントに対してMCPツールを公開できるようになる。モバイル対応・アクセシビリティ対応に続く第3の波として、AIエージェント向けのウェブサイト対応が始まりつつある。著者は「AI CEO Simulator」というデモアプリを実装し、webMCPが実際にどう機能するかを動画デモ付きで紹介している。これによりAIエージェントがウェブサイトのコンテンツを直接操作・取得できるようになり、ウェブ開発のパラダイムが変わる可能性がある。"
+    },
+    {
+      "source": "devto",
+      "title": "Am I Becoming Too Slow for the AI World?",
+      "url": "https://dev.to/marcosomma/am-i-becoming-too-slow-for-the-ai-world-4d0i",
+      "tags": [
+        "ai",
+        "productivity",
+        "programming",
+        "career"
+      ],
+      "summary": "著者はAI時代の急速な変化に追いつけていないのではないかという不安を吐露し、速度と質のトレードオフについて考察している。AIツールを使いこなす人は速く大量のコードを生成できるが、熟考する時間が減ることで深い理解が失われるリスクがある。「速さ」だけがAI時代の価値ではなく、アーキテクチャの判断・システムの複雑さの管理・本当に重要な問題の特定といった高次の能力が依然として重要だと主張している。AIが「ツール段階」にある今こそ、人間が知性・文脈・判断力でどう補完するかを考える時期だと結論付けている。"
+    },
+    {
+      "source": "devto",
+      "title": "Every tool seems to have a coding agent horned in these days..... I don't think that makes sense.",
+      "url": "https://dev.to/ben/every-tool-seems-to-have-a-coding-agent-horned-in-these-days-i-dont-think-that-makes-sense-22j9",
+      "tags": [
+        "ai",
+        "tools",
+        "opinion"
+      ],
+      "summary": "あらゆるツールにコーディングエージェントが組み込まれる現状に対して、DEV Communityの創設者が疑問を呈している。ダークモードのように一部のユーザーには有用でも全員に必要なわけではない機能を無差別に追加することへの批判だ。「ボタン・プロンプト・ドロップダウン・会話のどれが適切かを考えず単に他のツールが採用しているからという理由でAIを追加してはいけない」というコメントが共感を集めている。機能追加の前に「AIは実際に問題を解決しているか」を問うべきだという主張で、AIツール普及への冷静な視点を提供している。"
+    },
+    {
+      "source": "devto",
+      "title": "Surviving the eviction: How to build interrupt-resilient AI workloads on GKE",
+      "url": "https://dev.to/googlecloud/surviving-the-eviction-how-to-build-interrupt-resilient-ai-workloads-on-gke-5fif",
+      "tags": [
+        "kubernetes",
+        "ai",
+        "gke",
+        "googlecloud"
+      ],
+      "summary": "GKEのSpot VMを使うとAI学習ジョブのコストを最大90%削減できるが、Googleが随時VMを回収するため中断耐性のあるアーキテクチャが必要だ。VM回収時はACPI信号からKubernetes経由でSIGTERMが届くため、このシグナルをトラップして状態を保存する処理の実装が重要になる。実装の要点として、シグナルのトラップ・定期的なチェックポイント保存（GCSなど）・再起動時のレジューム処理の3点が紹介されている。Dynamic Workload Scheduler（DWS）を使えば希少なGPUリソースのキューイングも可能で、エフェメラルなコンピュートを前提としたアーキテクチャ設計が現代のAIワークロードには不可欠だ。"
+    },
+    {
+      "source": "devto",
+      "title": "I built a tool to stop Claude from forgetting everything then forgot about it myself",
+      "url": "https://dev.to/danielnwaneri/i-built-a-tool-to-stop-claude-from-forgetting-everything-then-forgot-about-it-myself-1fon",
+      "tags": [
+        "claude",
+        "ai",
+        "devchallenge",
+        "webdev"
+      ],
+      "summary": "Claudeのコンテキストウィンドウが長いセッションで溢れる問題を解決するため、著者はedge-context-modeというツールをClaude Codeに統合した。500行のファイルをcatしたりnpm listやgit logを実行するたびにコンテキストが圧迫され、40〜60分でAIの回答品質が著しく低下する問題がある。Durable Objectを使ったコンテキスト管理システムを実装したが完成直後に使用を忘れ、GitHub Finish-Up-A-Thonチャレンジで6週間ぶりに戻ってくることになった。コードを見直したところDurable Objectにバグがあることを発見し、本当に価値のあるツールとして完成させることができた。"
+    },
+    {
+      "source": "qiita",
+      "title": "日本酒記録アプリをAWSを使って作ってみた",
+      "url": "https://qiita.com/yo_araiin/items/sake-file-aws",
+      "tags": [
+        "aws",
+        "bedrock",
+        "claude",
+        "lambda"
+      ],
+      "summary": "個人用の日本酒記録WebアプリをAWS + React + TypeScriptのフルサーバーレス構成で開発した記事。裏ラベルを撮影するだけでBedrock（Claude Sonnet 4.5）が精米歩合・日本酒度・酸度などのスペックを自動入力する機能が最大の特徴で、手入力の手間を大幅に削減できる。テイスティングノートをGPT-OSS-120bで日本酒らしい表現に膨らませるAI改善提案機能も備わっており、採用・破棄を選べる設計になっている。インフラはLambda・DynamoDB・S3・Cognito・CloudFrontを組み合わせたフルサーバーレス構成で、IaCにはTerraformを採用している。"
+    },
+    {
+      "source": "qiita",
+      "title": "【脆弱性】脆弱性が発見されてから攻撃されるまでの平均時間が5年前の1/188になってる",
+      "url": "https://qiita.com/rana_kualu/items/vulnerability-time-collapse",
+      "tags": [
+        "security",
+        "vulnerability",
+        "ai",
+        "cve"
+      ],
+      "summary": "Zero Day Clockのデータによると、脆弱性公開から悪用までの期間の平均値が2018年の2.3年から2026年には1.6日に、中央値は771日から0日（ゼロデイ）にまで短縮している。2026年には公開CVEの75%がゼロデイ攻撃に使われており、脆弱性の半分以上が公開と同時に攻撃されるという状況だ。AIがセキュリティパッチをリバースエンジニアリングして数分で脆弱性を特定し数時間以内に攻撃を開始できる一方、組織のパッチ適用には依然として約20日かかるという深刻なギャップがある。月例パッチという従来の運用はもはや機能せず、組織はライフサイクルの99.9%の期間において脆弱性に晒されているという実態が示されている。"
+    },
+    {
+      "source": "qiita",
+      "title": "育休期間の育児を、生成AIに評価してもらった話",
+      "url": "https://qiita.com/ma333/items/parental-leave-ai-analysis",
+      "tags": [
+        "生成ai",
+        "育児",
+        "ポエム"
+      ],
+      "summary": "2カ月の育休中に育児記録アプリ「ぴよログ」で蓄積したデータを生成AIに分析してもらった体験談。AlexaやSiriを活用した音声入力で記録を続け、エクスポートしたデータをシンプルなプロンプトで分析させたところ、睡眠ログの記録漏れや期間別のミルク量の傾向が明確に指摘された。AIが「24時間/0時間睡眠」というデータ異常を記録漏れと正確に判断したことや、日常の育児相談の文脈と照合して分析してくれたことが印象的だったと述べている。専門知識がない育児という領域でも生成AIを活用することで客観的な分析が得られ、振り返りに役立つことが示されている。"
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェントのトークン代を節約するNetflixのエンジニアが作ったツール「Headroom」について調べてみた",
+      "url": "https://qiita.com/shinkai_/items/headroom-token-reduction",
+      "tags": [
+        "ai",
+        "llm",
+        "claude-code",
+        "headroom"
+      ],
+      "summary": "NetflixのシニアエンジニアTejas Chopra氏がオープンソース公開したコンテキスト圧縮ツール「Headroom」が数日で6k stars・400 forks を獲得し注目を集めている。AIエージェントのコストの主犯は出力トークンではなく入力トークンで、DBクエリ結果・ビルドログ・APIレスポンスJSONなどが大量にコンテキストを消費しているのが原因だ。HeadroomはContentRouterが入力の種類を判断しJSON向けSmartCrusher・コード向けCodeCompressor・テキスト向けKompress-baseで圧縮し、ビルドログで93.9%・JSONで90.6%のトークン削減を達成している。ただし実運用中央値は4.8%と公式ベンチマークとの乖離があり、ソースコード中心のワークフローでは効果が限定的であることも正直に言及されている。"
+    },
+    {
+      "source": "qiita",
+      "title": "Codex CLI × APEXLangで始めるOracle APEXアプリAI駆動開発",
+      "url": "https://qiita.com/ssfujita/items/codex-cli-apexlang-oracle-apex",
+      "tags": [
+        "oracle",
+        "apex",
+        "codex",
+        "ai-driven-development"
+      ],
+      "summary": "Oracle APEX 26.1（2026年5月GA）で導入されたAPEXLang（.apx形式）はAPEX専用のアプリ定義言語でAI駆動開発に最適化されている。Codex CLIとAPEXLang Skillsを組み合わせることで、自然言語の指示からAPEXアプリのページ定義を自動生成できるAI駆動開発が実現できる。リモートのLinuxサーバーにCodex CLIを導入することで、承認の手間を削減しつつローカルPCとは分離した安全な開発環境を構築できる。従来のSQL形式のエクスポートに比べてAPEXLangは可読性が高く、AIコーディングツールとの親和性が大幅に向上している。"
+    }
+  ]
+}
