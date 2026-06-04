@@ -1,0 +1,211 @@
+{
+  "date": "2026-06-05",
+  "generatedAt": "2026-06-05 07:10:00",
+  "highlights": [
+    "AnthropicがAI活用の脆弱性発見フレームワークをオープンソース公開し、自律的なセキュリティスキャンとパッチ生成が可能に",
+    "AnthropicがAI自身によるAI開発（再帰的自己改善）の進捗を報告 ─ エンジニアの生産性が5年で8倍に向上",
+    "HuaweiがvLLM向けKVキャッシュ量子化バックエンド「KVarN」を公開、FP16と同精度・同速度でKVキャッシュ容量を3〜5倍に",
+    "Claude Managed Agentsを活用したSlack botがエンジニア問い合わせを大幅削減、導入4週間でbot対応スレッド数が4.5倍に",
+    "NetflixエンジニアによるAIエージェントのトークン削減ツール「Headroom」がリリース直後に6k starsを獲得"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Anthropic's open-source framework for AI-powered vulnerability discovery",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "summary": "AnthropicがClaudeを活用した自律的な脆弱性発見・修正のオープンソースリファレンス実装「Defending Code Reference Harness」を公開しました。スキャン、トリアージ、パッチ生成などのClaude Codeスキル群と、DockerおよびASANを用いたC/C++メモリ脆弱性検出パイプラインが含まれます。このリポジトリは参考実装であり、独自パイプラインの構築や言語・検出器のカスタマイズに利用可能です。なお、ホスト型製品「Claude Security」も別途提供されており、複数プロジェクトを横断してリポジトリをスキャンし、誤検知を減らす多段階検証パイプラインを備えています。",
+      "points": 127,
+      "comments": 42,
+      "author": "binyu"
+    },
+    {
+      "source": "hackernews",
+      "title": "When AI Builds Itself: Our progress toward recursive self-improvement",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "summary": "AnthropicはAI開発の各工程をAI自身へ委任する割合を増やしており、再帰的自己改善（AI自身が次世代AIを構築する段階）に近づいていると報告しました。Anthropicのエンジニアは2021〜2025年比で平均8倍のコードを四半期ごとにリリースしており、AIが完遂できるタスクの長さは約4カ月ごとに倍増しています。2024年3月に4分程度だった自律タスク時間が、2026年現在では12時間にまで伸びており、2027年には数週間規模のタスクも射程に入る見込みです。このトレンドは科学・医療などに多大な恩恵をもたらす一方、AIの制御・監視・安全性の重要性が急速に高まっています。",
+      "points": 208,
+      "comments": 249,
+      "author": "meetpateltech"
+    },
+    {
+      "source": "hackernews",
+      "title": "Castor: CERN Advanced STORage Manager",
+      "url": "https://castor.web.cern.ch/content/home.html",
+      "summary": "CERNが物理データのアーカイブを目的に開発した階層型ストレージ管理システム「CASTOR」の技術解説記事です。ディスクとテープを組み合わせたヒエラルキカルストレージで、XROOTやGridFTPといたアクセスプロトコルを提供していました。2020年6月から後継システム「CTA（CERN Tape Archive）」への移行が進み、現在はCTAが運用の中心となっています。同システムはLHCをはじめとする大規模な素粒子物理実験で生成される膨大なデータを長期保存するために設計されました。",
+      "points": 34,
+      "comments": 11,
+      "author": "naves"
+    },
+    {
+      "source": "hackernews",
+      "title": "KVarN: Native vLLM backend for KV-cache quantization by Huawei",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "summary": "HuaweiがvLLMのネイティブKVキャッシュ量子化バックエンド「KVarN」をオープンソース公開しました。FP16と同等の精度・スループットを保ちながら、KVキャッシュ容量を3〜5倍に拡大でき、アジェンティックや長文コンテキストのワークロードに特に有効です。キャリブレーション不要でvLLMにフラグ一つで組み込め、既存モデルの変更は不要です。HadamardローテーションとSinkhorn風の反復分散正規化によりアウトライアを分散させ、低ビット量子化での精度劣化を防ぐ独自手法を採用しています。",
+      "points": 99,
+      "comments": 10,
+      "author": "theanonymousone"
+    },
+    {
+      "source": "hackernews",
+      "title": "Samurai City",
+      "url": "https://worksinprogress.co/issue/samurai-city/",
+      "summary": "江戸時代（1600〜1868年）の日本を支配した徳川幕府と、首都・江戸（現東京）の都市設計に関する歴史考察記事です。幕府は大名に江戸の屋敷に家族を常駐させる「参勤交代」制度を通じ、江戸を事実上の人質収容都市として機能させることで支配を維持しました。農民への高率課税（収穫の40%程度）で財源を確保し、武士階級（全人口の約6%）の生活を支える構造が敷かれていました。江戸は世界有数の大都市でありながら、政治的統制のための消費都市という独特の性格を持っていました。",
+      "points": 60,
+      "comments": 5,
+      "author": "zdw"
+    },
+    {
+      "source": "zenn",
+      "title": "なぜスライド作りはClaude Designでやるべきなのか？",
+      "url": "https://zenn.dev/rakko_inc/articles/claude-design-company-deck",
+      "summary": "Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を活用したスライド制作の具体的な手順を紹介した記事です。既存のPPTXやロゴからデザインシステムを約15分で自動抽出し、そのシステムを使えばデザイナーでなくても統一されたデザインのスライドを原稿を渡すだけで作れるようになります。著者は従来数日かかっていた採用資料を、デザインシステム生成15分＋スライド生成30分の合計1時間未満で完成させることに成功しました。複雑な図解は一度ChatGPTで「下絵」を作ってからClaude Designに渡す分業が、時間とコスト両面で効率的であると述べています。"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Managed Agentsで「まずエンジニアに聞こう」を「まずbotに聞こう」に変えた",
+      "url": "https://zenn.dev/dinii/articles/d7be3acc43d868",
+      "summary": "飲食業向けSaaSを提供するダイニー社が、Anthropic Claude Managed Agentsを用いてSlack bot「@ask-anything」を構築した事例紹介です。このbotはBigQueryへのSQL問い合わせ、Cloud Loggingの時系列読み取り、monorepのgrep調査などをread-onlyで自律実行し、従来エンジニアが10〜30分かけていた問い合わせ対応を1〜3分で完了します。Claude Managed AgentsによりAnthropicの実行サンドボックスとMCPサーバー連携が提供されるため、自前でオーケストレーションコードを書く量が約7割削減されました。本格稼働から4週間でbot対応スレッド数が週24件から109件へと4.5倍に増加し、エンジニアへの直接問い合わせ数も減少しています。"
+    },
+    {
+      "source": "zenn",
+      "title": "データサイエンティストのためのAGENTS.mdとSkills",
+      "url": "https://zenn.dev/green_tea/articles/d310e5cf809190",
+      "summary": "データサイエンス業務でAIコーディングツール（GitHub Copilot、Claude Codeなど）を最大限活用するための、AGENTS.mdとSkillsの設計・分類方法を解説した記事です。全タスク共通のルールはAGENTS.mdに最小限の記述にとどめ、作業別の詳細ルール（Python・SQL・notebooks等）はSkillsに分離し、プロジェクト固有の情報はdocsに置く構成を推奨しています。この分離によりコンテキスト効率が向上し、トークンベース課金が主流になった2026年以降においてコスト管理が容易になります。著者はGitHub上にサンプルリポジトリを公開しており、すぐ自分のプロジェクトに適用可能なたたき台として利用できます。"
+    },
+    {
+      "source": "zenn",
+      "title": "RTX 4080でローカルLLM 7モデルを実測したら「16GB VRAMの壁」が見えた",
+      "url": "https://zenn.dev/seeda_yuto/articles/ollama-vs-vllm-rtx4080-benchmark",
+      "summary": "RTX 4080（16GB VRAM）でOllama・vLLMの2バックエンドと12種のモデルを実測し、ベンチマーク結果を公開した記事です。最大の発見は「15GB以下のモデルのみフルスピードで動き、それを超えた瞬間にCPUオフロードが発生して速度が1/10以下になる」という16GBの壁で、MoEモデルが実効パラメータを小さく抑えられる点で有利と結論付けています。総合評価の最適解はgpt-oss:20b（MoEで13GB・122〜125 tok/s）＋Ollamaの組み合わせで、速度・品質のバランスが最も優れていました。vLLMはKVキャッシュ領域が極端に少なくなるため16GB単一GPU環境では不利であり、A100/H100の複数GPU環境で本領を発揮すると述べています。"
+    },
+    {
+      "source": "zenn",
+      "title": "Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう",
+      "url": "https://zenn.dev/sora_kumo/articles/zenn-ai-filter",
+      "summary": "Chrome 138以降で利用可能なBuilt-in AI（Gemini Nano）を活用してZennのAI関連記事をクライアントサイドでフィルタリングするChrome拡張機能を開発した記事です。記事本文を外部AIに送らずブラウザ内で要約・分類を行うため、プライバシーへの配慮がされています。複数記事タイトルをまとめて一度のプロンプトで判定するバッチ処理や、ローカルLLM特有の出力フォーマット崩れへの正規表現フォールバック、フィルター後のレイアウト崩れ防止UIハックなど実装上の工夫が詳しく解説されています。ローカルLLMゆえ誤判定もあるが、判定結果はキャッシュされるため繰り返し処理コストは抑えられます。"
+    },
+    {
+      "source": "devto",
+      "title": "Is This How We'll Build Websites Soon? (webMCP Live Demo 🚀)",
+      "url": "https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33",
+      "summary": "GoogleがChrome上で試験中のwebMCPプロトコルを解説し、React＋TypeScriptで「AI CEO Simulator」デモアプリを構築した記事です。webMCPはWebサイトが利用可能なアクションの構造化情報をAIエージェントに公開する仕組みで、エージェントがページをスクレイピングして推測する従来手法より速く・安く・確実に機能します。HTML属性への宣言的アノテーションとJavaScript ImperativeAPIの2方式が提供されており、通常ユーザーへの影響は一切なく既存サイトのエージェント向け拡張として機能します。現時点ではChrome Canary・Betaや実験フラグ有効環境のみで動作する実験的技術です。",
+      "tags": [
+        "javascript",
+        "react",
+        "mcp",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Agent Factory Recap: Building with Gemini 3, AI Studio, Antigravity, and Nano Banana",
+      "url": "https://dev.to/googleai/agent-factory-recap-building-with-gemini-3-ai-studio-antigravity-and-nano-banana-186h",
+      "summary": "GoogleのGemini 3モデル、新AIネイティブIDE「Antigravity」、メディア生成「Nano Banana Pro」など最新リリース群の技術的詳細を解説したポッドキャストのリキャップ記事です。Gemini 3はGemini 1（理解）→2（推論）→3（行動・コーディング）と進化し、ツール利用と関数呼び出しが強化されています。デモではGemini 3がReactアプリをスクラッチで生成し、自らデバッグするシーンや、AntigravityがスクリーンショットからWebサイトをデザインリファクタリングするシーンが紹介されました。DeepMindのPaige Bailey氏はGeminiの急速な進化について、開発者が今すぐ活用できるツールに焦点を当てた見解を語っています。",
+      "tags": [
+        "ai",
+        "nanobanana",
+        "antigravity",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI gateways: why and how",
+      "url": "https://dev.to/nfrankel/ai-gateways-why-and-how-b5o",
+      "summary": "複数のLLMプロバイダーへのアクセスを統一し、認証・コスト管理・フェイルオーバーなどを一元化する「AIゲートウェイ」の概念と活用方法を解説した記事です。著者はClaude Codeを愛用しつつも米国拠点のAnthropicがPATRIOT法の対象になることを懸念し、EUに拠点を置くMistral AIのdevstralへコールをルーティングするためにAIゲートウェイ「Bifrost」を採用しました。LiteLLM・Bifrost・OpenRouterなどのOSSゲートウェイが紹介されており、Bifrostは5,000 req/sのベンチマークで1リクエストあたり11µsのオーバーヘッドに留まることが示されています。クライアント側はClaude Code、処理は好みのLLMへというプロバイダーロックイン回避の用途が主なユースケースです。",
+      "tags": [
+        "ai",
+        "codingassistants",
+        "aigateway",
+        "claude"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Seamless scaling with VPA In-place Pod Resize on GKE",
+      "url": "https://dev.to/googlecloud/seamless-scaling-with-vpa-in-place-pod-resize-on-gke-117p",
+      "summary": "GKEの新機能「In-place Pod Resize（IPPR）」とVertical Pod Autoscaler（VPA）を組み合わせた動的リソース最適化の仕組みを解説した記事です。従来のVPAはリソース変更にPodの再起動が必要でしたが、IPPRはコンテナランタイムを通じて実行中コンテナのCPU・メモリ制限をダウンタイムなしで変更できます。GKEバージョン1.34.0-gke.2201000以降で利用可能で、VPAのupdateModeを「InPlaceOrRecreate」に設定するだけで有効になります。ノードのキャパシティが不足する場合のみPod再起動にフォールバックし、ステートフルアプリや遅延に敏感なサービスでも安全なオートスケーリングを実現します。",
+      "tags": [
+        "kubernetes",
+        "ai",
+        "gke",
+        "googlecloud"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Extending a MCP/A2A Currency Agent with A2UI",
+      "url": "https://dev.to/gde/extending-a-mcpa2a-currency-agent-with-a2ui-5hj3",
+      "summary": "Google ADKとMCP・A2Aプロトコルで構築された通貨エージェントを、A2UI（Agent-to-User Interface）プロトコルで拡張するチュートリアル記事です。A2UIはAIエージェントがリアルタイムでインタラクティブなUIコンポーネント（チャート・フォームなど）を動的生成・ストリーミングできるオープンソースプロトコルで、事前定義された画面やテキストのみの返答に依存しない柔軟なUI提供が可能です。実装にはGemini CLIの後継となるAntigravity CLIを使用し、既存のcurrency-agentサンプルリポジトリをベースに拡張しています。A2A・MCP・AG-UI・A2UIなど2026年の主要AIエージェントプロトコルスタックの位置付けも整理されています。",
+      "tags": [
+        "agents",
+        "googleadk",
+        "a2aprotocol",
+        "a2ui"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェントのトークン代を節約するNetflixのエンジニアが作ったツール「Headroom」について調べてみた",
+      "url": "https://qiita.com/shinkai_/items/61b10d10c63db47a64e7",
+      "summary": "Netflixのシニアエンジニアがオープンソース公開したAIエージェント向けコンテキスト圧縮ツール「Headroom」を調査した記事です。JSONは最大90.6%、ビルドログは93.9%の削減実績を持ちますが、実運用の中央値は4.8%とギャップがあり、効果はJSON・DBクエリ結果・構造化ログが多い「ヘビーなツール使用」セッションほど高くなります。CLI・プロキシ・Pythonライブラリ・MCPサーバーと複数の利用形態が用意されており、既存のClaude Code・Cursor・Codexに対して最小限の変更で導入できます。原文をローカルに保存し必要時に取得できる「可逆圧縮（CCR）」機能により、単純な要約・切り捨てと異なり精度を損なわずに圧縮することが特徴です。",
+      "tags": [
+        "AI",
+        "LLM",
+        "AIエージェント",
+        "ClaudeCode",
+        "Headroom"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "日本酒記録アプリをAWSを使って作ってみた",
+      "url": "https://qiita.com/yo_arai/items/c61eb886faa1cee69054",
+      "summary": "日本酒の銘柄・スペック・テイスティングノートを管理するWebアプリ「酒ファイル」をAWSのフルサーバーレス構成で個人開発した事例紹介です。裏ラベルを撮影すると、Bedrock上のClaude Sonnet4.5が画像解析を行い、精米歩合・日本酒度・酸度・酒米など各項目を自動入力するAI機能が実装されています。また、雑なメモをGPT-OSS-120bが日本酒らしい表現に膨らませる「テイスティングノートAI改善提案」機能も備えています。技術スタックはReact＋Vite＋TypeScript（フロントエンド）、Lambda＋DynamoDB＋S3＋Bedrock（バックエンド）、Terraform（IaC）で、昨月のLLM使用料はわずか36円でした。",
+      "tags": [
+        "AWS",
+        "S3",
+        "lambda",
+        "bedrock",
+        "Claude"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Codex + Oracle DB SkillsでOracle Databaseの実行計画レビューをしてみてみた",
+      "url": "https://qiita.com/shirok/items/45e2c49630fd002cf493",
+      "summary": "Oracle Database向けAIエージェント用ナレッジ集「Oracle DB Skills」をCodexにSkillとして導入し、SQLcl経由でOracle DBの実行計画レビューを試みた実験記事です。Oracle DB SkillsはSQL開発・パフォーマンスチューニング・セキュリティ・管理など14カテゴリ・100以上のMarkdownガイドから構成されています。AIエージェントにデータベースのパスワードを渡さず、SQLclの保存済み接続を活用することでセキュリティを確保した接続方法も詳細に解説されています。HRスキーマを用いたスキーマ確認・テーブル件数・制約・索引の確認に加え、意図的にチューニング要素を含むSQLの実行計画をClaude Codeがレビューする流れが示されています。",
+      "tags": [
+        "oracle",
+        "AI",
+        "oci",
+        "OracleDatabase",
+        "codex"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "請負は『工数』を売っていない ― AI時代の『歪んだ物差し』論",
+      "url": "https://qiita.com/sgrs38/items/017679fdfe445a8cddb2",
+      "summary": "IT受託開発における「人月」という概念の本質を再考し、AIの普及がこの商習慣に与える影響を論じた記事です。請負が実際に売っているのは純粋な時間ではなく、成果物・完成責任・信用・安心のセットであり、「工数」は価格の根拠を説明するための共通言語として機能してきたと分析しています。AI効率化で工数が減った分をどう返すかは「値下げのみ」が正解ではなく、品質向上・納期短縮・上流提案強化など複数の選択肢があると主張しています。工数という物差しが残り続ける理由は「優れているから」ではなく「代わりの説明手段がない消去法の結果」であり、発注側の社内稟議にも工数表記が求められるという現実も指摘されています。",
+      "tags": [
+        "システム開発",
+        "AI",
+        "請負開発",
+        "SIer",
+        "上流工程"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "User-Agent情報についての分析から分かること",
+      "url": "https://qiita.com/melkruri/items/3dd80adf6b6206e54fba",
+      "summary": "三菱電機の情報技術総合研究所がIoT家電ハニーポットで観測したHTTPリクエストのUser-Agent情報を分析した研究報告です。2026年4月の約1ヶ月で6.4万件のリクエストを観測した結果、ブラウザからのアクセスより自動化ツールや広域スキャンサービスが多く、Palo Alto Networks・censys・Infrawatchによる調査スキャンが全体の15%以上を占めていました。マルウェア感染を狙う「libredtail-http」（マイニングマルウェアRedTail感染目的）や、iPhoneのUser-Agentに偽装した大量の攻撃リクエストも確認されています。User-Agent情報はIPアドレスやリクエスト内容と組み合わせることで攻撃者の実態把握に有用であると結論付けています。",
+      "tags": [
+        "HTTP",
+        "userAgent",
+        "honeypot"
+      ]
+    }
+  ]
+}
