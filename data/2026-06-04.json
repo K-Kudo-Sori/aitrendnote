@@ -16,7 +16,8 @@
       "summary": "著者がFirebaseを用いたReact Native/FastAPIのサンプルアプリに意図的な「壊れたアクセス制御」脆弱性を仕込み、複数のLLMがそれを発見・悪用できるかを$1,500分のAPI費用で検証した。攻撃目標はFirebaseへの不正サインアップとFirestoreの直接読み取りで、これはSupabase/Firebaseアプリで実際によく見られる脆弱性クラスと同じものだ。Claudeがとりわけ優秀な成績を収めるなど、LLMのセキュリティ診断能力が実用水準に近づきつつあることが示された。一方で再現性のある科学的評価ではなく、費用の都合で試行回数が制限されたという留意点もある。",
       "points": 97,
       "comments": 38,
-      "author": "jc4p"
+      "author": "jc4p",
+      "category": "security"
     },
     {
       "source": "hackernews",
@@ -25,7 +26,8 @@
       "summary": "2026年春学期のUCバークレーCS10では受講生の35.3%、CS61Aでは10.6%がF評定を受け、教授らがAI利用の増大と数学基礎スキルの低下を深刻に懸念している。学生がAIに依存することで自力で問題を解く能力が身につかず、試験では対処できないという悪循環が起きているとみられる。教員側は講義設計の見直しやAI利用ポリシーの再検討を迫られており、AIが教育現場に与える負の影響として全米的な注目を集めている。",
       "points": 64,
       "comments": 36,
-      "author": "littlexsparkee"
+      "author": "littlexsparkee",
+      "category": "other"
     },
     {
       "source": "hackernews",
@@ -34,7 +36,8 @@
       "summary": "Anthropicが自社製品でClaudeエージェントの「爆発半径（blast radius）」を制御するためのアーキテクチャ設計を公開した。ヒューマン・イン・ザ・ループによる行動監視と、環境のサンドボックス化による被害範囲の物理的制限という2つのアプローチを軸に据えている。12ヶ月前は却下されていた社内サービスへのフルアクセス権付与が今や日常的になるほどエージェント活用が進んだが、能力拡大に伴うリスク管理の重要性も高まっていると指摘する。2026年4月にリリース見送りとなったClaude Mythos Previewは爆発半径が大きすぎると判断された一例として紹介されている。",
       "points": 67,
       "comments": 32,
-      "author": "jbredeche"
+      "author": "jbredeche",
+      "category": "agent"
     },
     {
       "source": "hackernews",
@@ -43,7 +46,8 @@
       "summary": "本文取得失敗（ネットワーク制限によりページがアクセスブロックされた）。SF作家のTed ChiangがThe Atlanticに寄稿したAIの意識に関する哲学的論考で、ポイント303・コメント551と高い注目を集めている。",
       "points": 303,
       "comments": 551,
-      "author": "lordleft"
+      "author": "lordleft",
+      "category": "other"
     },
     {
       "source": "hackernews",
@@ -52,7 +56,8 @@
       "summary": "Uberが全エンジニアに対してCursorやClaude CodeなどAIコーディングツールの月間使用上限を1ツールあたり$1,500に設定したことをSimon Willisonが分析した。2026年初頭にAIツール予算を4ヶ月で使い切ったことへの対策で、複数ツールを使う場合も各ツールの上限は独立して適用される。2ツール分で年間$36,000というキャップはLevels.fyi掲載の中央年収$330,000の約11%に相当し、これはUberがAIコーディングツールに感じている価値の下限を示す有用な指標になるとWillisonは論じる。この種の制限は無尽蔵なトークン消費を競わせるリーダーボード文化よりも合理的な政策と評価されている。",
       "points": 406,
       "comments": 506,
-      "author": "pdyc"
+      "author": "pdyc",
+      "category": "product"
     },
     {
       "source": "zenn",
@@ -63,7 +68,8 @@
         "ai",
         "claude",
         "design"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "zenn",
@@ -75,7 +81,8 @@
         "datascience",
         "github-copilot",
         "claude-code"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "zenn",
@@ -86,7 +93,8 @@
         "ai",
         "chrome-extension",
         "gemini-nano"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "zenn",
@@ -98,7 +106,8 @@
         "claude-code",
         "lint",
         "php"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "zenn",
@@ -110,7 +119,8 @@
         "mcp",
         "snowflake",
         "governance"
-      ]
+      ],
+      "category": "agent"
     },
     {
       "source": "devto",
@@ -122,7 +132,8 @@
         "react",
         "mcp",
         "ai"
-      ]
+      ],
+      "category": "agent"
     },
     {
       "source": "devto",
@@ -134,7 +145,8 @@
         "programming",
         "productivity",
         "career"
-      ]
+      ],
+      "category": "other"
     },
     {
       "source": "devto",
@@ -144,7 +156,8 @@
       "tags": [
         "ai",
         "opinion"
-      ]
+      ],
+      "category": "other"
     },
     {
       "source": "devto",
@@ -156,7 +169,8 @@
         "ai",
         "gke",
         "googlecloud"
-      ]
+      ],
+      "category": "infra"
     },
     {
       "source": "devto",
@@ -168,7 +182,8 @@
         "devchallenge",
         "githubchallenge",
         "webdev"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "qiita",
@@ -181,7 +196,8 @@
         "lambda",
         "bedrock",
         "Claude"
-      ]
+      ],
+      "category": "product"
     },
     {
       "source": "qiita",
@@ -193,7 +209,8 @@
         "AI",
         "cve",
         "ゼロデイ攻撃"
-      ]
+      ],
+      "category": "security"
     },
     {
       "source": "qiita",
@@ -203,7 +220,8 @@
       "tags": [
         "ポエム",
         "生成AI"
-      ]
+      ],
+      "category": "other"
     },
     {
       "source": "qiita",
@@ -216,7 +234,8 @@
         "AIエージェント",
         "ClaudeCode",
         "Headroom"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "qiita",
@@ -228,7 +247,8 @@
         "Apex",
         "codex",
         "AI駆動開発"
-      ]
+      ],
+      "category": "devtool"
     }
   ]
 }

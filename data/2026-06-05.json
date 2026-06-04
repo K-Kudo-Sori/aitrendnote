@@ -16,7 +16,8 @@
       "summary": "AnthropicがClaudeを活用した自律的な脆弱性発見・修正のオープンソースリファレンス実装「Defending Code Reference Harness」を公開しました。スキャン、トリアージ、パッチ生成などのClaude Codeスキル群と、DockerおよびASANを用いたC/C++メモリ脆弱性検出パイプラインが含まれます。このリポジトリは参考実装であり、独自パイプラインの構築や言語・検出器のカスタマイズに利用可能です。なお、ホスト型製品「Claude Security」も別途提供されており、複数プロジェクトを横断してリポジトリをスキャンし、誤検知を減らす多段階検証パイプラインを備えています。",
       "points": 127,
       "comments": 42,
-      "author": "binyu"
+      "author": "binyu",
+      "category": "security"
     },
     {
       "source": "hackernews",
@@ -25,7 +26,8 @@
       "summary": "AnthropicはAI開発の各工程をAI自身へ委任する割合を増やしており、再帰的自己改善（AI自身が次世代AIを構築する段階）に近づいていると報告しました。Anthropicのエンジニアは2021〜2025年比で平均8倍のコードを四半期ごとにリリースしており、AIが完遂できるタスクの長さは約4カ月ごとに倍増しています。2024年3月に4分程度だった自律タスク時間が、2026年現在では12時間にまで伸びており、2027年には数週間規模のタスクも射程に入る見込みです。このトレンドは科学・医療などに多大な恩恵をもたらす一方、AIの制御・監視・安全性の重要性が急速に高まっています。",
       "points": 208,
       "comments": 249,
-      "author": "meetpateltech"
+      "author": "meetpateltech",
+      "category": "research"
     },
     {
       "source": "hackernews",
@@ -34,7 +36,8 @@
       "summary": "CERNが物理データのアーカイブを目的に開発した階層型ストレージ管理システム「CASTOR」の技術解説記事です。ディスクとテープを組み合わせたヒエラルキカルストレージで、XROOTやGridFTPといたアクセスプロトコルを提供していました。2020年6月から後継システム「CTA（CERN Tape Archive）」への移行が進み、現在はCTAが運用の中心となっています。同システムはLHCをはじめとする大規模な素粒子物理実験で生成される膨大なデータを長期保存するために設計されました。",
       "points": 34,
       "comments": 11,
-      "author": "naves"
+      "author": "naves",
+      "category": "infra"
     },
     {
       "source": "hackernews",
@@ -43,7 +46,8 @@
       "summary": "HuaweiがvLLMのネイティブKVキャッシュ量子化バックエンド「KVarN」をオープンソース公開しました。FP16と同等の精度・スループットを保ちながら、KVキャッシュ容量を3〜5倍に拡大でき、アジェンティックや長文コンテキストのワークロードに特に有効です。キャリブレーション不要でvLLMにフラグ一つで組み込め、既存モデルの変更は不要です。HadamardローテーションとSinkhorn風の反復分散正規化によりアウトライアを分散させ、低ビット量子化での精度劣化を防ぐ独自手法を採用しています。",
       "points": 99,
       "comments": 10,
-      "author": "theanonymousone"
+      "author": "theanonymousone",
+      "category": "model"
     },
     {
       "source": "hackernews",
@@ -52,37 +56,43 @@
       "summary": "江戸時代（1600〜1868年）の日本を支配した徳川幕府と、首都・江戸（現東京）の都市設計に関する歴史考察記事です。幕府は大名に江戸の屋敷に家族を常駐させる「参勤交代」制度を通じ、江戸を事実上の人質収容都市として機能させることで支配を維持しました。農民への高率課税（収穫の40%程度）で財源を確保し、武士階級（全人口の約6%）の生活を支える構造が敷かれていました。江戸は世界有数の大都市でありながら、政治的統制のための消費都市という独特の性格を持っていました。",
       "points": 60,
       "comments": 5,
-      "author": "zdw"
+      "author": "zdw",
+      "category": "other"
     },
     {
       "source": "zenn",
       "title": "なぜスライド作りはClaude Designでやるべきなのか？",
       "url": "https://zenn.dev/rakko_inc/articles/claude-design-company-deck",
-      "summary": "Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を活用したスライド制作の具体的な手順を紹介した記事です。既存のPPTXやロゴからデザインシステムを約15分で自動抽出し、そのシステムを使えばデザイナーでなくても統一されたデザインのスライドを原稿を渡すだけで作れるようになります。著者は従来数日かかっていた採用資料を、デザインシステム生成15分＋スライド生成30分の合計1時間未満で完成させることに成功しました。複雑な図解は一度ChatGPTで「下絵」を作ってからClaude Designに渡す分業が、時間とコスト両面で効率的であると述べています。"
+      "summary": "Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を活用したスライド制作の具体的な手順を紹介した記事です。既存のPPTXやロゴからデザインシステムを約15分で自動抽出し、そのシステムを使えばデザイナーでなくても統一されたデザインのスライドを原稿を渡すだけで作れるようになります。著者は従来数日かかっていた採用資料を、デザインシステム生成15分＋スライド生成30分の合計1時間未満で完成させることに成功しました。複雑な図解は一度ChatGPTで「下絵」を作ってからClaude Designに渡す分業が、時間とコスト両面で効率的であると述べています。",
+      "category": "devtool"
     },
     {
       "source": "zenn",
       "title": "Claude Managed Agentsで「まずエンジニアに聞こう」を「まずbotに聞こう」に変えた",
       "url": "https://zenn.dev/dinii/articles/d7be3acc43d868",
-      "summary": "飲食業向けSaaSを提供するダイニー社が、Anthropic Claude Managed Agentsを用いてSlack bot「@ask-anything」を構築した事例紹介です。このbotはBigQueryへのSQL問い合わせ、Cloud Loggingの時系列読み取り、monorepのgrep調査などをread-onlyで自律実行し、従来エンジニアが10〜30分かけていた問い合わせ対応を1〜3分で完了します。Claude Managed AgentsによりAnthropicの実行サンドボックスとMCPサーバー連携が提供されるため、自前でオーケストレーションコードを書く量が約7割削減されました。本格稼働から4週間でbot対応スレッド数が週24件から109件へと4.5倍に増加し、エンジニアへの直接問い合わせ数も減少しています。"
+      "summary": "飲食業向けSaaSを提供するダイニー社が、Anthropic Claude Managed Agentsを用いてSlack bot「@ask-anything」を構築した事例紹介です。このbotはBigQueryへのSQL問い合わせ、Cloud Loggingの時系列読み取り、monorepのgrep調査などをread-onlyで自律実行し、従来エンジニアが10〜30分かけていた問い合わせ対応を1〜3分で完了します。Claude Managed AgentsによりAnthropicの実行サンドボックスとMCPサーバー連携が提供されるため、自前でオーケストレーションコードを書く量が約7割削減されました。本格稼働から4週間でbot対応スレッド数が週24件から109件へと4.5倍に増加し、エンジニアへの直接問い合わせ数も減少しています。",
+      "category": "agent"
     },
     {
       "source": "zenn",
       "title": "データサイエンティストのためのAGENTS.mdとSkills",
       "url": "https://zenn.dev/green_tea/articles/d310e5cf809190",
-      "summary": "データサイエンス業務でAIコーディングツール（GitHub Copilot、Claude Codeなど）を最大限活用するための、AGENTS.mdとSkillsの設計・分類方法を解説した記事です。全タスク共通のルールはAGENTS.mdに最小限の記述にとどめ、作業別の詳細ルール（Python・SQL・notebooks等）はSkillsに分離し、プロジェクト固有の情報はdocsに置く構成を推奨しています。この分離によりコンテキスト効率が向上し、トークンベース課金が主流になった2026年以降においてコスト管理が容易になります。著者はGitHub上にサンプルリポジトリを公開しており、すぐ自分のプロジェクトに適用可能なたたき台として利用できます。"
+      "summary": "データサイエンス業務でAIコーディングツール（GitHub Copilot、Claude Codeなど）を最大限活用するための、AGENTS.mdとSkillsの設計・分類方法を解説した記事です。全タスク共通のルールはAGENTS.mdに最小限の記述にとどめ、作業別の詳細ルール（Python・SQL・notebooks等）はSkillsに分離し、プロジェクト固有の情報はdocsに置く構成を推奨しています。この分離によりコンテキスト効率が向上し、トークンベース課金が主流になった2026年以降においてコスト管理が容易になります。著者はGitHub上にサンプルリポジトリを公開しており、すぐ自分のプロジェクトに適用可能なたたき台として利用できます。",
+      "category": "devtool"
     },
     {
       "source": "zenn",
       "title": "RTX 4080でローカルLLM 7モデルを実測したら「16GB VRAMの壁」が見えた",
       "url": "https://zenn.dev/seeda_yuto/articles/ollama-vs-vllm-rtx4080-benchmark",
-      "summary": "RTX 4080（16GB VRAM）でOllama・vLLMの2バックエンドと12種のモデルを実測し、ベンチマーク結果を公開した記事です。最大の発見は「15GB以下のモデルのみフルスピードで動き、それを超えた瞬間にCPUオフロードが発生して速度が1/10以下になる」という16GBの壁で、MoEモデルが実効パラメータを小さく抑えられる点で有利と結論付けています。総合評価の最適解はgpt-oss:20b（MoEで13GB・122〜125 tok/s）＋Ollamaの組み合わせで、速度・品質のバランスが最も優れていました。vLLMはKVキャッシュ領域が極端に少なくなるため16GB単一GPU環境では不利であり、A100/H100の複数GPU環境で本領を発揮すると述べています。"
+      "summary": "RTX 4080（16GB VRAM）でOllama・vLLMの2バックエンドと12種のモデルを実測し、ベンチマーク結果を公開した記事です。最大の発見は「15GB以下のモデルのみフルスピードで動き、それを超えた瞬間にCPUオフロードが発生して速度が1/10以下になる」という16GBの壁で、MoEモデルが実効パラメータを小さく抑えられる点で有利と結論付けています。総合評価の最適解はgpt-oss:20b（MoEで13GB・122〜125 tok/s）＋Ollamaの組み合わせで、速度・品質のバランスが最も優れていました。vLLMはKVキャッシュ領域が極端に少なくなるため16GB単一GPU環境では不利であり、A100/H100の複数GPU環境で本領を発揮すると述べています。",
+      "category": "model"
     },
     {
       "source": "zenn",
       "title": "Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう",
       "url": "https://zenn.dev/sora_kumo/articles/zenn-ai-filter",
-      "summary": "Chrome 138以降で利用可能なBuilt-in AI（Gemini Nano）を活用してZennのAI関連記事をクライアントサイドでフィルタリングするChrome拡張機能を開発した記事です。記事本文を外部AIに送らずブラウザ内で要約・分類を行うため、プライバシーへの配慮がされています。複数記事タイトルをまとめて一度のプロンプトで判定するバッチ処理や、ローカルLLM特有の出力フォーマット崩れへの正規表現フォールバック、フィルター後のレイアウト崩れ防止UIハックなど実装上の工夫が詳しく解説されています。ローカルLLMゆえ誤判定もあるが、判定結果はキャッシュされるため繰り返し処理コストは抑えられます。"
+      "summary": "Chrome 138以降で利用可能なBuilt-in AI（Gemini Nano）を活用してZennのAI関連記事をクライアントサイドでフィルタリングするChrome拡張機能を開発した記事です。記事本文を外部AIに送らずブラウザ内で要約・分類を行うため、プライバシーへの配慮がされています。複数記事タイトルをまとめて一度のプロンプトで判定するバッチ処理や、ローカルLLM特有の出力フォーマット崩れへの正規表現フォールバック、フィルター後のレイアウト崩れ防止UIハックなど実装上の工夫が詳しく解説されています。ローカルLLMゆえ誤判定もあるが、判定結果はキャッシュされるため繰り返し処理コストは抑えられます。",
+      "category": "devtool"
     },
     {
       "source": "devto",
@@ -94,7 +104,8 @@
         "react",
         "mcp",
         "ai"
-      ]
+      ],
+      "category": "agent"
     },
     {
       "source": "devto",
@@ -106,7 +117,8 @@
         "nanobanana",
         "antigravity",
         "agents"
-      ]
+      ],
+      "category": "agent"
     },
     {
       "source": "devto",
@@ -118,7 +130,8 @@
         "codingassistants",
         "aigateway",
         "claude"
-      ]
+      ],
+      "category": "infra"
     },
     {
       "source": "devto",
@@ -130,7 +143,8 @@
         "ai",
         "gke",
         "googlecloud"
-      ]
+      ],
+      "category": "infra"
     },
     {
       "source": "devto",
@@ -142,7 +156,8 @@
         "googleadk",
         "a2aprotocol",
         "a2ui"
-      ]
+      ],
+      "category": "agent"
     },
     {
       "source": "qiita",
@@ -155,7 +170,8 @@
         "AIエージェント",
         "ClaudeCode",
         "Headroom"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "qiita",
@@ -168,7 +184,8 @@
         "lambda",
         "bedrock",
         "Claude"
-      ]
+      ],
+      "category": "product"
     },
     {
       "source": "qiita",
@@ -181,7 +198,8 @@
         "oci",
         "OracleDatabase",
         "codex"
-      ]
+      ],
+      "category": "devtool"
     },
     {
       "source": "qiita",
@@ -194,7 +212,8 @@
         "請負開発",
         "SIer",
         "上流工程"
-      ]
+      ],
+      "category": "other"
     },
     {
       "source": "qiita",
@@ -205,7 +224,8 @@
         "HTTP",
         "userAgent",
         "honeypot"
-      ]
+      ],
+      "category": "other"
     }
   ]
 }
