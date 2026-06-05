@@ -237,6 +237,21 @@
       </a>
       </div>
     </section>
+    <div class="cat-layout">
+      <aside class="toc" aria-label="カテゴリ目次">
+        <p class="eyebrow toc-title">カテゴリ</p>
+        <ul>
+          <li><a href="#cat-model" style="--cat:#3b82f6"><span class="toc-label">モデル・LLM</span><span class="count">2</span></a></li>
+          <li><a href="#cat-agent" style="--cat:#0f766e"><span class="toc-label">エージェント・MCP</span><span class="count">6</span></a></li>
+          <li><a href="#cat-devtool" style="--cat:#16a34a"><span class="toc-label">開発ツール</span><span class="count">8</span></a></li>
+          <li><a href="#cat-infra" style="--cat:#64748b"><span class="toc-label">インフラ・運用</span><span class="count">4</span></a></li>
+          <li><a href="#cat-security" style="--cat:#dc2626"><span class="toc-label">セキュリティ</span><span class="count">3</span></a></li>
+          <li><a href="#cat-research" style="--cat:#7c3aed"><span class="toc-label">研究・論文</span><span class="count">1</span></a></li>
+          <li><a href="#cat-product" style="--cat:#d97706"><span class="toc-label">プロダクト・ビジネス</span><span class="count">2</span></a></li>
+          <li><a href="#cat-other" style="--cat:#5b625f"><span class="toc-label">その他</span><span class="count">8</span></a></li>
+        </ul>
+      </aside>
+      <div class="cat-main">
     <section class="category-section" id="cat-model" data-category="model">
       <div class="source-heading" style="--src:#3b82f6">
         <h2>モデル・LLM</h2>
@@ -712,6 +727,8 @@
       </div>
       <div class="more-row"><button class="more-btn" type="button" hidden></button></div>
     </section>
+      </div>
+    </div>
     <section class="date-archive" aria-label="日付アーカイブ">
       <p class="eyebrow">日付アーカイブ</p>
       <details class="archive-month" open>
@@ -781,6 +798,22 @@
           apply();
         });
       });
+      // 左目次のスクロール追従ハイライト。
+      var tocLinks = document.querySelectorAll('.toc a');
+      if (tocLinks.length && 'IntersectionObserver' in window) {
+        var linkById = {};
+        tocLinks.forEach(function (a) { linkById[a.getAttribute('href').slice(1)] = a; });
+        var obs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (e) {
+            if (!e.isIntersecting) return;
+            var link = linkById[e.target.id];
+            if (!link) return;
+            tocLinks.forEach(function (x) { x.classList.remove('is-current'); });
+            link.classList.add('is-current');
+          });
+        }, { rootMargin: '-72px 0px -70% 0px' });
+        sections.forEach(function (s) { obs.observe(s); });
+      }
       apply();
     })();
   </script>
