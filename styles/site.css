@@ -282,15 +282,15 @@ a { color: inherit; }
 }
 .more-btn:hover { border-color: var(--accent); background: var(--accent-soft); }
 
-/* 左サイド目次 + 本文の2カラム（デスクトップ）。 */
-.cat-layout {
+/* 左サイド目次 + 本文の2カラム（デスクトップ）。目次はページ全体でスクロール追従。 */
+.body-grid {
   display: grid;
   grid-template-columns: 200px minmax(0, 1fr);
   gap: 28px;
   align-items: start;
   margin-top: 8px;
 }
-.cat-main { min-width: 0; }
+.body-main { min-width: 0; }
 .toc {
   position: sticky;
   top: 72px;
@@ -372,7 +372,7 @@ a { color: inherit; }
 
 @media (max-width: 900px) {
   .article-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
-  .cat-layout { grid-template-columns: 1fr; gap: 0; }
+  .body-grid { grid-template-columns: 1fr; gap: 0; }
   .toc { display: none; }
 }
 
