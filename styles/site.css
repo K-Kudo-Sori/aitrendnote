@@ -235,6 +235,23 @@ a { color: inherit; }
 .feed-recent { margin-top: 24px; }
 .section-head { display: flex; align-items: baseline; }
 
+.article-card.is-hidden { display: none; }
+.more-row { margin-top: 12px; }
+.more-btn {
+  appearance: none;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--accent-dark);
+  border-radius: 999px;
+  padding: 6px 16px;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease;
+}
+.more-btn:hover { border-color: var(--accent); background: var(--accent-soft); }
+
 .source-section { margin-top: 28px; scroll-margin-top: 72px; }
 .category-section { margin-top: 28px; scroll-margin-top: 72px; }
 .source-heading {

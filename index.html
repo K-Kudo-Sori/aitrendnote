@@ -362,6 +362,7 @@
         <span class="meta">#oracle #Apex #codex #AI駆動開発</span>
       </a>
       </div>
+      <div class="more-row"><button class="more-btn" type="button" hidden></button></div>
     </section>
     <section class="category-section" id="cat-infra" data-category="infra">
       <div class="source-heading" style="--src:#64748b">
@@ -618,6 +619,7 @@
         <span class="meta">#ポエム #生成AI</span>
       </a>
       </div>
+      <div class="more-row"><button class="more-btn" type="button" hidden></button></div>
     </section>
     <section class="date-archive" aria-label="日付アーカイブ">
       <p class="eyebrow">日付アーカイブ</p>
@@ -632,28 +634,52 @@
   </footer>
   <script>
     (function () {
+      var CAP = 6;
       var tabs = document.querySelectorAll('.nav-tab');
-      var cards = document.querySelectorAll('.article-card');
       var sections = document.querySelectorAll('.category-section');
       // 「すべて」以外（ソース絞り込み）の時に隠す概要・新着・目次・日付アーカイブ。
       var overview = document.querySelectorAll('.home-highlights, .category-map, .feed-recent, .date-archive');
+      var filter = 'all';
+      var expanded = {};
+      function apply() {
+        overview.forEach(function (o) { o.style.display = filter === 'all' ? '' : 'none'; });
+        sections.forEach(function (s) {
+          var cards = s.querySelectorAll('.article-card');
+          var showAll = filter !== 'all' || expanded[s.id];
+          var matched = 0, shown = 0;
+          cards.forEach(function (c) {
+            var m = filter === 'all' || c.getAttribute('data-source') === filter;
+            if (!m) { c.classList.add('is-hidden'); return; }
+            matched++;
+            if (showAll || shown < CAP) { c.classList.remove('is-hidden'); shown++; }
+            else { c.classList.add('is-hidden'); }
+          });
+          s.style.display = matched === 0 ? 'none' : '';
+          var btn = s.querySelector('.more-btn');
+          if (btn) {
+            if (filter === 'all' && matched > CAP) {
+              btn.hidden = false;
+              btn.textContent = expanded[s.id] ? '閉じる' : 'もっと見る（ほか ' + (matched - CAP) + ' 件）';
+            } else { btn.hidden = true; }
+          }
+        });
+      }
       tabs.forEach(function (t) {
         t.addEventListener('click', function () {
           tabs.forEach(function (x) { x.classList.remove('is-active'); });
           t.classList.add('is-active');
-          var f = t.getAttribute('data-filter');
-          overview.forEach(function (o) { o.style.display = f === 'all' ? '' : 'none'; });
-          cards.forEach(function (c) {
-            var show = f === 'all' || c.getAttribute('data-source') === f;
-            c.style.display = show ? '' : 'none';
-          });
-          // 絞り込み後に空になったカテゴリ見出しを隠す。
-          sections.forEach(function (s) {
-            var keep = f === 'all' || s.querySelector('.article-card[data-source="' + f + '"]');
-            s.style.display = keep ? '' : 'none';
-          });
+          filter = t.getAttribute('data-filter');
+          apply();
         });
       });
+      sections.forEach(function (s) {
+        var btn = s.querySelector('.more-btn');
+        if (btn) btn.addEventListener('click', function () {
+          expanded[s.id] = !expanded[s.id];
+          apply();
+        });
+      });
+      apply();
     })();
   </script>
 </body>
