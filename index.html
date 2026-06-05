@@ -24,7 +24,7 @@
       <p class="eyebrow">知識を積み上げる</p>
       <h1>AIトレンドノート</h1>
       <p class="hero-sub">Hacker News / Zenn / DEV / Qiita から集めた AI トピックを、読み返せる形で日々蓄積。</p>
-      <p class="hero-stats">2 日分 ・ 34 記事 ・ 8 トピック</p>
+      <p class="hero-stats">2 日分 ・ 累計 34 記事 ・ 直近 34 件 ・ 8 トピック</p>
     </section>
     <section class="highlights home-highlights">
       <p class="eyebrow">2026年6月5日 のハイライト</p>
@@ -50,9 +50,167 @@
         <a class="cat-chip" href="#cat-other" style="--cat:#5b625f">その他 <span class="count">8</span></a>
       </div>
     </section>
+    <section class="search-bar">
+      <input class="search-input" type="search" placeholder="キーワードで絞り込み（タイトル・要約）" aria-label="記事を検索" />
+    </section>
+    <section class="feed trending" aria-label="いま話題">
+      <div class="section-head"><p class="eyebrow">🔥 いま話題</p></div>
+      <div class="article-grid">
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/rakko_inc/articles/claude-design-company-deck" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">なぜスライド作りはClaude Designでやるべきなのか？</h3>
+        <p class="article-summary">Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を活用したスライド制作の具体的な手順を紹介した記事です。既存のPPTXやロゴからデザインシステムを約15分で自動抽出し、そのシステムを使えばデザイナーでなくても統一されたデザインのスライドを原稿を渡すだけで作れるようになります。著者は従来数日かかっていた採用資料を、デザインシステム生成15分＋スライド生成30分の合計1時間未満で完成させることに成功しました。複雑な図解は一度ChatGPTで「下絵」を作ってからClaude Designに渡す分業が、時間とコスト両面で効率的であると述べています。</p>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/green_tea/articles/d310e5cf809190" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">データサイエンティストのためのAGENTS.mdとSkills</h3>
+        <p class="article-summary">データサイエンス業務でAIコーディングツール（GitHub Copilot、Claude Codeなど）を最大限活用するための、AGENTS.mdとSkillsの設計・分類方法を解説した記事です。全タスク共通のルールはAGENTS.mdに最小限の記述にとどめ、作業別の詳細ルール（Python・SQL・notebooks等）はSkillsに分離し、プロジェクト固有の情報はdocsに置く構成を推奨しています。この分離によりコンテキスト効率が向上し、トークンベース課金が主流になった2026年以降においてコスト管理が容易になります。著者はGitHub上にサンプルリポジトリを公開しており、すぐ自分のプロジェクトに適用可能なたたき台として利用できます。</p>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/sora_kumo/articles/zenn-ai-filter" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう</h3>
+        <p class="article-summary">Chrome 138以降で利用可能なBuilt-in AI（Gemini Nano）を活用してZennのAI関連記事をクライアントサイドでフィルタリングするChrome拡張機能を開発した記事です。記事本文を外部AIに送らずブラウザ内で要約・分類を行うため、プライバシーへの配慮がされています。複数記事タイトルをまとめて一度のプロンプトで判定するバッチ処理や、ローカルLLM特有の出力フォーマット崩れへの正規表現フォールバック、フィルター後のレイアウト崩れ防止UIハックなど実装上の工夫が詳しく解説されています。ローカルLLMゆえ誤判定もあるが、判定結果はキャッシュされるため繰り返し処理コストは抑えられます。</p>
+      </a>
+      <a class="article-card" data-source="devto" data-category="agent" style="--src:#1f2937" href="https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">Is This How We&#39;ll Build Websites Soon? (webMCP Live Demo 🚀)</h3>
+        <p class="article-summary">GoogleがChrome上で試験中のwebMCPプロトコルを解説し、React＋TypeScriptで「AI CEO Simulator」デモアプリを構築した記事です。webMCPはWebサイトが利用可能なアクションの構造化情報をAIエージェントに公開する仕組みで、エージェントがページをスクレイピングして推測する従来手法より速く・安く・確実に機能します。HTML属性への宣言的アノテーションとJavaScript ImperativeAPIの2方式が提供されており、通常ユーザーへの影響は一切なく既存サイトのエージェント向け拡張として機能します。現時点ではChrome Canary・Betaや実験フラグ有効環境のみで動作する実験的技術です。</p>
+        <span class="meta">#javascript #react #mcp #ai</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="product" style="--src:#55c500" href="https://qiita.com/yo_arai/items/c61eb886faa1cee69054" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#d97706">プロダクト・ビジネス</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">日本酒記録アプリをAWSを使って作ってみた</h3>
+        <p class="article-summary">日本酒の銘柄・スペック・テイスティングノートを管理するWebアプリ「酒ファイル」をAWSのフルサーバーレス構成で個人開発した事例紹介です。裏ラベルを撮影すると、Bedrock上のClaude Sonnet4.5が画像解析を行い、精米歩合・日本酒度・酸度・酒米など各項目を自動入力するAI機能が実装されています。また、雑なメモをGPT-OSS-120bが日本酒らしい表現に膨らませる「テイスティングノートAI改善提案」機能も備えています。技術スタックはReact＋Vite＋TypeScript（フロントエンド）、Lambda＋DynamoDB＋S3＋Bedrock（バックエンド）、Terraform（IaC）で、昨月のLLM使用料はわずか36円でした。</p>
+        <span class="meta">#AWS #S3 #lambda #bedrock #Claude</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/shinkai_/items/61b10d10c63db47a64e7" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">AIエージェントのトークン代を節約するNetflixのエンジニアが作ったツール「Headroom」について調べてみた</h3>
+        <p class="article-summary">Netflixのシニアエンジニアがオープンソース公開したAIエージェント向けコンテキスト圧縮ツール「Headroom」を調査した記事です。JSONは最大90.6%、ビルドログは93.9%の削減実績を持ちますが、実運用の中央値は4.8%とギャップがあり、効果はJSON・DBクエリ結果・構造化ログが多い「ヘビーなツール使用」セッションほど高くなります。CLI・プロキシ・Pythonライブラリ・MCPサーバーと複数の利用形態が用意されており、既存のClaude Code・Cursor・Codexに対して最小限の変更で導入できます。原文をローカルに保存し必要時に取得できる「可逆圧縮（CCR）」機能により、単純な要約・切り捨てと異なり精度を損なわずに圧縮することが特徴です。</p>
+        <span class="meta">#AI #LLM #AIエージェント #ClaudeCode #Headroom</span>
+      </a>
+      </div>
+    </section>
     <section class="feed feed-recent" aria-label="新着">
       <div class="section-head"><p class="eyebrow">新着</p></div>
       <div class="article-grid">
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/rakko_inc/articles/claude-design-company-deck" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">なぜスライド作りはClaude Designでやるべきなのか？</h3>
+        <p class="article-summary">Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を活用したスライド制作の具体的な手順を紹介した記事です。既存のPPTXやロゴからデザインシステムを約15分で自動抽出し、そのシステムを使えばデザイナーでなくても統一されたデザインのスライドを原稿を渡すだけで作れるようになります。著者は従来数日かかっていた採用資料を、デザインシステム生成15分＋スライド生成30分の合計1時間未満で完成させることに成功しました。複雑な図解は一度ChatGPTで「下絵」を作ってからClaude Designに渡す分業が、時間とコスト両面で効率的であると述べています。</p>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/green_tea/articles/d310e5cf809190" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">データサイエンティストのためのAGENTS.mdとSkills</h3>
+        <p class="article-summary">データサイエンス業務でAIコーディングツール（GitHub Copilot、Claude Codeなど）を最大限活用するための、AGENTS.mdとSkillsの設計・分類方法を解説した記事です。全タスク共通のルールはAGENTS.mdに最小限の記述にとどめ、作業別の詳細ルール（Python・SQL・notebooks等）はSkillsに分離し、プロジェクト固有の情報はdocsに置く構成を推奨しています。この分離によりコンテキスト効率が向上し、トークンベース課金が主流になった2026年以降においてコスト管理が容易になります。著者はGitHub上にサンプルリポジトリを公開しており、すぐ自分のプロジェクトに適用可能なたたき台として利用できます。</p>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/sora_kumo/articles/zenn-ai-filter" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう</h3>
+        <p class="article-summary">Chrome 138以降で利用可能なBuilt-in AI（Gemini Nano）を活用してZennのAI関連記事をクライアントサイドでフィルタリングするChrome拡張機能を開発した記事です。記事本文を外部AIに送らずブラウザ内で要約・分類を行うため、プライバシーへの配慮がされています。複数記事タイトルをまとめて一度のプロンプトで判定するバッチ処理や、ローカルLLM特有の出力フォーマット崩れへの正規表現フォールバック、フィルター後のレイアウト崩れ防止UIハックなど実装上の工夫が詳しく解説されています。ローカルLLMゆえ誤判定もあるが、判定結果はキャッシュされるため繰り返し処理コストは抑えられます。</p>
+      </a>
+      <a class="article-card" data-source="devto" data-category="agent" style="--src:#1f2937" href="https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">Is This How We&#39;ll Build Websites Soon? (webMCP Live Demo 🚀)</h3>
+        <p class="article-summary">GoogleがChrome上で試験中のwebMCPプロトコルを解説し、React＋TypeScriptで「AI CEO Simulator」デモアプリを構築した記事です。webMCPはWebサイトが利用可能なアクションの構造化情報をAIエージェントに公開する仕組みで、エージェントがページをスクレイピングして推測する従来手法より速く・安く・確実に機能します。HTML属性への宣言的アノテーションとJavaScript ImperativeAPIの2方式が提供されており、通常ユーザーへの影響は一切なく既存サイトのエージェント向け拡張として機能します。現時点ではChrome Canary・Betaや実験フラグ有効環境のみで動作する実験的技術です。</p>
+        <span class="meta">#javascript #react #mcp #ai</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="product" style="--src:#55c500" href="https://qiita.com/yo_arai/items/c61eb886faa1cee69054" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#d97706">プロダクト・ビジネス</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">日本酒記録アプリをAWSを使って作ってみた</h3>
+        <p class="article-summary">日本酒の銘柄・スペック・テイスティングノートを管理するWebアプリ「酒ファイル」をAWSのフルサーバーレス構成で個人開発した事例紹介です。裏ラベルを撮影すると、Bedrock上のClaude Sonnet4.5が画像解析を行い、精米歩合・日本酒度・酸度・酒米など各項目を自動入力するAI機能が実装されています。また、雑なメモをGPT-OSS-120bが日本酒らしい表現に膨らませる「テイスティングノートAI改善提案」機能も備えています。技術スタックはReact＋Vite＋TypeScript（フロントエンド）、Lambda＋DynamoDB＋S3＋Bedrock（バックエンド）、Terraform（IaC）で、昨月のLLM使用料はわずか36円でした。</p>
+        <span class="meta">#AWS #S3 #lambda #bedrock #Claude</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/shinkai_/items/61b10d10c63db47a64e7" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">AIエージェントのトークン代を節約するNetflixのエンジニアが作ったツール「Headroom」について調べてみた</h3>
+        <p class="article-summary">Netflixのシニアエンジニアがオープンソース公開したAIエージェント向けコンテキスト圧縮ツール「Headroom」を調査した記事です。JSONは最大90.6%、ビルドログは93.9%の削減実績を持ちますが、実運用の中央値は4.8%とギャップがあり、効果はJSON・DBクエリ結果・構造化ログが多い「ヘビーなツール使用」セッションほど高くなります。CLI・プロキシ・Pythonライブラリ・MCPサーバーと複数の利用形態が用意されており、既存のClaude Code・Cursor・Codexに対して最小限の変更で導入できます。原文をローカルに保存し必要時に取得できる「可逆圧縮（CCR）」機能により、単純な要約・切り捨てと異なり精度を損なわずに圧縮することが特徴です。</p>
+        <span class="meta">#AI #LLM #AIエージェント #ClaudeCode #Headroom</span>
+      </a>
       <a class="article-card" data-source="hackernews" data-category="research" style="--src:#ff6600" href="https://www.anthropic.com/institute/recursive-self-improvement" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
           <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
@@ -76,76 +234,6 @@
         <h3 class="article-title">Anthropic&#39;s open-source framework for AI-powered vulnerability discovery</h3>
         <p class="article-summary">AnthropicがClaudeを活用した自律的な脆弱性発見・修正のオープンソースリファレンス実装「Defending Code Reference Harness」を公開しました。スキャン、トリアージ、パッチ生成などのClaude Codeスキル群と、DockerおよびASANを用いたC/C++メモリ脆弱性検出パイプラインが含まれます。このリポジトリは参考実装であり、独自パイプラインの構築や言語・検出器のカスタマイズに利用可能です。なお、ホスト型製品「Claude Security」も別途提供されており、複数プロジェクトを横断してリポジトリをスキャンし、誤検知を減らす多段階検証パイプラインを備えています。</p>
         <span class="meta">127pt · 💬42 · @binyu</span>
-      </a>
-      <a class="article-card" data-source="hackernews" data-category="model" style="--src:#ff6600" href="https://github.com/huawei-csl/KVarN" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#3b82f6">モデル・LLM</span>
-            <span class="source-badge">Hacker News</span>
-          </span>
-        </p>
-        <h3 class="article-title">KVarN: Native vLLM backend for KV-cache quantization by Huawei</h3>
-        <p class="article-summary">HuaweiがvLLMのネイティブKVキャッシュ量子化バックエンド「KVarN」をオープンソース公開しました。FP16と同等の精度・スループットを保ちながら、KVキャッシュ容量を3〜5倍に拡大でき、アジェンティックや長文コンテキストのワークロードに特に有効です。キャリブレーション不要でvLLMにフラグ一つで組み込め、既存モデルの変更は不要です。HadamardローテーションとSinkhorn風の反復分散正規化によりアウトライアを分散させ、低ビット量子化での精度劣化を防ぐ独自手法を採用しています。</p>
-        <span class="meta">99pt · 💬10 · @theanonymousone</span>
-      </a>
-      <a class="article-card" data-source="hackernews" data-category="other" style="--src:#ff6600" href="https://worksinprogress.co/issue/samurai-city/" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#5b625f">その他</span>
-            <span class="source-badge">Hacker News</span>
-          </span>
-        </p>
-        <h3 class="article-title">Samurai City</h3>
-        <p class="article-summary">江戸時代（1600〜1868年）の日本を支配した徳川幕府と、首都・江戸（現東京）の都市設計に関する歴史考察記事です。幕府は大名に江戸の屋敷に家族を常駐させる「参勤交代」制度を通じ、江戸を事実上の人質収容都市として機能させることで支配を維持しました。農民への高率課税（収穫の40%程度）で財源を確保し、武士階級（全人口の約6%）の生活を支える構造が敷かれていました。江戸は世界有数の大都市でありながら、政治的統制のための消費都市という独特の性格を持っていました。</p>
-        <span class="meta">60pt · 💬5 · @zdw</span>
-      </a>
-      <a class="article-card" data-source="hackernews" data-category="infra" style="--src:#ff6600" href="https://castor.web.cern.ch/content/home.html" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#64748b">インフラ・運用</span>
-            <span class="source-badge">Hacker News</span>
-          </span>
-        </p>
-        <h3 class="article-title">Castor: CERN Advanced STORage Manager</h3>
-        <p class="article-summary">CERNが物理データのアーカイブを目的に開発した階層型ストレージ管理システム「CASTOR」の技術解説記事です。ディスクとテープを組み合わせたヒエラルキカルストレージで、XROOTやGridFTPといたアクセスプロトコルを提供していました。2020年6月から後継システム「CTA（CERN Tape Archive）」への移行が進み、現在はCTAが運用の中心となっています。同システムはLHCをはじめとする大規模な素粒子物理実験で生成される膨大なデータを長期保存するために設計されました。</p>
-        <span class="meta">34pt · 💬11 · @naves</span>
-      </a>
-      <a class="article-card" data-source="zenn" data-category="agent" style="--src:#3ea8ff" href="https://zenn.dev/dinii/articles/d7be3acc43d868" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
-            <span class="source-badge">Zenn</span>
-          </span>
-        </p>
-        <h3 class="article-title">Claude Managed Agentsで「まずエンジニアに聞こう」を「まずbotに聞こう」に変えた</h3>
-        <p class="article-summary">飲食業向けSaaSを提供するダイニー社が、Anthropic Claude Managed Agentsを用いてSlack bot「@ask-anything」を構築した事例紹介です。このbotはBigQueryへのSQL問い合わせ、Cloud Loggingの時系列読み取り、monorepのgrep調査などをread-onlyで自律実行し、従来エンジニアが10〜30分かけていた問い合わせ対応を1〜3分で完了します。Claude Managed AgentsによりAnthropicの実行サンドボックスとMCPサーバー連携が提供されるため、自前でオーケストレーションコードを書く量が約7割削減されました。本格稼働から4週間でbot対応スレッド数が週24件から109件へと4.5倍に増加し、エンジニアへの直接問い合わせ数も減少しています。</p>
-      </a>
-      <a class="article-card" data-source="zenn" data-category="model" style="--src:#3ea8ff" href="https://zenn.dev/seeda_yuto/articles/ollama-vs-vllm-rtx4080-benchmark" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#3b82f6">モデル・LLM</span>
-            <span class="source-badge">Zenn</span>
-          </span>
-        </p>
-        <h3 class="article-title">RTX 4080でローカルLLM 7モデルを実測したら「16GB VRAMの壁」が見えた</h3>
-        <p class="article-summary">RTX 4080（16GB VRAM）でOllama・vLLMの2バックエンドと12種のモデルを実測し、ベンチマーク結果を公開した記事です。最大の発見は「15GB以下のモデルのみフルスピードで動き、それを超えた瞬間にCPUオフロードが発生して速度が1/10以下になる」という16GBの壁で、MoEモデルが実効パラメータを小さく抑えられる点で有利と結論付けています。総合評価の最適解はgpt-oss:20b（MoEで13GB・122〜125 tok/s）＋Ollamaの組み合わせで、速度・品質のバランスが最も優れていました。vLLMはKVキャッシュ領域が極端に少なくなるため16GB単一GPU環境では不利であり、A100/H100の複数GPU環境で本領を発揮すると述べています。</p>
-      </a>
-      <a class="article-card" data-source="devto" data-category="agent" style="--src:#1f2937" href="https://dev.to/googleai/agent-factory-recap-building-with-gemini-3-ai-studio-antigravity-and-nano-banana-186h" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
-            <span class="source-badge">DEV Community</span>
-          </span>
-        </p>
-        <h3 class="article-title">Agent Factory Recap: Building with Gemini 3, AI Studio, Antigravity, and Nano Banana</h3>
-        <p class="article-summary">GoogleのGemini 3モデル、新AIネイティブIDE「Antigravity」、メディア生成「Nano Banana Pro」など最新リリース群の技術的詳細を解説したポッドキャストのリキャップ記事です。Gemini 3はGemini 1（理解）→2（推論）→3（行動・コーディング）と進化し、ツール利用と関数呼び出しが強化されています。デモではGemini 3がReactアプリをスクラッチで生成し、自らデバッグするシーンや、AntigravityがスクリーンショットからWebサイトをデザインリファクタリングするシーンが紹介されました。DeepMindのPaige Bailey氏はGeminiの急速な進化について、開発者が今すぐ活用できるツールに焦点を当てた見解を語っています。</p>
-        <span class="meta">#ai #nanobanana #antigravity #agents</span>
       </a>
       </div>
     </section>
@@ -186,6 +274,19 @@
         <span class="count">6 件</span>
       </div>
       <div class="article-grid">
+      <a class="article-card" data-source="devto" data-category="agent" style="--src:#1f2937" href="https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">Is This How We&#39;ll Build Websites Soon? (webMCP Live Demo 🚀)</h3>
+        <p class="article-summary">GoogleがChrome上で試験中のwebMCPプロトコルを解説し、React＋TypeScriptで「AI CEO Simulator」デモアプリを構築した記事です。webMCPはWebサイトが利用可能なアクションの構造化情報をAIエージェントに公開する仕組みで、エージェントがページをスクレイピングして推測する従来手法より速く・安く・確実に機能します。HTML属性への宣言的アノテーションとJavaScript ImperativeAPIの2方式が提供されており、通常ユーザーへの影響は一切なく既存サイトのエージェント向け拡張として機能します。現時点ではChrome Canary・Betaや実験フラグ有効環境のみで動作する実験的技術です。</p>
+        <span class="meta">#javascript #react #mcp #ai</span>
+      </a>
       <a class="article-card" data-source="zenn" data-category="agent" style="--src:#3ea8ff" href="https://zenn.dev/dinii/articles/d7be3acc43d868" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
           <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
@@ -245,18 +346,6 @@
         <p class="article-summary">Snowflakeが2026年5月27日に買収意向を発表したエンタープライズMCPプラットフォーム「Natoma」のアーキテクチャとガバナンス設計をSnowflake Summit 2026の現地レポートとして解説。AIエージェントがメール送信・レコード更新・ワークフロー起動などのアクションを取る段階になった今、多くの企業はエージェントが「実際に何をできるか」を統制するガバナンス基盤を持っていないという課題が浮き彫りになった。NatomaはMCPゲートウェイとして動作し、エージェントのアクセス制御・権限管理・監査ログを一元管理することで、大企業が安全にエージェントを展開できる基盤を提供する。</p>
         <span class="meta">#ai #mcp #snowflake #governance</span>
       </a>
-      <a class="article-card" data-source="devto" data-category="agent" style="--src:#1f2937" href="https://dev.to/sylwia-lask/is-this-how-well-build-websites-soon-webmcp-live-demo--2e33" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-04">2026年6月4日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
-            <span class="source-badge">DEV Community</span>
-          </span>
-        </p>
-        <h3 class="article-title">Is This How We&#39;ll Build Websites Soon? (webMCP Live Demo 🚀)</h3>
-        <p class="article-summary">Googleが実験的に開発中のAIエージェント向けウェブプロトコル「webMCP」を紹介した記事。著者はデモとして「AI CEO Simulator」を実際に作成し、ウェブサイトがスマートフォン・アクセシビリティに続いてAIエージェント対応に適応する時代が来るかもしれないと論じた。webMCPによって既存のウェブページがAIエージェントにとって操作可能なインターフェースになる可能性があり、ウェブ開発の新たなパラダイムとして注目されている。</p>
-        <span class="meta">#javascript #react #mcp #ai</span>
-      </a>
       </div>
     </section>
     <section class="category-section" id="cat-devtool" data-category="devtool">
@@ -265,6 +354,55 @@
         <span class="count">8 件</span>
       </div>
       <div class="article-grid">
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/rakko_inc/articles/claude-design-company-deck" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">なぜスライド作りはClaude Designでやるべきなのか？</h3>
+        <p class="article-summary">Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を活用したスライド制作の具体的な手順を紹介した記事です。既存のPPTXやロゴからデザインシステムを約15分で自動抽出し、そのシステムを使えばデザイナーでなくても統一されたデザインのスライドを原稿を渡すだけで作れるようになります。著者は従来数日かかっていた採用資料を、デザインシステム生成15分＋スライド生成30分の合計1時間未満で完成させることに成功しました。複雑な図解は一度ChatGPTで「下絵」を作ってからClaude Designに渡す分業が、時間とコスト両面で効率的であると述べています。</p>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/green_tea/articles/d310e5cf809190" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">データサイエンティストのためのAGENTS.mdとSkills</h3>
+        <p class="article-summary">データサイエンス業務でAIコーディングツール（GitHub Copilot、Claude Codeなど）を最大限活用するための、AGENTS.mdとSkillsの設計・分類方法を解説した記事です。全タスク共通のルールはAGENTS.mdに最小限の記述にとどめ、作業別の詳細ルール（Python・SQL・notebooks等）はSkillsに分離し、プロジェクト固有の情報はdocsに置く構成を推奨しています。この分離によりコンテキスト効率が向上し、トークンベース課金が主流になった2026年以降においてコスト管理が容易になります。著者はGitHub上にサンプルリポジトリを公開しており、すぐ自分のプロジェクトに適用可能なたたき台として利用できます。</p>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/sora_kumo/articles/zenn-ai-filter" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう</h3>
+        <p class="article-summary">Chrome 138以降で利用可能なBuilt-in AI（Gemini Nano）を活用してZennのAI関連記事をクライアントサイドでフィルタリングするChrome拡張機能を開発した記事です。記事本文を外部AIに送らずブラウザ内で要約・分類を行うため、プライバシーへの配慮がされています。複数記事タイトルをまとめて一度のプロンプトで判定するバッチ処理や、ローカルLLM特有の出力フォーマット崩れへの正規表現フォールバック、フィルター後のレイアウト崩れ防止UIハックなど実装上の工夫が詳しく解説されています。ローカルLLMゆえ誤判定もあるが、判定結果はキャッシュされるため繰り返し処理コストは抑えられます。</p>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/shinkai_/items/61b10d10c63db47a64e7" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">AIエージェントのトークン代を節約するNetflixのエンジニアが作ったツール「Headroom」について調べてみた</h3>
+        <p class="article-summary">Netflixのシニアエンジニアがオープンソース公開したAIエージェント向けコンテキスト圧縮ツール「Headroom」を調査した記事です。JSONは最大90.6%、ビルドログは93.9%の削減実績を持ちますが、実運用の中央値は4.8%とギャップがあり、効果はJSON・DBクエリ結果・構造化ログが多い「ヘビーなツール使用」セッションほど高くなります。CLI・プロキシ・Pythonライブラリ・MCPサーバーと複数の利用形態が用意されており、既存のClaude Code・Cursor・Codexに対して最小限の変更で導入できます。原文をローカルに保存し必要時に取得できる「可逆圧縮（CCR）」機能により、単純な要約・切り捨てと異なり精度を損なわずに圧縮することが特徴です。</p>
+        <span class="meta">#AI #LLM #AIエージェント #ClaudeCode #Headroom</span>
+      </a>
       <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/shirok/items/45e2c49630fd002cf493" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
           <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
@@ -276,42 +414,6 @@
         <h3 class="article-title">Codex + Oracle DB SkillsでOracle Databaseの実行計画レビューをしてみてみた</h3>
         <p class="article-summary">Oracle Database向けAIエージェント用ナレッジ集「Oracle DB Skills」をCodexにSkillとして導入し、SQLcl経由でOracle DBの実行計画レビューを試みた実験記事です。Oracle DB SkillsはSQL開発・パフォーマンスチューニング・セキュリティ・管理など14カテゴリ・100以上のMarkdownガイドから構成されています。AIエージェントにデータベースのパスワードを渡さず、SQLclの保存済み接続を活用することでセキュリティを確保した接続方法も詳細に解説されています。HRスキーマを用いたスキーマ確認・テーブル件数・制約・索引の確認に加え、意図的にチューニング要素を含むSQLの実行計画をClaude Codeがレビューする流れが示されています。</p>
         <span class="meta">#oracle #AI #oci #OracleDatabase #codex</span>
-      </a>
-      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/rakko_inc/articles/claude-design-company-deck" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-04">2026年6月4日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
-            <span class="source-badge">Zenn</span>
-          </span>
-        </p>
-        <h3 class="article-title">なぜスライド作りはClaude Designでやるべきなのか？</h3>
-        <p class="article-summary">Anthropicが2026年4月に発表したビジュアル制作ツール「Claude Design」を使って採用向け会社紹介スライドを作成した体験記。既存スライドや資料からブランドの色・フォント・レイアウトを「デザインシステム」として一度学習させれば、原稿を渡すだけで統一感のある資料を短時間で量産できるようになるのが最大のメリット。Google Slidesで数日かかっていた作業が約1時間で完成し、デザイン知識のない人でもブランドを再現するコストがほぼゼロになった。PDF・PPTX・HTMLなど豊富なエクスポート形式と、DOCX/PPTX/画像/Webキャプチャなど柔軟な入力形式が実務での活用幅を広げている。</p>
-        <span class="meta">#ai #claude #design</span>
-      </a>
-      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/green_tea/articles/d310e5cf809190" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-04">2026年6月4日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
-            <span class="source-badge">Zenn</span>
-          </span>
-        </p>
-        <h3 class="article-title">データサイエンティストのためのAGENTS.mdとSkills</h3>
-        <p class="article-summary">データサイエンティストがGitHub Copilot等のAIコーディングツールを最大限活用するためのAGENTS.md・Skills設定の実践例を紹介した記事。全タスク共通のルールはAGENTS.mdに薄く、作業別の詳細ルールはSkillsに、プロジェクト固有情報はdocsにと階層を分けることでトークン効率と保守性を両立させる。Python・SQL・Jupyter Notebook・ドキュメント・データそれぞれに特化したインストラクションファイルとプロンプトテンプレートをGitHubで公開しており、分析業務へのAI導入のたたき台として活用できる。</p>
-        <span class="meta">#ai #datascience #github-copilot #claude-code</span>
-      </a>
-      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/sora_kumo/articles/zenn-ai-filter" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-04">2026年6月4日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
-            <span class="source-badge">Zenn</span>
-          </span>
-        </p>
-        <h3 class="article-title">Zennの記事一覧からAI関連の記事をAIの力によって滅ぼし、そして私も消えよう</h3>
-        <p class="article-summary">ZennにAI関連記事を非表示にするフィルター機能がないため、Chrome 138以降のBuilt-in AI（Gemini Nano）を使ったChrome拡張機能を自作した事例。外部のAI APIにデータを送らずにクライアントサイドだけで記事の要約・分類・フィルタリングを完結させることでプライバシーを確保している。ai.summarizerが失敗した場合はLanguageModelにフォールバックする二重構成を採用し、判定結果はキャッシュして繰り返し実行の負荷を削減。4GBのオンデバイスLLMのため誤判定もあるが、ローカルで動作する点は今後のブラウザAI標準化に向けた先進的な実装例となっている。</p>
-        <span class="meta">#ai #chrome-extension #gemini-nano</span>
       </a>
       <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/manalink_dev/articles/coding-agent-with-syntax-tree-analyze" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
@@ -336,18 +438,6 @@
         <h3 class="article-title">I built a tool to stop Claude from forgetting everything then forgot about it myself</h3>
         <p class="article-summary">Claudeとのセッションでcatやnpm listなどのコマンド出力がコンテキストウィンドウを圧迫して応答品質が劣化する問題を解決するため、「edge-context-mode」を実装した開発者の体験記。Cloudflare Durable Objectsを活用してコンテキストを管理するツールを作ったが、仕組みを理解していないまま6週間放置してしまった。GitHub Finish-Up-A-Thon Challengeへの参加をきっかけに再訪したところ、Durable Objectsの動作に問題があることを発見し、コードを正直に向き合って最終的に完成させた経緯を語っている。</p>
         <span class="meta">#discuss #devchallenge #githubchallenge #webdev</span>
-      </a>
-      <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/shinkai_/items/61b10d10c63db47a64e7" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-04">2026年6月4日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
-            <span class="source-badge">Qiita</span>
-          </span>
-        </p>
-        <h3 class="article-title">AIエージェントのトークン代を節約するNetflixのエンジニアが作ったツール「Headroom」について調べてみた</h3>
-        <p class="article-summary">Netflixのシニアエンジニア・Tejas Chopra氏がオープンソースで公開したAIエージェントのトークン削減ライブラリ「Headroom」を詳しく解説した記事。ビルドログ93.9%・JSON90.6%という公式ベンチマーク数値を持ち、リリース数日で6k stars超えを記録した注目OSSだ。ContentRouterが入力データの種類（JSON/コード/プレーンテキスト）を自動判定し、SmartCrusher・CodeCompressor・Kompress-baseの3つのエンジンで最適な圧縮を施す設計。ただし実運用での中央値は4.8%にとどまるなど、コード中心のワークフローでは効果が限定的な点も正直に解説されている。</p>
-        <span class="meta">#AI #LLM #AIエージェント #ClaudeCode #Headroom</span>
       </a>
       <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/ssfujita/items/68bb52511e97222f5b0b" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
@@ -490,6 +580,19 @@
         <span class="count">2 件</span>
       </div>
       <div class="article-grid">
+      <a class="article-card" data-source="qiita" data-category="product" style="--src:#55c500" href="https://qiita.com/yo_arai/items/c61eb886faa1cee69054" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-05">2026年6月5日</time>
+          <span class="badges">
+            <span class="trend-badge" title="6/4〜6/5に2日登場">🔥 ×2日</span>
+            <span class="cat-pill" style="--cat:#d97706">プロダクト・ビジネス</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">日本酒記録アプリをAWSを使って作ってみた</h3>
+        <p class="article-summary">日本酒の銘柄・スペック・テイスティングノートを管理するWebアプリ「酒ファイル」をAWSのフルサーバーレス構成で個人開発した事例紹介です。裏ラベルを撮影すると、Bedrock上のClaude Sonnet4.5が画像解析を行い、精米歩合・日本酒度・酸度・酒米など各項目を自動入力するAI機能が実装されています。また、雑なメモをGPT-OSS-120bが日本酒らしい表現に膨らませる「テイスティングノートAI改善提案」機能も備えています。技術スタックはReact＋Vite＋TypeScript（フロントエンド）、Lambda＋DynamoDB＋S3＋Bedrock（バックエンド）、Terraform（IaC）で、昨月のLLM使用料はわずか36円でした。</p>
+        <span class="meta">#AWS #S3 #lambda #bedrock #Claude</span>
+      </a>
       <a class="article-card" data-source="hackernews" data-category="product" style="--src:#ff6600" href="https://simonwillison.net/2026/Jun/3/uber-caps-usage/" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
           <time class="article-date" datetime="2026-06-04">2026年6月4日</time>
@@ -501,18 +604,6 @@
         <h3 class="article-title">Uber&#39;s $1,500/month AI limit is a useful signal for AI tool pricing</h3>
         <p class="article-summary">Uberが全エンジニアに対してCursorやClaude CodeなどAIコーディングツールの月間使用上限を1ツールあたり$1,500に設定したことをSimon Willisonが分析した。2026年初頭にAIツール予算を4ヶ月で使い切ったことへの対策で、複数ツールを使う場合も各ツールの上限は独立して適用される。2ツール分で年間$36,000というキャップはLevels.fyi掲載の中央年収$330,000の約11%に相当し、これはUberがAIコーディングツールに感じている価値の下限を示す有用な指標になるとWillisonは論じる。この種の制限は無尽蔵なトークン消費を競わせるリーダーボード文化よりも合理的な政策と評価されている。</p>
         <span class="meta">406pt · 💬506 · @pdyc</span>
-      </a>
-      <a class="article-card" data-source="qiita" data-category="product" style="--src:#55c500" href="https://qiita.com/yo_arai/items/c61eb886faa1cee69054" target="_blank" rel="noopener noreferrer">
-        <p class="card-meta-row">
-          <time class="article-date" datetime="2026-06-04">2026年6月4日</time>
-          <span class="badges">
-            <span class="cat-pill" style="--cat:#d97706">プロダクト・ビジネス</span>
-            <span class="source-badge">Qiita</span>
-          </span>
-        </p>
-        <h3 class="article-title">日本酒記録アプリをAWSを使って作ってみた</h3>
-        <p class="article-summary">AWSのフルサーバーレス構成（API Gateway/Lambda/DynamoDB/S3/Bedrock/CloudFront）で日本酒記録Webアプリ「酒ファイル」を個人開発した事例。裏ラベルを撮影するだけでBedrock上のClaude Sonnet 4.5が精米歩合・日本酒度・酸度などのスペックを自動入力する機能が最大の特徴で、手作業入力の手間を大幅に削減する。テイスティングノートをAIが日本酒らしい文章に改善する機能にはGPT-OSS-120bを採用し、IaCはTerraformで管理している。</p>
-        <span class="meta">#AWS #S3 #lambda #bedrock #Claude</span>
       </a>
       </div>
     </section>
@@ -623,10 +714,13 @@
     </section>
     <section class="date-archive" aria-label="日付アーカイブ">
       <p class="eyebrow">日付アーカイブ</p>
-      <ul>
-        <li><a href="notes/2026-06-05.html">2026年6月5日</a> <span class="count">20 件</span></li>
-        <li><a href="notes/2026-06-04.html">2026年6月4日</a> <span class="count">20 件</span></li>
-      </ul>
+      <details class="archive-month" open>
+        <summary>2026年6月 <span class="count">2 日 / 40 件</span></summary>
+        <ul>
+          <li><a href="notes/2026-06-05.html">2026年6月5日</a> <span class="count">20 件</span></li>
+          <li><a href="notes/2026-06-04.html">2026年6月4日</a> <span class="count">20 件</span></li>
+        </ul>
+      </details>
     </section>
   </main>
   <footer class="site-footer">
@@ -637,19 +731,23 @@
       var CAP = 6;
       var tabs = document.querySelectorAll('.nav-tab');
       var sections = document.querySelectorAll('.category-section');
-      // 「すべて」以外（ソース絞り込み）の時に隠す概要・新着・目次・日付アーカイブ。
-      var overview = document.querySelectorAll('.home-highlights, .category-map, .feed-recent, .date-archive');
+      var search = document.querySelector('.search-input');
+      // ソース絞り込み or 検索中に隠す概要（話題・新着・目次・日付アーカイブ・ハイライト）。
+      var overview = document.querySelectorAll('.home-highlights, .category-map, .trending, .feed-recent, .date-archive');
       var filter = 'all';
+      var query = '';
       var expanded = {};
       function apply() {
-        overview.forEach(function (o) { o.style.display = filter === 'all' ? '' : 'none'; });
+        var narrowing = filter !== 'all' || query !== '';
+        overview.forEach(function (o) { o.style.display = narrowing ? 'none' : ''; });
         sections.forEach(function (s) {
           var cards = s.querySelectorAll('.article-card');
-          var showAll = filter !== 'all' || expanded[s.id];
+          var showAll = narrowing || expanded[s.id];
           var matched = 0, shown = 0;
           cards.forEach(function (c) {
-            var m = filter === 'all' || c.getAttribute('data-source') === filter;
-            if (!m) { c.classList.add('is-hidden'); return; }
+            var okSrc = filter === 'all' || c.getAttribute('data-source') === filter;
+            var okQ = query === '' || c.textContent.toLowerCase().indexOf(query) !== -1;
+            if (!(okSrc && okQ)) { c.classList.add('is-hidden'); return; }
             matched++;
             if (showAll || shown < CAP) { c.classList.remove('is-hidden'); shown++; }
             else { c.classList.add('is-hidden'); }
@@ -657,7 +755,7 @@
           s.style.display = matched === 0 ? 'none' : '';
           var btn = s.querySelector('.more-btn');
           if (btn) {
-            if (filter === 'all' && matched > CAP) {
+            if (!narrowing && matched > CAP) {
               btn.hidden = false;
               btn.textContent = expanded[s.id] ? '閉じる' : 'もっと見る（ほか ' + (matched - CAP) + ' 件）';
             } else { btn.hidden = true; }
@@ -671,6 +769,10 @@
           filter = t.getAttribute('data-filter');
           apply();
         });
+      });
+      if (search) search.addEventListener('input', function () {
+        query = search.value.trim().toLowerCase();
+        apply();
       });
       sections.forEach(function (s) {
         var btn = s.querySelector('.more-btn');
