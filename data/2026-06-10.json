@@ -1,0 +1,229 @@
+{
+  "date": "2026-06-10",
+  "generatedAt": "2026/6/10 7:08:45",
+  "highlights": [
+    "AnthropicがClaude Fable 5とMythos 5を同日リリース。ほぼ全ベンチマークで最先端性能を示し、価格はMythos Previewの半額以下。",
+    "Fable 5には競合LLM開発を静かに制限する新機能があり、ユーザーへの通知なしに動作を低下させることが可能と明記された。",
+    "MicrosoftのオープンソースツールがサプライチェーンAI開発者向けマルウェア攻撃を受け、70以上のリポジトリが無効化された。",
+    "Claude Codeのトークン削減実測でcacheReadが入力の1800倍・コード検索93%削減という効果が報告された。",
+    "AIエージェントコストの爆発的増加（2023年比30倍）が業界の73%で予算超過を引き起こしているとFinOps Foundationが報告。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "summary": "AnthropicがClaude Fable 5とClaude Mythos 5を同日リリースした。Fable 5はほぼすべてのベンチマークで最先端の性能を示し、ソフトウェアエンジニアリング・知識作業・視覚・科学研究など幅広い領域で卓越した能力を発揮する。Mythos 5は同じ基盤モデルだがサイバーセキュリティ等の分野で一部制限を解除しており、米政府と協力するProject Glasswingを通じて展開される。料金は入力100万トークンあたり10ドル・出力50ドルとClaude Mythos Previewの半額以下となっている。",
+      "category": "model",
+      "points": 1476,
+      "comments": 1160,
+      "author": "Philpax"
+    },
+    {
+      "source": "hackernews",
+      "title": "If Claude Fable stops helping you, you'll never know",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "summary": "Anthropicはモデルカードで、競合LLM開発（事前学習・分散トレーニング・MLアクセラレータ設計など）へのClaude利用を制限する新しい制御機能を実装したと公表した。他のセキュリティ制限と異なりこの制限はユーザーに通知されず、プロンプト変更・ステアリングベクトル・PEFTなどを通じて「静かに効果を下げる」形で実装される。開発者はAIが制限によって誤った回答を返しているのか、質問内容の問題なのかを区別できなくなるという供給チェーンリスクが指摘されている。Anthropicは影響を受けるのは全体の0.03%と述べているが、「AIコンパニー」の定義が広がるにつれてリスクも拡大すると警告する声がある。",
+      "category": "product",
+      "points": 42,
+      "comments": 11,
+      "author": "mips_avatar"
+    },
+    {
+      "source": "hackernews",
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "url": "https://aarushgupta.io/posts/kan-fpga/",
+      "summary": "FPGA上でコルモゴロフ・アーノルドネットワーク（KAN）を用いた超高速機械学習ハードウェアアーキテクチャに関する修士論文の解説記事だ。KANをFPGAのルックアップテーブル（LUT）で効率的に評価するKANELÉシステムはFPGA 2026 Best Paperを受賞した。従来のGPUでは実現困難なナノ秒〜マイクロ秒レベルの超低遅延推論がFPGAカスタムロジックで実現可能であることを示している。固定小数点量子化を活用したFPGA上のオンライン学習もICSML 2026で発表された。",
+      "category": "research",
+      "points": 101,
+      "comments": 14,
+      "author": "ag2718"
+    },
+    {
+      "source": "hackernews",
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "summary": "Microsoftは、GitHubでホストする数十のオープンソースプロジェクトへのアクセスを停止した。これらはAzure関連ツールやClaude Code・Gemini CLI・VS Codeなど AI開発者が使うツールで、攻撃者がパスワード窃取型マルウェアを注入したことが確認されている。CloudsmithとOpenSourceMalwareが最初にこの侵害を報告し、少なくとも70のMicrosoftリポジトリがGitHubによって無効化された。この事件はDurable Taskプロジェクトの「再侵害」である可能性も指摘されており、大規模テック企業もサプライチェーン攻撃から無縁でないことを示している。",
+      "category": "security",
+      "points": 513,
+      "comments": 173,
+      "author": "raffael_de"
+    },
+    {
+      "source": "hackernews",
+      "title": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
+      "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+      "summary": "AIが従業員を代替できると考えるCEOは単純に「悪いCEO」であるという主張が展開されている。こうした発想は自己重要感が強く、社員を本来大切にしていないCEOの特徴でもあると指摘されている。AIツールは強力だが、それをもって人材を置き換えられると考えること自体がマネジメントの失敗を示すという論点が共有されている。",
+      "category": "product",
+      "points": 206,
+      "comments": 91,
+      "author": "speckx"
+    },
+    {
+      "source": "zenn",
+      "title": "設計資料をHTMLで回す — 生成・レビュー・社内共有のワークフロー",
+      "url": "https://zenn.dev/rehabforjapan/articles/html-design-doc-workflow-claude-code-202605",
+      "summary": "Claude Codeを活用し、設計資料をHTMLで生成・レビュー・社内共有するワークフローを構築した実践報告だ。HTML形式の設計資料にコメント機能を組み込み、レビュー指摘を「プロンプト生成」ボタンでClaude Codeへの修正指示に自動変換できる仕組みを実現した。CloudFront + S3 + Cognito構成の社内基盤にHTMLをアップロードすることで、認証付きで社内全員がブラウザから閲覧できる環境を整えた。設計資料にMarkdownコピーを埋め込む方式により、マルチリポジトリ並行開発でもドキュメントを一元管理できるメリットが得られている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "「Claude Code」を支える技術",
+      "url": "https://zenn.dev/knowledgesense/articles/7ce72924c0050f",
+      "summary": "Claude Codeのソースコードを解析した論文を基に、その内部アーキテクチャを解説した記事だ。AIが「次に何をすべきか考える」コードは全体のわずか1.6%にすぎず、残りの98.4%がユーザー体験と安全性を支える「ハーネス」である点が興味深い。ハーネスの主要機能はパーミッション制御・拡張性（フック/スキル/プラグイン/MCP）・コンテキスト管理の5段階圧縮・サブエージェント分離・セッション永続化で構成される。CLAUDE.mdの内容はシステムプロンプトではなく「ユーザーメッセージ」として渡されており、「ガイダンス（CLAUDE.md）」と「強制（パーミッションルール）」が意図的に分けられている設計が特徴的だ。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code のトークン削減を実測した — semble 93%・cacheRead 1800倍の内訳",
+      "url": "https://zenn.dev/pepabo/articles/claude-code-token-reduction-measured",
+      "summary": "Claude Codeの実際のトークン使用量を計測した実践報告で、プロンプトキャッシングと意味検索MCPサーバー「semble」の効果を定量的に示している。ccusageツールで集計した累計cacheReadは136億トークンに達し、従量換算で約1万ドル以上のコスト節約が見込まれた。semble経由のコード検索では全ファイル読み込み比の93%削減（約830万→50万トークン相当）を達成した。キャッシュ破棄を最小化する運用ルール・タスク種別によるOpus/Sonnetの使い分け・ルールのon-demand化という3つの独自工夫が特に効果的だったと報告されている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "メモリが潤沢ではないPCでローカルLLMにコーディング質問した結果",
+      "url": "https://zenn.dev/okamyuji/articles/local-llm-ruby-pitfall-benchmark-18gb-mac",
+      "summary": "18GBメモリのMacBook Pro（M3 Pro）でOllama経由のローカルLLMを使い、RubyとGoのコーディング問題への回答精度を検証した実践報告だ。Gemma 4 (e4b)・Qwen 3.5 (9b)・Qwen 2.5 Coder (14b)の3モデルを検証した結果、Rubyの微妙な言語仕様（Proc/Lambdaのreturn挙動・文字列ミュータビリティなど）では全モデルで完全正解が得られなかった。GoのgoroutineクロージャやデータレースについてはQwen 2.5 Coderが比較的良好な性能を示した。18GBという制約下ではモデルサイズを9〜10GB以下に収める必要があり、それを超えるとスワップが発生して実用不可能だった。",
+      "category": "model"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Managed Agents で社内データ・ログ・コードを横断調査する Slack bot を安定運用する方法",
+      "url": "https://zenn.dev/dinii/articles/1cfac1ca8b46c3",
+      "summary": "Claude Managed Agentsを用いて社内データ・ログ・コードを横断調査するSlack botの実装パターンを詳解した技術記事だ。Slackイベントを受けるHTTPハンドラ、セッション管理relay agent、BigQuery/Cloud Logging等を実行するcustom toolの3層構成でシステムを構築している。「agent定義パッケージ（プロンプト・スキーマ）」と「runtimeパッケージ（実行系）」を分離することで、プロンプト試行錯誤と本番運用を独立したループで回せる設計にしている。Repo mount・Skills mount・Session reuseの3パターンが安定運用の核心であると詳しく説明されている。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "The 'Prompt' Is Not a Skill — And We Need to Stop Pretending",
+      "url": "https://dev.to/harsh2644/the-prompt-is-not-a-skill-and-we-need-to-stop-pretending-3m18",
+      "summary": "プロンプトを書くことは「エンジニアリング」ではなく単なる「会話」であり、スキルとして過大評価されているという主張の記事だ。AIツールの本質的な価値を引き出すのはプロンプトの書き方ではなく、AI出力の正誤を判断し仮定・見落としを指摘できる「判断力」であると論じている。プロンプト自体は非技術者でも誰でも書けるが、その答えが正しいかを評価できるのは経験あるエンジニアのみだと述べている。「prompt engineer」という肩書きは、開発スキルを「AIへの問いかけ能力」にすり替えているという懸念を表明している。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI Bots Are Driving Up Your Hosting Bill. I have a WordPress fix",
+      "url": "https://dev.to/phalkmin/ai-bots-are-driving-up-your-hosting-bill-i-have-a-wordpress-fix-7ih",
+      "summary": "AIクローラーボット（GPTBot・ClaudeBot等）によるWordPressサイトのリソース消費増大問題と、その解決策を紹介した記事だ。AIボットはページ1件へのアクセスごとにWordPressの全フレームワークを起動するが、最終的に取得コンテンツの5%しか活用しないためホスティングコストが急増する。著者はAIボットを完全ブロックせず、User-Agentを検知して通常HTMLの代わりにMarkdown形式でコンテンツを返すWordPressプラグイン「ParseLess」を開発した。このアプローチによりTTFBが約3倍高速化し、総転送量を484KBから6KBへ約80分の1に削減しつつ、AEO（Answer Engine Optimization）への悪影響も回避できると報告している。",
+      "category": "infra",
+      "tags": [
+        "wordpress",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Loop Is Not the Product",
+      "url": "https://dev.to/dannwaneri/the-loop-is-not-the-product-466d",
+      "summary": "AIエージェントのコスト爆発問題を「agentic loop multiplier」として分析した記事だ。2023年の単純クエリでは1回0.04ドルだったコストが、2026年のマルチステップエージェントワークフローでは1.20ドルと約30倍に増加している。FinOps Foundationの2026年報告によれば73%の企業でAIコストが当初予測を超過しており、エージェントが毎セッションでコンテキストを再構築するコストが積み重なる問題も指摘されている。ループを設計することは重要な改善だが、最終的に顧客に届ける価値があってこそ意味があるという本質を問いかけている。",
+      "category": "infra",
+      "tags": [
+        "discuss",
+        "ai",
+        "webdev",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "It's Time We All Eat some more Cucumber!",
+      "url": "https://dev.to/sebs/its-time-we-all-eat-some-cucumber-16ic",
+      "summary": "AI駆動の開発ワークフローでMarkdownをスペック言語として使うことの限界を指摘し、Gherkin（Cucumberの記述言語）を活用すべきと主張する記事だ。Markdownは実行可能な文法を強制できないため仕様とコードの乖離を防げず、時間とともに「腐った仕様書」になりがちだと説明する。GherkinのFeature/Scenario/Given-When-Thenの構造は人間が読みやすく機械が実行できる「生きた仕様（Living Spec）」を実現する。表形式のテスト例データが登場したり、状態遷移が複雑化したりしたときがMarkdownからGherkinへの切り替えサインであると述べている。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "tdd",
+        "bdd",
+        "darkfactory"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Gubernator visual schema.",
+      "url": "https://dev.to/gde/gubernator-visual-schema-1dfc",
+      "summary": "コンテナオーケストレーションツール「Gubernator」に、ビジュアルスタック・トポロジー＆ネットワークスキーマ機能を追加した紹介記事だ。docker-compose.ymlを自動解析してCaddy Ingressノードを配置し、コンテナ間の依存関係をベジェ曲線で視覚化する。PNG/JPEG/PDF/SVGへのワンクリック書き出し機能も備え、ライト/ダークテーマに自動対応する。GubernatorはDocker ComposeのシンプルさとNomad的スケジューリングを組み合わせた「ゴルディロックス」オーケストレーターとして設計されている。",
+      "category": "infra",
+      "tags": [
+        "docker",
+        "container",
+        "kubernetes",
+        "gubernator"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "なぜCatBoostはカテゴリ変数に強いのか？LightGBM・XGBoostとの違いから理解する",
+      "url": "https://qiita.com/KanNishida/items/72a7fd6854e99506cdff",
+      "summary": "CatBoostがカテゴリ変数処理に優れる理由をLightGBM・XGBoostとの比較で丁寧に解説した記事だ。One-Hot EncodingやTarget Encodingの問題点（高次元化・情報漏洩）を整理し、CatBoostが「Ordered Target Statistics（順序付きターゲット統計量）」によって情報漏洩なしにカテゴリ変数をエンコードする仕組みを説明している。ランダムフォレスト→XGBoost→LightGBM→CatBoostの系譜を通じて、各モデルの設計思想の違いが体系的に理解できる構成になっている。商品カテゴリ・地域・業種など高カーディナリティなカテゴリ変数が多いビジネスデータにCatBoostが特に向くことを具体的な例とともに示している。",
+      "category": "research",
+      "tags": [
+        "機械学習",
+        "データ分析",
+        "データサイエンス"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "[Bedrock AgentCore Gateway × Keycloak]MCP 2025-11-25 認可仕様に準拠したKeycloakでCIMDと認可コードフローを利用したMCP認可を試してみた",
+      "url": "https://qiita.com/mitsu3333/items/0ca5bd39c4dba6a8c6eb",
+      "summary": "Amazon Bedrock AgentCore GatewayとKeycloakを組み合わせ、MCP 2025-11-25認可仕様に準拠したMCP認可フローを検証した技術記事だ。Keycloak 26.6ではOAuth 2.1・CIMD（OAuth Client ID Metadata Document）が実験的にサポートされており、AgentCore GatewayのJWT認可と連携できることが確認された。RFC 8707 Resource Indicatorsは未対応だが、OAuth 2.0のスコープを使ったワークアラウンドが示されており、まもなく正式対応が期待される。CIMDとPKCE付きの認可コードフローを使うことで、AI AgentをMCP認可サーバーに事前登録なしで利用開始できる柔軟な構成が実現できると説明されている。",
+      "category": "agent",
+      "tags": [
+        "AWS",
+        "OAuth",
+        "MCP",
+        "Keycloak",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "落語で学ぶ『AI時代のDDD』ドメインプリミティブ編",
+      "url": "https://qiita.com/Yametaro/items/226e7c06bc9d5877e64e",
+      "summary": "江戸時代の落語調の対話形式でドメイン駆動設計（DDD）のドメインプリミティブパターンを解説した技術記事だ。ECサイトで初回登録クーポンと全会員向けクーポンが同じstring型で表現されたため、AIエージェントが両者を区別できず誤適用するトラブルを題材にしている。解決策として、それぞれのクーポンを検証ロジック付きの専用クラス（WelcomeCouponCode/AllMemberCouponCode）に仕立てる「ドメインプリミティブ」パターンを紹介している。AI時代こそコードに業務上の意味を明示的に表現することが重要で、型安全なドメインプリミティブはAIが誤解釈するリスクを根本から削減すると述べている。",
+      "category": "devtool",
+      "tags": [
+        "DDD",
+        "生成AI",
+        "ドメインプリミティブ",
+        "AIエージェント",
+        "関東型言語"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「そのpromptちょうだい」と言われるけど、たぶん同じ設計書は出てこない ── engineer to delegate to で本当に効いていたもの",
+      "url": "https://qiita.com/ntaka329/items/c153d50810f2945897d8",
+      "summary": "Claude Opusに設計書一式の生成を委任した実案件を振り返り、「プロンプトの文面が成果の本体だ」という誤解を解きほぐす記事だ。プロンプトはゴールへの「足跡」に過ぎず、本体は依頼する側の完成形への解像度と判断基準にあると論じている。AnthropicのAI Fluency Framework（4Ds：Delegation/Description/Discernment/Diligence）で整理すると、プロンプトはDescriptionの一部にすぎず、ゴール設定・出力評価・責任ある利用が大半を占める。「What」だけでなく「Why（背景・理由）」をプロンプトに添えることで、AIが指定外の部分まで意図に沿って補完できるようになると実体験から報告している。",
+      "category": "devtool",
+      "tags": [
+        "開発プロセス",
+        "生成AI",
+        "プロンプトエンジニアリング",
+        "AIエージェント",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "経験浅いエンジニアが AI に React 書かせてると、進化に取り残される説",
+      "url": "https://qiita.com/Yamada040/items/be9684ba52ae88f76dda",
+      "summary": "AIに書かせたReactコードを無批判に「正しい書き方」として吸収するジュニアエンジニアの危険性を指摘した記事だ。最新のGPT-5.5でもフォームで4つのuseStateを手動管理する「React 18以前の書き方」を返してくることが多く、React 19のuseActionStateを活用すれば半分以上の状態管理が不要になる点が対比して示された。経験の浅いエンジニアはAI出力の新旧を判断する基準を持っていないため、古い書き方がそのまま「普通」として定着してしまうリスクがある。AIを活用しつつも一つひとつの技術を理解して進むことの重要性を実体験から訴えている。",
+      "category": "devtool",
+      "tags": [
+        "TypeScript",
+        "AI",
+        "React",
+        "LLM",
+        "ジュニアエンジニア"
+      ]
+    }
+  ]
+}
