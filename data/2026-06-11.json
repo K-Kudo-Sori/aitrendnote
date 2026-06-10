@@ -1,0 +1,228 @@
+{
+  "date": "2026-06-11",
+  "generatedAt": "2026/6/11 7:15:27",
+  "highlights": [
+    "Claude Codeのアーキテクチャ解析論文が話題：AIの判断部分はわずか1.6%、残り98.4%は「ハーネス」で構成",
+    "Claude Codeのトークン削減を実測：cacheReadが入力の1800倍、semble導入で検索量93%削減",
+    "Apache Burr（Incubating）：シンプルなPython APIでチャットボットからマルチエージェントまで構築可能なフレームワーク",
+    "Microsoft FoundryとClaude Sonnetを組み合わせたAIエージェントのハンズオンがCode w/ Claude Tokyoで開催",
+    "18GB MacでローカルLLM実測：Gemma 4・Qwen 3.5・Qwen 2.5 CoderのRuby/Goコーディング精度比較"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "L'Affaire Siloxane",
+      "url": "https://mceglowski.substack.com/p/laffaire-siloxane",
+      "summary": "2010年、国際宇宙ステーション（ISS）の飲料水に謎の有機炭素汚染が発生し、調査の結果シロキサン系化合物ジメチルシランジオール（DMSD）が原因と判明した。発生源は宇宙飛行士が使用していたデオドラント・制汗剤のシリコーン成分が、水処理システムを通過する過程で変質したものだった。NASAには当初この物質の既存リファレンスがなく、ヒューストンのラボでも特定に時間を要した。この事例はISSの水再利用システム（尿を再処理して飲料水にする仕組み）設計の想定外事態として詳細に記録されている。シリコーン系化合物が宇宙環境の生命維持装置に与える影響を示すユニークな事例として紹介されている。",
+      "category": "other",
+      "points": 104,
+      "comments": 18,
+      "author": "idlewords"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: HelixDB – A graph database built on object storage",
+      "url": "https://github.com/HelixDB/helix-db/tree/main",
+      "summary": "HelixDBはRustで一から構築されたグラフ・ベクトル複合データベースで、AIアプリケーション構築に必要なストレージ機能を単一プラットフォームに統合することを目指している。グラフ・ベクトルデータモデルに加えてKV・ドキュメント・リレーショナルデータにも対応しており、AIエージェントへのフェデレーテッドアクセスを提供する。CLIツール「helix chef」によりプロジェクトのスキャフォールディングからClaude CodeやCodexへの接続まで自動化でき、一行の記述だけで動作するアプリを構築できる。Rust・TypeScript両SDKが用意されており、クラス構文に依らないDSLでクエリを記述し、専用ポートにHTTP経由で動的リクエストを送信する設計。エージェントメモリや社内ナレッジグラフを別のDBを組み合わせずに構築できる点が特徴。",
+      "category": "agent",
+      "points": 74,
+      "comments": 29,
+      "author": "GeorgeCurtis"
+    },
+    {
+      "source": "hackernews",
+      "title": "Building an HTML-first site doubled our users overnight",
+      "url": "https://mohkohn.co.uk/writing/html-first/",
+      "summary": "公益事業者向けにReactアプリをHTML-firstのAstroサイトへリプレースしたところ、ユーザー数が一晩で2倍になった実例が紹介されている。以前のReactアプリはローディングスピナーが多くアクセシビリティにも問題があり、リリース3日で撤収された。HTML-firstの方針として、JavaScriptはプログレッシブエンハンスメント専用とし、フォームデータは入力直後にバックエンドへ保存する設計を採用した。古いブラウザ（PSPを含む）でも動作することで、多様な環境のユーザーが公共サービスにアクセスできるようになった。顧客満足度96%未満に対する巨額の罰則を持つ規制環境での事例として、堅牢なHTML-firstアプローチの有効性を実証している。",
+      "category": "other",
+      "points": 924,
+      "comments": 422,
+      "author": "edent"
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic's Model Naming, Extrapolated",
+      "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "summary": "Claude Fableのリリースを受け、Anthropicのモデル命名規則が「詩」から「大規模な物語的オブジェクト」へと拡張しつつあることを風刺したユーモア記事。Haiku（小さな詩・小さな請求額）、Sonnet、Opusに続くFableを起点として、Saga、Lore、Cinematic Universe、Omnibusといった架空の将来モデルが列挙されている。各モデルには「Fable (xhigh)は破産へのスピードラン」「Terms of Serviceは回答と結果に対するいかなる責任も負わない」といった皮肉な説明が付されている。モデルの多様化とコスト増大に対する開発者コミュニティの視点をユーモアで表現した内容。",
+      "category": "model",
+      "points": 229,
+      "comments": 62,
+      "author": "sammycdubs"
+    },
+    {
+      "source": "hackernews",
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "url": "https://burr.apache.org/",
+      "summary": "Apache Burr（インキュベーティングプロジェクト）はシンプルなチャットボットから複雑なマルチエージェントシステムまで構築できるPure Pythonフレームワーク。DSLやYAMLを必要とせずPython関数とデコレータだけでアクション・トランジション・状態を定義でき、組み込みUIでリアルタイムのデバッグ・トレースが可能。状態の永続化・途中再開・ヒューマンインザループ・並列実行にも対応しており、特定プラットフォームへのロックインがない。OpenAI・Anthropic・LangChain・Hamilton等との豊富なインテグレーションが揃っている。LangChainやCrewAI等と比較してよりロバストな複雑動作設計が可能と評価されており、世界中のエンジニアに採用が広がっている。",
+      "category": "agent",
+      "points": 151,
+      "comments": 84,
+      "author": "anhldbk"
+    },
+    {
+      "source": "zenn",
+      "title": "「Claude Code」を支える技術",
+      "url": "https://zenn.dev/knowledgesense/articles/7ce72924c0050f",
+      "summary": "Claude Codeのソースコード解析論文（arxiv:2604.14228）を基に、そのアーキテクチャを解説した記事。Claude Code全体のうちAIが「次に何をすべきか考える」部分はわずか1.6%で、残り98.4%はユーザー体験・安全性を担う「ハーネス」で構成されているという知見が紹介されている。ハーネスの主要要素は、Deny→Ask→Allowの権限システム、コンテキストを段階的に圧縮する5段階処理、Git worktreeを活用したサブエージェントのファイルレベル分離、append-onlyなJSONLによるセッション永続化の4点。CLAUDE.mdはシステムプロンプトではなくユーザーメッセージとして渡されるため「ガイダンス」にすぎず、確実に守らせたいルールは決定論的なパーミッション側で制御する設計。賢いモデルが「思う存分働ける環境」を徹底的に作り込むことがClaude Codeの本質だと結論づけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code のトークン削減を実測した — semble 93%・cacheRead 1800倍の内訳",
+      "url": "https://zenn.dev/pepabo/articles/claude-code-token-reduction-measured",
+      "summary": "Claude Codeのトークン削減効果を実際のログで計測したレポート。ccusageで集計した累計cacheReadは136億トークンで、ある1日の入力45万トークンに対してcacheReadが8億トークン（約1800倍）という比率が確認された。コード検索MCPサーバ「semble」の導入により、総当たり読み込みと比較して検索時のトークンを約93%削減した。独自の3工夫として、ルールのon-demand化によるセッション開始コストの削減、セッションログからルール化すべきパターンを自動抽出するrule-mining、削減効果の定期計測が紹介されている。プロンプトキャッシングはモデルや設定変更でキャッシュが破棄されるため「設定変更後はセッションを切り直す」運用でキャッシュ破棄を1回に集約することが重要。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "設計資料をHTMLで回す — 生成・レビュー・社内共有のワークフロー",
+      "url": "https://zenn.dev/rehabforjapan/articles/html-design-doc-workflow-claude-code-202605",
+      "summary": "Claude Codeを使ってHTMLで設計資料を生成・レビュー・社内共有するワークフローを紹介した記事。コメント機能付きのHTMLを生成し、指摘をそのままClaude Codeへの修正プロンプトとして一括コピーできる仕組みにより、レビューの二重作業が解消された。生成したHTMLはCloudFront + S3 + Cognito構成の社内基盤にpublishスキルでデプロイし、Google SSOで全社員がブラウザから閲覧可能。HTMLにMarkdownコピーを内包させることで特定リポジトリへの依存をなくし、マルチリポジトリの並行開発でも共通の設計資料を各Claude Codeへ配布できる体制を実現した。外部依存がないインラインHTMLのためS3に上げても単体で完結し、履歴重視型と安定URL型の2系統のpublishスキルを用途で使い分けている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Maestro MCPとClaude Code Skillsによる自律的なE2Eテスト作成",
+      "url": "https://zenn.dev/flierinc/articles/fcf32bfa82524e",
+      "summary": "MaestroのMCPサーバとClaude Code Skillsを組み合わせ、FlutterアプリのE2Eテストを自律的に生成・実行・修正するOSSワークフローを公開した記事。Maestroはモバイルアプリ向けのE2EテストフレームワークでYAML形式でAndroid/iOSのテストを記述でき、MCPサーバ経由でAIエージェントがデバイスを操作・調査できる。公開したSkillはコード調査→Semantics(identifier)追加→Maestro Flow生成→テスト実行→失敗時修正・再実行という一連の工程を自動化する。表示テキストよりSemanticsのidentifierを優先することでUI文言変更に強いテストが生成され、画面録画の開始・終了やアサーションも自動挿入される。単なる生成にとどまらず実際に動作確認まで含めたSkill設計が、テストシナリオの品質を担保するポイント。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "メモリが潤沢ではないPCでローカルLLMにコーディング質問した結果",
+      "url": "https://zenn.dev/okamyuji/articles/local-llm-ruby-pitfall-benchmark-18gb-mac",
+      "summary": "18GB統合メモリのMacBook Pro（M3 Pro）でOllama経由のローカルLLM3種（Gemma 4 E4B・Qwen 3.5 9b・Qwen 2.5 Coder 14b）にRubyとGoのコーディング質問を行い、回答精度を比較した検証レポート。17GBのQwen3.6:27bは他アプリが操作不能になり実用できず、18GBでは9〜10GB以下のモデルサイズが実用上の上限と判明した。Rubyの検証ではProc/Lambdaのreturn挙動やGREETING定数のミュータビリティなどRuby固有の仕様に関して、どのモデルも完全正解には至らなかった。GoではGoroutineのクロージャによるループ変数キャプチャ問題をコーディング特化のQwen 2.5 Coderが最も正確に回答した。モデルの言語別の得意・不得意が明確に現れ、ローカルLLMの実用的な選定指標として参考になる。",
+      "category": "model"
+    },
+    {
+      "source": "devto",
+      "title": "Join the GitHub Finish-Up-A-Thon Challenge: $3,000 Prize Pool!",
+      "url": "https://dev.to/devteam/join-the-github-finish-up-a-thon-challenge-3000-prize-pool-f41?bb=263529",
+      "summary": "GitHubが主催する「Finish-Up-A-Thon」チャレンジの告知記事で、放置した過去プロジェクトをGitHub Copilotを活用して完成させることがテーマ。賞金総額3,000ドルで10名が各300ドルを受け取り、全参加者に完了バッジが付与される。審査基準は使用技術・UX・独創性・完成への軌跡（ビフォーアフターの明確さ）の4点で、Copilotがどのように完成に貢献したかを示した投稿が対象となる。締め切りは2026年6月7日で、受賞者発表が遅延していることも記事中で更新されている。",
+      "category": "product",
+      "tags": [
+        "githubchallenge",
+        "devchallenge",
+        "githubcopilot"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Code Works. What Could Possibly Go Wrong?",
+      "url": "https://dev.to/sylwia-lask/the-code-works-what-could-possibly-go-wrong-5hbm",
+      "summary": "AIをコードベース全体に任せることへの過信に警鐘を鳴らす考察記事。LLMは一般的な情報では信頼度が高い一方、専門知識が必要な領域ほど誤情報・矛盾した回答が増えるという傾向が著者の体験から示されている。コード生成ではXSS脆弱性やセキュリティ問題が細部に紛れ込んでいるケース、不必要な抽象化や巨大なモノリシックファイルが生成されるケースが指摘されている。AIをコードの「権威」ではなく「ツール」として扱い、特に医療と同様に専門家の確認・批判的評価が必要だと主張している。表面上は機能するコードでも隠れた問題がプロダクション環境を壊しうるという点を強調している。",
+      "category": "security",
+      "tags": [
+        "discuss",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "CSS – only a Nerdy Hobby?",
+      "url": "https://dev.to/ingosteinke/css-only-a-nerdy-hobby-17hf",
+      "summary": "2026年においてAIが2日でWebサイトを作れる時代に、CSSを深く理解することの価値を問い直した記事。経験豊富なシニアWeb開発者として、AIやジュニアエンジニアが対処に苦労するレガシーCSSのデバッグでは深い理解が依然有効だと主張している。新規プロジェクトではTailwindなど生産性の高いCSS抽象化を積極的に活用する一方、自身のCSSケーススタディシリーズは継続している。AI万能論とコードゴルフ的な技術オタク論の双方に辟易しながら、実用的・プラグマティックな姿勢で品質と完成にフォーカスすることを推奨している。本文はAIを使わず人間が100%執筆したが、AI検出ツールでも20%のAI判定が出たことを紹介し、AI検出の限界も示している。",
+      "category": "other",
+      "tags": [
+        "watercooler",
+        "ai",
+        "css",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How we built AIventure, an AI-Powered Retro Dungeon",
+      "url": "https://dev.to/googleai/how-we-built-aiventure-an-ai-powered-retro-dungeon-2f54",
+      "summary": "GoogleがAIventure（レトロダンジョン型Webゲーム）を構築した経緯を紹介した記事。Angular + Phaser.JSのハイブリッド構成で、プレイヤーがAIにUI生成を指示する「バイブコーディングルーム」と、自然言語でNPCロボットがゲーム世界内で行動する「エージェントパズル」を実装した。当初はGemini APIのクラウドエンドポイントを使用したが、ブラウザ単体で完結する体験にするためGemma 4（E2B/E4B）をMediaPipeとWebGPUでブラウザ内で動作させることに成功した。OllamaやLM Studio・Transformersで関数呼び出しとエージェントワークフローの精度をテストし、最終的にMediaPipeを採用した経緯が詳述されている。生成AIを「乾燥したドキュメント」ではなく「ゲームプレイ」で学べる体験として設計されている。",
+      "category": "product",
+      "tags": [
+        "gamedev",
+        "gemini",
+        "gemma",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Loop Is Not the Product",
+      "url": "https://dev.to/dannwaneri/the-loop-is-not-the-product-466d",
+      "summary": "「エージェントをプロンプトするループを設計せよ」という提言を起点に、エージェントループの運用コスト急騰と本質的な価値創出の問題を問う考察記事。シンプルな質問1回0.04ドル（2023年）がマルチエージェントのオーケストレーションで1.20ドル（2026年、30倍増）になる「エージェントループ乗数」を指摘し、Gartnerはチャットボット比5〜30倍のトークン消費と推計している。73%の企業がAIコストが当初予測を超過したと報告しており、人間の従業員がコードベースや文化を蓄積するのに対しエージェントはセッションごとにリセットされ「毎朝同じオリエンテーション費用」を払い続けることになる。ループを設計することはその先に顧客価値がない限り先送りにすぎないと警告している。",
+      "category": "agent",
+      "tags": [
+        "discuss",
+        "ai",
+        "webdev",
+        "productivity"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code と Codex のレート残量を確認するためにブラウザを開くのをやめた話",
+      "url": "https://qiita.com/tatsuya582/items/5ca0c12a8495530f7d09",
+      "summary": "Claude CodeとCodexのレートリミット残量を端末の1ペインに常時表示するシェルスクリプトツールの開発記録。statusLineへの表示では「両方を同時に確認できない」「いつ時点の値か不明」という問題があったため、cmuxのペインで常時描画する方式を採用した。ClaudeはOAuthのusageエンドポイント（`/api/oauth/usage`）、CodexはJSON-RPCのapp-serverから残量を取得し、5時間枠・週枠の利用率・バー・リセット残り時間を一覧表示する。429エラー対策として最短55秒キャッシュ+失敗時は前回値を使う処理も実装されている。常時表示化により、作業中にClaude/Codexを切り替えたりモデルを変更したりという最適化判断の利便性が大幅に向上した。",
+      "category": "devtool",
+      "tags": [
+        "ShellScript",
+        "codex",
+        "生成AI",
+        "Claude",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "[ハンズオン手順書] Claude + Microsoft Foundry で AI エージェントを構築する #CodeWithClaude",
+      "url": "https://qiita.com/chomado/items/a072528364883ae7bb96",
+      "summary": "Anthropicの公式カンファレンス「Code w/ Claude Tokyo」（2026年6月10日）でMicrosoftが提供したハンズオンの手順書。Microsoft Foundry（旧Azure AI Foundry）とMicrosoft Agent Frameworkを使い、Claude Sonnet 4.6をバックエンドにカップケーキ注文AIエージェントを構築する内容。Playgroundでのモデル動作確認→Hello Worldエージェント作成→MCP経由でカップケーキ在庫DBへ接続→エージェントへのペルソナ設定という順で実装を進める。会場ではClaudeとMicrosoft Foundryのロゴ入り物理カップケーキが配布され、エージェント経由で注文した参加者のリアルタイム注文状況をダッシュボードで表示するデモが行われた。先週のMicrosoft Buildカンファレンス後のFoundryポータルUI更新に対応した最新手順書として公開されている。",
+      "category": "agent",
+      "tags": [
+        "ハンズオン",
+        "Claude",
+        "AIエージェント",
+        "MicrosoftFoundry"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "経験浅いエンジニアが AI に React 書かせてると、進化に取り残される説",
+      "url": "https://qiita.com/Yamada040/items/be9684ba52ae88f76dda",
+      "summary": "経験1年ほどのジュニアエンジニアが最新GPT-5.5にReactのお問い合わせフォーム実装を依頼したところ、useStateを4つ使う古いパターンのコードが生成され、React 19の新機能を知らないまま「これが正しい書き方」として吸収してしまう問題を指摘した記事。React 19の`useActionState`フックを使えば、formDataの手動state管理やisSubmitting/successMessage/errorMessageの個別管理が不要になり大幅に簡略化できる。最新モデルでも古い実装パターンが返ってくることは珍しくなく、何が古くて何が新しいかを判断する基準を自ら持っていないと気づけない。AIのコードに依存し続けることが、フレームワークの進化への追従を阻む可能性があるという警鐘。",
+      "category": "devtool",
+      "tags": [
+        "TypeScript",
+        "AI",
+        "React",
+        "LLM",
+        "ジュニアエンジニア"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "落語で学ぶ『AI時代のDDD』ドメインプリミティブ編",
+      "url": "https://qiita.com/Yametaro/items/226e7c06bc9d5877e64e",
+      "summary": "落語スタイルの対話形式でDDD（ドメイン駆動設計）のドメインプリミティブパターンを解説した記事。初回登録クーポンと全会員向けクーポンが同じstring型として実装されていたため、AIエージェントが取り違えて障害を引き起こすというシナリオから始まる。解決策として各クーポンを専用クラス（WelcomeCouponCode/AllMemberCouponCode）でラップしコンストラクタでバリデーションを行うドメインプリミティブを適用し、型レベルで取り違えをコンパイルエラーとして防ぐ設計を示す。AIのセッションはリセットされるたびに事情を忘れるため、コードに「商売の意味」が型として表現されていればAIが少ない手がかりでも正確に動作できると説く。AI時代だからこそ設計の質が重要であり、雑なコードはAI保守コストを増大させるという教訓。",
+      "category": "other",
+      "tags": [
+        "DDD",
+        "生成AI",
+        "ドメインプリミティブ",
+        "AIエージェント",
+        "関東型言語"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "なぜCatBoostはカテゴリ変数に強いのか？LightGBM・XGBoostとの違いから理解する",
+      "url": "https://qiita.com/KanNishida/items/72a7fd6854e99506cdff",
+      "summary": "機械学習ライブラリCatBoostがカテゴリ変数の処理に優れる理由を、ランダムフォレスト・XGBoost・LightGBMとの比較で解説した記事。One-Hot Encodingは高カーディナリティ変数（カテゴリ数が多い変数）でメモリ爆発・過学習の問題があり、従来のターゲットエンコーディングには学習データへの情報漏洩（リーケージ）という欠陥があった。CatBoostは「Ordered Target Statistics（順序付きターゲット統計量）」を採用し、自分より前の行だけを使ってカテゴリ統計量を計算することで情報漏洩を防ぐ。顧客セグメント・地域・商品カテゴリ・業種など高カーディナリティなカテゴリ変数が多いビジネスデータで特に威力を発揮し、ExploratoryではCatBoostをv15.5以降でサポートしている。",
+      "category": "research",
+      "tags": [
+        "機械学習",
+        "データ分析",
+        "データサイエンス"
+      ]
+    }
+  ]
+}
