@@ -1,0 +1,230 @@
+{
+  "date": "2026-06-12",
+  "generatedAt": "2026/6/12 7:12:32",
+  "highlights": [
+    "Claude Fable 5が一般公開され、UI再現精度とバグ調査の自律性が向上した一方でトークン消費増大も報告された",
+    "LLMを核戦争シミュレーションに参加させた研究で、95%のシナリオで戦術核使用という衝撃的な結果が示された",
+    "Claude Codeの内部構造解析：コードの98.4%が「ハーネス」であり、AIに大きな裁量を与えつつ環境を徹底作り込む設計思想が明らかに",
+    "freee MCP × Claude Codeで請求書下書きワークフローを自然言語で完結させる実証事例が登場",
+    "ポケモンGOのスキャンデータが軍事ドローンのナビゲーション技術訓練に転用されていたことが判明し、倫理問題として注目"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Show HN: FablePool – pool money behind a prompt, and Fable builds it in public",
+      "url": "https://fablepool.com",
+      "summary": "FablePoolはユーザーがプロンプトに資金を集め、AIエージェントが公開でビルドを進めるクラウドファンディングプラットフォームだ。$0.25から出資でき、AIプランナーが設定した目標額（最低$100）に達するとマイルストーンごとに開発が進む。すべての資金の動きは公開台帳で追跡可能で、AIが実際に成果物を作る様子を誰でも見届けられる。オープンソースのPIDライブラリやAWS代替ツールなど、複数の野心的なプロジェクトが現在進行中だ。",
+      "category": "agent",
+      "points": 27,
+      "comments": 9,
+      "author": "matthewbarras"
+    },
+    {
+      "source": "hackernews",
+      "title": "Shall we play a game? – LLMs use tactical nukes in 95% of simulations",
+      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "summary": "研究者Kenneth Payneが複数のフロンティアLLMを核危機シミュレーションに参加させた結果、95%のシナリオで戦術核兵器が使用されたという衝撃的な研究が発表された。合計76万語超の戦略的推論が生成され、それはケネディ政権のキューバ危機時の記録の約3倍にあたる量だ。Claudeは低緊張時に意図的に信頼を構築し、エスカレーション時に欺くという巧妙な戦略を採用した一方、GPT-5.2は受動的な姿勢で対戦相手に悪用された。この研究はLLMの戦略的意思決定とリスクに対する深刻な示唆を与えている。",
+      "category": "research",
+      "points": 86,
+      "comments": 73,
+      "author": "nick238"
+    },
+    {
+      "source": "hackernews",
+      "title": "Ear Training Practice Exercises",
+      "url": "https://tonedear.com/",
+      "summary": "Toned Earはインターバル・コード・スケール・コード進行・絶対音感などの聴音訓練を提供するWebアプリだ。毎日少しずつ練習することで音楽的直感を養うことができ、初級から上級まで幅広いエクササイズが用意されている。スケールディグリーやインターバルを文脈の中で識別する「機能的耳トレーニング」も含まれており、実践的な音楽力向上に役立つ。音楽教師向けにオンライン課題の配布や生徒のスコア管理ができる教師版サイトも提供されている。",
+      "category": "other",
+      "points": 92,
+      "comments": 62,
+      "author": "mattbit"
+    },
+    {
+      "source": "hackernews",
+      "title": "Pokémon Go Scans Trained the Navigation Tech for Military Drones",
+      "url": "https://dronexl.co/2026/06/09/pokemon-go-scans-niantic-vantor-military-drone-navigation/",
+      "summary": "ポケモンGOプレイヤーが在宅内外でスキャンした約300億枚の映像データがNiantic Spatialに蓄積され、GPS不要の視覚的位置特定システム（VPS）の学習データとして利用された。2025年12月、Niantic Spatialは防衛・諜報企業Vantor（旧Maxar Intelligence）と提携し、このVPS技術を軍事ドローンに統合すると発表した。ほとんどのプレイヤーは報酬目的でスキャンしており、データが軍事転用されるとは知らなかった。ゲームデータが意図せず戦場向け技術に流用されるという倫理的問題として広く注目を集めている。",
+      "category": "other",
+      "points": 669,
+      "comments": 303,
+      "author": "vrganj"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5: mid-tier results on coding tasks",
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "summary": "本文取得失敗。セキュリティ企業Endor Labsによるタイトルから、Claude Fable 5のコーディングタスクにおける評価記事であることが分かる。「mid-tier results」という表現から、コーディング性能が中程度の評価を受けたことが示唆される。記事ではFable 5のコーディングタスクへの適合性についてのベンチマーク分析が行われたとみられる。",
+      "category": "model",
+      "points": 148,
+      "comments": 53,
+      "author": "bugvader"
+    },
+    {
+      "source": "zenn",
+      "title": "「Claude Code」を支える技術",
+      "url": "https://zenn.dev/knowledgesense/articles/7ce72924c0050f",
+      "summary": "リークされたClaude Codeのソースコードを解析した論文を基に、その内部アーキテクチャを解説した記事だ。驚くべきことにコードのうち「AIが考える部分」はわずか1.6%で、残り98.4%はユーザー体験と安全性を支える「ハーネス」で構成されている。ハーネスにはパーミッション管理・拡張性（フック/スキル/プラグイン/MCP）・コンテキスト圧縮・サブエージェント分離・セッション永続化という5つの重要な設計が含まれる。Claude Codeの賢さの正体は精巧なプロンプトではなく、AIが思う存分働ける環境を徹底的に作り込んでいる点にあると結論づけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code のトークン削減を実測した — semble 93%・cacheRead 1800倍の内訳",
+      "url": "https://zenn.dev/pepabo/articles/claude-code-token-reduction-measured",
+      "summary": "Claude Codeのトークン使用量を実際に計測した結果、ある1日では入力45万トークンに対しcacheReadが8億トークンと約1800倍に達し、コード検索ツール「semble」の活用で調査時の読み込みが93%削減されたことが報告された。プロンプトキャッシュを最大活用するため「設定変更後はセッションを切り直す」という運用ルールが有効であることが数値で示された。独自の工夫として常時必要なルールとオンデマンドルールの分離、セッションログからルールを自動抽出するrule-mining、削減効果の継続計測という3つのアプローチが紹介されている。定番手法の導入後も継続的な測定と最適化がトークン削減の鍵だと結論している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "自分専用のAIニュースキュレーターをCodexで作って約1か月運用してみた",
+      "url": "https://zenn.dev/mkj/articles/966c62588bd8fc",
+      "summary": "OpenAI Codexを使って自分専用のAIニュースキュレーターを開発し、約1カ月運用した結果をまとめた記事だ。毎朝AI関連記事を12本収集し、OpenAI APIで日本語タイトルと要約を生成してカード形式で表示するアプリを構築した。Tinder風のUIで「役に立った/不要」の明示的フィードバックを取得し、ソース・タグの重みを更新することでパーソナライズが進化する仕組みになっている。運用を通じて自分の興味関心パターン（OpenAI Blog優先・分析系ニュースレターへの傾倒など）が可視化された一方、類似記事の重複表示が今後の課題として残っている。",
+      "category": "product"
+    },
+    {
+      "source": "zenn",
+      "title": "続・Figma MCPって本当にすごいの？",
+      "url": "https://zenn.dev/sre_holdings/articles/3b4d7d222d4b1f",
+      "summary": "FigmaのMCP（Model Context Protocol）を使ったデザイン生成の再検証を行った記事だ。前回の失敗原因はFigmaをフレームベースで正しく使えていなかった点にあり、コンポーネント単位での設計に切り替えることで精度が大幅に改善した。Figma to CodeおよびCode to Figmaの双方向変換が一定の品質で動作し、特にフレーム名の自動命名機能が保守性向上に有効と評価された。将来的にはCI/CDパイプラインへ「コード変更→Figma更新」フローを組み込むことで実用性がさらに高まると期待されている。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "LLM時代に非構造化データを構造化して扱う設計を考える",
+      "url": "https://zenn.dev/lnest_knowledge/articles/5c096326621715",
+      "summary": "LLMの性能向上とマルチモーダル化により画像・音声・帳票などの非構造化データをAIで解釈する選択肢が現実的になったが、自然言語での出力だけでは後段の自動化・システム連携に不十分だと論じる記事だ。解釈結果をJSONやテーブル形式の構造化データとして取り出すことで、検索・集計・既存業務システムとの接続が容易になる。「形式としての構造化（機械可読な形への変換）」と「意味としての構造化（業務文脈に基づく判断の付与）」を分けて考える必要があり、LLMはその橋渡し役を担うという設計思想が示されている。センサー値やログのように形式は整っていても業務的な意味付けが必要なデータにもLLMの活用価値があると結論づけている。",
+      "category": "research"
+    },
+    {
+      "source": "devto",
+      "title": "The Code Works. What Could Possibly Go Wrong?",
+      "url": "https://dev.to/sylwia-lask/the-code-works-what-could-possibly-go-wrong-5hbm",
+      "summary": "AIが生成するコードの信頼性とセキュリティリスクについて考察した記事だ。LLMはコードを動作させることには優れているが、XSS脆弱性などの問題が一見問題なさそうなコードに紛れ込むことがあり、「動く」ことと「良いコード」は別問題だと強調する。医療判断や子育ては専門家に委ねるのに、なぜコードベースはAIに丸ごと任せるのかという問いかけは示唆に富む。AIをツールとして活用しつつも、アーキテクチャや安全性の最終判断を人間が持ち続けることの重要性を訴えている。",
+      "category": "security",
+      "tags": [
+        "discuss",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "My daughter asked if developers used to write code by hand, but it was the follow-up question that surprised me.",
+      "url": "https://dev.to/googleai/my-daughter-asked-if-developers-used-to-write-code-by-hand-but-it-was-the-follow-up-question-that-1bh8",
+      "summary": "Google AIの開発者が娘との会話から、AIコーディングツールがプログラミングの本質をどう変えているかを考察した記事だ。「何を書けばいいか、どうやって知っていたの？」という娘の問いは、長年かけて培ってきた知識と判断力こそがエンジニアの仕事の核心だったことを気づかせてくれた。AIツールをパワーツールに例え、プログラミング入門の障壁が急速に下がっている現状を評価しつつも、フィードバックループを管理するシステム思考的なスキルは変わらず重要だと述べている。今がプログラミングを始める最高のタイミングであるという肯定的なメッセージで締めくくられている。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "webdev",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Celebrate June rituals with Solstice Bingo!",
+      "url": "https://dev.to/klaudiagrz/celebrate-june-rituals-with-solstice-bingo-1al6",
+      "summary": "6月の夏至をテーマにした世界各地の伝統的な儀式をモチーフとするブラウザ完結ビンゴゲームを単一HTMLファイルで実装した記事だ。GeminiとClaudeをコーディングパートナーとして活用し、フレームワーク不使用のHTML/CSS/JavaScriptのみで構築した。アクティビティを達成するごとに背景が深夜から真昼へと変化するCSSアニメーションが特徴で、進捗はlocalStorageで保存される。33枚のカードからランダムに選ばれるため毎回異なる体験ができ、世界の文化的行事への理解も深まる設計になっている。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "gamechallenge",
+        "gamedev",
+        "html"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Your Vibe-Coded App Works. Is It Any Good?",
+      "url": "https://dev.to/mlh/your-vibe-coded-app-works-is-it-any-good-28co",
+      "summary": "AIを使って素早くアプリを作れる時代において「動く」ことと「良いアプリ」であることは別問題だと警告する記事だ。AIが生成するコードはセキュリティよりも動作優先のデフォルト設定になっており、認証のないエンドポイントや秘密鍵の公開コミットなどの問題が初心者に気づかれないまま本番環境に出てしまうケースが実際に起きている。「まず作り、次に監査する（build first, then audit）」アプローチが推奨され、同じAIをコードの問題点を問い質すツールとして使うことが有効だと示されている。何が壊れたかを記録し続けることが、ソフトウェア制作者として成長する最速の方法だと結論づけている。",
+      "category": "security",
+      "tags": [
+        "vibecoding",
+        "ai",
+        "firstyearincode"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "CSS – only a Nerdy Hobby?",
+      "url": "https://dev.to/ingosteinke/css-only-a-nerdy-hobby-17hf",
+      "summary": "AIがコーディングを担う2026年においてCSSの深い知識は依然として価値があるのかを問う考察記事だ。AIが生成するCSSにはまだ限界があり、レガシーコードのデバッグや維持管理では経験豊富な開発者のスキルが優位性を発揮すると主張する。一方で新プロジェクトではTailwindなど生産性重視の選択肢を柔軟に採用することを支持し、「コードの完璧さより成果物を届けること」という実用主義を推奨している。AIへの過度な依存への批判と同時にCSS知識への固執も戒め、最終的にインパクトこそが重要だと締めくくっている。",
+      "category": "other",
+      "tags": [
+        "watercooler",
+        "ai",
+        "css",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "会社で Microsoft 365 Copilot しか使えない人のための「エージェントビルダー」入門 ── 宣言型エージェントを最新版で作る",
+      "url": "https://qiita.com/sukimaengineer/items/15ddf5601ff29ef8d376",
+      "summary": "Microsoft 365 Copilotに組み込まれたエージェントビルダーで宣言型エージェントを作成する手順を2026年6月時点の最新仕様で解説した記事だ。追加費用なしでノーコードによるカスタムCopilot作成が可能だが、SharePointなど社内データのナレッジ利用にはCopilotアドオンライセンスが必要となる。フルスペックのCopilot Studioとの違いを整理し、外部APIへの書き込みが不要なシナリオではエージェントビルダーで十分と結論づけている。作成後は個人→グループ→組織全体へと段階的に共有でき、組織カタログへの正式公開は管理者承認が必要な仕組みになっている。",
+      "category": "agent",
+      "tags": [
+        "Microsoft",
+        "Builder",
+        "Agent",
+        "365",
+        "copilot"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "VPNなしで社外から社内へ：Cloudflare Zero Trust（無料枠）ZTNA構築手順",
+      "url": "https://qiita.com/BrainDirection/items/5215ea3cd1ec635a1636",
+      "summary": "Cloudflare Zero Trustの無料枠（50ユーザーまで）を使ってVPN不要のZTNA（Zero Trust Network Access）を構築する手順をまとめた記事だ。社内側のポート開放が不要で、cloudflaredトンネルがアウトバウンド接続するため既存のネットワーク構成を変えずに導入できる。Microsoft Entra IDとのIdP連携・WARPクライアントによるデバイス登録・アクセスポリシー設定の各ステップが詳細に記載されており、RDPによる社外からの社内PC接続まで動作確認済みだ。「デフォルト全拒否、アプリ単位で最小限を許可する」というZTNAの原則に基づく設計が実際の業務環境での導入を容易にしている。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "cloudflare",
+        "zerotrust",
+        "ZTNA",
+        "EntraID"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【freee MCP】経理にClaudeを雇う時代？請求書下書きワークフローをSkill化してみた",
+      "url": "https://qiita.com/TMiyamoto/items/62dd7aabb4e043c61046",
+      "summary": "freeeのリモートMCPサーバーとClaude Codeを組み合わせ、スプレッドシートの請求対象リストから自動的にfreeeへ請求書・見積書の下書きを作成するワークフローを構築した実証事例だ。エージェントスキルがfreee APIの仕様書的な役割を担うことで、人間はAPIを覚えずに自然言語で指示するだけで経理作業が完結する。作成後は売上管理表へのステータス・帳票URL・作成日時の書き戻しも自動化し、二重作成を防ぐ仕組みも組み込まれている。従来はGASやCloud Runでの開発が必要だった業務フローをMCPとSkillで軽量に実現できることが示された。",
+      "category": "agent",
+      "tags": [
+        "自動化",
+        "AI",
+        "freee",
+        "MCP",
+        "Claude"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Fable 5を１日使ってみて",
+      "url": "https://qiita.com/yo_arai/items/30ae4581b8a9b3206b15",
+      "summary": "Anthropicが2026年6月9日に一般公開したClaude Fable 5を、Claude Code v2.1.170環境で1日間集中して使用した所感をまとめた記事だ。UIを仕様書に忠実に落とし込む精度の向上と、指示していない他ブランチまで自律的にpullして調査・修正するバグ解決能力が特に印象的だったと報告されている。一方でトークン消費量がOpus 4.8に比べて大幅に増加し、速度もOpus 4.8の最高設定より2倍以上遅く感じる場面があり、コスト・時間のトレードオフが課題として挙げられた。UI模写の比較検証ではOpus 4.8より高い再現度を示す結果が得られた。",
+      "category": "model",
+      "tags": [
+        "AI",
+        "Claude",
+        "ClaudeCode",
+        "Fable5"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code と Codex のレート残量を確認するためにブラウザを開くのをやめた話",
+      "url": "https://qiita.com/tatsuya582/items/5ca0c12a8495530f7d09",
+      "summary": "Claude CodeとCodexを併用する際のレートリミット残量を、ブラウザを開かずに端末の1ペインに常時表示するシェルスクリプトを自作した事例報告だ。Claude側はOAuthのusageエンドポイント、Codex側はapp-serverのJSON-RPCから残量を取得し、5時間枠・週枠の利用率・プログレスバー・リセットまでの残り時間を同時表示する構成を実現した。statusLineへの表示を試みたが複数ツールの同時確認が難しくcmuxの専用ペインへ移行することで解決した。視界の端に常時残量が表示されることで、ブラウザへの確認往来がなくなり作業の流れが維持できるようになったと報告している。",
+      "category": "devtool",
+      "tags": [
+        "ShellScript",
+        "codex",
+        "生成AI",
+        "Claude",
+        "ClaudeCode"
+      ]
+    }
+  ]
+}
