@@ -1,0 +1,209 @@
+{
+  "date": "2026-06-15",
+  "generatedAt": "2026/6/15 7:11:40",
+  "highlights": [
+    "リオデジャネイロ市の「独自開発」LLMが実際は既存モデルの重み混合であることが発覚し、AI開発の透明性・誠実性に改めて注目が集まっています",
+    "GitHub Copilotの従量課金移行を受け、OpenCode GoやCodexなど代替AIコーディングツールへの移行・比較記事が複数登場しています",
+    "Claude Fable 5やGitHub Copilot SDKなど新世代のAI開発ツールが実用段階に入り、現場での活用事例が増加しています",
+    "ローカルLLMを活用した実用プロジェクト（動画インデックス・リース解析）が注目を集め、クラウドAIに依存しない方向性への関心が高まっています",
+    "AIエージェントのメモリ・マルチエージェント社会実験など、エージェント系の研究・実装事例が充実してきています"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "summary": "リオデジャネイロ市が「独自開発」と謳った397億パラメータのLLM「Rio-3.5-Open-397B」が、実際にはNex-AGIのNex-N2_proとQwen3.5-397B-A17Bの重み平均モデル（比率0.6/0.4）であることが発覚した。Nex-AGIは2つの独立した方法で証明：システムプロンプトを除去するとモデルが79%の確率でNexとして自己紹介し、全60層・全コンポーネントの重みが数千標準偏差の精度で同比率に一致することを確認した。独自学習の証拠は一切見つからず、無断使用およびライセンス違反の疑いが強い。公共機関がAIモデルの出所を偽る倫理・法的問題として大きな注目を集めている。",
+      "category": "model",
+      "points": 231,
+      "comments": 125,
+      "author": "unrvl22"
+    },
+    {
+      "source": "hackernews",
+      "title": "Inverse Rubric Optimization: A testbed for agent science",
+      "url": "https://fulcrum.inc/2026/06/09/inverse-rubric-optimization.html",
+      "summary": "Fulcrum Researchが「逆ルーブリック最適化（IRO）」という新しいロングホライズンエージェント評価フレームワークを提案し、コードをオープンソース公開した。IROではエージェントがブラックボックスのジャッジモデルの評価基準を推測・最適化し、そのプロセスで探索・仮説検証などの多様な戦略行動を引き出すことができる。実験ではClaude Fable 5がラベル予算が少ない条件で最高のパフォーマンスを示したが、予算が増えるとOpus 4.6のレベルで頭打ちになる傾向が観察された。フロンティアモデルは追加の判定アクセスがあれば改善するが、提供されたリソースを最大限活用するには至らないことが示された。",
+      "category": "research",
+      "points": 16,
+      "author": "etherio"
+    },
+    {
+      "source": "hackernews",
+      "title": "I indexed 669 GB of my GoPro videos using my M1 Max computer and local ML models",
+      "url": "https://news.ycombinator.com/item?id=48528029",
+      "summary": "M1 MaxコンピュータとオープンソースのローカルMLモデルを使い、2,207本のGoPro動画（668GB・計15時間超）をインデックス化するプロジェクトを構築した事例紹介。クラウドに頼らずローカル処理で顔認識やシーン検索を実現し、検索結果を直接DaVinci Resolveのタイムラインに送ることができる。ハッカーニュースで多くのコメントが寄せられ、DaVinci Resolve 21が同様の機能を内蔵している点も議論された。ローカルAIモデルが個人のメディア管理に十分実用的なレベルに達していることを示している。",
+      "category": "infra",
+      "points": 217,
+      "comments": 42,
+      "author": "iliashad"
+    },
+    {
+      "source": "hackernews",
+      "title": "Not everyone is using AI for everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "summary": "「全員がAIを何にでも使っている」というメディアの論調に対して、実際にはAIの採用パターンは人の肉食スタイルと同様に多様であると指摘した記事。積極的に使う人・限定的に使う人・完全に避ける人の3種類が存在し、均一な普及像は過剰な一般化であると論じている。New York Timesが昨年特集した「AIについて皆がすべてに使っている」という見出しへの批判的考察でもある。技術採用の多様性を認識し、「誰もが使っている」という社会的圧力に流されない慎重な視点の重要性を訴えている。",
+      "category": "product",
+      "points": 384,
+      "comments": 409,
+      "author": "yegg"
+    },
+    {
+      "source": "zenn",
+      "title": "従量制になったGithub Copilotの代わりにOpenCode GoをCopilot Chatのカスタムプロバイダとして使う",
+      "url": "https://zenn.dev/kusuke/articles/82129236caa5f8",
+      "summary": "2026年6月よりGitHub Copilotがクレジット制（従量課金）に移行したことへの対応として、定額制のOpenCode GoをVS Codeのカスタムエンドポイント機能でCopilot Chatのバックエンドとして設定する方法を解説した記事。月$10程度のOpenCode Goを活用することで、コスト抑えつつCopilot的な体験を継続できる。VS Code最新バージョンで利用可能になった「Custom Endpoint」機能を活用した方法で、公式対応ではないものの動作確認済みの設定手順を詳しく紹介している。GitHub Copilotの値上げに悩む個人開発者へのコスト削減策として実用的な情報。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Fable 5に作ってもらった日本語プログラミング入門教材「言語の庭」が凄い",
+      "url": "https://zenn.dev/nextbeat/articles/2026-06-cs-edu-site-fable5",
+      "summary": "AnthropicのClaude Fable 5に「プログラミング教育サイトを作って」とほぼ丸投げで依頼したところ、全6コース・54レッスンの本格的な日本語プログラミング入門サイト「言語の庭」が生成された事例紹介。日本語キーワードで動作する教材用プログラミング言語「にわ語」まで実装されており、GitHubでオープンソース公開されている。構文解析・プログラミング言語処理系を専門とする著者が「想像をだいぶ超えるものが出てきた」と驚いており、最新AIの教育コンテンツ生成能力の高さを具体的に示している。Claude Codeを活用した大規模コンテンツ自動生成の可能性を示す好例。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "GitHub Copilot 難民 ～ Cluade Code ～ Google AI Studio ～ そして Codex へ",
+      "url": "https://zenn.dev/ssknaoya/articles/d9becba1164230",
+      "summary": "GitHub Copilot Proの2026年6月からの従量課金化を受け、Claude Code・Google AI Studio・ChatGPT Codexなど複数の代替AIコーディングツールを試した体験記。VS Code + Copilotの「セミバイブ」コーディング感（ある程度の手動制御を保ちつつAIを活用）に最も近いのはChatGPT PlusのCodexという結論に至った。Claude Codeはフルバイブコーディング寄りでセミバイブには不向きと評価され、ツールによって使用感が大きく異なることを指摘している。また従量課金になるとサンクコスト効果でダメな実装を捨てにくくなるという心理的問題も鋭く指摘されている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "GA した GitHub Copilot SDK (.NET) を試してみた",
+      "url": "https://zenn.dev/microsoft/articles/github-copilot-sdk-dotnet-ga",
+      "summary": "2026年6月2日にGAとなったGitHub Copilot SDKの.NET実装を試した解説記事。このSDKはGitHub Copilotのエージェントエンジンをアプリやサービスに組み込めるもので、計画立案・ツール呼び出し・ファイル編集・複数ターンセッションなどを実装できる。Node.js/TypeScript・Python・Go・.NETに対応し、GAにより安定したAPIとproduction-ready supportが提供されるようになった。.NETでのエージェント開発の具体的なコード例を交えながら基本的な使い方を丁寧に解説している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "DiffusionGemmaの「生成途中の揺らぎ」で概念の矛盾を測る",
+      "url": "https://zenn.dev/tesla/articles/9e618eb27c01ff",
+      "summary": "GoogleのDiffusionGemmaを使い、テキスト生成の途中で発生するトークンの揺らぎを観察することで概念間の矛盾を定量測定する実験的アプローチを紹介した研究記事。通常の自己回帰型LLMと異なりランダムトークンから並列デノイズで文章を生成するDiffusionGemmaの特性を活用し、「どこが揺れるのか」を矛盾の指標として使用するアイデアを実装した。「注文・在庫・人」という3概念を固定して実験アプリを作成し、概念のinstabilityを数値化する試みを実施している。拡散型LLMを単なる生成ツールとしてではなく、意味論的な分析ツールとして活用する新しい視点を提示している。",
+      "category": "research"
+    },
+    {
+      "source": "devto",
+      "title": "Announcing the First DEV Education Track: \"Build Apps with Google AI Studio\" Jess Lee for The DEV Team ・ Jul 2 #learngoogleaistudio #ai #deved #gemini",
+      "url": "https://dev.to/devteam/announcing-the-first-dev-education-track-build-apps-with-google-ai-studio-ej7?bb=238627",
+      "summary": "DEV.toがGoogle AIと提携し、「Google AI StudioでGeminiを使ってアプリをBuildする」というDEV初の教育トラックを発表した。テキストプロンプトからデプロイ済みWebアプリを数分で作成できる「Build apps with Gemini」機能の使い方を体系的に学ぶ3パート構成のプログラム。チュートリアル・ハンズオン・執筆課題をすべて完了すると専用バッジがDEVプロフィールに付与され、Imagen APIを使った画像生成アプリの構築も含む実践的な内容となっている。GoogleのAI Studioをプロダクト開発ツールとして活用するエコシステム拡大策の一環。",
+      "category": "product"
+    },
+    {
+      "source": "devto",
+      "title": "I built a 3B lease risk scanner that runs without an external LLM API",
+      "url": "https://dev.to/asynchronope/i-built-a-3b-lease-risk-scanner-that-runs-without-an-external-llm-api-170a",
+      "summary": "外部LLM APIを使わずローカルで動作する、3Bパラメータモデルベースの賃貸契約リスクスキャナを構築した事例紹介。Hugging FaceのBuild Small Challengeへの参加作品「Lease Lens」で、賃貸契約書内のリスク条項を自動検出する。ローカル実行によりプライバシーが保たれ、APIコストが不要というメリットを持ち、小型モデルでも実用的な文書解析タスクが実現できることを示している。大規模クラウドLLMに依存しないエッジAI活用の実用事例として参考になる。",
+      "category": "model",
+      "tags": [
+        "ai",
+        "machinelearning",
+        "huggingface",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I gave 8 AI agents an island and watched a society emerge — wars, gossip, grudges, and peace",
+      "url": "https://dev.to/dhrupo/i-gave-8-ai-agents-an-island-and-watched-a-society-emerge-wars-gossip-grudges-and-peace-2edj",
+      "summary": "8つのAIエージェントを「島」という仮想環境に配置し、戦争・ゴシップ・遺恨・和解といった社会的行動の創発を観察する「Tiny Civilization」プロジェクトの紹介。TypeScriptで実装された各エージェントは独自のパーソナリティと記憶を持ち、他エージェントとの相互作用で予期せぬ社会的ダイナミクスを生み出す。マルチエージェントシステムにおける創発的社会行動の研究・デモとして注目を集めており、AIエージェントが集団で動く時に起きる複雑な現象を可視化している。自律エージェントの社会形成能力の可能性と限界を探る実験的作品。",
+      "category": "agent",
+      "tags": [
+        "showdev",
+        "ai",
+        "gamedev",
+        "typescript"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How to give Claude (or Cursor) access to your Rails app's activity logs",
+      "url": "https://dev.to/dezsirazvan/how-to-give-claude-or-cursor-access-to-your-rails-apps-activity-logs-38m3",
+      "summary": "Claude（またはCursor）がRailsアプリのアクティビティログにアクセスできるようにする方法を解説した実践記事。ログデータをAIコーディングツールが読める形でezlogsというサービス経由で提供することで、AIがアプリの実際の動作を理解してデバッグや改善提案を行えるようになる。AIを単なるコード生成ツールとしてではなく、アプリの挙動を理解するパートナーとして活用する視点を提示しており、Claude CodeやCursorとのMCP連携に関心のある開発者向けの内容。開発ワークフローへのAI深統合を促進する実践的なガイドとして参考になる。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "rails",
+        "ruby",
+        "devtools"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Everyone says their agent \"has memory\"",
+      "url": "https://dev.to/jennapederson/everyone-says-their-agent-has-memory-26nj",
+      "summary": "AIエージェントが「メモリを持つ」という表現が多義的に使われており、実態が実装によって大きく異なることを指摘した考察記事。コンテキストウィンドウ内の会話履歴から外部データベースへの永続化まで、「メモリ」と呼ばれる仕組みのバリエーションは幅広い。曖昧な用語が混乱を招いており、エージェントを評価・比較する際には実際のメモリアーキテクチャを明確にすることの重要性を論じている。エージェント開発者がメモリ設計を考える際の基本的な概念整理を促す簡潔な記事。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "agents",
+        "memory"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "3年間、AI要件定義に取り組んできた全記録",
+      "url": "https://qiita.com/kumai_yu/items/831717856fd24981799d",
+      "summary": "SIer・ITコンサル出身のAIスタートアップCEO兼CTOが2023年から3年間かけて取り組んだ「要件定義×生成AI」の変遷を時系列で振り返った実践記録。生成AIが登場した時から「要件定義・上流工程を大きく変える」と予感して社内検証を開始し、各フェーズで試したこと・学んだことを詳述している。3年の試行錯誤を経てたどり着いた答えは「少し意外なもの」だったと述べており、AI駆動開発を始める人へのヒントとなる実体験に基づく知見が凝縮されている。生成AIを要件定義に活用したい実務者にとって貴重な一次情報として参考になる。",
+      "category": "product",
+      "tags": [
+        "AI",
+        "要件定義",
+        "AI駆動開発",
+        "Gear.indigo"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【解説】実際の値をもとに、ベクトル化などのRAGの仕組みを根本から理解しましょう",
+      "url": "https://qiita.com/miruky/items/c3d6277ff99afb214b19",
+      "summary": "RAG（Retrieval-Augmented Generation：検索拡張生成）の仕組みを、実際の数値を使って基礎から丁寧に解説した教育記事。ベクトル化・検索フェーズ・生成フェーズを具体的な値とともに追うことで、「なんとなく社内文書を検索してLLMに渡すやつ」という曖昧な理解から脱却できる内容になっている。業務でRAGを導入しようとするエンジニアが確かな基礎理解を得られるよう、AWS環境とも絡めた実践的な視点で書かれている。AI初心者エンジニアでも理解できるよう段階的に解説されており、RAG学習の入門として最適な記事。",
+      "category": "research",
+      "tags": [
+        "AWS",
+        "Security",
+        "AI",
+        "初心者エンジニア",
+        "rag"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【AWS】AI-DLCを実際にチームでやってみてわかったことをまとめてみました",
+      "url": "https://qiita.com/yakumo_09/items/76e416a5ae28f18ad976",
+      "summary": "AWSが提唱するAI-DLC（AI-Driven Development Life Cycle）を若手中心チームでハッカソンに参加しながら実践した体験記。AI-DLCはClaude CodeやCursorなどの個人向けAIコーディングツールの使い方ではなく、チーム全体の開発プロセスをAI前提で再設計する方法論であることを強調している。実際にAI-DLCを採用して開発した経験から、何が有効だったか・どこが難しかったかを具体的にまとめている。個人のAI活用から一歩進んだ、チーム・組織レベルでのAI開発プロセス変革に取り組む実践事例として参考になる。",
+      "category": "devtool",
+      "tags": [
+        "AWS",
+        "AI-DLC"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI Readyな設計書を目指して。人もAIも読みやすい設計書管理",
+      "url": "https://qiita.com/grhg/items/eee10528b403baf89631",
+      "summary": "設計書をMarkdownで管理し、GitHub ActionsとMkDocsを使ってHTML公開することで「AI Ready」な設計書管理を実現するアプローチを提案した記事。ConfluenceではAIによる参照・修正・更新が困難という課題から、AIが読み書きしやすいGitHubベースの構成を模索している。GitHubでのレビューとAI活用を両立する文書管理の具体的なアーキテクチャを解説しており、mermaidを使った図の管理や自動ビルドの仕組みも紹介している。人間とAI双方が利用しやすい設計書の在り方を、GitHubの既存ワークフローに乗せて実現する実践的なガイド。",
+      "category": "devtool",
+      "tags": [
+        "Markdown",
+        "GithubPages",
+        "MkDocs",
+        "mermaid",
+        "GitHubActions"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Amazon Bedrock AgentCore ハーネスでRAG検索機能付きAIエージェントを爆速で構築する",
+      "url": "https://qiita.com/kamo-shika/items/edad802613b45b3d18f1",
+      "summary": "Amazon Bedrock AgentCoreハーネスとBedrockナレッジベースを直接連携させ、RAG検索機能付きAIエージェントを高速に構築する方法を解説した記事。2026年6月14日時点でプレビュー版であり、オレゴン・バージニア北部・フランクフルト・シドニーの4リージョンで利用可能。「ハーネスをクイック作成」ボタンを押すだけという簡単なセットアップ手順が紹介されており、AgentCoreゲートウェイとBedrockナレッジベースの直接接続によってRAGエージェントを素早く構築できる。AWSのマネージドサービスを活用してエンタープライズ向けAIエージェントを低コストで立ち上げたい開発者に参考になる内容。",
+      "category": "agent",
+      "tags": [
+        "AmazonBedrock",
+        "Smithy",
+        "AgentCore"
+      ]
+    }
+  ]
+}
