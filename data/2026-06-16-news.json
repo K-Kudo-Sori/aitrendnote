@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-16",
+  "generatedAt": "2026/6/16 8:12:52",
+  "highlights": [
+    "米国政府の輸出規制指令でAnthropicが最新モデルFable 5・Mythos 5を全世界シャットダウン（6/12〜13）",
+    "G7サミット（仏エビアン、6/15〜17）にOpenAI・Google DeepMind・Anthropicの各CEOが初めて三者そろって出席",
+    "DatabricksがマルチAIエージェント統合フレームワーク「Omnigent」をOSS公開（Apache 2.0）",
+    "Moonshot AIが1兆パラメータの開源コーディングモデル「Kimi K2.7-Code」をリリース（HuggingFace公開）",
+    "AnthropicがProject Glasswing（重要インフラ向けClaude Mythos）を15カ国150組織に拡大"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "米政府の輸出規制指令でAnthropicがFable 5・Mythos 5を全世界停止、「安全性の警告が仇に」",
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "summary": "米国商務省は2026年6月12日夕、輸出規制指令によりAnthropicにClaude Fable 5およびMythos 5への外国人アクセスを即時停止するよう命じた。Anthropicはリアルタイムに外国籍ユーザーを判別する手段がないとして、全世界向けサービスを停止。同社は「潜在的なジェイルブレイクが商用モデルの回収理由にはならない」と強く異議を唱えており、この事態は安全性を前面に出してきたAnthropicの戦略が政府の監視を招いたと指摘されている。アクセス回復に向け政府と交渉中。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "G7サミット（仏エビアン、6/15〜17）にOpenAI・Google DeepMind・Anthropic CEOが初参加、AI規制議論へ",
+      "url": "https://en.wikipedia.org/wiki/52nd_G7_summit",
+      "summary": "フランスのエビアン＝レ＝バンで開催中の第52回G7サミット（6月15〜17日）に、Sam Altman（OpenAI）・Demis Hassabis（Google DeepMind）・Dario Amodei（Anthropic）の三CEOが初めて同席する。マクロン大統領の直接招待を受けたもので、AI安全性・AI規制・オンライン上の児童保護が主要議題。主要AI企業3社が同一の首脳会議に揃うのは初の事例とされ、AI統治の枠組みをめぐる国際交渉が加速する見通し。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "DatabricksがマルチAIエージェント統合フレームワーク「Omnigent」をApache 2.0でOSS公開",
+      "url": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents",
+      "summary": "Databricksは2026年6月13日、Claude Code・Codex・PiなどAIエージェントを横断的に統合・制御するメタハーネス「Omnigent」のα版をApache 2.0ライセンスで公開した。複数エージェント間のテキストストリームやツール呼び出しを統一APIで管理し、コスト予算やアクセス権限のポリシーを適用するガバナンス層として機能する。セッションURLの共有によりチームが同一エージェントをリアルタイムで共同レビューする機能も備え、5,000人規模でコーディングエージェントを運用してきたDatabricks自身の知見が設計に反映されている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Moonshot AI、1兆パラメータの開源コーディングモデル「Kimi K2.7-Code」をリリース",
+      "url": "https://cryptobriefing.com/kimi-k2-7-code-open-source-release/",
+      "summary": "中国のMoonshot AIは2026年6月12日、1兆パラメータのMixture-of-Expertsアーキテクチャを採用したコーディング特化モデル「Kimi K2.7-Code」をModified MITライセンスでHugging Faceに公開した。前バージョン比で推論トークン消費を30%削減しながら、社内ベンチマーク（Kimi Code Bench v2）で21.8%の性能向上を実現。256Kトークンのコンテキストウィンドウと画像・動画入力に対応するビジョンエンコーダを搭載。ただしベンチマーク数値はすべてMoonshot社内計測値であり、独立した第三者評価は未実施。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicがProject Glasswingを15カ国150組織に拡大、重要インフラのセキュリティ脆弱性修正に活用",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+      "summary": "Anthropicは2026年6月2日、Claude Mythosを使って重要インフラの脆弱性を発見・修正する「Project Glasswing」の参加組織を約50から150以上に拡大すると発表した。電力・水道・医療・通信・ハードウェア分野の企業が対象で、15カ国以上に拡がる。初期50パートナーによりすでに1万件超の高・重大度セキュリティ欠陥が発見されており、OktaやSamsung、NATOのほか米国政府・EU機関ENISAも参加している。その後のFable 5シャットダウン事件とも連動して、AI利用セキュリティが国際的な注目を集めている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "GitHub Copilotが使用量ベース課金に完全移行、「GitHub AIクレジット」制度が6月1日から開始",
+      "url": "https://github.blog/news-insights/company-news/github-copilot-is-moving-to-usage-based-billing/",
+      "summary": "GitHubは2026年6月1日より、GitHub Copilotの課金体系を「プレミアムリクエストユニット」から「GitHub AIクレジット」に全面切り替えた。トークン消費量に応じた実費計算となり、Copilot Pro（月$10）やPro+（月$39）など各プランに一定量のクレジットが含まれる。コード補完・Next Edit Suggestionは引き続きクレジット消費なしで利用可能。「短い質問と数時間の自動コーディングセッションが同じ料金だったモデルは持続不可能」としており、長時間の自律エージェントセッション普及に対応した価格設計への転換とみられる。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-06-16-news"
+}
