@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2026年6月16日 のAIトレンド — AIトレンドノート</title>
+  <link rel="stylesheet" href="../styles/site.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="../index.html">AIトレンドノート</a>
+      <nav class="nav" aria-label="ナビゲーション">
+        <a class="nav-link" href="../index.html">← 一覧へ戻る</a>
+      </nav>
+    </div>
+  </header>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">デイリーダイジェスト</p>
+      <h1>2026年6月16日 のAIトレンド</h1>
+      <p class="hero-sub">合計 20 件 ・ 生成: 2026/6/16 7:12:30</p>
+    </section>
+    <section class="highlights">
+      <p class="eyebrow">ハイライト</p>
+      <ul>
+        <li>ローカルLLM（Qwen3.6 35b）でのコーディング代替が現実的な選択肢として議論が活発化</li>
+        <li>CloudflareのV8 Isolateアーキテクチャがエージェント時代のインフラとして注目を集める</li>
+        <li>PageIndexがAlphaGoのMCTS手法を応用した推論ベースRAGとして新しいアプローチを提示</li>
+        <li>AIエージェントを用いた業務開発の高速化事例（1日5画面）が現場から報告される</li>
+        <li>GitHub Copilotの従量課金化を受け、代替コーディング支援ツールへの移行を解説する記事が急増</li>
+      </ul>
+    </section>
+    <section class="source-section" id="cat-model">
+      <div class="source-heading" style="--src:#3b82f6">
+        <h2>モデル・LLM</h2>
+        <span class="count">3 件</span>
+      </div>
+      <div class="article-grid">
+      <a class="article-card" data-source="hackernews" data-category="model" style="--src:#ff6600" href="https://news.ycombinator.com/item?id=48542100" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#3b82f6">モデル・LLM</span>
+            <span class="source-badge">Hacker News</span>
+          </span>
+        </p>
+        <h3 class="article-title">Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?</h3>
+        <p class="article-summary">Hacker Newsで「Claude/GPTをローカルモデルに完全移行した人はいるか？」というスレッドが500ポイント超の盛況となった。ユーザーの報告では、Mac Studio（128GB RAM）上でQwen3.6 35b（実効3bパラメータ）を使い、完全オフライン・完全無料で動作させている事例が紹介されている。ローカルモデルはClaude Opusの約15倍速に対して5倍速程度だが、プライバシー保護とコスト面で優位性がある。一方で「入力が曖昧だと最適解ではなく最短経路を選ぶ」「ループに陥りやすい」など、上位モデルとの品質差も率直に議論されている。</p>
+        <span class="meta">514pt · 💬258 · @cloudking</span>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="model" style="--src:#3ea8ff" href="https://zenn.dev/aishift/articles/5a5383987efee6" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#3b82f6">モデル・LLM</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">Local LLMでのデータ分析を試してみた</h3>
+        <p class="article-summary">MacBook Pro M3 Max（64GB）上でQwen3.6 27B MTPモデルをLM Studio経由で動かし、GPT-5.5 Codexとデータ分析性能を比較した検証記事。Codexは共通ハーネスとして使えなかったためQwen専用のQwen Codeハーネスを採用し、TitanicデータセットでEDA・特徴量設計・モデル評価・レポート作成まで通しで実行した。顧客データなど外部APIへの送信が契約・規制上NGなユースケースで、Local LLMが実用的な選択肢になり得ることを示している。ローカル完全実行でAPIコストゼロ・データ外部送信なしを両立できる点が主な訴求ポイントだ。</p>
+      </a>
+      <a class="article-card" data-source="devto" data-category="model" style="--src:#1f2937" href="https://dev.to/googleai/turning-gemma-4-into-an-old-korean-translator-hop" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#3b82f6">モデル・LLM</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">Turning Gemma 4 into an Old Korean Translator</h3>
+        <p class="article-summary">Google ColabのNVIDIA T4 GPU（16GB）1枚でGemma 4 E2Bモデルをファインチューニングし、古典韓国語（朝鮮王朝時代の小説）を現代語に翻訳するモデルを作成したチュートリアル。学習データは「洪吉童伝」のパブリックドメイン原文とCreative Commons現代語訳を会話形式に整形したもので、HuggingFace transformers・trl・peftのLoRAを活用した。廃用文字（アレア・軟Hieut）や分かち書きなし表記など現代人には難解な古典韓国語へのデジタルブリッジを、小規模なGPUリソースで実現できることを示している。</p>
+        <span class="meta">#finetuning #gemma #ai</span>
+      </a>
+      </div>
+    </section>
+    <section class="source-section" id="cat-agent">
+      <div class="source-heading" style="--src:#0f766e">
+        <h2>エージェント・MCP</h2>
+        <span class="count">3 件</span>
+      </div>
+      <div class="article-grid">
+      <a class="article-card" data-source="zenn" data-category="agent" style="--src:#3ea8ff" href="https://zenn.dev/yusukebe/articles/ccb1f953e48ee1" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">AIエージェントはCloudflareに賭けろ</h3>
+        <p class="article-summary">Cloudflare社員がV8 Isolateベースの「Cloudflare Workers」がAIエージェント時代に最適なインフラだと主張する記事。従来のコンテナベースクラウドは1対多スケールを前提とするが、AIエージェントはユーザー1人に対して独立した実行環境が必要なため既存クラウドとの相性が悪い。CloudflareはWorkers（実行環境）・Sandboxes/Dynamic Workers（サンドボックス）・Workers AI（推論モデル）という3要素をひとつのプラットフォームで揃えており、AI Gatewayを通じて180種以上のモデルを統一インターフェースで利用可能だ。</p>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="agent" style="--src:#3ea8ff" href="https://zenn.dev/nomhiro/articles/omc-azure-foundry" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">OSSの「AI社員だけの会社」OneManCompany を動かしてみる ~Microsoft Foundry のモデルで~</h3>
+        <p class="article-summary">OneManCompany（OMC）はCEO（人間1人）がタスクを投げると、AI社員（EA・HR・COO・エンジニア・デザイナー等）が自律的に役割分担し、成果物を作って報告するOSSのマルチエージェントフレームワーク。デフォルトのOpenRouter経由LLMをAzure Microsoft Foundryのモデルに差し替える方法を解説しており、.envのカスタムプロバイダ設定を変更するだけで対応できる。内部はlangchain_openai.ChatOpenAIを使用しており、OpenAI互換APIであればどのモデルでも接続可能だ。2026年の「ソロユニコーン」トレンドを背景に、1人で10人分の成果を出すための会社OS的なツールとして注目される。</p>
+      </a>
+      <a class="article-card" data-source="devto" data-category="agent" style="--src:#1f2937" href="https://dev.to/devteam/introducing-our-next-dev-education-track-build-multi-agent-systems-with-adk-4bg8?bb=261443" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#0f766e">エージェント・MCP</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">Introducing Our Next DEV Education Track: &quot;Build Multi-Agent Systems with ADK&quot; Jess Lee for The DEV Team ・ Feb 17 #agents #gemini #ai #buildmultiagents</h3>
+        <p class="article-summary">DEV.toがGoogleAIと提携して第2弾の教育トラック「Google ADKでマルチエージェントシステムを構築する」を公開した。Google Agent Development Kit（ADK）・Agent2Agent Protocol（A2A）・Cloud Runを使った分散マルチエージェントシステムの設計と実装を学べる3部構成（Expert Tutorial → ハンズオンビルド → 技術記事執筆）で、全完了で限定バッジを取得できる。単一モノリシックプロンプトではなく、専門化した複数エージェントのチームとしてAIアプリを設計するアーキテクチャを習得することが目標だ。</p>
+      </a>
+      </div>
+    </section>
+    <section class="source-section" id="cat-devtool">
+      <div class="source-heading" style="--src:#16a34a">
+        <h2>開発ツール</h2>
+        <span class="count">7 件</span>
+      </div>
+      <div class="article-grid">
+      <a class="article-card" data-source="hackernews" data-category="devtool" style="--src:#ff6600" href="https://rsgm.dev/post/ai-dev-platform/" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Hacker News</span>
+          </span>
+        </p>
+        <h3 class="article-title">My Homelab AI Dev Platform</h3>
+        <p class="article-summary">著者がClaudeCodeの代わりにベンダー非依存のOpenCodeをホームラボに導入し、GitOpsと組み合わせたAI開発プラットフォームを構築した事例。OpenCodeはWebサーバーとUIを内蔵しており、ターミナル・ファイルブラウザ・gitdiffを備えた環境をどのデバイスからでも利用できる。AIがGitへ変更をpushし、人間がPRを承認、GitOpsがデプロイするというワークフローにより、コンテナアップデートや設定管理を大幅に効率化した。デバイスをまたいだ永続的なコーディングセッションと複数セッションの並列管理もサポートしている。</p>
+        <span class="meta">188pt · 💬38 · @rsgm</span>
+      </a>
+      <a class="article-card" data-source="hackernews" data-category="devtool" style="--src:#ff6600" href="https://fata.dev" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Hacker News</span>
+          </span>
+        </p>
+        <h3 class="article-title">Show HN: Fata – Spaced repetition to fight skill rot from AI coding</h3>
+        <p class="article-summary">AIコーディング時代に起きる「スキル劣化」に対抗するため、間隔反復学習を活用したエンジニア向け学習アプリ「Fata」が公開された。SOLID原則・React・Rust・TypeScript・アーキテクチャなどのコースをブラウザやモバイル（iOS/Android）で毎日数分ずつ継続できる設計になっており、科学的根拠に基づいた学習メソッドを採用している。AIが生成するコードを適切に方向づけるには基礎知識の保持が不可欠という観点から、「エージェントをリードできるエンジニア」の育成を目指している。</p>
+        <span class="meta">59pt · 💬37 · @djoume</span>
+      </a>
+      <a class="article-card" data-source="zenn" data-category="devtool" style="--src:#3ea8ff" href="https://zenn.dev/kusuke/articles/82129236caa5f8" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">従量制になったGithub Copilotの代わりにOpenCode GoをCopilot Chatのカスタムプロバイダとして使う</h3>
+        <p class="article-summary">GitHub Copilotが2026年6月にクレジット制（従量課金）に移行したことを受け、VSCode 1.124.2で追加された「Custom Endpoint」機能を使って定額制のOpenCode Go（$10/月）を代替として接続する手順を解説。DeepSeek V4 Pro/Flash、Kimi K2.6などのモデルをCopilot Chatのインターフェースでそのまま利用でき、設定JSONを貼り付けるだけで動作する。apiTypeキーを削除することが正常動作の鍵であり、API KEY管理もVSCodeのシークレット機能で安全に行える。</p>
+      </a>
+      <a class="article-card" data-source="devto" data-category="devtool" style="--src:#1f2937" href="https://dev.to/javz/building-a-chrome-extension-to-make-ai-use-more-intentional-20k0" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">Building a Chrome Extension to Make AI Use More Intentional</h3>
+        <p class="article-summary">AI使用の「思考スキップ」を防ぐChromeエクステンション「ThinkMode」を開発した事例紹介。プロンプト入力前にExplore・Challenge・Decide・Audit・Reflectの5つの思考モードから目的に合ったモードを選択させ、使用後には認知コスト（Supportive/Mixed/Risky）をログに記録する。認知コストメーターがフルになると一時的にAI使用を制限し、より意図的な思考を促す設計になっている。AIが判断を代替するリスクを可視化し、開発者が自分の思考とAIの役割を意識的に管理できるようにするツールだ。</p>
+        <span class="meta">#ai #webdev #productivity #buildinpublic</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/tomoki-miso/items/81433a4eaae7d2030751" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">コーディングエージェント時代に、あえて自分でコードを書く</h3>
+        <p class="article-summary">Claude Code登場以来コーディングが激変した時代に、新卒研修でコーディングエージェント禁止の環境に置かれた筆者が「手コーディングの試行錯誤のカタルシス」を再発見した体験を綴ったエッセイ。仕事ではAIエージェントによる生産性向上が必須だが、趣味の開発ではあえてAIを使わない楽しさも確かに存在すると振り返る。「完全バイブコーディング」と「手コーディング」の間で自分に合った距離感を探すことが、プログラミングを好きであり続けるために大切だと提唱している。</p>
+        <span class="meta">#初心者 #ポエム #AI #コーディングエージェント</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/miyakiyo/items/40346d3f0d285b9523e7" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">AIエージェントで業務開発はここまで来た｜1日で5画面作った話</h3>
+        <p class="article-summary">Claude Code / Codexを使い、React+TypeScript+TailwindCSS+FastAPIのフルスタック業務アプリの5画面を1日で完成させた実践レポート。「いきなり実装させない・必ずplanモードで設計レビューしてから書かせる」「AGENTS.mdでコーディング規約・命名規則・ライブラリを覚えさせてブレをゼロにする」「最初の1画面を丁寧に作ってテンプレ化し残りを並列生成」の3点が爆速化のポイント。「開発時間は短いが脳の疲労は大きい」「設計ミスが全画面に一気に波及する」というデメリットも正直に報告しており、AIエージェントが「設計力とレビュー力」の重要性を高めるという結論に至っている。</p>
+        <span class="meta">#Python #React #AI駆動開発</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/hiyoshiz/items/b63c2e7ff52b5554a8a5" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#16a34a">開発ツール</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">文系エンジニアがClaude Codeで学習アプリを自作して3か月でCISSP合格した話</h3>
+        <p class="article-summary">英文科出身・セキュリティ実務経験ほぼゼロの社会人4年目エンジニアが、Claude Codeで公式問題集を取り込んだ自分専用の問題演習アプリを作り、1日平均30分・3か月でCISSP（情報セキュリティ国際資格）に合格した体験談。AIは「思考の代行」ではなく「アプリ作成というボトルネック解消」に活用することで、毎日続けられる学習環境を低コストで整備できた。セキスペ（情報処理安全確保支援士）との学習法比較を通じて間隔反復・体系的インプットの重要性も説いており、BYOK（Bring Your Own Key）で無料配布中のGEAR.indigoも紹介している。</p>
+        <span class="meta">#Security #ポエム #資格 #CISSP #ClaudeCode</span>
+      </a>
+      </div>
+    </section>
+    <section class="source-section" id="cat-research">
+      <div class="source-heading" style="--src:#7c3aed">
+        <h2>研究・論文</h2>
+        <span class="count">3 件</span>
+      </div>
+      <div class="article-grid">
+      <a class="article-card" data-source="zenn" data-category="research" style="--src:#3ea8ff" href="https://zenn.dev/snaga/articles/2026-06-14-doctools-with-pageindex" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#7c3aed">研究・論文</span>
+            <span class="source-badge">Zenn</span>
+          </span>
+        </p>
+        <h3 class="article-title">超精密インデックス「PageIndex」で実現する推論ベースRAG（JTC版）</h3>
+        <p class="article-summary">VectifyAIが提唱するPageIndexは、AlphaGoのモンテカルロ木探索（MCTS）をドキュメント検索に応用した推論ベースRAGシステム。コサイン類似度による「雰囲気検索」を超え、LLMがドキュメントのツリー構造（目次・サマリ）を辿りながら論理的に正解を絞り込む。RAGの最大課題は「情報が見つからない」ことではなく「ノイズが多すぎてLLMが推論できない」ことへ移行しており、PageIndexは無関係ページを読み込まない「Denoising-First」思想を体現している。PDF・PPT・Excelが混在するJTCドキュメントへの実戦投入でも効果を確認している。</p>
+      </a>
+      <a class="article-card" data-source="devto" data-category="research" style="--src:#1f2937" href="https://dev.to/dannwaneri/my-bookmark-engine-returned-chunks-i-added-one-endpoint-to-make-it-answer-317j" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#7c3aed">研究・論文</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">My Bookmark Engine Returned Chunks. I Added One Endpoint to Make It Answer.</h3>
+        <p class="article-summary">5万件のツイートを対象にBM25キーワード検索・ベクトル検索・クロスエンコーダ再ランクのハイブリッド検索エンジンを構築していた著者が、POST /search?mode=answerを追加してRAGベースの回答エンジンに進化させた。Gemma 4 MoEが上位5チャンクを読んで直接回答を生成するが、思考モデルのためmax_tokens:512では空回答になり2048に増やすことで解決した。「検索は読むべきものを返すが、回答エンジンはそれを代わりに読んでくれる」というコンセプトで、既存インフラへの最小変更でQAシステムへ昇格させた手順を紹介している。</p>
+        <span class="meta">#ai #rag #cloudflare #gemma</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="research" style="--src:#55c500" href="https://qiita.com/miruky/items/c3d6277ff99afb214b19" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#7c3aed">研究・論文</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">【解説】実際の値をもとに、ベクトル化などのRAGの仕組みを根本から理解しましょう</h3>
+        <p class="article-summary">RAG（Retrieval-Augmented Generation）をクローリング→チャンク化→ベクトル化→類似度計算→ハイブリッド検索→再ランキング→回答生成まで、各フェーズで実際の数値を使って根本から解説した入門記事。RAGはベクトルDBと同義ではなく、ユースケースに応じてキーワード・ベクトル・グラフなど最適な検索方式を選ぶ必要がある。LLMがどれだけ高性能でも検索精度が低ければ正しい回答は得られないため、RAGは生成だけでなく検索も含めた品質評価が不可欠だという視点を強調している。よくある失敗（古い検索対象・不適切なチャンク分割・ノイズ過多のプロンプト）も具体的に列挙している。</p>
+        <span class="meta">#AWS #Security #AI #初心者エンジニア #rag</span>
+      </a>
+      </div>
+    </section>
+    <section class="source-section" id="cat-product">
+      <div class="source-heading" style="--src:#d97706">
+        <h2>プロダクト・ビジネス</h2>
+        <span class="count">2 件</span>
+      </div>
+      <div class="article-grid">
+      <a class="article-card" data-source="hackernews" data-category="product" style="--src:#ff6600" href="https://grassdx.com/" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#d97706">プロダクト・ビジネス</span>
+            <span class="source-badge">Hacker News</span>
+          </span>
+        </p>
+        <h3 class="article-title">Show HN: Vet turned founder, AI lawn diagnosis</h3>
+        <p class="article-summary">獣医師出身の創業者が開発した、芝生の状態をAI診断するサービス。写真（最大4枚）とZIPコードをアップロードすると、AI が47種以上の症状（褐色斑、干ばつストレス、根詰まりなど）を即座に特定し、地域・芝の種類・季節に合わせた治療プランを提示する。アカウント不要・無料で利用でき、診断結果に応じてDIY商品・サブスクリプション・プロサービスへの導線も提供している。</p>
+        <span class="meta">17pt · 💬7 · @andrewbr</span>
+      </a>
+      <a class="article-card" data-source="qiita" data-category="product" style="--src:#55c500" href="https://qiita.com/kumai_yu/items/831717856fd24981799d" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#d97706">プロダクト・ビジネス</span>
+            <span class="source-badge">Qiita</span>
+          </span>
+        </p>
+        <h3 class="article-title">3年間、AI要件定義に取り組んできた全記録</h3>
+        <p class="article-summary">SIer・ITコンサル出身のCEO/CTOが2023年〜2026年にかけて「要件定義×生成AI」の取り組みを時系列で記録した集大成記事。テキスト→フロー図自動生成（gpt-3.5）に始まり、Cursor×Markdown、社内導入、プロンプトから「仕組み」へのシフト、GEAR.indigoのBiz化まで7フェーズの進化を振り返る。3年間で得た結論は「AIは文書作成ツールではなく、スコープ設計の判断支援として使うとき最大の価値を発揮する」というもので、事前情報（用語集・前提）の整理がいまも精度を左右するという知見を共有している。</p>
+        <span class="meta">#AI #要件定義 #AI駆動開発 #Gear.indigo</span>
+      </a>
+      </div>
+    </section>
+    <section class="source-section" id="cat-other">
+      <div class="source-heading" style="--src:#5b625f">
+        <h2>その他</h2>
+        <span class="count">2 件</span>
+      </div>
+      <div class="article-grid">
+      <a class="article-card" data-source="hackernews" data-category="other" style="--src:#ff6600" href="https://tinywind.io" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#5b625f">その他</span>
+            <span class="source-badge">Hacker News</span>
+          </span>
+        </p>
+        <h3 class="article-title">TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)</h3>
+        <p class="article-summary">本文取得失敗</p>
+        <span class="meta">495pt · 💬102 · @tinywind</span>
+      </a>
+      <a class="article-card" data-source="devto" data-category="other" style="--src:#1f2937" href="https://dev.to/dannwaneri/has-sloan-flagged-your-article-lately-1gmh" target="_blank" rel="noopener noreferrer">
+        <p class="card-meta-row">
+          <time class="article-date" datetime="2026-06-16">2026年6月16日</time>
+          <span class="badges">
+            <span class="cat-pill" style="--cat:#5b625f">その他</span>
+            <span class="source-badge">DEV Community</span>
+          </span>
+        </p>
+        <h3 class="article-title">Has Sloan Flagged Your Article Lately?</h3>
+        <p class="article-summary">DEV.toのAIモデレーションボット「Sloan」がAI生成コンテンツを含む記事を自動フラグする事例についてコミュニティに問いかけた記事。著者は1日に2本の記事がフラグされたが、どちらも高いエンゲージメントを獲得し、DEV創業者もいいねしていた。AI開示方針自体は妥当と評価しながら、フラグの基準やパターンについて記事の種別・AI活用度・フラグの妥当性の観点からコミュニティの知見を集めている。</p>
+        <span class="meta">#discuss #ai #devto #meta</span>
+      </a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>AIトレンドノート — 出典は各記事のリンク先を参照してください。</p>
+  </footer>
+</body>
+</html>
