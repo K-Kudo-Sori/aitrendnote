@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-17",
+  "generatedAt": "2026/6/17 8:08:37",
+  "highlights": [
+    "SpaceXがAIコーディングツール「Cursor」を約60億ドルで買収合意（IPO直後の大型M&A）",
+    "ChatGPTの市場シェアが初めて50%を割り込み46.4%に（GeminiやClaudeが台頭）",
+    "Zhipu AIがオープンソースモデルGLM-5.2をリリース（100万トークンコンテキスト、MIT License）",
+    "AnthropicがClaude Agent SDK向けトークン課金変更を当日に停止・延期",
+    "Google、Android 17とGemini Omni統合を正式リリース"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "SpaceX、AIコーディングスタートアップCursorを株式60億ドルで買収合意——IPO直後の大型M&A",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "summary": "SpaceXがAIコーディング支援ツールCursorの開発元Anysphereを株式60億ドルで買収することに合意した。同社のIPO直後わずか数日でのM&A発表で、AI開発部門の強化が目的とされる。買収は2026年第3四半期に完了予定。Cursorはコード補完・生成機能で急成長を遂げ、開発者コミュニティで広く普及している。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "ChatGPTの市場シェアが初めて50%を下回る——GeminiとClaudeが存在感を増す",
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "summary": "OpenAIのChatGPTは5月末時点で市場シェアが46.4%となり、AIアシスタント市場でのシェアが初めて50%を割り込んだ。GoogleのGeminiが27.7%、AnthropicのClaudeが10.3%へと伸長しており、競合他社の台頭が顕著だ。月間ユーザー数ではChatGPT（11億人）が依然トップだが、ユーザーの複数サービス切り替えが加速している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Zhipu AI、オープンソースモデルGLM-5.2を公開——100万トークンコンテキスト・MITライセンス",
+      "url": "https://pandaily.com/zhipu-ai-glm-5-dot-2-open-source-mit-jun2026",
+      "summary": "中国のAI企業Zhipu AIが新フラッグシップモデル「GLM-5.2」をMITライセンスでオープンソース公開した。最大100万トークンのコンテキストウィンドウを持ち、コーディングや長文処理に強みを発揮する。米国の輸出規制によるFable 5のグローバル配信制限への対抗策としても注目されており、Hugging Faceほか20以上のプラットフォームで即日利用可能となった。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicがClaude Agent SDK向けトークン課金変更を予定当日に停止・延期",
+      "url": "https://thenewstack.io/anthropic-pauses-claude-agent-sdk-subscription-change/",
+      "summary": "Anthropicは6月15日に予定していたClaude Agent SDKをサブスクリプションから切り離しトークン課金へ移行する変更を、実施当日に急遽停止した。ユーザーからの反発やOpenAIとの価格競争、さらに株式公開（IPO）準備を控えた事業戦略の見直しが背景とみられる。当面はAgent SDK利用も従来のサブスクリプション枠内に据え置かれる。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Android 17とWear OS 7を正式リリース——Gemini Omniと音楽生成Lyria 3を統合",
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "summary": "Googleが2026年6月16日にAndroid 17とWear OS 7の正式版をリリースした。新機能としてバブルバーによるマルチタスク強化、Gemini Omniを活用した動画編集、Lyria 3による音楽生成ツール、および保護者コントロールの拡充が含まれる。Geminiとのデバイスレベル統合が一段と深まり、スマートフォン全体のAI体験を刷新する位置付けだ。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AIスタートアップProbably、LLMの幻覚対策技術開発で900万ドルを調達",
+      "url": "https://techcrunch.com/2026/06/16/probably-raises-9m-to-build-a-more-reliable-kind-of-ai/",
+      "summary": "AIスタートアップのProbablyがAndreessen Horowitzから900万ドルのシード資金を調達した。同社は決定論的バリデーターとLLMを組み合わせることでAI幻覚（ハルシネーション）を抑制し、99.99%の精度達成を目標とする技術を開発中だ。データサイエンス向けツールとして展開し、小規模モデルでの高精度運用によるコスト削減も実現するとしている。",
+      "category": "research"
+    }
+  ],
+  "slug": "2026-06-17-news"
+}
