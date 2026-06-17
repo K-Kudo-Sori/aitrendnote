@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-18",
+  "generatedAt": "2026/6/18 8:09:18",
+  "highlights": [
+    "SpaceXがAIコーディングスタートアップCursorを600億ドルで買収する計画を正式発表",
+    "GoogleがGemini搭載スマートスピーカー「Google Home Speaker」を99.99ドルで発表",
+    "Anthropicが炭素除去コンソーシアムFrontierに参加した初のAIスタートアップに",
+    "ワールドモデルAIスタートアップOdysseyがAmazonら支援のもとシリーズBで3.1億ドル調達",
+    "Pew調査：AIの社会的影響をポジティブに捉えるアメリカ人はわずか16%"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "SpaceX、AIコーディングスタートアップCursorを600億ドルの株式交換で買収へ",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "summary": "SpaceXはIPO後わずか数日で、AIコーディングスタートアップのCursor（Anysphere）を600億ドルの株式交換で買収することに合意しました。CursorはソフトウェアエンジニアのコーディングをAIで支援するツールを提供し、年間経常収益は約26億ドル規模に成長しています。SpaceXのAI部門（xAIとの合併後）の強化が狙いで、買収は2026年第3四半期に完了予定です。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "ワールドモデルスタートアップOdyssey、Amazon支援のシリーズBで3.1億ドル調達——評価額14.5億ドルに",
+      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+      "summary": "AIスタートアップのOdysseyが、Natural Capital主導のシリーズBラウンドで3億1,000万ドルを調達し、評価額14.5億ドルに達しました。Amazon、AMD Ventures、GVなどの大手企業が出資に参加しており、同社は物理世界を精密にシミュレートする「ワールドモデル」技術を開発しています。テキストプロンプトから物理演算に基づく高品質なインタラクティブ映像を生成する技術が特徴で、自動運転分野の経験を持つ創業者が率いています。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Gemini搭載スマートスピーカー「Google Home Speaker」を99.99ドルで発表",
+      "url": "https://techcrunch.com/2026/06/17/google-bets-on-gemini-to-reinvent-the-smart-home-speaker/",
+      "summary": "GoogleはGemini AI搭載の新スマートスピーカー「Google Home Speaker」（99.99ドル）を発表しました。従来のGoogleアシスタントの厳格なコマンド形式から脱却し、自然言語による複数ステップの要求や会話中の修正に対応します。高度なAI機能の利用には月額10ドル（年額100ドル）の「Google Home Premium」サブスクリプションが必要で、スマートホーム市場での競争力強化を狙っています。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicがAIスタートアップとして初めて炭素除去コンソーシアム「Frontier」に参加、総額18億ドルへ",
+      "url": "https://techcrunch.com/2026/06/17/anthropic-becomes-first-ai-startup-to-join-the-frontier-carbon-removal-coalition/",
+      "summary": "AnthropicがAIスタートアップとして初めて炭素除去コンソーシアム「Frontier」に参加しました。この参加によりFrontierは9億1,500万ドルの新たな資金誓約を獲得し、累計総額は18億ドルに達しました。Anthropicは急増するエネルギー消費に対する気候対応として参加を決定しており、Frontierは今後より少数の大規模プロジェクトへ資金を集中させる新方針を示しています。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Pramaana Labs、AIへのフォーマル検証導入でKhosla Venturesから2,700万ドルのシード資金調達",
+      "url": "https://techcrunch.com/2026/06/17/pramaana-labs-raises-27-million-seed-round-from-khosla-ventures-to-bring-formal-verification-to-ai/",
+      "summary": "Pramaana LabsはKhosla Venturesから2,700万ドルのシードラウンドを調達し、AIシステムにフォーマル検証技術を導入することで信頼性向上を目指しています。LLMの上に決定論的な検証レイヤーを構築し、法律・創薬・税務などミスが致命的な高感度分野に注力します。LEAN形式検証言語を活用してルールベースの複雑な問題における正確性を保証するアプローチが特徴です。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Pew調査：AIが社会にポジティブな影響をもたらすと考えるアメリカ人はわずか16%",
+      "url": "https://techcrunch.com/2026/06/17/only-16-percent-of-americans-think-ai-will-have-a-positive-impact-on-society-a-new-study-shows/",
+      "summary": "Pew Researchの新調査によると、AIの社会的長期影響をポジティブに捉えるアメリカ人はわずか16%で、約40%が否定的影響を予測しています。ChatGPT利用者が44%に達するなどAI活用は急拡大している一方、国民の意識とのギャップが浮き彫りになりました。30歳未満の若年層が最も悲観的で、政府規制が有効だと考える人はわずか33%にとどまっています。",
+      "category": "other"
+    }
+  ],
+  "slug": "2026-06-18-news"
+}
