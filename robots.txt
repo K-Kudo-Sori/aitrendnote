@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://k-kudo-sori.github.io/aitrendnote/sitemap.xml

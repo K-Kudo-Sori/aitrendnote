@@ -8,6 +8,27 @@
   --accent-soft: #d8f3ef;
   --border: #d9ded6;
   --shadow: 0 8px 22px rgba(32, 33, 36, 0.05);
+  --header-bg: rgba(246, 247, 244, 0.92);
+  --highlights-border: #bfe8e1;
+}
+
+/* OS のダークモード設定に追従。CSS 変数の上書き＋数か所のハードコード色の補正のみ。 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171a;
+    --card: #1d2125;
+    --text: #e6e8ea;
+    --muted: #9aa3a8;
+    --accent: #2dd4bf;
+    --accent-dark: #5eead4;
+    --accent-soft: #0f3a36;
+    --border: #2c3238;
+    --shadow: 0 8px 22px rgba(0, 0, 0, 0.45);
+    --header-bg: rgba(20, 23, 26, 0.92);
+    --highlights-border: #155e57;
+  }
+  .nav-tab.is-active { color: #06231f; }
+  .trend-badge { color: #fdba74; background: #3a2417; border-color: #7c3a16; }
 }
 
 * { box-sizing: border-box; }
@@ -18,18 +39,24 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--text);
-  font-family: "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, "Yu Gothic", "Noto Sans JP", Roboto, Helvetica, Arial, sans-serif;
   line-height: 1.7;
   font-size: 15px;
 }
 
 a { color: inherit; }
 
+/* キーボード操作時のフォーカス可視化（マウス操作では出さない）。 */
+:where(a, button, input):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
 .site-header {
   position: sticky;
   top: 0;
   z-index: 10;
-  background: rgba(246, 247, 244, 0.92);
+  background: var(--header-bg);
   backdrop-filter: saturate(180%) blur(8px);
   border-bottom: 1px solid var(--border);
 }
@@ -109,7 +136,7 @@ a { color: inherit; }
 .highlights {
   margin: 20px 0 8px;
   background: var(--accent-soft);
-  border: 1px solid #bfe8e1;
+  border: 1px solid var(--highlights-border);
   border-radius: 10px;
   padding: 16px 20px;
 }
@@ -238,6 +265,30 @@ a { color: inherit; }
   outline: none;
   border-color: var(--accent);
   box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.search-empty { margin: 10px 0 0; color: var(--muted); font-size: 14px; }
+.noscript-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  background: var(--accent-soft);
+  border: 1px solid var(--highlights-border);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+.tz-note { color: var(--muted); }
+
+/* スクリーンリーダー専用（視覚的には隠すがアクセシビリティツリーには残す）。 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .trending { margin-top: 22px; }
@@ -374,9 +425,22 @@ a { color: inherit; }
   .article-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
   .body-grid { grid-template-columns: 1fr; gap: 0; }
   .toc { display: none; }
+  /* タッチターゲットを WCAG 2.5.5 目安（44px〜）まで拡大。 */
+  .nav-tab { padding: 10px 16px; font-size: 14px; }
 }
 
 @media (max-width: 720px) {
   .header-inner { flex-direction: column; align-items: flex-start; gap: 10px; }
   .article-grid { grid-template-columns: 1fr; }
+}
+
+/* 印刷時は装飾・操作 UI を落とし、カード単位で改ページ。 */
+@media print {
+  .site-header, .search-bar, .trending, .feed-recent, .more-btn, .toc,
+  .date-archive, .category-map, .highlights-more, .home-highlights { display: none !important; }
+  body { background: #fff; color: #000; }
+  .page { width: 100%; padding: 0; }
+  .article-card { break-inside: avoid; box-shadow: none; border: 1px solid #999; }
+  .article-card, .article-title, .article-summary { color: #000; }
+  a { color: #000; text-decoration: underline; }
 }

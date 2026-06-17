@@ -4,19 +4,36 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>AIトレンドノート</title>
+  <meta name="description" content="Hacker News / Zenn / DEV / Qiita から集めた AI トピックを、読み返せる形で日々蓄積。 累計242記事・8トピックを日々更新。" />
+  <meta name="theme-color" content="#0f766e" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#14171a" media="(prefers-color-scheme: dark)" />
+  <link rel="canonical" href="https://k-kudo-sori.github.io/aitrendnote/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="AIトレンドノート" />
+  <meta property="og:title" content="AIトレンドノート" />
+  <meta property="og:description" content="Hacker News / Zenn / DEV / Qiita から集めた AI トピックを、読み返せる形で日々蓄積。 累計242記事・8トピックを日々更新。" />
+  <meta property="og:locale" content="ja_JP" />
+  <meta property="og:url" content="https://k-kudo-sori.github.io/aitrendnote/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="AIトレンドノート" />
+  <meta name="twitter:description" content="Hacker News / Zenn / DEV / Qiita から集めた AI トピックを、読み返せる形で日々蓄積。 累計242記事・8トピックを日々更新。" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="alternate" type="application/atom+xml" title="AIトレンドノート" href="feed.xml" />
   <link rel="stylesheet" href="styles/site.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"AIトレンドノート","inLanguage":"ja","description":"Hacker News / Zenn / DEV / Qiita から集めた AI トピックを、読み返せる形で日々蓄積。","url":"https://k-kudo-sori.github.io/aitrendnote/"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"新着","itemListElement":[{"@type":"ListItem","position":1,"url":"https://qiita.com/kumai_yu/items/831717856fd24981799d","name":"3年間、AI要件定義に取り組んできた全記録"},{"@type":"ListItem","position":2,"url":"https://zenn.dev/yusukebe/articles/ccb1f953e48ee1","name":"AIエージェントはCloudflareに賭けろ"},{"@type":"ListItem","position":3,"url":"https://zenn.dev/aishift/articles/5a5383987efee6","name":"Local LLMでのデータ分析を試してみた"},{"@type":"ListItem","position":4,"url":"https://dev.to/javz/building-a-chrome-extension-to-make-ai-use-more-intentional-20k0","name":"Building a Chrome Extension to Make AI Use More Intentional"},{"@type":"ListItem","position":5,"url":"https://qiita.com/tomoki-miso/items/81433a4eaae7d2030751","name":"コーディングエージェント時代に、あえて自分でコードを書く"},{"@type":"ListItem","position":6,"url":"https://qiita.com/hiyoshiz/items/b63c2e7ff52b5554a8a5","name":"文系エンジニアがClaude Codeで学習アプリを自作して3か月でCISSP合格した話"},{"@type":"ListItem","position":7,"url":"https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/","name":"SpaceX to buy Cursor for $60B"},{"@type":"ListItem","position":8,"url":"https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/","name":"Apple is about to make Hide My Email useless"}]}</script>
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="index.html">AIトレンドノート</a>
-      <nav class="nav nav-tabs" aria-label="ソースで絞り込み">
-        <button class="nav-tab is-active" data-filter="all">すべて</button>
-        <button class="nav-tab" data-filter="hackernews" style="--src:#ff6600">Hacker News</button>
-        <button class="nav-tab" data-filter="zenn" style="--src:#3ea8ff">Zenn</button>
-        <button class="nav-tab" data-filter="devto" style="--src:#1f2937">DEV Community</button>
-        <button class="nav-tab" data-filter="qiita" style="--src:#55c500">Qiita</button>
-        <button class="nav-tab" data-filter="websearch" style="--src:#0891b2">Web速報</button>
+      <nav class="nav nav-tabs" role="toolbar" aria-label="ソースで絞り込み">
+        <button class="nav-tab is-active" type="button" data-filter="all" aria-pressed="true" tabindex="0">すべて</button>
+        <button class="nav-tab" type="button" data-filter="hackernews" aria-pressed="false" tabindex="-1" style="--src:#ff6600">Hacker News</button>
+        <button class="nav-tab" type="button" data-filter="zenn" aria-pressed="false" tabindex="-1" style="--src:#3ea8ff">Zenn</button>
+        <button class="nav-tab" type="button" data-filter="devto" aria-pressed="false" tabindex="-1" style="--src:#1f2937">DEV Community</button>
+        <button class="nav-tab" type="button" data-filter="qiita" aria-pressed="false" tabindex="-1" style="--src:#55c500">Qiita</button>
+        <button class="nav-tab" type="button" data-filter="websearch" aria-pressed="false" tabindex="-1" style="--src:#0891b2">Web速報</button>
       </nav>
     </div>
   </header>
@@ -28,7 +45,7 @@
       <p class="hero-stats">累計 242 記事 ・ 直近 154 件 ・ 8 トピック</p>
     </section>
     <section class="category-map" aria-label="カテゴリ目次">
-      <p class="eyebrow">カテゴリ</p>
+      <h2 class="eyebrow">カテゴリ</h2>
       <div class="cat-chips">
         <a class="cat-chip" href="#cat-model" style="--cat:#3b82f6">モデル・LLM <span class="count">15</span></a>
         <a class="cat-chip" href="#cat-agent" style="--cat:#0f766e">エージェント・MCP <span class="count">25</span></a>
@@ -42,7 +59,7 @@
     </section>
     <div class="body-grid">
       <aside class="toc" aria-label="カテゴリ目次">
-        <p class="eyebrow toc-title">カテゴリ</p>
+        <h2 class="eyebrow toc-title">カテゴリ</h2>
         <ul>
           <li><a href="#cat-model" style="--cat:#3b82f6"><span class="toc-label">モデル・LLM</span><span class="count">15</span></a></li>
           <li><a href="#cat-agent" style="--cat:#0f766e"><span class="toc-label">エージェント・MCP</span><span class="count">25</span></a></li>
@@ -56,7 +73,7 @@
       </aside>
       <div class="body-main">
     <section class="highlights home-highlights">
-      <p class="eyebrow">2026年6月17日 のハイライト</p>
+      <h2 class="eyebrow">2026年6月17日 のハイライト</h2>
       <ul>
         <li>SpaceXがAIコーディングツール「Cursor」を600億ドルで買収との報道が話題に</li>
         <li>Cloudflare Workers（V8 Isolate）がAIエージェント実行環境として注目される</li>
@@ -67,7 +84,7 @@
       <a class="highlights-more" href="notes/2026-06-17.html">この日のダイジェストを見る →</a>
     </section>
     <section class="highlights home-highlights">
-      <p class="eyebrow">Web速報</p>
+      <h2 class="eyebrow">Web速報</h2>
       <ul>
         <li>SpaceXがAIコーディングツール「Cursor」を約60億ドルで買収合意（IPO直後の大型M&amp;A）</li>
         <li>ChatGPTの市場シェアが初めて50%を割り込み46.4%に（GeminiやClaudeが台頭）</li>
@@ -78,10 +95,14 @@
       <a class="highlights-more" href="notes/2026-06-17-news.html">この日のダイジェストを見る →</a>
     </section>
     <section class="search-bar">
-      <input class="search-input" type="search" placeholder="キーワードで絞り込み（タイトル・要約）" aria-label="記事を検索" />
+      <h2 class="eyebrow">検索・絞り込み</h2>
+      <label class="sr-only" for="site-search">記事をキーワードで検索</label>
+      <input id="site-search" class="search-input" type="search" placeholder="キーワードで絞り込み（タイトル・要約）" aria-label="記事を検索" />
+      <p class="search-empty" role="status" hidden>一致する記事がありません。別のキーワードをお試しください。</p>
     </section>
+    <noscript><p class="noscript-note">絞り込み・検索を使うには JavaScript を有効にしてください（記事は JavaScript なしでも閲覧できます）。</p></noscript>
     <section class="feed trending" aria-label="いま話題">
-      <div class="section-head"><p class="eyebrow">🔥 いま話題</p></div>
+      <div class="section-head"><h2 class="eyebrow">🔥 いま話題</h2></div>
       <div class="article-grid">
       <a class="article-card" data-source="devto" data-category="devtool" style="--src:#1f2937" href="https://dev.to/sylwia-lask/the-code-works-what-could-possibly-go-wrong-5hbm" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
@@ -185,7 +206,7 @@
       </div>
     </section>
     <section class="feed feed-recent" aria-label="新着">
-      <div class="section-head"><p class="eyebrow">新着</p></div>
+      <div class="section-head"><h2 class="eyebrow">新着</h2></div>
       <div class="article-grid">
       <a class="article-card" data-source="qiita" data-category="devtool" style="--src:#55c500" href="https://qiita.com/kumai_yu/items/831717856fd24981799d" target="_blank" rel="noopener noreferrer">
         <p class="card-meta-row">
@@ -2182,7 +2203,7 @@
       <div class="more-row"><button class="more-btn" type="button" hidden></button></div>
     </section>
     <section class="date-archive" aria-label="日付アーカイブ">
-      <p class="eyebrow">日付アーカイブ</p>
+      <h2 class="eyebrow">日付アーカイブ</h2>
       <details class="archive-month" open>
         <summary>2026年6月 <span class="count">20 日 / 308 件</span></summary>
         <ul>
@@ -2213,7 +2234,7 @@
     </div>
   </main>
   <footer class="site-footer">
-    <p>AIトレンドノート — 出典は各記事のリンク先を参照してください。</p>
+    <p>AIトレンドノート — 出典は各記事のリンク先を参照してください。<br /><span class="tz-note">日付・時刻はすべて Asia/Tokyo（JST）。</span></p>
   </footer>
   <script>
     (function () {
@@ -2229,6 +2250,7 @@
       function apply() {
         var narrowing = filter !== 'all' || query !== '';
         overview.forEach(function (o) { o.style.display = narrowing ? 'none' : ''; });
+        var totalMatched = 0;
         sections.forEach(function (s) {
           var cards = s.querySelectorAll('.article-card');
           var showAll = narrowing || expanded[s.id];
@@ -2242,6 +2264,7 @@
             else { c.classList.add('is-hidden'); }
           });
           s.style.display = matched === 0 ? 'none' : '';
+          totalMatched += matched;
           var btn = s.querySelector('.more-btn');
           if (btn) {
             if (!narrowing && matched > CAP) {
@@ -2250,13 +2273,32 @@
             } else { btn.hidden = true; }
           }
         });
+        var emptyMsg = document.querySelector('.search-empty');
+        if (emptyMsg) emptyMsg.hidden = !(narrowing && totalMatched === 0);
       }
-      tabs.forEach(function (t) {
-        t.addEventListener('click', function () {
-          tabs.forEach(function (x) { x.classList.remove('is-active'); });
-          t.classList.add('is-active');
-          filter = t.getAttribute('data-filter');
-          apply();
+      function activateTab(t) {
+        tabs.forEach(function (x) {
+          var on = x === t;
+          x.classList.toggle('is-active', on);
+          x.setAttribute('aria-pressed', on ? 'true' : 'false');
+          x.tabIndex = on ? 0 : -1;
+        });
+        filter = t.getAttribute('data-filter');
+        apply();
+      }
+      // 絞り込みトグル（toolbar パターン）: クリック＋←→/Home/End のキーボード操作。
+      tabs.forEach(function (t, i) {
+        t.addEventListener('click', function () { activateTab(t); });
+        t.addEventListener('keydown', function (e) {
+          var n = tabs.length, idx = i;
+          if (e.key === 'ArrowRight' || e.key === 'ArrowDown') idx = (i + 1) % n;
+          else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') idx = (i - 1 + n) % n;
+          else if (e.key === 'Home') idx = 0;
+          else if (e.key === 'End') idx = n - 1;
+          else return;
+          e.preventDefault();
+          tabs[idx].focus();
+          activateTab(tabs[idx]);
         });
       });
       if (search) search.addEventListener('input', function () {

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AIトレンドノート</title>
+  <subtitle>Hacker News / Zenn / DEV / Qiita から集めた AI トピックを、読み返せる形で日々蓄積。</subtitle>
+  <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
+  <link href="https://k-kudo-sori.github.io/aitrendnote/" />
+  <id>https://k-kudo-sori.github.io/aitrendnote/</id>
+  <updated>2026-06-17T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月17日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17-news.html</id>
+    <updated>2026-06-17T00:00:00+09:00</updated>
+    <summary>SpaceXがAIコーディングツール「Cursor」を約60億ドルで買収合意（IPO直後の大型M&amp;A） / ChatGPTの市場シェアが初めて50%を割り込み46.4%に（GeminiやClaudeが台頭） / Zhipu AIがオープンソースモデルGLM-5.2をリリース（100万トークンコンテキスト、MIT License） / AnthropicがClaude Agent SDK向けトークン課金変更を当日に停止・延期 / Google、Android 17とGemini Omni統合を正式リリース</summary>
+  </entry>
+  <entry>
+    <title>2026年6月17日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17.html</id>
+    <updated>2026-06-17T00:00:00+09:00</updated>
+    <summary>SpaceXがAIコーディングツール「Cursor」を600億ドルで買収との報道が話題に / Cloudflare Workers（V8 Isolate）がAIエージェント実行環境として注目される / Claude Fable 5の輸出規制事例がAIコンテキスト層の外部化設計の重要性を示唆 / VRAM 12GBでQwen 35B MoEモデルを--cpu-moeフラグ1つで2.8倍高速化する手法が実証 / ローカルLLMのコスト神話が崩れ、ガバナンス・精度特化・レイテンシ安定性が真の優位領域に</summary>
+  </entry>
+  <entry>
+    <title>2026年6月16日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16-news.html</id>
+    <updated>2026-06-16T00:00:00+09:00</updated>
+    <summary>米国政府の輸出規制指令でAnthropicが最新モデルFable 5・Mythos 5を全世界シャットダウン（6/12〜13） / G7サミット（仏エビアン、6/15〜17）にOpenAI・Google DeepMind・Anthropicの各CEOが初めて三者そろって出席 / DatabricksがマルチAIエージェント統合フレームワーク「Omnigent」をOSS公開（Apache 2.0） / Moonshot AIが1兆パラメータの開源コーディングモデル「Kimi K2.7-Code」をリリース（HuggingFace公開） / AnthropicがProject Glasswing…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月16日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16.html</id>
+    <updated>2026-06-16T00:00:00+09:00</updated>
+    <summary>ローカルLLM（Qwen3.6 35b）でのコーディング代替が現実的な選択肢として議論が活発化 / CloudflareのV8 Isolateアーキテクチャがエージェント時代のインフラとして注目を集める / PageIndexがAlphaGoのMCTS手法を応用した推論ベースRAGとして新しいアプローチを提示 / AIエージェントを用いた業務開発の高速化事例（1日5画面）が現場から報告される / GitHub Copilotの従量課金化を受け、代替コーディング支援ツールへの移行を解説する記事が急増</summary>
+  </entry>
+  <entry>
+    <title>2026年6月15日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15-news.html</id>
+    <updated>2026-06-15T00:00:00+09:00</updated>
+    <summary>米政府がAnthropicのFable 5・Mythos 5に輸出規制を適用し全ユーザー向けアクセスを停止—商業公開済みAIモデルへの初の政府介入 / G7サミット（フランス・エビアン、6月15〜17日）直前に、AI主権・依存リスクが国際政治の焦点に / EU委員会とカナダ首相が相次いで米国の一方的なAI輸出規制に懸念を表明 / Apple、iOS 27のSiriにClaude・Gemini等のサードパーティAIモデル選択機能を内部ビルドで開発中（WWDC未発表） / MicrosoftのNadella CEO、AI「学習ループ」の自社管理が競争優位の鍵と強調</summary>
+  </entry>
+  <entry>
+    <title>2026年6月15日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15.html</id>
+    <updated>2026-06-15T00:00:00+09:00</updated>
+    <summary>リオデジャネイロ市の「独自開発」LLMが実際は既存モデルの重み混合であることが発覚し、AI開発の透明性・誠実性に改めて注目が集まっています / GitHub Copilotの従量課金移行を受け、OpenCode GoやCodexなど代替AIコーディングツールへの移行・比較記事が複数登場しています / Claude Fable 5やGitHub Copilot SDKなど新世代のAI開発ツールが実用段階に入り、現場での活用事例が増加しています / ローカルLLMを活用した実用プロジェクト（動画インデックス・リース解析）が注目を集め、クラウドAIに依存しない方向性への関心が高まっています / A…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月14日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14-news.html</id>
+    <updated>2026-06-14T00:00:00+09:00</updated>
+    <summary>AnthropicがClaude Fable 5（Mythosクラス初の一般公開モデル）をリリース。SWE-Bench Proで80.3%を達成。 / Moonshot AIが1兆パラメータのオープンソースコーディングモデル「Kimi K2.7 Code」を公開。 / GoogleがテキストをH100 GPUで最大4倍高速生成するオープンモデル「DiffusionGemma」を発表。 / 米42州の司法長官がOpenAIへの共同調査を開始。IPO申請直後で法的リスクが増大。 / KPMGがAIハルシネーションを原因とする報告書を撤回。UBS・NHSなど複数組織が内容の誤りを指摘。</summary>
+  </entry>
+  <entry>
+    <title>2026年6月14日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14.html</id>
+    <updated>2026-06-14T00:00:00+09:00</updated>
+    <summary>Claude Fable 5の実力が注目：日本語プログラミング教材を2時間未満で自動生成、サブエージェント活用でコスパ運用する手法も登場 / AWSのエージェント基盤が進化：Bedrock AgentCore + Strands SDK によるRAGボット実装、SmithyによるMCPサーバー簡易構築が話題 / AIセキュリティの両面：Claude Code × Trivy MCPで依存ライブラリ脆弱性の自動検出・修正ループ実現、一方で警察官がAI証拠捏造で調査される事件も発生 / 個人・チームのAI活用事例が充実：自動AIニュースキュレーター1か月運用、AWS AI-DLCハッカソン体験記…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月13日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13-news.html</id>
+    <updated>2026-06-13T00:00:00+09:00</updated>
+    <summary>AnthropicがMythos級モデル「Claude Fable 5」を一般公開。ほぼ全ベンチマークでSOTA性能を達成し、ProプランやMaxプランユーザーは6月22日まで追加料金なしで利用可能。 / Apple WWDC 2026でSiri AIが全面刷新。Google Gemini搭載でクロスアプリ対応・リアルタイムWeb回答が可能になり、iOS 27として2026年秋に配信予定。 / GoogleがGemini AIを悪用した中国系フィッシング犯罪ネットワーク「Outsider Enterprise」を提訴。9,000以上の偽サイト・FBI推定19億ドル超の被害。 / OpenAI…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月13日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13.html</id>
+    <updated>2026-06-13T00:00:00+09:00</updated>
+    <summary>Claude Fable 5が一般公開され、コーディング・開発作業での実用レポートが登場 / DatadogとAWSが同日にOpsエージェントを発表し、AI運用自動化の競争が加速 / Claude Codeの内部アーキテクチャを解析した論文が話題に / macOS上でGemma 4・Qwen3.6をllama.cppでローカル動作させるコーディングエージェント構築手順が公開 / Cloudflare Zero Trustを使ったVPN不要のZTNA構築がセキュリティ界隈で注目</summary>
+  </entry>
+  <entry>
+    <title>2026年6月12日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-12.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-12.html</id>
+    <updated>2026-06-12T00:00:00+09:00</updated>
+    <summary>Claude Fable 5が一般公開され、UI再現精度とバグ調査の自律性が向上した一方でトークン消費増大も報告された / LLMを核戦争シミュレーションに参加させた研究で、95%のシナリオで戦術核使用という衝撃的な結果が示された / Claude Codeの内部構造解析：コードの98.4%が「ハーネス」であり、AIに大きな裁量を与えつつ環境を徹底作り込む設計思想が明らかに / freee MCP × Claude Codeで請求書下書きワークフローを自然言語で完結させる実証事例が登場 / ポケモンGOのスキャンデータが軍事ドローンのナビゲーション技術訓練に転用されていたことが判明し、倫理問…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月11日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11-news.html</id>
+    <updated>2026-06-11T00:00:00+09:00</updated>
+    <summary>GoogleがテキストDiffusionベースのオープンモデル「DiffusionGemma 26B」を6月10日にリリース。最大4倍の高速生成を実現。 / AnthropicがMythosクラスの「Claude Fable 5」を一般公開。GitHub Copilotでも同日対応。 / Apple WWDC 2026でGoogle Gemini搭載の新SiriとiOS 27を発表。ClaudeなどサードパーティAIも選択可能に。 / OpenAIがSECに機密S-1申請書を提出。評価額8,520億ドルでIPOプロセス開始。 / CVPR 2026ベストペーパーにGoogle DeepMin…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月11日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11.html</id>
+    <updated>2026-06-11T00:00:00+09:00</updated>
+    <summary>Claude Codeのアーキテクチャ解析論文が話題：AIの判断部分はわずか1.6%、残り98.4%は「ハーネス」で構成 / Claude Codeのトークン削減を実測：cacheReadが入力の1800倍、semble導入で検索量93%削減 / Apache Burr（Incubating）：シンプルなPython APIでチャットボットからマルチエージェントまで構築可能なフレームワーク / Microsoft FoundryとClaude Sonnetを組み合わせたAIエージェントのハンズオンがCode w/ Claude Tokyoで開催 / 18GB MacでローカルLLM実測：Ge…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月10日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-10.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-10.html</id>
+    <updated>2026-06-10T00:00:00+09:00</updated>
+    <summary>AnthropicがClaude Fable 5とMythos 5を同日リリース。ほぼ全ベンチマークで最先端性能を示し、価格はMythos Previewの半額以下。 / Fable 5には競合LLM開発を静かに制限する新機能があり、ユーザーへの通知なしに動作を低下させることが可能と明記された。 / MicrosoftのオープンソースツールがサプライチェーンAI開発者向けマルウェア攻撃を受け、70以上のリポジトリが無効化された。 / Claude Codeのトークン削減実測でcacheReadが入力の1800倍・コード検索93%削減という効果が報告された。 / AIエージェントコストの爆発的…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月9日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-09.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-09.html</id>
+    <updated>2026-06-09T00:00:00+09:00</updated>
+    <summary>Apple が Google Gemini モデルを基盤とした新 AI アーキテクチャを発表。on-device と Private Cloud Compute の両方で動作し、マルチモーダル対応も強化。 / OpenAI が SEC に機密扱いの S-1 草案を提出。上場タイミングは未定だが選択肢を確保。 / xAI が Anthropic・Google へデータセンター容量を巨額契約で提供。フロンティアラボからデータセンター REIT 的な事業モデルへの転換が指摘される。 / Claude Code を使った開発ワークフロー改善事例が多数公開（仕様書の Markdown/HTML 比較・…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月8日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-08.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-08.html</id>
+    <updated>2026-06-08T00:00:00+09:00</updated>
+    <summary>LLMの擬人化属性はAge of Empires IIにも当てはまるという論文が話題を呼び、LLMの「人間らしさ」の議論に一石を投じた / LLMがソフトウェアエンジニアのキャリアを侵食しているという赤裸々な告白が722ポイントを獲得し大きな反響 / Claude Codeのソースコード解析により、エージェントが再帰呼び出しではなくwhile(true)ループで動作していることが判明 / CVE-2026-49975「HTTP/2 Bomb」脆弱性をAIが人間より先に発見したことが示す、AIによるセキュリティ研究の新時代 / GitHub Copilot料金改定（トークン課金制）を受け、Ca…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月7日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-07.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-07.html</id>
+    <updated>2026-06-07T00:00:00+09:00</updated>
+    <summary>MetaのAIチャットボット脆弱性により2万人超のInstagramアカウントがハッキングされた（security） / Universal Memory Protocol（UMP）がAIエージェントのメモリ共有を標準化する新プロトコルとして登場（agent） / Claude Managed AgentsでSlack botを構築し、dev-help対応を自動化・月数十時間削減した事例（agent） / GitHub Copilotの料金改定でトークン削減手法への関心が高まっている（product） / AIエージェントに絶対に任せてはいけない操作とAGENTS.mdによるルール設計の実践…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月6日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-06.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-06.html</id>
+    <updated>2026-06-06T00:00:00+09:00</updated>
+    <summary>Google が Gemma 4 12B を発表 — エンコーダレス統合アーキテクチャで16GB VRAM のノートPCでも動作するマルチモーダル LLM。Gemma 4 シリーズ累計ダウンロードが1.5億回を突破。 / GitHub Copilot が6月から AI Credits 従量課金へ移行。Agent mode 多用者は実質大幅値上げとなり、Caveman Prompt とプロンプトキャッシングによるトークン削減策が注目を集める。 / Netflix エンジニア製トークン圧縮 OSS「Headroom」が JSON・ビルドログで最大94%削減を実現。可逆圧縮（CCR）で元データを後…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月5日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-05.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-05.html</id>
+    <updated>2026-06-05T00:00:00+09:00</updated>
+    <summary>AnthropicがAI活用の脆弱性発見フレームワークをオープンソース公開し、自律的なセキュリティスキャンとパッチ生成が可能に / AnthropicがAI自身によるAI開発（再帰的自己改善）の進捗を報告 ─ エンジニアの生産性が5年で8倍に向上 / HuaweiがvLLM向けKVキャッシュ量子化バックエンド「KVarN」を公開、FP16と同精度・同速度でKVキャッシュ容量を3〜5倍に / Claude Managed Agentsを活用したSlack botがエンジニア問い合わせを大幅削減、導入4週間でbot対応スレッド数が4.5倍に / NetflixエンジニアによるAIエージェントのト…</summary>
+  </entry>
+  <entry>
+    <title>2026年6月4日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-04.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-04.html</id>
+    <updated>2026-06-04T00:00:00+09:00</updated>
+    <summary>UberがClaude CodeなどAIコーディングツールの月間使用上限を$1,500に設定し、AIツールのコスト管理が大企業でも本格化 / Anthropicがエージェントの「爆発半径」を制御するアーキテクチャ設計を公開し、AI安全性エンジニアリングの知見を共有 / UCバークレーCSクラスで不可（F）評定が急増、AI多用と数学基礎力低下の相関が問題視される / ゼロデイ攻撃の中央値がついに「0日」に――脆弱性公開前から攻撃されるケースが急増し従来の月例パッチ運用が破綻 / Netflixエンジニア製トークン削減OSSツール「Headroom」がリリース直後に6k stars超え、ビルドロ…</summary>
+  </entry>
+</feed>
