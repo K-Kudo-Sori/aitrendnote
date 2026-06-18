@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-18T00:00:00+09:00</updated>
+  <updated>2026-06-19T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月19日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-19.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-19.html</id>
+    <updated>2026-06-19T00:00:00+09:00</updated>
+    <summary>Transformer共同発明者のNoam Shazeer氏がGoogleを離れOpenAIへ移籍を表明し、業界に衝撃が走った / Claude Codeを中心とした並列ループエージェントやプラグイン活用の実践例がZenn・Qiitaで複数公開された / AWS Summit New York 2026でAIセキュリティ・自律エージェント系の大型発表が相次ぎ、Bedrockフルマネージド化も進展 / 自己改善エージェントの局所最適問題を研究・実務の両面から整理した記事が注目を集めた / CloudflareのV8 Isolateアーキテクチャがエージェント1対1モデルに最適と主張する技術記事…</summary>
+  </entry>
   <entry>
     <title>2026年6月18日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-18-news.html" />
