@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-19",
+  "generatedAt": "2026/6/19 8:07:52",
+  "highlights": [
+    "SpaceXがIPO直後にAIコーディングツールCursorを600億ドルで買収すると発表",
+    "G7サミットで各国首脳がアメリカへのAI依存と遮断リスクを公式に懸念",
+    "AnthropicのAmodei氏・Google DeepMindのHassabis氏がG7でAI多国間協調を訴え",
+    "ワールドモデルAIスタートアップOdysseyがAmazon等から3億1000万ドルを調達",
+    "DatabricksがマルチエージェントメタハーネスOmnigentをApache 2.0でOSS公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "SpaceX、IPO直後にAIコーディングスタートアップCursorを600億ドルの全株式交換で買収へ",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "summary": "SpaceXは2026年6月16日、AIコーディングツールCursor（Anysphere）を600億ドルの全株式取引で買収すると発表した。同社はIPO（6月12日）直後の買収で、Cursorは年率換算ARRが40億ドルに達するなど急成長中のコーディングAIスタートアップ。取引は2026年第3四半期のクローズを予定しており、発表後にSpaceX株は17%上昇した。CursorはSpaceXのColossusスーパーコンピュータ上で開発が進む次世代AIモデルへ統合される見込み。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "G7サミット：各国首脳、アメリカのAIへの依存と一方的なアクセス遮断リスクを公式に懸念",
+      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "summary": "フランス・エビアン開催のG7サミットで、マクロン仏大統領やモディ印首相らがアメリカのAIモデルへの依存リスクを訴えた。米国が「一夜にしてスイッチを切れる」状況への懸念が表面化し、AnthropicのMythos 5・Fable 5モデルをトランプ政権が輸出制限した事例が引き合いに出された。G7首脳陣はAI主権確保に向けた「信頼パートナー」スキーム創設を議論しており、AIガバナンスが国家安全保障と経済主権の交差点に浮上した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicとGoogle DeepMindのCEO、G7で米国主導の国際AI連携枠組みを提言",
+      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "summary": "G7サミットのAIワーキングランチにDario Amodei（Anthropic）・Demis Hassabis（Google DeepMind）・Sam Altman（OpenAI）の各CEOが首脳と同席した。AltmanはAI能力とリスクの独立評価・国際テスト標準・国家間協力の場となる国際フォーラム設立を提言。各CEOはAIが民主主義的な価値観のもとで開発されるべきだとの立場を示しつつ、各国が米国AIインフラへのアクセスを将来も保証されるよう求める声に応える形となった。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "ワールドモデルAIスタートアップOdysseyがシリーズBで3億1000万ドルを調達、評価額14.5億ドルに",
+      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+      "summary": "自動運転出身の創業者が設立したAIスタートアップOdysseyが、Natural Capital主導・Amazon・AMD Ventures・GV参加のシリーズBで3億1000万ドルを調達した。同社はカメラ搭載バックパックで実世界データを収集し、テキストプロンプトからインタラクティブ映像を生成するワールドモデルを開発、ゲーム・ロボティクス向けに提供する。今回の出資によりAWSが優先クラウドインフラとなり、NVIDIAの代替としてAWSのTrainiumチップへの最適化も進める方針。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Databricks、複数AIエージェントを統合・制御するメタハーネス「Omnigent」をOSSとして公開",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2117312.html",
+      "summary": "DatabricksはApache 2.0ライセンスのオープンソースフレームワーク「Omnigent」のアルファ版を公開した。Claude CodeやCodexなど異なるエージェント間を1行の変更で切り替えられる「Composition」機能、コスト予算・権限などガードレールを一括管理する「Control」機能、URLでセッション共有できる「Collaboration」機能の3本柱で構成される。大規模エンジニアリングチームで複数エージェントを連携させる実用ニーズに応えるマルチエージェント基盤として注目される。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Android 17をリリース―GeminiによるAI動画編集・音楽生成など新機能を多数搭載",
+      "url": "https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/",
+      "summary": "GoogleはAndroid 17とWear OS 7をリリースし、Gemini Omniによるアプリ内動画編集、Lyria 3による画像・テキストからの楽曲生成、AudioLMによる音声翻訳など、AI機能を大幅に拡充した。マルチタスク向けバブルバーUI、フォルダブル端末向けゲームモード、強化された保護者向け設定やFind Hubの新機能も追加されている。Wear OS 7ではGeminiによるカスタムウィジェット生成やマルチステップ自動化が可能になり、バッテリー寿命も最大10%向上した。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-06-19-news"
+}
