@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-20",
+  "generatedAt": "2026/6/20 8:11:50",
+  "highlights": [
+    "最大の話題はAnthropicのFable 5 / Mythos 5が米商務省の輸出規制指令で世界的に停止（6/12）、企業への影響が続く",
+    "AnthropicはソウルオフィスをオープンしNAVER・Samsung SDS・LG CNSなど韓国大手と大規模AI導入を発表",
+    "Googleが6年ぶりとなるGemini搭載スマートスピーカー「Google Home Speaker」を6月25日に$99.99で発売",
+    "インドReliance IndustriesがJioに全面的にAIを統合、5億人以上のユーザー向けに日常AIサービスを展開",
+    "Google Gemini 3.5 Proが2Mトークンコンテキスト・Deep Think推論搭載で6月末の一般公開に向け限定プレビュー中"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "AnthropicのFable 5 / Mythos 5、米政府の輸出規制で世界的なアクセス停止",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "summary": "米商務省は2026年6月12日、Anthropicに対してFable 5とMythos 5へのすべてのアクセスを停止するよう輸出規制指令を発動した。政府はFable 5のジェイルブレイク（安全機能回避）手法の存在を理由に挙げており、外国国籍者だけでなくAnthropicの自社社員まで含む全ユーザーが対象となった。Anthropicは「この脆弱性は極めて限定的なもの」と反論しつつも指令に従い、Claude Opus 4.8など他モデルへのアクセスは継続している。同社は透明性ある法的プロセスに基づいた規制を求めており、「この基準を業界全体に適用すれば、フロンティアAIの新規展開が実質的に停止する」と警鐘を鳴らした。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、ソウルオフィス開設とともに韓国主要企業との大規模AI導入を発表",
+      "url": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
+      "summary": "Anthropicは6月17日、ソウルオフィスの開設とともに韓国AIエコシステムとの包括的な連携を発表した。NAVER全エンジニアリング組織へのClaude Code導入、Samsung SDS・LG CNS・Hanwha SolutionsへのClaude展開が同時発表され、Channel Corpは23万社以上が利用するChannel TalkにClaudeを統合した。また韓国科学技術情報通信部とAI安全・サイバーセキュリティ協力のMOUを締結し、KAIST・高麗大学・延世大学・POSTECHの研究者60名へのアクセス提供も行う。Fable 5停止という逆風の中、Anthropicが国際展開を加速させる姿勢を鮮明にした。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Gemini搭載スマートスピーカー「Google Home Speaker」を6月25日に発売",
+      "url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-speaker-gemini-features/",
+      "summary": "Googleは6月17日、6年ぶりとなる新型スマートスピーカー「Google Home Speaker」を発表した。Gemini AIを中核に据えており、単発コマンドではなく自然な会話を継続しながらスマートホームを操作できる。価格は$99.99で6月25日に発売予定。360度音響、Matter/Thread対応のスマートホームハブ機能を備え、Hazel・Porcelain・Jade・Berryの4色展開となる。Google Home Premiumサブスクリプションでは「Gemini Live」（会話型AI）や各種カメラ履歴検索など上位機能が追加される。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "インドReliance Industries、Jioに全面的なAI統合を宣言 ── 5億人向け日常AIサービスへ",
+      "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "summary": "Reliance Industriesは年次株主総会でムケシュ・アンバニ氏が「AIは通話・アプリ・家庭に行き渡るべきだ」と宣言し、複数のAIサービスを発表した。通話中にAIが自動トランスクリプトを生成し、タクシー予約や料理注文まで完結させる「Jio Call Agent」は5億人以上の契約者向けに年内提供予定。ヘルスケア（JioHealthIQ）・教育（JioLearnIQ）・農業（JioKrishiIQ）・中小企業向け（AI Vyapar）など22言語対応のAIサービスも同時発表された。Google・Meta・Nvidiaとのパートナーシップを含む1100億ドルのAIインフラ投資に基づく大規模展開となる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google Gemini 3.5 Pro、2Mトークンコンテキスト＆Deep Think推論で6月末の一般公開へ",
+      "url": "https://growwingassistant.com/ai-news/gemini-3-5-pro-release-date-june-2026-every-confirmed-spec-pricing-when-it-drops/",
+      "summary": "Google I/O（5月19日）で「来月公開」と予告されたGemini 3.5 Proが、6月末の一般公開に向け限定エンタープライズプレビュー中であることが改めて確認された。最大の特徴は200万トークンのコンテキストウィンドウ（現行フロンティアモデル最大）と「Deep Think」拡張推論モードの搭載で、大規模コードベースや法務文書の一括処理が可能になる。料金は入力$15・出力$60（百万トークン当たり）が見込まれ、Deep Thinkは月額$250のUltraプラン限定となる見通し。Gemini 3.5 Flashがすでに5月に公開されており、Proがこれに続く形となる。",
+      "category": "model"
+    }
+  ],
+  "slug": "2026-06-20-news"
+}
