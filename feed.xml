@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-19T00:00:00+09:00</updated>
+  <updated>2026-06-20T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月20日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-20.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-20.html</id>
+    <updated>2026-06-20T00:00:00+09:00</updated>
+    <summary>ヒュンダイがBoston Dynamicsを完全子会社化、ヒューマノイドロボットの商業化が本格化 / Zennでself-improvementスキルによるClaude Codeのセッション横断学習が注目を集める / AWS Summit New York 2026でBedrock AgentCoreなどAIエージェント基盤の強化が多数発表 / Claude Code新機能ArtifactsでAI生成HTMLドキュメントの共有が容易に / 自己改善エージェントの局所最適問題と、ハーネス設計による脱出戦略を解説</summary>
+  </entry>
   <entry>
     <title>2026年6月19日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-19-news.html" />
