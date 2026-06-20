@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-20T00:00:00+09:00</updated>
+  <updated>2026-06-21T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月21日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21.html</id>
+    <updated>2026-06-21T00:00:00+09:00</updated>
+    <summary>Cloudflare がAIエージェント向け「一時アカウント」機能を提供開始し、サインアップ不要でWorkerをデプロイできるようになった。 / 「ループエンジニアリング」という概念が台頭。人間がエージェントに指示する役割から、エージェントを動かし続ける仕組みを設計する役割へのシフトが語られている。 / RAGの実装を処理段階ごとに分解し、パーサー・チャンキング・検索・リランクなど各フェーズの優秀手法を整理した記事が登場。 / Apple container 1.0 の container machine（macOS 26）やClaude Design のアプリ対応など、開発ツール周りの新機…</summary>
+  </entry>
   <entry>
     <title>2026年6月20日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-20-news.html" />
