@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-21",
+  "generatedAt": "2026/6/21 8:08:08",
+  "highlights": [
+    "ノーベル賞受賞者ジョン・ジャンパー氏がDeepMindを離れAnthropicへ移籍。今週はCharacter AI共同創業者もDeepMind→OpenAI移籍が報じられ、AIトップ人材の大移動が加速している。",
+    "AI推論スタートアップBasetenが約5ヶ月前の$5Bから一気に$13Bへ急騰し$1.5Bの大型調達。LLM推論インフラへの投資競争が加熱。",
+    "Signalのメレディス・ウィテカー氏がAIチャットボットのプライバシーリスクを警告。AIへの過度な依存と個人データ開示に注意を促す。",
+    "インド最大財閥ReliandeのアンバニCEOが$1,100億ドル投資を背景にJio AIサービス群を発表。500万人超のユーザーに展開予定。",
+    "ElasticがAI自動デバッグスタートアップDeductive AIを最大$85Mで買収。AIによるSRE（サイト信頼性工学）自動化市場が拡大。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "ノーベル賞受賞者ジョン・ジャンパー氏、DeepMindを去りAnthropicへ移籍",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "summary": "AlphaFoldの開発でデミス・ハサビス氏と共に2024年ノーベル化学賞を受賞したジョン・ジャンパー氏が、DeepMindを離れAnthropicに移籍することを発表した。同じ週にCharacter AI共同創業者ノア・シャジール氏もDeepMindからOpenAIへの移籍が報じられており、トップ研究者の大移動が相次いでいる。ジャンパー氏はGoogleのコーディングツール開発にも携わっていた。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AI推論スタートアップBasetenが評価額$130億ドルで$15億ドルの調達を目指すと報道",
+      "url": "https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/",
+      "summary": "2019年創業のAI推論スタートアップBasetenが、わずか5ヶ月前の$5Bから$13Bへと評価額を大幅に引き上げ、$1.5Bの資金調達に向かっていると報じられた。Spark Capital、Sands Capital、Altimeter Capital、Wellington Managementが出資する。同社はオープンソースモデルへのルーティングによるコスト最適化で差別化し、急成長する「推論ゴールドラッシュ」を象徴する存在となっている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Signal社長メレディス・ウィテカー氏「AIチャットボットはあなたの友達ではない」",
+      "url": "https://techcrunch.com/2026/06/20/signals-meredith-whittaker-wants-you-to-remember-that-ai-chatbots-are-not-your-friends/",
+      "summary": "Signalの社長メレディス・ウィテカー氏がAIチャットボットへの過度な信頼を強く戒め、「これらは意識も感情もない」と明言した。クレジットカードやブラウザ、カレンダーなど複数サービスへの広範なAIアクセス許可は「バックドアの一形態」であり、重大なプライバシー侵害につながると警告。AI自体は簡単な書式整形にしか使わず、思考はAIに委ねないとの姿勢を示した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "インド富豪アンバニ氏、すべての通話・アプリ・家庭にAIを組み込む計画を発表",
+      "url": "https://techcrunch.com/2026/06/19/billionaire-ambani-wants-ai-in-every-call-app-and-home/",
+      "summary": "Reliance Industries会長ムケシュ・アンバニ氏が、「Hey Jio」で起動するAI通話アシスタントや家庭用AIディスプレイ「TeleFrame」、医療・農業・教育向けAIサービス群などのJio AIエコシステムを発表した。5億人超のユーザーへの展開を見据えており、同社は今年初めに$1,100億ドルのAIインフラ投資を表明している。「インドは他国が作ったAIの消費者に甘んじてはならない」と自国AI産業の育成を訴えた。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "ElasticがAIバグ修正スタートアップDeductive AIを最大8,500万ドルで買収",
+      "url": "https://techcrunch.com/2026/06/18/source-elastic-agrees-to-buy-crv-backed-deductiveai-for-up-to-85m/",
+      "summary": "エンタープライズ検索大手のElasticが、AIを使ってソフトウェアのバグを自動特定・修正する「AI SRE」スタートアップDeductive AIを最大$85Mで買収することに合意した。Deductive AIは7ヶ月前に$750万ドルのシード資金を$3,300万ドル評価で調達したばかりで、ARRは約$100万ドル。インシデント対応の自動化によりエンジニアの開発業務集中を支援する技術が評価された。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "「In the Weights」—AIモデルにどれだけ記憶されているかを測る新サービス登場",
+      "url": "https://techcrunch.com/2026/06/20/in-the-weights-is-your-new-ai-centric-vanity-search/",
+      "summary": "元OpenAI社員のトーマス・ディムソン氏とジョーイ・フリン氏が、複数のAIモデル（GPT・Claude・Gemini・Grok・Llamaなど）に質問を投げかけ、個人のAI訓練データへの浸透度を「強度スコア」で可視化するサービス「In the Weights」を公開した。LLMへのトラフィック移行が加速する2026年に、ウェブ上の存在感に代わる新たな指標として注目を集めている。回答のクラスタリングとハルシネーション検出機能も備える。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-06-21-news"
+}
