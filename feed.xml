@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-21T00:00:00+09:00</updated>
+  <updated>2026-06-22T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月22日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22.html</id>
+    <updated>2026-06-22T00:00:00+09:00</updated>
+    <summary>スイスAI Initiative が EU AI Act 対応の完全オープンな基盤モデル Apertus を公開 / Claude Code 向けのローカルセッションメモリ「Recall」で毎回の文脈説明を不要に / MCP サーバの企業ガバナンスを二層で実現する Bifrost Edge が登場 / 「ループエンジニアリング」が注目を集め、人間がエージェントを指示する役割からシステム設計へ転換 / Apple container 1.0 と docker compose を組み合わせる実践手順が公開</summary>
+  </entry>
   <entry>
     <title>2026年6月21日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21-news.html" />
