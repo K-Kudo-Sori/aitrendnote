@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-22T00:00:00+09:00</updated>
+  <updated>2026-06-23T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月23日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23.html</id>
+    <updated>2026-06-23T00:00:00+09:00</updated>
+    <summary>Claude CodeのExtended Thinking出力は実際の思考ではなく暗号化署名と要約のみで構成されており、監査目的での利用には注意が必要と指摘された / LG・SamsungのスマートTV 6,038本のうち約34%に住宅プロキシSDKが内包されており、ユーザー不知のままネットワークが悪用される実態が調査で判明 / AIコーディングエージェント普及により受託開発の外注需要が2026年時点ですでに縮小し始めており、2027年予測より2年近く早く影響が顕在化 / AIエージェントのセキュリティ脆弱性として「プロンプトインジェクション」「ツール説明ポイズニング」「出力無検証トラスト」…</summary>
+  </entry>
   <entry>
     <title>2026年6月22日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-05.html</id>
     <updated>2026-06-05T00:00:00+09:00</updated>
     <summary>AnthropicがAI活用の脆弱性発見フレームワークをオープンソース公開し、自律的なセキュリティスキャンとパッチ生成が可能に / AnthropicがAI自身によるAI開発（再帰的自己改善）の進捗を報告 ─ エンジニアの生産性が5年で8倍に向上 / HuaweiがvLLM向けKVキャッシュ量子化バックエンド「KVarN」を公開、FP16と同精度・同速度でKVキャッシュ容量を3〜5倍に / Claude Managed Agentsを活用したSlack botがエンジニア問い合わせを大幅削減、導入4週間でbot対応スレッド数が4.5倍に / NetflixエンジニアによるAIエージェントのト…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月4日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-04.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-04.html</id>
-    <updated>2026-06-04T00:00:00+09:00</updated>
-    <summary>UberがClaude CodeなどAIコーディングツールの月間使用上限を$1,500に設定し、AIツールのコスト管理が大企業でも本格化 / Anthropicがエージェントの「爆発半径」を制御するアーキテクチャ設計を公開し、AI安全性エンジニアリングの知見を共有 / UCバークレーCSクラスで不可（F）評定が急増、AI多用と数学基礎力低下の相関が問題視される / ゼロデイ攻撃の中央値がついに「0日」に――脆弱性公開前から攻撃されるケースが急増し従来の月例パッチ運用が破綻 / Netflixエンジニア製トークン削減OSSツール「Headroom」がリリース直後に6k stars超え、ビルドロ…</summary>
   </entry>
 </feed>
