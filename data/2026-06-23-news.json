@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-23",
+  "generatedAt": "2026/6/23 8:07:55",
+  "highlights": [
+    "Google DeepMindがA24に7500万ドル投資し、AI映画製作ツール開発で提携",
+    "SpaceXがReflection AIと最大63億ドルのコンピュート契約を締結",
+    "MicrosoftとChevronが米テキサス州に2.67GWの天然ガスデータセンター計画（Project Kilby）",
+    "AIエージェントが「ループ」駆動へ移行し、継続的自律実行が新トレンドに",
+    "ノーベル賞受賞者・AlphaFold開発者のJohn JumperがDeepMindを離れAnthropicへ移籍"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Google DeepMind bets $75M on AI's future in Hollywood with A24 deal",
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "summary": "Google DeepMindがインディー映画スタジオA24に7500万ドルを投資し、AI映画製作ツールの共同開発に乗り出した。DeepmindのDemis Hassabis CEOは「A24のような業界リーダーと最初から協力することで、アーティストを支援する新機能を構築できる」と述べた。NetflixによるAI映画制作会社InterPositiveの買収、AmazonのMGMによるAIプロダクション部門の立ち上げなど、AIがハリウッドに浸透する流れが加速している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "summary": "オープンソースAIスタートアップのReflection AIがSpaceXと最大63億ドルのコンピュート契約を締結した。2026年7月1日から月額1億5000万ドルを支払い、SpaceXのColossus 2データセンター（テネシー州メンフィス近郊）でNvidiaのGB300チップへのアクセスを得る。同データセンターではAnthropicが月額12億5000万ドル、Googleが月額9億2000万ドルの契約を締結しており、フロンティアAIのインフラ競争が激化している。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft and Chevron plan one of the largest gas-powered data center projects in US",
+      "url": "https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/",
+      "summary": "MicrosoftとChevronがテキサス州西部に2.67GWの天然ガス発電所とデータセンターを建設する「Project Kilby」を発表し、20年間の電力購入契約を締結した。GE VernovaのタービンなどでAIデータセンターに専用電力を供給する計画だ。同施設は年間1300万トン以上のCO2を排出する見込みで、2030年までのカーボンニュートラル目標を掲げるMicrosoftにとって矛盾を孕む大型投資となる。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "The AI World is Getting 'Loopy'",
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "summary": "AIエージェントが「ループ」動作—複数エージェントが停止せずバックグラウンドで継続的に作業を続ける方式—へ移行しつつある。Claude Codeの開発者Boris Chernyは「ループはコード手書きからエージェント記述への移行と同程度に重要な転換点」と語り、自身もアーキテクチャ改善やPR作成を自動実行するエージェントを常時稼働させている。トークン消費が劇的に増大する一方、推論量を増やすことで複雑な問題の段階的解決が可能になるとされる。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "summary": "AppleはiOS 27でApple Intelligenceを既存アプリに深く統合し、実用的なAI機能を拡充する。Apple Cashでレシートを撮影するだけで割り勘計算・送金が可能になるほか、流出した弱いパスワードを自動検出・更新する機能も追加される。Messagesは会話の文脈から予定追加やカレンダー登録のワンタップ提案を行い、スマートホーム通知は関連イベントを1件にまとめる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "summary": "AlphaFoldの開発でDemis Hassabisと共に2024年ノーベル化学賞を受賞したJohn JumperがGoogle DeepMindを約9年で離れ、Anthropicに移籍すると発表した。AI人材がDeepMindから流出する傾向が続いており、Geminiの共同リードだったNoam ShazeerはOpenAIへ移籍している。フロンティアAI研究の主導権を巡る人材獲得競争が激しさを増している。",
+      "category": "research"
+    }
+  ],
+  "slug": "2026-06-23-news"
+}

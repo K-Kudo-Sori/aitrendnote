@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-06-23T00:00:00+09:00</updated>
   <entry>
+    <title>2026年6月23日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23-news.html</id>
+    <updated>2026-06-23T00:00:00+09:00</updated>
+    <summary>Google DeepMindがA24に7500万ドル投資し、AI映画製作ツール開発で提携 / SpaceXがReflection AIと最大63億ドルのコンピュート契約を締結 / MicrosoftとChevronが米テキサス州に2.67GWの天然ガスデータセンター計画（Project Kilby） / AIエージェントが「ループ」駆動へ移行し、継続的自律実行が新トレンドに / ノーベル賞受賞者・AlphaFold開発者のJohn JumperがDeepMindを離れAnthropicへ移籍</summary>
+  </entry>
+  <entry>
     <title>2026年6月23日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-06.html</id>
     <updated>2026-06-06T00:00:00+09:00</updated>
     <summary>Google が Gemma 4 12B を発表 — エンコーダレス統合アーキテクチャで16GB VRAM のノートPCでも動作するマルチモーダル LLM。Gemma 4 シリーズ累計ダウンロードが1.5億回を突破。 / GitHub Copilot が6月から AI Credits 従量課金へ移行。Agent mode 多用者は実質大幅値上げとなり、Caveman Prompt とプロンプトキャッシングによるトークン削減策が注目を集める。 / Netflix エンジニア製トークン圧縮 OSS「Headroom」が JSON・ビルドログで最大94%削減を実現。可逆圧縮（CCR）で元データを後…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月5日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-05.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-05.html</id>
-    <updated>2026-06-05T00:00:00+09:00</updated>
-    <summary>AnthropicがAI活用の脆弱性発見フレームワークをオープンソース公開し、自律的なセキュリティスキャンとパッチ生成が可能に / AnthropicがAI自身によるAI開発（再帰的自己改善）の進捗を報告 ─ エンジニアの生産性が5年で8倍に向上 / HuaweiがvLLM向けKVキャッシュ量子化バックエンド「KVarN」を公開、FP16と同精度・同速度でKVキャッシュ容量を3〜5倍に / Claude Managed Agentsを活用したSlack botがエンジニア問い合わせを大幅削減、導入4週間でbot対応スレッド数が4.5倍に / NetflixエンジニアによるAIエージェントのト…</summary>
   </entry>
 </feed>
