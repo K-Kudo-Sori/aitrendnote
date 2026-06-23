@@ -1,0 +1,235 @@
+{
+  "date": "2026-06-24",
+  "generatedAt": "2026/6/24 7:20:08",
+  "highlights": [
+    "Anthropicが「Claude Tag」を発表 — SlackにClaudeをチームメンバーとして招待できる新機能",
+    "Zennでは「Claude Code 実践活用」記事が複数トレンド入り（QA自動化・コンテキスト分割・ポートフォリオ開発）",
+    "Qiitaでは「Agentjacking」攻撃やCursor独自モデルなどAIセキュリティ・ツール競争に注目",
+    "LLMのコード生成原理を概念的に解説する記事が登場、AIコーディングの内部理解促進へ",
+    "DEV.to では「最小AI原則」など、AI活用の哲学・バランスを問う議論が増加"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Madison Square Garden compiled a list of activists against facial recognition",
+      "url": "https://www.404media.co/madison-square-garden-made-dossier-on-activists-who-opposed-facial-recognition/",
+      "summary": "マディソン・スクエア・ガーデン（MSG）が、施設の顔認証技術に批判的な活動家のリストを内部文書「Facial Recognition Activists.docx」としてまとめていたことが、45GBのデータ漏洩を通じて明らかになった。文書にはSNS上の批判ツイートやコメントが詳細に記録されており、MSG内の複数の関係者がアクセスできる状態にあった。同施設を経営するジム・ドラン氏は批判者への強硬な対応で知られており、顔認証の導入にとどまらず批判者の監視も実施していた実態が浮き彫りとなった。本件は顔認証技術をはじめとする監視技術がもたらすプライバシー侵害リスクと企業による市民監視の問題を改めて提起している。",
+      "category": "security",
+      "points": 279,
+      "comments": 77,
+      "author": "cdrnsf"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Tag",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "summary": "AnthropicがSlackとの統合から始まる新機能「Claude Tag」を発表した。チームメンバーとしてClaudeをSlackチャンネルに招待し、@タグ付けで呼び出してチーム会話に参加させることができる。Claude Tagにより、ドキュメント作成・情報検索・タスク整理などをSlackのワークフロー内で直接Claudeに依頼できるようになる。今後は他のコラボレーションプラットフォームへの展開も予定されており、チーム単位でのAI活用を加速する製品アップデートとして注目される。",
+      "category": "product",
+      "points": 206,
+      "comments": 131,
+      "author": "adocomplete"
+    },
+    {
+      "source": "hackernews",
+      "title": "The Low-Tech AI of Elden Ring",
+      "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "summary": "フロム・ソフトウェアのElden Ringにおける敵NPC AIは、複雑な機械学習ではなく状態機械（ステートマシン）ベースのシンプルな実装で構築されている。各NPCはプレイヤーとの距離・攻撃タイミング・体力などのパラメータに応じて有限の状態を遷移し、多彩で挑戦的な戦闘体験を実現している。本記事では、このローテクなAI設計が高い没入感と戦略性を生み出せる理由を技術的視点から分析している。古典的なゲームAI手法であっても、パラメータの精緻なチューニングとデザイン哲学によって世界最高水準のゲーム体験が実現できることを示す考察だ。",
+      "category": "research",
+      "points": 84,
+      "comments": 48,
+      "author": "g0xA52A2A"
+    },
+    {
+      "source": "hackernews",
+      "title": "German Rail Service Suspended Due to Radio Interference",
+      "url": "https://www.bluewin.ch/en/news/german-rail-service-suspended-due-to-radio-interference-li.3295297",
+      "summary": "ドイツの鉄道サービスがラジオ波干渉を原因として一時停止に追い込まれた事案を報じる記事。電波障害により列車の制御・通信システムへの影響が確認され、安全上の観点からサービス停止が判断された。鉄道インフラが電磁波干渉を含む物理的な脅威に対して脆弱である側面が改めて示されており、インフラセキュリティへの関心が高まっている。現時点では原因の詳細調査が継続中とされている。",
+      "category": "other",
+      "points": 81,
+      "comments": 25,
+      "author": "sva_"
+    },
+    {
+      "source": "hackernews",
+      "title": "Don't verify email addresses by sending spam to them",
+      "url": "https://milek7.pl/mailverifyspam/",
+      "summary": "メールアドレスの有効性確認を目的として複数の検証メールを送ることは、実質的にスパム行為であると警告する記事。メールアドレス検証には確認リンク付きのメールを一度送るだけで十分であり、複数回の送信やピング確認は受信者の迷惑となる。一般に信じられているメールアドレス検証の「ベストプラクティス」の多くは根拠が薄く、かえってユーザー体験を損なうと指摘している。開発者向けに、シンプルかつ倫理的なメールバリデーション手法の実践を促す内容だ。",
+      "category": "other",
+      "points": 81,
+      "comments": 15,
+      "author": "garaetjjte"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した",
+      "url": "https://zenn.dev/nexta_/articles/be13a2395a5d2a",
+      "summary": "製造業向けSaaS（Blazor + Radzen / SQL Server）のQAエンジニアが、Claude Codeに「7人の意地悪なQA」というペルソナを設定し、テストケースの観点漏れを体系的に検出する手法を紹介している。異なる批判的視点を持つ7つのQAキャラクターに役割分担させることで、一人では見落としがちなテスト観点を網羅的に洗い出す。Claude Codeとプロンプトエンジニアリングを組み合わせることで、テスト設計の品質と効率を同時に向上させることに成功した実践例だ。AIを活用したQAプロセス革新の具体的な手法として、幅広いプロジェクトへの応用が期待される。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Design ↔ Claude Code を行き来して作った資産ポートフォリオダッシュボード",
+      "url": "https://zenn.dev/unsoluble_sugar/articles/fd73c7b67d80ce",
+      "summary": "Claude DesignとClaude Codeを交互に活用しながら、個人の資産ポートフォリオを一覧できるWebダッシュボードを個人開発した事例を紹介する。Claude Designでビジュアルプロトタイプを生成し、そのデザインをClaude Codeで実装するというサイクルを繰り返すことで、デザインから実装まで効率的に進めることができた。資産の総額・構成比をひと目で把握できるインターフェースを実現しており、AI製品群を組み合わせた個人開発のワークフローを具体的に示している。非エンジニアや一人開発者がAnthropicのAIツールスイートを活用する際の参考になる実践記録だ。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeに全部抱え込ませるのをやめた。tmuxのタブを会話させてコンテキストを分割する",
+      "url": "https://zenn.dev/tokium_dev/articles/tmux-multitab-context-management",
+      "summary": "TOKIUMのエンジニアが、Claude Codeのコンテキスト制限に対処するためtmuxのマルチタブを使ったコンテキスト分割手法を考案・実践した内容を紹介する。単一セッションにすべての作業を集中させるのではなく、タスクごとに専門的な役割を割り当てた複数のtmuxタブを立て、タブ間で情報を受け渡しながら協調動作させる。これにより、複雑で大規模なタスクをClaude Codeで扱う際のコンテキスト枯渇問題を実践的に回避できることを示している。AIコーディングエージェントの限界を工夫で克服する、現場エンジニアならではの実践的アプローチだ。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "標準CSSは美しくなった、もはやTailwindは不要",
+      "url": "https://zenn.dev/higakijin/articles/06276828c81546",
+      "summary": "近年のCSSネスト構文・カスタムプロパティ・コンテナクエリなどの標準化により、TailwindCSSのようなユーティリティファーストフレームワークを使わなくても表現力豊かなスタイリングが可能になったと論じる記事。CSSのネスト構文がブラウザ標準でサポートされたことで、Sass/SCSSへの依存なく複雑なスタイル設計ができるようになった。外部ライブラリ依存を減らすことでビルド設定の単純化とパフォーマンス改善が期待できるとしている。ただし大規模プロジェクトやチーム開発においてはフレームワーク利用が引き続き合理的な場合もあると補足している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "AIコーディングではコードではなく検証プロセスをレビューする",
+      "url": "https://zenn.dev/mkj/articles/56245f7a34539c",
+      "summary": "AIコーディングツールの普及により実装速度は飛躍的に向上したが、品質の安定化こそが真の課題であると論じる記事。筆者は「実装・E2Eテスト・設計書・コードレビューの4つの問い」というフレームワークでAI時代の品質管理を体系化し、コード出力そのものではなく検証プロセスをレビューする姿勢の重要性を説く。コーディングエージェントが生成したコードをそのまま信頼するのではなく、テストや設計書との整合性を確認するレビュープロセスを確立することが品質維持の鍵とされる。松尾研究所のテックブログとして公開されており、AI活用現場の実践的な知見として参照価値が高い。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "The Principle of Least AI",
+      "url": "https://dev.to/ingosteinke/the-principle-of-least-ai-4jc0",
+      "summary": "「最小権限の原則」に倣い、AIは本当に必要な場面でのみ最小限に活用すべきという「最小AI原則（Principle of Least AI）」を提唱する記事。全てのタスクにAIを使う傾向に警鐘を鳴らし、開発者のスキルや判断力の維持、コード品質への影響を考慮した意識的なAI利用を促している。AIの適用範囲を絞り込むことで、ツールへの過度な依存を避けながら最大の恩恵を引き出せると主張する。自動化と人間の知性をどのように組み合わせるかという、AI時代の開発哲学に関する示唆に富む論考だ。",
+      "category": "other",
+      "author": "Ingo Steinke, web developer",
+      "tags": [
+        "ai",
+        "productivity",
+        "watercooler"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I'm not a developer, but I built a calendar app to fix my most annoying work task",
+      "url": "https://dev.to/googleai/im-not-a-developer-but-i-built-a-calendar-app-to-fix-my-most-annoying-work-task-dj4",
+      "summary": "開発経験のない筆者がGoogle AIツールを活用し、日常業務で最も煩わしかったカレンダー管理タスクを自動化するアプリを構築した体験記。プログラミングスキルがなくても、AIの補助を受けながら実用的なアプリケーションを作れることを実証した内容だ。Google AIが提供するツール群を組み合わせることで、ノーコード/ローコードの壁を超えた自動化が実現できることを示している。非エンジニアがAIを使って業務課題を自ら解決するというトレンドを体現した事例として、AI活用の民主化を示すケーススタディだ。",
+      "category": "product",
+      "author": "Aria Heller",
+      "tags": [
+        "ai",
+        "productivity",
+        "beginners",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": ". .. . ... . .... . .... . ... .",
+      "url": "https://dev.to/lovestaco/--2kb7",
+      "summary": "本文取得失敗。タイトルおよび本文が意味をなさない記事であり、テスト投稿またはスパム的な投稿と考えられる。実際のAI関連コンテンツは確認できなかった。",
+      "category": "other",
+      "author": "Athreya aka Maneshwar",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "beginners"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Tower Before Dusk: I Built a Puzzle Game for Humans and AI",
+      "url": "https://dev.to/gramli/tower-before-dusk-i-built-a-puzzle-game-for-humans-and-ai-oao",
+      "summary": "人間とAIの両方がプレイヤーとして参加できるパズルゲーム「Tower Before Dusk」を開発した体験記。ゲームのルールや構造をAIが解析・プレイできるよう設計しながら、人間にとっても楽しめるバランスを追求したデザイン上の工夫を紹介している。AIエージェントをゲーム内でプレイヤーとして機能させる技術的アプローチと、人間対AIの異なる戦略が共存するゲーム体験の創出について述べている。ゲーム開発とAI活用の新しい可能性を示すインディー開発事例として注目される。",
+      "category": "other",
+      "author": "Daniel Balcarek",
+      "tags": [
+        "devchallenge",
+        "gamechallenge",
+        "gamedev",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Internmaxxing vs. Old Man Shakes Fist at Cloud",
+      "url": "https://dev.to/jon_at_backboardio/internmaxxing-vs-old-man-shakes-fist-at-cloud-5bnd",
+      "summary": "本文取得失敗。タイトルから、AIコーディングツールを積極活用する若手エンジニア（インターンマキシング）と、クラウドやAIツール全盛時代に懐疑的なベテランエンジニアの対立的視点を論じる記事と推察される。AIツールの台頭が職場でのスキルギャップや世代間認識の違いを生み出している現象を考察する内容と思われる。AIコーディング補助ツールが普及する現代における、経験の異なるエンジニア同士の価値観の相違について議論していると考えられる。",
+      "category": "other",
+      "author": "Jonathan Murray",
+      "tags": [
+        "ai",
+        "programming",
+        "beginners",
+        "career"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "自分の「Claude Code」ツールが、無駄になったトークンの数を83倍も過小評価していたことに気づいた経緯",
+      "url": "https://qiita.com/Anuj7411/items/e4138b830bde92e85115",
+      "summary": "自作のClaude Code連携ツールがトークン消費量を実際の83分の1しか計測できていなかったことを発見した経緯を詳述する記事。Claude CodeのAPIを通じたトークン計測において見落としやすい落とし穴や、消費量の計測ロジックに潜む誤りを具体的に解説している。正確なトークンコスト管理はClaude Codeを本番活用する上で不可欠であり、誤った計測が予想外のコスト増大につながりうることを警告している。Claude Code開発者・利用者に向けた実践的なデバッグ・コスト最適化のナレッジとして参照価値が高い内容だ。",
+      "category": "devtool",
+      "author": "Anuj7411",
+      "tags": [
+        "OpenSource",
+        "AI",
+        "OSS",
+        "MCP",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI Daily Digest: 2026年6月24日 — Interactions API標準化、Cursor独自モデル、Agentjacking攻撃",
+      "url": "https://qiita.com/lhjjjk4/items/647c49b428628b81d0c5",
+      "summary": "2026年6月24日のAI業界ニュースをまとめたダイジェスト記事。Interactions APIの標準化動向、CursorがリリースしたAIコーディング向けの独自LLMモデル、そしてAIエージェントを標的とした新攻撃手法「Agentjacking」の3トピックが主要な内容だ。Agentjackingはエージェント実行環境に悪意ある指示を注入してエージェントを乗っ取る攻撃手法であり、AIセキュリティの新たな脅威として警戒が高まっている。Cursor独自モデルの登場はAIコーディングツール市場での差別化競争を示しており、今後の市場動向を占う注目の動きだ。",
+      "category": "security",
+      "author": "lhjjjk4",
+      "tags": [
+        "Security",
+        "AI",
+        "コーディング",
+        "Gemini",
+        "Agentic"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Codex内部理解と制御 ~ 自然言語理解とコード生成― LLMがコードを生成する仕組みを概念的に理解する ―",
+      "url": "https://qiita.com/mellowlaunch/items/19665db8200269154791",
+      "summary": "OpenAI CodexをはじめとするLLMが自然言語からコードを生成する仕組みを概念的に解説した記事。事前学習で獲得した言語パターンと文脈理解をもとに、LLMがいかにして意図に沿ったコードを出力するかのプロセスを整理している。内部的な制御メカニズムやプロンプト設計がコード生成の精度に与える影響についても論じており、LLMの動作原理を理解することでより効果的な活用が可能になることを示す。AIコーディングツールを使うエンジニアが「なぜそう動くのか」を理解するための基礎知識を体系的に提供する内容だ。",
+      "category": "model",
+      "author": "mellowlaunch",
+      "tags": [
+        "codex"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Gravity: HUSKYLENS 2（AIカメラ系のデバイス）の箱に入っていたパワーボードについて公式情報を見てみた",
+      "url": "https://qiita.com/youtoy/items/b9b500e913fe3225662c",
+      "summary": "DFRobot製のエッジAIカメラモジュール「Gravity: HUSKYLENS 2」に同梱されていたパワーボードの公式仕様を調査した記事。HUSKYLENS 2はリアルタイムの物体認識・顔認識・色認識などをエッジデバイス上で実行できるAIカメラで、組み込みAIビジョンプロジェクトでの活用が広がっている。同梱パワーボードの接続方法・電源仕様・対応デバイスなど公式ドキュメントから得られた情報を整理・共有している。エッジAIデバイスを活用したIoT・ロボティクス開発に取り組むエンジニア向けの実践的な情報として有用だ。",
+      "category": "infra",
+      "author": "youtoy",
+      "tags": [
+        "HUSKYLENS2",
+        "Gravity：HUSKYLENS2",
+        "HUSKYLENS2PowerBoard"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "md と mdc の違い",
+      "url": "https://qiita.com/Yasushi-Mo/items/4885136c3d6a40533b36",
+      "summary": "mdファイルとNuxt Content v3で使用されるmdcファイルの違いを解説する記事。mdcはMarkdown Componentsの略称で、通常のMarkdownに加えてVueコンポーネントをファイル内に直接記述できる拡張形式だ。Nuxt Contentを使ったWebサイト構築においてmdcを活用することで、インタラクティブなコンテンツ表示やコンポーネントの再利用が容易になる。タグとして#AIが付与されているが、記事の主題はNuxt Contentのファイルフォーマット仕様に関する技術解説であり、フロントエンド開発者向けの実用的な内容となっている。",
+      "category": "other",
+      "author": "Yasushi-Mo",
+      "tags": [
+        "document",
+        "md",
+        "AI",
+        "Vue.js"
+      ]
+    }
+  ]
+}
