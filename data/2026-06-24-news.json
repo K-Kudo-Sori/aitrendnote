@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-24",
+  "generatedAt": "2026/6/24 8:09:48",
+  "highlights": [
+    "AnthropicがSlack連携「Claude Tag」をベータ公開。チャンネルに常駐して文脈を蓄積するAIチームメイト機能。",
+    "SilverhumanがAI検出スタートアップGPTZeroを買収。登録ユーザー1,900万人・ARR 3,000万ドルの規模。",
+    "臨床AIのCadenceが1億ドルのシリーズCを調達し評価額12億ドルに。慢性疾患の遠隔モニタリングをAIで自動化。",
+    "Z.aiがオープンウェイトLLM「GLM-5.2」（753Bパラメータ/MoE）をMITライセンスで公開。オープンモデルの実力評価で首位。",
+    "EU AI Act：7月22日がAI透明性コード署名期限。8月2日からチャットボット開示義務が正式施行。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "AnthropicのClaude Tagがチャンネルを学習、Slackメッセージ1つずつ着実に",
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "summary": "AnthropicはSlackに常駐するAIチームメイト「Claude Tag」をベータ版で発表した。ユーザーが@Claudeをタグ付けするとチャットに洞察を提供したりタスクを割り当てられる。チャンネルの会話を継続的に学習して組織コンテキストを蓄積する「always-on Claude」として機能し、Claude EnterpriseおよびTeam顧客に提供される。チーム全員が単一のClaude IDを通じてアクセスし、管理者が権限を制御できる。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "SuperhumanがAI検出スタートアップGPTZeroを買収",
+      "url": "https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/",
+      "summary": "メールクライアント企業SuperhumanがAIテキスト検出スタートアップGPTZeroを買収した。GPTZeroはプリンストン大学の学生プロジェクトとして始まり、登録ユーザー1,900万人以上・年間経常収益（ARR）3,000万ドルを達成した後、2024年に黒字化を果たしていた。買収額は非公開。SuperhumanはすでにAI検出機能を持つが、GPTZeroとの統合で精度向上を見込む。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "臨床AIのCadenceが1億ドルのシリーズCを調達、慢性疾患ケアを自動化",
+      "url": "https://www.statnews.com/2026/06/23/cadence-100-million-raise-automate-chronic-care-ai/",
+      "summary": "慢性疾患の遠隔モニタリングを手がけるCadenceがSpark Capital主導で1億ドルのシリーズCを調達し、評価額は12億3,000万ドルに達した。現在10万人以上の患者を管理し、血圧や糖尿病などの慢性疾患に対してAIが日常業務を担い臨床医の負担を軽減する。ピア査読論文で高血圧患者の血圧コントロールが70%改善、入院率27%低下などの成果を公表している。Duke Health、Texas Health Resourcesとの新たな連携も発表された。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Fika Jobsが400万ドルを調達、AIエージェントが採用面接を行う動画ファーストプラットフォームを構築",
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "summary": "ストックホルムのスタートアップFika JobsがLuminar Ventures主導で400万ドルを調達した。求職者はLinkedInプロフィールを接続した後、Google Geminiを搭載したAIエージェントと約10分間の動画面接を行い、その回答が自動的にショートフォーム動画プロフィールに変換される。採用企業側はスクリーニング済みの候補者プールを閲覧でき、成功報酬10%で利用できる。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Z.aiがGLM-5.2を公開——オープンウェイトLLMで最高スコアを獲得した753Bパラメータのモデル",
+      "url": "https://simonwillison.net/2026/jun/17/glm-52/",
+      "summary": "中国のAI企業Z.ai（Zhipu AI）が753Bパラメータ・40Bアクティブ（Mixture of Experts）のLLM「GLM-5.2」をMITライセンスでオープン公開した。コンテキストウィンドウはGLM-5.1の20万トークンから100万トークンへ大幅拡張されており、Artificial Analysisの独立ベンチマークでオープンウェイトモデルの最高スコアを記録した。テキスト専用のモデルで、推論に多くのトークンを消費する傾向がある。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "EU AI法：チャットボット開示義務が8月2日に施行、7月22日がコード署名の期限",
+      "url": "https://axis-intelligence.com/eu-ai-act-news/",
+      "summary": "EU AI法（AI Act）のArticle 50透明性義務が2026年8月2日から全EU加盟国で正式施行される。チャットボット等の対話型AIはユーザーとの最初のやり取りでAIと対話していることを明示しなければならず、違反した場合は最大1,500万ユーロまたは全世界年間売上高の3%の制裁金が科せられる。EU AI Officeが設けるAI透明性に関する行動規範の署名期限は7月22日で、署名企業は規制適合の推定を受けられる。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-06-24-news"
+}
