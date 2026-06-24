@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-24T00:00:00+09:00</updated>
+  <updated>2026-06-25T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月25日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25.html</id>
+    <updated>2026-06-25T00:00:00+09:00</updated>
+    <summary>OpenAIがBroadcom製カスタム推論チップ「Jalapeño」を発表。電力効率が大幅に向上し、推論コスト削減への道筋を示した。 / Gemini 3.5 Flashにコンピュータ使用機能がネイティブ統合。ブラウザ・デスクトップを跨ぐエージェント構築が容易になった。 / 中国発オープンウェイトモデルGLM-5.2がエージェント能力で飛躍的進歩。Arena&#39;s agent leaderboardでClaudeやGPT最新モデルに匹敵する評価を得た。 / ノーベル賞受賞者・AlphaFold開発者のジョン・ジャンパー氏がDeepMindからAnthropicへ移籍。AI駆動科学へのコミット…</summary>
+  </entry>
   <entry>
     <title>2026年6月24日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-24-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-09.html</id>
     <updated>2026-06-09T00:00:00+09:00</updated>
     <summary>Apple が Google Gemini モデルを基盤とした新 AI アーキテクチャを発表。on-device と Private Cloud Compute の両方で動作し、マルチモーダル対応も強化。 / OpenAI が SEC に機密扱いの S-1 草案を提出。上場タイミングは未定だが選択肢を確保。 / xAI が Anthropic・Google へデータセンター容量を巨額契約で提供。フロンティアラボからデータセンター REIT 的な事業モデルへの転換が指摘される。 / Claude Code を使った開発ワークフロー改善事例が多数公開（仕様書の Markdown/HTML 比較・…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月8日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-08.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-08.html</id>
-    <updated>2026-06-08T00:00:00+09:00</updated>
-    <summary>LLMの擬人化属性はAge of Empires IIにも当てはまるという論文が話題を呼び、LLMの「人間らしさ」の議論に一石を投じた / LLMがソフトウェアエンジニアのキャリアを侵食しているという赤裸々な告白が722ポイントを獲得し大きな反響 / Claude Codeのソースコード解析により、エージェントが再帰呼び出しではなくwhile(true)ループで動作していることが判明 / CVE-2026-49975「HTTP/2 Bomb」脆弱性をAIが人間より先に発見したことが示す、AIによるセキュリティ研究の新時代 / GitHub Copilot料金改定（トークン課金制）を受け、Ca…</summary>
   </entry>
 </feed>

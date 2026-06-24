@@ -1,0 +1,247 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026/6/25 7:19:42",
+  "highlights": [
+    "OpenAIがBroadcom製カスタム推論チップ「Jalapeño」を発表。電力効率が大幅に向上し、推論コスト削減への道筋を示した。",
+    "Gemini 3.5 Flashにコンピュータ使用機能がネイティブ統合。ブラウザ・デスクトップを跨ぐエージェント構築が容易になった。",
+    "中国発オープンウェイトモデルGLM-5.2がエージェント能力で飛躍的進歩。Arena's agent leaderboardでClaudeやGPT最新モデルに匹敵する評価を得た。",
+    "ノーベル賞受賞者・AlphaFold開発者のジョン・ジャンパー氏がDeepMindからAnthropicへ移籍。AI駆動科学へのコミットメントが鮮明に。",
+    "AIコーディングエージェントによるPRスパムが急増し、オープンソース貢献の品質管理が新たな課題に。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "OpenAI unveils its first custom chip, built by Broadcom",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "summary": "OpenAIはBroadcomと共同開発した独自推論チップ「Jalapeño」を発表した。このチップはOpenAIの推論ワークロードに特化して設計されており、現行の最先端製品と比較して電力効率が大幅に向上している。テストフェーズにあるが、特にリアルタイムコーディングモデルの実行コスト削減に優れた性能を示す。OpenAIはこれによりモデル開発からインフラ、チップアーキテクチャまでスタック全体を垂直統合する戦略を推進しており、NvidiaのGPUへの依存度を下げ推論コストの経済性を改善することが目的だ。",
+      "category": "infra",
+      "points": 388,
+      "comments": 266,
+      "author": "jamdesk"
+    },
+    {
+      "source": "hackernews",
+      "title": "RubyLLM: A Ruby framework for all major AI providers",
+      "url": "https://rubyllm.com/",
+      "summary": "RubyLLMは、OpenAI・Anthropic・Gemini・Ollama等の主要AIプロバイダーを統一インターフェースで利用できるRubyフレームワークだ。チャット・画像生成・音声文字起こし・埋め込み・コンテンツモデレーションといった幅広いAI機能を3つの依存関係のみで提供する。ツール連携や構造化出力、エージェント機能（RubyLLM::Agent）もサポートしており、Rails向けのActiveRecord統合も含む。開発者が異なるAPIの仕様の違いに悩まずAIアプリを構築できる設計で、800以上のモデルをサポートしている。",
+      "category": "devtool",
+      "points": 312,
+      "comments": 47,
+      "author": "doener"
+    },
+    {
+      "source": "hackernews",
+      "title": "PR spam today looks like email spam in the early 2000s",
+      "url": "https://www.greptile.com/blog/prs-on-openclaw",
+      "summary": "AIコーディングエージェントが普及した結果、OpenClawリポジトリへのPRが週350件から3,400件へ急増し、マージ率が48%から9.3%に急落した事例が報告された。この現象はかつてのメールスパムと類似しており、AIが生成する低品質なPRが大量に流入している。対策として、コントリビュータの過去実績による信頼性管理（VouchシステムなどのPR評判スコア）が必要とされている。また、全員が同じAIコーディングエージェントを使うことで多様な視点が失われ、提案内容が均質化する問題も指摘されている。",
+      "category": "product",
+      "points": 141,
+      "comments": 87,
+      "author": "dakshgupta"
+    },
+    {
+      "source": "hackernews",
+      "title": "Computer use in Gemini 3.5 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "summary": "GoogleはGemini 3.5 Flashにコンピュータ使用機能を組み込み、ブラウザ・モバイル・デスクトップ環境を跨いで動作するエージェントの構築が可能になった。以前はGemini 2.5の独立モデルとしてのみ提供されていたが、今回Flashモデルにネイティブ統合された形だ。継続的なソフトウェアテストや業務自動化など長時間タスクに優れており、プロンプトインジェクション対策として標的型敵対的トレーニングと企業向けセーフガードシステム（ユーザー確認・タスク停止機能）も提供している。",
+      "category": "agent",
+      "points": 122,
+      "comments": 69,
+      "author": "swolpers"
+    },
+    {
+      "source": "hackernews",
+      "title": "GLM-5.2 is a step change for open agents",
+      "url": "https://www.interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "summary": "Z.aiが開発した中国発のオープンウェイトモデルGLM-5.2が、エージェント能力において大きな飛躍を遂げたと評価されている。Arena's agent leaderboardではAnthropicやOpenAIの最新モデルと肩を並べる唯一のオープンモデルとなり、デザイン評価でもClaude Fableを上回る結果を得た。DeepSeek R1以来となる「DeepSeekモーメント」として業界から注目を集め、AIコーディング市場でのClaude独占に有力な代替選択肢が登場した。MITライセンスで公開されており、Max thinkingモードでの使用が推奨されている。",
+      "category": "model",
+      "points": 49,
+      "comments": 16,
+      "author": "vantareed"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code に「7人の意地悪なQA」を仕込んでテストケースの観点漏れを潰した",
+      "url": "https://zenn.dev/ni_narinari/articles/be13a2395a5d2a",
+      "summary": "QAエンジニアが製造業SaaSのテスト設計でClaude Codeのカスタムスキルを活用し、観点漏れ問題を解決した事例だ。AIに任せるとテストケースが正常系に偏るという課題に対し、「動いているはず」を信用しない7人のQAペルソナ（新人ユーザー・ベテラン担当・悪意ある操作者・データ整合性監査役・移行担当者・回帰デグレ番人・仕様懐疑者）をスキルに組み込んだ。さらに新機能用と移行用の2トラックにスキルを分けることで出力の一貫性が向上した。このアプローチにより、観点の抜けが大幅に減少しAI駆動テスト設計の品質が安定した。",
+      "category": "devtool",
+      "author": "ni_narinari"
+    },
+    {
+      "source": "zenn",
+      "title": "標準CSSは美しくなった、もはやTailwindは不要",
+      "url": "https://zenn.dev/higakijin/articles/06276828c81546",
+      "summary": "標準CSSが進化し、ネスト構文・:has()・:is()・:where()・カスタムプロパティといった機能が標準で利用可能になったことを解説している。これにより、SassやTailwind CSSを使わなくても保守性の高いスタイリングが実現できるようになった。著者はOpenPropsというCSSカスタムプロパティライブラリと標準CSSを組み合わせてランディングページを開発し、HTMLファイルを汚さない設計を実現したと報告している。Tailwind CSSを全否定するわけではないが、標準CSSの成熟により外部フレームワークの必要性が低下していると主張している。",
+      "category": "other",
+      "author": "higakijin"
+    },
+    {
+      "source": "zenn",
+      "title": "個人のプロンプト術をやめて、チームで回るAI駆動開発ループを作った話",
+      "url": "https://zenn.dev/unsu0707/articles/d0aeb08fcd1888",
+      "summary": "スタートアップのエクスプラザが個人のプロンプト術への依存を脱却し、チーム全体で再現可能な「interview-dev-loop」スキルを構築した2ヶ月の取り組みを紹介している。このスキルは実装前に「何を作るべきか」を明確化するインタビューフェーズを中核に持ち、実装方向・検証・データ処理・権限等に影響するMaterial Ambiguity（本質的な曖昧さ）のみを質問対象とすることで質問の質を安定させた。人間の作業を「質問への回答・計画承認・動作確認」の3つに絞り、残りはエージェントが自律的に回す設計を実現している。",
+      "category": "devtool",
+      "author": "unsu0707"
+    },
+    {
+      "source": "zenn",
+      "title": "AI時代のナレッジ管理手法 - Googleの「OKF」を解説",
+      "url": "https://zenn.dev/a_kadowaki/articles/14a874a9f423bb",
+      "summary": "Google Cloudが2026年6月に提案した「Open Knowledge Format（OKF）」は、AIエージェントが参照する社内ナレッジをYAMLメタデータ付きMarkdownで管理するための仕様だ。YAMLフロントマターにtypeフィールドを設けることで検索性とメンテナンス性を向上させながら、Markdownの自由度を維持する。RAGや複数ファイルをまたいだエージェント検索の精度向上が目的であり、ファイルのパスが概念のIDとなることで文書間の接続性と二重定義の防止を実現する。著者の実装デモでは複数ファイルをAgentが連鎖的に参照する動作が確認されている。",
+      "category": "agent",
+      "author": "a_kadowaki"
+    },
+    {
+      "source": "zenn",
+      "title": "小さいローカル LLM をファインチューニングしてタスクに特化させ、Unity で利用する",
+      "url": "https://zenn.dev/edom18/articles/fine-tuning-local-llm",
+      "summary": "Apple MLXフレームワークを使い、Gemma-3n-E2B-itモデルをLoRA（Low-Rank Adaptation）でファインチューニングし、カスタマーサポート問い合わせの分類タスクに特化させた実践レポートだ。Claudeを活用して教師データ（人手作成分）を増幅し、180件のデータセットからモデルを訓練する手法を紹介している。LoRAはモデルの元の重みを変更せず小さなA・B行列のみを学習するため、元モデルの0.1%以下のサイズで特化チューニングを実現できる。最終的にLLM for Unityに統合し、Unityアプリから推論できる形まで整備した。",
+      "category": "model",
+      "author": "edom18"
+    },
+    {
+      "source": "devto",
+      "title": "7 New JavaScript Features (And 2 I'm Still Waiting For)",
+      "url": "https://dev.to/sylwia-lask/7-new-javascript-features-and-2-im-still-waiting-for-2ck8",
+      "summary": "ECMAScript 2026で導入される7つの新機能を解説した記事だ。主な機能として`Map.prototype.getOrInsert()`（キー不在時の値の自動挿入と取得）、`Iterator.concat()`（複数イテレータの連結）、`Math.clamp()`、`Error.isError()`、正規表現エスケープ、`Float16Array`などが含まれる。AIエージェントが注目される一方でJavaScript言語自体の進化も重要だと著者は指摘しており、これらの機能は現代ブラウザやNode.jsランタイムでほぼ即座に利用可能になる。",
+      "category": "other",
+      "author": "sylwia-lask",
+      "tags": [
+        "javascript",
+        "typescript",
+        "node",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Everyone's Excited About Claude Tag. Nobody's Built the Trust Layer.",
+      "url": "https://dev.to/dannwaneri/everyones-excited-about-claude-tag-nobodys-built-the-trust-layer-1ohp",
+      "summary": "AnthropicがリリースしたSlack向け「Claude Tag」機能（SlackチャンネルにClaudeをチームメンバーとして参加させる機能）の技術的可能性を認めつつ、信頼レイヤーが未整備であることを警告している。AIがSlackの全チャンネルをリアルタイムで監視・参照することで、同意していないメンバーに対する「監視装置」として受け取られるリスクがある。著者は既存のエージェントループ暴走事例（$47,000の損失事例など）への対策として、仕様書・アクセプタンス条件・差分・証拠・未解決の前提からなる5要素フレームと人間の attestation（証明）の仕組みが必要と主張している。",
+      "category": "agent",
+      "author": "dannwaneri",
+      "tags": [
+        "ai",
+        "claude",
+        "agents",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Something Changed After the Sloan Articles. I Can't Prove It.",
+      "url": "https://dev.to/dannwaneri/something-changed-after-the-sloan-articles-i-cant-prove-it-5009",
+      "summary": "DEV.toのAIモデレーターSloanによる記事フラグ付けを巡るコミュニティの出来事を記録した記事だ。著者は技術的議論を生む良質な記事が連続してフラグ付けされた経験と、その後のエンゲージメントの変化を詳細に記録している。DEV.toのモデレーションガイドラインの透明性向上やフラグ判断プロセスに関する問題を提起しており、AIを使ったプラットフォームモデレーションがコンテンツクリエイターに与える影響を実体験から考察している。",
+      "category": "other",
+      "author": "dannwaneri",
+      "tags": [
+        "ai",
+        "meta",
+        "devto",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "# Arc 9 Catch-Up: Writing Your First Solana Program",
+      "url": "https://dev.to/100daysofsolana/-arc-9-catch-up-writing-your-first-solana-program-12nl",
+      "summary": "「100 Days of Solana」プログラムのArc 9として、AnchorフレームワークとRust言語を使った初めてのSolanaプログラム開発を解説している。カウンタープログラムを例題に、instruction handler・accountsストラクチャ・アカウント制約・テストの基本パターンを学ぶ構成だ。Anchorフレームワークがプロジェクト構造・命令定義・アカウント検証・テスト環境を提供することで、初学者でもSolanaプログラムの基礎を体系的に習得できる内容となっている。",
+      "category": "other",
+      "author": "matthewrevell",
+      "tags": [
+        "100daysofsolana",
+        "blockchain",
+        "web3",
+        "learning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Every Alarm Is a Crime Scene: Meet Poirot, the Read-Only Incident Detective",
+      "url": "https://dev.to/aws-builders/every-alarm-is-a-crime-scene-meet-poirot-the-read-only-incident-detective-58pa",
+      "summary": "CloudWatchアラートが発火したとき人間を起こす代わりに自律的にインシデント調査を行うAIエージェント「Poirot」の構築事例を紹介している。Claude Codeをヘッドレスで実行し、専用の読み取り専用IAMロールの下でCloudWatch Logs・メトリクス・デプロイ履歴を調査し根本原因レポートをメールで送信する仕組みだ。シークレット・SSMパラメータ・KMS・S3オブジェクト・DynamoDBデータへのアクセスを明示的に拒否することでプロンプトインジェクション攻撃のリスクを軽減しており、「エージェントを信頼するのではなくブラスト半径の壁を信頼する」という設計思想が特徴だ。",
+      "category": "agent",
+      "author": "wakeupmh",
+      "tags": [
+        "ai",
+        "aws",
+        "typescript",
+        "cdk"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI Daily Digest — 2026年6月25日：GPT-5.5-Cyber、Colossus 2、AlphaFoldの流出",
+      "url": "https://qiita.com/lhjjjk4/items/cd5a8b4d3a36d5b84762",
+      "summary": "2026年6月25日のAIトレンドをまとめた記事だ。OpenAIはサイバーセキュリティ特化モデル「GPT-5.5-Cyber」をCyberGymベンチマーク85.6%で公開し認定組織のみに提供している。SpaceXはReflection AIと63億ドルの計算リース契約を締結しColossus 2が世界最大のAI計算プラットフォームとなった。ノーベル賞受賞者のジョン・ジャンパー氏（AlphaFold開発者）がDeepMindからAnthropicへ移籍し、Alphabetの株価は7.2%下落した。また、OpenAIのOna買収によるCodexへの永続実行環境統合や、Metaの極秘プロジェクトMCIが従業員データ漏洩で停止した出来事も報告されている。",
+      "category": "product",
+      "author": "lhjjjk4",
+      "tags": [
+        "Security",
+        "AI",
+        "OpenAI",
+        "LLM",
+        "Agentic"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "プログラミング雑記 2026年6月25日",
+      "url": "https://qiita.com/ishisaka/items/e914bb79854d2f5d8409",
+      "summary": "6月25日の技術ニュースまとめで、AIカテゴリではMistral OCR 4（170言語対応・1000ページ4ドル）、AnthropicのClaude Tag（Slack統合ベータ提供開始）、GitHub CopilotのBYOK対応（OpenAI・Anthropic・Ollamaなど自前モデルの利用可能化）などが取り上げられている。macOS 27ではOpenAI互換APIサーバーをローカルで提供する`fm`コマンドが追加された。VS Code 1.126ではAIチャットのコスト表示機能と、1つのCopilotセッションで複数チャットを同時実行するAgentsウィンドウ機能が追加されている。",
+      "category": "product",
+      "author": "ishisaka",
+      "tags": [
+        "プログラミング",
+        "Cloud",
+        "AI",
+        "エンジニア"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "VectorDBおじさん、Tavilyに鮮度で敗北する",
+      "url": "https://qiita.com/mofuteq/items/ef06ca675005072f1ea9",
+      "summary": "RAGシステムでVectorDBを自前管理していた筆者が、鮮度が重要なトレンド情報の検索にはTavilyのようなリアルタイム検索APIの方が適していると気づいた体験記だ。自前VectorDBは安定したコーパスには強力だが、トレンド記事のような鮮度が命の用途ではインデックスの更新管理がボトルネックになる。欲しい瞬間に最新情報を取りに行く「都度取得」モデルへの移行により、インデックスの鮮度管理から解放され本来の課題（ルール抽出）に集中できるようになった。VectorDBと外部検索APIをコーパスの性質（安定性vs鮮度）によって使い分けることが重要だと結論付けている。",
+      "category": "agent",
+      "author": "mofuteq",
+      "tags": [
+        "ポエム",
+        "設計",
+        "個人開発",
+        "rag",
+        "LLM"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI時代のDatabricks ― Genie・Genie Code・自然言語分析の現在地 ―",
+      "url": "https://qiita.com/mellowlaunch/items/92e2808b0e4872527c63",
+      "summary": "DatabricksのAI機能であるGenie・Genie Code・自然言語分析が、データ基盤の使い方を「SQLを書く世界」から「AIと対話しながらデータを使う世界」へ転換している状況を解説している。GenieはDatabricks上の実データを参照しながら自然言語の質問に回答するAI分析インターフェースで、ハルシネーションを防ぎながら業務部門が直接データに質問できる環境を実現する。Genie CodeはSQLやPySparkのコード生成・エラー診断・改善提案を提供し初学者のDatabricks活用を支援する。企業固有のビジネス定義を理解するSemanticレイヤーの品質が鍵となっている。",
+      "category": "infra",
+      "author": "mellowlaunch",
+      "tags": [
+        "Databricks",
+        "Genie",
+        "UnityCatalog",
+        "MosaicAI",
+        "GenieCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "ローカルLLMのblog_lintで、同じ文章がPASSとFAILを入れ替えた",
+      "url": "https://qiita.com/claute_colo/items/c0f3e26ee98b9abd76c5",
+      "summary": "ブログ記事品質チェックにローカルLLM（Qwen2.5-14B-Instruct-4bit）を活用している筆者が、同じ入力に対して判定が変わる再現性問題に遭遇した体験記だ。blog_lintシステムで同じ文章が「PASSの根拠」と「FAILの根拠」として両方引用される不一致が発生した。原因として生成コードで`temperature`や`seed`が指定されておらず既定のサンプリング設定のままになっていた可能性を指摘している。判定タスクには`temperature=0`でgreedy decodingを設定することで、同じ入力に対して毎回同じ判定が期待できると述べている。",
+      "category": "other",
+      "author": "claute_colo",
+      "tags": [
+        "mlx",
+        "ローカルLLM",
+        "claude-code",
+        "AIのひとりごと",
+        "blog_lint"
+      ]
+    }
+  ]
+}
