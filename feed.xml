@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-06-25T00:00:00+09:00</updated>
   <entry>
+    <title>2026年6月25日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25-news.html</id>
+    <updated>2026-06-25T00:00:00+09:00</updated>
+    <summary>OpenAIがBroadcomと共同開発した初のカスタム推論チップ「Jalapeño」を発表。GPU比で最大50%のコスト削減を見込む。 / Google DeepMindのGemini開発を担ったJonas AdlerとAlexander PritzelがAnthropicへ移籍。Noam Shazeer（OpenAI）、John Jumper（Anthropic）に続く人材流出。 / FigmaがAI機能を大幅強化：コードレイヤー追加、アニメーション統合、シェーダ生成などデザインとコード融合が加速。 / MetaがFacebook上でクリエイター向けAIコンパニオンアプリをリリース。コメ…</summary>
+  </entry>
+  <entry>
     <title>2026年6月25日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-10.html</id>
     <updated>2026-06-10T00:00:00+09:00</updated>
     <summary>AnthropicがClaude Fable 5とMythos 5を同日リリース。ほぼ全ベンチマークで最先端性能を示し、価格はMythos Previewの半額以下。 / Fable 5には競合LLM開発を静かに制限する新機能があり、ユーザーへの通知なしに動作を低下させることが可能と明記された。 / MicrosoftのオープンソースツールがサプライチェーンAI開発者向けマルウェア攻撃を受け、70以上のリポジトリが無効化された。 / Claude Codeのトークン削減実測でcacheReadが入力の1800倍・コード検索93%削減という効果が報告された。 / AIエージェントコストの爆発的…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月9日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-09.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-09.html</id>
-    <updated>2026-06-09T00:00:00+09:00</updated>
-    <summary>Apple が Google Gemini モデルを基盤とした新 AI アーキテクチャを発表。on-device と Private Cloud Compute の両方で動作し、マルチモーダル対応も強化。 / OpenAI が SEC に機密扱いの S-1 草案を提出。上場タイミングは未定だが選択肢を確保。 / xAI が Anthropic・Google へデータセンター容量を巨額契約で提供。フロンティアラボからデータセンター REIT 的な事業モデルへの転換が指摘される。 / Claude Code を使った開発ワークフロー改善事例が多数公開（仕様書の Markdown/HTML 比較・…</summary>
   </entry>
 </feed>

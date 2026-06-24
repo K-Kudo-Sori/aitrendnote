@@ -1,0 +1,49 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026/6/25 8:08:10",
+  "highlights": [
+    "OpenAIがBroadcomと共同開発した初のカスタム推論チップ「Jalapeño」を発表。GPU比で最大50%のコスト削減を見込む。",
+    "Google DeepMindのGemini開発を担ったJonas AdlerとAlexander PritzelがAnthropicへ移籍。Noam Shazeer（OpenAI）、John Jumper（Anthropic）に続く人材流出。",
+    "FigmaがAI機能を大幅強化：コードレイヤー追加、アニメーション統合、シェーダ生成などデザインとコード融合が加速。",
+    "MetaがFacebook上でクリエイター向けAIコンパニオンアプリをリリース。コメント返信支援や投稿最適化を提供。",
+    "人形ロボットのAgility Roboticsが$2.5B評価のSPACで上場へ。Amazon・NVIDIA・SoftBankが支援。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、Broadcom製初のカスタム推論チップ「Jalapeño」を発表",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "summary": "OpenAIはBroadcomと協力し、LLM推論専用カスタムチップ「Jalapeño（ハラペーニョ）」を初公開した。NVIDIAのGPUへの依存を減らすべく開発されたこのチップは、性能あたりのワット効率が大幅に改善されており、Broadcom CEOによればコストは従来比約50%削減できるとされる。設計から製造テープアウトまでわずか9ヶ月という異例の速さで完成し、2026年末の初期展開を目指している。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Googleから続くAI研究者の流出：Jonas AdlerとAlexander PritzelがAnthropicへ移籍",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "summary": "GeminiモデルOpenAI開発に中核的役割を果たしたJonas AdlerとAlexander PritzelがAnthropicへの転職を発表した。今月だけでNoam ShazeerのOpenAI移籍、ノーベル化学賞受賞者John Jumperのanthopic参加と相次いでおり、OpenAI・AnthropicのIPO準備加速を背景にGoogleからのAI人材流出が止まらない状況だ。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Figma、コードレイヤー・アニメーション・AI機能を大幅追加した新アップデートを発表",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "summary": "Figmaは2026年6月24日、デザインプラットフォームの大規模アップデートを発表した。新機能として、デザイナーとエンジニアが本番コード品質を意識せずに高速プロトタイプを反復できる「コードレイヤー」、Figma内で直接アニメーションやシェーダを扱える機能、そしてNotion・GitHubなどの外部ツールと連携するAIアシスタントが追加された。デザインとコードの境界がさらに薄まり、開発フロー全体のAI統合が進む。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "MetaのFacebook、クリエイター向けスタンドアロンAIコンパニオンアプリを公開",
+      "url": "https://techcrunch.com/2026/06/24/facebook-rolls-out-an-ai-companion-app-for-creators/",
+      "summary": "Metaは、Facebookクリエイター向けの独立したAIコンパニオンアプリの提供を開始した。従来のCreator Studioを刷新したアプリには、重要コメントのサーフェシングと返信文案作成、最適投稿タイミングの提案、投稿パフォーマンス追跡といったAI機能が搭載されている。TikTokやYouTubeとの競争激化を受け、クリエイターをFacebook上に引き留める戦略の一環だ。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "人形ロボットのAgility Robotics、$2.5B評価でSPAC上場を計画",
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/",
+      "summary": "二足歩行ロボット「Digit」を開発するAgility Roboticsが、SPAC（特別買収目的会社）Churchill Capital Corp XIとの合併により25億ドル評価で上場する計画を発表した。Amazon・NVIDIA・SoftBank Vision Fund 2が出資しており、6億2000万ドル以上を調達予定。トヨタ・メルカドリブレなど9拠点でDigitが稼働中で、次世代Digit v5向けに3億ドル超の複数年受注も確保している。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-06-25-news"
+}
