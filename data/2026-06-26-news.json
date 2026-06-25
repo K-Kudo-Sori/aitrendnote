@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-26",
+  "generatedAt": "2026/6/26 8:07:54",
+  "highlights": [
+    "OpenAIがBroadcomと共同開発した初の独自AIチップ「Jalapeño」を発表。NvidiaGPU依存からの脱却へ。",
+    "GoogleのDeepMind・Gemini主要研究者がAnthropicやOpenAIへ相次いで移籍し、業界の人材流動が加速。",
+    "ByteDanceがエージェント特化型モデルSeed 2.1とDobao 2.1 Pro、4K動画生成モデルSeedance 2.5を相次いでリリース。",
+    "FigmaがAI機能を大幅強化。コードレイヤー・アニメーション対応・AIプラグイン自動生成などを追加。",
+    "エンジニア採用はAI化の波にも強靭と判明。採用比率がむしろ上昇し、Jevonsのパラドックスが実証される。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、Broadcomと共同で初の独自AIチップ「Jalapeño」を発表",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "summary": "OpenAIはBroadcomと共同開発した推論専用チップ「Jalapeño」を2026年6月24日に発表した。既存の最先端製品を大きく上回るワット性能を達成しており、2026年末までの初期展開を計画している。GoogleやAmazonに続き、OpenAIもNvidiaのGPUへの依存を低減する独自ハードウェア戦略を本格化させた。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "GoogleのDeepMind・Gemini主要研究者、AnthropicとOpenAIへ相次ぎ移籍",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "summary": "GoogleのGeminiモデル開発を主導したJonas AdlerとAlexander PritzelがAnthropicへIPO前の株式を目当てに移籍した。AlphaFoldでノーベル化学賞を共同受賞したJohn JumperもAnthropicに、レジェンド研究者Noam ShazeerはOpenAIにそれぞれ加入しており、Googleにとって深刻な人材流出が続いている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "ByteDance、エージェント特化モデル「Seed 2.1 / Doubao 2.1 Pro」を正式リリース",
+      "url": "https://seed.bytedance.com/en/blog/seed2-1-officially-released-advancing-ai-productivity",
+      "summary": "ByteDanceは2026年6月23日にSeed 2.1およびDobao 2.1 Proを正式公開した。複雑なマルチステップワークフロー実行・エンタープライズ向け開発フロー全体のサポート・動画理解などエージェント性能を大幅に強化している。コーディングや長鎖エージェントタスクでClaude Opus 4.6を複数の評価指標で上回ると主張しており、入力100万トークンあたり6元（約120円）の低価格で提供される。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "ByteDance、30秒・ネイティブ4K対応のAI動画モデル「Seedance 2.5」を発表",
+      "url": "https://thenextweb.com/news/bytedance-seedance-2-5-ai-video-4k-30-seconds",
+      "summary": "ByteDanceは2026年6月23日、最大30秒のネイティブ4K解像度動画を生成できる「Seedance 2.5」を発表した。最大50種類のマルチモーダルな参照入力（画像・音声・3Dモデル・スタイル参照）に対応し、10ビット色深度と音声のネイティブ同期機能を備える。前バージョンとの世代差を強調するためバージョン番号を一気に2.5へ引き上げており、エンタープライズベータが開始、公開リリースは7月初旬を予定している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Figma、コードレイヤー・アニメーション・AIプラグイン自動生成など大規模アップデートを発表",
+      "url": "https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/",
+      "summary": "Figmaは2026年6月24日、デザインキャンバスへのコードレイヤー統合・アニメーション/3Dトランスフォームのネイティブサポート・AIによるシェーダー生成などを発表した。AIアシスタントがNotion・GitHub・Excelといった外部ツールとの連携に対応し、プロンプト入力だけでカスタムプラグインを生成できる機能も追加された。デザインと開発の境界をAIがさらに溶かす方向性を鮮明にしている。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "AIはエンジニアの仕事を奪わなかった——採用比率がむしろ上昇したことをデータが示す",
+      "url": "https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/",
+      "summary": "SignalFireの調査によると、大手テック企業でのエンジニア採用比率は2019年の46%から2025年には55%へと上昇し、AI化の波の中でも最も雇用が安定した職種となっている。エンジニア職の採用減少率は全テック職平均の25%に対し11%にとどまる。AI活用で生産性が向上するほど新たな需要が生まれる「Jevonsのパラドックス」が実証された形だ。",
+      "category": "research"
+    }
+  ],
+  "slug": "2026-06-26-news"
+}
