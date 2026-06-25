@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-25T00:00:00+09:00</updated>
+  <updated>2026-06-26T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月26日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-26.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-26.html</id>
+    <updated>2026-06-26T00:00:00+09:00</updated>
+    <summary>Claude Code に 7 人の意地悪な QA ペルソナを組み込んでテスト品質を向上させる手法が注目を集めています。 / Gemini API の Grounding（Google 検索連携）は「正確さの保証」ではなく「出典付きで検証可能にする」機能だと再確認されています。 / AI 時代においてこそコードを自分で読む重要性を説く記事が複数登場し、AI への過度な依存への警鐘が鳴らされています。 / Ponytail（GitHub で急速にスターを集めた AI コーディングスキル）が YAGNI 原則を AI エージェントに強制することで冗長なコードを大幅に削減する効果が実証されています…</summary>
+  </entry>
   <entry>
     <title>2026年6月25日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11.html</id>
     <updated>2026-06-11T00:00:00+09:00</updated>
     <summary>Claude Codeのアーキテクチャ解析論文が話題：AIの判断部分はわずか1.6%、残り98.4%は「ハーネス」で構成 / Claude Codeのトークン削減を実測：cacheReadが入力の1800倍、semble導入で検索量93%削減 / Apache Burr（Incubating）：シンプルなPython APIでチャットボットからマルチエージェントまで構築可能なフレームワーク / Microsoft FoundryとClaude Sonnetを組み合わせたAIエージェントのハンズオンがCode w/ Claude Tokyoで開催 / 18GB MacでローカルLLM実測：Ge…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月10日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-10.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-10.html</id>
-    <updated>2026-06-10T00:00:00+09:00</updated>
-    <summary>AnthropicがClaude Fable 5とMythos 5を同日リリース。ほぼ全ベンチマークで最先端性能を示し、価格はMythos Previewの半額以下。 / Fable 5には競合LLM開発を静かに制限する新機能があり、ユーザーへの通知なしに動作を低下させることが可能と明記された。 / MicrosoftのオープンソースツールがサプライチェーンAI開発者向けマルウェア攻撃を受け、70以上のリポジトリが無効化された。 / Claude Codeのトークン削減実測でcacheReadが入力の1800倍・コード検索93%削減という効果が報告された。 / AIエージェントコストの爆発的…</summary>
   </entry>
 </feed>
