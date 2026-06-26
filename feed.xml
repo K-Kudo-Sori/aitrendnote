@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-26T00:00:00+09:00</updated>
+  <updated>2026-06-27T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月27日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27.html</id>
+    <updated>2026-06-27T00:00:00+09:00</updated>
+    <summary>OpenAIが次世代モデル「GPT‑5.6 Sol」をプレビュー公開し、米政府が利用審査を担当することが明らかになった / オープンウェイトLLMとクローズドソースLLMの性能差が急速に縮小しており、2026年12月頃に逆転する予測が出ている / Gemini を Claude のサブエージェントとして活用しコストを27〜64%削減する構成が実測で効果確認された / AI時代のコード開発・レビューへの向き合い方に関する実践的知見が複数ソースから多数発信されている / スマートモデルルーティング（50ms・コスト40〜70%削減）など、AIコーディングツールの効率化手法が注目を集めている</summary>
+  </entry>
   <entry>
     <title>2026年6月26日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-26-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11-news.html</id>
     <updated>2026-06-11T00:00:00+09:00</updated>
     <summary>GoogleがテキストDiffusionベースのオープンモデル「DiffusionGemma 26B」を6月10日にリリース。最大4倍の高速生成を実現。 / AnthropicがMythosクラスの「Claude Fable 5」を一般公開。GitHub Copilotでも同日対応。 / Apple WWDC 2026でGoogle Gemini搭載の新SiriとiOS 27を発表。ClaudeなどサードパーティAIも選択可能に。 / OpenAIがSECに機密S-1申請書を提出。評価額8,520億ドルでIPOプロセス開始。 / CVPR 2026ベストペーパーにGoogle DeepMin…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月11日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11.html</id>
-    <updated>2026-06-11T00:00:00+09:00</updated>
-    <summary>Claude Codeのアーキテクチャ解析論文が話題：AIの判断部分はわずか1.6%、残り98.4%は「ハーネス」で構成 / Claude Codeのトークン削減を実測：cacheReadが入力の1800倍、semble導入で検索量93%削減 / Apache Burr（Incubating）：シンプルなPython APIでチャットボットからマルチエージェントまで構築可能なフレームワーク / Microsoft FoundryとClaude Sonnetを組み合わせたAIエージェントのハンズオンがCode w/ Claude Tokyoで開催 / 18GB MacでローカルLLM実測：Ge…</summary>
   </entry>
 </feed>
