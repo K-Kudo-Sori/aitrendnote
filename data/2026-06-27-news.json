@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-27",
+  "generatedAt": "2026/6/27 8:08:39",
+  "highlights": [
+    "OpenAIがGPT-5.6 Solを発表。米政府の要請で当初は限定プレビューとして展開",
+    "OpenAI & BroadcomがLLM推論専用カスタムチップ「Jalapeño」を公開",
+    "Google DeepMindのトップAI研究者4名が6日間でAnthropicとOpenAIへ相次いで転職",
+    "AnthropicがAlibabaの関連事業者による大規模なモデル蒸留攻撃（約2900万件）を告発",
+    "Gemini 3.5 FlashにPC・ブラウザ・モバイルを操作できるComputer Use機能が統合"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、GPT-5.6 Solを発表――米政府要請で信頼パートナーへの限定プレビューとして開始",
+      "url": "https://kingy.ai/news/openai-gpt-5-6-sol-benchmarks-specs-pricing-safety-evals/",
+      "summary": "OpenAIはGPT-5.6ファミリー（フラッグシップ「Sol」、低コスト「Terra」、高速「Luna」）を発表した。SolはOpenAIのPreparedness Frameworkで「高能力」と評価されており、米政府の要請を受け当初は信頼パートナーの限定グループに公開される。新たに「max reasoning effort（最大推論努力）」モードと、複数サブエージェントを活用して複雑な作業を並列処理する「ultra mode」が導入された。価格は入力100万トークンあたり5ドル、出力は30ドル。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI & Broadcom、LLM推論専用カスタムチップ「Jalapeño」を公開――9か月で設計完了",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "summary": "OpenAIとBroadcomは、LLM推論に特化した初のカスタムASIC「Jalapeño」を発表した。設計から製造テープアウトまでわずか9か月で完成し、現世代NVIDIAのGPUと比較して推論コストを約50%削減できるとされる。2026年末に初期展開を開始し、マイクロソフトらとギガワット規模データセンターへの拡張を計画している。NVIDIAへの依存低減を目指すOpenAIの「フルスタック構築」戦略の重要な一歩となる。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Gemini 3.5 FlashにComputer Use機能が統合――ブラウザ・モバイル・デスクトップ操作が可能に",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "summary": "GoogleはGemini 3.5 FlashにComputer Use機能を統合し、開発者がブラウザ・モバイル・デスクトップ環境を横断して動作するカスタムエージェントを構築できるようになった。OSWorldベンチマークで78.4%を記録し、Gemini APIおよびGemini Enterprise Agent Platformから利用可能。プロンプトインジェクション対策として対立的訓練と、機密操作への確認要求・不審なプロンプト検出時の自動停止機能がエンタープライズ向けに提供されている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicがAlibabaによる大規模モデル蒸留攻撃を告発――2900万件の不正アクセス",
+      "url": "https://thenextweb.com/news/anthropic-accuses-alibaba-distillation-claude-qwen",
+      "summary": "Anthropicは米上院委員会およびホワイトハウスへの書簡で、Alibaba関連の事業者が約2万5000個の偽アカウントを使い、2026年4月〜6月の間にClaudeと約2900万回の不正なやり取りを行ったと告発した。狙いはソフトウェアエンジニアリングとエージェント推論能力の抽出（蒸留）で、今回の規模は2月のDeepSeek等による先行事例の合計を上回る。Alibabaの米国預託証券（ADR）は報告後に3%超下落した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Google DeepMindのトップ研究者4名が6日間でAnthropicとOpenAIへ相次いで転職",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "summary": "伝説的なAI研究者Noam ShazeerがOpenAIへ、Google DeepMindでノーベル賞受賞のJohn Jumperとトップ研究者Jonas Adler・Alexander PritzelがAnthropicへと、わずか6日間で4名の主要人材がGoogleを去った。OpenAIとAnthropicが上場準備を進める中、株式報酬が優秀人材を引き付ける環境となっており、Googleでの計算リソース割り当てへの不満も背景にあるとみられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "米政府がAnthropicのFable 5とMythos 5へのアクセスを外国籍者に禁止――輸出規制指令",
+      "url": "https://fortune.com/2026/06/13/anthropic-disables-fable-mythos-export-controls-national-security-threat/",
+      "summary": "米商務省の国家安全保障輸出規制指令により、AnthropicはFable 5とMythos 5モデルへのアクセスを全面的に無効化した。米国内外を問わず外国籍者への提供が禁止され、Anthropic従業員も対象に含まれる。政府はFable 5のセーフガードを回避してMythosのサイバーセキュリティ能力を引き出す技術が発見されたと説明しており、Anthropicはより低性能なClaude Opus 4.8等への移行を顧客に案内している。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-06-27-news"
+}

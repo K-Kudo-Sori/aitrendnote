@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-06-27T00:00:00+09:00</updated>
   <entry>
+    <title>2026年6月27日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27-news.html</id>
+    <updated>2026-06-27T00:00:00+09:00</updated>
+    <summary>OpenAIがGPT-5.6 Solを発表。米政府の要請で当初は限定プレビューとして展開 / OpenAI &amp; BroadcomがLLM推論専用カスタムチップ「Jalapeño」を公開 / Google DeepMindのトップAI研究者4名が6日間でAnthropicとOpenAIへ相次いで転職 / AnthropicがAlibabaの関連事業者による大規模なモデル蒸留攻撃（約2900万件）を告発 / Gemini 3.5 FlashにPC・ブラウザ・モバイルを操作できるComputer Use機能が統合</summary>
+  </entry>
+  <entry>
     <title>2026年6月27日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-12.html</id>
     <updated>2026-06-12T00:00:00+09:00</updated>
     <summary>Claude Fable 5が一般公開され、UI再現精度とバグ調査の自律性が向上した一方でトークン消費増大も報告された / LLMを核戦争シミュレーションに参加させた研究で、95%のシナリオで戦術核使用という衝撃的な結果が示された / Claude Codeの内部構造解析：コードの98.4%が「ハーネス」であり、AIに大きな裁量を与えつつ環境を徹底作り込む設計思想が明らかに / freee MCP × Claude Codeで請求書下書きワークフローを自然言語で完結させる実証事例が登場 / ポケモンGOのスキャンデータが軍事ドローンのナビゲーション技術訓練に転用されていたことが判明し、倫理問…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月11日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-11-news.html</id>
-    <updated>2026-06-11T00:00:00+09:00</updated>
-    <summary>GoogleがテキストDiffusionベースのオープンモデル「DiffusionGemma 26B」を6月10日にリリース。最大4倍の高速生成を実現。 / AnthropicがMythosクラスの「Claude Fable 5」を一般公開。GitHub Copilotでも同日対応。 / Apple WWDC 2026でGoogle Gemini搭載の新SiriとiOS 27を発表。ClaudeなどサードパーティAIも選択可能に。 / OpenAIがSECに機密S-1申請書を提出。評価額8,520億ドルでIPOプロセス開始。 / CVPR 2026ベストペーパーにGoogle DeepMin…</summary>
   </entry>
 </feed>
