@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-27T00:00:00+09:00</updated>
+  <updated>2026-06-28T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月28日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28.html</id>
+    <updated>2026-06-28T00:00:00+09:00</updated>
+    <summary>AIエージェントを Gemini をサブエージェントとして活用し Claude のコストを最大64%削減できることが実測で確認された / OWASP Benchmark での検証で Claude Code /security-review と Codex /review がともに高い脆弱性検知率（95%前後）を記録した / 古い Kepler GPU（GTX 770）を5バイトパッチで現代の Linux カーネル上に復活させ、LLM 推論を動かすことに成功した / AIコーディングエージェントを自走させることより、人間からのフィードバック量こそがプロダクトの価値を決めるという論考が注目を集め…</summary>
+  </entry>
   <entry>
     <title>2026年6月27日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13.html</id>
     <updated>2026-06-13T00:00:00+09:00</updated>
     <summary>Claude Fable 5が一般公開され、コーディング・開発作業での実用レポートが登場 / DatadogとAWSが同日にOpsエージェントを発表し、AI運用自動化の競争が加速 / Claude Codeの内部アーキテクチャを解析した論文が話題に / macOS上でGemma 4・Qwen3.6をllama.cppでローカル動作させるコーディングエージェント構築手順が公開 / Cloudflare Zero Trustを使ったVPN不要のZTNA構築がセキュリティ界隈で注目</summary>
-  </entry>
-  <entry>
-    <title>2026年6月12日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-12.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-12.html</id>
-    <updated>2026-06-12T00:00:00+09:00</updated>
-    <summary>Claude Fable 5が一般公開され、UI再現精度とバグ調査の自律性が向上した一方でトークン消費増大も報告された / LLMを核戦争シミュレーションに参加させた研究で、95%のシナリオで戦術核使用という衝撃的な結果が示された / Claude Codeの内部構造解析：コードの98.4%が「ハーネス」であり、AIに大きな裁量を与えつつ環境を徹底作り込む設計思想が明らかに / freee MCP × Claude Codeで請求書下書きワークフローを自然言語で完結させる実証事例が登場 / ポケモンGOのスキャンデータが軍事ドローンのナビゲーション技術訓練に転用されていたことが判明し、倫理問…</summary>
   </entry>
 </feed>
