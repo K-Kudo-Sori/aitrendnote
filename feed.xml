@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-06-28T00:00:00+09:00</updated>
   <entry>
+    <title>2026年6月28日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28-news.html</id>
+    <updated>2026-06-28T00:00:00+09:00</updated>
+    <summary>Anthropic Fable 5/Mythos 5 の輸出規制が部分的に緩和：米国の重要インフラを運用・防衛する100以上の組織への Mythos 5 再展開が許可された（Fable 5 の一般解除はまだ pending） / 東京発の Sakana AI が複数モデルを統合するオーケストレーションモデル「Fugu」をリリース。Fugu Ultra は AnthropicのFable 5 と同等水準を主張 / 中国の360が輸出規制の空白を突いてサイバーセキュリティ AI モデル「Tulongfeng」「Yitianzhen」を発表 / Apple Vision Pro 担当 VP の P…</summary>
+  </entry>
+  <entry>
     <title>2026年6月28日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13-news.html</id>
     <updated>2026-06-13T00:00:00+09:00</updated>
     <summary>AnthropicがMythos級モデル「Claude Fable 5」を一般公開。ほぼ全ベンチマークでSOTA性能を達成し、ProプランやMaxプランユーザーは6月22日まで追加料金なしで利用可能。 / Apple WWDC 2026でSiri AIが全面刷新。Google Gemini搭載でクロスアプリ対応・リアルタイムWeb回答が可能になり、iOS 27として2026年秋に配信予定。 / GoogleがGemini AIを悪用した中国系フィッシング犯罪ネットワーク「Outsider Enterprise」を提訴。9,000以上の偽サイト・FBI推定19億ドル超の被害。 / OpenAI…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月13日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-13.html</id>
-    <updated>2026-06-13T00:00:00+09:00</updated>
-    <summary>Claude Fable 5が一般公開され、コーディング・開発作業での実用レポートが登場 / DatadogとAWSが同日にOpsエージェントを発表し、AI運用自動化の競争が加速 / Claude Codeの内部アーキテクチャを解析した論文が話題に / macOS上でGemma 4・Qwen3.6をllama.cppでローカル動作させるコーディングエージェント構築手順が公開 / Cloudflare Zero Trustを使ったVPN不要のZTNA構築がセキュリティ界隈で注目</summary>
   </entry>
 </feed>
