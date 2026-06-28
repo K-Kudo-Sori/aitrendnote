@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-06-29T00:00:00+09:00</updated>
   <entry>
+    <title>2026年6月29日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29-news.html</id>
+    <updated>2026-06-29T00:00:00+09:00</updated>
+    <summary>GPT-5.6が3段階モデル（Sol/Terra/Luna）として登場。国家安全保障を理由に米政府が初めてAIモデルの公開を制限し、約20社のみに限定プレビュー。 / OpenAIが推論専用カスタムチップ「Jalapeño」をBroadcomと共同発表。Nvidia依存低減と推論コスト50%削減を目指す。 / AnthropicがアリババによるClaude AIへの史上最大規模の不正「蒸留攻撃」（2,500万件超のフェイクアカウント）を米議会・ホワイトハウスに告発。 / DeepSeek V4-Proが75%の値下げを永久化。西側フロンティアモデルより5〜17倍安く、AI価格戦争が新局面に突…</summary>
+  </entry>
+  <entry>
     <title>2026年6月29日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14-news.html</id>
     <updated>2026-06-14T00:00:00+09:00</updated>
     <summary>AnthropicがClaude Fable 5（Mythosクラス初の一般公開モデル）をリリース。SWE-Bench Proで80.3%を達成。 / Moonshot AIが1兆パラメータのオープンソースコーディングモデル「Kimi K2.7 Code」を公開。 / GoogleがテキストをH100 GPUで最大4倍高速生成するオープンモデル「DiffusionGemma」を発表。 / 米42州の司法長官がOpenAIへの共同調査を開始。IPO申請直後で法的リスクが増大。 / KPMGがAIハルシネーションを原因とする報告書を撤回。UBS・NHSなど複数組織が内容の誤りを指摘。</summary>
-  </entry>
-  <entry>
-    <title>2026年6月14日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14.html</id>
-    <updated>2026-06-14T00:00:00+09:00</updated>
-    <summary>Claude Fable 5の実力が注目：日本語プログラミング教材を2時間未満で自動生成、サブエージェント活用でコスパ運用する手法も登場 / AWSのエージェント基盤が進化：Bedrock AgentCore + Strands SDK によるRAGボット実装、SmithyによるMCPサーバー簡易構築が話題 / AIセキュリティの両面：Claude Code × Trivy MCPで依存ライブラリ脆弱性の自動検出・修正ループ実現、一方で警察官がAI証拠捏造で調査される事件も発生 / 個人・チームのAI活用事例が充実：自動AIニュースキュレーター1か月運用、AWS AI-DLCハッカソン体験記…</summary>
   </entry>
 </feed>

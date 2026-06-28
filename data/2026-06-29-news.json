@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-29",
+  "generatedAt": "2026/6/29 8:10:01",
+  "highlights": [
+    "GPT-5.6が3段階モデル（Sol/Terra/Luna）として登場。国家安全保障を理由に米政府が初めてAIモデルの公開を制限し、約20社のみに限定プレビュー。",
+    "OpenAIが推論専用カスタムチップ「Jalapeño」をBroadcomと共同発表。Nvidia依存低減と推論コスト50%削減を目指す。",
+    "AnthropicがアリババによるClaude AIへの史上最大規模の不正「蒸留攻撃」（2,500万件超のフェイクアカウント）を米議会・ホワイトハウスに告発。",
+    "DeepSeek V4-Proが75%の値下げを永久化。西側フロンティアモデルより5〜17倍安く、AI価格戦争が新局面に突入。",
+    "Google DeepMindからAlphaFold責任者など主要研究者4人が1週間以内にAnthropicとOpenAIへ移籍。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、GPT-5.6（Sol/Terra/Luna）を発表——米政府要請で約20社限定の制限付きリリース",
+      "url": "https://blog.getbind.co/gpt-5-6-is-government-gated-what-sol-terra-and-luna-mean-for-developers/",
+      "summary": "OpenAIは6月26日、GPT-5.6を3つのティア（最高性能のSol、バランス型のTerra、高速・低コストのLuna）として公開した。ホワイトハウスの国家サイバー長官室と科学技術政策局の要請を受け、当初のアクセスは政府が事前承認した約20社のみに限定されている。Solはコーディング・サイバーセキュリティ・長期タスクで最高水準の性能を示す一方、OpenAIは「サイバークリティカル閾値には達しない」と説明。価格はSolが入力$5/出力$30（100万トークン）で、数週間以内に広く展開予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI×Broadcom、推論専用カスタムチップ「Jalapeño」を発表——9ヶ月の最速開発で2026年末から展開",
+      "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "summary": "OpenAIとBroadcomは6月24日、LLM推論に特化した独自チップ「Jalapeño」を発表した。設計からテープアウトまでわずか9ヶ月という超高速開発を実現し、現行GPU比で大幅な電力効率改善を達成している。Nvidia GPUへの依存を減らし推論コストを50%削減することを目標に、2026年末から展開開始予定。OpenAI自身のAIモデルがチップ設計・最適化を加速させた点が特徴的。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、アリババによるClaude AIへの史上最大規模の不正蒸留攻撃を米議会に告発",
+      "url": "https://cryptobriefing.com/anthropic-accuses-alibaba-claude-distillation-attack/",
+      "summary": "Anthropicは6月10日付けの書簡で米上院議員とホワイトハウス高官に対し、アリババ関連組織が2026年4月22日〜6月5日に約2万5,000のフェイクアカウントを使い2,880万回のClaudeとのやり取りを行ったと告発した。攻撃はソフトウェアエンジニアリングとエージェント推論の能力抽出を標的にしており、「Anthropic史上最大規模の蒸留攻撃」と位置付けている。2月にも中国AI各社（DeepSeek・Moonshot・MiniMax）による1,600万件規模の攻撃があり、今回はその約2倍に相当する。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Google DeepMindの主要研究者4人がAnthropicとOpenAIへ相次ぎ移籍——AlphaFold責任者も含む",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "summary": "6月24日、Jonas AdlerとAlexander PritzelがAnthropicへの移籍を発表。これに先立ちNoam Shazeer（Google歴26年）がOpenAIへ、AlphaFoldで2024年ノーベル化学賞を受賞したJohn JumperがAnthropicへ移籍しており、わずか1週間で主要研究者4人がGoogleを離れた。OpenAIとAnthropicによる株式報酬を伴うIPO準備が人材獲得競争を激化させているとみられ、Googleにとって「深刻なトレンド」と報じられている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "DeepSeek V4-Pro、APIを75%永久値下げ——100万トークンあたり$0.44で西側モデルの最大17分の1",
+      "url": "https://www.engadget.com/2180062/deepseek-permanently-reduces-the-price-of-its-flagship-v4-model-by-75-percent/",
+      "summary": "DeepSeekは期間限定としていたV4-ProのAPI価格75%割引を永久化した。入力トークン価格は100万トークンあたり$1.75→$0.44、出力は$3.50→$0.88となり、GPT-5.5やClaude Fable 5の5〜17倍安い水準を実現している。同社はこれを「プロモーション値引きではなく効率化の成果」と説明しており、長文コンテキスト推論コストの大幅削減を可能にする技術的改善が背景にある。AI API価格戦争が新局面に入ったと評価されている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "EU AI法 第50条・AI生成コンテンツの透明性義務が2026年8月2日から適用開始",
+      "url": "https://eguweb.jp/ai/81094/",
+      "summary": "EU AI法（AI Act）Article 50に基づくAI生成コンテンツへの表示・ラベリング義務が2026年8月2日から正式適用される。マーケティング素材・制作物などAI生成コンテンツには識別可能な表示が義務付けられ、欧州市場向けに展開する企業は管理体制の整備が急務となっている。同規則は2026年6月28日時点で欧州委員会がCode of Practiceを公開しており、コンプライアンス対応の準備期間は残り約1ヶ月となる。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-06-29-news"
+}
