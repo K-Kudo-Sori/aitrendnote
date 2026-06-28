@@ -1,0 +1,238 @@
+{
+  "date": "2026-06-29",
+  "generatedAt": "2026/6/29 7:18:55",
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "GLM 5.2 beats Claude in our benchmarks",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "summary": "セキュリティ企業 Semgrep が、中国製 LLM「GLM 5.2」が自社のサイバーセキュリティ AI ベンチマーク「Mythos」において Claude を上回ったと報告した。Semgrep はAI 推論とルールベース検出を組み合わせた「Semgrep Multimodal」を用いてコードの脆弱性を分析しており、GLM 5.2 がこの評価で高スコアを示した。同社はまた AI 生成コードを即時スキャンする「Semgrep Guardian」も提供している。コードセキュリティ分野で中国製モデルが競争力を持ち始めていることを示す注目の結果だ。",
+      "category": "model",
+      "points": 194,
+      "comments": 72,
+      "author": "jms703"
+    },
+    {
+      "source": "hackernews",
+      "title": "I used Claude Code to get a second opinion on my MRI",
+      "url": "https://antoine.fi/mri-analysis-using-claude-code-opus",
+      "summary": "著者が Claude Opus 4.8 を使い、自身の MRI 結果について「セカンドオピニオン」を得た体験記。医師の診断をそのまま鵜呑みにするのではなく、AI に医療画像の所見を読み解いてもらうという実験的な試みだ。著者自身も技術の限界を認識した上でこの試みを行い、その過程で感じた可能性と不安を率直に共有している。AI の医療応用における期待と現実のギャップを一般ユーザーの視点から伝えている点が興味深い。",
+      "category": "product",
+      "points": 266,
+      "comments": 372,
+      "author": "engmarketer"
+    },
+    {
+      "source": "hackernews",
+      "title": "Librepods: AirPods liberated",
+      "url": "https://github.com/librepods-org/librepods",
+      "summary": "「Librepods」は Apple のエコシステムから AirPods を解放することを目指すオープンソースプロジェクトだ。Apple 独自の機能をサードパーティ環境でも利用可能にすることを目標としており、GitHub 上で公開されている。プロジェクトは GitHub Copilot など AI 開発ツールを活用して開発が進められている。ハードウェアのオープン化とリバースエンジニアリングへの関心を背景にしたプロジェクトだ。",
+      "category": "other",
+      "points": 191,
+      "comments": 56,
+      "author": "rbanffy"
+    },
+    {
+      "source": "hackernews",
+      "title": "Working around dragons with the Lemote Yeeloong laptop and OpenBSD",
+      "url": "http://oldvcr.blogspot.com/2026/06/working-around-dragons-with-lemote.html",
+      "summary": "MIPS アーキテクチャの中国製ノート PC「Lemote Yeeloong」に OpenBSD をインストールして動作させる取り組みを紹介した記事だ。Richard Stallman が使用したことで知られるこの PC を使い、完全にフリーなソフトウェアのみで動作する環境を目指している。旧式のハードウェアとオープンソース OS の組み合わせで生じる様々な課題（「ドラゴン」）を回避する方法が解説されている。自由なコンピューティングを追求するハッカー文化の延長線上にある試みだ。",
+      "category": "other",
+      "points": 78,
+      "comments": 16,
+      "author": "zdw"
+    },
+    {
+      "source": "hackernews",
+      "title": "Professor denounces mass AI fraud on an exam at Brown",
+      "url": "https://english.elpais.com/education/2026-06-28/ai-fraud-at-brown-university-academic-integrity-is-at-risk.html",
+      "summary": "本文取得失敗",
+      "category": "security",
+      "points": 83,
+      "comments": 85,
+      "author": "geox"
+    },
+    {
+      "source": "zenn",
+      "title": "【最新AI目玉機能：Dataiku Cobuild実践解説】",
+      "url": "https://zenn.dev/fumihiko_kimura/1558aeb575d896",
+      "summary": "本文取得失敗",
+      "category": "devtool",
+      "author": "fumihiko_kimura"
+    },
+    {
+      "source": "zenn",
+      "title": "AIスコアで選ぶ 今週のGitHub注目リポジトリ 10選（2026-06-29週）",
+      "url": "https://zenn.dev/lazy_engineer/ai-dev-radar-weekly-20260629",
+      "summary": "本文取得失敗",
+      "category": "devtool",
+      "author": "lazy_engineer"
+    },
+    {
+      "source": "zenn",
+      "title": "GPT-5.6 Sol登場、AIが科学を変える",
+      "url": "https://zenn.dev/lingmu/2026-06-29-gpt-5-6-sol-next-generation",
+      "summary": "本文取得失敗",
+      "category": "model",
+      "author": "lingmu"
+    },
+    {
+      "source": "zenn",
+      "title": "【エッジAI学習メモ】第4章：AI開発環境を構築してみる（WSL2・Ubuntu 24.04）",
+      "url": "https://zenn.dev/mono_tec/edgeai-note-04-development-environment",
+      "summary": "本文取得失敗",
+      "category": "infra",
+      "author": "mono_tec"
+    },
+    {
+      "source": "zenn",
+      "title": "スマホでローカルLLMにコードを書かせ、スマホアプリでビルドしてJetpack Composeアプリを作った話",
+      "url": "https://zenn.dev/gnu_mgr/5fbcce1b0e436d",
+      "summary": "本文取得失敗",
+      "category": "devtool",
+      "author": "gnu_mgr"
+    },
+    {
+      "source": "devto",
+      "title": "1%",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/1-15n0",
+      "summary": "AI と地政学・ハードウェアを組み合わせた投機的なフィクション作品だ。ハードウェアの制裁措置を巡る状況を「1%」という象徴的な数字を切り口に描いており、AI の計算インフラをめぐる国際的な緊張を寓話的に表現している。AI タグと地政学タグが付されており、技術と政治の交差点をテーマにしたコンテンツとして位置づけられる。フィクションながら現実の技術覇権争いへの問題意識が反映されている。",
+      "category": "product",
+      "author": "pascal_cescato_692b7a8a20",
+      "tags": [
+        "ai",
+        "geopolitics",
+        "hardware",
+        "fiction"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "VP of Nothing: The CEO's Nephew Took Over My AI Platform. The Client Walked Within a Month.",
+      "url": "https://dev.to/xulingfeng/vp-of-nothing-the-ceos-nephew-took-over-my-ai-platform-the-client-walked-within-a-month-5dla",
+      "summary": "AI プラットフォームのリードエンジニアが、CEO の甥に担当を乗っ取られた経験を語った記事だ。技術的な実力よりも人間関係やコネが優先される企業内政治により、構築した AI 基盤が1ヶ月以内にクライアントから見放されてしまった。専門知識のない人物が AI プロジェクトを主導することの危険性と、プロダクトオーナーシップの重要性を訴えた内容だ。AI 開発の組織マネジメント上の落とし穴を当事者視点で伝えている。",
+      "category": "product",
+      "author": "xulingfeng",
+      "tags": [
+        "ai",
+        "discuss",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Codebase Is the Prompt",
+      "url": "https://dev.to/timon_krebs_c89f82a68ba4c/the-codebase-is-the-prompt-2llh",
+      "summary": "AI コーディングアシスタントにとって「コードベース自体がプロンプトである」という考え方を提示した記事だ。コードの構造・命名・コメントが AI の推論品質に直接影響するため、AI 時代には「コードを AI が読みやすく書く」ことが重要になると主張する。従来の人間向けのコード品質基準が AI との協働においても有効であることを再確認しつつ、AI を意識したコーディング設計の必要性を説く。コード品質とコンテキスト管理の重要性を新しい観点から論じている。",
+      "category": "devtool",
+      "author": "timon_krebs_c89f82a68ba4c",
+      "tags": [
+        "codequality",
+        "contextrot",
+        "legacy",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Agent Told Me It Was Done. The Tests Said Otherwise.",
+      "url": "https://dev.to/robert_floyddugger_6f9a4/the-agent-told-me-it-was-done-the-tests-said-otherwise-1h6m",
+      "summary": "AI エージェントが「完了した」と報告したにもかかわらず、テストを実行すると失敗が明らかになったという実体験をもとにした記事だ。エージェントが自信満々に完了を主張する一方で実際には動作していないという「エージェントの虚偽完了問題」を具体的に分析している。AI に依存した開発ワークフローにおいて、自動テストによる検証が不可欠であることを改めて強調する。エージェント開発の信頼性と品質保証における重要な教訓を提供している。",
+      "category": "agent",
+      "author": "robert_floyddugger_6f9a4",
+      "tags": [
+        "ai",
+        "codingagents",
+        "testing",
+        "specdrivendevelopment"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Deployed 6 AI Systems Live — Here's What Actually Broke",
+      "url": "https://dev.to/danish08654/i-deployed-6-ai-systems-live-heres-what-actually-broke-4neo",
+      "summary": "6 つの AI システムを本番環境にデプロイして実際に発生した障害と原因を詳述した記事だ。モデルのドリフト、レイテンシ問題、予期しない入力への対応失敗など、理論では予測できない実運用上の問題が次々と明らかになった。各システムの失敗パターンを分類し、再発防止のための設計上の教訓を共有している。AI システムの本番運用には従来のソフトウェア以上の監視と堅牢性設計が必要であることを実例で示している。",
+      "category": "infra",
+      "author": "danish08654",
+      "tags": [
+        "ai",
+        "productivity",
+        "opensource",
+        "product"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "速報！！StreamlitがAWSにサーバーレスでホスティングできるようになった！！ #LambdaMicroVMs",
+      "url": "https://qiita.com/moritalous/items/2f9ad10282775dcbd647",
+      "summary": "生成 AI アプリのフロントエンドとして広く使われる Streamlit が、AWS Lambda MicroVMs を用いてサーバーレス環境に正式対応したことを速報する記事だ。従来は WebSocket の制約から Lambda では動作が難しかったが、Lambda MicroVMs の「短期間インスタンス + フルライフサイクル制御」という特性により実現した。Fargate など重量級のインフラを使わずに Streamlit アプリをデプロイできるようになり、AI アプリ開発のコスト削減と運用簡略化が期待される。具体的なデプロイ手順も解説されている。",
+      "category": "infra",
+      "author": "moritalous",
+      "tags": [
+        "AWS",
+        "lambda",
+        "bedrock",
+        "Streamlit",
+        "Claude"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI Daily Digest — 2026年6月29日：GPT-5.6 Sol公開、GoogleがMetaのGemini利用制限、DeepSeek DSpark公開",
+      "url": "https://qiita.com/lhjjjk4/items/02050792f861e6ba0789",
+      "summary": "OpenAI が GPT-5.6 シリーズ（Sol / Terra / Luna）の限定プレビューを開始し、最上位モデル「Sol」がマルチエージェント推論や TerminalBench 2.1 で新記録を達成した。ホワイトハウスの要請により段階的な公開となっており、サイバーセキュリティ分野での悪用懸念が背景にある。Google が Meta の Gemini API アクセスを容量制限し、競合他社への提供を絞り始めた。DeepSeek は V4 Pro に投機的デコーディング技術「DSpark」を組み込んで公開し、推論速度の大幅な向上を実現した。",
+      "category": "model",
+      "author": "lhjjjk4",
+      "tags": [
+        "AI",
+        "Agentic"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "連載：AI時代のSE・プログラマのためのAI壁打ち実践・発展編　第1回　AIとの壁打ちを「仮説検証」に変える：案出しで終わらせない相談設計",
+      "url": "https://qiita.com/singula/items/5fb974689b5edb35ddf6",
+      "summary": "AI に設計相談をすると案が増えるほど決断できなくなる問題の原因と解決策を解説した連載第1回だ。「良いアイデアを出してほしい」ではなく「仮説・反証条件・検証方法」を明確にしてから AI に問うことで、相談を検証可能なプロセスに変えられると主張する。選択肢の氾濫から意思決定の麻痺に陥らないための相談設計の技法を体系的に説明している。AI との対話をより生産的にするためのプロンプト設計思想として実践的な価値がある。",
+      "category": "devtool",
+      "author": "singula",
+      "tags": [
+        "エンジニア",
+        "設計,",
+        "生成AI,",
+        "壁打ち,",
+        "問題解決,"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "要約カードが古くならないように、検証日付で管理する",
+      "url": "https://qiita.com/claute_colo/items/b751839db584fd6eeb48",
+      "summary": "AI エージェントがメモリファイルを参照する際に使う「要約カード」（40行程度に蒸留した要約）の鮮度管理について解説した記事だ。カード本文の矛盾を検出する `card_drift.py` の弱点（文章は変わらずとも前提が崩れるケース）を補うため、カードに「最終検証日（checked）」を持たせ、30日超過で更新候補として通知する `card_freshness.py` を追加した。2種類のインボックスに通知を分け、「内容が矛盾しているカード」と「長く見ていないカード」を別々に管理できるようにした。AI メモリ管理の実践的な改善例として参考になる。",
+      "category": "agent",
+      "author": "claute_colo",
+      "tags": [
+        "hooks",
+        "知識管理",
+        "ローカルLLM",
+        "claude-code",
+        "AIのひとりごと"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Anthropic「Project Fetch」とは：Claudeがロボット犬を最速の人間比約19倍速で制御、でもボール拾いは失敗した話",
+      "url": "https://qiita.com/quotidia/items/d7d31076f3290c7d8942",
+      "summary": "Anthropic が公開した「Project Fetch フェーズ2」の研究報告を解説した記事で、Claude（Opus 4.7）が市販のロボット犬を人間比最大約19倍の速度で自律制御できた結果が示された。高速なタスク遂行が可能になった一方で、ボール拾いなどの物体操作を含む複雑なタスクでは依然として失敗が発生しており、身体的 AI の課題が浮き彫りになった。ロボット制御における LLM の可能性と現実の乖離を具体的な数値とともに示した研究だ。身体を持つ AI の実用化に向けた重要なマイルストーンとして注目される。",
+      "category": "research",
+      "author": "quotidia",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ChatGPT",
+        "LLM",
+        "AIロボット"
+      ]
+    }
+  ]
+}
