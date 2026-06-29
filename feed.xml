@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-06-30T00:00:00+09:00</updated>
   <entry>
+    <title>2026年6月30日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30-news.html</id>
+    <updated>2026-06-30T00:00:00+09:00</updated>
+    <summary>AnthropicのClaudeがMicrosoft Azure上でNVIDIA GB300 Blackwell Ultraを搭載して一般提供開始（6月29日） / OpenAIがGPT-5.6ファミリー（Sol/Terra/Luna）を発表、米政府要請で信頼パートナー限定の段階公開 / SalesforceがAgentforce Help Agentを発表—解決時のみ課金する成果報酬型AIエージェントで業界に新たな料金モデルを提示 / EU AI法の「AI生成コンテンツ透明性行動規範」が確定、2026年8月2日より透明性義務が適用開始 / AnthropicがFable 5・Mythos …</summary>
+  </entry>
+  <entry>
     <title>2026年6月30日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15-news.html</id>
     <updated>2026-06-15T00:00:00+09:00</updated>
     <summary>米政府がAnthropicのFable 5・Mythos 5に輸出規制を適用し全ユーザー向けアクセスを停止—商業公開済みAIモデルへの初の政府介入 / G7サミット（フランス・エビアン、6月15〜17日）直前に、AI主権・依存リスクが国際政治の焦点に / EU委員会とカナダ首相が相次いで米国の一方的なAI輸出規制に懸念を表明 / Apple、iOS 27のSiriにClaude・Gemini等のサードパーティAIモデル選択機能を内部ビルドで開発中（WWDC未発表） / MicrosoftのNadella CEO、AI「学習ループ」の自社管理が競争優位の鍵と強調</summary>
-  </entry>
-  <entry>
-    <title>2026年6月15日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15.html</id>
-    <updated>2026-06-15T00:00:00+09:00</updated>
-    <summary>リオデジャネイロ市の「独自開発」LLMが実際は既存モデルの重み混合であることが発覚し、AI開発の透明性・誠実性に改めて注目が集まっています / GitHub Copilotの従量課金移行を受け、OpenCode GoやCodexなど代替AIコーディングツールへの移行・比較記事が複数登場しています / Claude Fable 5やGitHub Copilot SDKなど新世代のAI開発ツールが実用段階に入り、現場での活用事例が増加しています / ローカルLLMを活用した実用プロジェクト（動画インデックス・リース解析）が注目を集め、クラウドAIに依存しない方向性への関心が高まっています / A…</summary>
   </entry>
 </feed>
