@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-29T00:00:00+09:00</updated>
+  <updated>2026-06-30T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年6月30日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30.html</id>
+    <updated>2026-06-30T00:00:00+09:00</updated>
+    <summary>vLLMが「Micro-Agent」を発表——フロンティアモデルをAPI内協調で上回る新エージェントアーキテクチャ / AIが72時間でWordPressプラグインに300件のゼロデイ脆弱性を発見、開発者の意識変革を促す / Claude Code関連の実践知見が多数——Remote Control自動復旧・エラーコピペを避けるべき理由 / GEO（生成AIエンジン最適化）への注目が高まり、LLMに引用されやすい記事構造の解説が登場</summary>
+  </entry>
   <entry>
     <title>2026年6月29日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15.html</id>
     <updated>2026-06-15T00:00:00+09:00</updated>
     <summary>リオデジャネイロ市の「独自開発」LLMが実際は既存モデルの重み混合であることが発覚し、AI開発の透明性・誠実性に改めて注目が集まっています / GitHub Copilotの従量課金移行を受け、OpenCode GoやCodexなど代替AIコーディングツールへの移行・比較記事が複数登場しています / Claude Fable 5やGitHub Copilot SDKなど新世代のAI開発ツールが実用段階に入り、現場での活用事例が増加しています / ローカルLLMを活用した実用プロジェクト（動画インデックス・リース解析）が注目を集め、クラウドAIに依存しない方向性への関心が高まっています / A…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月14日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-14-news.html</id>
-    <updated>2026-06-14T00:00:00+09:00</updated>
-    <summary>AnthropicがClaude Fable 5（Mythosクラス初の一般公開モデル）をリリース。SWE-Bench Proで80.3%を達成。 / Moonshot AIが1兆パラメータのオープンソースコーディングモデル「Kimi K2.7 Code」を公開。 / GoogleがテキストをH100 GPUで最大4倍高速生成するオープンモデル「DiffusionGemma」を発表。 / 米42州の司法長官がOpenAIへの共同調査を開始。IPO申請直後で法的リスクが増大。 / KPMGがAIハルシネーションを原因とする報告書を撤回。UBS・NHSなど複数組織が内容の誤りを指摘。</summary>
   </entry>
 </feed>
