@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-06-30T00:00:00+09:00</updated>
+  <updated>2026-07-01T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月1日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01.html</id>
+    <updated>2026-07-01T00:00:00+09:00</updated>
+    <summary>Anthropicが最新モデル「Claude Sonnet 5」とベータ版研究エージェント「Claude Science」を発表 / Claude Codeのシステムプロンプトに隠しマーカーを埋め込む仕組みが発見され、プライバシー上の懸念が話題に / Google DeepMindのオープンモデル「Gemma 4」がApache 2.0ライセンスで高性能を発揮 / Claude Code関連では、Claude Designの実践活用、エージェントOSとしての理解、ふりかえりによる自動ルール化など開発ツール系の知見が充実 / AI Engineer World&#39;s Fair 2026の開催に合…</summary>
+  </entry>
   <entry>
     <title>2026年6月30日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16.html</id>
     <updated>2026-06-16T00:00:00+09:00</updated>
     <summary>ローカルLLM（Qwen3.6 35b）でのコーディング代替が現実的な選択肢として議論が活発化 / CloudflareのV8 Isolateアーキテクチャがエージェント時代のインフラとして注目を集める / PageIndexがAlphaGoのMCTS手法を応用した推論ベースRAGとして新しいアプローチを提示 / AIエージェントを用いた業務開発の高速化事例（1日5画面）が現場から報告される / GitHub Copilotの従量課金化を受け、代替コーディング支援ツールへの移行を解説する記事が急増</summary>
-  </entry>
-  <entry>
-    <title>2026年6月15日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-15-news.html</id>
-    <updated>2026-06-15T00:00:00+09:00</updated>
-    <summary>米政府がAnthropicのFable 5・Mythos 5に輸出規制を適用し全ユーザー向けアクセスを停止—商業公開済みAIモデルへの初の政府介入 / G7サミット（フランス・エビアン、6月15〜17日）直前に、AI主権・依存リスクが国際政治の焦点に / EU委員会とカナダ首相が相次いで米国の一方的なAI輸出規制に懸念を表明 / Apple、iOS 27のSiriにClaude・Gemini等のサードパーティAIモデル選択機能を内部ビルドで開発中（WWDC未発表） / MicrosoftのNadella CEO、AI「学習ループ」の自社管理が競争優位の鍵と強調</summary>
   </entry>
 </feed>
