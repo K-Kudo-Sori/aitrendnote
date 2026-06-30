@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-01",
+  "generatedAt": "2026/7/1 8:07:25",
+  "highlights": [
+    "Anthropicが科学者向けAIワークベンチ「Claude Science」をベータ公開（6月30日）",
+    "Anthropicが企業向け統合管理ツール「Claude apps gateway」をAmazon Bedrock/Google Cloud向けに発表",
+    "暗号資産取引所OKXがAIエージェント同士が雇用・決済し合う新マーケットプレイス「OKX AI」を開始",
+    "バイブコーディングのBase44が独自AIモデル「Base1」を展開しフロンティアモデル依存からの脱却を模索",
+    "TIDALが完全AI生成楽曲の収益化を停止する新ポリシーを発表（7月15日施行）"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、科学者向けAIワークベンチ「Claude Science」を提供開始",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "summary": "Anthropicは2026年6月30日、科学者向け統合AIワークベンチ「Claude Science」のベータ提供を開始した。文献分析・データ解析・複数ステップの研究ワークフローを単一環境にまとめ、60以上のゲノミクス・プロテオミクス・構造生物学・ケモインフォマティクス向けスキルをプリセットし、コードの透明性を保ったまま再現可能な研究成果物を生成できる。Claude Pro/Max/Team/Enterpriseユーザー向けにmacOSとLinuxで利用可能。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Proton、プライバシー重視AIチャットボット「Lumo」を2.0にアップグレード",
+      "url": "https://techcrunch.com/2026/06/30/lumo-protons-privacy-focused-ai-chatbot-gets-an-upgrade/",
+      "summary": "Protonはプライバシー重視のAIチャットボット「Lumo」をバージョン2.0にアップグレードしたと発表した。新版は画像認識・画像生成機能を追加し、応答速度を従来比76%高速化したほか、複雑な問題向けの「thinking mode」とセッションをまたいで設定を記憶する「persistent memory」機能を搭載した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "暗号資産取引所OKX、AIエージェント同士が雇用・決済し合う新マーケットプレイスを発表",
+      "url": "https://techcrunch.com/2026/06/30/crypto-exchange-okx-wants-ai-agents-to-hire-and-pay-each-other/",
+      "summary": "暗号資産取引所OKXは、AIエージェント向けの新マーケットプレイス「OKX AI」を立ち上げた。AIエージェント同士が仕事を見つけ合い、ステーブルコインで自動決済し、ブロックチェーン上にポータブルな評判を構築できる。OKX経営陣は、ブロックチェーン決済と自動化ソフトウェアを組み合わせた「エージェント経済」が今後5年で1兆ドル規模の市場になりうると述べている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、Amazon BedrockとGoogle Cloud向け「Claude apps gateway」を発表",
+      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "summary": "Anthropicは、Amazon BedrockとGoogle Cloud向けに企業向け統合管理ツール「Claude apps gateway」を発表した。セルフホスト型のコントロールプレーンとして、企業SSOログイン、ポリシーの一元管理、ロールベースのアクセス制御、ユーザー単位のコスト計上を実現し、Linuxコンテナとしてデプロイできる。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "バイブコーディングのBase44、独自AIモデル「Base1」を展開開始",
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+      "summary": "Wix傘下のバイブコーディングプラットフォームBase44は、独自AIモデル「Base1」の展開を開始した。同社プラットフォーム上の実ユーザーの対話データを基に開発・訓練しており、レイテンシ・コスト・効率の最適化を狙う。買収から1年でARRは1億5000万ドルに達し、フロンティアモデルへの依存を減らし差別化を図る狙いがある。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "TIDAL、完全AI生成楽曲の収益化を停止する新ポリシーを発表",
+      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "summary": "音楽配信サービスTIDALは、完全にAI生成された楽曲の収益化を停止する新ポリシーを発表した。該当楽曲には「AI」バッジが付与され、ロイヤリティ支払いやダイレクト販売の対象から除外されるほか、アーティストになりすましたAI楽曲は自動ツールで削除される。新ポリシーは2026年7月15日から施行される予定。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-07-01-news"
+}

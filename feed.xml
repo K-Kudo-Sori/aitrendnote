@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-01T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月1日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01-news.html</id>
+    <updated>2026-07-01T00:00:00+09:00</updated>
+    <summary>Anthropicが科学者向けAIワークベンチ「Claude Science」をベータ公開（6月30日） / Anthropicが企業向け統合管理ツール「Claude apps gateway」をAmazon Bedrock/Google Cloud向けに発表 / 暗号資産取引所OKXがAIエージェント同士が雇用・決済し合う新マーケットプレイス「OKX AI」を開始 / バイブコーディングのBase44が独自AIモデル「Base1」を展開しフロンティアモデル依存からの脱却を模索 / TIDALが完全AI生成楽曲の収益化を停止する新ポリシーを発表（7月15日施行）</summary>
+  </entry>
+  <entry>
     <title>2026年7月1日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16-news.html</id>
     <updated>2026-06-16T00:00:00+09:00</updated>
     <summary>米国政府の輸出規制指令でAnthropicが最新モデルFable 5・Mythos 5を全世界シャットダウン（6/12〜13） / G7サミット（仏エビアン、6/15〜17）にOpenAI・Google DeepMind・Anthropicの各CEOが初めて三者そろって出席 / DatabricksがマルチAIエージェント統合フレームワーク「Omnigent」をOSS公開（Apache 2.0） / Moonshot AIが1兆パラメータの開源コーディングモデル「Kimi K2.7-Code」をリリース（HuggingFace公開） / AnthropicがProject Glasswing…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月16日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16.html</id>
-    <updated>2026-06-16T00:00:00+09:00</updated>
-    <summary>ローカルLLM（Qwen3.6 35b）でのコーディング代替が現実的な選択肢として議論が活発化 / CloudflareのV8 Isolateアーキテクチャがエージェント時代のインフラとして注目を集める / PageIndexがAlphaGoのMCTS手法を応用した推論ベースRAGとして新しいアプローチを提示 / AIエージェントを用いた業務開発の高速化事例（1日5画面）が現場から報告される / GitHub Copilotの従量課金化を受け、代替コーディング支援ツールへの移行を解説する記事が急増</summary>
   </entry>
 </feed>
