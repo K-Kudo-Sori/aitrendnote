@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-01T00:00:00+09:00</updated>
+  <updated>2026-07-02T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月2日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-02-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-02-news.html</id>
+    <updated>2026-07-02T00:00:00+09:00</updated>
+    <summary>Googleのエージェント型アシスタント「Gemini Spark」がMacに対応 / AIインフラのTogether AIが8億ドル調達、評価額83億ドルに / Cloudflareがパブリッシャー保護のため「混合用途」クローラーを新たにブロック / 米政府がAnthropicのMythos/Fableモデルへの輸出規制を解除 / プライバシー重視のVenice AIが6,500万ドル調達でユニコーンに / Unityが規約改訂でサードパーティー製AIツールの扱いを明確化</summary>
+  </entry>
   <entry>
     <title>2026年7月1日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17.html</id>
     <updated>2026-06-17T00:00:00+09:00</updated>
     <summary>SpaceXがAIコーディングツール「Cursor」を600億ドルで買収との報道が話題に / Cloudflare Workers（V8 Isolate）がAIエージェント実行環境として注目される / Claude Fable 5の輸出規制事例がAIコンテキスト層の外部化設計の重要性を示唆 / VRAM 12GBでQwen 35B MoEモデルを--cpu-moeフラグ1つで2.8倍高速化する手法が実証 / ローカルLLMのコスト神話が崩れ、ガバナンス・精度特化・レイテンシ安定性が真の優位領域に</summary>
-  </entry>
-  <entry>
-    <title>2026年6月16日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-16-news.html</id>
-    <updated>2026-06-16T00:00:00+09:00</updated>
-    <summary>米国政府の輸出規制指令でAnthropicが最新モデルFable 5・Mythos 5を全世界シャットダウン（6/12〜13） / G7サミット（仏エビアン、6/15〜17）にOpenAI・Google DeepMind・Anthropicの各CEOが初めて三者そろって出席 / DatabricksがマルチAIエージェント統合フレームワーク「Omnigent」をOSS公開（Apache 2.0） / Moonshot AIが1兆パラメータの開源コーディングモデル「Kimi K2.7-Code」をリリース（HuggingFace公開） / AnthropicがProject Glasswing…</summary>
   </entry>
 </feed>

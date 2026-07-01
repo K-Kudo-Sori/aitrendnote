@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-02",
+  "generatedAt": "2026/7/2 8:06:23",
+  "highlights": [
+    "Googleのエージェント型アシスタント「Gemini Spark」がMacに対応",
+    "AIインフラのTogether AIが8億ドル調達、評価額83億ドルに",
+    "Cloudflareがパブリッシャー保護のため「混合用途」クローラーを新たにブロック",
+    "米政府がAnthropicのMythos/Fableモデルへの輸出規制を解除",
+    "プライバシー重視のVenice AIが6,500万ドル調達でユニコーンに",
+    "Unityが規約改訂でサードパーティー製AIツールの扱いを明確化"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Gemini Spark, Google's agentic assistant, is now available on Mac",
+      "url": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "summary": "Googleは、AIエージェントアシスタント「Gemini Spark」のmacOS版をリリースした。ユーザーはコンピュータ上のファイルを直接操作できるほか、Google Tasks、Google Keep、Canva、Dropboxなど複数のアプリとの連携が可能になった。さらに、スポーツスコアやニュースなどのトピックをリアルタイムで追跡する機能も追加されている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
+      "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "summary": "オープンソースモデルのホスティングに特化したネオクラウド企業Together AIが、8億ドルのシリーズC資金調達を完了し、評価額は83億ドルに達した。同社の年間経常収益（ARR）は11億5,000万ドルを超えている。GPUインフラの拡充に資金を充てる見込み。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Cloudflare's new policy pushes AI companies to pay for publishers' content",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "summary": "Cloudflareは9月15日以降、検索用とAI訓練・エージェント用のクローラーを区別しない「混合用途」クローラーを、広告掲載ページからデフォルトでブロックすると発表した。新規顧客や既存顧客の新規サイト、全フリーユーザーに適用される。あわせて、AI企業がパブリッシャーのコンテンツ利用に対価を支払う「Pay Per Use」モデルの展開も進めている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Trump drops restrictions on Anthropic's Mythos and Fable models",
+      "url": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "summary": "米政府はAnthropicの「Mythos」および「Fable」モデルに対する輸出制限を解除し、同社は2026年7月1日から一般アクセスの復旧を開始した。商務長官のHoward Lutnick氏は、Anthropicがセキュリティリスクの検出・対処や米国政府への協力を約束したことを解除の理由として挙げている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+      "url": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "summary": "プライバシー重視のAIプラットフォームVenice AIが、シリーズAラウンドで6,500万ドルを調達し、評価額10億ドルのユニコーン企業となった。同社はすでに年率換算7,000万ドル超の収益を上げており、1日平均170万件のAPI呼び出しを処理している。調達資金はGPU購入とデータセンター構築に充てられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "ゲームエンジンUnity、いきなり規約改訂で「サードパーティー製AIツール」利用を制限か",
+      "url": "https://automaton-media.com/articles/newsjp/20260701-452836/",
+      "summary": "Unityが利用規約第17条を改訂し、AIエージェントやMCPサーバーを含むサードパーティー製AIツールについて、Unityの提供物を機械学習やAIモデルの学習に用いる場合は事前承認が必要になると規定した。Unityは公式にRedditで、この条項はローカル利用の制限ではなく、製品データのリバースエンジニアリングやスクレイピングを禁じる目的だと説明している。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-07-02-news"
+}
