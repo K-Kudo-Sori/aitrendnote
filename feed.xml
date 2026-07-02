@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-03T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月3日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03-news.html</id>
+    <updated>2026-07-03T00:00:00+09:00</updated>
+    <summary>Microsoftが企業向けAI導入を専業とする新会社を25億ドルで設立 / Anthropicがサムスンとカスタムチップを協議、OpenAI-Broadcomの動きに対抗 / Anthropicが業界横断のジェイルブレイク深刻度評価フレームワークを提案しFable 5をグローバル復帰 / 国連の専門家パネルがAIの富の集中に警鐘を鳴らす初の報告書を公表</summary>
+  </entry>
+  <entry>
     <title>2026年7月3日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-18.html</id>
     <updated>2026-06-18T00:00:00+09:00</updated>
     <summary>11のLLMをバトルロワイアルに投入した実験でGrok 4.1 FastがClaude Sonnet 4.6の27倍コスト効率で勝利し、ベンチマークと実運用能力の乖離が話題に / VRAM 12GBのRTX 4070でQwen 35B（MoEモデル）を`--cpu-moe`フラグだけで3倍高速化する逆転の知見 / AI駆動開発のセキュリティをslopsquatting・プロンプトインジェクションなど最新リスク含め3段階で整理した実践ガイド / Claude Codeのサブエージェント並列ループ・TDDフレームワークで10人月の開発を2週間に短縮した事例のハンズオン / 自己改善エージェントが…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月17日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17-news.html</id>
-    <updated>2026-06-17T00:00:00+09:00</updated>
-    <summary>SpaceXがAIコーディングツール「Cursor」を約60億ドルで買収合意（IPO直後の大型M&amp;A） / ChatGPTの市場シェアが初めて50%を割り込み46.4%に（GeminiやClaudeが台頭） / Zhipu AIがオープンソースモデルGLM-5.2をリリース（100万トークンコンテキスト、MIT License） / AnthropicがClaude Agent SDK向けトークン課金変更を当日に停止・延期 / Google、Android 17とGemini Omni統合を正式リリース</summary>
   </entry>
 </feed>

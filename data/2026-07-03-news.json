@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-03",
+  "generatedAt": "2026/7/3 8:06:38",
+  "highlights": [
+    "Microsoftが企業向けAI導入を専業とする新会社を25億ドルで設立",
+    "Anthropicがサムスンとカスタムチップを協議、OpenAI-Broadcomの動きに対抗",
+    "Anthropicが業界横断のジェイルブレイク深刻度評価フレームワークを提案しFable 5をグローバル復帰",
+    "国連の専門家パネルがAIの富の集中に警鐘を鳴らす初の報告書を公表"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "マイクロソフト、25億ドル規模の新会社「Microsoft Frontier Company」でAI導入事業に参入",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "summary": "マイクロソフトは、企業向けAI導入の成功を支援する新事業体「Microsoft Frontier Company」の設立を発表した。25億ドルを投じ、6,000人の業界専門家とエンジニアを配置する。ロンドン証券取引所グループやユニリーバなどとの初期パートナーシップも既に発表されており、既存の「Forward-Deployed Engineering」モデルを超える成果志向の組織を目指す。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、サムスンとカスタムAIチップの開発を協議",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/",
+      "summary": "Anthropicがサムスンと独自のAIチップ開発について協議していることが報じられた。用途やサーバーへの組み込み方、性能水準は未定だが、Google・Amazon・Nvidiaなど多様なハードウェアを組み合わせる方針は維持するとしている。OpenAIが先週Broadcomと発表したカスタム推論チップ「Jalapeño」への対抗とも見られている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、AIでゲームを生成できるアプリ「Pocket」をひっそりローンチ",
+      "url": "https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/",
+      "summary": "Metaがテキストプロンプトから小型のインタラクティブゲーム（gizmos）を生成できるアプリ「Pocket」をApp StoreとGoogle Playで公開した。作成したゲームの共有や、他ユーザーの作品を発見・プレイできるフィード機能を備える。買収した「Gizmo」チームが開発を担当しており、正式発表前の実験段階とみられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、Claude「Fable 5」をグローバル再展開し、業界横断のジェイルブレイク深刻度評価フレームワークを提案",
+      "url": "https://aiweekly.co/alerts/anthropic-redeploys-fable-5-with-cross-lab-jailbreak-rubric",
+      "summary": "Anthropicは米商務省による輸出規制の解除を受け、Claude「Fable 5」を条件付きでグローバル復帰させた。Amazonの研究者が発見した安全策回避手法を99%以上の精度でブロックする新しい分類器を導入した。またAmazon・Microsoft・Googleと共同で、機能獲得の度合いや兵器化の容易さなど4つの基準からジェイルブレイクの深刻度を評価する業界共通フレームワークを提案している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "国連AIパネル、富の集中に警鐘を鳴らす初の報告書を公表",
+      "url": "https://news.web.nhk/newsweb/na/na-k10015166751000",
+      "summary": "国連の専門家パネルがAIの恩恵とリスクを評価する初の報告書を公表した。AIの開発とそれによって生み出される富が少数の企業や国に集中することは、権威主義的な支配に利用されかねないと警鐘を鳴らしている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "生成AIによる無断利用が急増、日本の法務省が有識者検討会を設置へ",
+      "url": "https://news.web.nhk/newsweb/na/na-k10015166921000",
+      "summary": "生成AIの普及に伴い、俳優の画像や動画が本人の許可なく生成AIで利用される事例が増加している。日本の法務省はこの問題への対応を検討するため、有識者による検討会を設置し議論を進めている。",
+      "category": "other"
+    }
+  ],
+  "slug": "2026-07-03-news"
+}
