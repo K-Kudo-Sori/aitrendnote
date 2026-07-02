@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-02T00:00:00+09:00</updated>
+  <updated>2026-07-03T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月3日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03.html</id>
+    <updated>2026-07-03T00:00:00+09:00</updated>
+    <summary>Claude Code関連の実践知見（Desktopメインへの移行、オントロジーによるナレッジ構造化、失敗の自動ルール化、Claude Designの活用術）が国内エンジニアブログで多数公開された。 / AI Engineer World&#39;s Fairでは「フロンティアモデル一辺倒の戦略の崩壊」「リポジトリ規模のSoftware Factory化」「Harness EngineeringとEvals重視」がトレンドとして語られている。 / コスト最適化の動きが顕著で、UberやMicrosoftがAIコストの高さに直面する一方、Coinbase・Airbnb・PinterestはGLMやQw…</summary>
+  </entry>
   <entry>
     <title>2026年7月2日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-02-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17-news.html</id>
     <updated>2026-06-17T00:00:00+09:00</updated>
     <summary>SpaceXがAIコーディングツール「Cursor」を約60億ドルで買収合意（IPO直後の大型M&amp;A） / ChatGPTの市場シェアが初めて50%を割り込み46.4%に（GeminiやClaudeが台頭） / Zhipu AIがオープンソースモデルGLM-5.2をリリース（100万トークンコンテキスト、MIT License） / AnthropicがClaude Agent SDK向けトークン課金変更を当日に停止・延期 / Google、Android 17とGemini Omni統合を正式リリース</summary>
-  </entry>
-  <entry>
-    <title>2026年6月17日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-17.html</id>
-    <updated>2026-06-17T00:00:00+09:00</updated>
-    <summary>SpaceXがAIコーディングツール「Cursor」を600億ドルで買収との報道が話題に / Cloudflare Workers（V8 Isolate）がAIエージェント実行環境として注目される / Claude Fable 5の輸出規制事例がAIコンテキスト層の外部化設計の重要性を示唆 / VRAM 12GBでQwen 35B MoEモデルを--cpu-moeフラグ1つで2.8倍高速化する手法が実証 / ローカルLLMのコスト神話が崩れ、ガバナンス・精度特化・レイテンシ安定性が真の優位領域に</summary>
   </entry>
 </feed>
