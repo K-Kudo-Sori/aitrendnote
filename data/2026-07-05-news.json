@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-05",
+  "generatedAt": "2026/7/5 8:07:51",
+  "highlights": [
+    "OpenAIが米政府への株式寄付を提案するなど、AI企業と政権の関係が焦点に",
+    "Alibabaがセキュリティ上の懸念からClaude Codeの社内利用を禁止、米中のAIを巡る緊張が表面化",
+    "Metaはエージェント開発の遅れを社内で認める一方、AI生成コードの品質・著作権リスクも議論に"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "アリババ、従業員によるClaude Codeの利用を禁止へ",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "summary": "アリババは、セキュリティ上の懸念を理由に7月10日から従業員によるAnthropic製コーディングツール「Claude Code」の利用を禁止すると報じられた。同社はこのツールを「高リスクソフトウェア」に分類し、代わりに自社製の「Qoder」を使うよう指示している。発端は、Claude Codeの一部バージョンに中国人ユーザーを密かに識別する機能が含まれていたことで、Anthropicは不正利用対策の一環だったと説明した。Anthropicは中国企業によるClaudeモデル利用を既に禁じており、抜け穴を塞ぐ取り組みを続けている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "ザッカーバーグ氏、AIエージェントの進化は期待ほど速くなかったと社内で認める",
+      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+      "summary": "Meta CEOのマーク・ザッカーバーグ氏は社内タウンホールで、AIエージェントの開発が想定していたペースで「加速していない」と認めた。同社は2026年に入りAI戦略強化のため約8,000人を解雇し7,000人をAI関連部門へ再配置するなど大規模な組織再編を行ったが、その成果はまだ表れていないと述べた。ザッカーバーグ氏は今後3〜6か月で改善が見られるとの見通しを示した。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、米政府への5%株式寄付を提案 政治的軋轢の緩和狙う",
+      "url": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "summary": "OpenAIのサム・アルトマンCEOは、同社株式の5%をアラスカ永久基金型の米国主権基金へ寄付する案を提示し、他の主要AI企業にも同様の拠出を促した。狙いは政権との関係改善と、AIブームに対する政治的反発の緩和にあるとFinancial Timesが報じている。実現には議会の承認が必要となる見通しで、議論はまだ初期段階にある。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OSSメンテナが100時間かけ依存関係からAI生成コードを排除",
+      "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
+      "summary": "git-annexのメンテナーであるJoey Hess氏は、依存ライブラリからAI（LLM）生成コードを排除するため約1か月・100時間を費やしたと報告した。品質や著作権上の懸念から依存関係を監査した結果、説明なく次リリースで取り消された大規模なLLM生成の変更や、1万行規模の変更を含む異例のコミットなどが見つかったという。同氏は他の開発者に対し、安易にAI生成コードを取り込む前に影響を考えるよう呼びかけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "AIチャットボットとの対話で党派間の敵意が減少、ただし効果は1週間で消失",
+      "url": "https://arxiv.org/pdf/2607.02181v1",
+      "summary": "新しい研究により、対立する政治的立場を提示するAIチャットボットとの会話が党派間の敵対感情を軽減することが示された。約4,000人の参加者を対象にした複数の実験で、会話後に相手陣営への敵意が測定可能なレベルで低下したが、その効果はおおむね1週間以内に薄れることも分かった。この研究は、AIを介した「疑似接触」が伝統的な接触理論に基づく分断緩和策の代替となり得るかを検証するもの。",
+      "category": "research"
+    }
+  ],
+  "slug": "2026-07-05-news"
+}

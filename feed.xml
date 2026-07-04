@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-03T00:00:00+09:00</updated>
+  <updated>2026-07-05T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月5日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-05-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-05-news.html</id>
+    <updated>2026-07-05T00:00:00+09:00</updated>
+    <summary>OpenAIが米政府への株式寄付を提案するなど、AI企業と政権の関係が焦点に / Alibabaがセキュリティ上の懸念からClaude Codeの社内利用を禁止、米中のAIを巡る緊張が表面化 / Metaはエージェント開発の遅れを社内で認める一方、AI生成コードの品質・著作権リスクも議論に</summary>
+  </entry>
   <entry>
     <title>2026年7月3日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-18-news.html</id>
     <updated>2026-06-18T00:00:00+09:00</updated>
     <summary>SpaceXがAIコーディングスタートアップCursorを600億ドルで買収する計画を正式発表 / GoogleがGemini搭載スマートスピーカー「Google Home Speaker」を99.99ドルで発表 / Anthropicが炭素除去コンソーシアムFrontierに参加した初のAIスタートアップに / ワールドモデルAIスタートアップOdysseyがAmazonら支援のもとシリーズBで3.1億ドル調達 / Pew調査：AIの社会的影響をポジティブに捉えるアメリカ人はわずか16%</summary>
-  </entry>
-  <entry>
-    <title>2026年6月18日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-18.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-18.html</id>
-    <updated>2026-06-18T00:00:00+09:00</updated>
-    <summary>11のLLMをバトルロワイアルに投入した実験でGrok 4.1 FastがClaude Sonnet 4.6の27倍コスト効率で勝利し、ベンチマークと実運用能力の乖離が話題に / VRAM 12GBのRTX 4070でQwen 35B（MoEモデル）を`--cpu-moe`フラグだけで3倍高速化する逆転の知見 / AI駆動開発のセキュリティをslopsquatting・プロンプトインジェクションなど最新リスク含め3段階で整理した実践ガイド / Claude Codeのサブエージェント並列ループ・TDDフレームワークで10人月の開発を2週間に短縮した事例のハンズオン / 自己改善エージェントが…</summary>
   </entry>
 </feed>
