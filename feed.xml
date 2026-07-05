@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-05T00:00:00+09:00</updated>
+  <updated>2026-07-06T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月6日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-06-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-06-news.html</id>
+    <updated>2026-07-06T00:00:00+09:00</updated>
+    <summary>AI関連の大型資金調達が相次ぐ：Together AIが83億ドル評価額で8億ドル、TwelveLabsが1億ドル、動画生成AIのKling AIがアリババ・テンセント・百度から28億ドルを調達 / マイクロソフトが企業向けAI導入を専門とする新会社「Frontier Company」を25億ドル規模で設立 / 設定不備のAIサーバーが乗っ取られ攻撃自動化に悪用される事例が報告され、AIインフラのセキュリティ対策の重要性が改めて浮き彫りに</summary>
+  </entry>
   <entry>
     <title>2026年7月5日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-05-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-19.html</id>
     <updated>2026-06-19T00:00:00+09:00</updated>
     <summary>Transformer共同発明者のNoam Shazeer氏がGoogleを離れOpenAIへ移籍を表明し、業界に衝撃が走った / Claude Codeを中心とした並列ループエージェントやプラグイン活用の実践例がZenn・Qiitaで複数公開された / AWS Summit New York 2026でAIセキュリティ・自律エージェント系の大型発表が相次ぎ、Bedrockフルマネージド化も進展 / 自己改善エージェントの局所最適問題を研究・実務の両面から整理した記事が注目を集めた / CloudflareのV8 Isolateアーキテクチャがエージェント1対1モデルに最適と主張する技術記事…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月18日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-18-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-18-news.html</id>
-    <updated>2026-06-18T00:00:00+09:00</updated>
-    <summary>SpaceXがAIコーディングスタートアップCursorを600億ドルで買収する計画を正式発表 / GoogleがGemini搭載スマートスピーカー「Google Home Speaker」を99.99ドルで発表 / Anthropicが炭素除去コンソーシアムFrontierに参加した初のAIスタートアップに / ワールドモデルAIスタートアップOdysseyがAmazonら支援のもとシリーズBで3.1億ドル調達 / Pew調査：AIの社会的影響をポジティブに捉えるアメリカ人はわずか16%</summary>
   </entry>
 </feed>

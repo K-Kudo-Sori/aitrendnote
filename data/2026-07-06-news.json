@@ -1,0 +1,47 @@
+{
+  "date": "2026-07-06",
+  "generatedAt": "2026/7/6 8:07:55",
+  "highlights": [
+    "AI関連の大型資金調達が相次ぐ：Together AIが83億ドル評価額で8億ドル、TwelveLabsが1億ドル、動画生成AIのKling AIがアリババ・テンセント・百度から28億ドルを調達",
+    "マイクロソフトが企業向けAI導入を専門とする新会社「Frontier Company」を25億ドル規模で設立",
+    "設定不備のAIサーバーが乗っ取られ攻撃自動化に悪用される事例が報告され、AIインフラのセキュリティ対策の重要性が改めて浮き彫りに"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Together AI、83億ドル評価額で8億ドルのシリーズCを調達",
+      "url": "https://www.businesswire.com/news/home/20260701243402/en/Together-AI-Raises-$800-Million-at-$8.3-Billion-Valuation-to-Make-Frontier-AI-Accessible-to-All",
+      "summary": "オープンソースAIモデルの推論基盤を提供するTogether AIが、Aramco Venturesを主導とするシリーズCで8億ドルを調達し、評価額は83億ドルとなった。調達資金は製品拡充と計算インフラの増強に充てられ、今後5年でインフラ規模を約50倍に拡大する計画。同社の年間契約額（ARR）は直近四半期で11.5億ドルを突破している。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "TwelveLabs、動画理解AIの開発に向け1億ドルのシリーズB資金調達",
+      "url": "https://www.globenewswire.com/news-release/2026/07/01/3320545/0/en/twelvelabs-raises-100-million-in-series-b-funding-to-build-video-superintelligence.html",
+      "summary": "動画インテリジェンス企業のTwelveLabsが、NEAとNAVER Venturesが主導し、Amazonも参加するシリーズBで1億ドルを調達した。同社は動画の意味理解モデル「Marengo」と、構造化データへの変換・推論を担う「Pegasus」を組み合わせ、動画生成ではなく動画理解に特化したエージェント型AIシステムを構築している。今回の調達でAmazon Web Servicesを優先クラウドとする提携も強化した。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "動画生成AI「Kling AI」、アリババ・テンセント・百度から28億ドルを調達",
+      "url": "https://techstartups.com/2026/07/03/kling-ai-raises-2-8b-at-15b-valuation-with-backing-from-alibaba-tencent-and-baidu/",
+      "summary": "快手（Kuaishou）傘下の動画生成AIプラットフォーム「Kling AI」が、アリババ・テンセント・百度が主導する資金調達ラウンドで28億ドルを調達した。ラウンド前評価額は約150億ドルで、快手の持ち株比率は約68%に低下する見込み。Kling AIは直近四半期の売上が前年同期比4倍以上に伸びるなど、商用面でも急成長している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "マイクロソフト、25億ドル規模の企業向けAI導入新会社「Frontier Company」を設立",
+      "url": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "summary": "マイクロソフトは、企業へのAI導入支援に特化した新事業部門「Microsoft Frontier Company」の設立を発表した。25億ドルの投資と、6,000人規模のエンジニア・業界専門家体制で構成される。ロンドン証券取引所グループやユニリーバなど大手企業との先行パートナーシップも既に始まっている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "設定不備のAIサーバーが乗っ取られ、攻撃自動化フレームワークに悪用",
+      "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+      "summary": "セキュリティ研究者が、設定不備のOllamaモデルサーバーが攻撃者に乗っ取られ、脆弱性スキャンからPoCエクスプロイト作成、侵入試行までを自動化する「VAPTフレームワーク」として悪用された事例を報告した。認証情報を盗んでAI計算資源を不正利用する「LLMjacking」が、単なる転売から能動的な攻撃パイプラインへと進化している点が指摘されている。露出したAIインフラのアクセス制御強化が改めて課題として挙げられた。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-07-06-news"
+}
