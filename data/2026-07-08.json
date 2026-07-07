@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-08",
+  "generatedAt": "2026/7/8 7:11:37",
+  "highlights": [
+    "Anthropicの公式セキュリティ監査プラグイン「security-guidance」やAIコード生成特有の脅威（slopsquatting等）が話題に。",
+    "Claude Code / Fable 5を使った開発環境構築（dev container、Proxmox+LXC、ローカルLLM連携）の実践記事が多数。",
+    "マルチエージェントシステム（Google ADK/A2A、New Relic MCP連携）とAIエージェントの決済・業務再設計（x402, AI-BPR）が進展。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Chat Control 1.0 and 2.0 Explained",
+      "url": "https://fightchatcontrol.eu/chat-control-overview",
+      "summary": "EUで並行して審議されている「Chat Control」規制の1.0と2.0を整理した解説記事。1.0は既存メッセージを任意でスキャンできる一時的な法的根拠で2026年4月に失効し復活が試みられている。2.0はCSA規制として恒久的なスキャン義務化を目指す提案で、私的通信のスキャン範囲や暗号化メッセージの扱いを巡り欧州議会と理事会の交渉が5回続けて決裂している。記事は両規制の経緯と現在の交渉状況を時系列で詳しくまとめている。",
+      "category": "security",
+      "points": 333,
+      "comments": 106,
+      "author": "gasull"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Davit, a Apple Containers UI",
+      "url": "https://davit.app",
+      "summary": "Apple SiliconのApple container基盤向けにDocker Desktop不要でLinuxコンテナを操作できるネイティブmacOSアプリ「Davit」の紹介。SwiftUI製でXPC経由でApple純正のcontainerデーモンと直接通信し、コンテナの起動・停止、ログのストリーミング、イメージやボリューム管理をGUIで行える。Apple Virtualization Frameworkにより各コンテナが軽量VMとして分離され、Docker Hubなど既存のOCIレジストリともそのまま連携できる。無料・オープンソース（MITライセンス）で配布されている。",
+      "category": "devtool",
+      "points": 104,
+      "comments": 15,
+      "author": "xinit"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI Meets Cryptography 1: What AI Found in Cloudflare's Circl",
+      "url": "https://blog.zksecurity.xyz/posts/circl-bugs/",
+      "summary": "zkSecurityがAI監査エージェント「zkao」をCloudflareの実験的暗号ライブラリCIRCLに適用し、しきい値RSAでの浮動小数点精度損失や属性ベース暗号のアクセス制御破綻など7件の実バグを発見・修正させた事例を報告するシリーズ第1弾。AIの候補所見はそのままでは信頼できず、人間による脆弱性の検証やPoCの絞り込みが依然として不可欠である点を強調している。AIが自己申告する深刻度とCloudflare側が実際に判定した深刻度には大きなズレがあり、AIの重大度評価には注意が必要だと指摘する。今後もオープンソース暗号ライブラリを対象にした発見をシリーズで公開していく予定。",
+      "category": "security",
+      "points": 56,
+      "comments": 7,
+      "author": "duha"
+    },
+    {
+      "source": "hackernews",
+      "title": "30papers.com – Ilya's 30 essential ML papers, in a beginner friendly format",
+      "url": "https://30papers.com/",
+      "summary": "Ilya SutskeverがJohn Carmackに渡したとされる「機械学習の必読30論文」リストを、初心者向けに解説付きでまとめたウェブサイトの紹介。現時点では27本の論文が収録されており、AlexNetやResNet、LSTM解説、Deep Speech 2など深層学習史における基礎的な論文が並ぶ。各論文には数行の平易な要約が添えられており、名前だけは知っているが読んだことのない古典に触れる入口として設計されている。完全なリストを知る人からの情報提供も呼びかけている。",
+      "category": "research",
+      "points": 271,
+      "comments": 46,
+      "author": "notmcrowley"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Rowboat – Open-source, local-first alternative to Claude Desktop",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "summary": "本文取得失敗（GitHubへのアクセスがこのセッションで許可されていないというエラーが返され、記事本文を取得できなかった）。タイトルからは、Claude Desktopに代わるオープンソースかつローカルファーストのツール「Rowboat」の紹介記事と推測される。",
+      "category": "devtool",
+      "points": 49,
+      "comments": 13,
+      "author": "segmenta"
+    },
+    {
+      "source": "zenn",
+      "title": "AIエージェントの決済履歴は「戦略ログ」になる ─ 誰が誰に払ったかを隠す private x402 \"SubEtha\"を作った",
+      "url": "https://zenn.dev/peaceandwhisky/articles/6f0b8b672a6f78",
+      "summary": "AIエージェントがAPI利用のたびにその場で支払うx402プロトコルは、決済がオンチェーンで公開されるため「誰が誰にいくら払ったか」がエージェントの行動ログやproviderの売上ログとして誰でも閲覧できてしまう問題があると指摘。筆者はx402の支払いフロー自体は変えず、決済処理だけをプライバシートークンzERC20に置き換えたPoC「SubEtha」を開発した。支払いごとに使い捨てのburnアドレスへ送金し、受け取り側はゼロ知識証明を使って送金元を明かさないままtreasuryへ資金をmintすることで、オンチェーンには互いに結びつかない送金と受取だけが残る仕組みになっている。ZK証明に時間がかかる問題は、burnの成功確認時点でリソースを提供するaccepted状態を設けることで実用性を確保している。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code「Fable 5」にローカルLLM用シェル支援CLIを作らせたら、コードより仕事の進め方に驚かされた",
+      "url": "https://zenn.dev/gys/articles/fable5-local-llm-ask-cli",
+      "summary": "Claude Codeの新モデル「Fable 5」に、ローカルLLM向けの自然言語シェル支援CLI「ask」を作らせた際の実装ログを再構成した記事。完成物自体は日本語の質問をローカルOllama LLMに投げてシェルコマンドを返すだけの小さなツールだが、著者が驚いたのはFable 5の仕事の進め方だったという。Fable 5は最初に「Claude Code経由でローカルLLMを使う」という前提そのものを疑い、巨大なシステムプロンプトが小型ローカルモデルには不利になる可能性を指摘した上で、既存の評価基盤や実機環境を並列に調査し、モデル選定を評価器で行うなど、実装より先に仕事の分割と検証設計を行った。未検証部分を明記する姿勢や、失敗の原因を切り分ける実験を自ら設計する点も含め、コードの完成度よりAIエージェントとしての仕事の進め方に価値を感じたと結論づけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに8割書かせたコード、半年運用の答え合わせ。効いた3つと、腐った3つ",
+      "url": "https://zenn.dev/rapls/articles/7a1bac83df8b21",
+      "summary": "「AIにコードの8割を書かせて半年運用した」結果を振り返り、保守性向上のために足した施策のうち何が効いて何が腐ったかを検証した記事。AIに大量に書かせたコメントやdocstring、早すぎる共通化・抽象化、「わかりやすく書いて」という曖昧な丸投げの3つは半年後には陳腐化・癒着し、いずれも逆効果だったと結論づけている。一方で効いたのは「なぜ」だけをコメントに残す、1関数の責任を小さく割り直す、仕様とテストは人間が握る、という削る方向の3施策だけだったという。総括として保守性は機能や説明を足すことでは買えず、意識して引くことが重要だと述べている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "AI Agentに自由な開発環境を渡す、Proxmox+LXCで。",
+      "url": "https://zenn.dev/uzulla/articles/91272997a7c668",
+      "summary": "AIコーディングエージェントに自由に作業させるための使い捨て開発環境を、Proxmox上のLXCコンテナで構築する方法を紹介する記事。完全仮想化ではなく軽量なLXCを採用することで、起動が速くディスクも差分のみ消費し、エージェントから見ると専用の1台のマシンのように振る舞わせられる点を利点として挙げている。Debianテンプレートを作成し、pct cloneでコンテナを量産する運用と、クローン起動時のSSHホスト鍵再生成の罠への対処法を具体的に説明している。IPが動的に割り当てられる問題への対処として、Proxmoxを踏み台（Bastion）にしたSSH接続構成も紹介している。",
+      "category": "infra"
+    },
+    {
+      "source": "zenn",
+      "title": "複数リポジトリを単一のdev containerで開発する Claude Code 環境を構築する",
+      "url": "https://zenn.dev/finatext/articles/whole-dev-container",
+      "summary": "Finatextが、複数リポジトリを横断して開発するClaude Code環境を、リポジトリごとではなく単一の常駐dev containerで構築した事例を紹介する記事。サプライチェーン攻撃対策としてClaude Codeをホストから隔離しつつ、Docker-in-DockerでDockerデーモンをコンテナ内部に閉じ込め、ホストのdocker.sockには触れさせない設計を採用している。Claude Codeの認証・設定はnamed volumeで永続化し、AWSやGitHubの一時認証だけを起動時に注入する構成で、信頼範囲を作業中のリポジトリに限定する工夫も盛り込んでいる。devcontainer.jsonのfeatureを使うことで、Docker-in-DockerやAWS CLI、GitHub CLIなどの環境構築を簡潔に実現している。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Introducing Our Next DEV Education Track: \"Build Multi-Agent Systems with ADK\" Jess Lee for The DEV Team ・ Feb 17 #agents #gemini #ai #buildmultiagents",
+      "url": "https://dev.to/devteam/introducing-our-next-dev-education-track-build-multi-agent-systems-with-adk-4bg8?bb=261442",
+      "summary": "DEV CommunityとGoogle AIが共同で提供する教育トラック「Build Multi-Agent Systems with ADK」の紹介記事。GoogleのAgent Development Kit（ADK）とAgent2Agent（A2A）プロトコル、Cloud Runを使い、単一の巨大プロンプトではなく役割分担されたエージェント群として分散マルチエージェントシステムを構築する方法を学べる。チュートリアル受講、Cloud Run上への自作マルチエージェントシステムの実装、成果物の共有という3部構成になっており、完了者には専用バッジが授与される。メール下書き作成やギフト案生成などのアプリ例も提示されている。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "Being an engineer in the AI era",
+      "url": "https://dev.to/ale3oula/being-an-engineer-in-the-ai-era-277p",
+      "summary": "AIがコーディングを高速化する一方で、それが本当に「進歩」なのかを問い直すエッセイ。著者はAIネイティブを掲げる職場で働いた経験から、あらゆる問題や製品にAIを当てはめようとする風潮に懸念を示し、ホスピタリティ業のように人間的なつながりが本質的な領域ではAIが最適解ではないと述べる。デバッグや議論、失敗から学ぶといった「面倒な部分」こそがエンジニアとしての直感を育てるとし、AIに探索や設計判断まで委ねてしまうとチームの集合知が失われる危険性を指摘している。AIは既存の知識を増幅するものであり、エンジニアリングの判断力を魔法のように生み出すわけではないと結論づける。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "productivity",
+        "softwareengineering"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "you stopped reading the docs. now you don't understand the systems.",
+      "url": "https://dev.to/dannwaneri/you-stopped-reading-the-docs-now-you-dont-understand-the-systems-go1",
+      "summary": "ドキュメントを読み込んで理解する代わりに、AIにコードを生成させるだけになった結果、システムへの理解が失われつつあるという警鐘を鳴らすエッセイ。著者は大学の計算機科学教育を受けず、ドキュメントやソースコード、GitHub issueを読み込むことで独学で技術を身につけた経験を振り返り、理解を伴わないまま得た「結論」は本番環境の想定外のエッジケースで破綻すると指摘する。RAGシステム構築の経験を例に、API表面だけでなく仕組みの中身まで理解して初めて障害対応時に頼れるメンタルモデルになると述べている。コードレビューやアーキテクチャ設計、デバッグの場面で、ドキュメントを読んできた人とそうでない人の実力差が如実に表れるとまとめている。",
+      "category": "other",
+      "tags": [
+        "ai",
+        "beginners",
+        "productivity",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Master Local Fine-Tuning with \"gemma-trainer\"",
+      "url": "https://dev.to/googleai/master-local-fine-tuning-with-gemma-trainer-3ipp",
+      "summary": "Google AIが、Gemmaモデルをローカルハードウェアでファインチューニングするための新しいエージェント向けスキル「gemma-trainer」を紹介する記事。Unslothを用いた単一GPUでの高速・省メモリな学習に対応し、新知識を教える教師ありファインチューニング（SFT）、選好に合わせるDPO、応答を評価するリワードモデリング（RM）の3手法をガイドする。画像・音声を含むマルチモーダル学習にも対応し、学習後のモデルをGGUFなど軽量形式に変換してモバイルやIoT機器でも実行できる。エージェントにデータ検証からLoRA設定選択、学習実行、評価まで任せられる実用例も紹介されている。",
+      "category": "model",
+      "tags": [
+        "gemma",
+        "finetuning",
+        "ai",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Omni Flash Preview with Claude Code",
+      "url": "https://dev.to/gde/omni-flash-preview-with-claude-code-53a5",
+      "summary": "Googleのマルチモーダル動画生成モデル「Gemini Omni Flash Preview」を、Claude Code CLIからMCP経由で呼び出すためのセットアップ手順を解説する記事。以前公開したAntigravity CLI向け記事の構成を踏襲し、Python製MCPサーバーをClaude Codeで動かす基本的な検証として、シンプルなstdioプロトコルのMCPコマンドから確認していく流れを示している。GoogleのInteractions APIを使うことで、テキストチャットやツール利用、画像生成などバラバラだったエンドポイントを単一のAPIで扱える点を強調している。GitHubのサンプルリポジトリをクローンして環境構築する手順も紹介されている。",
+      "category": "agent",
+      "tags": [
+        "cli",
+        "googleomni",
+        "mcps",
+        "python"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code の無料セキュリティ監査プラグインで脆弱性を自動検出・修正してみる",
+      "url": "https://qiita.com/nogataka/items/4d2a551f89f6b4f94b01",
+      "summary": "Anthropicが2026年5月に公開したClaude Code向け公式プラグイン「security-guidance」を紹介する記事。ファイル編集時・ターン終了時・コミットやpush時の3層で脆弱性を検出し、検出内容をそのままAIに修正させる仕組みが特徴で、導入によりプルリクエストのセキュリティ系コメントが3〜4割減ったというAnthropic発の数字も紹介されている。AIが大量に生成するコードは人間が書かないパターンの誤りを含みやすく、もっともらしい依存追加や存在しないパッケージ名を提案する「slopsquatting」など、従来と質の異なる脅威が生まれている点を整理している。一方で「AIが書いてAIが直す」ループ自体は監査対象として残るため、SnykやCodeQLなど既存のSASTツールとの併用が現実的だとまとめている。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "AI",
+        "脆弱性診断",
+        "DevSecOps",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "売上は DB、ログは S3、契約書は SharePoint、バラバラなデータを AI で使う方法を調べてみてみた",
+      "url": "https://qiita.com/shirok/items/0e42854634b2c5a371fa",
+      "summary": "売上はデータベース、ログはオブジェクトストレージ、契約書はSharePointというように散在するデータをAIで活用する方法を、Oracle Autonomous AI Lakehouseを軸に整理した記事。Data WarehouseとBig Data、Data Lakeの歴史的経緯を振り返った上で、両者の利点を組み合わせるLakehouseの考え方を説明し、SharePoint上のWord/PDFからPL/SQLでベクトルインデックスを作りRAG化する例など、Oracle AI Databaseを中心にIcebergや外部データベースとの連携を具体的に紹介している。構造化・半構造化・非構造化データの分類と、Bronze/Silver/Gold＋AI-readyというデータ成熟度レイヤーの整理も行っている。マルチクラウドをまたいでデータをつなぐ基盤としての位置づけを強調して締めくくっている。",
+      "category": "infra",
+      "tags": [
+        "S3",
+        "oracle",
+        "SharePoint",
+        "Databricks",
+        "Lakehouse"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "New Relic MCPの回答精度を向上させるプロファイルのご紹介",
+      "url": "https://qiita.com/seamoooooo/items/e458d2a7969e8c92d9ba",
+      "summary": "AI IDE「Kiro」とNew Relic MCPを連携させる公式プラグイン「newrelic-kiro-power」と、回答精度を高める「steering」プロファイルを紹介する記事。この連携により、IDE内から自然言語でNRQLを実行したり、編集中のコードと本番のパフォーマンスデータを紐づけて原因特定したりできるようになる。steeringディレクトリの内容はClaude CodeのCLAUDE.mdのような役割を果たすため、著者は自身のデモ環境のCLAUDE.mdからこのプロファイルを参照させる形で導入し、SRE的な振る舞いのルールをAIエージェントに与える手法を紹介している。他のAI IDEや自社エージェントへの応用可能性にも触れている。",
+      "category": "agent",
+      "tags": [
+        "NewRelic",
+        "初心者",
+        "AI",
+        "MCP",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI-BPRで業務そのものを再設計する",
+      "url": "https://qiita.com/licux/items/25e87077b6ef29162a93",
+      "summary": "AWSのML Developer Relations担当者の呼びかけで実施した「AI-BPR」（AIエージェントを前提に業務プロセスを再設計する取り組み）のドライラン体験をまとめた記事。Observe（業務フローの可視化）、Shift（人とAIエージェントの役割再設計）、Simulate（To-Beフローの検証改善）、Forecast（実行計画への落とし込み）という4段階のプロセスを、仮想の問い合わせ対応シナリオを使って一通り実践している。ドライランでは、ペルソナとAIとの対話を通じて強み・価値・課題を洗い出し、月15時間から7.5時間へと業務時間を半減させるTo-Beフローを設計するなど、具体的な改善効果も試算されている。",
+      "category": "product",
+      "tags": [
+        "AWS",
+        "BPR",
+        "AIエージェント",
+        "AI活用",
+        "AgentSkills"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【AgentCore】Runtime をパブリックにデプロイしたけど、勝手にアクセスされない？",
+      "url": "https://qiita.com/ryu-ki/items/2cd37256824b54022bdb",
+      "summary": "Amazon Bedrock AgentCore RuntimeをパブリックにデプロイしてもURLを知るだけでは不正利用されない理由を検証した記事。RuntimeのエンドポイントはIAM SigV4署名またはJWTベアラートークンによる認証、呼び出し側のIAMポリシーによる認可、Runtime側のリソースベースポリシーという3層で保護されている。実際に認証ヘッダーなし、および適当なBearerトークンでアクセスを試みるといずれも403 Forbiddenで拒否されることを確認し、正規のAWS認証情報を使ったboto3経由の呼び出しのみが成功する様子を実演している。署名や認証方式が一致しない限りエージェントのコードは一切実行されない設計になっていると結論づけている。",
+      "category": "infra",
+      "tags": [
+        "AWS",
+        "Security",
+        "bedrock",
+        "AgentCore"
+      ]
+    }
+  ]
+}
