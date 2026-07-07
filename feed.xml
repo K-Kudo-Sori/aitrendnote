@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-08T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月8日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-08-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-08-news.html</id>
+    <updated>2026-07-08T00:00:00+09:00</updated>
+    <summary>MicrosoftがOpenAI/Anthropic依存を減らし自社MAIモデルへ切り替え、AIコストの抑制に動いた / Anthropicの汎用エージェント「Claude Cowork」がモバイル・Webに対応し複数デバイスで作業継続が可能に / Tencentが295B規模のオープンMoEモデル「Hy3」をApache 2.0で公開、GLM-5.1超えの性能を主張 / Google DeepMindはGemini 3.5 Proのリリースを7月17日に延期し、アーキテクチャを全面刷新 / AIネイティブ法律事務所Normが1.2億ドルを調達しユニコーン入り / 元ホワイトハウスAI顧問D…</summary>
+  </entry>
+  <entry>
     <title>2026年7月8日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-08.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-08.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-20.html</id>
     <updated>2026-06-20T00:00:00+09:00</updated>
     <summary>ヒュンダイがBoston Dynamicsを完全子会社化、ヒューマノイドロボットの商業化が本格化 / Zennでself-improvementスキルによるClaude Codeのセッション横断学習が注目を集める / AWS Summit New York 2026でBedrock AgentCoreなどAIエージェント基盤の強化が多数発表 / Claude Code新機能ArtifactsでAI生成HTMLドキュメントの共有が容易に / 自己改善エージェントの局所最適問題と、ハーネス設計による脱出戦略を解説</summary>
-  </entry>
-  <entry>
-    <title>2026年6月19日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-19-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-19-news.html</id>
-    <updated>2026-06-19T00:00:00+09:00</updated>
-    <summary>SpaceXがIPO直後にAIコーディングツールCursorを600億ドルで買収すると発表 / G7サミットで各国首脳がアメリカへのAI依存と遮断リスクを公式に懸念 / AnthropicのAmodei氏・Google DeepMindのHassabis氏がG7でAI多国間協調を訴え / ワールドモデルAIスタートアップOdysseyがAmazon等から3億1000万ドルを調達 / DatabricksがマルチエージェントメタハーネスOmnigentをApache 2.0でOSS公開</summary>
   </entry>
 </feed>

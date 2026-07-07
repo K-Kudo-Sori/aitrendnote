@@ -1,0 +1,57 @@
+{
+  "date": "2026-07-08",
+  "generatedAt": "2026/7/8 8:06:59",
+  "highlights": [
+    "MicrosoftがOpenAI/Anthropic依存を減らし自社MAIモデルへ切り替え、AIコストの抑制に動いた",
+    "Anthropicの汎用エージェント「Claude Cowork」がモバイル・Webに対応し複数デバイスで作業継続が可能に",
+    "Tencentが295B規模のオープンMoEモデル「Hy3」をApache 2.0で公開、GLM-5.1超えの性能を主張",
+    "Google DeepMindはGemini 3.5 Proのリリースを7月17日に延期し、アーキテクチャを全面刷新",
+    "AIネイティブ法律事務所Normが1.2億ドルを調達しユニコーン入り",
+    "元ホワイトハウスAI顧問Dean BallがOpenAIの新設「Strategic Futures」チームを率いる"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "マイクロソフト、自社モデルへの依存強化でAIコスト削減トレンドに参加",
+      "url": "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/",
+      "summary": "Microsoftは、ExcelやWordでのユーザープロンプト対応の一部をOpenAIやAnthropicのモデルから自社開発のMAIモデルへ切り替え、コスト削減を進めていると報じられた。6月のBuildカンファレンスでは7つの新しいMAIモデルを発表済み。Amazon、Uber、Meta、Accentureなど業界全体でAIサービス支出を抑制する動きが広がっている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Claude Coworkがモバイル・Webに対応拡大",
+      "url": "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/",
+      "summary": "Anthropicの汎用知識作業向けAIエージェント「Claude Cowork」が、2026年7月7日からMax購読者向けにWebとモバイルでも利用可能になった。デスクで始めたタスクをスマートフォンで進捗確認し、ノートPCを閉じてもバックグラウンドで作業を継続できる。同社の約120万セッション分析では、最大の用途はレポート作成などのビジネスプロセス処理だった。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Tencent、295BのオープンMoEモデル「Hy3」をApache 2.0で公開",
+      "url": "https://winbuzzer.com/2026/07/06/tencent-releases-hy3-a-smaller-model-approaching-larger-flagship-performance-xcxwbn/",
+      "summary": "Tencentは2026年7月6日、総パラメータ295B・活性化21BのMixture-of-Expertsモデル「Hy3」をApache 2.0ライセンスで公開した。256Kトークンのコンテキストウィンドウを備え、エージェントタスク・コーディング・推論において744B規模のGLM-5.1を上回る性能を主張している。Tencent CloudやHugging Faceなど複数プラットフォームで利用可能。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Gemini 3.5 Proのリリースを7月17日に延期し設計を全面刷新",
+      "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+      "summary": "Google DeepMindは既存のGemini 2.5 Proアーキテクチャを廃し、ゼロからの再設計を行うため、次期モデル「Gemini 3.5 Pro」のリリースを7月17日に延期したと報じられた。数学的推論・SVG生成・画像品質の向上を狙い、200万トークンのコンテキストウィンドウと「Deep Think Reasoning Layer」を搭載する予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AI法律スタートアップNorm、1.2億ドル調達でユニコーンに",
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+      "summary": "AIネイティブ法律事務所を運営するNormは、Khosla Venturesを筆頭にシリーズCで1.2億ドルを調達し、評価額12億ドルのユニコーン企業となった。自社開発のAIエージェントと人間弁護士を組み合わせ、時間課金制ではなく成果報酬型で企業向け法務サービスを提供している。これまでの累計調達額は2.6億ドル超。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "元ホワイトハウス顧問Dean Ball、OpenAIの新設「Strategic Futures」チームを率いる",
+      "url": "https://letsdatascience.com/news/openai-hires-dean-ball-for-strategic-futures-f7c6499b",
+      "summary": "OpenAIは、ホワイトハウスの「AI Action Plan」の主要執筆者だったDean Ball氏を2026年7月6日付で新設ユニット「Strategic Futures」の責任者として迎えたと発表された。最高戦略責任者Jason Kwon氏の直下で、破滅的リスクや労働市場への影響など公開向けの政策提言とラボ内ガバナンスの両方を担う。同週にはTransformer共同発明者のNoam Shazeer氏も入社しており、IPOを控えた人材確保の一環とみられる。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-07-08-news"
+}
