@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-09",
+  "generatedAt": "2026/7/9 8:07:00",
+  "highlights": [
+    "xAI（SpaceXAI）がGrok 4.5を発表、Opus級性能を低コストで実現",
+    "Googleの電子透かしSynthIDが政治家の偽画像を暴く事例が発生",
+    "Prime IntellectがシリーズAで1.3億ドルを調達、評価額10億ドルに",
+    "AnthropicなどAIスタートアップの収益成長が加速",
+    "Google DeepMindがGemini 3.5 Proの発表を7月17日に延期しアーキテクチャを刷新"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "SpaceXAI releases Grok 4.5, which Elon describes as an 'Opus-class model'",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "summary": "xAI（SpaceXAI）が新モデル「Grok 4.5」を発表した。イーロン・マスク氏は「Opus級の能力を持ちながら、より高速・高効率・低コスト」と説明している。価格は入力100万トークンあたり2ドル、出力100万トークンあたり6ドルで、Anthropicの Opus 4.7（入力5ドル、出力25ドル）より大幅に安い。コーディング、事務作業、リサーチ、ライティングなど幅広い用途を想定している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google Delays Gemini 3.5 Pro Launch to July 17 for Full Architectural Rebuild",
+      "url": "https://finance.biggo.com/news/6f0c6bb2-795f-4c57-9d09-6db691d7638a",
+      "summary": "Google DeepMindはGemini 3.5 Proの発表を7月17日に延期すると発表した。既存のGemini 2.5 Proアーキテクチャを刷新し、200万トークンのコンテキストウィンドウや「Deep Think Reasoning Layer」による推論強化、SVG生成・3Dモデリングの改善を盛り込む。背景にはOpenAIのGPT-5.6やAnthropicの新モデルとの競争激化がある。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google's deepfake detector system used to debunk McConnell hoax pic",
+      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
+      "summary": "ケンタッキー州選出のミッチ・マコーネル上院議員が病床にいるように見える画像がSNSで拡散したが、事実検証サイトSnopesの調査でGoogleの電子透かし技術「SynthID」により生成AI画像と判明した。SynthIDはスクリーンショットなど画像が加工・転載されても署名が残る点が特徴だが、対応は参加企業のツールに限られ、Anthropicなどは未参加。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "summary": "企業向けにAIエージェント開発基盤を提供するPrime Intellectが、Radical Ventures主導でシリーズAとして1.3億ドルを調達し、評価額は10億ドルとなった。Nvidia VenturesやIntel Capital、Dell Technologies Capitalも参加。計算リソース・強化学習フレームワーク・評価ツールを含むフルスタック基盤を展開し、RampやZapierなどを顧客に持つ。年間経常収益は1億ドルに到達した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "These AI startups are growing revenue at faster and faster rates",
+      "url": "https://techcrunch.com/2026/07/08/these-ai-startups-are-growing-revenue-at-faster-and-faster-rates/",
+      "summary": "AnthropicやMercor、Sierra、Glean、Clioなど複数のAIスタートアップが記録的な速さで収益を伸ばしていると報じられた。Anthropicは2025年7月の年間経常収益40億ドルから2026年5月に470億ドルへ急増。Mercorは4ヶ月で20億ドルに到達するなど、AI活用企業の成長ペースが従来の常識を大きく上回っている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Visual Studio Code 1.128",
+      "url": "https://code.visualstudio.com/updates/v1_128",
+      "summary": "Microsoftが「Visual Studio Code 1.128」をリリースした。Claudeエージェントセッションで複数の関連チャットをまとめて比較・並行実行できる「マルチチャット」機能や、画像・PDFをチャットに添付できる「Copilot Vision」の一般提供開始が目玉。ワークスペースを開かずに質問できるクイックチャットや、OSレベルのキーボードショートカットも追加された。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-07-09-news"
+}
