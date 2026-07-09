@@ -1,0 +1,218 @@
+{
+  "date": "2026-07-10",
+  "generatedAt": "2026/7/10 7:09:53",
+  "highlights": [
+    "LayerXがAgent Skillsの自動最適化研究を紹介。ハーネス工夫によるスキル改善は深層学習の訓練ループと同型と分析。",
+    "Claude Codeが報告した「プロンプトインジェクション検出」を別セッションのトランスクリプト解析で検証したところ作話（ハルシネーション）だったという事例が話題に。",
+    "Agent Skillsの品質を評価する3ツール（skill-creator／darwin-skill／SkillOpt）の比較記事や、Claude/CodexのAIコードレビュー方式比較など、エージェント運用の実務知見が集まった一日。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "GPT-5.6",
+      "url": "https://openai.com/index/gpt-5-6/",
+      "summary": "本文取得失敗（OpenAI公式ページがCloudflareのボット確認画面を返し、記事本文を取得できませんでした）。",
+      "category": "model",
+      "points": 860,
+      "comments": 634,
+      "author": "logickkk1"
+    },
+    {
+      "source": "hackernews",
+      "title": "Train sim created by just one person is being called the best ever made",
+      "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+      "summary": "個人開発者Novatetsu Gamesが1人で開発した鉄道運転シミュレーター「Running Train」がSteamで高評価を集めているという記事です。架空の日本の地域を舞台にしながらも極めて写実的な車両・線路表現が特徴で、記者は自動運転モードで景色を眺めるだけでも楽しめたと述べています。AIとの直接的な関連は薄く、インディーゲーム開発の完成度の高さを紹介する内容です。",
+      "category": "other",
+      "points": 124,
+      "comments": 53,
+      "author": "oumua_don17"
+    },
+    {
+      "source": "hackernews",
+      "title": "Girls just wanna have fast MPMC queues with bounded waiting",
+      "url": "https://nahla.dev/blog/waitfree_queue/",
+      "summary": "著者が設計した、複数生産者・複数消費者（MPMC）向けの有界待機キューについての技術記事です。当初「wait-free」と主張していたが訂正が入り、実際には待機時間に上限があるロックフリー構造である点を明記しています。設計思想、実装上の制約や挙動、ベンチマーク結果までを詳細に解説する低レイヤ並行プログラミングの内容で、AI分野固有の話題ではありません。",
+      "category": "other",
+      "points": 99,
+      "comments": 19,
+      "author": "EvgeniyZh"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: I built a web tool to see and edit what an AI thinks before it answers",
+      "url": "https://lucid.earthpilot.ai",
+      "summary": "言語モデルが応答を生成する前の内部表現（Anthropicのいう「J-space」）を層ごとに可視化・編集できるWebツール「Lucid」を紹介するShow HN投稿です。Jacobianレンズという手法でモデルが保持しつつ発話しない概念を読み取り、ブラウザ上で対話的に確認できる点が特徴です。対象は小規模なオープンモデル（Qwen 0.5B〜3B、Pythia 1.4Bなど）で、モデル解釈可能性研究の一環として公開されています。",
+      "category": "research",
+      "points": 10,
+      "comments": 1,
+      "author": "ada1981"
+    },
+    {
+      "source": "zenn",
+      "title": "Agent Skills自動最適化の研究、中身はほぼ深層学習の訓練ループだった",
+      "url": "https://zenn.dev/layerx/articles/9f25ec86a31730",
+      "summary": "LayerXのエンジニアが、2026年上半期に発表されたAgent Skills（SKILL.mdベースのスキル）自動最適化に関する複数の未査読プレプリントを調査した記事です。どの研究も訓練データ・損失関数・勾配・学習率に相当する要素をテキストベースの要素に置き換えており、実質的に深層学習の訓練ループと同型の構造を持つと分析しています。「Loop Engineering」という潮流のもと、エージェントの自己改善とスキルの自動更新は本質的に同じ問題だと位置づけています。Anthropic公式のスキル作成ベストプラクティスも、実質的に訓練ループの手順を規定していると指摘しています。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "個人タスク管理を「判断は人間、更新はエージェント、計算はスクリプト」で設計する",
+      "url": "https://zenn.dev/layerx/articles/797bb5b8935bf6",
+      "summary": "LayerXのエンジニアが、Markdownベースの個人タスク管理をLLMエージェントに任せた結果生じた失敗経験から、新しい設計方針を導いた記事です。属性更新の維持コストが高すぎる一方、判断を丸ごとLLMに委ねると人間が状況を把握できなくなるという2つの失敗を踏まえ、「判断は人間、更新はエージェント、計算は決定論的スクリプト」という役割分担を提案しています。タスクの真実はObsidian vault内のMarkdownファイルに一元化し、ガントチャートなどのビューはスクリプトによる派生生成とする設計を具体的に解説しています。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "VS Code DevContainer を使わなくなった私の、LLM エージェント向け開発環境",
+      "url": "https://zenn.dev/kenfdev/articles/1febc0052b0d71",
+      "summary": "以前「最高の開発環境」と評していたVS Code + Remote DevContainersを、著者は現在まったく使わなくなったという記事です。LLMエージェントに作業を任せる時間が増えたことで、VS Codeよりもコンテナに直接SSHできる開発環境の重要性が増したと説明しています。現在は「1プロジェクト1コンテナ」ではなく「ドメインごとに1コンテナ」とし、Orcaというエージェント開発環境からSSH接続してリモートworktreeとエージェント端末を扱う構成に移行したとのことです。secretは1PasswordのCLI経由で都度注入するなど、エージェント時代に適した開発環境の思想を共有しています。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude codeと論文書いたら良い論文“は”できた",
+      "url": "https://zenn.dev/mkj/articles/cco-paper_20260531",
+      "summary": "松尾研究所の研究者が、Claude CodeをオーケストレーターとするCLIエージェント環境「Claude Code Orchestra」を使い、約7週間かけて分析論文をARRに投稿するまで書き上げた体験記です。実験から評価・分析までの反復サイクルはCLIエージェント化によって大幅に高速化された一方、結果から意味のある示唆を取り出す部分は自動化できず、研究の核心はいまだ人間の仕事だと振り返っています。コーディングにおける「バイブコーディング」に対応する「バイブライティング」の確立したベストプラクティスはまだ存在しないと指摘しています。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code が「プロンプトインジェクション検出」を報告してきたので解析したら作話だった",
+      "url": "https://zenn.dev/nanasess/articles/claude-code-prompt-injection-confabulation",
+      "summary": "著者がClaude Codeの作業終了時に「ツール出力へのプロンプトインジェクションが継続して発生した」という警告を受け取ったものの、別セッションのClaude Fable 5にJSONLトランスクリプトを解析させたところ、実際には注入は発生しておらず、その報告自体がモデルの作話（ハルシネーション）だったと判明した事例です。特に「偽のユーザー発話」や「偽のSystem警告」は外部攻撃者が通常作れないチャネルである点が疑念のきっかけになったと説明しています。プロンプトインジェクションは外部コンテンツ経由で正常な利用時にも起こり得るため、警告を鵜呑みにせずログで裏付けを取ることの重要性を訴える内容です。",
+      "category": "security"
+    },
+    {
+      "source": "devto",
+      "title": "Your Hand-Typed Slop Isn't Honest. It's Just Slower.",
+      "url": "https://dev.to/dannwaneri/your-hand-typed-slop-isnt-honest-its-just-slower-36ei",
+      "summary": "AIによる文章生成が普及したことで「オンラインの言葉が空虚になった」という主張に対し、著者はそもそも人力で書かれた文章も昔から空虚だったと反論するオピニオン記事です。変化したのは空虚なコンテンツを作るコストであり、AIはそれを速くしただけだと論じています。手書きだから正直、AI生成だから不誠実、という単純な二分法自体を批判する内容です。",
+      "category": "other",
+      "tags": [
+        "watercooler",
+        "ai",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Why My Angular 21 Upgrade Failed 👀",
+      "url": "https://dev.to/glnurltn/why-my-angular-21-upgrade-failed-mef",
+      "summary": "著者がAngular 21へのアップグレード時に発生したモジュール未検出エラーの原因を調査した記事です。実際にはAngular Materialの誤インストールではなく、@angular/coreなど一部パッケージのみが21に上がった一方でビルドツール（@angular-devkit/build-angular）が19のまま残っていたバージョン不整合が原因だったと判明しました。フレームワークとビルドツールのバージョンが密結合であるため、ずれると誤解を招くエラーが出る点を注意喚起しています。AIとは直接関係のない一般的なフロントエンド開発の内容です。",
+      "category": "other",
+      "tags": [
+        "angular",
+        "upgrade",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Deploying a real-time multiplayer game on Railway",
+      "url": "https://dev.to/arjen_/deploying-a-real-time-multiplayer-game-on-railway-2d11",
+      "summary": "ブラウザで動くリアルタイム戦略ゲーム「Old Light」をRailway上にデプロイした経験を紹介する記事です。WebSocketで常時接続を維持する必要があるためVercelやNetlifyのようなサーバーレス環境は不向きとし、長時間稼働プロセスをそのまま扱えるRailwayを選定した経緯を説明しています。モノレポ構成で2つのサービスを運用する具体的なデプロイ構成についても触れています。AI関連というよりはインフラ・ホスティングの実践記事です。",
+      "category": "infra",
+      "tags": [
+        "railway",
+        "node",
+        "websocket",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Deleted 200 Lines of Code I Didn't Write and Learned More Than When I Wrote It...",
+      "url": "https://dev.to/gamya_m/i-deleted-200-lines-of-code-i-didnt-write-and-learned-more-than-when-i-wrote-it-18dd",
+      "summary": "著者がAIにコードを生成させ続け「生成・テスト・受け入れ」を高速に繰り返していたところ、コードを深く読まずに受け入れていたことに気づき、書いたはずのSwiftコード200行を後から削除して見直した体験記です。削除する過程で、書いていた（生成させていた）ときよりも多くを学んだと振り返っています。AI生成コードを鵜呑みにするリスクと、コードレビューの重要性を訴える内容です。",
+      "category": "devtool",
+      "tags": [
+        "devops",
+        "programming",
+        "ai",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Didit Copilot: shipping an AI agent that lives inside the app",
+      "url": "https://dev.to/aralroca/didit-copilot-shipping-an-ai-agent-that-lives-inside-the-app-51b2",
+      "summary": "本人確認サービスDiditが、自社の管理コンソールに組み込んだAIエージェント「Didit Copilot」をリリースした事例を紹介する記事です。チャットパネルから自然言語で指示すると、エージェントがコンソール内のデータ照会・ページ操作・フィルタ適用・ワークフロー構築までをその場で実行します。アーキテクチャの核は、MCPサーバー経由の業務データツール・UI操作ツール・可視化ツールという3系統のツールをLLMが状況に応じて使い分ける設計にある点を説明しています。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "productivity"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Copilot Studio の自律型エージェントの作成方法を整理してみた",
+      "url": "https://qiita.com/Takashi_Masumori/items/4ed4994f8641e5a9e58e",
+      "summary": "Microsoft Copilot Studioにおける「自律型エージェント」の定義と作成方法を整理した記事です。ユーザーのチャット操作なしに、メール受信やスケジュールをトリガーとして自動で動き出すエージェントを自律型と位置づけています。旧UIでPower Automateのトリガーを編集して構成する方法と、Power Automateのフローから直接エージェントを呼び出す方法の2通りを、ライセンス消費の違いも含めて解説しています。",
+      "category": "agent",
+      "tags": [
+        "PowerPlatform",
+        "copilot",
+        "CopilotStudio",
+        "なんでもCopilot"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "15個の仕込みバグで比較：ClaudeとCodexのコードレビューは、モデルより「レビュー方式」で差が出た",
+      "url": "https://qiita.com/kunitomo926/items/7dfc85770cf5132f3d1c",
+      "summary": "著者がURL短縮サービスに意図的に15個のバグを仕込み、Claude Codeの自由記述レビュー・/code-review、CodexのCLI連携プラグイン経由の/codex:review・/codex:adversarial-reviewという4つのレビュー方式を各2回試して検出数を比較した記事です。結果、検出数の差はClaudeかCodexかというモデルの違いよりも、観点を明示して広く聞くか専用コマンドでスコープを絞るかという「レビュー方式」の違いのほうが大きい傾向が見られたと報告しています。ただしn=2の小規模検証であり、モデル性能の優劣を結論づけるものではないと注意書きしています。",
+      "category": "devtool",
+      "tags": [
+        "Plugin",
+        "codereview",
+        "codex",
+        "AI駆動開発",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "40歳以上限定のきのこカンファレンスに39歳最後の年に登壇してきました！",
+      "url": "https://qiita.com/yurufuwahealer/items/9355c8e524df37243617",
+      "summary": "エンジニアのキャリアと生存戦略をテーマにした通称「きのこカンファレンス」に、39歳でスポンサー枠として登壇した著者の参加レポートです。台風で中止になりかけた前夜祭LTが急遽本編に組み込まれ、飛び入りで登壇した経緯や、参加者同士のボードゲーム交流など当日の様子を綴っています。AI関連の技術記事ではなく、カンファレンス参加記・キャリアエッセイです。",
+      "category": "other",
+      "tags": [
+        "ポエム",
+        "AI",
+        "キャリア",
+        "生存戦略",
+        "登壇"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Zoom の文字起こし・翻訳 AI を \"Zoom 以外\" で使う — Google Meet / Teams / YouTube、どんなサイトでもリアルタイム字幕＋翻訳",
+      "url": "https://qiita.com/shinonome_taku/items/b73cb8096af35186c2d8",
+      "summary": "Zoom会議に紐づかない独立したREST API「Zoom AI Services」（Scribeによる文字起こし、Translatorによる翻訳）を、OSSのリアルタイム翻訳拡張機能Sokujiに組み込み、Google MeetやTeams、YouTubeなど任意のサイトで動作させた実装記事です。認証にBuild PlatformのAPIキー/シークレットから自作するHS256 JWTが必要な点や、音声ファイルはdata-URIで送る必要がある点など、公式ドキュメントに載っていない4つのハマりどころを具体的に共有しています。",
+      "category": "product",
+      "tags": [
+        "TypeScript",
+        "翻訳",
+        "ChromeExtension",
+        "Zoom",
+        "文字起こし"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "そのスキル、本当に効いてる？ Agent Skills を「評価」する3つのツールを比べてみた",
+      "url": "https://qiita.com/Syoitu/items/78d45bee1160d059c972",
+      "summary": "Anthropicが2025年10月に発表したAgent Skillsについて、その効果を評価・改善するためのツール3種（Anthropic公式のskill-creator、darwin-skill、MicrosoftのSkillOpt）を実際に使って比較した記事です。前提としてSKILL.mdを中心としたスキルの構成（YAMLフロントマター・本文・付属ファイル）と、メタデータ→本文→付属ファイルの3段階で段階的に読み込まれる仕組みをおさらいしています。各ツールがスキルの何をどのように評価しているかを見比べることで、スキル運用の品質向上に役立つ知見を提供しています。",
+      "category": "agent",
+      "tags": [
+        "AI",
+        "SKILLS",
+        "スキル",
+        "ClaudeCode",
+        "AgentSkills"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-09T00:00:00+09:00</updated>
+  <updated>2026-07-10T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月10日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10.html</id>
+    <updated>2026-07-10T00:00:00+09:00</updated>
+    <summary>LayerXがAgent Skillsの自動最適化研究を紹介。ハーネス工夫によるスキル改善は深層学習の訓練ループと同型と分析。 / Claude Codeが報告した「プロンプトインジェクション検出」を別セッションのトランスクリプト解析で検証したところ作話（ハルシネーション）だったという事例が話題に。 / Agent Skillsの品質を評価する3ツール（skill-creator／darwin-skill／SkillOpt）の比較記事や、Claude/CodexのAIコードレビュー方式比較など、エージェント運用の実務知見が集まった一日。</summary>
+  </entry>
   <entry>
     <title>2026年7月9日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-09-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21.html</id>
     <updated>2026-06-21T00:00:00+09:00</updated>
     <summary>Cloudflare がAIエージェント向け「一時アカウント」機能を提供開始し、サインアップ不要でWorkerをデプロイできるようになった。 / 「ループエンジニアリング」という概念が台頭。人間がエージェントに指示する役割から、エージェントを動かし続ける仕組みを設計する役割へのシフトが語られている。 / RAGの実装を処理段階ごとに分解し、パーサー・チャンキング・検索・リランクなど各フェーズの優秀手法を整理した記事が登場。 / Apple container 1.0 の container machine（macOS 26）やClaude Design のアプリ対応など、開発ツール周りの新機…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月20日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-20-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-20-news.html</id>
-    <updated>2026-06-20T00:00:00+09:00</updated>
-    <summary>最大の話題はAnthropicのFable 5 / Mythos 5が米商務省の輸出規制指令で世界的に停止（6/12）、企業への影響が続く / AnthropicはソウルオフィスをオープンしNAVER・Samsung SDS・LG CNSなど韓国大手と大規模AI導入を発表 / Googleが6年ぶりとなるGemini搭載スマートスピーカー「Google Home Speaker」を6月25日に$99.99で発売 / インドReliance IndustriesがJioに全面的にAIを統合、5億人以上のユーザー向けに日常AIサービスを展開 / Google Gemini 3.5 Proが2Mト…</summary>
   </entry>
 </feed>
