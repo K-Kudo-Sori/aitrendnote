@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-10T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月10日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10-news.html</id>
+    <updated>2026-07-10T00:00:00+09:00</updated>
+    <summary>OpenAIが新モデル群「GPT-5.6」（Sol/Terra/Luna）を発表 / xAI（SpaceXAI）が「Grok 4.5」を公開、Opusクラスを主張しつつ低価格を訴求 / MetaがコーディングAI「Muse Spark 1.1」を投入し激戦区に参入 / Anthropicは利用状況を可視化する新機能「Reflect」を追加 / Ollamaがシリーズ Bで6500万ドルを調達、月間利用者は約900万人に</summary>
+  </entry>
+  <entry>
     <title>2026年7月10日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21-news.html</id>
     <updated>2026-06-21T00:00:00+09:00</updated>
     <summary>ノーベル賞受賞者ジョン・ジャンパー氏がDeepMindを離れAnthropicへ移籍。今週はCharacter AI共同創業者もDeepMind→OpenAI移籍が報じられ、AIトップ人材の大移動が加速している。 / AI推論スタートアップBasetenが約5ヶ月前の$5Bから一気に$13Bへ急騰し$1.5Bの大型調達。LLM推論インフラへの投資競争が加熱。 / Signalのメレディス・ウィテカー氏がAIチャットボットのプライバシーリスクを警告。AIへの過度な依存と個人データ開示に注意を促す。 / インド最大財閥ReliandeのアンバニCEOが$1,100億ドル投資を背景にJio AIサ…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月21日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21.html</id>
-    <updated>2026-06-21T00:00:00+09:00</updated>
-    <summary>Cloudflare がAIエージェント向け「一時アカウント」機能を提供開始し、サインアップ不要でWorkerをデプロイできるようになった。 / 「ループエンジニアリング」という概念が台頭。人間がエージェントに指示する役割から、エージェントを動かし続ける仕組みを設計する役割へのシフトが語られている。 / RAGの実装を処理段階ごとに分解し、パーサー・チャンキング・検索・リランクなど各フェーズの優秀手法を整理した記事が登場。 / Apple container 1.0 の container machine（macOS 26）やClaude Design のアプリ対応など、開発ツール周りの新機…</summary>
   </entry>
 </feed>

@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-10",
+  "generatedAt": "2026/7/10 8:06:51",
+  "highlights": [
+    "OpenAIが新モデル群「GPT-5.6」（Sol/Terra/Luna）を発表",
+    "xAI（SpaceXAI）が「Grok 4.5」を公開、Opusクラスを主張しつつ低価格を訴求",
+    "MetaがコーディングAI「Muse Spark 1.1」を投入し激戦区に参入",
+    "Anthropicは利用状況を可視化する新機能「Reflect」を追加",
+    "Ollamaがシリーズ Bで6500万ドルを調達、月間利用者は約900万人に"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、新モデルファミリー「GPT-5.6」を発表",
+      "url": "https://techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/",
+      "summary": "OpenAIはSol（主力）、Terra（中位）、Luna（低価格）の3モデルからなる新シリーズ「GPT-5.6」を発表した。Solは同社最高のコーディングモデルと位置付けられ、Anthropicの「Fable 5」より少ないトークンで高性能かつ低コストを実現すると主張している。あわせて職場向けの「ChatGPT Work」も発表し、価格は入力1〜5ドル・出力6〜30ドル（各100万トークンあたり）の幅で設定された。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "xAI、「Grok 4.5」を公開しコーディング・エージェント用途を強化",
+      "url": "https://tech.yahoo.com/ai/articles/spacexai-launches-grok-4-5-204749219.html",
+      "summary": "SpaceXAI（xAI）は、コーディングと自律エージェント作業に最適化した最新モデル「Grok 4.5」を公開した。大量のNvidia GB300 GPUを用いてデータ品質を重視して学習されており、価格は入力100万トークンあたり2ドル・出力6ドルとAnthropicのClaude Opus 4.8より安価に設定されている。イーロン・マスクCEOは「Opusクラスの性能をより高速・低コストで実現した」と位置付けている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、コーディング特化AI「Muse Spark 1.1」を投入",
+      "url": "https://techcrunch.com/2026/07/09/meta-enters-the-crowded-ai-coding-battle-with-muse-spark-1-1/",
+      "summary": "Metaは、OpenAIやAnthropicの製品に対抗するマルチモーダルなエージェント型コーディングAI「Muse Spark 1.1」を発表した。複数ステップの推論やデジタルワークフロー管理、大規模なコード移行やバグ修正に強みを持つとされる。価格は入力100万トークンあたり1.25ドル・出力4.25ドルと競合と同水準に設定され、マーク・ザッカーバーグCEOが3年ぶりにSNSで自ら発表したことでも注目を集めた。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、利用状況を可視化する新機能「Reflect」を発表",
+      "url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/",
+      "summary": "AnthropicはClaudeの利用状況やAIとの関わり方を可視化するダッシュボード機能「Reflect」を発表した。表向きは利用傾向を振り返る分析ツールだが、Claudeが日常業務にどれだけ組み込まれているかを示すことでその価値を再認識させ、Projectsなど他機能への誘導も行う設計になっている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Ollama、シリーズBで6500万ドルを調達し利用者は約900万人に",
+      "url": "https://techcrunch.com/2026/07/09/popular-open-source-ai-developer-tool-ollama-raises-65m-grows-to-nearly-9m-users/",
+      "summary": "ローカル環境でAIモデルを実行できるオープンソースツール「Ollama」が、Theory Ventures主導のシリーズBで6500万ドルを調達し、累計調達額は8800万ドルとなった。月間アクティブな開発者数は約900万人に達し、フォーチュン500企業の85%で利用されているという。前回のシリーズAをリードしたBenchmarkのピーター・フェントン氏は創業者の実績を高く評価している。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、AIで作成された広告であることを開示する機能を導入",
+      "url": "https://techcrunch.com/2026/07/09/google-will-now-disclose-which-ads-are-made-with-ai/",
+      "summary": "Googleは「My Ad Center」パネルに、広告がAIで作成・編集されたかどうかを確認できる新機能を導入した。Google検索・YouTube・Google Discoverから「How this ad was made」という項目で確認でき、Google純正の生成AIツールを使った場合は自動表示される一方、それ以外の広告主については自己申告制で、Google側による独立検証は行われない。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-07-10-news"
+}
