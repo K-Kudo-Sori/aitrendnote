@@ -1,0 +1,55 @@
+{
+  "date": "2026-07-12",
+  "generatedAt": "2026/7/12 8:08:27",
+  "highlights": [
+    "OpenAIがGPT-5.6とChatGPT Workを立て続けに発表し、エージェント機能をめぐる競争が激化",
+    "AppleがOpenAIを企業秘密盗用で提訴、新Siriは今秋Google Geminiを採用へ",
+    "米FRBがAIの雇用・生産性への影響を検証するタスクフォースを設置",
+    "MetaとGoogleも新モデル・エージェント機能を相次いで発表"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Apple、OpenAIを企業秘密盗用で提訴 新Siriは今秋Google Geminiを採用へ",
+      "url": "https://fortune.com/2026/07/10/apple-openai-lawsuit-trade-secrets-theft-allegations/",
+      "summary": "Appleは7月10日、OpenAIと同社傘下のio Productsを相手取り、未発表のハードウェア製品に関する企業秘密を組織的に盗用したとしてカリフォルニア北部地区連邦地裁に提訴した。訴状では、OpenAIのハードウェア責任者Tang Tan氏や元Apple社員のChang Liu氏らが機密資料を持ち出したと主張している。Appleは今秋公開予定の新SiriについてChatGPT連携から離れ、Google Geminiを採用する方針も明らかにした。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "米FRB、AIの雇用・生産性への影響を検証するタスクフォースを設置",
+      "url": "https://www.federalreserve.gov/monetarypolicy/productivity-and-jobs-task-force.htm",
+      "summary": "米連邦準備制度理事会（FRB）は7月9日、AIなど汎用技術が生産性・雇用・経済成長に与える影響を調査する「生産性と雇用」タスクフォースの設置を発表した。共同議長にはAndreessen Horowitz共同創業者のMarc Andreessen氏、スタンフォード大学経済学者Charles I. Jones氏、Microsoft幹部のAsha Sharma氏が就任する。同タスクフォースはFRBの雇用・物価目標への含意を整理し、2026年末までに提言をまとめる予定。",
+      "category": "other"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、新モデル群「GPT-5.6」（Sol・Terra・Luna）を発表",
+      "url": "https://community.openai.com/t/introducing-gpt-5-6-series-sol-terra-and-luna-coming-july-9-10am-pt/1384931",
+      "summary": "OpenAIは7月9日、フラッグシップモデル「Sol」、コスト効率重視の「Terra」、高速・低価格な「Luna」からなる新モデル群「GPT-5.6」のプレビューを発表した。Solはコーディングやエージェント的タスクで新記録を達成し、深い推論を行う「max」モードや複数サブエージェントが協調する「ultra」モードを新たに搭載する。当初はAPIとCodexで一部の信頼されたパートナーに提供され、順次ChatGPTなどにも展開される。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、自律エージェント「ChatGPT Work」を発表しCodexをChatGPTに統合",
+      "url": "https://www.digitalapplied.com/blog/chatgpt-work-openai-agent-launch-2026",
+      "summary": "OpenAIは7月9日、目標を伝えるだけで文書やスプレッドシート、ウェブアプリなどの成果物を数時間かけて自律的に仕上げるエージェント機能「ChatGPT Work」を発表した。同時にCodexアプリをChatGPTデスクトップアプリに統合し、Chat・Work・Codexを一体化した新アプリを無料プランを含む全プランに提供する。定期実行タスクや外部アプリ連携、承認フローなどのガバナンス機能も備える。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、新AIモデル「Muse Spark」を発表",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-msl/",
+      "summary": "MetaのSuperintelligence Labsは、ツール利用やマルチエージェント連携に対応したネイティブなマルチモーダル推論モデル「Muse Spark」を発表した。前世代のLlama 4 Maverickと同等の性能を大幅に少ない計算量で達成するとしており、推論を重視した「熟考モード」ではHumanity's Last Examで58%のスコアを記録した。現在はmeta.aiやMeta AIアプリで利用でき、一部開発者向けにAPIのプレビュー提供も始まっている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Gemini APIの「Managed Agents」を拡張しバックグラウンド実行とリモートMCPに対応",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "summary": "Googleは7月7日、Gemini APIの「Managed Agents」機能を拡張し、エージェントをサーバー上で非同期実行できる「バックグラウンド実行」や、リモートのMCPサーバーに直接接続できる機能を追加したと発表した。あわせてカスタム関数呼び出しや、実行を継続したまま資格情報を更新できる機能も導入し、プロダクション環境で使える信頼性の高いエージェント構築を目指すとしている。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-07-12-news"
+}

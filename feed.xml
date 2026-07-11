@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-10T00:00:00+09:00</updated>
+  <updated>2026-07-12T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月12日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-12-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-12-news.html</id>
+    <updated>2026-07-12T00:00:00+09:00</updated>
+    <summary>OpenAIがGPT-5.6とChatGPT Workを立て続けに発表し、エージェント機能をめぐる競争が激化 / AppleがOpenAIを企業秘密盗用で提訴、新Siriは今秋Google Geminiを採用へ / 米FRBがAIの雇用・生産性への影響を検証するタスクフォースを設置 / MetaとGoogleも新モデル・エージェント機能を相次いで発表</summary>
+  </entry>
   <entry>
     <title>2026年7月10日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22.html</id>
     <updated>2026-06-22T00:00:00+09:00</updated>
     <summary>スイスAI Initiative が EU AI Act 対応の完全オープンな基盤モデル Apertus を公開 / Claude Code 向けのローカルセッションメモリ「Recall」で毎回の文脈説明を不要に / MCP サーバの企業ガバナンスを二層で実現する Bifrost Edge が登場 / 「ループエンジニアリング」が注目を集め、人間がエージェントを指示する役割からシステム設計へ転換 / Apple container 1.0 と docker compose を組み合わせる実践手順が公開</summary>
-  </entry>
-  <entry>
-    <title>2026年6月21日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-21-news.html</id>
-    <updated>2026-06-21T00:00:00+09:00</updated>
-    <summary>ノーベル賞受賞者ジョン・ジャンパー氏がDeepMindを離れAnthropicへ移籍。今週はCharacter AI共同創業者もDeepMind→OpenAI移籍が報じられ、AIトップ人材の大移動が加速している。 / AI推論スタートアップBasetenが約5ヶ月前の$5Bから一気に$13Bへ急騰し$1.5Bの大型調達。LLM推論インフラへの投資競争が加熱。 / Signalのメレディス・ウィテカー氏がAIチャットボットのプライバシーリスクを警告。AIへの過度な依存と個人データ開示に注意を促す。 / インド最大財閥ReliandeのアンバニCEOが$1,100億ドル投資を背景にJio AIサ…</summary>
   </entry>
 </feed>
