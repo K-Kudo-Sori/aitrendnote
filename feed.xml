@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-13T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月13日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13-news.html</id>
+    <updated>2026-07-13T00:00:00+09:00</updated>
+    <summary>OpenAIが全二重の音声AI「GPT-Live」を発表し、ChatGPT音声モードを刷新 / 半導体大手SK HynixがNasdaqに上場し初日+13%、AIメモリ需要の強さを裏付け / AIチップ企業SambaNovaが評価額1.1兆円規模で10億ドルを追加調達 / Anthropicが「Claude Code」デスクトップ版にアプリ内ブラウザを搭載 / セキュリティ企業jscramblerのnpmパッケージが乗っ取られ、AI開発ツールの認証情報を狙う情報窃取マルウェアが拡散</summary>
+  </entry>
+  <entry>
     <title>2026年7月13日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23.html</id>
     <updated>2026-06-23T00:00:00+09:00</updated>
     <summary>Claude CodeのExtended Thinking出力は実際の思考ではなく暗号化署名と要約のみで構成されており、監査目的での利用には注意が必要と指摘された / LG・SamsungのスマートTV 6,038本のうち約34%に住宅プロキシSDKが内包されており、ユーザー不知のままネットワークが悪用される実態が調査で判明 / AIコーディングエージェント普及により受託開発の外注需要が2026年時点ですでに縮小し始めており、2027年予測より2年近く早く影響が顕在化 / AIエージェントのセキュリティ脆弱性として「プロンプトインジェクション」「ツール説明ポイズニング」「出力無検証トラスト」…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月22日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22-news.html</id>
-    <updated>2026-06-22T00:00:00+09:00</updated>
-    <summary>米商務省がAnthropicの最先端モデルFable 5・Mythos 5を輸出規制で全世界停止させた重大事態が続いている / AppleはiOS 27でSiriを超えた実用的AI機能を多数統合予定と発表（TechCrunch 6/21） / ノーベル賞受賞者ジョン・ジャンパー氏がDeepMindを離れAnthropicへ転職（6/20） / Claude Opus 4.8がARC-AGI-3ベンチマークでAI史上最高スコア1.5%を達成 / AIは「試す段階」から「業務に組み込み管理する段階」へ転換が加速中</summary>
   </entry>
 </feed>

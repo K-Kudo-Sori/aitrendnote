@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-13",
+  "generatedAt": "2026/7/13 8:10:13",
+  "highlights": [
+    "OpenAIが全二重の音声AI「GPT-Live」を発表し、ChatGPT音声モードを刷新",
+    "半導体大手SK HynixがNasdaqに上場し初日+13%、AIメモリ需要の強さを裏付け",
+    "AIチップ企業SambaNovaが評価額1.1兆円規模で10億ドルを追加調達",
+    "Anthropicが「Claude Code」デスクトップ版にアプリ内ブラウザを搭載",
+    "セキュリティ企業jscramblerのnpmパッケージが乗っ取られ、AI開発ツールの認証情報を狙う情報窃取マルウェアが拡散"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、全二重の音声AI「GPT-Live」を発表",
+      "url": "https://techcrunch.com/2026/07/08/openai-releases-new-voice-models-for-more-natural-live-conversations/",
+      "summary": "OpenAIは7月8日、聞くことと話すことを同時に行える全二重アーキテクチャの新しい音声モデル「GPT-Live-1」「GPT-Live-1 mini」を発表した。会話への相づちや自然な割り込みに対応し、複雑な質問はバックグラウンドでGPT-5.5に処理を委譲して結果を会話に反映する。GPT-Live-1 miniは無料プランのデフォルト音声モードとなり、有料プランではより高性能なGPT-Live-1が利用できる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "SK Hynix、NasdaqにADR上場し初日+13% 265億ドルを調達",
+      "url": "https://fortune.com/2026/07/11/sk-hynix-us-stock-listing-nasdaq-second-largest-us-share-sale-ai-boom-hbw-memory/",
+      "summary": "韓国の半導体大手SK Hynixは7月10日、米Nasdaqに預託証券（ADR）を上場し、初日の株価は12.8%上昇した。今回の上場で265億ドルを調達し、外国企業による米国上場としては過去最大、米国株式売り出しとしても史上2番目の規模となった。同社はNvidia向けを含む高帯域幅メモリ（HBM）で世界首位を誇り、AI需要の高まりを背景に投資家の関心を集めている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "AIチップのSambaNova、評価額110億ドルで10億ドルを追加調達",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "summary": "AI推論チップを手がけるSambaNovaは7月8日、General Atlantic主導のシリーズFラウンドで10億ドルの第1クロージングを完了し、評価額は110億ドルに達したと発表した。2月に完了したシリーズE（3.5億ドル、評価額はそれ以下）からわずか5カ月での大幅な評価額上昇となる。調達資金はサプライチェーンの強化や旺盛な顧客需要への対応に充てられる予定で、今後数週間で追加投資家を迎える見込み。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、「Claude Code」デスクトップ版にアプリ内ブラウザを搭載",
+      "url": "https://9to5mac.com/2026/07/10/anthropic-highlights-claude-codes-in-app-browser-on-the-desktop/",
+      "summary": "Anthropicは7月10日、コーディングエージェント「Claude Code」のデスクトップアプリにアプリ内ブラウザを追加したと発表した。Claudeがドキュメントやデザイン、任意のウェブサイトを開いて閲覧・クリック操作できるようになり、ローカル開発サーバーのプレビューと同様の感覚で対話できる。閲覧履歴や保存済みログインを持たない隔離されたブラウザプロファイルを使用し、セッションを保持するかどうかも選択可能。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "セキュリティ製品jscramblerのnpmパッケージが乗っ取られ、AI開発ツールの認証情報を狙うマルウェアが拡散",
+      "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+      "summary": "コード難読化ツールjscramblerの公式npmパッケージが7月11日に乗っ取られ、悪意あるバージョン8.14.0がインストール時にRust製の情報窃取マルウェアを実行することが判明した。Windows・macOS・Linux向けにビルドされたマルウェアは、クラウド認証情報や暗号資産ウォレットに加え、Claude Desktop・Cursor・Windsurf・VS Code・ZedなどAI開発ツールのAPIキーやMCPサーバーの認証情報を標的にしていた。セキュリティ企業Socketが公開から6分後に検知し、その後複数の悪意あるバージョンが立て続けに公開された。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-07-13-news"
+}
