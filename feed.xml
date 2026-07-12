@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-12T00:00:00+09:00</updated>
+  <updated>2026-07-13T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月13日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13.html</id>
+    <updated>2026-07-13T00:00:00+09:00</updated>
+    <summary>Claude CodeとOpenCodeのトークン消費量を実測比較した記事が話題に。ハーネスのオーバーヘッドの大きさが浮き彫りに。 / 国内の金融機関やAI活用の実務者による、生成AI導入・運用のリスク管理やベストプラクティスの知見共有が目立った。 / AIコーディングエージェント（Claude Code/Codex/Copilot）のサンドボックス設計やループ運用に関する実践的な技術記事が複数見られた。</summary>
+  </entry>
   <entry>
     <title>2026年7月12日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-12-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22-news.html</id>
     <updated>2026-06-22T00:00:00+09:00</updated>
     <summary>米商務省がAnthropicの最先端モデルFable 5・Mythos 5を輸出規制で全世界停止させた重大事態が続いている / AppleはiOS 27でSiriを超えた実用的AI機能を多数統合予定と発表（TechCrunch 6/21） / ノーベル賞受賞者ジョン・ジャンパー氏がDeepMindを離れAnthropicへ転職（6/20） / Claude Opus 4.8がARC-AGI-3ベンチマークでAI史上最高スコア1.5%を達成 / AIは「試す段階」から「業務に組み込み管理する段階」へ転換が加速中</summary>
-  </entry>
-  <entry>
-    <title>2026年6月22日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-22.html</id>
-    <updated>2026-06-22T00:00:00+09:00</updated>
-    <summary>スイスAI Initiative が EU AI Act 対応の完全オープンな基盤モデル Apertus を公開 / Claude Code 向けのローカルセッションメモリ「Recall」で毎回の文脈説明を不要に / MCP サーバの企業ガバナンスを二層で実現する Bifrost Edge が登場 / 「ループエンジニアリング」が注目を集め、人間がエージェントを指示する役割からシステム設計へ転換 / Apple container 1.0 と docker compose を組み合わせる実践手順が公開</summary>
   </entry>
 </feed>

@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-13",
+  "generatedAt": "2026/7/13 7:05:52",
+  "highlights": [
+    "Claude CodeとOpenCodeのトークン消費量を実測比較した記事が話題に。ハーネスのオーバーヘッドの大きさが浮き彫りに。",
+    "国内の金融機関やAI活用の実務者による、生成AI導入・運用のリスク管理やベストプラクティスの知見共有が目立った。",
+    "AIコーディングエージェント（Claude Code/Codex/Copilot）のサンドボックス設計やループ運用に関する実践的な技術記事が複数見られた。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Old and new apps, via modern coding agents",
+      "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
+      "summary": "数学者のTerence Tao氏が、1999年に作った古いJavaアプレット群をAIコーディングエージェントを使って現代的なJavaScriptへ移植した体験を綴っている。数十個のアプレットの移植を数時間で完了し、エージェントが混入させたバグはごく軽微な1件のみで、逆にエージェントが元のコードのバグを2つ発見したという。この経験に勢いづき、1999年当時は複雑すぎて断念した特殊相対論の可視化ツールや、ギルブレイス予想の可視化アプリも新たにAIとの対話で数時間で完成させた。著者は、これらは論証の中核ではなく補助教材であるためバグのリスクは低いとしつつ、今後の論文にもこうした可視化補助を追加していきたいと述べている。",
+      "category": "devtool",
+      "points": 382,
+      "comments": 107,
+      "author": "subset"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "summary": "Claude CodeとOpenCodeを同一モデル・同一タスクで比較し、API境界でのトークン消費を実測した記事。一行の応答を求めるだけのテストで、Claude Codeはユーザーのプロンプトが届く前にシステムプロンプトやツールスキーマなどで約33,000トークンを消費し、OpenCodeの約7,000トークンより大幅に多かった（新しいモデルでは差が縮小する場合もある）。またOpenCodeはリクエストのプレフィックスが毎回同一でキャッシュ効率が良い一方、Claude Codeはセッション中にプロンプトキャッシュを大量に書き換えるため、キャッシュ書き込みコストが最大54倍にもなったという。一方でマルチステップのタスクではClaude Codeがツール呼び出しをまとめてリクエスト数を抑えるため、タスク全体の合計コストではOpenCodeを下回るケースもあったと報告している。",
+      "category": "devtool",
+      "points": 329,
+      "comments": 185,
+      "author": "systima"
+    },
+    {
+      "source": "hackernews",
+      "title": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "summary": "著者はAIの進歩自体には非常に前向きで、LLMや自動運転、動画生成、コーディングエージェントの進化に興奮していると述べる一方、AI業界を取り巻く「誇張された煽り」には強く反発している。「機会の窓が閉じつつある」「取り残される」といったネガティブな煽りは事実に基づかず、人を不安にさせるためのものだと批判し、また「単なる高性能な自動補完」から「知能爆発で世界が一変する」に飛躍する論法も強く否定している。著者はAIの価値創出自体は否定しないが、フロンティア研究所がその価値を独占しようとしている点、オープンソース化への恐れが批判の根底にあると論じる。結論として、AIはコンピュータ革命の延長線上にある実用的な技術であり、find/replaceや検索エンジンの延長として捉えるべきだとしている。",
+      "category": "product",
+      "points": 233,
+      "comments": 126,
+      "author": "therepanic"
+    },
+    {
+      "source": "hackernews",
+      "title": "Against Usefulness",
+      "url": "https://www.motivenotes.ai/p/against-usefulness",
+      "summary": "投資家である筆者が、ニューヨークの倉庫でOmar Rizwan氏とAndrés Cuervo氏が開発した物理コンピューティングシステム「Folk Computer」を体験した記録。天井のカメラとプロジェクターが部屋全体を認識し、紙自体がプログラムとして機能する仕組みで、モニターやキーボードを使わない身体的なプログラミング体験を紹介している。筆者はこれを、画面とデスクトップの比喩に縛られた既存パラダイムへの根源的な問い直しだと位置づけ、ACM（Association for Computing Machinery）でのボランティア活動と対比しながら、「役に立つ」に至る前段階の基礎研究の価値を論じている。記事全体は、有用性を急がない研究文化を支える人々や資金の必要性を訴えるエッセイになっている。",
+      "category": "other",
+      "points": 65,
+      "comments": 15,
+      "author": "supo"
+    },
+    {
+      "source": "hackernews",
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "summary": "マーケティングサイト構築AIエージェントを提供するPloy社が、デフォルトモデルをClaude Opusから新モデルGPT-5.6 Solへ切り替えた経緯を報告する記事。4か月間Opus 4.7・4.8を上回るモデルがなかったが、GPT-5.6は同等以上の品質で2.2倍高速・27%低コストという評価結果を示したという。移行にあたっては評価ハーネス自体がOpusの挙動に最適化されていたことが判明し、ツール呼び出し予算やバッチファイル読み込み対応など、モデル固有の癖に依存していた部分を修正する必要があった。結果として、ツールスキーマ・プロンプトキャッシュ・推論の再生方法など「モデル」だと思っていたものの多くが実はプロバイダ固有の挙動であったことが明らかになったとしている。",
+      "category": "model",
+      "points": 60,
+      "comments": 7,
+      "author": "brryant"
+    },
+    {
+      "source": "zenn",
+      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
+      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
+      "summary": "個人開発者向けに、独自ドメインのメールをCloudflareの無料〜低価格機能だけで送受信できるようになったことを紹介する記事。受信はCloudflare Email Routing、送信は2026年6月にSMTP対応した Cloudflare Email Sending を使い、閲覧・作成は普段使いのGmailで行う構成を提案している。従来のGmail SMTP経由の送信方式では受信者に元のGmailアドレスが透けて見える欠点があったが、Cloudflare Email SendingのSMTPを使うことでこの問題を回避できるという。Workers Paidプラン（月5ドル）への加入が必要だが、月3,000通までは追加料金なしで利用できるため、実質的に低コストで独自ドメインメールを一本化できるとまとめている。",
+      "category": "other",
+      "points": 92,
+      "author": "𝘬𝘰𝘴𝘶𝘨𝘦"
+    },
+    {
+      "source": "zenn",
+      "title": "Agent Skills自動最適化の研究、中身はほぼ深層学習の訓練ループだった",
+      "url": "https://zenn.dev/layerx/articles/9f25ec86a31730",
+      "summary": "2026年上半期に発表されたAgent Skills（SKILL.md）の自動最適化に関する未査読論文群を分析し、いずれも深層学習の訓練ループと同じ構造を持つと指摘する記事。訓練データに相当するのはエージェントの実行トラジェクトリ、損失関数に相当するのは検証信号、勾配・学習率に相当するのはテキスト編集とその量の制御であるとし、モデルの重みではなくSKILL.md自体を書き換える点が違いだと整理している。代表例のTrace2Skillでは、成功・失敗のトラジェクトリからサブエージェントが独立に編集パッチを提案し、繰り返し現れる編集のみをマージすることで過学習に相当する現象を防いでいるという。また小さいモデルの経験から蒸留したスキルが、より大きいモデルの性能を改善したという逆転現象も報告されている。",
+      "category": "research",
+      "points": 128,
+      "author": "223"
+    },
+    {
+      "source": "zenn",
+      "title": "情報漏洩に敏感な金融機関で、Claude・Gemini・ChatGPTを導入した話",
+      "url": "https://zenn.dev/seiuchi3939/articles/b12d6746d9f187",
+      "summary": "国内金融機関の情報システム・セキュリティ担当者が、Claude・Gemini・ChatGPTを全社導入するに至った経緯とリスク整理の方法をまとめた記事。現場・IT部門は導入に前向きだった一方、リスク管理部門は情報漏洩の観点で慎重だったため、「導入しないリスク」（人材流出や他社への競争劣後）も同じ土俵で評価する議論に転換したという。情報漏洩の経路をチャット入力と外部ツール連携（MCP等）の2つに分解し、契約上のオプトアウト、既存のセキュリティ基盤（プロキシ・メールフィルタ・承認フロー）、許可制の操作リストという3段構えで対策を講じた。Claude CodeなどのエージェントツールについてもExcelマクロと同様の個人利用ツールと、業務プロセスに正式組込まれるエージェントを区別して管理する方針を採ったとしている。",
+      "category": "security",
+      "points": 16,
+      "author": "てくてくエンジニア"
+    },
+    {
+      "source": "zenn",
+      "title": "ループエンジニアリングをGitHub Copilotで組めるか調べてみた",
+      "url": "https://zenn.dev/jodycraft/articles/3f7548173dcb55",
+      "summary": "2026年6月に提唱された新概念「ループエンジニアリング」（エージェントに毎回指示を出す代わりに、指示を出し続けるシステム自体を設計する考え方）が、GitHub Copilotでどこまで実現できるかを検証した記事。ハーネスエンジニアリングとの違いは階層にあり、ループはハーネスを「いつ・どの頻度で・誰が起動するか」を設計する一段上の概念だと整理している。Osmani氏が提示したループの6部品（自動起動・作業ツリー・スキル・コネクタ/プラグイン・サブエージェント・状態記憶）に照らすと、GitHub Copilotはメインセッションのモデル自動切替こそ手動だが、サブエージェントごとのモデル指定はCLI・VS Code双方でしっかり対応しており、「実装は安いモデル、検証は強いモデル」という使い分けが思ったよりやりやすいと結論づけている。",
+      "category": "devtool",
+      "points": 17,
+      "author": "JodyCraft"
+    },
+    {
+      "source": "zenn",
+      "title": "ナレッジグラフだけじゃない。AIエージェントが使う5種類のグラフ",
+      "url": "https://zenn.dev/knowledge_graph/articles/ai-agent-five-graph-types",
+      "summary": "AIエージェントの文脈で使われるグラフをNode/Edgeの意味によって5種類（ナレッジグラフ、タスクグラフ、実行順序グラフ(DAG)、ワークフローグラフ、ステートグラフ）に分類する解説記事の第1部。「ナレッジグラフ」を名乗りながら実際にはGraphRAGやNeo4jの話に留まっているケースが多いという問題意識から出発し、意味を保持するグラフ（ナレッジグラフ）と実行を支える4種類のグラフを明確に区別することの重要性を説く。Markdownウィキやスキル文書だけでは、権限・監査・依存・再開といった複数の問いを1枚の文書に混在させてしまい、エージェントの参照・実行精度が下がると指摘している。障害対応を題材に、各グラフがどの問いに答えるかを具体的に整理しており、続編で特殊化やレイヤー連携を扱うとしている。",
+      "category": "agent",
+      "points": 23,
+      "author": "takanorisuzuki"
+    },
+    {
+      "source": "devto",
+      "title": "I Built a Graveyard for My Dead Side Projects - With AI Eulogies & a 3D Cemetery",
+      "url": "https://dev.to/varshithvhegde/i-built-a-graveyard-for-my-dead-side-projects-with-ai-eulogies-a-3d-cemetery-5g0e",
+      "summary": "DEV Weekend Challengeへの参加作品として作られた「DevGraveyard」は、放棄したGitHubリポジトリを弔うゴシック風の墓地サイト。GitHubと連携して死んだリポジトリを選び、死因やエピタフを記入すると、実際のコミット履歴（連続コミット記録や最終コミットメッセージ）を参照してGoogle Geminiがドラマチックな別れの手紙（AI追悼文）を生成する。ろうそくを灯したりコメントを残したりする追悼機能や、蘇生への投票機能もあり、Three.jsによる3Dの墓地空間でトゥームストーンをクリックして操作できる。著者自身のリポジトリを例に、実際のコミット統計とAI生成の追悼文を紹介している。",
+      "category": "other",
+      "points": 24,
+      "comments": 8,
+      "author": "Varshith V Hegde",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Love Fragrances, So I Built a 6-Game Arcade + Concierge About My Obsession",
+      "url": "https://dev.to/miawab/i-love-fragrances-so-i-built-a-6-game-arcade-concierge-about-my-obsession-a6g",
+      "summary": "香水収集が趣味の大学生が、DEV Weekend Challengeへの提出作品として香水好き向けのブラウザアーケード「recommendmeafragrance」を開発した記事。実在の香水データ（ノート・ブランド・年代・価格帯）を使った6つのデイリーミニゲーム（Wordle風のScentle、ノートだけから香水を当てるNote Detectiveなど）に加え、ユーザーと会話できるAIコンシェルジュ機能を備える。各ゲームの成果は個人の「棚」に蓄積され、継続利用を促すストリーク機能もある。記事は各ゲームの遊び方や設計上の工夫（ノート数に応じたポイント配分、ノートのファミリー分類など）を詳しく紹介している。",
+      "category": "other",
+      "points": 21,
+      "comments": 9,
+      "author": "Ibrahim Awab",
+      "tags": [
+        "weekendchallenge",
+        "googleai",
+        "webdev",
+        "showdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Commit Chronicles—Your Obsession Leaves a Trail. Mine Gives It a Plot.",
+      "url": "https://dev.to/anchildress1/commit-chronicles-your-obsession-leaves-a-trail-mine-gives-it-a-plot-h8j",
+      "summary": "DEV Weekend Challenge提出作品「Commit Chronicles」は、公開GitHubリポジトリのコミット履歴からSnowflakeのSQLビューで物語のパターン（深夜作業・再開・連続コミット・燃え尽きなど6種類のストーリーライン検出器）を判定し、該当するストーリーラインのみをSnowflake Cortex（AI）に1回だけ渡してナレーションさせる仕組み。ストーリーの判定自体はSQLのみで行い、AIが呼ばれるのはコミット行の20〜140行程度に限定することで、AIが事実にない動機を捏造することを防いでいる。該当するパターンがない場合は「ここに物語はない」という正直な灰色のカードを返し、AIを一切呼ばないという設計思想を貫いている。生成結果はCloud Runで1200×630のPNGカードとして出力され、README埋め込みやSNSプレビューに利用できる。",
+      "category": "other",
+      "points": 6,
+      "comments": 0,
+      "author": "Ashley Childress",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "snowflake",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Simple Benchmark Review: Ollama on Jetson Nano",
+      "url": "https://dev.to/annavi11arrea1/simple-benchmark-review-ollama-on-jetson-nano-5gee",
+      "summary": "NVIDIA Jetson Nano上でOllamaを使い、複数のローカルLLM（qwen2.5、qwen3.5、llama3.2、mistral）を様々な量子化レベル（q2_K〜q8_0）で動かし、OSIモデルに関する10問クイズの正答率を比較したベンチマーク記事。メモリ不足でクラッシュした経験からswapファイルを用意する必要があったことや、一部モデル・量子化組み合わせはGPUに収まらずテスト不能だったことを報告している。結果としてqwen2.5:3b-instructがq4_K_M以上の量子化で常に100%の正答率を示し、著者の用途（テキストからのクイズ生成）には最適だったと結論づけ、現在使用中のllama3.2からの切り替えを検討しているという。",
+      "category": "infra",
+      "points": 12,
+      "comments": 8,
+      "author": "Anna Villarreal",
+      "tags": [
+        "ai",
+        "webdev",
+        "nvidia",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Passion Atlas: A Living Map of Human Curiosity",
+      "url": "https://dev.to/ujja/passion-atlas-a-living-map-of-human-curiosity-298h",
+      "summary": "DEV Weekend Challenge提出作品「Passion Atlas」は、ユーザーの興味・経験・文化・アイデアがどうつながっているかをAIで可視化する「パーソナル・パッション・ゲノム」を生成するツール。単一の「情熱」を尋ねる代わりに、複数の興味を入力すると、それらがどう連鎖してより大きな好奇心の経路（例：旅行→文化交流→郷土料理→ストーリーテリング→工芸継承）を形成するかをAIが提示する。同じ興味の組み合わせでも人によって異なる「好奇心の指紋」が生まれるという着想や、レシピや伝統工芸などの文化的記憶をAIが構造化して保存する「パッション・タイムカプセル」機能も紹介している。",
+      "category": "other",
+      "points": 9,
+      "comments": 3,
+      "author": "ujja",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "gemini",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AWS MCP Serverが普通に使えるようになったよ！",
+      "url": "https://qiita.com/moritalous/items/6102ef63dc60c7e6ee3d",
+      "summary": "AWSが提供する公式のAgent Toolkit for AWS内のMCP Server（オープンソースのAWS MCP Serverとは別物）を、IAMユーザー作成からClaude DesktopでのMCP接続まで実際に設定して使ってみた記事。リモートMCPサーバーのURLをカスタムコネクタとして登録するだけで接続でき、初回利用時にはOAuth的な認証連携フローを経てAWSのリージョン情報やS3バケット数を取得できたことを紹介している。付与したポリシーがReadOnlyAccessだったため、S3バケットの作成リクエストは意図通りエラーになったことも確認しており、AWSリソースへのMCP接続が実用段階に入ったことを伝える内容になっている。",
+      "category": "agent",
+      "author": "moritalous"
+    },
+    {
+      "source": "qiita",
+      "title": "15年前の『アジャイルサムライ』、AI時代に古びたのは\"作るコスト\"の教えだけだった",
+      "url": "https://qiita.com/tatsuya582/items/88508215a8e22b169166",
+      "summary": "アジャイル開発の定番書『アジャイルサムライ』の教えを、AIコーディングエージェント時代に「古びたもの」と「まだ効くもの」に仕分けた記事。テストを大量に書くこと・ペーパープロトタイプ・当てずっぽうの見積もりなど、「作るコストが高い」ことを前提にした教えはAIによってコストがほぼゼロになり意味合いが変化した一方、イテレーションゼロは今やCLAUDE.mdやskills/hooksの整備という新しい意味を持つと述べる。逆に「動くソフトウェアこそ進歩の尺度」「やらないことリスト」「バグ修正は失敗するテストから」といった認識合わせ・確認系の教えは、AIの申告と実態の乖離やスコープ暴走を防ぐガードレールとしてむしろ重要性が増しているとまとめている。ユビキタス言語もAIへの知識入力として効果が倍増していると指摘している。",
+      "category": "devtool",
+      "author": "tatsuya582"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code・Codex用に、超爆速で超安全なサンドボックスを作る方法",
+      "url": "https://qiita.com/Koukyosyumei/items/3bd4696237ea64c38971",
+      "summary": "コロンビア大学でAI・セキュリティを研究する著者が、Claude CodeとCodexに内蔵されたサンドボックス機構と、より高性能なサードパーティ製サンドボックスツール「h5i」を解説する記事。Claude CodeはBubblewrapやseccompなどOSレベルの制限をBash Toolに適用し、settings.jsonのsandboxブロックでネットワークアクセス可否や認証情報の扱いを設定できると説明している。Codexはsandbox policy（read-only/workspace-write/danger-full-access）とapproval policyを組み合わせて全コマンドをOSレベルサンドボックスで実行する仕組みを持つ。h5iはコマンド単位ではなく作業環境そのものを隔離するツールで、システムコール監視とnamespace設定により0.2〜3秒という軽量さでGit worktreeベースの隔離環境を提供し、プロンプトインジェクションやハルシネーションによる誤作動から元環境を保護できると紹介している。",
+      "category": "security",
+      "author": "Koukyosyumei"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）",
+      "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a",
+      "summary": "新卒エンジニアがClaude Codeについて調べた内容を、インストール方法からCLAUDE.md、権限設定、コンテキストウィンドウ管理まで実践的にまとめた入門記事。2026年現在はネイティブインストーラーが推奨でnpm経由は非推奨になっていること、タスクの重さに応じてOpus/Sonnet/Haikuを使い分けるとコスト・速度の両面で有利であることを紹介している。CLAUDE.mdはプロジェクトの「取扱説明書」として書くべきこと・書かなくていいことを整理し、/permissionsコマンドでの権限設定や、Explore→Plan→Implement→Commitという推奨開発フローも解説している。コンテキストウィンドウ管理がパフォーマンスに直結する最重要ポイントだとして締めくくっている。",
+      "category": "devtool",
+      "author": "fuyunoki"
+    },
+    {
+      "source": "qiita",
+      "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
+      "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
+      "summary": "15歳の少年が動画配信サービスにサイバー攻撃を行い、4万6812件のアカウントを不正に退会処理させたとして逮捕された事件の報道姿勢を批判する記事。著者は、報道が「ChatGPTを使った」という点ばかりを強調し、システム側がなぜオブジェクトレベルの認可チェック（OWASP API Security Top 10のBOLA）を怠っていたのかという根本原因に触れていないと指摘する。ChatGPTはループのコードやHTTPリクエストの生成を手伝える程度で、破壊的操作を許してしまうサーバー側の認可不備こそが本質的な脆弱性だと論じている。さらに、42日間ものサービス停止を要したことから、大規模な不正操作からの検証済み復旧手段を同社が備えていなかった可能性を指摘し、「好奇心を抑制できない人間はセキュリティ業務に関わるべきでない」という世論のコメントにも異議を唱えている。",
+      "category": "security",
+      "author": "ZiYuCai1984"
+    }
+  ]
+}
