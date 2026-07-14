@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-14T00:00:00+09:00</updated>
+  <updated>2026-07-15T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月15日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15.html</id>
+    <updated>2026-07-15T00:00:00+09:00</updated>
+    <summary>PrismMLが「Bonsai 27B」を発表。ternary/1-bit量子化でスマホでも動く27Bクラスモデルを実現し、性能を9割前後維持 / CursorのWindows版に、リポジトリ直下のgit.exeを無条件実行してしまう0dayが半年以上未修正のまま放置と研究者が公開 / Claude Codeを使ったカナダ・アルバータ州政府の大規模レガシーシステム刷新事例や、金融機関でのClaude/Gemini/ChatGPT全社導入の経緯など、実運用でのAI活用事例が複数 / Cursorエージェントへの「ブランチ整理」依頼でDドライブが全消去された事故のポストモーテムが公開され、AIエ…</summary>
+  </entry>
   <entry>
     <title>2026年7月14日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-14.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-24.html</id>
     <updated>2026-06-24T00:00:00+09:00</updated>
     <summary>Anthropicが「Claude Tag」を発表 — SlackにClaudeをチームメンバーとして招待できる新機能 / Zennでは「Claude Code 実践活用」記事が複数トレンド入り（QA自動化・コンテキスト分割・ポートフォリオ開発） / Qiitaでは「Agentjacking」攻撃やCursor独自モデルなどAIセキュリティ・ツール競争に注目 / LLMのコード生成原理を概念的に解説する記事が登場、AIコーディングの内部理解促進へ / DEV.to では「最小AI原則」など、AI活用の哲学・バランスを問う議論が増加</summary>
-  </entry>
-  <entry>
-    <title>2026年6月23日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23-news.html</id>
-    <updated>2026-06-23T00:00:00+09:00</updated>
-    <summary>Google DeepMindがA24に7500万ドル投資し、AI映画製作ツール開発で提携 / SpaceXがReflection AIと最大63億ドルのコンピュート契約を締結 / MicrosoftとChevronが米テキサス州に2.67GWの天然ガスデータセンター計画（Project Kilby） / AIエージェントが「ループ」駆動へ移行し、継続的自律実行が新トレンドに / ノーベル賞受賞者・AlphaFold開発者のJohn JumperがDeepMindを離れAnthropicへ移籍</summary>
   </entry>
 </feed>

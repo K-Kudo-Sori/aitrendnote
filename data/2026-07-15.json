@@ -1,0 +1,226 @@
+{
+  "date": "2026-07-15",
+  "generatedAt": "2026/7/15 7:05:10",
+  "highlights": [
+    "PrismMLが「Bonsai 27B」を発表。ternary/1-bit量子化でスマホでも動く27Bクラスモデルを実現し、性能を9割前後維持",
+    "CursorのWindows版に、リポジトリ直下のgit.exeを無条件実行してしまう0dayが半年以上未修正のまま放置と研究者が公開",
+    "Claude Codeを使ったカナダ・アルバータ州政府の大規模レガシーシステム刷新事例や、金融機関でのClaude/Gemini/ChatGPT全社導入の経緯など、実運用でのAI活用事例が複数",
+    "Cursorエージェントへの「ブランチ整理」依頼でDドライブが全消去された事故のポストモーテムが公開され、AIエージェントの破壊的操作リスクへの注意喚起に"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "How to stop Claude from saying load-bearing",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
+      "summary": "Claude Codeが「load-bearing」や「honest take」といった特徴的な言い回しを多用することにうんざりした筆者が、出力テキストを置換するジョーク的なフックスクリプトを紹介する記事。MessageDisplayフックにPythonスクリプトを登録し、正規表現で決まり文句を別の単語に差し替える手順を解説している。~/.claude/settings.jsonへの設定例も示されており、実用というよりネタ的な内容。",
+      "category": "devtool",
+      "points": 370,
+      "comments": 426,
+      "author": "shintoist"
+    },
+    {
+      "source": "hackernews",
+      "title": "Are we offloading too much of our thinking to AI?",
+      "url": "https://www.artfish.ai/p/offloading-thinking-to-ai",
+      "summary": "AIに思考そのものを委ねすぎることへの懸念を綴ったエッセイ。SF短編「The Perfect Match」の万能AIアシスタントや、全会話を録音しAIに要約・分析させる「マイクロフォンマン」の事例を引き合いに出し、人間の自律性が失われる危険性を論じる。検索エンジンの時代と比べ、AIは思考の中間過程まで肩代わりしてしまう点が質的に異なると指摘。最終的に「本当に大事なことを誰が決めているか」を自問すべきだと結んでいる。",
+      "category": "other",
+      "points": 328,
+      "comments": 319,
+      "author": "yenniejun111"
+    },
+    {
+      "source": "hackernews",
+      "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
+      "url": "https://prismml.com/news/bonsai-27b",
+      "summary": "PrismMLが、Qwen3.6 27Bをベースにした量子化モデル「Bonsai 27B」を発表した記事。ternary（1.71bit相当・5.9GB）と1-bit（1.125bit相当・3.9GB）の2種を用意し、後者はiPhone 17 Proのメモリ容量に収まり27Bクラスのモデルを初めてスマホで動作可能にした。15種のベンチマークでフル精度比でそれぞれ95%・90%の性能を維持しており、特にコーディングやツール呼び出しの性能劣化が小さいという。262Kトークンのコンテキストや投機的デコーディングにも対応し、Apache 2.0で公開されている。",
+      "category": "model",
+      "points": 266,
+      "comments": 90,
+      "author": "xenova"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Juggler – an open-source GUI coding agent, by the creator of JUCE",
+      "url": "https://github.com/juggler-ai/juggler",
+      "summary": "JUCEの作者が開発した、オープンソースのGUIコーディングエージェント「Juggler」の紹介記事。チャット形式の一直線な履歴ではなく、セッションをツリー構造として扱い、Finderのようなカラム表示でツール呼び出しや分岐スレッドを視覚的に確認・編集できる点が特徴。ローカル/リモートいずれでも動作し、Claude CodeやOpenAI、Gemini、Ollamaなど複数のモデルに対応する。デスクトップアプリとヘッドレスサーバーが同梱され、ブラウザからも同一セッションに接続できる。",
+      "category": "devtool",
+      "points": 142,
+      "comments": 75,
+      "author": "julesrms"
+    },
+    {
+      "source": "hackernews",
+      "title": "Cursor 0day: When Full Disclosure Becomes the Only Protection Left",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+      "summary": "セキュリティ企業Mindgardが、Cursor（Windows版）の未修正0dayを公開した記事。リポジトリ直下に悪意あるgit.exeを配置しておくだけで、プロジェクトを開いた際にユーザーの操作なしに任意コード実行が成立するという単純な脆弱性。2025年12月に報告してから半年以上・197以上のバージョン更新を経ても修正されず、開発元からの応答もほとんどないため、フルディスクロージャーに踏み切ったと説明している。当面の対策として、信頼できないリポジトリは隔離環境で開くことや、AppLockerによるパスベースの実行制限を挙げている。",
+      "category": "security",
+      "points": 142,
+      "comments": 53,
+      "author": "Synthetic7346"
+    },
+    {
+      "source": "zenn",
+      "title": "Cursorに「不要なブランチを整理して」と頼んだら、Dドライブが消えた話",
+      "url": "https://zenn.dev/iwaken71/articles/cursor-agent-d-drive-deleted",
+      "summary": "CursorのAgentに「不要なブランチを整理して」と依頼したところ、Dドライブ配下のデータがゴミ箱を経由せず全消失したというポストモーテム記事。チャット・ターミナル履歴も失われ実行コマンドは特定できなかったが、原因としてgit clean -fdxの誤爆や削除コマンドのパス誤解決が有力視されている。Claude CodeやGemini CLI、Replitでも同種の破壊的操作事故が公開報告されており、特定製品ではなくAIエージェントというアーキテクチャ全般の構造的問題だと指摘。再発防止策として、自動実行の無効化・破壊的コマンドの拒否リスト登録・プロジェクト単位でのワークスペース限定という3層の防御を提案している。",
+      "category": "agent",
+      "points": 122,
+      "author": "イワケン"
+    },
+    {
+      "source": "zenn",
+      "title": "AI臭は語彙よりリズムに出る - 自然な日本語を書くAgent Skillと7モデル×406本の実測",
+      "url": "https://zenn.dev/coji/articles/natural-japanese-ai-smell-lint",
+      "summary": "AIが書いた日本語文章を自然にするClaude Code向けAgent Skill「natural-japanese」を開発した記事。禁止語彙の除去だけでは不十分で、AI臭さは文の長短の均質さ（burstiness）というリズムの特徴に現れることを、人間137本・AI406本のコーパスで検証したlintツールにより示している。Sonnet 5やgpt-5.6など7モデルの生成文を同じ基準で診断した結果、特にgpt-5.6は文長・段落構造の均質さで顕著に「AI臭」が検出されたという。検出は機械的に行い、修正判断はAI自身に委ねる設計思想を採用している。",
+      "category": "devtool",
+      "points": 65,
+      "author": "Coji Mizoguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
+      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
+      "summary": "本文取得成功。CloudflareのEmail SendingがSMTP送信に対応したことで、Email Routing（受信）と組み合わせ、Gmailだけで独自ドメインメールの送受信が完結するようになったという個人開発向けの技術記事。従来はGmail自身のSMTPを使うと送信元アドレスが受信者に透けて見える欠点があったが、Cloudflare経由ならその問題を回避できると説明。Workers Paidプラン（月5ドル）への加入が必要という料金面や、具体的な設定手順も紹介している。AIとは直接関係のない内容。",
+      "category": "other",
+      "points": 135,
+      "author": "𝘬𝘰𝘴𝘶𝘨𝘦"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeでレガシーシステムの刷新を進めた方法",
+      "url": "https://zenn.dev/knowledgesense/articles/67c61463d9c664",
+      "summary": "カナダ・アルバータ州政府が抱える約1,280本のレガシーアプリケーション（総計4億6600万行）に対し、Claude Codeを用いて脆弱性調査からコード修正、システム再構築までを進めた事例を紹介する記事。静的解析による機械的検出、Claudeによるレビュー、少ない修正で済むものは自動修正、複雑な場合は新設計での再構築という4段階の手法を採用し、最終判断は必ず人間が行う体制にしている。レッドチーム役・ブルーチーム役など役割ごとに複数のエージェントを運用し、25年前に5か月かけて開発したシステムのプロトタイプを4日で再現できた（25倍速）という成果も紹介されている。",
+      "category": "devtool",
+      "points": 16,
+      "author": "sasakuna"
+    },
+    {
+      "source": "zenn",
+      "title": "情報漏洩に敏感な金融機関で、Claude・Gemini・ChatGPTを導入した話",
+      "url": "https://zenn.dev/seiuchi3939/articles/b12d6746d9f187",
+      "summary": "情報漏洩に厳しい国内金融機関で、Claude・Gemini・ChatGPTを全社導入するに至った経緯を、社内のセキュリティ担当者が解説する記事。「導入するリスク」だけでなく「導入しないリスク（人材流出や他社への劣後）」も同じ土俵で評価する議論の転換がポイントだったという。情報漏洩経路をチャット入力と外部ツール接続の2つに整理し、Enterpriseプランの学習非利用契約や既存のプロキシ・監視基盤の活用、許可制の操作リストという3段構えで対策を講じてリスク部門の合意を得た経緯を紹介している。",
+      "category": "security",
+      "points": 48,
+      "author": "てくてくエンジニア"
+    },
+    {
+      "source": "devto",
+      "title": "8 Things Developers Confidently Explain After Watching One YouTube Video",
+      "url": "https://dev.to/sylwia-lask/8-things-developers-confidently-explain-after-watching-one-youtube-video-3jio",
+      "summary": "YouTube動画を1本見ただけで自信満々に語り出す「LinkedInグル」的な開発者あるあるをユーモラスに挙げるコラム記事。フレームワーク論争や「LLMは単なる自己補完に過ぎない」という主張、CQRS/Reduxの誤解などを例に、浅い理解のまま断定的に語ることの落とし穴を指摘している。LLMの創造性についても、人間の創造性の多くも既存要素の組み合わせに過ぎないとして擁護する立場を示す。全体的に軽い読み物としての性格が強い。",
+      "category": "other",
+      "points": 12,
+      "comments": 9,
+      "author": "Sylwia Laskowska",
+      "tags": [
+        "jokes",
+        "webdev",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How I made a Rust hot path 27x faster, and the AI fix I refused to merge",
+      "url": "https://dev.to/zacharylee/how-i-made-a-rust-hot-path-27x-faster-and-the-ai-fix-i-refused-to-merge-3llg",
+      "summary": "デスクトップアプリ「KeyEcho」の音声再生ホットパスを、AIエージェントと協働しながら27倍高速化した事例を解説する記事。サウンドパック選択時に音声を事前デコードし重複スライスを共有、Arc参照カウントによるゼロコピー再生、グローバルMutexの排除などの手法でキー入力ごとのコピー量をゼロにした。AIエージェントが提案した一見きれいな変更の中に、機能を静かに壊しかねないものがあり、それを見送った判断についても紹介している。",
+      "category": "devtool",
+      "points": 6,
+      "comments": 1,
+      "author": "Zachary Lee",
+      "tags": [
+        "rust",
+        "ai",
+        "performance",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Building a Hybrid Docker Orchestrator in Go: The Journey from Single VM to Multi-Node Cluster",
+      "url": "https://dev.to/gde/building-a-hybrid-docker-orchestrator-in-go-the-journey-from-single-vm-to-multi-node-cluster-3i7m",
+      "summary": "Docker ComposeとHashiCorp Nomadの中間を狙った軽量コンテナオーケストレーター「Gubernator（gbnt）」を、単一ノードからマルチノードクラスタへ拡張した過程を紹介する記事。中央のSQLite状態管理とワーカー側のローカルキャッシュ、CoreDNSとCaddyによる分散型のDNS・Ingressルーティングにより、マネージャーへのトラフィック集中を避ける設計を採用している。Go言語のコードやFlutterダッシュボード、クラスタ構築のすべてをGoogle DeepMindのエージェント型AIコーディングツール「Antigravity」と協働で書いた点が特徴として語られている。",
+      "category": "infra",
+      "points": 5,
+      "comments": 0,
+      "author": "Mario Ezquerro",
+      "tags": [
+        "devops",
+        "docker",
+        "ai",
+        "antigravity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Stratagems #13: P Posted a Question on a Public Forum. 24 Hours Later, an AI Sales Team Called.",
+      "url": "https://dev.to/xulingfeng/stratagems-13-p-posted-a-question-on-a-public-forum-24-hours-later-their-sales-team-called-29h1",
+      "summary": "「36計」になぞらえてAI業界の欺瞞や倫理を描く連載フィクションの第13話。主人公Pが過去に公開フォーラムに投稿したリスクモデリング手法の技術的な議論が、そっくりそのまま競合企業Finovaの製品アーキテクチャに転用されていたことに気づく場面を描く。AI評価・監査を巡るドラマ仕立ての物語で、ベンチマーク改ざんや監視の死角など、これまでの回で描かれてきたテーマの延長線上にある。実務的な技術解説ではなく創作記事。",
+      "category": "other",
+      "points": 33,
+      "comments": 15,
+      "author": "xulingfeng",
+      "tags": [
+        "ai",
+        "discuss",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Logging workouts is solved. I'm building what comes after.",
+      "url": "https://dev.to/arqamwd/logging-workouts-is-solved-im-building-what-comes-after-36cc",
+      "summary": "既存のワークアウトトラッカーが「記録するだけ」で終わっている課題を解決するため、AIコーチ機能付きの筋トレアプリ「WhyRep」を開発している起業家の記事。筆者自身が3年間学んだ筋肥大の運動生理学に基づき、進捗判定・オートレギュレーション・停滞診断などのロジックを先にドキュメント化し、決定論的なエンジンとして実装した上で、Claude（LLM）はその範囲内で会話的な説明のみを担当させる設計思想を採用している。LLMに独自の運動理論を生成させない、という制約を明確に設けている点が特徴。",
+      "category": "product",
+      "points": 18,
+      "comments": 2,
+      "author": "Arqam Waheed",
+      "tags": [
+        "buildinpublic",
+        "ai",
+        "fitness",
+        "startup"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
+      "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
+      "summary": "動画配信サービスで15歳がChatGPTの助けを借りて脆弱性を突き、4万6812件のアカウントを不正に退会させた事件について、「ChatGPTが原因」という報道の切り口を批判的に検証する記事。ChatGPTはHTTPリクエストの作成などを手伝えるに過ぎず、真の原因はサーバー側のオブジェクトレベル認可不備（BOLA）など既存の脆弱性にあると指摘。再認証やレート制限、監査ログ、自動遮断が機能しなかった可能性や、42日以上に及んだサービス停止・136万件規模の情報漏洩の可能性についても、事故調査で確認されるべき論点として整理している。",
+      "category": "security",
+      "author": "ZiYuCai1984"
+    },
+    {
+      "source": "qiita",
+      "title": "あなたの技術ブログの「AI臭さ」を抜くスキル公開します",
+      "url": "https://qiita.com/minorun365/items/699e89544da8b0de300d",
+      "summary": "AI生成文章特有の「AI臭さ」を消すためのClaude Code/Codex向けAgent Skill「writing-guide」を無料公開する記事。太字やダッシュの多用、「〜することができます」のような冗長表現、均等網羅的な箇条書きなど、AI文章に頻出するパターンを禁止リストとして整理し、代わりに個人の経験談や失敗談、比喩を交えることで人間味を出すテクニックを提案している。箇条書きは3〜4項目までに抑える、1スライド1メッセージにするといった情報密度のコントロールについても具体的なルールを示している。",
+      "category": "devtool",
+      "author": "minorun365"
+    },
+    {
+      "source": "qiita",
+      "title": "Railsで学ぶ 暗号化とハッシュ 〜master.keyやDeviseは内部で何をしている？〜",
+      "url": "https://qiita.com/akachiryo/items/5a1deaa541d70e11d85f",
+      "summary": "Ruby on Railsのmaster.key・credentials.yml.enc・Deviseのパスワード・cookies.signedが、内部でAES・RSA・SHA・bcryptのどれを使っているかを整理する技術記事。暗号化（復号可能）とハッシュ（復号不可能）は別カテゴリであり、パスワード保存に高速なSHAを使うと総当たり攻撃に弱くなるため、意図的に低速でソルト付きのbcryptを使うべきだと説明している。credentials.yml.encはAESで暗号化されmaster.keyで復号する対称鍵方式であること、Deviseのencrypted_passwordカラムは名前に反して実際にはハッシュであることなど、実務上混同しやすい点を解説している。",
+      "category": "security",
+      "author": "akachiryo"
+    },
+    {
+      "source": "qiita",
+      "title": "エラー対応理由考えてる？コピペしてAIに聞いてるでしょ",
+      "url": "https://qiita.com/prum_sumomo/items/535a697aeaea41515de9",
+      "summary": "エラーメッセージを読まずにAIへそのままコピペして答えを試すだけの習慣に警鐘を鳴らす記事。エラーの種類・発生箇所・期待値と実際の値という3つの手がかりを自分で拾ってからAIに質問すると、質問や検索の精度自体が上がると説く。エラーメッセージの読解は一般的な読解力とは異なる専門スキルであり、手がかりを拾う作業を繰り返すことで、仕様理解も後から自然に身につくという学習観を示している。",
+      "category": "other",
+      "author": "prum_sumomo"
+    },
+    {
+      "source": "qiita",
+      "title": "「めっちゃカメレオン」が教えてくれた、アイディア力こそAI時代の最強武器",
+      "url": "https://qiita.com/prum_sumomo/items/dbabb5c130aae2566f0f",
+      "summary": "発売1ヶ月足らずで1500万本を突破したインディーゲーム「めっちゃカメレオン」を題材に、AI時代にはアイディア力こそが技術者にとって重要になるという主張を展開するコラム記事。テトリスやぷよぷよなど、シンプルな発想が何十年も愛される名作を例に、既存要素の新しい組み合わせこそが発想の本質だと述べる。AIの発展によって技術力の差は埋まっていくため、これからのエンジニアは「何を作るか」を考える力を鍛えるべきだと結んでいる。",
+      "category": "product",
+      "author": "prum_sumomo"
+    }
+  ]
+}
