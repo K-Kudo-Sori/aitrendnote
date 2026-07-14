@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-13T00:00:00+09:00</updated>
+  <updated>2026-07-14T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月14日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-14.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-14.html</id>
+    <updated>2026-07-14T00:00:00+09:00</updated>
+    <summary>AppleのSpeechAnalyzerがWhisper Smallを精度・速度で上回る初の実測ベンチマークが公開 / 「Cursorに頼んだらDドライブ消失」ポストモーテムが話題。AIエージェントの破壊的操作への3層防御を提言 / 金融機関でのClaude・Gemini・ChatGPT全社導入事例。「導入しないリスク」の可視化とリスク分解が鍵 / Agent Skills自動最適化の2026年上半期研究は「深層学習の訓練ループのテキスト版」だとLayerXが整理 / AIコーディングの電力消費が1日あたり平均的ナイジェリア人の全電力供給を超えるという試算が反響</summary>
+  </entry>
   <entry>
     <title>2026年7月13日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23-news.html</id>
     <updated>2026-06-23T00:00:00+09:00</updated>
     <summary>Google DeepMindがA24に7500万ドル投資し、AI映画製作ツール開発で提携 / SpaceXがReflection AIと最大63億ドルのコンピュート契約を締結 / MicrosoftとChevronが米テキサス州に2.67GWの天然ガスデータセンター計画（Project Kilby） / AIエージェントが「ループ」駆動へ移行し、継続的自律実行が新トレンドに / ノーベル賞受賞者・AlphaFold開発者のJohn JumperがDeepMindを離れAnthropicへ移籍</summary>
-  </entry>
-  <entry>
-    <title>2026年6月23日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-23.html</id>
-    <updated>2026-06-23T00:00:00+09:00</updated>
-    <summary>Claude CodeのExtended Thinking出力は実際の思考ではなく暗号化署名と要約のみで構成されており、監査目的での利用には注意が必要と指摘された / LG・SamsungのスマートTV 6,038本のうち約34%に住宅プロキシSDKが内包されており、ユーザー不知のままネットワークが悪用される実態が調査で判明 / AIコーディングエージェント普及により受託開発の外注需要が2026年時点ですでに縮小し始めており、2027年予測より2年近く早く影響が顕在化 / AIエージェントのセキュリティ脆弱性として「プロンプトインジェクション」「ツール説明ポイズニング」「出力無検証トラスト」…</summary>
   </entry>
 </feed>

@@ -1,0 +1,219 @@
+{
+  "date": "2026-07-14",
+  "generatedAt": "2026/7/14 9:29:54",
+  "highlights": [
+    "AppleのSpeechAnalyzerがWhisper Smallを精度・速度で上回る初の実測ベンチマークが公開",
+    "「Cursorに頼んだらDドライブ消失」ポストモーテムが話題。AIエージェントの破壊的操作への3層防御を提言",
+    "金融機関でのClaude・Gemini・ChatGPT全社導入事例。「導入しないリスク」の可視化とリスク分解が鍵",
+    "Agent Skills自動最適化の2026年上半期研究は「深層学習の訓練ループのテキスト版」だとLayerXが整理",
+    "AIコーディングの電力消費が1日あたり平均的ナイジェリア人の全電力供給を超えるという試算が反響"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Apple's new SpeechAnalyzer API, benchmarked against Whisper and its predecessor",
+      "url": "https://get-inscribe.com/blog/apple-speech-api-benchmark.html",
+      "summary": "AppleがiOS 26 / macOS 26で導入した新音声認識API「SpeechAnalyzer」を、旧API（SFSpeechRecognizer）およびWhisper各モデルとLibriSpeechの5,559発話で比較した初の本格ベンチマーク。SpeechAnalyzerはクリーン音声でWER 2.12%、ノイズ音声で4.56%を記録し、Whisper Small（3.74% / 7.95%）を精度で上回りつつ約3倍高速だった。一方、旧APIのSFSpeechRecognizerはクリーン音声で9.02%と、わずか40MBのWhisper Tinyにも劣る最下位だった。旧APIからの移行で誤認識語数が約4分の1になる計算で、筆者は移行を強く推奨している。全トランスクリプトも公開されており、オンデバイス音声認識の選定材料として貴重なデータとなっている。",
+      "category": "model",
+      "points": 424,
+      "comments": 176,
+      "author": "get-inscribe"
+    },
+    {
+      "source": "hackernews",
+      "title": "Telegram's t.me domain has been suspended",
+      "url": "https://www.whois.com/whois/t.me",
+      "summary": "Telegramの短縮リンク用ドメイン「t.me」のWHOIS情報に「serverHold」ステータスが付与され、ドメインが一時停止状態になっていることが確認された。WHOISデータによればレジストラはGoDaddyで、2026-07-13に情報が更新されている。serverHoldはレジストリ側がドメインをDNSから外す措置であり、t.meリンクの名前解決に影響が出る可能性がある。登録者情報はDomains By Proxy経由で秘匿されており、停止の理由は本文からは不明。Telegramのリンク共有インフラの根幹に関わるため、Hacker Newsで大きな注目を集めた。",
+      "category": "other",
+      "points": 234,
+      "comments": 164,
+      "author": "Tiberium"
+    },
+    {
+      "source": "hackernews",
+      "title": "Samsung Health app threatens data deletion if users opt out AI training",
+      "url": "https://neow.in/cWsyMTV3",
+      "summary": "本文取得失敗。タイトルによれば、Samsung Healthアプリがユーザーに対し、AIトレーニングへのデータ提供をオプトアウトすると健康データを削除すると通告しているという内容。AI学習へのデータ利用と引き換えにサービス継続を迫る設計がプライバシー面で議論を呼んでいるとみられる。詳細は元記事を参照。",
+      "category": "security",
+      "points": 228,
+      "comments": 64,
+      "author": "bundie"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude is just Mr. Meeseeks",
+      "url": "https://github.com/thephw/claude-meseeks",
+      "summary": "Claude Codeがユーザーの入力待ちになった瞬間に、アニメ「リック・アンド・モーティ」のミスター・ミーシークスの音声を再生するジョーク混じりのプラグイン「claude-meseeks」の紹介。タスク完了時には「All done!」などの完了系クリップ、承認待ち時には「Can you help me?」などの問いかけ系クリップが流れ、Notificationイベントのnotification_typeでフィルタするため自律実行中やサブエージェント動作中は鳴らない仕組み。再生はGo製のCLI「meeseeks」が担い、クリップはバイナリに埋め込み済みでプリビルドバイナリも同梱される。リポジトリ自体がプラグインマーケットプレイスを兼ねており、2コマンドでインストールできる。Claude Codeのフック機構の実用的な活用例としても参考になる。",
+      "category": "devtool",
+      "points": 103,
+      "comments": 40,
+      "author": "patrickwiseman"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Nobie – an Excel-compatible runtime for agents and humans",
+      "url": "https://nobie.com",
+      "summary": "Mac向けのExcel互換スプレッドシートランタイム「Nobie」のShow HN投稿。Windows版Excelのキーボードショートカットを完全再現し、数式・スタイルをピクセル単位でExcel互換にすることを掲げ、ファイル形式も純粋なxlsxのみを使うためExcelといつでも相互運用できる。最大の特徴はAIファーストの設計で、Claude・Codex・Geminiなど好みのAIエージェントを仲介なしでスプレッドシートに直接接続できる。データは完全ローカル処理でサーバーへの送信は一切なく、アカウント登録も不要、個人利用は無料とされる。VBA・マクロやマルチプレイヤー編集は今後対応予定のベータ段階。",
+      "category": "product",
+      "points": 71,
+      "comments": 35,
+      "author": "matthewgapp"
+    },
+    {
+      "source": "zenn",
+      "title": "Cursorに「不要なブランチを整理して」と頼んだら、Dドライブが消えた話",
+      "url": "https://zenn.dev/iwaken71/articles/cursor-agent-d-drive-deleted",
+      "summary": "Cursorのエージェントに「不要なブランチを整理して」と依頼したところ、Dドライブ配下の全データがゴミ箱にも残らず消失したというポストモーテム。チャット履歴・ターミナル履歴も失われ実行コマンドは特定できていないが、AIによる分析では「git clean -fdx の誤爆（ドライブ直下に.gitの残骸があるとドライブ全体が対象になる）」または「削除コマンドの変数が空・誤解決してドライブルートに向かった」が有力とされる。同種の事故はClaude CodeやGemini CLIでも公開報告があり、特定ツールではなくAIエージェント全般の構造的問題だと筆者は指摘する。教訓として、エージェント設定・OS権限・バックアップの3層で防御すべきと結論づけている。GitHubにpush済みのデータは復旧できたが、未pushのローカル変更は失われた。",
+      "category": "devtool",
+      "points": 79,
+      "author": "イワケン"
+    },
+    {
+      "source": "zenn",
+      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
+      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
+      "summary": "Cloudflareが2026年6月にEmail SendingのSMTP送信対応（ベータ）を開始したことで、独自ドメインメールの送受信がCloudflareだけで完結できるようになったという解説記事。従来は受信専用のEmail Routingしかなく送信用SMTPサーバーがなかったため、Gmail自身のSMTPを使うと受信者側に元のGmailアドレスが「代理送信」として見えてしまう問題があった。新方式では受信はEmail RoutingでGmailに転送、送信はEmail SendingのSMTPエンドポイントをGmailの「他のメールアドレスから送信」に設定する構成になる。SPF・DKIM・DMARCのDNSレコードもオンボード時にCloudflareが設定してくれる。ただしEmail Sendingの利用にはWorkers Paidプラン（月5ドル〜）への加入が必要。",
+      "category": "other",
+      "points": 120,
+      "author": "𝘬𝘰𝘴𝘶𝘨𝘦"
+    },
+    {
+      "source": "zenn",
+      "title": "情報漏洩に敏感な金融機関で、Claude・Gemini・ChatGPTを導入した話",
+      "url": "https://zenn.dev/seiuchi3939/articles/b12d6746d9f187",
+      "summary": "国内金融機関の情報システム・セキュリティ担当者による、Claude・Gemini・ChatGPTの全社導入の経緯の共有。まず「導入するリスク」だけでなく人材流出や他社劣後といった「導入しないリスク」も同じ土俵で評価する論点を提示し、議論を「導入するか否か」から「どう安全に導入するか」へ転換させた。情報漏洩経路を「チャットへの直接入力」と「MCP等の外部ツール連携経由」の2つに分解し、前者はEnterprise契約の学習オプトアウトで、後者はProxy・メールフィルタ・承認フローなど既存セキュリティ基盤の適用で対処した。最後の防波堤として「許可された操作のみ実行可能」とする許可制リストを設け、リスク部門の納得を得た。エージェント型ツールは「個人の効率化ツール」と「業務プロセス組み込み」を分け 、後者のみ台帳管理する切り分けが実務上有効だったという。",
+      "category": "security",
+      "points": 40,
+      "author": "てくてくエンジニア"
+    },
+    {
+      "source": "zenn",
+      "title": "AI臭は語彙よりリズムに出る - 自然な日本語を書くAgent Skillと7モデル×406本の実測",
+      "url": "https://zenn.dev/coji/articles/natural-japanese-ai-smell-lint",
+      "summary": "AIが書いた日本語を自然に直すAgent Skill「natural-japanese」の紹介と、その裏付けとなる実測データの記事。人間の文章137本とAI文章406本のコーパスで閾値を校正したAI臭検出lintをスキルの工程に組み込み、Claude CodeやCodexで動作する。最近のモデルは悪名高い定型句をほぼ使わなくなった一方、文長が平均56モーラ前後に揃う「文長リズムの均質さ（low burstiness）」にAI臭が残ると指摘する。AIに「リズムが単調」と指摘しても短文に揃え直すだけで均質さは解消されなかったため、検出は機械が決定的に行い、修正判断だけをAIに委ねる設計にしたという。gpt-5.6を含む7モデルを同じ物差しで診断した結果も掲載されている。",
+      "category": "devtool",
+      "points": 29,
+      "author": "Coji Mizoguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "Agent Skills自動最適化の研究、中身はほぼ深層学習の訓練ループだった",
+      "url": "https://zenn.dev/layerx/articles/9f25ec86a31730",
+      "summary": "LayerXのエンジニアによる、Agent Skills（SKILL.mdを含むスキルフォルダ）をエージェントの実行経験から自動最適化する2026年上半期の研究動向の整理。紹介される論文はいずれも、学習パラメータをSKILL.md、訓練データを実行トラジェクトリ、損失関数を検証信号、勾配・学習率をテキスト編集とその量の制御に置き換えた、深層学習の訓練ループとほぼ同型の構造を持つという。Anthropic公式のスキル作成ベストプラクティス（ギャップ特定→評価作成→ベースライン測定→最小限の記述→反復）自体がすでに訓練ループの形をしており、研究群はその各部品の自動化だと位置づける。正解データがあるとは限らない検証信号の設計が最も難しい部品だと指摘している。紹介論文はすべて2026年3〜6月の未査読プレプリントで、数値の優劣ではなくループ設計に焦点を当てている。",
+      "category": "research",
+      "points": 145,
+      "author": "223"
+    },
+    {
+      "source": "devto",
+      "title": "The Myth of the Post-Documentation Era",
+      "url": "https://dev.to/ben/the-myth-of-the-post-documentation-era-39al",
+      "summary": "DEV創設者Ben Halpernによる「AIエージェント時代にドキュメントは不要になった」という言説への反論。コードやOpenAPI仕様はシステムが「どう」動くかは伝えられるが、「なぜ」そう設計されたのか、アーキテクチャ上のトレードオフや歴史的経緯は表現できないと指摘する。エージェントはパターンマッチングは得意でも設計思想や人間の意図の理解には苦しむため、非決定的なシステムに対するガードレールとして散文が最も効率的な意図伝達手段であり続けるという。ドキュメント生成の自動化自体は有効としつつ、無検証のLLM生成に丸投げすると「slopがslopを説明する」無価値なフィードバックループに陥ると警告し、人間のエンジニアリング監督が不可欠だと結論づけている。",
+      "category": "devtool",
+      "points": 61,
+      "comments": 12,
+      "author": "Ben Halpern",
+      "tags": [
+        "ai",
+        "documentation",
+        "opensource",
+        "codequality"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "my ai coding session burns more power than the average nigerian gets all day.",
+      "url": "https://dev.to/dannwaneri/my-ai-coding-session-burns-more-power-than-the-average-nigerian-gets-all-day-3l87",
+      "summary": "ナイジェリア・ポートハーコート在住の開発者が、AIコーディングの電力消費を自国の電力事情と対比したエッセイ。通常のチャット応答1回が約0.3Whなのに対し、Simon Couchの実測ではClaude Codeセッションの中央値は41Whと約130倍、KAISTの測定では70Bパラメータのエージェントはクエリあたり平均348Whに達するという。Simon Willisonは自身のヘビーな1日の利用を1〜1.5kWhと見積もるが、ナイジェリアの平均的な国民の電力供給は1日0.45kWhに過ぎない。Gartnerによれば世界のデータセンター消費は今年565TWhに達し、AI最適化サーバーだけで95TWh（2025年）から175TWh（2026年）へ84%急増した。雨で停電・回線切断が起きる環境からAIエージェントを回す当事者としての実感が、エネルギー格差の問題を鮮明に描き出している。",
+      "category": "infra",
+      "points": 17,
+      "comments": 50,
+      "author": "Daniel Nwaneri"
+    },
+    {
+      "source": "devto",
+      "title": "Porting Gemma-4 (2B / 4B / 12B) to AWS Inferentia2",
+      "url": "https://dev.to/gde/porting-gemma-4-2b-4b-12b-to-aws-inferentia2-2jnf",
+      "summary": "GoogleのGemma-4ファミリー（E2B/E4B/12B）をAWS Inferentia2で動かすまでの技術詳報。Gemma-4はPer-Layer Embeddings、クロスレイヤーKV共有、スライディングウィンドウとグローバル注意の混在、26万語彙へのlogitソフトキャッピングなどTPU/XLA向けの設計が多く、AWSのベンダースタック（optimum-neuron / neuronx-distributed / Neuron vLLM）にはGemma-4のモデルクラス自体が存在せず、グラフビルダーがKV共有を表現できないため公式経路では「流暢な意味不明文」しか出なかったという。筆者はNeuron SDK 2.23上で3つのアーキテクチャ上の障害を回避するレシピを確立し、E2Bで約44トークン/秒、12BでTP=2の約15トークン/秒を達成、greedyデコードはCPU参照実装とトークン単位で一致した。成果物はHugging FaceとDocker Hubで公開されている。",
+      "category": "infra",
+      "points": 9,
+      "comments": 3,
+      "author": "xbill",
+      "tags": [
+        "machinelearning",
+        "aws",
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built a Monitor for Servers. Then Pointed It at Myself.",
+      "url": "https://dev.to/dannwaneri/i-built-a-monitor-for-servers-then-pointed-it-at-myself-g5",
+      "summary": "Cloudflare Workerでサーバー監視ツールを作った開発者が、同じアーキテクチャを「睡眠を犠牲にすべき試合か」の判定に転用した「Nightwatch」の紹介。ワールドカップの深夜キックオフに悩むナイジェリアの筆者が、決定的なイベントかを決定論的なゲートで判定し、通過した場合のみClaude Haikuに「起きる価値があるか」を判断させ、生き残った通知だけをTelegramに送る3段構成を採った。4-0の試合の4点目と90分の同点弾は同じ「ゴール」イベントだが起きる価値が違う、というLLMによる価値判断が核心で、静かな時間帯はAnthropic APIを一切呼ばないためコストも抑えられる。デモはアルゼンチン対スイス戦の実イベントフィードを本番パイプラインでリプレイして実施された。",
+      "category": "agent",
+      "points": 21,
+      "comments": 2,
+      "author": "Daniel Nwaneri",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built an AI That Turns Your Passion Into a Cinematic Origin Story",
+      "url": "https://dev.to/divyesh5981/i-built-an-ai-that-turns-your-passion-into-a-cinematic-origin-story-4j8l",
+      "summary": "7つの質問に答えると、その人の「情熱」を映画のオープニングのようなマイクロサイトに変換するWebアプリ「Origin」の開発記。オリジンストーリー、5段階のタイムライン、ホログラフィックなキャラクターカード、AI生成の映画ポスター、音声ナレーション、QRコード付き共有ページまで生成する。ストーリー生成はGemini 2.5 Flashが担い、応答は毎回バリデーションして不備があれば自動で修正を依頼する設計で、「どん底」と「転機」の回答が矛盾すると指摘する矛盾検出器も備える。スタックはNext.js 16 + React 19 + TypeScript + Tailwind v4 + Three.jsで、WebGL対応・モーション設定・デバイス性能を起動時に判定して3D/2D表示を自動で切り替える。サインアップ不要のゲストファースト設計で、デモの離脱を防ぐ判断も weekend challenge らしい割り切りとなっている。",
+      "category": "product",
+      "points": 45,
+      "comments": 4,
+      "author": "Divyesh",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code、とりあえずこれ読んどけばOKなまとめ（2026年版）",
+      "url": "https://qiita.com/fuyunoki/items/5818688d20225aa8088a",
+      "summary": "新卒エンジニアによる、2026年時点のClaude Code入門まとめ。公式ドキュメントではネイティブインストーラーが推奨に変わり、npm経由のインストールは非推奨（Deprecated）扱いになったことをまず押さえる。日本語利用やモデル切り替え（設計判断はOpus系、普段の実装はSonnet系、単純作業の大量処理はHaiku系という使い分け）といった初期設定を解説。CLAUDE.mdを「配属時に先輩から渡される資料」に例え、配置場所ごとの適用範囲や /init による雛形自動生成を紹介する。公式ドキュメントだけでなく現役エンジニアのブログやAnthropic社内事例も踏まえた、これから触る人向けの網羅的なガイドになっている。",
+      "category": "devtool",
+      "author": "fuyunoki"
+    },
+    {
+      "source": "qiita",
+      "title": "あなたの技術ブログの「AI臭さ」を抜くスキル公開します",
+      "url": "https://qiita.com/minorun365/items/699e89544da8b0de300d",
+      "summary": "技術ブログやスライドから「AI臭さ」を抜くためのClaude Code / Codex用Agent Skill（writing-guide）を丸ごと公開した記事。太字の多用、ダッシュ区切り、「項目名: 説明」形式、見出しの「です・ます」調、体言止めの連発、「〜することができます」などAI生成文に頻出する禁止パターンを、理由と代替表現つきの一覧表にまとめている。人間味を出すテクニックとして、実際に触った経験や失敗談、主観を入れること、比喩と噛み砕き、読者への安心フレーズなどを挙げる。箇条書きは3〜4項目・階層1段までなど情報密度のルールや、安易にMermaidを使わずSVGで図版を作るルールも含む。記事の内容をそのままコピペしてスキルとして登録すれば使える実用的な構成になっている。",
+      "category": "devtool",
+      "author": "minorun365"
+    },
+    {
+      "source": "qiita",
+      "title": "「15歳とChatGPT」より、4万6812件が退会させられたシステムについて考えたい",
+      "url": "https://qiita.com/ZiYuCai1984/items/636c7c15cd666e987a90",
+      "summary": "バンダイチャンネルへのサイバー攻撃で15歳が4万6812件のアカウントを不正退会させ逮捕された事件について、報道が「ChatGPTを使った」点ばかり強調することへの批判的考察。ChatGPTが手伝えるのはループやHTTPリクエストの作成程度で、攻撃の成立を決めるのは権限のない人間に破壊的操作を許すサーバー側の脆弱性であり、OWASP API Security Top 10最上位のBOLA（オブジェクトレベル認可の不備）と密接に関係する一般論だと整理する。認可チェックが正しければ、どんなコード生成モデルを使っても得られるのは403 Forbiddenの山だけだと指摘。数時間で4万件超の破壊的操作を自動遮断できなかった以上、再認証・レート制限・監査ログ・サーキットブレーカーが機能したのかを検証すべきインシデントであり、「障害」という表現では済まないと問いかける。ドリルで金庫が開けられた事件で、金庫が段ボール製だった理由を報じない報道姿勢への比喩が印象的。",
+      "category": "security",
+      "author": "ZiYuCai1984"
+    },
+    {
+      "source": "qiita",
+      "title": "「めっちゃカメレオン」が教えてくれた、アイディア力こそAI時代の最強武器",
+      "url": "https://qiita.com/prum_sumomo/items/dbabb5c130aae2566f0f",
+      "summary": "発売1ヶ月足らずで1500万本を突破した個人開発ゲーム「めっちゃカメレオン」を題材に、AI時代のエンジニアにとってアイディア力こそ重要だと説く記事。テトリス、ぷよぷよ、スイカゲームなどシンプルなルールで何十年も愛される名作を挙げ、中毒性の正体を「フックモデル」（トリガー→アクション→可変報酬→投資）の観点から解説する。ぷよぷよが「テトリスの硬いを柔らかいに反転」から生まれたように、発想の本質はゼロからの創造ではなく既存要素の新しい組み合わせだと述べる。AIが技術力の差を埋めていく時代には「何を作るか」を考える力が競争力になり、プログラミング未経験者もアイディア力を軸に活躍できる未来が近いと結ぶ。",
+      "category": "other",
+      "author": "prum_sumomo"
+    },
+    {
+      "source": "qiita",
+      "title": "AI⇔人間 がdiff上にコメントを書き合える「hunk」がすごい",
+      "url": "https://qiita.com/kuma_3838/items/14df505c7023f665c585",
+      "summary": "AIエージェントが書いたコードのレビューに特化したターミナル製diffビューア「hunk」の紹介記事。単なるdiff表示ではなく、エージェントのコメント（アノテーション）をコード横に直接表示し、エージェント側からTUI画面を操作できる双方向性が最大の特徴。hunk skill pathで取得したスキルファイルをClaude Codeに読み込ませるだけで連携でき、TUIはローカルデーモンにセッション登録され、エージェントがhunk sessionコマンド群で起動中の画面を直接操作・コメント注入する仕組みになっている。GhosttyやVagrant作者のMitchell Hashimoto氏が「他のあらゆるローカルdiffビューアを置き換えた」と評するなど評価も高い。npm（パッケージ名はhunkdiff）またはHomebrewでインストールできる。",
+      "category": "devtool",
+      "author": "kuma_3838"
+    }
+  ]
+}
