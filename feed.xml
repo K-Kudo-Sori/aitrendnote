@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-15T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月15日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15-news.html</id>
+    <updated>2026-07-15T00:00:00+09:00</updated>
+    <summary>AppleがiOS 27パブリックベータで新Siriを一般公開し、数十億台規模の実地テストが始まった / Hugging Faceのダウンロード動向で中国オープンウェイトモデルが米国モデルを上回り、フロンティア開発競争の構図が変化 / DeepMind CEOがFINRA型の独立標準化機関によるフロンティアAI規制を提唱 / Reflection AIがNebiusと10億ドル規模のコンピュート契約、DeepSeekは15億ドル調達とIPO準備が進行 / MetaのAdam Mosseri氏はエンジニア1人あたりのAIトークン消費に上限が必要になると発言</summary>
+  </entry>
+  <entry>
     <title>2026年7月15日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-24-news.html</id>
     <updated>2026-06-24T00:00:00+09:00</updated>
     <summary>AnthropicがSlack連携「Claude Tag」をベータ公開。チャンネルに常駐して文脈を蓄積するAIチームメイト機能。 / SilverhumanがAI検出スタートアップGPTZeroを買収。登録ユーザー1,900万人・ARR 3,000万ドルの規模。 / 臨床AIのCadenceが1億ドルのシリーズCを調達し評価額12億ドルに。慢性疾患の遠隔モニタリングをAIで自動化。 / Z.aiがオープンウェイトLLM「GLM-5.2」（753Bパラメータ/MoE）をMITライセンスで公開。オープンモデルの実力評価で首位。 / EU AI Act：7月22日がAI透明性コード署名期限。8月2…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月24日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-24.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-24.html</id>
-    <updated>2026-06-24T00:00:00+09:00</updated>
-    <summary>Anthropicが「Claude Tag」を発表 — SlackにClaudeをチームメンバーとして招待できる新機能 / Zennでは「Claude Code 実践活用」記事が複数トレンド入り（QA自動化・コンテキスト分割・ポートフォリオ開発） / Qiitaでは「Agentjacking」攻撃やCursor独自モデルなどAIセキュリティ・ツール競争に注目 / LLMのコード生成原理を概念的に解説する記事が登場、AIコーディングの内部理解促進へ / DEV.to では「最小AI原則」など、AI活用の哲学・バランスを問う議論が増加</summary>
   </entry>
 </feed>

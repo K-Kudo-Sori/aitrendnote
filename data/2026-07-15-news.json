@@ -1,0 +1,63 @@
+{
+  "date": "2026-07-15",
+  "generatedAt": "2026/7/15 8:06:32",
+  "highlights": [
+    "AppleがiOS 27パブリックベータで新Siriを一般公開し、数十億台規模の実地テストが始まった",
+    "Hugging Faceのダウンロード動向で中国オープンウェイトモデルが米国モデルを上回り、フロンティア開発競争の構図が変化",
+    "DeepMind CEOがFINRA型の独立標準化機関によるフロンティアAI規制を提唱",
+    "Reflection AIがNebiusと10億ドル規模のコンピュート契約、DeepSeekは15億ドル調達とIPO準備が進行",
+    "MetaのAdam Mosseri氏はエンジニア1人あたりのAIトークン消費に上限が必要になると発言"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Apple、iOS 27パブリックベータで新Siri AIを全ユーザーに公開",
+      "url": "https://techcrunch.com/2026/07/14/apple-opens-its-new-siri-ai-to-everyone-with-the-ios-27-public-beta/",
+      "summary": "Appleは2026年7月14日、iOS 27のパブリックベータをリリースし、再設計されたAI搭載Siriを一般ユーザー向けに初めて公開した。6月のWWDCで発表されたこの新Siriは、デバイス上の情報へのアクセスや画面内容への対応、生成AIによる回答が可能になっている。iPhoneやMac、Apple Watch、CarPlayなど全製品で利用でき、秋の正式リリース前に数十億台規模での最大級のテストとなる見込み。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AIの主戦場はもはやフロンティアではないかもしれない：オープンモデルが台頭",
+      "url": "https://techcrunch.com/2026/07/14/the-real-ai-race-may-no-longer-be-at-the-frontier-open-models-hugging-face/",
+      "summary": "Hugging Faceのデータによると、この春の時点で中国のオープンウェイトモデルがダウンロード数の41%を占め、米国モデルを上回った。OpenRouterの利用ランキングでも上位6位をオープンモデルが独占し、Anthropicの最新モデルは7位に後退している。Vercelの集計では6月のAIリクエストの約3分の1がオープンモデル経由となっており、コストと所有権を理由に企業の採用が拡大している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "DeepMind CEO、フロンティアAI規制のための独立標準化機関の創設を提言",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "summary": "Google DeepMindのDemis Hassabis CEOは、最先端AIモデルを規制する独立した標準化機関の創設を提唱した。金融業界のFINRA（金融業規制機構）を手本とし、モデルのリリース前30日以内にレビューを行う仕組みを想定している。業界資金による独立運営とすることで、技術的な焦点を保ちつつ革新を妨げず責任ある開発を促せると主張している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Reflection AI、NebiusとGPU確保のため10億ドル規模のコンピュート契約",
+      "url": "https://techcrunch.com/2026/07/14/reflection-inks-1b-compute-deal-with-nebius/",
+      "summary": "オープンソースAIを開発する米新興企業Reflection AIは、欧州のAIインフラ企業Nebiusと10億ドル規模のコンピュート契約を締結した。NebiusはNvidiaの最新チップへのアクセスを提供する。この契約はSpaceXとの類似契約から数週間後に成立しており、Reflection AIが開発中のオープンソースAI技術の訓練・展開に必要な計算資源の確保を加速させる狙いがある。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "DeepSeek、15億ドルの新規調達と2027年IPOを準備中と報道",
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "summary": "中国のLLM開発企業DeepSeekが、約71億ドルの評価額で15億ドルの新規資金調達を進めており、2027年のIPOを準備していると報じられた。同社は1か月前にも50億ドルの評価額で7億ドルを調達したばかりで、投資家にはテンセントなどが名を連ねる。米国の輸出規制下でも米国モデルに匹敵する性能を示している点が注目されている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta幹部、エンジニア1人あたりのAIトークン消費に上限が必要になると発言",
+      "url": "https://techcrunch.com/2026/07/14/metas-adam-mosseri-says-ai-token-budgets-could-soon-be-capped-per-engineer/",
+      "summary": "MetaのAdam Mosseri氏は、今後1〜2年以内にエンジニア個人のAIトークン消費に上限を設ける必要が生じるとの見方を示した。優秀なエンジニアのトークン消費量が給与に匹敵する規模になり得ると指摘し、トークンコストを給与やGPU容量と同様に管理すべきリソースとして扱うべきだと述べている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、Appleの営業秘密訴訟に反論",
+      "url": "https://techcrunch.com/2026/07/14/openai-pushes-back-on-apple-trade-secret-lawsuit/",
+      "summary": "AppleはOpenAIの元従業員らが同社の機密情報を盗用したとして提訴した。対象となったのはOpenAIの最高ハードウェア責任者でApple在籍24年のベテランTang Tan氏。OpenAIは訴訟に根拠がないと反論し、他社の営業秘密には関心がないと表明している。Appleは、OpenAIが開発中のスクリーンレス型スマートスピーカーがApple製品と競合するとみて内部調査を進めているとされる。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-07-15-news"
+}
