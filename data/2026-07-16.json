@@ -1,0 +1,224 @@
+{
+  "date": "2026-07-16",
+  "generatedAt": "2026/7/16 7:05:48",
+  "highlights": [
+    "Cursorのブランチ整理指示でDドライブ全消失というAIエージェント事故のポストモーテムが注目を集めた",
+    "コーディングエージェント向けの記憶レイヤーやAPI設計論など、エージェント運用のノウハウ記事が多数",
+    "ローカルLLM構築やエッジ推論チップなど、クラウド依存から脱却する動きの記事が目立った",
+    "AI生成文章の「AI臭さ」を機械的に検出・除去するAgent Skillの実測記事が話題に"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Briar is in maintenance mode",
+      "url": "https://briarproject.org/news/2026-maintenance-mode/",
+      "summary": "分散型の匿名通信アプリBriarの開発チームが、プロジェクトが完全終了ではなくメンテナンスモードに移行したことを公表した。バッテリー消費やAndroidでのバックグラウンド動作、連絡先追加の使い勝手など長年の課題を解決できる見込みが立たず、一時は終了も検討していたという。資金不足のため大規模な作り直しは断念しつつ、今後は必須のセキュリティ更新とバグ修正のみを継続する方針。プロジェクト終了の噂が広まっていたことを受け、現状を正式にコミュニティへ説明する内容になっている。",
+      "category": "security",
+      "points": 133,
+      "comments": 89,
+      "author": "ristello"
+    },
+    {
+      "source": "hackernews",
+      "title": "Open-source memory for coding agents, synced over SSH",
+      "url": "https://github.com/vshulcz/deja-vu/",
+      "summary": "Claude CodeやCodexなどのコーディングエージェントが残す大量の会話ログを検索可能な「記憶層」に変換するツール「deja」が紹介されている。ゼロ依存のバイナリで、過去に解決した問題をミリ秒単位で全文検索でき、MCP経由でエージェント自身が「以前直したかどうか」を参照できる点が特徴。APIキーなどの機密情報はインデックス時に自動で除去され、セッション開始時に関連記憶を自動注入するフックも用意されている。SSHやフォルダ同期を使って複数マシン間で記憶を追記式に共有する仕組みも備える。",
+      "category": "agent",
+      "points": 94,
+      "comments": 19,
+      "author": "vshulcz"
+    },
+    {
+      "source": "hackernews",
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+      "url": "https://brainless.swerdlow.dev",
+      "summary": "Claude Code・Codex・Grokといった主要なコーディングエージェントのターミナル風UIを模したshadcnコンポーネント集「brainless」が公開された。エージェントのプロンプト入力や思考ログ、承認モードの切り替えなど、実際のCLI体験を模したビジュアルをWebサイトに簡単に組み込める。マーケティングサイトやプロダクトのデモページで「AIエージェントらしい見た目」を演出したい開発者向けのコンポーネント集となっている。コピー用のプロンプトも添えられており、導入は容易。",
+      "category": "devtool",
+      "points": 50,
+      "comments": 6,
+      "author": "benswerd"
+    },
+    {
+      "source": "hackernews",
+      "title": "Designing APIs for Agents",
+      "url": "https://www.freestyle.sh/blog/opinion/designing-apis-for-agents",
+      "summary": "Freestyle創業者が、人間向けとAIエージェント向けではAPI設計の勘所が正反対だと論じている。人間向けAPIは少ないコードで動く体験と親切なデフォルト値を重視するが、エージェントは大量のドキュメントを一瞬で読み込めるため、むしろ曖昧なデフォルトや暗黙の型変換が誤りの温床になると指摘する。エージェント向けには全フィールドを明示的に埋めさせ、エラーは黙って丸め込まず厳格に弾いた方がデバッグしやすいという主張。AI経由でのAPI利用が主流になった前提での設計指針の転換を提案している。",
+      "category": "agent",
+      "points": 20,
+      "comments": 5,
+      "author": "benswerd"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Low-latency local LLM runner via OpenJDK Panama FFM (Java 22)",
+      "url": "https://github.com/projectargus-cc/libargus.cc",
+      "summary": "GGMLとllama.cppをベースに、テキスト生成・音声認識・音声合成・マルチモーダル処理を単一の実行基盤に統合したネイティブAI推論ランタイム「libargus」が公開された。Java 22以降のProject Panama FFM APIを使い、JVMのヒープを介さないゼロコピーなメモリ境界でC++層とやり取りすることで、ガベージコレクションの影響を受けない低遅延推論を実現している。投機的デコーディングやKVキャッシュの量子化、動画のフレーム単位ストリーミングなど、実運用を意識した機能も多数搭載する。",
+      "category": "infra",
+      "points": 16,
+      "comments": 2,
+      "author": "KingJoker"
+    },
+    {
+      "source": "zenn",
+      "title": "Cursorに「不要なブランチを整理して」と頼んだら、Dドライブが消えた話",
+      "url": "https://zenn.dev/iwaken71/articles/cursor-agent-d-drive-deleted",
+      "summary": "CursorのAIエージェントに「不要なブランチを整理して」と依頼したところ、ゴミ箱を経由せずDドライブ配下の全データが消失したというポストモーテム記事。原因究明のためのチャット・ターミナル履歴自体も失われており断定はできないが、git clean -fdxの誤爆やパス変数の誤解決が有力な仮説として挙げられている。同種の破壊的コマンド事故はClaude CodeやGemini CLI、Replitでも公開報告があり、特定ツールではなくエージェントというアーキテクチャ全般の構造的リスクだと指摘する。再発防止策として、自動実行の無効化、破壊的コマンドの拒否リスト登録、プロジェクト単位でのワークスペース限定、指示の出し方の見直しという多層防御を提案している。",
+      "category": "security",
+      "points": 152,
+      "author": "イワケン"
+    },
+    {
+      "source": "zenn",
+      "title": "AI臭は語彙よりリズムに出る - 自然な日本語を書くAgent Skillと7モデル×406本の実測",
+      "url": "https://zenn.dev/coji/articles/natural-japanese-ai-smell-lint",
+      "summary": "AIが書いた日本語特有の「AI臭さ」は禁止語彙ではなく文の長さのリズムの均質さに現れるとして、それを機械的に検出するAgent Skill「natural-japanese」が紹介されている。人間の文章137本とAIの文章406本のコーパスで閾値を校正したlintを組み込み、Claude CodeやCodexの執筆工程に統合できる。実験ではSonnet 5やgpt-5.6など7モデル計406本を同じ物差しで診断し、gpt-5.6は文長のばらつきが特に乏しくリズム系の検出器で顕著に引っかかることが分かった。単に文を短く切るだけでは均質さは解消されず、長短を機械的に混在させる修正が必要だったという。",
+      "category": "devtool",
+      "points": 104,
+      "author": "Coji Mizoguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカル LLM を構築した",
+      "url": "https://zenn.dev/neet/articles/11bafab8645995",
+      "summary": "クラウドAIサービスの倫理面への懸念から距離を置きたいという動機で、中古のRTX 3090を2枚組み合わせVRAM48GBの自宅サーバーを構築し、Qwen3.6-27BのFP8量子化モデルをローカルで動かした記録。必要VRAMをKVキャッシュ・モデル重み・アクティベーションメモリの計算式から約44GBと見積もり、それを満たす構成を部品ごとにコストを抑えつつ選定している。GPU調達はメルカリでの中古購入で賄い、AI需要による部品価格高騰の中でもなるべく安く仕上げる工夫が語られている。非決定論的な性質やAI企業の倫理問題への批判的な視点も交えつつ、実際に手を動かして検証した内容になっている。",
+      "category": "infra",
+      "points": 37,
+      "author": "Ryō Igarashi"
+    },
+    {
+      "source": "zenn",
+      "title": "Cloudflareだけで独自ドメインメールをGmailから送受信できるようになってた",
+      "url": "https://zenn.dev/9m/articles/d08dcc093e1bbf",
+      "summary": "Cloudflareの「Email Sending」がSMTP送信に対応したことで、独自ドメインメールの受信をEmail Routing、送信をEmail SendingのSMTP経由でGmailに設定するだけで完結できるようになったという内容。従来はGmail自体のSMTPを使うと代理送信の表示が出てしまう欠点があったが、Cloudflare側からSMTP送信することでその問題を回避できる。設定はEmail RoutingとEmail Sendingへのドメイン登録、APIトークン発行、Gmail側のSMTP設定の4ステップで完了する。Workers Paidプラン（月5ドル）への加入が唯一の必須コストだが、月3000通までは追加料金なしで送信できる。",
+      "category": "other",
+      "points": 137,
+      "author": "𝘬𝘰𝘴𝘶𝘨𝘦"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeでレガシーシステムの刷新を進めた方法",
+      "url": "https://zenn.dev/knowledgesense/articles/67c61463d9c664",
+      "summary": "カナダ・アルバータ州政府が運用する約1,280本のレガシーアプリケーション群に対し、Claude Codeを使って脆弱性調査から修正・再構築までを進めた事例の紹介記事。静的解析による機械的な検出、Claudeによるレビューと問題報告、テストを先に作成してからの修正、必要に応じた新設計での作り直しという段階的な手法が取られている。レッドチーム役・ブルーチーム役など役割の異なる複数のエージェントを組み合わせて継続的にコードを保守する体制も構築された。成果として、25年前に5か月かけて開発されたシステムのプロトタイプを4日間で再現できたと報告されているが、これは能力実証目的のプロトタイプである点には注意が必要としている。",
+      "category": "devtool",
+      "points": 25,
+      "author": "sasakuna"
+    },
+    {
+      "source": "devto",
+      "title": "Why did my benchmark stop at N=22? A debugging story in nine bugs",
+      "url": "https://dev.to/gde/why-did-my-benchmark-stop-at-n22-a-debugging-story-in-nine-bugs-3m2l",
+      "summary": "4言語（Python/Go/Node/Rust）のAIエージェント経由のA2A通信性能を比較するベンチマークが、なぜかN=22で止まっていた原因を掘り下げたデバッグ記録。原因はPython 3.11が導入した整数を文字列化する際の桁数上限（4300桁）で、実際には使われていない巨大なメルセンヌ素数の文字列化処理がその上限に引っかかってクラッシュしていた。さらに調査を進めると、実行時間の解析がLLMの応答文言の正規表現マッチに依存していた、Rustの高速な実行結果が0.00msに丸められグラフ上で消えていた等、測定パイプライン自体の脆さが次々と発覚する。最終的に「LLM/Toolを含むA2A往復時間」というグラフが、実際には半分の言語しかLLMを経由していない別物の比較だったという根本的な問題も明らかになった。",
+      "category": "devtool",
+      "points": 5,
+      "comments": 0,
+      "author": "xbill",
+      "tags": [
+        "bugsmash",
+        "debugging",
+        "ai",
+        "python"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The AI Jackpot: Why Prompting Feels Like Gambling",
+      "url": "https://dev.to/brendon_oneill__/the-ai-jackpot-why-prompting-feels-like-gambling-1fj2",
+      "summary": "AIへのプロンプト入力が、ギャンブルと同じ脳内の報酬回路を刺激しているのではないかという思考実験的なエッセイ。ドーパミンは快感そのものよりも「次こそ良い結果が出るかもしれない」という期待と不確実性によって強く分泌されるとし、SNSのスクロールやガチャと同様の仕組みがAIとの対話にも当てはまると論じる。AIの是非を断定する立場は取らず、あくまで自分たちの脳がAI利用時にどう反応しているかを一度立ち止まって考えてみようという提起にとどめている。ギャンブルやブラインドボックス、トレーディングカードなど身近な例を挙げながら比較している。",
+      "category": "other",
+      "points": 6,
+      "comments": 1,
+      "author": "Brendon O'Neill",
+      "tags": [
+        "ai",
+        "discuss",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How I Used Spec-Driven Development to Build a Game (TanStack Start)",
+      "url": "https://dev.to/erikch/how-i-used-spec-driven-development-to-build-a-game-a5p",
+      "summary": "AIコーディングツール「Kiro」の1周年を記念して、要件定義・設計・タスク分解の3段階を人間がチェックしながら進める「スペック駆動開発（SDD）」の手法で2DゲームをPhaserとTanStack Startを使って作った体験記。各段階で必ず人間がレビューし承認してから次に進む点が肝で、事前の計画に時間がかかる分、後戻りが少なく安定した成果物になりやすいとメリットを説明している。逆に使い捨てコードや小さな修正には過剰であり、機能の複雑さに応じて使い分けるべきだとしている。実際に作ったゲームはKiroの歴史を辿れる建物を巡るローグライク風の内容になっている。",
+      "category": "devtool",
+      "points": 15,
+      "comments": 5,
+      "author": "Erik Hanchett",
+      "tags": [
+        "ai",
+        "webdev",
+        "kiro",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Put a Hailo 8 in a Handheld and Stopped Paying for Inference",
+      "url": "https://dev.to/numbpill3d/i-put-a-hailo-8-in-a-handheld-and-stopped-paying-for-inference-3ih7",
+      "summary": "クラウドAI推論への課金や依存から抜け出すため、26TOPSのAIアクセラレータ「Hailo-8」をRaspberry Pi 5に組み込んだ携帯型デバイスを自作した記事。物体検知やナンバープレートのぼかし処理などをローカルで完結させることで、Wi-Fi不通時の動作不良やベンダー都合の価格変更といったクラウド依存のリスクを回避している。消費電力2.5〜3W程度の省電力なM.2モジュールでありながら、この電力帯のCPUやGPUを大きく上回る性能を発揮するという。部品総額はおおよそ220〜280ドルで、数ヶ月分のクラウド推論費用より安く済むと試算している。",
+      "category": "infra",
+      "points": 2,
+      "comments": 1,
+      "author": "v. Splicer",
+      "tags": [
+        "ai",
+        "programming",
+        "tutorial",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The SSE Fragmentation Catastrophe That Took Down CareerPilot AI",
+      "url": "https://dev.to/aashitanegii/the-sse-fragmentation-catastrophe-that-took-down-careerpilot-ai-smash-stories-16f2",
+      "summary": "6段階のエージェント推論をServer-Sent Eventsでリアルタイム配信していたAIキャリア分析サービス「CareerPilot AI」が、Google Cloud Run上で本番障害を起こした顛末を紹介する記事。ローカルでは問題なかったが、本番のプロキシ環境下で最終段の大きなJSONペイロード送信時にストリームが崩壊していた。最初の対処として毎行flushを強制したところ、TCPパケットの断片化がさらに悪化しJSONが途中で分断されてクライアント側のパースが即座に失敗するという逆効果を招いている。ストリーミングAPIの実装が、ローカル環境と本番のネットワーク経路の違いによって思わぬ形で壊れる典型例として詳細に分析されている。",
+      "category": "devtool",
+      "points": 2,
+      "comments": 0,
+      "author": "Aashita",
+      "tags": [
+        "devchallenge",
+        "bugsmash"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "あなたの技術ブログの「AI臭さ」を抜くスキル公開します",
+      "url": "https://qiita.com/minorun365/items/699e89544da8b0de300d",
+      "summary": "AIが生成した文章特有の「AI臭さ」を消すための執筆ガイドを、Claude CodeやCodexにそのまま追加できるAgent Skillとして公開した記事。太字の多用やダッシュ記号、「〜することができます」のような冗長表現、均等に網羅的な箇条書きなど、AI文章に頻出するパターンを禁止リストとして具体的に列挙している。個人の失敗談や主観を交えること、専門用語には身近な比喩を添えることなど、人間味を出すテクニックも合わせて紹介されている。図版作成では品質重視の場面ではMermaidよりSVG画像を優先するなど、表記レベルの細かいルールまで網羅したガイドになっている。",
+      "category": "devtool",
+      "author": "minorun365"
+    },
+    {
+      "source": "qiita",
+      "title": "# Railsで学ぶ データ構造入門 〜配列・ハッシュ・木・グラフは実は毎日使っている〜",
+      "url": "https://qiita.com/akachiryo/items/b431a74f1cde18d45ad3",
+      "summary": "Railsを書く上で日常的に使っているデータ構造を、配列・リンクトリスト・スタック・キュー・ハッシュテーブル・木・グラフという体系でまとめ直す入門記事。配列はアクセスが高速だが挿入削除が遅く、リンクトリストはその逆という対照的な特性を軸に、スタックはコールスタックやRackのミドルウェア、キューはSidekiqのジョブキューといった形でRails内の具体的な実装箇所に対応付けている。木構造については二分探索木からB-treeまでの系譜として整理し、DBインデックスとの関係も説明する。最後にハッシュテーブルと双方向リンクリストを組み合わせたLRUキャッシュを例に、単体の特性を理解した上での組み合わせ設計の重要性を説いている。",
+      "category": "other",
+      "author": "akachiryo"
+    },
+    {
+      "source": "qiita",
+      "title": "AI人材は２つに分かれる。あなたが目指すべきはどっち？",
+      "url": "https://qiita.com/prum_sumomo/items/b7bfe27efae0231a09af",
+      "summary": "生成AIの普及により採用現場でエンジニアに求めるスキルが変化しているという調査結果を引きながら、コーディング力そのものより「人にしかできない役割」の価値が相対的に高まっていると論じる記事。具体的には要件定義でのヒアリング、技術選定の説明責任、チーム間調整、育成、最終的な意思決定責任などがAIに代替されにくい領域として挙げられている。こうした役割は必ずしもエンジニア経験の長さで決まらず、非IT職での対人経験がそのまま強みに転換できると指摘し、未経験からエンジニアを目指す人にとって追い風になるとまとめている。",
+      "category": "product",
+      "author": "prum_sumomo"
+    },
+    {
+      "source": "qiita",
+      "title": "「めっちゃカメレオン」が教えてくれた、アイディア力こそAI時代の最強武器",
+      "url": "https://qiita.com/prum_sumomo/items/dbabb5c130aae2566f0f",
+      "summary": "1ヶ月足らずで1500万本を売り上げた個人開発ゲーム「めっちゃカメレオン」を題材に、AI時代のIT業界で重要になるのは技術力よりも「何を作るか」を考えるアイディア力だと論じる記事。テトリスやぷよぷよなど長年愛されるシンプルなゲームに共通する「可変報酬」による中毒性のメカニズムをフックモデルで解説し、既存アイディアの反転や異分野からの転用がヒットの源になっていることを示す。AIによって技術力の差が縮まっていく中、専門分野以外のインプットを増やし発想の組み合わせを鍛えることが今後重要になると結んでいる。",
+      "category": "product",
+      "author": "prum_sumomo"
+    },
+    {
+      "source": "qiita",
+      "title": "エラー対応理由考えてる？コピペしてAIに聞いてるでしょ",
+      "url": "https://qiita.com/prum_sumomo/items/535a697aeaea41515de9",
+      "summary": "エラーメッセージを読まずにそのままAIへコピペして原因を尋ねる習慣に警鐘を鳴らし、AIに聞く前に自分で手がかりを拾う重要性を説く記事。エラー種別・発生箇所・期待値と実際の値という3つの着眼点を挙げ、これらは一般的な読解力とは異なる専門的な読み方のスキルだと位置づけている。手がかりを拾ってから質問することで、AIへの質問や検索の精度自体が上がるとし、この習慣の積み重ねが結果的に仕様理解にもつながると論じる。料理や語学学習、スポーツにおける上達プロセスとの類比を交えながら、AI活用と自力での読解力育成の両立を勧めている。",
+      "category": "devtool",
+      "author": "prum_sumomo"
+    }
+  ]
+}

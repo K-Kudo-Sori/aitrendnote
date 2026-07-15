@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-15T00:00:00+09:00</updated>
+  <updated>2026-07-16T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月16日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16.html</id>
+    <updated>2026-07-16T00:00:00+09:00</updated>
+    <summary>Cursorのブランチ整理指示でDドライブ全消失というAIエージェント事故のポストモーテムが注目を集めた / コーディングエージェント向けの記憶レイヤーやAPI設計論など、エージェント運用のノウハウ記事が多数 / ローカルLLM構築やエッジ推論チップなど、クラウド依存から脱却する動きの記事が目立った / AI生成文章の「AI臭さ」を機械的に検出・除去するAgent Skillの実測記事が話題に</summary>
+  </entry>
   <entry>
     <title>2026年7月15日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25.html</id>
     <updated>2026-06-25T00:00:00+09:00</updated>
     <summary>OpenAIがBroadcom製カスタム推論チップ「Jalapeño」を発表。電力効率が大幅に向上し、推論コスト削減への道筋を示した。 / Gemini 3.5 Flashにコンピュータ使用機能がネイティブ統合。ブラウザ・デスクトップを跨ぐエージェント構築が容易になった。 / 中国発オープンウェイトモデルGLM-5.2がエージェント能力で飛躍的進歩。Arena&#39;s agent leaderboardでClaudeやGPT最新モデルに匹敵する評価を得た。 / ノーベル賞受賞者・AlphaFold開発者のジョン・ジャンパー氏がDeepMindからAnthropicへ移籍。AI駆動科学へのコミット…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月24日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-24-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-24-news.html</id>
-    <updated>2026-06-24T00:00:00+09:00</updated>
-    <summary>AnthropicがSlack連携「Claude Tag」をベータ公開。チャンネルに常駐して文脈を蓄積するAIチームメイト機能。 / SilverhumanがAI検出スタートアップGPTZeroを買収。登録ユーザー1,900万人・ARR 3,000万ドルの規模。 / 臨床AIのCadenceが1億ドルのシリーズCを調達し評価額12億ドルに。慢性疾患の遠隔モニタリングをAIで自動化。 / Z.aiがオープンウェイトLLM「GLM-5.2」（753Bパラメータ/MoE）をMITライセンスで公開。オープンモデルの実力評価で首位。 / EU AI Act：7月22日がAI透明性コード署名期限。8月2…</summary>
   </entry>
 </feed>
