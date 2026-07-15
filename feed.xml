@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-16T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月16日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16-news.html</id>
+    <updated>2026-07-16T00:00:00+09:00</updated>
+    <summary>Thinking Machines Lab（Mira Murati氏創業）が初の自社モデルとなるオープンウェイトモデル「Inkling」を公開 / AnthropicがBlackstoneらと組んだAI実装企業「Ode with Anthropic」の詳細が判明 / Future of Life Instituteの「AI Safety Index 2026年夏版」で主要9社中、最高評価でもC+と厳しい結果に / OpenAIがCodex向け230ドルのハードウェアキーボードを発表するなど、コーディングエージェント関連の動きが活発化</summary>
+  </entry>
+  <entry>
     <title>2026年7月16日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25-news.html</id>
     <updated>2026-06-25T00:00:00+09:00</updated>
     <summary>OpenAIがBroadcomと共同開発した初のカスタム推論チップ「Jalapeño」を発表。GPU比で最大50%のコスト削減を見込む。 / Google DeepMindのGemini開発を担ったJonas AdlerとAlexander PritzelがAnthropicへ移籍。Noam Shazeer（OpenAI）、John Jumper（Anthropic）に続く人材流出。 / FigmaがAI機能を大幅強化：コードレイヤー追加、アニメーション統合、シェーダ生成などデザインとコード融合が加速。 / MetaがFacebook上でクリエイター向けAIコンパニオンアプリをリリース。コメ…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月25日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25.html</id>
-    <updated>2026-06-25T00:00:00+09:00</updated>
-    <summary>OpenAIがBroadcom製カスタム推論チップ「Jalapeño」を発表。電力効率が大幅に向上し、推論コスト削減への道筋を示した。 / Gemini 3.5 Flashにコンピュータ使用機能がネイティブ統合。ブラウザ・デスクトップを跨ぐエージェント構築が容易になった。 / 中国発オープンウェイトモデルGLM-5.2がエージェント能力で飛躍的進歩。Arena&#39;s agent leaderboardでClaudeやGPT最新モデルに匹敵する評価を得た。 / ノーベル賞受賞者・AlphaFold開発者のジョン・ジャンパー氏がDeepMindからAnthropicへ移籍。AI駆動科学へのコミット…</summary>
   </entry>
 </feed>
