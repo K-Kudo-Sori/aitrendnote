@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-16T00:00:00+09:00</updated>
+  <updated>2026-07-17T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月17日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17.html</id>
+    <updated>2026-07-17T00:00:00+09:00</updated>
+    <summary>GoogleがNotebookLMを「Gemini Notebook」に改称し、クラウド実行環境でコード実行に対応 / $100の予算でClaude Fable 5とGPT-5.6 Solに自律的にミュージックビデオを作らせる比較実験 / GPT-5.6のReact習熟度ベンチマークでモデルサイズに対して非単調な序列が判明 / CursorのAIエージェントへの「ブランチ整理」依頼でDドライブ全消失、AIエージェント全般の構造的リスクとして注目 / Claude Codeが残したビジーループプロセスがマシンを飽和させていた事例など、運用面の教訓記事が複数</summary>
+  </entry>
   <entry>
     <title>2026年7月16日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-26-news.html</id>
     <updated>2026-06-26T00:00:00+09:00</updated>
     <summary>OpenAIがBroadcomと共同開発した初の独自AIチップ「Jalapeño」を発表。NvidiaGPU依存からの脱却へ。 / GoogleのDeepMind・Gemini主要研究者がAnthropicやOpenAIへ相次いで移籍し、業界の人材流動が加速。 / ByteDanceがエージェント特化型モデルSeed 2.1とDobao 2.1 Pro、4K動画生成モデルSeedance 2.5を相次いでリリース。 / FigmaがAI機能を大幅強化。コードレイヤー・アニメーション対応・AIプラグイン自動生成などを追加。 / エンジニア採用はAI化の波にも強靭と判明。採用比率がむしろ上昇し、…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月25日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-25-news.html</id>
-    <updated>2026-06-25T00:00:00+09:00</updated>
-    <summary>OpenAIがBroadcomと共同開発した初のカスタム推論チップ「Jalapeño」を発表。GPU比で最大50%のコスト削減を見込む。 / Google DeepMindのGemini開発を担ったJonas AdlerとAlexander PritzelがAnthropicへ移籍。Noam Shazeer（OpenAI）、John Jumper（Anthropic）に続く人材流出。 / FigmaがAI機能を大幅強化：コードレイヤー追加、アニメーション統合、シェーダ生成などデザインとコード融合が加速。 / MetaがFacebook上でクリエイター向けAIコンパニオンアプリをリリース。コメ…</summary>
   </entry>
 </feed>
