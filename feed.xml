@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-17T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月17日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17-news.html</id>
+    <updated>2026-07-17T00:00:00+09:00</updated>
+    <summary>Moonshot AIが最大3兆パラメータの新モデル「Kimi K3」を近日公開、Anthropic Opus 4.8に匹敵する性能を主張 / Appleの生成AI機能「Apple Intelligence」が中国当局の承認を取得、AlibabaのQwenと連携 / Google DeepMindのハサビスCEOが提唱する米国主導のフロンティアAI標準化団体構想に、Sam AltmanやSatya Nadellaも賛同 / 日本でソフトバンク・ソニー・ホンダなど44社が「フィジカルAI」基盤企業連合を発足、政府も1兆円規模で支援 / MicrosoftがAI活用で過去最多570件の脆弱性を修…</summary>
+  </entry>
+  <entry>
     <title>2026年7月17日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27.html</id>
     <updated>2026-06-27T00:00:00+09:00</updated>
     <summary>OpenAIが次世代モデル「GPT‑5.6 Sol」をプレビュー公開し、米政府が利用審査を担当することが明らかになった / オープンウェイトLLMとクローズドソースLLMの性能差が急速に縮小しており、2026年12月頃に逆転する予測が出ている / Gemini を Claude のサブエージェントとして活用しコストを27〜64%削減する構成が実測で効果確認された / AI時代のコード開発・レビューへの向き合い方に関する実践的知見が複数ソースから多数発信されている / スマートモデルルーティング（50ms・コスト40〜70%削減）など、AIコーディングツールの効率化手法が注目を集めている</summary>
-  </entry>
-  <entry>
-    <title>2026年6月26日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-26-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-26-news.html</id>
-    <updated>2026-06-26T00:00:00+09:00</updated>
-    <summary>OpenAIがBroadcomと共同開発した初の独自AIチップ「Jalapeño」を発表。NvidiaGPU依存からの脱却へ。 / GoogleのDeepMind・Gemini主要研究者がAnthropicやOpenAIへ相次いで移籍し、業界の人材流動が加速。 / ByteDanceがエージェント特化型モデルSeed 2.1とDobao 2.1 Pro、4K動画生成モデルSeedance 2.5を相次いでリリース。 / FigmaがAI機能を大幅強化。コードレイヤー・アニメーション対応・AIプラグイン自動生成などを追加。 / エンジニア採用はAI化の波にも強靭と判明。採用比率がむしろ上昇し、…</summary>
   </entry>
 </feed>
