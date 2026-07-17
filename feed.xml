@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-17T00:00:00+09:00</updated>
+  <updated>2026-07-18T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月18日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-18-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-18-news.html</id>
+    <updated>2026-07-18T00:00:00+09:00</updated>
+    <summary>Moonshot AIが2.7〜2.8兆パラメータのオープンウェイトモデル「Kimi K3」を発表、米国勢に肉薄 / NVIDIAが日本の製造・ロボティクス大手22社と組み、エッジ向け物理AIモデル「Cosmos 3 Edge」を発表 / Databricksが評価額1880億ドルに到達し、AI企業への転身を加速 / 習近平国家主席がWAIC上海で基調講演し「世界AI協力機構」の発足を宣言 / AppleがOpenAIを営業秘密の窃取で提訴した裁判の内容が明らかに、AppleはApple IntelligenceのAlibaba/Baidu連携で中国展開も承認</summary>
+  </entry>
   <entry>
     <title>2026年7月17日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27-news.html</id>
     <updated>2026-06-27T00:00:00+09:00</updated>
     <summary>OpenAIがGPT-5.6 Solを発表。米政府の要請で当初は限定プレビューとして展開 / OpenAI &amp; BroadcomがLLM推論専用カスタムチップ「Jalapeño」を公開 / Google DeepMindのトップAI研究者4名が6日間でAnthropicとOpenAIへ相次いで転職 / AnthropicがAlibabaの関連事業者による大規模なモデル蒸留攻撃（約2900万件）を告発 / Gemini 3.5 FlashにPC・ブラウザ・モバイルを操作できるComputer Use機能が統合</summary>
-  </entry>
-  <entry>
-    <title>2026年6月27日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27.html</id>
-    <updated>2026-06-27T00:00:00+09:00</updated>
-    <summary>OpenAIが次世代モデル「GPT‑5.6 Sol」をプレビュー公開し、米政府が利用審査を担当することが明らかになった / オープンウェイトLLMとクローズドソースLLMの性能差が急速に縮小しており、2026年12月頃に逆転する予測が出ている / Gemini を Claude のサブエージェントとして活用しコストを27〜64%削減する構成が実測で効果確認された / AI時代のコード開発・レビューへの向き合い方に関する実践的知見が複数ソースから多数発信されている / スマートモデルルーティング（50ms・コスト40〜70%削減）など、AIコーディングツールの効率化手法が注目を集めている</summary>
   </entry>
 </feed>
