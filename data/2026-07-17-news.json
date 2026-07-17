@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-17",
+  "generatedAt": "2026/7/17 8:59:12",
+  "highlights": [
+    "Moonshot AIが最大3兆パラメータの新モデル「Kimi K3」を近日公開、Anthropic Opus 4.8に匹敵する性能を主張",
+    "Appleの生成AI機能「Apple Intelligence」が中国当局の承認を取得、AlibabaのQwenと連携",
+    "Google DeepMindのハサビスCEOが提唱する米国主導のフロンティアAI標準化団体構想に、Sam AltmanやSatya Nadellaも賛同",
+    "日本でソフトバンク・ソニー・ホンダなど44社が「フィジカルAI」基盤企業連合を発足、政府も1兆円規模で支援",
+    "MicrosoftがAI活用で過去最多570件の脆弱性を修正、ゼロデイ2件を含む"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Moonshotの次期モデル「Kimi 3」、AnthropicのOpus 4.8に迫る性能か",
+      "url": "https://techcrunch.com/2026/07/16/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/",
+      "summary": "中国のAI企業Moonshot AIが、パラメータ数2〜3兆規模の新モデル「Kimi K3」を近日中に公開する見通しだ。英Financial Timesの報道によると、性能はAnthropicのOpus 4.8に匹敵、あるいは上回る可能性があるとされ、中国発では最大級のオープンウェイトモデルになる見込み。Moonshotは評価額315億ドルでの資金調達も報じられている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple Intelligence、中国での提供が承認 AlibabaのQwenと連携",
+      "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+      "summary": "中国のサイバースペース管理局（CAC）が、AppleのAI機能「Apple Intelligence」の中国国内での提供を承認した。iOS・iPadOS・macOS・visionOS向けにAlibabaの「Qwen」モデルを統合する計画で、Baiduも同様に協力していることを認めている。中国はApple第2四半期売上の205億ドルを占める主要市場で、規制対応の遅れが長らく機能提供の障壁となっていた。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "DoorDash、AIエージェント向けにコマンドラインから注文できる「dd-cli」を公開",
+      "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+      "summary": "DoorDashが、開発者やAIエージェントが端末（ターミナル）から店舗検索・カート作成・注文までを行えるCLIツール「dd-cli」を発表した。共同創業者兼CTOのAndy Fang氏が発表し、現在は米国・カナダのmacOS開発者向けに招待制ベータを提供中。ChatGPTやClaudeなど他のAIチャット向けにもすでに同様の注文機能を統合しており、「エージェント商取引」への布石と位置付けている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "ソフトバンクなど44社、国産「フィジカルAI」基盤の企業連合が発足 政府は1兆円支援",
+      "url": "https://www.nikkei.com/article/DGXZQOUC165XL0W6A710C2000000/",
+      "summary": "ソフトバンクを中心にソニーグループやホンダなど44社が出資する企業連合が発足し、機械やロボットを自律的に動かす「フィジカルAI」基盤を開発する新会社「Noetra」を設立した。日本政府はNVIDIA製半導体「Rubin」約2万7500基の調達や堺市への計算拠点整備を含め、最大1兆円を支援する方針。基盤モデルは2026年度中の提供開始を目指す。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Google DeepMindのハサビスCEO、米国主導のAI標準化団体を提唱 Altman・Nadellaも支持",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "summary": "Google DeepMindのデミス・ハサビスCEOが、証券業界の自主規制機関FINRAをモデルとした、フロンティアAIモデルを審査する独立標準化団体の設立を提案した。当初は各社が任意でモデルを最大30日前倒しで審査に提出する形とし、将来的には米国市場投入の必須要件へ移行することを想定。OpenAIのSam Altman氏やMicrosoftのSatya Nadella氏も賛意を示しており、Anthropicも含めた主要3社が規制の大枠で足並みを揃えつつある。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft、AI活用で過去最多570件の脆弱性を修正 ゼロデイ2件含む",
+      "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
+      "summary": "Microsoftが2026年7月の月例セキュリティ更新（Patch Tuesday）で、Windows・Office等にまたがる過去最多となる570件の脆弱性を修正した。同社はAIを活用してコードベース内の未知の脆弱性発見を加速したと説明。修正にはWindows Serverの権限昇格とSharePointの脆弱性という2件のゼロデイも含まれ、後者は米CISAが実際に悪用されていると確認している。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-07-17-news"
+}
