@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-19",
+  "generatedAt": "2026/7/19 8:08:51",
+  "highlights": [
+    "中国Moonshot AIが2.8兆パラメータの世界最大オープンソースモデル「Kimi K3」を発表し、米国勢との性能差が急速に縮小",
+    "AnthropicがBlackstone等と15億ドル規模のAI実装企業「Ode with Anthropic」を設立し、モデルではなく導入支援を次の主戦場に",
+    "習近平国家主席が上海の世界AI会議で初の基調演説を行い、AIのグローバルな協調体制構築を提唱",
+    "Thinking Machines Labが初のオープンウェイトモデル「Inkling」を公開し、汎用モデルへの対抗戦略を実証",
+    "MCP（Model Context Protocol）が7月28日にステートレス化した新仕様のリリース候補を公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "中国Moonshot AI、2.8兆パラメータの世界最大オープンソースAIモデル「Kimi K3」を発表",
+      "url": "https://www.scmp.com/tech/tech-trends/article/3360885/moonshot-ai-unveils-worlds-largest-open-source-ai-model-china-narrows-gap-us-rivals",
+      "summary": "中国のMoonshot AIが2026年7月17日、2.8兆パラメータを持つ世界最大のオープンソースAIモデル「Kimi K3」を発表した。長時間のコーディングや知識作業、推論タスク向けに設計されており、ベンチマーク評価ではOpenAIやAnthropicの一部システムを上回る性能を示したという。中国発の開放モデルが米国勢との性能差を急速に縮めていることを象徴する発表となった。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicとBlackstone、15億ドル規模のAI実装企業「Ode with Anthropic」を設立",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+      "summary": "AnthropicとBlackstoneが中心となり、Goldman Sachsなども加わって2026年7月15日、15億ドル規模のAI実装企業「Ode with Anthropic」を立ち上げた。同社はクライアント企業にAI導入・運用を支援する専門エンジニアを配置し、モデル開発そのものではなく「実装」を次の兆ドル規模のビジネス領域と位置づけている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "習近平国家主席、上海の世界AI会議で初の基調演説「AIはグローバルな協調を」",
+      "url": "https://www.scmp.com/tech/tech-war/article/3360870/top-takeaways-xi-jinpings-opening-address-world-ai-conference-shanghai",
+      "summary": "2026年7月17日、上海で開幕した世界AI会議の開会式で習近平国家主席が初めて基調演説を行った。AIの発展は一国の独演であってはならず「協調のシンフォニー」であるべきだと述べ、オープンソースや国際協力の推進を呼びかけた。米中対立が続くなかでの中国側の姿勢表明として注目された。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Thinking Machines Lab、初のオープンウェイトモデル「Inkling」を公開",
+      "url": "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "summary": "元OpenAI CTOのMira Murati氏が率いるThinking Machines Labが2026年7月15日、同社初のオープンウェイトモデル「Inkling」を発表した。総パラメータ975億のMixture-of-Expertsモデルで、テキスト・画像・音声・動画で訓練されている。組織が独自にカスタマイズして運用することで画一的な大型モデルより優れた性能を得られるという同社の戦略を体現するリリース。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "MCP（Model Context Protocol）、7月28日にステートレス化した新仕様をリリースへ",
+      "url": "https://aaif.io/blog/mcp-is-growing-up/",
+      "summary": "AIエージェント連携の標準規格であるMCP（Model Context Protocol）の次期仕様のリリース候補が公開され、正式版は2026年7月28日に公開予定であることが明らかになった。最大の変更点はプロトコル層のステートレス化で、セッションIDを廃止し各リクエストを自己完結型にすることで、負荷分散やゲートウェイ経由での運用を通常のHTTPサービスのように扱えるようになる。あわせて拡張機能の枠組み整備や認可ルールの厳密化も進められている。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-07-19-news"
+}

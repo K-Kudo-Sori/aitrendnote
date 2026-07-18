@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-19T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月19日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19-news.html</id>
+    <updated>2026-07-19T00:00:00+09:00</updated>
+    <summary>中国Moonshot AIが2.8兆パラメータの世界最大オープンソースモデル「Kimi K3」を発表し、米国勢との性能差が急速に縮小 / AnthropicがBlackstone等と15億ドル規模のAI実装企業「Ode with Anthropic」を設立し、モデルではなく導入支援を次の主戦場に / 習近平国家主席が上海の世界AI会議で初の基調演説を行い、AIのグローバルな協調体制構築を提唱 / Thinking Machines Labが初のオープンウェイトモデル「Inkling」を公開し、汎用モデルへの対抗戦略を実証 / MCP（Model Context Protocol）が7月28日…</summary>
+  </entry>
+  <entry>
     <title>2026年7月19日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28-news.html</id>
     <updated>2026-06-28T00:00:00+09:00</updated>
     <summary>Anthropic Fable 5/Mythos 5 の輸出規制が部分的に緩和：米国の重要インフラを運用・防衛する100以上の組織への Mythos 5 再展開が許可された（Fable 5 の一般解除はまだ pending） / 東京発の Sakana AI が複数モデルを統合するオーケストレーションモデル「Fugu」をリリース。Fugu Ultra は AnthropicのFable 5 と同等水準を主張 / 中国の360が輸出規制の空白を突いてサイバーセキュリティ AI モデル「Tulongfeng」「Yitianzhen」を発表 / Apple Vision Pro 担当 VP の P…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月28日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28.html</id>
-    <updated>2026-06-28T00:00:00+09:00</updated>
-    <summary>AIエージェントを Gemini をサブエージェントとして活用し Claude のコストを最大64%削減できることが実測で確認された / OWASP Benchmark での検証で Claude Code /security-review と Codex /review がともに高い脆弱性検知率（95%前後）を記録した / 古い Kepler GPU（GTX 770）を5バイトパッチで現代の Linux カーネル上に復活させ、LLM 推論を動かすことに成功した / AIコーディングエージェントを自走させることより、人間からのフィードバック量こそがプロダクトの価値を決めるという論考が注目を集め…</summary>
   </entry>
 </feed>
