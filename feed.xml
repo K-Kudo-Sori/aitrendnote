@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-18T00:00:00+09:00</updated>
+  <updated>2026-07-19T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月19日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19.html</id>
+    <updated>2026-07-19T00:00:00+09:00</updated>
+    <summary>Claude CodeのAgent Skill/プラグイン活用（敵対的検証・プラグイン3選・自然な日本語Skill）の記事が目立つ / AIエージェントにDBやSQLを安全に触らせるための設計（MCPサーバー、権限承認、監査ログ）が複数記事で共通テーマに / Fable 5とGPT-5.6の性能比較や、オープンLLMをLambdaで動かす検証など、モデル・インフラ寄りの実測記事も充実 / Docker SandboxesやMicroVMなど、AIエージェント実行環境のセキュリティ境界に関する実践入門が登場</summary>
+  </entry>
   <entry>
     <title>2026年7月18日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-18-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28.html</id>
     <updated>2026-06-28T00:00:00+09:00</updated>
     <summary>AIエージェントを Gemini をサブエージェントとして活用し Claude のコストを最大64%削減できることが実測で確認された / OWASP Benchmark での検証で Claude Code /security-review と Codex /review がともに高い脆弱性検知率（95%前後）を記録した / 古い Kepler GPU（GTX 770）を5バイトパッチで現代の Linux カーネル上に復活させ、LLM 推論を動かすことに成功した / AIコーディングエージェントを自走させることより、人間からのフィードバック量こそがプロダクトの価値を決めるという論考が注目を集め…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月27日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-27-news.html</id>
-    <updated>2026-06-27T00:00:00+09:00</updated>
-    <summary>OpenAIがGPT-5.6 Solを発表。米政府の要請で当初は限定プレビューとして展開 / OpenAI &amp; BroadcomがLLM推論専用カスタムチップ「Jalapeño」を公開 / Google DeepMindのトップAI研究者4名が6日間でAnthropicとOpenAIへ相次いで転職 / AnthropicがAlibabaの関連事業者による大規模なモデル蒸留攻撃（約2900万件）を告発 / Gemini 3.5 FlashにPC・ブラウザ・モバイルを操作できるComputer Use機能が統合</summary>
   </entry>
 </feed>
