@@ -1,0 +1,216 @@
+{
+  "date": "2026-07-20",
+  "generatedAt": "2026/7/20 7:05:49",
+  "highlights": [
+    "Claude Code v2.1.181以降でRust版Bunが使われていることが判明",
+    "「レビューして」より「敵対的検証して」が効くという実践知見",
+    "AIエージェント向けサンドボックス（Docker Sandboxes / smolagentsのタイムアウト問題）に注目"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Claude Code uses Bun written in Rust now",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "summary": "Simon WillisonがClaude Code v2.1.181以降でBunのRust移植版が使われていることを調査した記事。バイナリ内の文字列を確認する2つのコマンドで、macOS版のBunバージョンが未リリースのv1.4.0であることや、563個の.rsファイル名が埋め込まれていることを突き止めた。この結果から、Rustで書き直されたBunがすでに数百万台のデバイス上で本番稼働していると結論づけている。作者のJarred Sumnerが述べた「地味な変化ほど良い」という言葉どおり、Linuxでの起動速度が10%向上した以外はユーザーにほとんど気づかれていない。",
+      "category": "devtool",
+      "points": 344,
+      "comments": 458,
+      "author": "tosh"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI reduces Codex Model Context Size from 372k to 272k",
+      "url": "https://github.com/openai/codex/pull/33972/files",
+      "summary": "OpenAIのCodexリポジトリで、リリースブランチ0.144にバンドルされているモデルのメタデータを更新するプルリクエストがマージされた。この変更により、Codexで利用可能なモデルのコンテキストサイズが372kトークンから272kトークンへ縮小されることがdiffから確認できる。変更はホットフィックスとしてバックポートされたもので、詳細な説明文やブログ投稿はなく、GitHub上のコミット差分のみが公開されている。",
+      "category": "model",
+      "points": 272,
+      "comments": 128,
+      "author": "AmazingTurtle"
+    },
+    {
+      "source": "hackernews",
+      "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
+      "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
+      "summary": "Moonshot AIが公式Xアカウントで、新モデル「Kimi K3」への需要が想定を大きく上回り、直近48時間でGPUリソースが逼迫していると発表した。既存ユーザーの利用体験を守るため、新規サブスクリプションの受付を一時停止し、順次バッチで再開する方針を示した。また今後はチャット・アプリ向けの「Kimi Membership」と、コーディング向けの「Kimi Code Membership」にプランを分割し、用途に応じた計算資源配分を行うとしている。",
+      "category": "product",
+      "points": 156,
+      "comments": 54,
+      "author": "serialx"
+    },
+    {
+      "source": "hackernews",
+      "title": "Heavy TV watching associated with smaller brain structures, study finds",
+      "url": "https://dornsife.usc.edu/news/stories/heavy-tv-watching-associated-with-smaller-brain-structures/",
+      "summary": "USCなどの研究チームが、中年期にテレビを「非常によく見る」と答えた人は、後年の脳MRIで記憶に関わる領域や前頭葉・後頭葉の体積が小さく、白質病変も多いことを発見したという研究を紹介する記事。約1700人を対象に1987年から追跡したARIC研究のデータを分析した結果で、座位時間そのものではなく「座って何をしているか」が脳の健康に影響する可能性を示唆している。興味深いことに、仕事でよく座る人はむしろ前頭葉・後頭葉が大きく白質病変も少ない傾向があり、知的刺激の有無が関係している可能性があるという。影響は男性でより顕著に見られた。",
+      "category": "other",
+      "points": 69,
+      "comments": 31,
+      "author": "mashally"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに「レビューして」はもう古い？「敵対的検証」のすすめ",
+      "url": "https://zenn.dev/loglass/articles/6aa18c80496ec6",
+      "summary": "「レビューして」と頼むより「敵対的検証して」と頼む方が、成果物に課題がある前提で反証を試み、判定と根拠まで返してくる点で品質向上に効くと説く記事。Claude Codeの/deep-researchや/code-reviewは既にこの敵対的検証パターンを内部で使っており、Anthropic公式もベストプラクティスとして推奨していることを紹介する。筆者自身が記事の切り口案に「敵対的検証して」と頼んだところ、3体のサブエージェントが読者視点・主張の正しさ・記事としての成立性の観点で並列に反証し、具体的な改善判定を返した実例を示す。効く理由は「課題がある前提での構え」と、会話の流れに迎合しない「fresh context」の2つの掛け算にあるとまとめている。",
+      "category": "devtool",
+      "points": 191,
+      "author": "little_hands(松岡@Loglass)"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeが化けた。今使っている3つのプラグイン+標準機能の活用法",
+      "url": "https://zenn.dev/sonicmoov/articles/8712598f532b18",
+      "summary": "フロントエンドエンジニアの筆者が、Claude Codeを3ヶ月使う中で選び抜いた3つのプラグインと標準機能の活用法を紹介する記事。標準機能のステータスラインでモデル名・ブランチ・コンテキスト使用量・レートリミットを常時可視化し、朝7時に自動pingを送るルーチンで5時間のレートリミットウィンドウを業務時間に合わせている。日本語応答のトークンを約8割削減する「genshijin」、TDDやセルフレビューを強制する開発方法論プラグイン「superpowers」なども取り上げている。それぞれ可視性・時間管理・コスト・プロセスという異なるレイヤーを補完し合う組み合わせだと説明している。",
+      "category": "devtool",
+      "points": 189,
+      "author": "ShoppingShark"
+    },
+    {
+      "source": "zenn",
+      "title": "オープンLLMをLambdaで動かしてみる",
+      "url": "https://zenn.dev/edash_tech_blog/articles/528ab6bd044c35",
+      "summary": "AWS Lambda上でオープンなLLMを動かせるかを検証した記事。Lambdaはメモリ最大10GB・GPUなしという制約から、Llama 3.2やQwen3、Gemma 3などの量子化済み小型モデル（1B〜数Bパラメータ）であれば理論上載せられると机上で確認している。より大きなモデルやコールドスタート回避が必要な場合の選択肢として、EC2ベースで課金される「Lambda Managed Instances」にも触れ、両者のトレードオフを整理している。目的はフラッグシップLLMの置き換えではなく、コミットメッセージ整形や軽い分類といった簡単なタスクを安価なサーバレス環境に逃がすことだとしている。",
+      "category": "infra",
+      "points": 10,
+      "author": "a2-ito"
+    },
+    {
+      "source": "zenn",
+      "title": "SQL MCP Server が GA したらしい",
+      "url": "https://zenn.dev/microsoft/articles/1113250e1e63dc",
+      "summary": "Microsoftが2026年6月に一般提供を開始した「SQL MCP Server」を実際に触ってみた記事。Data API Builderの一部として提供され、describe_entitiesやcreate_record、read_recordsなど7つのDMLツールをAIエージェントに公開し、DB操作を可能にする。dab-config.jsonで特定のツール（更新系など）を無効化して参照専用にする設定や、ストアドプロシージャをカスタムツールとして登録し安全にトランザクション処理を実行させる方法を検証している。DB管理者の懸念に対しても、公開するツールを絞り込むことである程度対応できると評価している。",
+      "category": "agent",
+      "points": 28,
+      "author": "takashi honma"
+    },
+    {
+      "source": "zenn",
+      "title": "AIでがんがん書く時代の「きれいなコード」の守り方 — ESLint+SonarJS / jscpd / knip をCIに置く",
+      "url": "https://zenn.dev/singularity/articles/clean-code-ci-for-ai-era",
+      "summary": "AIがコードを大量生成する時代に、巨大関数・重複コード・デッドコードといった「腐敗」を防ぐため、ESLintコアルール・SonarJS・jscpd・knipの4つのツールをCIに組み込む構成を紹介する記事。ESLintのmax-lines-per-functionなどで関数の大きさや複雑度を制限し、既存の大規模コードベースには「新規コードだけ先にエラーにし、既存違反は警告に落とす」段階的導入を勧めている。DRY原則がAI時代にはトークン消費削減という新しい意味でも重要になると指摘し、jscpdでコピペコード、knipで未使用exportを機械的に検出する仕組みを実プロダクトの設定ファイルとともに解説している。",
+      "category": "devtool",
+      "points": 16,
+      "author": "Isamu"
+    },
+    {
+      "source": "devto",
+      "title": "Stratagems #18: Leo Tracked an AI Signal to Derek. Both Were Looking for the Same Enemy.",
+      "url": "https://dev.to/xulingfeng/stratagems-18-leo-tracked-an-ai-signal-to-derek-both-were-looking-for-the-same-enemy-51g4",
+      "summary": "「36計」になぞらえたAI業界群像劇の連載小説の第18話。主人公LeoがACL（Automated Compliance Lab）関連のIPレンジから届いた不審なHTTPS通信ログを発見し、過去のFinOptimaインシデントで仕掛けた監視の続報として調査を進める場面が描かれる。同僚DerekがACLのデータストリームを密かに傍受していたことも絡み、AIコンプライアンス監査を巡る社内の駆け引きが続く。技術的な解説記事ではなく、AI業界の内幕を題材にしたフィクション作品。",
+      "category": "other",
+      "points": 37,
+      "comments": 16,
+      "author": "xulingfeng",
+      "tags": [
+        "ai",
+        "discuss",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "One line of math froze my AI agent forever. The timeout watched and did nothing.",
+      "url": "https://dev.to/himanshu_748/one-line-of-math-froze-my-ai-agent-forever-the-timeout-watched-and-did-nothing-2dma",
+      "summary": "LLMが生成したPythonコードをサンドボックス実行するsmolagentsで、`10 ** 10 ** 8`という一行の巨大べき乗計算がタイムアウト機構を完全に無効化してしまうバグを解説する記事。CPythonの多倍長整数の`**`演算はGILを保持したまま単一のC呼び出し内で完結するため、スレッドベースのタイムアウトが発火する機会自体が失われることが原因だと突き止めている。実際に監視用のSentryプロジェクトでは、プロセスがフリーズしてイベントが一切送信されないという「沈黙の障害」が発生したことを示し、フリーズ系バグにはウォッチドッグプロセスによる外部監視が必要だと結論づけている。",
+      "category": "agent",
+      "points": 10,
+      "comments": 6,
+      "author": "Himanshu Kumar",
+      "tags": [
+        "devchallenge",
+        "bugsmash",
+        "python",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Rewrote a OneNote MCP Server in TypeScript — Here's What I Learned About Microsoft Graph Auth",
+      "url": "https://dev.to/singhamandeep007/i-rewrote-a-onenote-mcp-server-in-typescript-heres-what-i-learned-about-microsoft-graph-auth-5933",
+      "summary": "既存のOneNote用MCPサーバーで発生する謎の401エラーを調査し、TypeScriptで全面的に書き直した経緯を紹介する記事。原因はNotes.Read.Allのような「.All」スコープが個人のMicrosoftアカウントでは実質的に機能せず、認証自体は成功するのにGraph APIが常に拒否するという罠にあった。解決策はリソース修飾された委任スコープに置き換えることで、加えて個人アカウントが返す非JWT形式のトークンをJWTとして誤検証しないよう注意が必要だと指摘している。ついでにコードベース全体をZodによる型付きツール定義を用いた明確な構成に整理し直している。",
+      "category": "agent",
+      "points": 8,
+      "comments": 2,
+      "author": "Amandeep Singh",
+      "tags": [
+        "mcp",
+        "typescript",
+        "tutorial",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Hardest System I Ever Built Was for Patients Who Could Not Afford for It to Fail",
+      "url": "https://dev.to/toboreeee/the-hardest-system-i-ever-built-was-for-patients-who-could-not-afford-for-it-to-fail-nah",
+      "summary": "ナイジェリア・デルタ州の農村部診療所向けに開発した予約システムの卒業制作について振り返る記事。GPS座標を手入力する際の緯度経度取り違えにより、診療所の位置が地図上で海の上に表示されてしまうバグなど、実際の利用者が本物の患者である現場ならではの厳しい制約と向き合った経験が語られている。2G回線・低スペック端末・不安定な電力事情を前提に、React・Node.js・Laravel・SMS・WhatsApp・USSDなど複数のチャネルを組み合わせて構築したという。AIそのものの技術記事ではないが、実運用を意識したシステム設計の教訓として紹介されている。",
+      "category": "other",
+      "points": 11,
+      "comments": 2,
+      "author": "Laurina Ayarah",
+      "tags": [
+        "devchallenge",
+        "bugsmash",
+        "react",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built an AI App. Eight Months Later, It Became a Skill",
+      "url": "https://dev.to/juandastic/i-built-an-ai-app-eight-months-later-it-became-a-skill-58cn",
+      "summary": "以前はPythonバックエンド・Web UI・Telegram bot・Google OAuthなどを備えたフル機能アプリとして構築した栄養記録AI「NutriAgent」を、8ヶ月後に個人用エージェント「Hermes」のスキルとしてわずか2回のプロンプトと15分で再現できたという体験記。バックエンドの再構築や認証の再実装が不要になり、エージェントに「何をしてほしいか」という手順だけを教えれば済むようになった点を大きな変化として強調している。汎用サービスとしての配布はできなくなったものの、個人利用の目的には十分であり、エージェント環境が整った今では「アプリを作る」より「スキルを教える」方が低コストだと結論づけている。",
+      "category": "agent",
+      "points": 3,
+      "comments": 0,
+      "author": "Juan David Gómez",
+      "tags": [
+        "agents",
+        "ai",
+        "productivity",
+        "sideprojects"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "マルチエージェントに関する論文を40本再実装してみて分かったこと",
+      "url": "https://qiita.com/Koukyosyumei/items/e9ee8e26cfdc40a8c2f9",
+      "summary": "マルチエージェントLLMに関する論文40本のワークフローを実際に再実装し、共通するパターンを分析した記事。ほとんどの手法は「ループ構造」「プロンプト設計」「集約ルール」の3要素の組み合わせで説明でき、独立したサンドボックスでエージェントを隔離することがSelf-ConsistencyやCoVeのような手法の前提である「出力の独立性」を守る上で重要だと述べている。Self-RefineやReflexionなど自己改善系の手法もフィードバック取得元が異なるだけで基本構造はほぼ同じであり、ディベート手法も「誰が誰の発言を見られるか」という通信トポロジーの違いに帰着すると分析している。最終的に40本の論文はおよそ8つの基本パターンに分類できると結論づけている。",
+      "category": "research",
+      "author": "Koukyosyumei"
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェントのためのDocker Sandboxes実践入門",
+      "url": "https://qiita.com/minamijoyo/items/854ce04da1490b43a848",
+      "summary": "AIエージェントのコーディング環境として、Docker社が開発するMicroVMベースのサンドボックス機能「Docker Sandboxes」を実践的に解説する記事。OSレベルの制限やLinuxコンテナの名前空間分離では、AIが生成した信頼できないコードの実行に対するセキュリティ境界として不十分だと指摘し、カーネルを共有しないMicroVM隔離の必要性を説明している。sbxコマンドによるインストールからログイン、claudeエージェントの起動、通信先の許可リストやシークレットのプロキシ注入といった機能まで、実際の設定手順を詳しく紹介している。",
+      "category": "infra",
+      "author": "minamijoyo"
+    },
+    {
+      "source": "qiita",
+      "title": "【徹底解説】文系でもわかる！機械学習に入門しよう",
+      "url": "https://qiita.com/miruky/items/42b892805eb1d754109c",
+      "summary": "文系出身の筆者が、数式を最小限に抑えながら機械学習の全体像を解説する入門記事。ルールを人間が書く従来のプログラムとの違いから始め、AI・機械学習・深層学習・生成AIの用語の包含関係、モデル・アルゴリズム・パラメータ・ハイパーパラメータの違いを家賃予測を例に整理している。学習データ・検証データ・テストデータの役割分担や、退会予測を例にしたデータ漏れの危険性など、実務で重要な基礎概念を丁寧に説明する内容になっている。",
+      "category": "research",
+      "author": "miruky"
+    },
+    {
+      "source": "qiita",
+      "title": "AI時代のドキュメント駆動開発のすすめ",
+      "url": "https://qiita.com/Asahi_tech_dev/items/5a3c6420cb0b2fa0e823",
+      "summary": "AIによる開発の高速化で誰でもプロダクトを作れるようになった一方、仕様が開発者の頭の中にすら残らなくなったという問題意識から、「AI時代のドキュメント駆動開発」を提唱する記事。docsディレクトリに大雑把なプロダクトデザインを書き、AIを使ってproduct.mdや設計ドキュメントへ繰り返しフォーマット化していく手法を紹介している。仕様のバージョン管理やオンボーディングのしやすさといったメリットがある一方、往復コストの発生や探索段階のプロダクトには不向きな点も注意点として挙げている。",
+      "category": "devtool",
+      "author": "Asahi_tech_dev"
+    },
+    {
+      "source": "qiita",
+      "title": "さくらのAI Engineに書いてもらったコードで、さくらのAI Engineの「ずんだもん」に毎朝私は起こされる",
+      "url": "https://qiita.com/torifukukaiou/items/3c03c45da77e9cb7cf6b",
+      "summary": "「さくらのAI Engine」無料枠キャンペーンに参加した筆者が、Claude CodeのモデルをさくらのAI Engine上のKimi-K2.6に切り替えて、既存のNervesデバイス上の目覚まし機能をAzure Text-to-SpeechからさくらのAI EngineのTTS API（zundamonモデル）へ移行した記事。Planモードで移行計画を立てさせた上で、既存の呼び出し口を変えずに内部実装だけを差し替える設計でスムーズに移行が完了したという。コードを書いたのもさくらのAI Engine、そのコードが呼び出す先もさくらのAI Engineという「AIにAIを呼ばせる」円環的な構成を面白いポイントとして紹介している。",
+      "category": "devtool",
+      "author": "torifukukaiou"
+    }
+  ]
+}

@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-19T00:00:00+09:00</updated>
+  <updated>2026-07-20T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月20日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-20.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-20.html</id>
+    <updated>2026-07-20T00:00:00+09:00</updated>
+    <summary>Claude Code v2.1.181以降でRust版Bunが使われていることが判明 / 「レビューして」より「敵対的検証して」が効くという実践知見 / AIエージェント向けサンドボックス（Docker Sandboxes / smolagentsのタイムアウト問題）に注目</summary>
+  </entry>
   <entry>
     <title>2026年7月19日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29.html</id>
     <updated>2026-06-29T00:00:00+09:00</updated>
     <summary>2026年6月29日のAIトレンド 20件</summary>
-  </entry>
-  <entry>
-    <title>2026年6月28日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-28-news.html</id>
-    <updated>2026-06-28T00:00:00+09:00</updated>
-    <summary>Anthropic Fable 5/Mythos 5 の輸出規制が部分的に緩和：米国の重要インフラを運用・防衛する100以上の組織への Mythos 5 再展開が許可された（Fable 5 の一般解除はまだ pending） / 東京発の Sakana AI が複数モデルを統合するオーケストレーションモデル「Fugu」をリリース。Fugu Ultra は AnthropicのFable 5 と同等水準を主張 / 中国の360が輸出規制の空白を突いてサイバーセキュリティ AI モデル「Tulongfeng」「Yitianzhen」を発表 / Apple Vision Pro 担当 VP の P…</summary>
   </entry>
 </feed>
