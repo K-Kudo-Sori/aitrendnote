@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-20",
+  "generatedAt": "2026/7/20 8:10:00",
+  "highlights": [
+    "Netflixがベン・アフレック共同創業のAI映像制作スタートアップを587億ドル規模で買収したことが判明",
+    "非営利団体Current AIが総額4億ドルの資金でインド22言語対応のオフラインAI端末「Suno Sutra」を発表",
+    "Anthropicが7月20日からClaude Fable 5のプラン別利用制限を変更、Pro/Team Standardはサブスクアクセスを失う",
+    "Moonshot AIが2.8兆パラメータのオープンモデル「Kimi K3」を発表、オープンウェイト公開は7月27日予定",
+    "OpenAIが自社モデルを自動攻撃するレッドチーミングAI「GPT-Red」の詳細を公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Netflixが俳優ベン・アフレックのAI映像制作スタートアップを587億ドルで買収",
+      "url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
+      "summary": "Netflixは、俳優ベン・アフレックが共同創業したAI映像制作スタートアップ「InterPositive」を現金5億8700万ドルで買収したことが、同社の規制関連文書で明らかになった。買収自体は2026年3月に発表済みだったが、金額は今回初めて公表された。InterPositiveのAIツールは撮影漏れ・背景差し替え・照明の不備といった後処理の課題を補うもので、アフレックはNetflixのシニアアドバイザーに就任している。同社はすでに約300作品で生成AIを活用しているという。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "非営利団体Current AI、公共AI基盤の整備を加速——インド22言語対応のオフライン端末「Suno Sutra」も発表",
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "summary": "フランス政府（1億ドル）、フォード財団、MacArthur財団、Google DeepMind、Salesforceなどの支援で総額4億ドルの資金を確保した非営利団体Current AIが、商用AIでは手薄になりがちな言語・地域向けの公共インフラ整備を進めている。インドのBhashini部門と共同開発した、インターネット接続なしで22のインド言語に対応するポケットサイズ端末「Suno Sutra」を発表した。Hugging FaceやMozillaなど10団体と7週間で開発したオープンソースチャットボット「Alpha Chat」も既に公開している。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、Claude Fable 5のプラン別利用制限を7月20日から変更——Max/Team Premiumは上限半減、Pro/Team Standardはクレジット制へ",
+      "url": "https://the-decoder.com/anthropic-slashes-claude-fable-5-limits-in-max-and-team-premium-and-pushes-pro-users-toward-api-pricing/",
+      "summary": "Anthropicは2026年7月20日付でClaude Fable 5のアクセス方式を変更する。Max・Team Premiumプランではボーナス期間終了により通常の利用上限自体が縮小したうえ、その50%までしかFable 5を使えなくなる。Pro・Team Standardプランはサブスクリプションでのアクセスを失い、1回限り100ドル分のクレジット付与後はAPI料金（入力10ドル／出力50ドル・per million tokens）に切り替わる。Anthropicは「Fableの需要は管理が難しく利用者の不満を招いていた」と説明し、OpenAIのGPT-5.6や中国勢との価格競争も背景にあるとみられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Moonshot AI、2.8兆パラメータのオープンMoEモデル「Kimi K3」を発表",
+      "url": "https://simonwillison.net/2026/Jul/16/kimi-k3/",
+      "summary": "中国のMoonshot AIが7月16日、パラメータ数2.8兆の新モデル「Kimi K3」を発表した。「初のオープンな3兆パラメータ級モデル」とされ、独自ベンチマークではClaude Opus 4.8やGPT-5.5 highを上回るが、Claude Fable 5やGPT-5.6 Solには及ばないという。Artificial AnalysisのEloスコアは1547で、Arena.aiのフロントエンドコード部門でも上位に位置する。価格は入力100万トークンあたり3ドル・出力15ドルで前モデルK2.6より高価格帯。ウェブ・API経由での提供は開始済みで、オープンウェイト公開は7月27日を予定している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、自社モデルを攻撃する自動レッドチーミングAI「GPT-Red」の詳細を公開",
+      "url": "https://siliconangle.com/2026/07/15/openai-details-gpt-red-ai-attacks-models-find-flaws/",
+      "summary": "OpenAIは、公開前のモデルの脆弱性を自律的に発見する内部システム「GPT-Red」の詳細を公表した。自己対戦型の強化学習で攻撃側モデルと防御側モデル群を同時に訓練し、プロンプトインジェクションなどの脆弱性発見に成功すると攻撃側に報酬を与える仕組み。対象シナリオでの攻撃成功率は84%で、人間のレッドチーム（13%）を大きく上回った。GPT-5.1に対して95%成功していた「偽の思考過程」型攻撃も、GPT-5.6では成功率10%未満まで低下したという。GPT-Red自体は一般公開せず、GPT-5.3以降のモデル訓練に組み込んで防御力向上に直接活用している。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-07-20-news"
+}
