@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-20T00:00:00+09:00</updated>
+  <updated>2026-07-21T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月21日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21.html</id>
+    <updated>2026-07-21T00:00:00+09:00</updated>
+    <summary>中国勢のオープンウェイトモデル（Kimi K3, Qwen 3.8）が欧米フロンティアモデルに急速に追いつき、AI業界の競争構造に影響 / AIエージェントによる脆弱性発見やコード生成の実務活用が加速する一方、著作権・責任の所在といったガバナンス論点も顕在化 / Claude Code関連では「敵対的検証」プロンプトやプラグイン活用など、開発生産性を高める実践的ノウハウの共有が引き続き活発</summary>
+  </entry>
   <entry>
     <title>2026年7月20日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-20.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29-news.html</id>
     <updated>2026-06-29T00:00:00+09:00</updated>
     <summary>GPT-5.6が3段階モデル（Sol/Terra/Luna）として登場。国家安全保障を理由に米政府が初めてAIモデルの公開を制限し、約20社のみに限定プレビュー。 / OpenAIが推論専用カスタムチップ「Jalapeño」をBroadcomと共同発表。Nvidia依存低減と推論コスト50%削減を目指す。 / AnthropicがアリババによるClaude AIへの史上最大規模の不正「蒸留攻撃」（2,500万件超のフェイクアカウント）を米議会・ホワイトハウスに告発。 / DeepSeek V4-Proが75%の値下げを永久化。西側フロンティアモデルより5〜17倍安く、AI価格戦争が新局面に突…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月29日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29.html</id>
-    <updated>2026-06-29T00:00:00+09:00</updated>
-    <summary>2026年6月29日のAIトレンド 20件</summary>
   </entry>
 </feed>
