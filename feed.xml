@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-21T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月21日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21-news.html</id>
+    <updated>2026-07-21T00:00:00+09:00</updated>
+    <summary>MCPがステートレス化で運用しやすく、Googleは2028年投入予定の高効率AIチップを開発中 / オープンウェイトモデル（Kimi K3）を巡る規制論争がOpenAI内部からも噴出 / Hugging Faceが自律型AIエージェントによるサーバー侵害を確認、資格情報のローテーションを呼びかけ / YouTubeはAIスロップ・扇情的動画の収益化ポリシーを明確化</summary>
+  </entry>
+  <entry>
     <title>2026年7月21日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30.html</id>
     <updated>2026-06-30T00:00:00+09:00</updated>
     <summary>vLLMが「Micro-Agent」を発表——フロンティアモデルをAPI内協調で上回る新エージェントアーキテクチャ / AIが72時間でWordPressプラグインに300件のゼロデイ脆弱性を発見、開発者の意識変革を促す / Claude Code関連の実践知見が多数——Remote Control自動復旧・エラーコピペを避けるべき理由 / GEO（生成AIエンジン最適化）への注目が高まり、LLMに引用されやすい記事構造の解説が登場</summary>
-  </entry>
-  <entry>
-    <title>2026年6月29日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-29-news.html</id>
-    <updated>2026-06-29T00:00:00+09:00</updated>
-    <summary>GPT-5.6が3段階モデル（Sol/Terra/Luna）として登場。国家安全保障を理由に米政府が初めてAIモデルの公開を制限し、約20社のみに限定プレビュー。 / OpenAIが推論専用カスタムチップ「Jalapeño」をBroadcomと共同発表。Nvidia依存低減と推論コスト50%削減を目指す。 / AnthropicがアリババによるClaude AIへの史上最大規模の不正「蒸留攻撃」（2,500万件超のフェイクアカウント）を米議会・ホワイトハウスに告発。 / DeepSeek V4-Proが75%の値下げを永久化。西側フロンティアモデルより5〜17倍安く、AI価格戦争が新局面に突…</summary>
   </entry>
 </feed>
