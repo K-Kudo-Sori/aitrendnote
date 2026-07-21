@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-22",
+  "generatedAt": "2026/7/22 8:09:52",
+  "highlights": [
+    "Googleが新しいGemini 3.6 Flash / 3.5 Flash-Lite / 3.5 Flash Cyberを発表（Proの更新はなし）",
+    "AI音楽生成サービスSunoで5,530万人規模のデータ侵害が発覚、他社楽曲の無断スクレイピングも判明",
+    "米財務長官が中国製オープンソースAIモデルへの制裁検討を表明、IP窃取を懸念",
+    "データセンターの電力消費は2035年までに米国内需要の4倍・全体の5分の1に達すると予測",
+    "Deezerで日々のアップロード楽曲の50%超がAI生成に、権利保護策を強化"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Google releases three new Gemini models — but no 3.5 Pro",
+      "url": "https://techcrunch.com/2026/07/21/google-releases-three-new-gemini-models-but-no-3-5-pro/",
+      "summary": "Google DeepMindがGemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberの3モデルを発表した。主力のGemini 3.6 Flashはコーディングと知識労働の能力を高めつつトークン使用量を最大17%削減し、3.5 Flash Cyberはサイバーセキュリティの脆弱性検出・修正に特化し政府や信頼できるパートナー向けの限定パイロットとして提供される。一方で長らく期待されているGemini Proの更新は含まれず、2月の最終更新から音沙汰がない状態が続いている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AI music generator Suno breach affects 55M users, per Have I Been Pwned",
+      "url": "https://techcrunch.com/2026/07/21/ai-music-generator-suno-breach-affects-55m-users-per-have-i-been-pwned/",
+      "summary": "AI音楽生成サービスSunoで2025年11月に発生していたサイバー攻撃により、5,530万人以上のユーザーの氏名・住所・メール・電話番号・購入履歴・カード情報の一部が流出していたことがHave I Been Pwnedの分析で判明した。流出したソースコードからは、SunoがDeezerやGenius、YouTubeなど他社サイトから楽曲やリリックを無断でスクレイピングしていた実態も明らかになり、大手レコード会社による著作権訴訟の争点にもなっている。Sunoは侵害を公式に開示・通知しておらず対応の遅れが批判されている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "US threatens sanctions against Chinese AI models over IP theft",
+      "url": "https://techcrunch.com/2026/07/21/us-threatens-sanctions-against-chinese-ai-models-over-ip-theft/",
+      "summary": "米財務長官スコット・ベッセント氏が、中国のオープンソースAIモデルに対する調査と制裁の可能性に言及した。Moonshot AIのKimi K3など中国企業モデルの急速な技術進歩がOpenAIやAnthropicなど米企業の競争力・資金調達に脅威を与えているとの懸念が背景にある。従来のチップ輸出規制に続き、AIモデル自体を制裁対象とする可能性があり米中技術対立の新たな段階を示すが、モデル蒸留を実質的なIP窃取とみなせるかは専門家の間でも意見が分かれている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Data centers expected to use 4x more electricity by 2035",
+      "url": "https://techcrunch.com/2026/07/21/data-centers-expected-to-use-4x-more-electricity-by-2035/",
+      "summary": "BloombergNEFの報告書によると、米国のデータセンターは2035年までに国内電力消費の5分の1を占め、現在の4倍の電力を消費するようになる見込みだという。AI需要の急増によりデータセンター容量は今後10年でほぼ200ギガワットに達し、その約半分が学習・推論に充てられ大部分が米国に集中する。PJM管内では電力の34%、ERCOT（テキサス）では発電容量の22%がデータセンター向けになるとされ、世界全体では新設分だけでインドの現在の総電力需要に匹敵する規模になる可能性がある。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Music streamer Deezer says more than 50% of daily uploads are AI-generated",
+      "url": "https://techcrunch.com/2026/07/21/music-streamer-deezer-says-more-than-50-of-daily-uploads-are-ai-generated/",
+      "summary": "音楽ストリーミングのDeezerは、2026年6月時点でAI生成楽曲の日次アップロードが9万曲に達し、全アップロードの50%を超えたと発表した。同社CEOはアーティストと作曲家の権利保護のため追加対応を進めるとし、他社プラットフォームへのAI楽曲検出技術の提供、半年間再生されていない・不正ストリーミングに関与したAI楽曲の削除、AI生成楽曲へのラベル表示などを実施している。業界内ではBandcampのような全面禁止からSpotifyやApple Musicの段階的対応まで、対応方針が分かれている。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-07-22-news"
+}

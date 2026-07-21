@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-22T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月22日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22-news.html</id>
+    <updated>2026-07-22T00:00:00+09:00</updated>
+    <summary>Googleが新しいGemini 3.6 Flash / 3.5 Flash-Lite / 3.5 Flash Cyberを発表（Proの更新はなし） / AI音楽生成サービスSunoで5,530万人規模のデータ侵害が発覚、他社楽曲の無断スクレイピングも判明 / 米財務長官が中国製オープンソースAIモデルへの制裁検討を表明、IP窃取を懸念 / データセンターの電力消費は2035年までに米国内需要の4倍・全体の5分の1に達すると予測 / Deezerで日々のアップロード楽曲の50%超がAI生成に、権利保護策を強化</summary>
+  </entry>
+  <entry>
     <title>2026年7月22日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01.html</id>
     <updated>2026-07-01T00:00:00+09:00</updated>
     <summary>Anthropicが最新モデル「Claude Sonnet 5」とベータ版研究エージェント「Claude Science」を発表 / Claude Codeのシステムプロンプトに隠しマーカーを埋め込む仕組みが発見され、プライバシー上の懸念が話題に / Google DeepMindのオープンモデル「Gemma 4」がApache 2.0ライセンスで高性能を発揮 / Claude Code関連では、Claude Designの実践活用、エージェントOSとしての理解、ふりかえりによる自動ルール化など開発ツール系の知見が充実 / AI Engineer World&#39;s Fair 2026の開催に合…</summary>
-  </entry>
-  <entry>
-    <title>2026年6月30日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30-news.html</id>
-    <updated>2026-06-30T00:00:00+09:00</updated>
-    <summary>AnthropicのClaudeがMicrosoft Azure上でNVIDIA GB300 Blackwell Ultraを搭載して一般提供開始（6月29日） / OpenAIがGPT-5.6ファミリー（Sol/Terra/Luna）を発表、米政府要請で信頼パートナー限定の段階公開 / SalesforceがAgentforce Help Agentを発表—解決時のみ課金する成果報酬型AIエージェントで業界に新たな料金モデルを提示 / EU AI法の「AI生成コンテンツ透明性行動規範」が確定、2026年8月2日より透明性義務が適用開始 / AnthropicがFable 5・Mythos …</summary>
   </entry>
 </feed>
