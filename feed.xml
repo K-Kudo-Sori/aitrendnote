@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-21T00:00:00+09:00</updated>
+  <updated>2026-07-22T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月22日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22.html</id>
+    <updated>2026-07-22T00:00:00+09:00</updated>
+    <summary>2026年7月22日のAIトレンド 20件</summary>
+  </entry>
   <entry>
     <title>2026年7月21日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30-news.html</id>
     <updated>2026-06-30T00:00:00+09:00</updated>
     <summary>AnthropicのClaudeがMicrosoft Azure上でNVIDIA GB300 Blackwell Ultraを搭載して一般提供開始（6月29日） / OpenAIがGPT-5.6ファミリー（Sol/Terra/Luna）を発表、米政府要請で信頼パートナー限定の段階公開 / SalesforceがAgentforce Help Agentを発表—解決時のみ課金する成果報酬型AIエージェントで業界に新たな料金モデルを提示 / EU AI法の「AI生成コンテンツ透明性行動規範」が確定、2026年8月2日より透明性義務が適用開始 / AnthropicがFable 5・Mythos …</summary>
-  </entry>
-  <entry>
-    <title>2026年6月30日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-06-30.html</id>
-    <updated>2026-06-30T00:00:00+09:00</updated>
-    <summary>vLLMが「Micro-Agent」を発表——フロンティアモデルをAPI内協調で上回る新エージェントアーキテクチャ / AIが72時間でWordPressプラグインに300件のゼロデイ脆弱性を発見、開発者の意識変革を促す / Claude Code関連の実践知見が多数——Remote Control自動復旧・エラーコピペを避けるべき理由 / GEO（生成AIエンジン最適化）への注目が高まり、LLMに引用されやすい記事構造の解説が登場</summary>
   </entry>
 </feed>

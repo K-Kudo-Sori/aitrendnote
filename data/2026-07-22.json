@@ -1,0 +1,221 @@
+{
+  "date": "2026-07-22",
+  "generatedAt": "2026/7/22 7:06:54",
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "summary": "Googleが新しいGeminiファミリーのモデル、Gemini 3.6 Flash、3.5 Flash-Lite、3.5 Flash Cyberを発表した。3.6 Flashはワークホースモデルで、3.5 Flashに比べ出力トークン消費を17%削減しつつ、DeepSWEやMLE Bench、OSWorld-Verifiedなどのベンチマークで性能が向上している。3.5 Flash-Liteは最速・最安価な3.5クラスモデルで、秒間350トークンの生成速度を実現し、エージェント処理での性能も強化された。3.5 Flash Cyberはセキュリティ特化モデルで、コード修正エージェントCodeMenderと組み合わせて使う。さらに、Gemini 3.5 Proのテストや次世代モデルGemini 4の事前学習が既に始まっていることも明らかにされた。",
+      "category": "model",
+      "points": 536,
+      "comments": 432,
+      "author": "logickkk1"
+    },
+    {
+      "source": "hackernews",
+      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
+      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "summary": "Qwenの新しい画像生成/理解モデル「Qwen-Image-3.0」（Rich Content, Authentic Details, Deep Knowledge）の発表に関する記事だが、本文の取得にほぼ失敗し内容を読み取れなかった。タイトルから、リッチなコンテンツ表現・忠実なディテール・深い知識を特徴とする新バージョンのモデルであることが示唆されるが、詳細は不明。",
+      "category": "model",
+      "points": 521,
+      "comments": 207,
+      "author": "ilreb"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI and Hugging Face address security incident during model evaluation",
+      "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident/",
+      "summary": "本文取得失敗",
+      "category": "security",
+      "points": 358,
+      "comments": 214,
+      "author": "mfiguiere"
+    },
+    {
+      "source": "hackernews",
+      "title": "Advertise in ChatGPT",
+      "url": "https://ads.openai.com/",
+      "summary": "本文取得失敗",
+      "category": "product",
+      "points": 220,
+      "comments": 226,
+      "author": "montecarl"
+    },
+    {
+      "source": "hackernews",
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "summary": "Jack DorseyとBlockが、チームチャット・AIエージェント・Gitホスティングを統合したオープンソースのワークスペース「Buzz」を発表した。自己ホスト可能なNostrリレー上に構築されており、メッセージやコード変更、承認などすべてのイベントを署名付きで記録し、人間とAIエージェントが同じID体系の下で対等な参加者として扱われる。GitのSmart HTTPを使った内蔵フォージ機能も備え、フィーチャーブランチがそのままチャンネルになるなど、チャットとコード管理を一体化している。Goose・Codex・Claude Code向けのハーネスも用意され、エージェントがリポジトリの検索やパッチ提出、コードレビューまで行える設計だが、リレー自体は各デプロイ内で中央集権的に動作する点には注意が必要とされている。",
+      "category": "product",
+      "points": 168,
+      "comments": 156,
+      "author": "ryanmerket"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに「レビューして」はもう古い？「敵対的検証」のすすめ",
+      "url": "https://zenn.dev/loglass/articles/6aa18c80496ec6",
+      "summary": "AIに成果物を「レビューして」と頼むのではなく「敵対的検証して」と依頼することで、課題がある前提で反証を試み、判定と根拠まで返してもらう手法を紹介する記事。この「敵対的検証」はレッドチームや悪魔の代弁者、反証主義などの伝統的な考え方に由来し、AIとの協働では成果物を作った文脈から切り離された別の視点で壊すつもりで検証させることが有効だとする。Claude Codeの/deep-researchや/code-reviewは既にこのパターンを内部で使っており、複数の検証エージェントが反証を試みて多数決で指摘を採否する仕組みになっている。筆者自身の実例では、「敵対的検証して」の一言だけでスケプティック役のサブエージェント3体が並列に起動し、読者視点・主張の正しさ・記事としての成立性の観点から具体的な判定と根拠を返した。効果の鍵は「反証を試みる構え」と、会話の流れに迎合しない「fresh context」の2つの掛け合わせにあるという。",
+      "category": "devtool",
+      "points": 300,
+      "author": "little_hands(松岡@Loglass)"
+    },
+    {
+      "source": "zenn",
+      "title": "1-bit LLM「Bonsai」活用ガイド — 1.15GB で動く 8B モデルをローカルで使い倒す",
+      "url": "https://zenn.dev/tkou15/articles/bonsai-1bit-llm-guide",
+      "summary": "Caltech発のスタートアップPrismMLが、8Bクラスながらファイルサイズわずか1.15GBで動作する1-bit LLMファミリー「Bonsai」を発表した。従来の学習後量子化とは異なり、埋め込み層からLMヘッドまでネットワーク全体を最初から1-bitで学習しているのが特徴で、MMLU-Rなど主要ベンチマークでは16GB級のMistral 8BやOlmo 7Bと同等の性能を示すという。1.7B〜27Bまでのラインナップがあり、重みを3値にした高精度版「Ternary Bonsai」も提供されている。通常のllama.cpp/Ollama/LM Studioでは動作せず専用フォークが必要だが、ローカルチャットやOpenAI互換API経由でのアプリ組み込み、27BモデルではFunction CallingやMCP連携にも対応する。",
+      "category": "model",
+      "points": 35,
+      "author": "k1t"
+    },
+    {
+      "source": "zenn",
+      "title": "自社のレビュー履歴からAIコードレビュアーをつくる方法",
+      "url": "https://zenn.dev/estie/articles/f0f114389662ba",
+      "summary": "estie社が、自社の7年分のPull Requestレビューコメントを集計・分析し、AIが参照できる「レビュー規約」に変換することで、自社の作法に沿った指摘を返すAIコードレビュアーを構築した事例を紹介する記事。汎用のAIレビューツールは一般的なベストプラクティスには強いが、命名の癖や指摘の強弱といった各社固有の「方言」までは拾えないという課題意識から始まっている。収集・分析・蒸留・レビューの4ステップで進め、GitHub APIでレビュー履歴を取得し、AIに頻出パターンを読み取らせて言語別の規約ファイルに蒸留し、最終的に観点ごとに役割分担した複数のClaudeエージェントで並列レビューする構成にしたという。CodeRabbitなど既存ツールとの比較データも交え、うまくいった点・まだ課題が残る点を正直に共有している。",
+      "category": "devtool",
+      "points": 13,
+      "author": "Nari"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeを2時間おきに回してVS Code拡張mdエディタを育てるLoop Engineering実践",
+      "url": "https://zenn.dev/green_tea/articles/e39e3726a449c9",
+      "summary": "筆者はClaude Codeを/loop 2h /evolveというコマンドで2時間おきに自動起動し、VS Code向けMarkdown WYSIWYG編集拡張機能を「実装→テスト→レビュー→ドキュメント更新→commit→push」の1サイクルとして自律的に育てる「Loop Engineering」を実践した記事。平日の日中を通して2時間おきに機能追加のコミットが積み上がる様子が実際のログとして示されている。1サイクル1機能に限定してスコープの暴走を防ぐこと、Claude Proプランの利用制限（5時間ウィンドウ・週間制限）を踏まえて起動間隔を2時間に設定したことなど、ループ設計上の工夫が語られている。エージェントに任せきりにするのではなく、人間はデザインの手触りの確認や気づいたバグの指摘など要所で関与する役割分担になっている。",
+      "category": "agent",
+      "points": 11,
+      "author": "redtea"
+    },
+    {
+      "source": "zenn",
+      "title": "Unity CLI でAIエージェントにゲームを作らせてみた",
+      "url": "https://zenn.dev/tkada/articles/1ba97707dee14a",
+      "summary": "Unity公式のスタンドアロンCLIである「Unity CLI」（ベータ版）と、稼働中のUnityエディタをHTTP経由で遠隔操作できるcom.unity.pipelineパッケージを組み合わせ、Claude Codeにブロック崩しの実装を任せた事例を紹介する記事。約140個のコマンドでシーン構築やGameObject操作、C#のeval実行、スクリーンショット取得までが可能で、破壊的操作には--confirmが必須という安全設計になっている。実際にエディタへ一切触れることなく、シーン構築・スクリプト実装・Play Modeでの動作検証（evalによるボール発射やブロック破壊の確認）・勝敗判定のテストまでをAIエージェントが完走した。半年前の同種の検証と比べても、動作の完成度が大きく向上している点に驚きが示されている。",
+      "category": "agent",
+      "points": 7,
+      "author": "Takeshi Kada"
+    },
+    {
+      "source": "devto",
+      "title": "You can build it. Should you?",
+      "url": "https://dev.to/jennapederson/you-can-build-it-should-you-9e0",
+      "summary": "Lovable・Bolt・Replit・Claude Code・Codexなどの登場により「作れるか」という問いはほぼ常にYesになった一方で、「作るべきか」を問う重要性がむしろ増しているという内容のエッセイ。AIによって誰もがソフトウェアを作れるようになった結果、思いつきの内部ツールや週末プロジェクトが本番運用に化け、その保守責任を作った本人が背負うことになりがちだと指摘する。同じモデル・ツールを誰もが使えるようになったことで、ソフトウェアが均質化しやすくなっており、差別化要因は「他人が気づかなかった何かを見出せたか」に移っていると論じている。作ることをやめるのではなく、作る前に立ち止まって考える価値を再確認すべきだという主張で締めくくられている。",
+      "category": "other",
+      "points": 10,
+      "comments": 10,
+      "author": "Jenna Pederson",
+      "tags": [
+        "ai",
+        "career",
+        "programming",
+        "software"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "tpu-management: a Claude Code skill for running Gemma 4 on Cloud TPUs",
+      "url": "https://dev.to/gde/tpu-management-a-claude-code-skill-for-running-gemma-4-on-cloud-tpus-1b1e",
+      "summary": "Cloud TPU上でGemma 4を提供する際の煩雑な作業（空き容量ゾーンの検索、flex-start VMの作成、ブートディスクのサイズ調整、Hugging FaceトークンのSecret Manager連携、適切なvLLMフラグの選定など）を自動化するClaude Codeスキルおよびそれと連携するMCPサーバー「tpu-management」を作者が公開した記事。約40個のツールで容量検索・プロビジョニング・vLLMコンテナの起動確認・Cloud Loggingを使ったログ診断・ベンチマーク・安全なリソース削除までをカバーする。デフォルトの10GBブートディスクではvLLM TPUイメージが収まらない、TPUS_PER_TPU_FAMILYクォータがgcloudから見えないといった、実運用でハマりがちな知見も組み込まれている。プラグインマーケットプレイス経由のワンコマンドインストールにも対応している。",
+      "category": "devtool",
+      "points": 7,
+      "comments": 0,
+      "author": "xbill",
+      "tags": [
+        "googlecloud",
+        "tpu",
+        "vllm",
+        "claudecode"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Gemma 4 E2B on a Single TPU v6e Chip: A Serving Deep Dive",
+      "url": "https://dev.to/gde/gemma-4-e2b-on-a-single-tpu-v6e-chip-a-serving-deep-dive-53n",
+      "summary": "GCEのflex-start VM（TPU v6eチップ1基）上でvLLMを使いGemma 4 E2Bモデルを提供し、性能を計測した記事。素のgoogle/gemma-4-E2B-itは1ユーザーあたり213トークン/秒・初回トークン16msで動作し、同時ストリームでは約2,200トークン/秒までスケールし、Function CallingやVisionの簡単な質問にも高速に応答できたという。一方でQAT（量子化考慮学習）系のチェックポイントはいずれもロードに失敗し、int4版は未実装の量子化パスに、bf16 QAT版はKV共有アーキテクチャに起因するローダーのバグに当たることが判明し、upstreamにIssueとして報告されている。ブートディスクを200GBにする必要があることやSSHがブロックされる環境ではIAPトンネルが有効といった、実運用上の細かな知見も共有されている。",
+      "category": "infra",
+      "points": 7,
+      "comments": 0,
+      "author": "xbill",
+      "tags": [
+        "tpu",
+        "llm",
+        "vllm",
+        "googlecloud"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Snowflake Cortex, Explained Like an AI That Lives Next to Your Data",
+      "url": "https://dev.to/ramkumar-m-n/snowflake-cortex-explained-like-an-ai-that-lives-next-to-your-data-b0g",
+      "summary": "データをAIサービスへ送って処理し結果を戻すという従来の「往復」の手間を解消するため、Snowflakeがデータウェアハウス内にAI機能を直接組み込んだ「Snowflake Cortex」を解説する記事。SQL関数として要約・翻訳・感情分析などを呼び出せる「LLM functions」、自然言語の質問をSQLに変換して回答する「Cortex Analyst」、文書からの関連箇所検索を行う「Cortex Search」、複数ステップの推論を行う「Cortex Agents」という主要機能が紹介されている。データがウェアハウスの外に出ないため、セキュリティやレイテンシの面でメリットがあるとしている。Snowflakeは商用製品だが、同様の「ウェアハウス内AI」というパターンは他の基盤にも広がりつつあるものとして紹介されている。",
+      "category": "product",
+      "points": 7,
+      "comments": 0,
+      "author": "Ramkumar M N",
+      "tags": [
+        "snowflake",
+        "ai",
+        "llm",
+        "analytics"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "New Gemini models dropped\r\n\r\nhttps://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "url": "https://dev.to/ben/new-gemini-models-dropped-59l8",
+      "summary": "Gemini 3.6 Flash等の発表を伝えるGoogleブログへのリンクのみを共有する短い投稿で、本文としての独自の解説はほとんどなく、コミュニティからの短いコメントが2件付いているのみの記事。内容としては別記事で紹介されているGemini 3.6 Flash等の発表と同一のニュースを参照している。",
+      "category": "model",
+      "points": 5,
+      "comments": 2,
+      "author": "Ben Halpern",
+      "tags": [
+        "ai",
+        "google",
+        "llm",
+        "news"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "情報過多で結局何も残らない、AI時代に取り残されたくない新人の焦りの末路",
+      "url": "https://qiita.com/prumnn/items/f3695454f0de13aa8d7f",
+      "summary": "AI関連の情報を焦って大量に浴びるように収集していた新人エンジニアが、目的を決めずに情報収集していたことが「何も身につかない」原因だったと気づく体験談。先輩から「何のために見ているのか」を問われたことをきっかけに、目的を先に決めてから情報収集するよう改め、関係ない情報への目移りが減り、内容が自分の中に蓄積される感覚を得たという。さらに、見た情報を自分の言葉で言い換えてメモする一手間を加えることで、初めて実務で使える知識になったと述べている。情報の「量」よりも「目的を決めること」と「自分の言葉に落とし込むこと」が大切だという結論で締めくくられている。",
+      "category": "other",
+      "author": "prumnn"
+    },
+    {
+      "source": "qiita",
+      "title": "CLAUDE.md 設計パターン集──プロジェクト規模別に使い分ける7つのテンプレート",
+      "url": "https://qiita.com/hikariclaude01/items/e54c70c90c6aa84d0f66",
+      "summary": "Claude Codeの出力品質を左右するのはプロンプトやモデルよりもCLAUDE.mdの設計だとして、プロジェクト規模別に使い分ける7つのテンプレートを紹介する記事。個人スクリプト向けの10〜20行のミニマル型から、中規模Webアプリ向けのレイヤー分離型（依存方向やアーキテクチャ方針を明記）、モノレポ・チーム開発向けにルートと各パッケージでCLAUDE.mdを階層的に分割するパターンまでを具体的なサンプルとともに解説している。さらにコードレビュー特化型など用途特化のテンプレートも紹介されている。「依存方向」や「やってはいけないこと」を明記したセクションが特にClaude Codeの生成精度を高めると述べている。",
+      "category": "devtool",
+      "author": "hikariclaude01"
+    },
+    {
+      "source": "qiita",
+      "title": "Backlog × AIエージェント連携で開発業務を回す5つの活用例【bee + Agent Skills】",
+      "url": "https://qiita.com/tie_rrific/items/8df560b1cb27945bd4c9",
+      "summary": "BacklogのCLIツール「bee」とAgent Skillsを組み合わせて、Claude CodeなどのAIエージェントからBacklogの課題・コメント・Wikiを参照・更新できるようにし、開発業務を回す5つの活用例を紹介する記事。公式のBacklog MCPサーバーは課題コメントやWikiの編集・削除に未対応のため、CLIとAPI直接呼び出しを併用できるbeeの方が用途に適していたとしている。課題をエージェントへの作業指示書として読ませる、実装後の対応内容を課題コメントとして自動投稿させる、Wikiに対応ログとして蓄積させるといった具体的な活用パターンが示されている。AIエージェントが投稿する内容には「AI生成である」旨を明記することを推奨するなど、運用上の注意点にも触れている。",
+      "category": "agent",
+      "author": "tie_rrific"
+    },
+    {
+      "source": "qiita",
+      "title": "AIとともに、ふりかえりの総合サイト hurikaeri.jp を作りました（手法カタログ144種・全無料）",
+      "url": "https://qiita.com/viva_tweet_x/items/ed946cd5d87d2ae0ec03",
+      "summary": "「ふりかえりガイドブック」シリーズの著者が、7年間発信してきたふりかえり関連の知見を集約した総合サイト「hurikaeri.jp」を公開したという記事。144種類の手法カタログや、時間と目的を選ぶだけでアジェンダが自動生成されるツール、TIPSやQ&Aなどのコンテンツを無料で提供している。技術的には、Claudeとのチャットのみ（Claude Codeやエディタ・ターミナルは未使用）でAstroベースの静的サイトを構築し、ソースコードを1行も見ずに実装・検証・pushまでAIに任せたという開発スタイルが紹介されている。使用モデルはClaude Fable 5で、品質チェックの自動テストをpushのたびに走らせる仕組みも取り入れている。",
+      "category": "product",
+      "author": "viva_tweet_x"
+    },
+    {
+      "source": "qiita",
+      "title": "AIの推進がうまくいかない組織アンチパターン",
+      "url": "https://qiita.com/jw-automation/items/7a2f85593a2e2ba71306",
+      "summary": "生成AIプロジェクトの多くがPoC後に中止される、パイロットの大半が本番展開に至らないといった各種調査結果を引きつつ、AI活用がうまくいかない組織に共通するアンチパターンを整理する記事。「AIは初速が出やすい」ため70〜80点の成果物に意思決定層が満足してしまい、90〜95点の実務レベルまで引き上げる難しさが見えにくくなることを最初のアンチパターンとして詳しく解説している。また、AIを従来のSaaS製品のように「買ってくれば活用できるもの」だと誤解し、自社の業務知識やプロセスをAI前提に作り変える視点が欠けている組織のパターンにも触れている。AIベンダーがFDE（Forward Deployed Engineer）のような職種を重視するようになった背景も、製品導入だけでは業務価値に繋がらないことの裏返しだと指摘している。",
+      "category": "product",
+      "author": "jw-automation"
+    }
+  ]
+}
