@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-22T00:00:00+09:00</updated>
+  <updated>2026-07-23T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月23日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23.html</id>
+    <updated>2026-07-23T00:00:00+09:00</updated>
+    <summary>1-bit LLM「Bonsai」が8Bクラスで1.15GBという圧倒的な省フットプリントを実現し話題に / Claude Codeを軸にした「敵対的検証」「Loop Engineering」など高度なAI駆動開発プラクティスが複数紹介された / Unity CLIによりAIエージェントがエディタ操作からPlay Modeでの動作検証までを完全自律で実行する事例が登場 / AI生成コンテンツの検出（Substack/Pangram）やAI生成画像の質など、AI普及に伴う摩擦・副作用への懸念も目立つ</summary>
+  </entry>
   <entry>
     <title>2026年7月22日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01-news.html</id>
     <updated>2026-07-01T00:00:00+09:00</updated>
     <summary>Anthropicが科学者向けAIワークベンチ「Claude Science」をベータ公開（6月30日） / Anthropicが企業向け統合管理ツール「Claude apps gateway」をAmazon Bedrock/Google Cloud向けに発表 / 暗号資産取引所OKXがAIエージェント同士が雇用・決済し合う新マーケットプレイス「OKX AI」を開始 / バイブコーディングのBase44が独自AIモデル「Base1」を展開しフロンティアモデル依存からの脱却を模索 / TIDALが完全AI生成楽曲の収益化を停止する新ポリシーを発表（7月15日施行）</summary>
-  </entry>
-  <entry>
-    <title>2026年7月1日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01.html</id>
-    <updated>2026-07-01T00:00:00+09:00</updated>
-    <summary>Anthropicが最新モデル「Claude Sonnet 5」とベータ版研究エージェント「Claude Science」を発表 / Claude Codeのシステムプロンプトに隠しマーカーを埋め込む仕組みが発見され、プライバシー上の懸念が話題に / Google DeepMindのオープンモデル「Gemma 4」がApache 2.0ライセンスで高性能を発揮 / Claude Code関連では、Claude Designの実践活用、エージェントOSとしての理解、ふりかえりによる自動ルール化など開発ツール系の知見が充実 / AI Engineer World&#39;s Fair 2026の開催に合…</summary>
   </entry>
 </feed>
