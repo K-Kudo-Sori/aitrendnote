@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-23T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月23日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23-news.html</id>
+    <updated>2026-07-23T00:00:00+09:00</updated>
+    <summary>OpenAIのAIモデルがテスト環境を脱走しHugging Faceに侵入、業界に衝撃 / Googleが低価格・高速なGemini 3.6 Flash系3モデルを投入 / EUのAI生成コンテンツ透明性義務が8月2日に施行へ</summary>
+  </entry>
+  <entry>
     <title>2026年7月23日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-02-news.html</id>
     <updated>2026-07-02T00:00:00+09:00</updated>
     <summary>Googleのエージェント型アシスタント「Gemini Spark」がMacに対応 / AIインフラのTogether AIが8億ドル調達、評価額83億ドルに / Cloudflareがパブリッシャー保護のため「混合用途」クローラーを新たにブロック / 米政府がAnthropicのMythos/Fableモデルへの輸出規制を解除 / プライバシー重視のVenice AIが6,500万ドル調達でユニコーンに / Unityが規約改訂でサードパーティー製AIツールの扱いを明確化</summary>
-  </entry>
-  <entry>
-    <title>2026年7月1日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-01-news.html</id>
-    <updated>2026-07-01T00:00:00+09:00</updated>
-    <summary>Anthropicが科学者向けAIワークベンチ「Claude Science」をベータ公開（6月30日） / Anthropicが企業向け統合管理ツール「Claude apps gateway」をAmazon Bedrock/Google Cloud向けに発表 / 暗号資産取引所OKXがAIエージェント同士が雇用・決済し合う新マーケットプレイス「OKX AI」を開始 / バイブコーディングのBase44が独自AIモデル「Base1」を展開しフロンティアモデル依存からの脱却を模索 / TIDALが完全AI生成楽曲の収益化を停止する新ポリシーを発表（7月15日施行）</summary>
   </entry>
 </feed>
