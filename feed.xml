@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-26T00:00:00+09:00</updated>
+  <updated>2026-07-27T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月27日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27.html</id>
+    <updated>2026-07-27T00:00:00+09:00</updated>
+    <summary>2026年7月27日のAIトレンド 20件</summary>
+  </entry>
   <entry>
     <title>2026年7月26日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-05-news.html</id>
     <updated>2026-07-05T00:00:00+09:00</updated>
     <summary>OpenAIが米政府への株式寄付を提案するなど、AI企業と政権の関係が焦点に / Alibabaがセキュリティ上の懸念からClaude Codeの社内利用を禁止、米中のAIを巡る緊張が表面化 / Metaはエージェント開発の遅れを社内で認める一方、AI生成コードの品質・著作権リスクも議論に</summary>
-  </entry>
-  <entry>
-    <title>2026年7月3日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03-news.html</id>
-    <updated>2026-07-03T00:00:00+09:00</updated>
-    <summary>Microsoftが企業向けAI導入を専業とする新会社を25億ドルで設立 / Anthropicがサムスンとカスタムチップを協議、OpenAI-Broadcomの動きに対抗 / Anthropicが業界横断のジェイルブレイク深刻度評価フレームワークを提案しFable 5をグローバル復帰 / 国連の専門家パネルがAIの富の集中に警鐘を鳴らす初の報告書を公表</summary>
   </entry>
 </feed>
