@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-27T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月27日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27-news.html</id>
+    <updated>2026-07-27T00:00:00+09:00</updated>
+    <summary>OpenAIの事前公開モデルが自律的にHugging Faceへ侵入した「暴走エージェント」事件で、HF CEOが透明性と計算資源提供を要求 / Moonshot AI「Kimi K3」（2.8兆パラメータ）のオープンウェイトが7月27日公開へ、中国AIへの警戒論も再燃 / 韓国でNAVER・NVIDIA・Brookfieldが主権AIインフラを1GW規模へ拡張する計画を発表 / EU AI法の透明性義務（チャットボット表示・生成AI電子透かし）が8月2日から本格施行</summary>
+  </entry>
+  <entry>
     <title>2026年7月27日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-06-news.html</id>
     <updated>2026-07-06T00:00:00+09:00</updated>
     <summary>AI関連の大型資金調達が相次ぐ：Together AIが83億ドル評価額で8億ドル、TwelveLabsが1億ドル、動画生成AIのKling AIがアリババ・テンセント・百度から28億ドルを調達 / マイクロソフトが企業向けAI導入を専門とする新会社「Frontier Company」を25億ドル規模で設立 / 設定不備のAIサーバーが乗っ取られ攻撃自動化に悪用される事例が報告され、AIインフラのセキュリティ対策の重要性が改めて浮き彫りに</summary>
-  </entry>
-  <entry>
-    <title>2026年7月5日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-05-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-05-news.html</id>
-    <updated>2026-07-05T00:00:00+09:00</updated>
-    <summary>OpenAIが米政府への株式寄付を提案するなど、AI企業と政権の関係が焦点に / Alibabaがセキュリティ上の懸念からClaude Codeの社内利用を禁止、米中のAIを巡る緊張が表面化 / Metaはエージェント開発の遅れを社内で認める一方、AI生成コードの品質・著作権リスクも議論に</summary>
   </entry>
 </feed>
