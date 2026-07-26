@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-23T00:00:00+09:00</updated>
+  <updated>2026-07-26T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月26日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26.html</id>
+    <updated>2026-07-26T00:00:00+09:00</updated>
+    <summary>「Claude 5世代モデル向けコンテキストエンジニアリング」など、エージェント運用・コンテキスト設計に関する実践知見が複数登場 / Claude Codeを継続的に自律実行させる「Loop Engineering」の実践例が国内外双方で見られた / MCP・AgentCoreゲートウェイなどエージェント連携基盤の構築記事が引き続き活発 / AIエージェントに計算やレビューなどの権限を委譲する際の検証・安全性への関心が高まっている</summary>
+  </entry>
   <entry>
     <title>2026年7月23日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-03.html</id>
     <updated>2026-07-03T00:00:00+09:00</updated>
     <summary>Claude Code関連の実践知見（Desktopメインへの移行、オントロジーによるナレッジ構造化、失敗の自動ルール化、Claude Designの活用術）が国内エンジニアブログで多数公開された。 / AI Engineer World&#39;s Fairでは「フロンティアモデル一辺倒の戦略の崩壊」「リポジトリ規模のSoftware Factory化」「Harness EngineeringとEvals重視」がトレンドとして語られている。 / コスト最適化の動きが顕著で、UberやMicrosoftがAIコストの高さに直面する一方、Coinbase・Airbnb・PinterestはGLMやQw…</summary>
-  </entry>
-  <entry>
-    <title>2026年7月2日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-02-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-02-news.html</id>
-    <updated>2026-07-02T00:00:00+09:00</updated>
-    <summary>Googleのエージェント型アシスタント「Gemini Spark」がMacに対応 / AIインフラのTogether AIが8億ドル調達、評価額83億ドルに / Cloudflareがパブリッシャー保護のため「混合用途」クローラーを新たにブロック / 米政府がAnthropicのMythos/Fableモデルへの輸出規制を解除 / プライバシー重視のVenice AIが6,500万ドル調達でユニコーンに / Unityが規約改訂でサードパーティー製AIツールの扱いを明確化</summary>
   </entry>
 </feed>
