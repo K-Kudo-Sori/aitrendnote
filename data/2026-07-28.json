@@ -1,0 +1,227 @@
+{
+  "date": "2026-07-28",
+  "generatedAt": "2026/7/28 7:06:01",
+  "highlights": [
+    "MicrosoftがMDASHにコスト効率重視のセキュリティ特化モデル「MAI-Cyber-1-Flash」を投入し脆弱性検出コストを半減",
+    "Claude Opus 5の公式プロンプトガイド解説記事がZennで話題、「検証して」等の指示は逆に有害と明言",
+    "Agent Skills普及に伴うサプライチェーン脅威（悪意あるSkillの混入）を検証した記事がDEV Communityに",
+    "国内Qiita/Zennでは、AIエージェントを使った開発フロー・執筆・アーキテクチャ設計の実践知見が多数投稿"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "MAI-Cyber-1-Flash inside MDASH",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/",
+      "summary": "Microsoftが、多数のセキュリティエージェントを束ねる脆弱性発見・修復ハーネス「MDASH」に、新しいコンパクトなセキュリティ特化モデル「MAI-Cyber-1-Flash」を統合したと発表した。同モデルは複雑なコードベースの脆弱性発見に特化しており、CyberGymベンチマークでMythosやGemini、GPTを上回る96%のスコアを記録したという。全タスクの約9割を低コストなこのモデルで処理し、残りの難易度が高いタスクのみ大規模モデル（GPT-5.4）に回すことで、既存構成比で約50%のコスト削減を実現したとしている。あわせて、継続的な監視・パッチ適用・脅威対応を行うエージェント群「Perception」も発表された。",
+      "category": "security",
+      "points": 199,
+      "comments": 105,
+      "author": "migmartri"
+    },
+    {
+      "source": "hackernews",
+      "title": "Modern email can be built from borrowed parts",
+      "url": "https://en.andros.dev/blog/d7ed8b07/modern-email-can-be-built-from-borrowed-parts/",
+      "summary": "本記事は、SMTPの設計上の欠陥を解消するため、HTTP上に新しいメールプロトコル「HMTP」を構築する提案である。WebFinger、ActivityPub、Webmention、Ed25519、HPKE、sigchainsなど、既存の実績ある技術を組み合わせることで、ユーザー発見・本人性検証・配送・署名・暗号化の各要素を新規開発なしに実現できるとしている。既存のメールシステムを置き換える意図はなく、あくまで学習・実験目的の独立した仕組みとして設計されている。AI関連の内容ではないが、キーワードフィルタの誤検出（「email」等の語に「ai」の部分文字列が含まれる）により抽出された記事と見られる。",
+      "category": "other",
+      "points": 161,
+      "comments": 91,
+      "author": "andros"
+    },
+    {
+      "source": "hackernews",
+      "title": "Exploiting Volvo/Eicher's fleet platform to gain control over all users/vehicles",
+      "url": "https://eaton-works.com/2026/07/27/my-eicher-hack/",
+      "summary": "セキュリティ研究者が、Volvo GroupとEicher Motorsの合弁が提供するインド向け車両管理システム「My Eicher」に重大な脆弱性を発見した経緯を報告する記事。認証なしでアクセス可能な内部APIが偶然発見され、74.8万件の顧客情報や2021年以降の全OTP（ワンタイムパスワード）履歴が閲覧できる状態だったという。これにより任意ユーザーのアカウントを乗っ取り、数百台規模の車両を含むフリート全体を制御可能な状態だったと述べている。AI関連の内容ではなく、キーワードフィルタの誤検出（「gain」等に含まれる「ai」の部分文字列）による抽出とみられる。",
+      "category": "security",
+      "points": 109,
+      "comments": 34,
+      "author": "EatonZ"
+    },
+    {
+      "source": "hackernews",
+      "title": "Self-contained highly-portable Python distributions",
+      "url": "https://gregoryszorc.com/docs/python-build-standalone/main/",
+      "summary": "「python-build-standalone」プロジェクトのドキュメントで、あらゆるシステムで動作する自己完結型のポータブルPython配布物を提供する取り組みを紹介している。標準ライブラリの拡張モジュールをほぼ含み、実行時の依存関係を最小化することでどのアーキテクチャでも動作させることを目指す。ビルド成果物やメタデータも公開しており、PyOxidizerなど下流プロジェクトが独自のカスタムPython配布物を再構築する際の素材としても利用できる。AI関連の内容ではなく、キーワードフィルタの誤検出（「contained」等に含まれる「ai」の部分文字列）による抽出とみられる。",
+      "category": "devtool",
+      "points": 72,
+      "comments": 18,
+      "author": "jcbhmr"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: FeyNoBg – Automatic background removal model and training library",
+      "url": "https://usefeyn.com/blog/feynobg/",
+      "summary": "Feyn Labsが、背景除去に特化した最新モデル「FeyNoBg」と、学習用ライブラリ「NoBg」をオープンソースで公開した。8つのベンチマークのうち4つで最高スコアを記録し、残りも上位との差は2%以内に収まっているという。ベースとなるBiRefNetアーキテクチャの、被写体特定を担う「局所化モジュール」と境界検出を担う「再構成モジュール」の両方に十分な学習が行き渡るようデータ構成を工夫したことが鍵だと説明している。モデルはHugging Face、学習用ライブラリはGitHubで公開されている。",
+      "category": "model",
+      "points": 70,
+      "comments": 20,
+      "author": "snyy"
+    },
+    {
+      "source": "zenn",
+      "title": "Opus 5では今までのプロンプトが逆効果に。「検証して」を消して「簡潔に」と書くべし。公式プロンプトガイドを読み解く",
+      "url": "https://zenn.dev/little_hand_s/articles/72646a09f49d2a",
+      "summary": "Claude Opus 5の公式プロンプティングガイドを読み解いた記事。Opus 5は放っておくと以前のOpusより応答が長くなる傾向があり、effort（思考量）を下げても文章量は短くならないため、「簡潔に答える」という明示的な指示をCLAUDE.md等に基本セットとして書いておくべきだと述べる。また公式ガイドは「検証して」「再確認して」といった旧来の品質担保のための指示を、Opus 5では自身が既に自律的に検証を行うため過剰でコストの無駄になるとして明確に削除を推奨している。ほかにも、effortはhighを起点に評価しながら調整すること、サブエージェントへの委任は大きく独立したタスクに限定すべきことなど、Opus 4.8やFable 5との違いも比較しつつ整理している。",
+      "category": "model",
+      "points": 48,
+      "author": "little_hands(松岡@Loglass)"
+    },
+    {
+      "source": "zenn",
+      "title": "スマホでつくるセカンドブレイン（Android・Obsidian・Termux・Claude・ChatGPTによる知識管理）",
+      "url": "https://zenn.dev/szgk/articles/76f54d039d9a30",
+      "summary": "Androidスマートフォン単体で、Obsidianによるノート管理とTermux上のUbuntu(proot)環境でClaude CodeやGitを動かす「セカンドブレイン」環境の構築手順を紹介する記事。複数プロジェクトの知見蓄積、対話履歴の資産化、思考・判断基準の蓄積を目的とし、CLAUDE.mdから共通ルールを参照する構成でAIの運用ルールやノート整理ルールを全プロジェクトで共有している。ノート整理は完全自動化せず、必要なタイミングでClaude Codeのカスタムskill「organize-notes」を手動実行する運用にしている点が特徴。ChatGPTとの連携やWeb記事のクリッピングもObsidian経由で行う構成になっている。",
+      "category": "agent",
+      "points": 9,
+      "author": "shibe"
+    },
+    {
+      "source": "zenn",
+      "title": "開発しているだけで進捗が更新される。Linear × Claude Code × GitHubで作る開発フロー",
+      "url": "https://zenn.dev/explaza/articles/500ded8ea67252",
+      "summary": "Notion・Claude Code・Linear・GitHubを連携させ、仕様整理から実装・レビュー・タスク完了までを一気通貫で進める開発フローを紹介する記事。Claude Codeが仕様書と実装計画を読み込んでLinearのIssueへ分解し、人間が実装計画を承認した後はサブエージェントを活用した実装・セルフレビュー・PR作成までを担う運用にしている。GitHub上でのレビュー依頼・マージといった通常の開発行為に連動してLinearのIssueステータス（In Review／Done）が自動更新されるため、チームへの進捗共有のための手動更新作業が不要になった点を評価している。Issueの粒度を1PRで収まる大きさにし、対象外の範囲を明記することが運用上重要だとしている。",
+      "category": "devtool",
+      "points": 51,
+      "author": "hw0409"
+    },
+    {
+      "source": "zenn",
+      "title": "RAGの検索評価について調査してみた ── 評価指標とデータセットの選び方",
+      "url": "https://zenn.dev/data_and_ai/articles/e8a0daa9b9fd4c",
+      "summary": "RAG（Retrieval-Augmented Generation）の品質を「検索品質」と「回答生成品質」に分け、そのうち検索品質を情報検索分野の既存指標で評価する方法を解説する記事。Recall@k（正解を漏れなく拾えているか）、MRR@k（最初の正解がどれだけ上位にあるか）、nDCG@k（重要な正解が上位に集中しているか）などを、具体的な数値例を交えて順に説明している。特にRecall@kは順位を区別しない限界があるため、順位を評価する他指標と組み合わせる必要があると指摘する。後半では評価に使うデータセットの選び方や、その特性が指標の解釈に与える影響についても触れている。",
+      "category": "research",
+      "points": 4,
+      "author": "long"
+    },
+    {
+      "source": "zenn",
+      "title": "AI時代のエンジニアリングマネージャーのあり方｜外部品質編 〜品質の可視化を、現場と経営をつなぐ形にするまで〜",
+      "url": "https://zenn.dev/loglass/articles/ef099b123153cf",
+      "summary": "ログラス社のエンジニアリングマネージャーが、AIで開発速度が上がった一方で品質向上への向き合い方が課題になっているとし、インシデントに関する外部品質KPIの可視化に取り組んだ事例を紹介する記事。従来はNotionDBやスプレッドシートでの手集計に頼っていた品質KPI管理を、AIを活用して「記録の欠けを補う」「記録の品質を検査する」「DuckDBに集計する」という3段階の再現可能な仕組みに置き換えた。個人情報や顧客機密情報はマスク・除外した上で処理し、KPIの定義はSQLに固定することで、誰が実行しても同じ結果が得られる再現性を持たせている。この取り組みを通じて、障害対応は迅速化した一方で再発防止には依然課題が残っていることが数字で可視化されたと振り返っている。",
+      "category": "other",
+      "points": 41,
+      "author": "Yoshiki Iida"
+    },
+    {
+      "source": "devto",
+      "title": "Passkeys Explained Simply",
+      "url": "https://dev.to/thomasbnt/passkeys-explained-simply-52jk",
+      "summary": "パスワードに代わる認証方式「パスキー」の仕組みを解説する記事。パスキーは非対称暗号を用い、秘密鍵はデバイス内のセキュアな領域に留まり、サーバー側には公開鍵のみが保存されるため、サーバー侵害が起きても攻撃者に利用価値のある情報が漏れない点が特徴だと説明する。パスキーはドメインに紐づけて生成されるため、フィッシングサイトでは端末がそもそもパスキーを提示せず、原理的にフィッシング耐性を持つとしている。WebAuthn（W3C）とFIDO2標準に基づく技術であり、GoogleやApple、Microsoftなど主要ベンダーが採用していることにも触れている。",
+      "category": "security",
+      "points": 29,
+      "comments": 0,
+      "author": "Thomas Bnt",
+      "tags": [
+        "security",
+        "api",
+        "webdev",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Junior Developer Pipeline Is Broken... And AI Broke It",
+      "url": "https://dev.to/nazar-boyko/the-junior-developer-pipeline-is-broken-and-ai-broke-it-1aai",
+      "summary": "AIの普及によりシニアエンジニアの価値が高まる一方で、次世代のシニアを育てる「見習い期間」の仕事がAIに奪われてしまったと指摘する論考記事。ボイラープレート作成や小さなバグ修正、他人のコードを読み解く作業など、これまで「雑務」とされてきたジュニア開発者の仕事こそが、判断力を養う訓練そのものだったと主張する。AIがこれらを瞬時にこなすようになった結果、ジュニアは史上最も多くの成果物を出せる一方で、経験値を積む機会は史上最も少なくなっているという逆説を提示している。シニア人材は市場から自然に湧いてくるものではなく、各企業が育成の場を提供し続けなければ供給が枯渇すると警鐘を鳴らしている。",
+      "category": "product",
+      "points": 84,
+      "comments": 60,
+      "author": "Nazar Boyko",
+      "tags": [
+        "ai",
+        "discuss",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Can Google ADK Talk to Microsoft Foundry on Azure? A Cross-Cloud A2A Benchmark",
+      "url": "https://dev.to/gde/can-google-adk-talk-to-microsoft-foundry-on-azure-a-cross-cloud-a2a-benchmark-4h36",
+      "summary": "Microsoft Foundry上でホストしたエージェントと、Google Cloud上のGoogle ADKエージェントをA2A（Agent-to-Agent）プロトコルv1.0で接続し、クラウドをまたいだエージェント連携のレイテンシと精度を検証したベンチマーク記事。通貨換算タスクを題材に、MCP経由の単独呼び出し・A2A経由の委任・両者の結果をA2Aで独立検証する3方式を比較し、検証にかかるオーバーヘッドと精度向上のトレードオフを数値で示している。通貨計算自体はLLMに行わせずPythonのDecimal型で厳密に処理し、両システムが不一致の場合は結果を偽装せず明示的に警告を返す設計にしている点を強調している。A2Aプロトコルの旧バージョン(v0.3.0)と新バージョン(v1.0)の相互運用性における課題にも触れている。",
+      "category": "agent",
+      "points": 1,
+      "comments": 1,
+      "author": "xbill",
+      "tags": [
+        "agents",
+        "googleadk",
+        "a2aprotocol",
+        "azure"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Auditing Agent Skills: A Threat Model for the Next Generation of AI Package Managers",
+      "url": "https://dev.to/gde/auditing-agent-skills-a-threat-model-for-the-next-generation-of-ai-package-managers-2g25",
+      "summary": "Claude CodeやGitHub Copilotなどで急速に普及している「Agent Skills」機能について、レビュー体制のないまま悪意あるコードやプロンプトインジェクションが混入するリスクを検証した記事。GitHub自身も公式ドキュメントで「Skillsは検証されておらず、プロンプトインジェクションや悪意あるスクリプトを含む可能性がある」と明記していることを引用している。筆者は「CSVフォーマッター」を装った無害に見えるSkillを自作し、AIがタスク遂行時に初見時には目立たない指示ファイルを後から読み込んで悪用しうることを実演した。Skillは要約のみを最初に読み込み、必要になった時点で全文を参照する挙動のため、インストール時の目視確認だけでは見抜けない危険性があると警告している。",
+      "category": "security",
+      "points": 26,
+      "comments": 0,
+      "author": "Karthigayan Devan",
+      "tags": [
+        "discuss",
+        "ai",
+        "security",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Building AI Agents with the TypeScript Agent Development Kit (ADK)",
+      "url": "https://dev.to/gde/building-ai-agents-with-the-typescript-agent-development-kit-adk-3mf",
+      "summary": "Googleの提供する「Agent Development Kit（ADK）」のTypeScript版を使い、天気と現在時刻を答えるシンプルな「Hello World」エージェントを構築するチュートリアル記事。Node.js 20以上とGemini APIキー（またはVertex AI認証情報）を用意し、npmでセットアップした後、対話型ターミナルまたはWeb UIでエージェントを起動できる手順を紹介している。エージェントにはニューヨークの天気・時刻を返すツールが2つ組み込まれており、対応外の都市には明確な非対応レスポンスを返す仕様になっている。ADK CLIから直接エージェントを実行・Web UIを起動するコマンドについても説明している。",
+      "category": "agent",
+      "points": 1,
+      "comments": 2,
+      "author": "xbill",
+      "tags": [
+        "typescript",
+        "ai",
+        "gemini",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェントがあれば技術書なんてすぐ書けるでしょ、と思ったが無理だった",
+      "url": "https://qiita.com/watany/items/11358e8e8966d5e48a09",
+      "summary": "技術書を執筆した著者が、AIエージェントに執筆を任せようとして直面した限界を振り返る記事。文章の「AIっぽさ（AI Slop）」を語彙・構文・構成の3層に分解し、語彙や構文はLinterや検出Skillで直せても、章立てやクリフハンガー的な終わり方といった構成レベルの癖は簡単には矯正できないと指摘する。自分の過去記事を模倣させる「フィードフォワード」と、レビューによる「フィードバック」を組み合わせるハーネスを試したが、文体は似てもリズムや骨格までは模倣できず、結果として「似た文体だが良い文章にはならない」という結論に至ったと述べている。最終的には人間とLLMがターン制で骨格を練り直す方法が最も消耗が少なかったと結んでいる。",
+      "category": "devtool",
+      "author": "watany"
+    },
+    {
+      "source": "qiita",
+      "title": "ひとことで、言え。～スライドをAIで作り直したらわかりにくくなった話～",
+      "url": "https://qiita.com/WdknWdkn/items/ba228da40b5d2fd1b612",
+      "summary": "著者が15分で作った簡素な社内発表スライドを、NotebookLMに読ませて「スライドを作成して」と指示し直させたところ、情報量は増えたのにかえって分かりにくくなったという体験を綴ったエッセイ記事。AIは特に指定しなければ丁寧に説明を尽くそうとする結果、読み手に「理解する責任」を負わせる重厚なコンテンツを作りがちだと指摘する。「丁寧」と「分かりやすい」はイコールではなく、伝達の目的は相手の行動を変えることにあるはずだと主張し、情報を詰め込みすぎず要点を凝縮して伝えることの重要性を説いている。",
+      "category": "other",
+      "author": "WdknWdkn"
+    },
+    {
+      "source": "qiita",
+      "title": "「え！！Microsoft 365 Copilotでアプリ作成を！？」「出来らぁ！」",
+      "url": "https://qiita.com/Oyu3m/items/c5daff368bc75c79e7b0",
+      "summary": "Microsoft 365 Copilotに搭載されている「軽量なアプリを構築」機能を紹介する記事。チャットで「〇×ゲームを作って」のように指示するだけで数秒でコードが生成され、プレビューをオンにするだけで動作確認できると説明する。他のAIチャットでも同程度のアプリは作れるが、Microsoft 365 Copilotならではの強みとして、メールやファイル、会議履歴などから利用者や組織の業務文脈を理解する「Work IQ」により、業務にジャストフィットしたアプリを生成できる点を挙げている。実例として、商談前の会議進行アプリ（タイマーやカンペ機能付き）を指示だけで作成したデモを紹介している。",
+      "category": "product",
+      "author": "Oyu3m"
+    },
+    {
+      "source": "qiita",
+      "title": "RTX PRO 6000 BlackwellでAITuberを作りたい",
+      "url": "https://qiita.com/matsudai/items/e94acdcd34f52a1bc5f1",
+      "summary": "VRAM 96GBを搭載するNVIDIAのハイエンドGPU「RTX PRO 6000 Blackwell」を使い、ローカルLLM（Qwen3.6）とVOICEVOXで動く「AI配信者（AITuber）」を構築した記事。ゲーム画面をキャプチャしてOllama上のモデルに送り、発話内容や操作を生成、VOICEVOXで音声合成してThree.js上の3Dキャラクターに反映する構成を紹介している。実測した消費トークン量をもとに主要クラウドAPI（GPT-5.6、Claude各モデル、Gemini等）の利用料と比較し、200万円のPC投資を回収するには数千時間規模の稼働が必要で、コスト面での優位性は現状厳しいと結論づけている。むしろモデル固定によるキャラクター性の安定や、業務利用時のセキュリティ面でのメリットを訴求すべきだとしている。",
+      "category": "infra",
+      "author": "matsudai"
+    },
+    {
+      "source": "qiita",
+      "title": "Agent Skillsを備えたAntigravity CLIとアーキテクチャ設計対決した",
+      "url": "https://qiita.com/satoshi-sugiyama/items/467e10f4af6ff5cb84d5",
+      "summary": "Google Cloud公式のAgent Skillsとdraw.io MCP Serverを装備したAntigravity CLI（Gemini 3.5 Flash）と、筆者本人がアーキテクチャ設計力を競った企画記事。育児用品レビューサイトを題材にしたRFP（提案依頼書）をClaude(Sonnet 5)に作成させ、双方がシステム構成図とアーキテクチャ上の重要ポイントの説明文を作成し、公正な評価もClaudeに担当させる形式にしている。スモールスタートから将来のデータ分析基盤拡張まで見据えたGoogle Cloud構成の提案が求められる内容で、AIエージェントが実務レベルのアーキテクチャ設計をどこまでこなせるかを検証する試みとなっている。",
+      "category": "agent",
+      "author": "satoshi-sugiyama"
+    }
+  ]
+}

@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-27T00:00:00+09:00</updated>
+  <updated>2026-07-28T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月28日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-28.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-28.html</id>
+    <updated>2026-07-28T00:00:00+09:00</updated>
+    <summary>MicrosoftがMDASHにコスト効率重視のセキュリティ特化モデル「MAI-Cyber-1-Flash」を投入し脆弱性検出コストを半減 / Claude Opus 5の公式プロンプトガイド解説記事がZennで話題、「検証して」等の指示は逆に有害と明言 / Agent Skills普及に伴うサプライチェーン脅威（悪意あるSkillの混入）を検証した記事がDEV Communityに / 国内Qiita/Zennでは、AIエージェントを使った開発フロー・執筆・アーキテクチャ設計の実践知見が多数投稿</summary>
+  </entry>
   <entry>
     <title>2026年7月27日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-08.html</id>
     <updated>2026-07-08T00:00:00+09:00</updated>
     <summary>Anthropicの公式セキュリティ監査プラグイン「security-guidance」やAIコード生成特有の脅威（slopsquatting等）が話題に。 / Claude Code / Fable 5を使った開発環境構築（dev container、Proxmox+LXC、ローカルLLM連携）の実践記事が多数。 / マルチエージェントシステム（Google ADK/A2A、New Relic MCP連携）とAIエージェントの決済・業務再設計（x402, AI-BPR）が進展。</summary>
-  </entry>
-  <entry>
-    <title>2026年7月6日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-06-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-06-news.html</id>
-    <updated>2026-07-06T00:00:00+09:00</updated>
-    <summary>AI関連の大型資金調達が相次ぐ：Together AIが83億ドル評価額で8億ドル、TwelveLabsが1億ドル、動画生成AIのKling AIがアリババ・テンセント・百度から28億ドルを調達 / マイクロソフトが企業向けAI導入を専門とする新会社「Frontier Company」を25億ドル規模で設立 / 設定不備のAIサーバーが乗っ取られ攻撃自動化に悪用される事例が報告され、AIインフラのセキュリティ対策の重要性が改めて浮き彫りに</summary>
   </entry>
 </feed>
