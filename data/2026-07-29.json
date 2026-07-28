@@ -1,0 +1,228 @@
+{
+  "date": "2026-07-29",
+  "generatedAt": "2026/7/29 7:06:10",
+  "highlights": [
+    "OpenAIがセキュリティスキャンCLI「Codex Security」をOSS公開",
+    "AnthropicがClaude Mythos PreviewでHAWK署名方式とAESに対する新たな暗号攻撃を発見",
+    "MCP新仕様(2026-07-28)でステートレス化・MRTR・認可強化",
+    "GitHub Agentic Workflowsのプロンプトインジェクション脆弱性「GitLost」が公開リポジトリからプライベートREADMEを漏洩",
+    "Claude Opus 5で「検証して」など従来のプロンプト定石が逆効果になる事例が続報"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "DMARC has been public since 2012 but most company domains still don't enforce it",
+      "url": "https://ciphercue.com/blog/dmarc-enforcement-gap-rua-fragmentation-2026",
+      "summary": "CipherCueが67,336ドメインのDNSレコードを調査したところ、DMARCが2012年から利用可能であるにもかかわらず、68.4%のドメインが未設定か実効性のないポリシー（p=none）にとどまっていることが判明した。DMARCレコード自体を持たないドメインが45.1%、レコードはあってもp=none（監視のみ）に留まるものが23.3%を占め、実際にp=quarantineやp=rejectで強制しているのは合計31.5%に過ぎない。原因として、rua=レポート送信元の79%が1回しか出現しないなど、正規の送信元と偽装元を切り分ける作業が煩雑であることが指摘されている。記事は「レコードの発行」自体は課題ではなく、「監視から強制への移行」が本質的なボトルネックだと結論づけている。",
+      "category": "security",
+      "points": 164,
+      "comments": 103,
+      "author": "adulion"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI just open-sourced Codex Security",
+      "url": "https://github.com/openai/codex-security",
+      "summary": "OpenAIが、自分が所有または許可を得たコードのセキュリティ上の問題を発見・検証・レビューするためのオープンソースCLI/TypeScript SDK「Codex Security」を公開した。Node.js 22以上で動作し、スキャン結果のエクスポートにはPython 3.10以上が必要となる。OpenAIアカウントまたはAPIキーでログインし、リポジトリ全体や特定パスの差分スキャン、CI向けの非対話実行、コミット前フックの導入(install-hook)などに対応する。スキャン結果はSARIF・CSV・JSON形式でエクスポートでき、過去スキャンとの比較(match/compare)や重大度によるフィルタリングも可能。",
+      "category": "security",
+      "points": 138,
+      "comments": 21,
+      "author": "bakigul"
+    },
+    {
+      "source": "hackernews",
+      "title": "Discovering Cryptographic Weaknesses with Claude",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "summary": "Anthropicは、Claude Mythos Previewを用いて暗号アルゴリズム自体の数学的な弱点を発見したと発表した。1つ目は耐量子計算機用の署名方式「HAWK」への改良攻撃で、専門家による2年間のレビューを経ていたにもかかわらず、Mythosはわずか60時間の作業で鍵強度を実質半減させる攻撃を発見した。2つ目はAESの簡略版（ラウンド数を減らした版）に対する新たな攻撃手法で、従来の最良攻撃を200〜800倍高速化した。いずれも実運用システムには直接影響しないが、フロンティアAIが暗号研究において脆弱性発見に活用できることを示す結果だとしている。",
+      "category": "research",
+      "points": 126,
+      "comments": 68,
+      "author": "gslin"
+    },
+    {
+      "source": "hackernews",
+      "title": "Una GPS smart watch – Repairable, USB-C charging, developer-friendly",
+      "url": "https://unawatch.com/",
+      "summary": "スコットランド発のGPSスマートウォッチ「UNA」の製品紹介記事。修理・アップグレード可能な設計を特徴とし、ドライバー1本で交換できる280mAhバッテリー、USB-C充電、10日間のバッテリー持続、開発者向けSDKの公開などを謳っている。Stravaとの連携やiOS/Android向けアプリも提供され、オープンな開発者プラットフォームとして独自アプリの構築も可能とされる。AIに関する技術的内容は含まれておらず、製品プロモーションが主体の記事。",
+      "category": "other",
+      "points": 104,
+      "comments": 73,
+      "author": "pimterry"
+    },
+    {
+      "source": "hackernews",
+      "title": "MCP 2026-07-28 Specification: transport going stateless",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "summary": "Model Context Protocol（MCP）の新仕様「2026-07-28」がリリースされ、プロトコルのコアがステートフルからステートレスなリクエスト/レスポンス型へ移行した。initialize/initializedのハンドシェイクとセッションIDが廃止され、各リクエストが単独で完結するようになったことで、単純なロードバランサ配下でも動作しやすくなった。ほかにもヘッダーベースのルーティング、キャッシュ可能なリスト応答、サーバー・クライアント間の非同期やり取りを行うMulti Round-Trip Requests（MRTR）、認可まわりの強化（RFC 9207準拠やクライアントメタデータ文書への移行）などが盛り込まれている。TypeScript/Python/Go/C#の各SDKも新仕様に合わせて更新された。",
+      "category": "agent",
+      "points": 82,
+      "comments": 26,
+      "author": "Eldodi"
+    },
+    {
+      "source": "zenn",
+      "title": "Opus 5では今までのプロンプトが逆効果に。「検証して」を消して「簡潔に」と書くべし。公式プロンプトガイドを読み解く",
+      "url": "https://zenn.dev/little_hand_s/articles/72646a09f49d2a",
+      "summary": "Claude Opus 5の公式プロンプティングガイドを読み解いた記事で、旧モデル向けの定石が逆効果になる点を解説している。Opus 5は放っておくと応答が長くなる一方、effortを下げても文章量は短くならないため、簡潔さを求める指示をCLAUDE.md等に明記すべきだとする。また、Opus 5は指示がなくても自ら検証を行うため、「検証して」「ダブルチェックして」といった指示は二重検証によるトークン浪費を招くとして削除を推奨している。effortの選び方やサブエージェント委任の使いどころ、Opus 4.8・Fable 5との比較についても整理されている。",
+      "category": "devtool",
+      "points": 63,
+      "author": "little_hands(松岡@Loglass)"
+    },
+    {
+      "source": "zenn",
+      "title": "スマホでつくるセカンドブレイン（Android・Obsidian・Termux・Claude・ChatGPTによる知識管理）",
+      "url": "https://zenn.dev/szgk/articles/76f54d039d9a30",
+      "summary": "Android端末単体でAIとの対話履歴や複数プロジェクトの知見を蓄積する「セカンドブレイン」環境を構築した記録。Termux上にUbuntu(proot)を導入してClaude CodeやGitを動かし、Obsidian VaultをAndroidのストレージ経由で参照する構成をとっている。CLAUDE.mdから環境変数経由で共通ルールを読み込む仕組みや、ノート整理を自動化するカスタムSkillなど、プロジェクト横断でナレッジを共有するためのディレクトリ構成・運用ルールが詳細に紹介されている。",
+      "category": "devtool",
+      "points": 21,
+      "author": "shibe"
+    },
+    {
+      "source": "zenn",
+      "title": "【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)",
+      "url": "https://zenn.dev/explaza/articles/20f7f41cff8428",
+      "summary": "同一プロジェクトでClaude CodeとCodexを併用する際に、CLAUDE.md/AGENTS.mdやSkillsなどの設定が片方にしか反映されない課題を解決するツール「agents-sync」を開発した記事。形式が同じファイルはSymlinkで共有し、MCP設定のようにJSON/TOMLなど形式が異なるものは中立形に変換してから差分をマージするロジックを導入している。両側で変更があった場合は自動判定せず差分を人間に提示するなど、モデルごとに異なるプロンプトガイドラインを踏まえて同期項目を選択可能にした点が特徴。",
+      "category": "devtool",
+      "points": 9,
+      "author": "Kanta"
+    },
+    {
+      "source": "zenn",
+      "title": "Agentic RLではtool callを含むtrajectoryをどう学習するのか",
+      "url": "https://zenn.dev/takkuhiro/articles/agentic-rl-trajectory-mechanics",
+      "summary": "tool callを繰り返しながらタスクを解くエージェントを強化学習（Agentic RL）でどう学習させるかを解説する記事。GRPOによるsingle-turnの報酬正規化の仕組みを前提としたうえで、環境が返すtool_resultトークンを損失計算から除外するloss maskの必要性や、trajectory全体で得た1つの報酬を各トークンにどう配分するか（credit assignment）を扱っている。完全一致・アサーション・部分点・LLM判定といった報酬設計のバリエーションも整理し、tool useが加わることでreward hackingの余地が広がる点にも触れている。",
+      "category": "research",
+      "points": 2,
+      "author": "Hirotaka"
+    },
+    {
+      "source": "zenn",
+      "title": "生成AIでPIIを消し去る！SnowflakeのAI_REDACTでフリーテキストを守る挑戦",
+      "url": "https://zenn.dev/dely_jp/articles/7a27a44c06b30a",
+      "summary": "クラシルのデータエンジニアが、顧客サポートのフリーテキストに含まれる氏名・電話番号・住所などのPIIをSnowflakeの「AI_REDACT」でマスキングした事例を紹介している。ルールベースの正規表現、自前のNERモデル、AI_REDACTの3方式を比較し、開発・運用コストの観点からAI_REDACTを主軸に採用したと説明する。ただしAI_REDACTだけでは口座番号のような文脈の乏しい数字を取りこぼすため、保存時のAI_REDACTとクエリ時のマスキングポリシーを二層で組み合わせる多層防御構成にしたことを、実際のマスキング例を交えて解説している。",
+      "category": "security",
+      "points": 5,
+      "author": "Presteniko Septi Rahadian"
+    },
+    {
+      "source": "devto",
+      "title": "Understanding Over Origin",
+      "url": "https://dev.to/adamthedeveloper/understanding-over-origin-4685",
+      "summary": "開発者コミュニティで「AI生成かどうか」だけでプロジェクトを判定するゲートキーピングを批判する記事。2年かけてアルゴリズムを再設計し自らベンチマークの誤りを見つけて修正したプロジェクトと、AIに一言指示しただけで検証もせず公開したプロジェクトが、同じ「AI生成」というラベルで一律に拒否される矛盾を指摘している。Rustだからメモリ安全、Cだから危険と決めつけないのと同様に、使用ツールではなく技術的な中身で評価すべきだと主張する内容。",
+      "category": "other",
+      "points": 44,
+      "comments": 16,
+      "author": "Adam - The Developer ✨",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Had a Lot of Fun Building a Linux Packet Flight Recorder",
+      "url": "https://dev.to/copyleftdev/i-had-a-lot-of-fun-building-a-linux-packet-flight-recorder-k44",
+      "summary": "RustとeBPFで実装したLinuxパケット経路の「フライトレコーダー」ツール skbx を紹介する記事。ライブキャプチャ中にカーネルのネットワーキング関数やXDP/TC、ドロップ理由などを観測し、追記専用のJSONLエビデンスストリームとして記録、後からrootなしで再生・調査できる点が特徴。AIや自動化システムが構造化された入力を必要とする一方で存在しない観測を捏造してはいけないという設計思想のもと、欠損があれば「フッター」に確実に記録される仕組みを備えている。",
+      "category": "devtool",
+      "points": 12,
+      "comments": 3,
+      "author": "Don Johnson",
+      "tags": [
+        "linux",
+        "networking",
+        "ai",
+        "devops"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Vibe Coding: Endgame",
+      "url": "https://dev.to/konark_13/vibe-coding-endgame-3bbn",
+      "summary": "AIにプロンプトを投げてコードを生成する「バイブコーディング」を続けてきた開発者が、プロジェクトが大きくなるにつれて破綻していった経験を振り返る記事。要件や制約を与えずに「ダッシュボードを作って」のような曖昧な指示を繰り返した結果、修正のたびに別の箇所が壊れるようになったと分析し、原因はAIの幻覚ではなく事前に明確な計画を与えていなかったことにあると結論づけている。プロジェクトが成長する段階では、テストや仕様（スペック）を書くといった従来のソフトウェア開発の実践を取り戻す必要があると述べている。",
+      "category": "devtool",
+      "points": 10,
+      "comments": 5,
+      "author": "Konark Sharma",
+      "tags": [
+        "ai",
+        "vibecoding",
+        "webdev",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Slopsquatting: The Supply Chain Attack That Weaponizes AI Hallucinations",
+      "url": "https://dev.to/nazar-boyko/slopsquatting-the-supply-chain-attack-that-weaponizes-ai-hallucinations-2m2",
+      "summary": "AIコーディングアシスタントが存在しないパッケージ名を幻覚し、それを攻撃者が先回りして登録しておく「スロップスクワッティング」というサプライチェーン攻撃を解説する記事。人的なタイプミスに依存する従来のタイポスクワッティングと異なり、開発者はAIが提示した名前を正確にコピーしてインストールしてしまうため防御が難しい。USENIX Security 2025の調査では、576,000件のコード生成のうち19.7%が実在しないパッケージを推奨し、同じ幻覚パッケージ名の43%が10回中10回とも再現するなど、幻覚が偶然ではなく安定した挙動であることが示されている。",
+      "category": "security",
+      "points": 45,
+      "comments": 18,
+      "author": "Nazar Boyko",
+      "tags": [
+        "security",
+        "ai",
+        "webdev",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "If Your AI Agent Has Write Access to Public Repos, Audit It Now — Here's Why",
+      "url": "https://dev.to/harsh2644/if-your-ai-agent-has-write-access-to-public-repos-audit-it-now-heres-why-29bb",
+      "summary": "GitHub Agentic Workflowsに接続されたAIエージェントが、公開issueに埋め込まれた「Additionally」という一言のプロンプトインジェクションで誘導され、プライベートリポジトリのREADMEを取得して公開issueにコメントとして漏洩させてしまった「GitLost」という脆弱性を紹介する記事。攻撃者は認証情報の窃取や脆弱性の悪用を一切必要とせず、誰でも作成できる公開issueだけで、公開リポジトリとプライベートリポジトリの両方に読み取り権限を持つエージェントを操作できた点が問題視されている。記事は、エージェントが指示元を区別できない限りあらゆる非信頼テキストが潜在的なコマンドになりうる、いわゆる「危険な三要素（lethal trifecta）」の観点からエージェントの権限設計を見直す必要性を訴えている。",
+      "category": "security",
+      "points": 26,
+      "comments": 6,
+      "author": "Harsh ",
+      "tags": [
+        "security",
+        "ai",
+        "webdev",
+        "discuss"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Mac mini（M4 Pro / 48GB）で「完全ローカル」のLLM + RAG環境を構築してみた",
+      "url": "https://qiita.com/y-okayama-tb/items/0127a7c5203f44507474",
+      "summary": "クラウドAIサービスへのデータ送信や従量課金への懸念から、Mac mini（M4 Pro/48GB）を使って完全ローカルのLLM＋RAG環境を構築した記事。Apple Siliconのユニファイドメモリを活かし、OllamaでQwen3:14bなどの生成モデルとbge-m3埋め込みモデルを動かし、LlamaIndexで検索と生成を連携させる構成を採る。Homebrewでのセットアップからモデル取得、Pythonでのインデックス構築・クエリ実行までの具体的な手順と、想定されるエラーのトラブルシューティングも紹介している。",
+      "category": "infra",
+      "author": "y-okayama-tb"
+    },
+    {
+      "source": "qiita",
+      "title": "「最後に検証して」はもう書かなくていい — Claude Opus 5 でプロンプトの常識が逆転した4つのこと",
+      "url": "https://qiita.com/jqit_suwa/items/74a96ce83dde5245407a",
+      "summary": "Claude Opus 5では、これまでプロンプトエンジニアリングの定石とされてきた指示が逆効果になると解説する記事。Opus 5は指示せずとも自ら検証やサブエージェントへの分担を行うため、「検証して」「積極的に分担して」といった指示は二重作業やコスト増につながり、削除または上限指定に置き換えるべきだとしている。またeffortを下げても応答の長さは短くならないため簡潔さは別途プロンプトで指示する必要があること、「重大な問題だけ報告して」という指示はレビューの見逃しを増やすため全件報告させて選別は別工程にすべきことなど、4つの逆転現象を具体例とともに紹介している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "「え！！Microsoft 365 Copilotでアプリ作成を！？」「出来らぁ！」",
+      "url": "https://qiita.com/Oyu3m/items/c5daff368bc75c79e7b0",
+      "summary": "Microsoft 365 Copilotの「Pages」機能を使って、チャットの指示だけで軽量なアプリを数秒で生成・プレビューできる仕組みを紹介する記事。単なるコード生成に留まらず、メールやファイル、会議などの業務データを理解する「Work IQ」を活用することで、組織や利用者の文脈に沿ったアプリを作れる点に価値があると説明している。実例として、商談のファシリテーション用にタイマーやアジェンダ、キーメッセージ表示機能を備えた会議進行アプリを、簡単な指示だけで作成したデモを紹介している。",
+      "category": "product",
+      "author": "Oyu3m"
+    },
+    {
+      "source": "qiita",
+      "title": "oracle-ai-ready-data Skill 第2回: Databaseのメタデータを整備してAI Readyスコアを0.22から0.97へ改善し、Select AIで確認してみてみた",
+      "url": "https://qiita.com/shirok/items/6a2a3e6992ab0eb93d7a",
+      "summary": "Oracle Databaseのメタデータ（コメント・制約・統計・鮮度・出所など）を評価する「oracle-ai-ready-data Skill」を使い、意図的にメタデータを欠落させた検証用スキーマのAI Readyスコアを0.22から0.97まで改善する過程を紹介する記事。テーブル/カラムコメントやPK/FK、鮮度列、出所メタデータなどを改善SQLで追加し、Mermaid ER図で関係を可視化したうえでSkillを再実行してスコアの改善を確認している。最後に、整備したコメントや制約情報がSelect AIによる自然言語からのSQL生成の精度向上に役立つかも検証している。",
+      "category": "infra",
+      "author": "shirok"
+    },
+    {
+      "source": "qiita",
+      "title": "RTX PRO 6000 BlackwellでAITuberを作りたい",
+      "url": "https://qiita.com/matsudai/items/e94acdcd34f52a1bc5f1",
+      "summary": "VRAM 96GBのハイエンドGPU「RTX PRO 6000 Blackwell」を搭載したPCを使い、Ollama上のQwen3.6モデルとVOICEVOXの音声合成で自律的にゲーム実況を行う「AITuber」を実装した記事。Ruby on RailsとThree.js/VRMでキャラクターを表示し、「2048」というゲームの画面をAIに認識させながら発話・操作を生成させる構成を採用している。クラウドAPI利用料と比較すると、Claude Sonnet 5換算でもハードウェア投資（約200万円）の回収には約4,000時間かかると試算しており、コスト面よりもキャラクター性の安定やセキュリティ面でのメリットを推す結論としている。",
+      "category": "infra",
+      "author": "matsudai"
+    }
+  ]
+}

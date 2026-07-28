@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-28T00:00:00+09:00</updated>
+  <updated>2026-07-29T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月29日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-29.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-29.html</id>
+    <updated>2026-07-29T00:00:00+09:00</updated>
+    <summary>OpenAIがセキュリティスキャンCLI「Codex Security」をOSS公開 / AnthropicがClaude Mythos PreviewでHAWK署名方式とAESに対する新たな暗号攻撃を発見 / MCP新仕様(2026-07-28)でステートレス化・MRTR・認可強化 / GitHub Agentic Workflowsのプロンプトインジェクション脆弱性「GitLost」が公開リポジトリからプライベートREADMEを漏洩 / Claude Opus 5で「検証して」など従来のプロンプト定石が逆効果になる事例が続報</summary>
+  </entry>
   <entry>
     <title>2026年7月28日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-28-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-09-news.html</id>
     <updated>2026-07-09T00:00:00+09:00</updated>
     <summary>xAI（SpaceXAI）がGrok 4.5を発表、Opus級性能を低コストで実現 / Googleの電子透かしSynthIDが政治家の偽画像を暴く事例が発生 / Prime IntellectがシリーズAで1.3億ドルを調達、評価額10億ドルに / AnthropicなどAIスタートアップの収益成長が加速 / Google DeepMindがGemini 3.5 Proの発表を7月17日に延期しアーキテクチャを刷新</summary>
-  </entry>
-  <entry>
-    <title>2026年7月8日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-08-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-08-news.html</id>
-    <updated>2026-07-08T00:00:00+09:00</updated>
-    <summary>MicrosoftがOpenAI/Anthropic依存を減らし自社MAIモデルへ切り替え、AIコストの抑制に動いた / Anthropicの汎用エージェント「Claude Cowork」がモバイル・Webに対応し複数デバイスで作業継続が可能に / Tencentが295B規模のオープンMoEモデル「Hy3」をApache 2.0で公開、GLM-5.1超えの性能を主張 / Google DeepMindはGemini 3.5 Proのリリースを7月17日に延期し、アーキテクチャを全面刷新 / AIネイティブ法律事務所Normが1.2億ドルを調達しユニコーン入り / 元ホワイトハウスAI顧問D…</summary>
   </entry>
 </feed>
