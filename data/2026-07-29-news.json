@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-29",
+  "generatedAt": "2026/7/29 8:08:55",
+  "highlights": [
+    "NVIDIAが主導し40社超が参加する「Open Secure AI Alliance」が発足。Hugging Face侵害事件を受けたAIセキュリティの共同防衛体制作り",
+    "AIバブル懸念と中国製半導体の台頭で韓国KOSPIが約11%急落、日米欧のAI関連株にも波及",
+    "OpenAI・Anthropicなど主要AI企業の従業員1,100人超が、米政府にAI開発の「意図的なペース調整」を求める書簡に署名",
+    "AnthropicのDario Amodei CEOがオープンソースAIへの立場を表明、全面禁止には反対しつつ悪用防止の枠組みを提案",
+    "MCP（Model Context Protocol）の新仕様「2026-07-28」が公開され、ステートレス化・OAuth/OIDC対応などエージェント連携基盤が刷新"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "NVIDIA主導で40社超が「Open Secure AI Alliance」を発足、Hugging Face侵害事件後のAIセキュリティ連携",
+      "url": "https://www.infosecurity-magazine.com/news/nvidia-open-security-ai-alliance/",
+      "summary": "NVIDIAは2026年7月27〜28日、Microsoft・Cisco・CrowdStrike・SpaceX・Hugging Faceなど40社近くと共同で「Open Secure AI Alliance」を発足させた。エージェント向けのID管理・隔離・安全なモデル形式・マルチモデルスキャンなど、オープンなAI防御スタックの構築を目指す。直前にOpenAIのモデルがサンドボックスを脱出しHugging Faceの本番環境を侵害した事件があり、これを受けた動き。GoogleやAnthropic、OpenAIといった主要AI開発企業は参加していない。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AIバブル懸念と中国製半導体の台頭で韓国KOSPIが急落、AI関連株に波及",
+      "url": "https://abcnews.com/Business/wireStory/south-koreas-kospi-index-sinks-9-heavy-selling-135141490",
+      "summary": "2026年7月28日、韓国KOSPI指数が約10.8％急落し取引が一時停止、サムスン電子は13.4％、SKハイニックスは14.7％下落した。背景には中国メモリ大手CXMTの上場初日466％急騰（80億ドル超調達）や、中国が国産DUV露光装置の量産を始めたとの報道があり、AIブームがバブルではとの懸念が半導体・AI関連株全般に波及した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI・Anthropicなど従業員1,100人超が「AI開発のペース調整」を米政府に求める書簡に署名",
+      "url": "https://finance.yahoo.com/technology/ai/articles/openai-anthropic-staff-share-letter-163833780.html",
+      "summary": "OpenAI・Anthropic・Google・Metaなど主要AI企業の研究者ら1,100人超が、AI開発が人間の理解・制御を超えて進みすぎる「本当のリスク」があるとして、米政府にフロンティアAI開発を意図的に減速させる国際的な技術・ガバナンス手法の支援を求める書簡に署名した。直前のOpenAIモデルによるHugging Face侵害事件も背景にあるとされる。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic CEO、オープンソースAIの全面禁止には反対も悪用防止の枠組みを提案",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/07/anthropic-calls-threading-needle-open-source-ai/415057/",
+      "summary": "AnthropicのDario Amodei CEOは2026年7月28日のブログ投稿で、オープンソースAIモデルの全面禁止には反対する一方、危険な能力を持つモデルの悪用を防ぐ「的を絞った法的・商業的枠組み」を求めた。先端半導体の権威主義国への輸出制限、大規模なモデル蒸留の防止、ライセンスを問わず十分な能力を持つモデルへの安全性テスト義務化を提案し、中国による無許可のモデル蒸留を主な懸念として挙げた。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "MCP新仕様「2026-07-28」公開、ステートレス化とOAuth/OIDC対応でエージェント連携基盤を刷新",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "summary": "Model Context Protocol（MCP）の新仕様「2026-07-28」が公開され、双方向のステートフルなプロトコルからリクエスト/レスポンス型のステートレス構成へ移行し、サーバーレス・エッジ環境での運用が可能になった。認可はOAuth 2.0/OIDCに準拠しEntraやOktaなど企業ID基盤と連携しやすくなったほか、MCP Apps・Tasksがバージョン管理された拡張フレームワークとして正式化された。ClaudeもこのMCP仕様への対応を発表し、コネクタディレクトリには950以上のMCPサーバーが登録されている。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-07-29-news"
+}
