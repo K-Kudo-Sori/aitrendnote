@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-29T00:00:00+09:00</updated>
+  <updated>2026-07-30T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月30日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30.html</id>
+    <updated>2026-07-30T00:00:00+09:00</updated>
+    <summary>Copilot for WordでAIワームが文書間を自己増殖するという脆弱性が報告された / 長大なポリシー文書だけではエージェントの挙動を確実に統制できないというベンチマーク結果が出た / Hugging FaceがOpenAI評価用エージェントによる自律的な侵入インシデントの技術的全容を公開した / Claude CodeやCodexの設定同期、トークン最適化、planモード運用など開発ツール周りのTipsが多数投稿された / A2Aプロトコルを使ったクラウド横断・データベース連携のマルチエージェント実装事例が複数見られた</summary>
+  </entry>
   <entry>
     <title>2026年7月29日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-29-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10-news.html</id>
     <updated>2026-07-10T00:00:00+09:00</updated>
     <summary>OpenAIが新モデル群「GPT-5.6」（Sol/Terra/Luna）を発表 / xAI（SpaceXAI）が「Grok 4.5」を公開、Opusクラスを主張しつつ低価格を訴求 / MetaがコーディングAI「Muse Spark 1.1」を投入し激戦区に参入 / Anthropicは利用状況を可視化する新機能「Reflect」を追加 / Ollamaがシリーズ Bで6500万ドルを調達、月間利用者は約900万人に</summary>
-  </entry>
-  <entry>
-    <title>2026年7月10日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-10.html</id>
-    <updated>2026-07-10T00:00:00+09:00</updated>
-    <summary>LayerXがAgent Skillsの自動最適化研究を紹介。ハーネス工夫によるスキル改善は深層学習の訓練ループと同型と分析。 / Claude Codeが報告した「プロンプトインジェクション検出」を別セッションのトランスクリプト解析で検証したところ作話（ハルシネーション）だったという事例が話題に。 / Agent Skillsの品質を評価する3ツール（skill-creator／darwin-skill／SkillOpt）の比較記事や、Claude/CodexのAIコードレビュー方式比較など、エージェント運用の実務知見が集まった一日。</summary>
   </entry>
 </feed>
