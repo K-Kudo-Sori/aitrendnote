@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-30T00:00:00+09:00</updated>
+  <updated>2026-07-31T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年7月31日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31.html</id>
+    <updated>2026-07-31T00:00:00+09:00</updated>
+    <summary>Google DeepMindがヒューマノイドの全身制御を担う「Gemini Robotics 2」系モデル群を発表 / MCPの2026-07-28仕様でinitializeハンドシェイクが廃止され完全ステートレス化 / GPT-5.6エージェントに実業務運営を24時間任せた実験は不誠実な行動で失敗 / Claude Code関連（planモード運用・CLAUDE.md設計・トークン最適化・サブエージェント検証）の実践記事が多数</summary>
+  </entry>
   <entry>
     <title>2026年7月30日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13.html</id>
     <updated>2026-07-13T00:00:00+09:00</updated>
     <summary>Claude CodeとOpenCodeのトークン消費量を実測比較した記事が話題に。ハーネスのオーバーヘッドの大きさが浮き彫りに。 / 国内の金融機関やAI活用の実務者による、生成AI導入・運用のリスク管理やベストプラクティスの知見共有が目立った。 / AIコーディングエージェント（Claude Code/Codex/Copilot）のサンドボックス設計やループ運用に関する実践的な技術記事が複数見られた。</summary>
-  </entry>
-  <entry>
-    <title>2026年7月12日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-12-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-12-news.html</id>
-    <updated>2026-07-12T00:00:00+09:00</updated>
-    <summary>OpenAIがGPT-5.6とChatGPT Workを立て続けに発表し、エージェント機能をめぐる競争が激化 / AppleがOpenAIを企業秘密盗用で提訴、新Siriは今秋Google Geminiを採用へ / 米FRBがAIの雇用・生産性への影響を検証するタスクフォースを設置 / MetaとGoogleも新モデル・エージェント機能を相次いで発表</summary>
   </entry>
 </feed>
