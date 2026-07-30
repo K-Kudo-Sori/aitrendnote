@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-07-31T00:00:00+09:00</updated>
   <entry>
+    <title>2026年7月31日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31-news.html</id>
+    <updated>2026-07-31T00:00:00+09:00</updated>
+    <summary>MCPが「2026-07-28」仕様でステートレス化し、50社超が支持する大規模刷新を実施 / EU AI Actの透明性義務（第50条）が8月2日に施行、直前ガイドラインをEUが公表 / Anthropicは世界最高評価額のスタートアップの座にある一方、7/29には3時間規模の障害も発生 / Alibabaが低コスト・高コンテキストのビジョン言語モデル Qwen3.7 Flash を投入</summary>
+  </entry>
+  <entry>
     <title>2026年7月31日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13-news.html</id>
     <updated>2026-07-13T00:00:00+09:00</updated>
     <summary>OpenAIが全二重の音声AI「GPT-Live」を発表し、ChatGPT音声モードを刷新 / 半導体大手SK HynixがNasdaqに上場し初日+13%、AIメモリ需要の強さを裏付け / AIチップ企業SambaNovaが評価額1.1兆円規模で10億ドルを追加調達 / Anthropicが「Claude Code」デスクトップ版にアプリ内ブラウザを搭載 / セキュリティ企業jscramblerのnpmパッケージが乗っ取られ、AI開発ツールの認証情報を狙う情報窃取マルウェアが拡散</summary>
-  </entry>
-  <entry>
-    <title>2026年7月13日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13.html</id>
-    <updated>2026-07-13T00:00:00+09:00</updated>
-    <summary>Claude CodeとOpenCodeのトークン消費量を実測比較した記事が話題に。ハーネスのオーバーヘッドの大きさが浮き彫りに。 / 国内の金融機関やAI活用の実務者による、生成AI導入・運用のリスク管理やベストプラクティスの知見共有が目立った。 / AIコーディングエージェント（Claude Code/Codex/Copilot）のサンドボックス設計やループ運用に関する実践的な技術記事が複数見られた。</summary>
   </entry>
 </feed>
