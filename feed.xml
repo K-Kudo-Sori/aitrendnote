@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-03T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月3日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03-news.html</id>
+    <updated>2026-08-03T00:00:00+09:00</updated>
+    <summary>EU AI法の透明性義務が8月2日から本格執行開始 / OpenAIがアクティブユーザー10億人・導入企業200万社を突破 / OpenAIがカンボジア拠点の詐欺組織によるChatGPT悪用を摘発 / サム・アルトマン氏の「開発ペースを落とすべき」発言が波紋 / AppleがQ3決算で増収増益、新Siri AIを軸にAI戦略を強調</summary>
+  </entry>
+  <entry>
     <title>2026年8月3日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16.html</id>
     <updated>2026-07-16T00:00:00+09:00</updated>
     <summary>Cursorのブランチ整理指示でDドライブ全消失というAIエージェント事故のポストモーテムが注目を集めた / コーディングエージェント向けの記憶レイヤーやAPI設計論など、エージェント運用のノウハウ記事が多数 / ローカルLLM構築やエッジ推論チップなど、クラウド依存から脱却する動きの記事が目立った / AI生成文章の「AI臭さ」を機械的に検出・除去するAgent Skillの実測記事が話題に</summary>
-  </entry>
-  <entry>
-    <title>2026年7月15日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15-news.html</id>
-    <updated>2026-07-15T00:00:00+09:00</updated>
-    <summary>AppleがiOS 27パブリックベータで新Siriを一般公開し、数十億台規模の実地テストが始まった / Hugging Faceのダウンロード動向で中国オープンウェイトモデルが米国モデルを上回り、フロンティア開発競争の構図が変化 / DeepMind CEOがFINRA型の独立標準化機関によるフロンティアAI規制を提唱 / Reflection AIがNebiusと10億ドル規模のコンピュート契約、DeepSeekは15億ドル調達とIPO準備が進行 / MetaのAdam Mosseri氏はエンジニア1人あたりのAIトークン消費に上限が必要になると発言</summary>
   </entry>
 </feed>

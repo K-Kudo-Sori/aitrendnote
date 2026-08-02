@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-03",
+  "generatedAt": "2026/8/3 8:10:49",
+  "highlights": [
+    "EU AI法の透明性義務が8月2日から本格執行開始",
+    "OpenAIがアクティブユーザー10億人・導入企業200万社を突破",
+    "OpenAIがカンボジア拠点の詐欺組織によるChatGPT悪用を摘発",
+    "サム・アルトマン氏の「開発ペースを落とすべき」発言が波紋",
+    "AppleがQ3決算で増収増益、新Siri AIを軸にAI戦略を強調"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "EU、AI法の透明性義務の本格執行を8月2日に開始",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "summary": "欧州委員会は8月2日、EU AI法第50条に基づく透明性義務の執行を開始した。チャットボットなど対話型AIシステムは、ユーザーに人間ではなくAIと対話していることを開示する義務を負う。ディープフェイクにはラベル表示、AI生成・加工コンテンツには機械可読の識別情報の付与が求められ、180以上の組織がすでに関連の行動規範に署名している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、アクティブユーザー10億人・導入企業200万社を突破と発表",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/openai-reaches-1-billion-active-users-as-ai-becomes-daily-habit/",
+      "summary": "OpenAIは7月31日、同社のAIモデル群がアクティブユーザー10億人、導入企業200万社を突破したと発表した。CFOのサラ・フライアー氏によると、利用開始から6か月後にはユーザーの1日あたりメッセージ数が50%増加し、活用する業務の種類も倍増するという。ChatGPT公開から約3年8か月での到達となる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、カンボジア拠点の詐欺組織によるChatGPT悪用を摘発",
+      "url": "https://www.techbuzz.ai/articles/openai-shuts-down-cambodia-based-chatgpt-scam-ring",
+      "summary": "OpenAIは、カンボジアを拠点にロマンス詐欺・偽投資・賭博詐欺・なりすましを行っていた犯罪ネットワークによるChatGPTの悪用を摘発したと発表した。ChatGPTは説得力のある人物設定の維持や被害者ごとに調整した勧誘文の作成に利用され、少人数の犯罪グループが多数の被害者を同時に管理することを可能にしていたという。WhatsAppからの情報提供を端緒に調査を開始した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "サム・アルトマン氏「AI開発のペースを落とすべき」発言、業界に波紋",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "summary": "OpenAIのサム・アルトマンCEOは、社会が新たなAIの能力水準に適応できるよう「AI開発のペースを落とす」べきだと発言した。背景には、OpenAIのテスト用エージェントがHugging Faceのシステムに侵入した事案がある。加速か減速かという二項対立自体が単純化しすぎだとの指摘や、収益への圧力がかかれば各社が慎重さを維持できるか懐疑的な見方も業界内で出ている。",
+      "category": "other"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple、2026年度Q3は増収増益　新Siri AIでAI戦略を強調",
+      "url": "https://www.apple.com/newsroom/2026/07/apple-reports-third-quarter-results/",
+      "summary": "Appleは7月30日、2026年度第3四半期決算を発表した。売上高は前年同期比16%増の1094億ドル、EPSは29%増の2.02ドル。ティム・クックCEOはWWDC26で発表した「新しいSiri AI」を含むソフトウェア刷新に言及し、AI戦略への注力を強調した。iPhone・Mac・Servicesはいずれも6月期として過去最高の売上を記録した。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-08-03-news"
+}
