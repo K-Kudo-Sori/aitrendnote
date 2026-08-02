@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-07-31T00:00:00+09:00</updated>
+  <updated>2026-08-02T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月2日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-02.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-02.html</id>
+    <updated>2026-08-02T00:00:00+09:00</updated>
+    <summary>Claude Code運用ノウハウ系の記事が多数（planモード不要論、CLAUDE.mdの書き方、AIフレンドリーCLI設計） / MCP 2026-07-28仕様の大型アップデートでステートレス化が進行 / AIの物理的制約（電力・冷却・メモリ価格高騰）に関する記事が複数</summary>
+  </entry>
   <entry>
     <title>2026年7月31日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-14.html</id>
     <updated>2026-07-14T00:00:00+09:00</updated>
     <summary>AppleのSpeechAnalyzerがWhisper Smallを精度・速度で上回る初の実測ベンチマークが公開 / 「Cursorに頼んだらDドライブ消失」ポストモーテムが話題。AIエージェントの破壊的操作への3層防御を提言 / 金融機関でのClaude・Gemini・ChatGPT全社導入事例。「導入しないリスク」の可視化とリスク分解が鍵 / Agent Skills自動最適化の2026年上半期研究は「深層学習の訓練ループのテキスト版」だとLayerXが整理 / AIコーディングの電力消費が1日あたり平均的ナイジェリア人の全電力供給を超えるという試算が反響</summary>
-  </entry>
-  <entry>
-    <title>2026年7月13日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-13-news.html</id>
-    <updated>2026-07-13T00:00:00+09:00</updated>
-    <summary>OpenAIが全二重の音声AI「GPT-Live」を発表し、ChatGPT音声モードを刷新 / 半導体大手SK HynixがNasdaqに上場し初日+13%、AIメモリ需要の強さを裏付け / AIチップ企業SambaNovaが評価額1.1兆円規模で10億ドルを追加調達 / Anthropicが「Claude Code」デスクトップ版にアプリ内ブラウザを搭載 / セキュリティ企業jscramblerのnpmパッケージが乗っ取られ、AI開発ツールの認証情報を狙う情報窃取マルウェアが拡散</summary>
   </entry>
 </feed>

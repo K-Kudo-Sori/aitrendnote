@@ -1,0 +1,206 @@
+{
+  "date": "2026-08-02",
+  "generatedAt": "2026/8/2 14:29:27",
+  "highlights": [
+    "Claude Code運用ノウハウ系の記事が多数（planモード不要論、CLAUDE.mdの書き方、AIフレンドリーCLI設計）",
+    "MCP 2026-07-28仕様の大型アップデートでステートレス化が進行",
+    "AIの物理的制約（電力・冷却・メモリ価格高騰）に関する記事が複数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "AI financial advice is surprisingly good, especially if you ask right questions",
+      "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+      "summary": "MIT Sloanの研究者らが、LLM（GPT-5.2/5.6、Gemini 3 Flash）が生成する家計向け金融アドバイスの質を検証した研究を紹介する。1000人の被験者に自由記述のプロンプトを書かせ、そのアドバイスに従い続けた場合の生涯シミュレーションを実施したところ、貯蓄・分散投資・年齢に応じたリスク低減については概ね良好な助言をする一方、失業などのショックへの対応やポートフォリオの積極的なリバランスは苦手であることが分かった。プロンプトを専門家並みに詳細化するとさらに質が向上したという。",
+      "category": "research",
+      "points": 239,
+      "comments": 210,
+      "author": "foxtrot8672"
+    },
+    {
+      "source": "hackernews",
+      "title": "Don't credit the LLM",
+      "url": "https://isaacsu.com/2026/08/dont-credit-the-llm/",
+      "summary": "成果物を出す際に「LLMがこう言った」「LLMが書いた」とわざわざ明言する最近の風潮への違和感を綴ったエッセイ。著者は、ツールに功績を分け与えることは同時に自分の説明責任を薄めることになると指摘し、LLMを使ったかどうかに関わらず成果物の質にも失敗にも人間が全責任を負うべきだと主張している。",
+      "category": "other",
+      "points": 17,
+      "comments": 18,
+      "author": "isaacsu"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: CostPerPrompt – Live AI API pricing and real-workload cost calculators",
+      "url": "https://costperprompt.com/",
+      "summary": "232種類以上のAIモデルのAPI料金をリアルタイムで比較できるサービス「CostPerPrompt」の紹介。チャットボット・エージェント・RAG・音声AIなど用途別のコスト計算機や、GPUレンタル価格比較、トークンカウンターなどのツール群を提供する。プロンプトキャッシュやバッチ処理による割引を加味した実運用ベースの費用試算ができる点を売りにしている。",
+      "category": "product",
+      "points": 11,
+      "comments": 4,
+      "author": "ahmed_hassan7"
+    },
+    {
+      "source": "zenn",
+      "title": "AI フレンドリーな CLI を開発するテクニック",
+      "url": "https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
+      "summary": "OSSのCLIツール開発者が、コーディングエージェントがそのCLIを正しく扱えるようにするための工夫を紹介する記事。help やログに agent 向けメッセージを埋め込む、ドキュメント参照用のサブコマンドを提供して WebFetch を不要にする、Agent Skill から docs コマンドを呼び出させる、といった手法を、自身が開発するOSS「ghtkn」を例に解説している。",
+      "category": "devtool",
+      "points": 56,
+      "author": "Shunsuke Suzuki"
+    },
+    {
+      "source": "zenn",
+      "title": "MCPの大型アップデート（2026-07-28）で何が変わったか —— TypeScript SDK v2で試す",
+      "url": "https://zenn.dev/komlock_lab/articles/mcp-stateless-spec-2026",
+      "summary": "Model Context Protocolの2026-07-28仕様への大型アップデートを解説する記事。initializeハンドシェイクとMcp-Session-Idが廃止され、各リクエストが単体で完結するステートレス設計になったこと、状態が必要な処理はサーバー発行のハンドルを引数として持ち回る方式に変わったこと、ユーザー入力が必要な場合はMulti Round-Trip Requestsという仕組みでリトライする方式になったこと、Roots/Sampling/Loggingが非推奨化されたことなどを、TypeScript SDK v2の実装を動かしながら詳説している。",
+      "category": "agent",
+      "points": 57,
+      "author": "Kobara Toi"
+    },
+    {
+      "source": "zenn",
+      "title": "Copilot Chat（Microsoft 365）の会話を Markdown に保存・エクスポートする方法（拡張機能不要）",
+      "url": "https://zenn.dev/dxclab/articles/bdc3935d10706c",
+      "summary": "企業環境ではブラウザ拡張機能やGraph APIによる会話ログ書き出しが使えないケースが多いことを踏まえ、拡張機能・管理者権限不要でMicrosoft 365 Copilot Chatの会話全体をMarkdownファイルとして一括保存できるブックマークレットの作り方を紹介する記事。DOMを走査して会話ターンを抽出しダウンロードする仕組みと、UI変更時の対処法についても解説している。",
+      "category": "devtool",
+      "points": 31,
+      "author": "nsatoh"
+    },
+    {
+      "source": "zenn",
+      "title": "【Claude Code】planモードはもう使っていない",
+      "url": "https://zenn.dev/notahotel/articles/0c28638945aa32",
+      "summary": "著者はClaude Codeのplanモードを使わなくなり、代わりに「案をください」と指示するだけの運用に切り替えたと述べる記事。モデルが十分賢くなった現在、厳密な振る舞い規定はむしろモデルの柔軟性を阻害するリスクがあり、対話的に人間が介入できる「案をください」方式の方が、人間の認知負荷を超えた実装案を一方的に提示するplanモードより優れていると主張している。",
+      "category": "devtool",
+      "points": 79,
+      "author": "haru067"
+    },
+    {
+      "source": "zenn",
+      "title": "AI時代に感じた危機感と、エンジニアがこれから考えるべきこと",
+      "url": "https://zenn.dev/nabewata/articles/8cef1bd4cbae3f",
+      "summary": "非エンジニアがAIツールで作ったPoCをそのまま本番化してほしいと依頼される機会が増える中で感じた危機感を綴った記事。PoCは見た目が8割完成していても本番実装としては1割程度であり、そのギャップは規模が大きくなるほど広がると指摘する。着手前にPoCと本番実装の差分を一枚にまとめて提示することで、進捗が見えないという誤解を避け見積もりとして機能させられると提案している。",
+      "category": "other",
+      "points": 58,
+      "author": "easegis"
+    },
+    {
+      "source": "devto",
+      "title": "Catbot: Custom Grammar Problem Fixed",
+      "url": "https://dev.to/annavi11arrea1/catbot-custom-grammar-problem-fixed-oc5",
+      "summary": "音声認識デスクトップペット「Catbot」が自分の名前を正しく聞き取れなかった不具合の原因究明記。マイクの品質改善だけでは解決せず、使用していたVoskの大型モデルがカスタム文法（グラマー）を無視する仕様だったことが根本原因と判明し、文法制御に対応した別モデルへ切り替えることで解決した経緯を、音声認識のデコード処理の仕組みとともに解説している。",
+      "category": "devtool",
+      "points": 23,
+      "comments": 7,
+      "author": "Anna Villarreal",
+      "tags": [
+        "devchallenge",
+        "bugsmash",
+        "catbot",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "EventBridge Scheduler DLQ'd My Successful Invokes",
+      "url": "https://dev.to/aws-heroes/eventbridge-scheduler-dlqd-my-successful-invokes-4fhh",
+      "summary": "AWS EventBridge SchedulerからBedrock AgentCoreの長時間実行エージェントを同期呼び出しした際、処理自体は成功しているのに毎回デッドレターキューへ送られてしまう不具合の原因を調査した記事。Scheduler側が約30秒でレスポンスを待たずタイムアウト扱いにしていたことが原因であり、エージェント呼び出しをバックグラウンドタスク化して即座にレスポンスを返す設計に変更することで解決した。",
+      "category": "infra",
+      "points": 2,
+      "comments": 0,
+      "author": "Danielle Heberling",
+      "tags": [
+        "ai",
+        "aws",
+        "serverless",
+        "tutorial"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Correlated Subqueries Explained: From Confusing to Intuitive",
+      "url": "https://dev.to/saamiabbaskhan/correlated-subqueries-explained-from-confusing-to-intuitive-32jn",
+      "summary": "SQLの相関サブクエリ（correlated subquery）の仕組みを、LeetCodeの実問題を題材にわかりやすく解説する記事。非相関サブクエリとの違い、内側のクエリが外側の各行ごとに再実行される仕組み、SQLの論理的な実行順序、ウィンドウ関数との性能比較などを順を追って説明している。",
+      "category": "other",
+      "points": 5,
+      "comments": 0,
+      "author": "Saami abbas Khan",
+      "tags": [
+        "sql",
+        "database",
+        "mysql",
+        "leetcode"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I wanted to run my own AI. My laptop says not yet",
+      "url": "https://dev.to/marciojpflorindo/i-wanted-to-run-my-own-ai-my-laptop-says-not-yet-5201",
+      "summary": "ローカルでLLMを動かしクラウド依存から脱却しようと試みた記録。24GBメモリのMacでは実用に足るモデルを快適に動かすには不十分であり、AIブームによるDRAM・NANDの価格高騰でメモリ増設によるハード的な解決も難しくなっている現状を報告する。複数のローカル実行ハーネス（Pi、OpenCode、Hermesなど）を試したが、ボトルネックはツールではなくモデルとメモリ容量そのものだったと結論づけている。",
+      "category": "infra",
+      "points": 2,
+      "comments": 1,
+      "author": "Márcio Florindo",
+      "tags": [
+        "ai",
+        "llm",
+        "machinelearning",
+        "hardware"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I stopped reviewing my own code. Here's what had to be true first.",
+      "url": "https://dev.to/isamu/i-stopped-reviewing-my-own-code-heres-what-had-to-be-true-first-4nh0",
+      "summary": "複数のコーディングエージェントを並列に走らせて生成量が読み切れなくなったことを機に、自分のPRのdiffを読まずにマージするようになった著者が、それを安全にするために整えた前提条件を紹介する記事。レビューで指摘していた機械的な項目をESLintなどの厳格なルールとしてコード化し、人間チームには耐えられないほど厳しい閾値を機械には適用できること、例外は理由付きで設定ファイルに残すこと、ルール自体もテスト対象にすることなどを挙げている。",
+      "category": "devtool",
+      "points": 3,
+      "comments": 1,
+      "author": "Isamu Arimoto",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "claudecode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "コードベースのナレッジ化なら、LLM Wikiで十分かもしれない",
+      "url": "https://qiita.com/Syoitu/items/ff38655fed51a2920910",
+      "summary": "コーディングエージェントにコードベースを理解させる手法として、質問のたびにベクトル検索で答えを組み立て直す従来のRAG型ツールの限界を指摘し、データ取り込み時に一度だけMarkdownページとして知識をまとめておく「LLM Wiki」というアプローチを紹介する記事。LangChain社のOSS「OpenWiki」を実際に動かし、Code modeでのセットアップ手順とその仕組みを解説している。",
+      "category": "agent",
+      "author": "Syoitu"
+    },
+    {
+      "source": "qiita",
+      "title": "CLAUDE.md は21セクションか、8行か — 公式ドキュメントで決着をつけた",
+      "url": "https://qiita.com/jqit_suwa/items/cea574550613de33a114",
+      "summary": "CLAUDE.mdを網羅的に書くべきか最小限に留めるべきかという対立する主張を、公式ドキュメントの記述をもとに検証した記事。CLAUDE.mdは毎リクエストのコンテキストに載り続けるためトークンコストとキャッシュ効率に影響することや、指示が増えるほど個々の指示への注意配分が薄まることを理由に、公式は簡潔に保つ立場を明確にしていると解説する。「検証しろ」「CRITICAL」などの指示は現行モデルではむしろ逆効果になりうるとして、書くべき内容と書かない方がよい内容を整理している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "AIのアウトプットをそのまま出すだけの人にならないために",
+      "url": "https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453",
+      "summary": "Claude CodeやCodexを日常的に併用するエンジニアが、業務の多くをエージェントに委ねる中で人間に残る仕事は何かを整理したエッセイ。「一緒に働きたいと思われる人間であること」「こだわりを作ること」「コンテキストにない情報を意思決定に活かすこと」「責任を持つこと」「一つの領域に留まらないこと」の5つを挙げ、AIの出力に自分の差分を必ず足すこと、説明できないものは出さないことという2つの実践を紹介している。",
+      "category": "other",
+      "author": "ktdatascience"
+    },
+    {
+      "source": "qiita",
+      "title": "AIの限界は頭脳ではなく、電気と冷却にあった【宇宙のデーターセンターって何？】",
+      "url": "https://qiita.com/sumomoo/items/8bbe719ed4de1a36def9",
+      "summary": "イーロン・マスク率いるSpaceXが発表した宇宙データセンター構想「AI1」を切り口に、AIの成長を制約しているのがモデル性能そのものよりも電力と冷却という物理的な基盤であることを解説する入門記事。地上のデータセンターが電力・土地・冷却水の制約に直面する一方、宇宙空間なら安定した太陽光発電と真空中の放熱を活用できるという狙いを紹介し、AI1衛星の仕様や打ち上げ計画についても触れている。",
+      "category": "infra",
+      "author": "sumomoo"
+    },
+    {
+      "source": "qiita",
+      "title": "ガバメントクラウドでのAWS DevOps Agentの活用",
+      "url": "https://qiita.com/infra365/items/70eb40b12d6f9c0011ca",
+      "summary": "マルチアカウント構成・閉域ネットワークなど制約の多いガバメントクラウド環境で、AWS DevOps Agentを活用して障害調査・ログ分析の運用負担を軽減する取り組みを紹介するLT登壇内容。調査範囲を定義するAgent Spaceの設計方針（共同利用方式・単独利用方式）、IAMロールと権限ガードレールによるセキュリティ設計、「自分のアカウントに問題がないことの証明」といった実運用でのユースケースを解説している。",
+      "category": "infra",
+      "author": "infra365"
+    }
+  ]
+}
