@@ -1,0 +1,206 @@
+{
+  "date": "2026-08-03",
+  "generatedAt": "2026/8/3 7:08:08",
+  "highlights": [
+    "MCPが2026-07-28仕様で大型刷新。initializeハンドシェイクとセッションIDが廃止され、ステートレスなリクエスト単位モデルへ移行",
+    "Claude Code運用系の記事が多数：planモード不要論、サブエージェント並列のコスト検証、Claude/Codex設定ファイルの同期ツール自作",
+    "「AIの出力をそのまま出すだけの人にならないために」など、生成AI時代のエンジニアの働き方を内省する記事が目立つ"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "'Crush this lady': how eBay harassment campaign led to $56M payout",
+      "url": "https://www.ft.com/content/06ec1b03-d4af-40cf-b12a-4ba5a410f6d2",
+      "summary": "本文取得失敗。Financial Timesの有料記事で、eBayの元幹部らが批評家の夫婦に対して行った嫌がらせキャンペーンを巡る訴訟で56億円規模の賠償が命じられたという内容とみられるが、本文が取得できず詳細は確認できない。AI関連キーワードでの自動抽出時に誤って拾われた可能性が高い記事で、AIそのものとは無関係な内容である。",
+      "category": "other",
+      "points": 89,
+      "comments": 31,
+      "author": "JumpCrisscross"
+    },
+    {
+      "source": "hackernews",
+      "title": "My personal AI benchmark: \"Generate an SVG of a frog with a Habsburg jaw.\"",
+      "url": "https://frogs.vaguespac.es/",
+      "summary": "「ハプスブルク家のあごを持つカエルのSVGを生成させる」という個人考案のベンチマークで、複数のAIモデルに同じプロンプトを与えて出力を比較する継続企画のサイト。掲載されているのはAnthropicのClaude Opus 5による生成結果で、実行時間や出力バイト数とともにSVGソースが公開されている。あご部分の誇張表現や解剖学的な注釈的記述など、モデルごとの表現の癖を並べて評価するのが狙い。画像生成ではなくSVGコードの生成というニッチな切り口でモデルの空間把握・造形能力を測る試みとして紹介されている。",
+      "category": "model",
+      "points": 55,
+      "comments": 27,
+      "author": "thebigship"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI Mania: From Tulips to Tokens",
+      "url": "https://seanhelvey.com/tools-and-their-tools/",
+      "summary": "チューリップバブルになぞらえ、現在のAIブームを「バブル的熱狂」として批評するエッセイ。GPU需要が仮想通貨からLLMへ波及し、企業が人員削減の理由をAIに求める一方で、実際にAIが人間を道具化しているのではないかという逆転の視点を提示する。自動運転の「来年には実現する」という予測が2014年から繰り返し外れ続けている例や、業界がクエリごとのエネルギー消費や水使用量を開示しない不透明性を指摘。LeCunやホフマンら識者の意見も引用しつつ、AIの「意識」問題には結論が出ていないと結んでいる。",
+      "category": "product",
+      "points": 35,
+      "comments": 27,
+      "author": "Lambda11"
+    },
+    {
+      "source": "zenn",
+      "title": "AI フレンドリーな CLI を開発するテクニック",
+      "url": "https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
+      "summary": "OSSのCLIツール開発者が、Claude CodeやCodexなどのコーディングエージェントがツールを扱いやすくなるよう工夫した実践例を紹介する記事。ヘルプメッセージやエラーログにエージェント向けの案内文（ドキュメント参照コマンドの実行を促す文言など）を仕込む手法や、人間向けドキュメントとAgent Skillの説明を共通化して管理コストを下げる方法を解説する。ドキュメント一覧・詳細を出力するサブコマンドを提供することで、Web Fetchに頼らずエージェントが自律的に正確な情報へアクセスできるようにする設計思想が中心。トークンなど機密情報をエージェントに出力させない配慮についても触れている。",
+      "category": "devtool",
+      "points": 67,
+      "author": "Shunsuke Suzuki"
+    },
+    {
+      "source": "zenn",
+      "title": "MCPの大型アップデート（2026-07-28）で何が変わったか —— TypeScript SDK v2で試す",
+      "url": "https://zenn.dev/komlock_lab/articles/mcp-stateless-spec-2026",
+      "summary": "Model Context Protocol（MCP）の2026-07-28仕様という、発足以来最大規模の仕様変更を解説する記事。initializeハンドシェイクとMcp-Session-Idが廃止され、各リクエストが単体で完結するステートレスなモデルに移行したことが最大の変更点で、状態が必要な処理はサーバー発行の「ハンドル」を明示的に受け渡す設計になった。ユーザー入力待ちが必要な場面ではSSEの常時接続の代わりに、requestStateを持ち回ってリトライする「Multi Round-Trip Requests」という仕組みが導入された。TypeScript SDK v2を実際に動かし、requestStateの改ざん防止のための署名の仕組みなども含めて具体的に検証している。",
+      "category": "agent",
+      "points": 61,
+      "author": "Kobara Toi"
+    },
+    {
+      "source": "zenn",
+      "title": "【Claude Code】planモードはもう使っていない",
+      "url": "https://zenn.dev/notahotel/articles/0c28638945aa32",
+      "summary": "Claude Codeのplanモードを最近は使わなくなり、代わりに「案をください」と指示するだけで済ませているという体験談。planモードはモデルの能力が未熟だった時代に、ユーザーの承認ポイントを作り編集を禁止する役割を担っていたが、モデルが十分賢くなった現在ではむしろ厳密なルール付けが柔軟性を妨げるリスクになると論じる。「案をください」方式の利点は、一問一答で終わらず必要に応じて何往復も対話しながら人間が介入できる点にあるとし、Anthropicのコンテキストエンジニアリングに関するブログ記事も引用している。",
+      "category": "devtool",
+      "points": 83,
+      "author": "haru067"
+    },
+    {
+      "source": "zenn",
+      "title": "Copilot Chat（Microsoft 365）の会話を Markdown に保存・エクスポートする方法（拡張機能不要）",
+      "url": "https://zenn.dev/dxclab/articles/bdc3935d10706c",
+      "summary": "Microsoft 365のCopilot Chatには会話を一括エクスポートする標準機能がないため、ブラウザ拡張機能や管理者権限を使わずに、ブックマークレット（1行のJavaScriptをブックマーク登録する手法）でDOMを読み取り会話全体をMarkdownファイルとして保存する方法を紹介する記事。企業環境では拡張機能の導入がセキュリティレビューの対象になったり禁止されていたりすることが多いため、インストール不要・データが端末外に出ない・原文のまま保存できるという条件を満たす方法として提案されている。UIの変更で動かなくなった際の対処法にも触れている。",
+      "category": "devtool",
+      "points": 36,
+      "author": "nsatoh"
+    },
+    {
+      "source": "zenn",
+      "title": "【決着】Claude CodeとCodexの設定ファイルを同期させる (みんな仲良く)",
+      "url": "https://zenn.dev/explaza/articles/20f7f41cff8428",
+      "summary": "同じプロジェクトでClaude CodeとCodexを併用する際、CLAUDE.md/AGENTS.mdやSKILLSなどの設定ファイルが片方にしか反映されない問題を解決する自作ツールを紹介する記事。形式が同じファイルはシンボリックリンクで共有し、MCP設定のようにJSON/TOMLなど形式が異なるものは差分検出と変換ロジックで同期する仕組みを構築した。前回同期時のfingerprintで更新元を判定し、両側が同時に変更されていた場合は自動で決めず人間に選ばせる設計。すべてを一律同期せず、モデルごとのPrompting Guideの違いを考慮して同期項目を選べるようにした点が工夫として挙げられている。",
+      "category": "devtool",
+      "points": 74,
+      "author": "Kanta"
+    },
+    {
+      "source": "devto",
+      "title": "Stratagems #21: The AI Thought P Was Still Alive. P Was Already Gone.",
+      "url": "https://dev.to/xulingfeng/stratagems-21-the-ai-thought-p-was-still-alive-p-was-already-gone-59h7",
+      "summary": "AIによる監視・追跡と人間同士の駆け引きを題材にした連載フィクション「36 Stratagems」の第21話。登場人物Pが、自分の痕跡を追うAI監視システム（ACL）のログに不審なエントリを発見し、罠として仕掛けていたシンガポールのIPアドレスから偽の手がかりが読まれたことを確認する場面が描かれる。技術的な解説記事ではなく、AI監視・企業スパイ的な緊張感を描いたシリーズものの物語であり、AI監査やモニタリングという設定を借りたエンタメコンテンツである。",
+      "category": "other",
+      "points": 26,
+      "comments": 3,
+      "author": "xulingfeng",
+      "tags": [
+        "ai",
+        "discuss",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Dollars and rupees without Stripe: what building Skill Exchange's checkout taught me (PayPal + UPI)",
+      "url": "https://dev.to/mohanvenkatakrishnan/dollars-and-rupees-without-stripe-what-building-skill-exchanges-checkout-taught-me-paypal-upi-3i8p",
+      "summary": "再利用可能なAIスキルのマーケットプレイス「Skill Exchange」の決済機能を構築した際、Stripeが使えない状況（インド居住のマーチャントが米国とインド双方の購入者に課金する必要があるケース）にどう対応したかを解説する記事。PayPalはインド国内送金には使えず海外送金専用であるため、購入者の通貨に応じてPayPal（USD／海外向け）とRazorpay（INR／UPI経由）の2系統を使い分けるアーキテクチャを採用した経緯を、実装コード付きで紹介している。内容自体は決済インフラの話であり、AIに関する技術的な内容ではない。",
+      "category": "other",
+      "points": 15,
+      "comments": 0,
+      "author": "Mohan",
+      "tags": [
+        "aws",
+        "webdev",
+        "saas",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Spaced Repetition Under the Hood: How We Decide When to Show a Word Again",
+      "url": "https://dev.to/vitaly_pavlenko_71b14d120/spaced-repetition-under-the-hood-how-we-decide-when-to-show-a-word-again-2g5b",
+      "summary": "語学学習アプリ「VibeLing」の間隔反復（スペースドリピティション）スケジューラーの設計を解説する記事。単語ごとにLEARNING／REVIEWの2状態と正解数・間隔・難易度のみを保持するシンプルなモデルを採用し、Ankiが採用する高精度なFSRSアルゴリズムをあえて使わなかった理由（初期の実履歴データが無いことと、単純な倍々ゲームの方が挙動を人に説明しやすいこと）を述べている。正誤の二値評価ではなく、回答に要した時間やヒント使用の有無なども加味して難易度を更新する仕組みも紹介されており、AIに関する内容ではなくアルゴリズム設計の記事である。",
+      "category": "other",
+      "points": 3,
+      "comments": 0,
+      "author": "Vitaly Pavlenko",
+      "tags": [
+        "programming",
+        "showdev",
+        "algorithms",
+        "learning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "10 Cool CodePen Demos (July 2026)",
+      "url": "https://dev.to/alvaromontoro/10-cool-codepen-demos-july-2026-bg",
+      "summary": "2026年7月に公開されたCodePenの面白いデモを10個紹介するまとめ記事。純CSSの立体的なパターン、Windows XPのフォルダを再現したデモ、P5.jsを使ったインタラクティブな幾何学模様、CSSだけで描かれた猿のアートワーク、1024バイトのJavaScriptで作られた3Dミニゲーム、WebGLシェーダーによる水面表現などが取り上げられている。AIとは無関係なHTML/CSS/JavaScriptの創作デモ集であり、キーワード抽出時に誤って拾われた記事とみられる。",
+      "category": "other",
+      "points": 6,
+      "comments": 0,
+      "author": "Alvaro Montoro",
+      "tags": [
+        "html",
+        "css",
+        "showdev",
+        "javascript"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "🌱 OpenSpec Is Built for Brownfield. I Used It to Build From Nothing.",
+      "url": "https://dev.to/shyamala_u/openspec-is-built-for-brownfield-i-used-it-to-build-from-nothing-18jm",
+      "summary": "普段バックエンド／インフラを担当するエンジニアが、生成AIを使って未経験のデスクトップアプリ開発（船舶検査員向けのオフライン点検アプリ）に挑戦した体験記。本来は既存コードベース向けの仕様管理ツール「OpenSpec」を、ゼロからの新規開発にあえて適用し、決定事項や仕様をチャットではなくコードと並べて管理することで、作業を中断・再開したりエージェントやモデルを切り替えたりしても文脈を失わない運用ができたと述べている。Spec Kitとの比較や、OpenSpecがカバーしなかった課題についても触れられている。",
+      "category": "devtool",
+      "points": 1,
+      "comments": 1,
+      "author": "Shyamala",
+      "tags": [
+        "ai",
+        "showdev",
+        "productivity",
+        "softwaredevelopment"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIのアウトプットをそのまま出すだけの人にならないために",
+      "url": "https://qiita.com/ktdatascience/items/8d2dace07c9c7a9d0453",
+      "summary": "Claude CodeとCodexを日常的に並列稼働させるエンジニアが、業務の多くをAIエージェントに委譲した経験から「それでも人間に残る仕事」を整理したポエム的な記事。手順化・言語化できる仕事はほぼエージェント任せになった一方で、METR研究（AIツール使用で体感に反し作業が平均19%遅くなったという結果）を引きつつ、AIが効く領域と効かない領域は明確に分かれると指摘する。人間に残る仕事として「一緒に働きたいと思われること」「こだわりを作ること」「コンテキストにない情報を意思決定に活かすこと」「責任を持つこと」「専門を超えて越境すること」の5つを挙げ、AIの出力に自分の差分を必ず足すことを実践しているとしている。",
+      "category": "agent",
+      "author": "ktdatascience"
+    },
+    {
+      "source": "qiita",
+      "title": "検証！Claude Codeのサブエージェント並列はお得なのか",
+      "url": "https://qiita.com/tamashiro_nobuyuki/items/ff9004b66b7761c4d34c",
+      "summary": "Claude Codeのサブエージェント（Agentツール）を並列実行することが本当に速くお得なのかを実測検証した記事。同じ独立した3タスクを「直列・サブエージェント無し」「直列・サブエージェント経由」「並列・サブエージェント経由」の3パターンで実行し、所要時間・トークン消費量・メインセッションの文脈汚染量を比較した。並列実行は直列に比べ所要時間がおよそ半分に短縮された上、同時に似た内容のサブエージェントを起動したことでキャッシュを共有でき、合計トークン消費量もむしろ少なくなるという結果が得られたと報告している。一方でメインの文脈保護効果については、検証タスクが単純だったため明確な差は確認できなかったとしている。",
+      "category": "agent",
+      "author": "tamashiro_nobuyuki"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code／Codexに中～大規模開発を任せるためのタスク管理",
+      "url": "https://qiita.com/Y-Y-dev/items/d526fb7cdbe35a3f9384",
+      "summary": "Claude CodeやCodexのようなAIコーディングエージェントに数十〜数百件規模の開発タスクを任せる際の運用方法を整理した記事。チャットの会話だけでは進捗管理の正本にならないとして、リポジトリ内のtask-list.mdを唯一の正本とし、進行中タスクを原則1件に限定する運用を提案する。1タスクに含めるべき情報として「目的」「変更範囲」「禁止事項」「完了条件」「テスト方法」「停止条件」の6項目を明文化することを推奨し、AIの自己申告ではなく差分・テスト結果・実環境の証拠で完了を判定すべきだとしている。",
+      "category": "devtool",
+      "author": "Y-Y-dev"
+    },
+    {
+      "source": "qiita",
+      "title": "ガバメント AI 源内（genai-web）を Entra ID シングルサインオン + カスタムドメインで運用する",
+      "url": "https://qiita.com/takeda_h/items/74e0d6802dafeda4a7b1",
+      "summary": "政府向け生成AI基盤「ガバメント AI 源内」のフロントエンド（genai-web）に、標準のCognitoパスワード認証の代わりにEntra ID（Azure AD）を使ったSAMLシングルサインオンを設定する手順を解説する記事。CDKでのデプロイからCognitoドメインの作成、Entra ID側でのエンタープライズアプリ作成とSAML設定、Cognitoへのフェデレーションプロバイダー追加、CloudFrontを独自ドメインで運用するための設定変更までを具体的に説明している。ガバメントクラウド利用時にus-east-1リージョンでもCDK Bootstrapが必要になる点など、実務上の注意点にも言及している。",
+      "category": "infra",
+      "author": "takeda_h"
+    },
+    {
+      "source": "qiita",
+      "title": "AIの限界は頭脳ではなく、電気と冷却にあった【宇宙のデーターセンターって何？】",
+      "url": "https://qiita.com/sumomoo/items/8bbe719ed4de1a36def9",
+      "summary": "SpaceXが2026年6月に発表した宇宙空間にAIデータセンターを構築する「AI1」計画を切り口に、AIの成長を制約しているのはモデルの性能そのものよりも電力供給と冷却という物理的な土台であると論じる記事。地上のデータセンターは電力網や土地の制約に直面している一方、宇宙空間なら太陽光で発電し真空中で放熱しやすいという利点があるため、この構想は突飛なアイデアではなく現実的な選択肢だと説明する。第一世代の「AI1」衛星は翼幅約70メートル、最大150キロワットの電力でコンピューティングを支える設計で、2027年後半の実証打ち上げを目指しているという。",
+      "category": "infra",
+      "author": "sumomoo"
+    }
+  ]
+}

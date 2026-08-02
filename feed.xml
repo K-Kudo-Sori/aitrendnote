@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-02T00:00:00+09:00</updated>
+  <updated>2026-08-03T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月3日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03.html</id>
+    <updated>2026-08-03T00:00:00+09:00</updated>
+    <summary>MCPが2026-07-28仕様で大型刷新。initializeハンドシェイクとセッションIDが廃止され、ステートレスなリクエスト単位モデルへ移行 / Claude Code運用系の記事が多数：planモード不要論、サブエージェント並列のコスト検証、Claude/Codex設定ファイルの同期ツール自作 / 「AIの出力をそのまま出すだけの人にならないために」など、生成AI時代のエンジニアの働き方を内省する記事が目立つ</summary>
+  </entry>
   <entry>
     <title>2026年8月2日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-02-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15-news.html</id>
     <updated>2026-07-15T00:00:00+09:00</updated>
     <summary>AppleがiOS 27パブリックベータで新Siriを一般公開し、数十億台規模の実地テストが始まった / Hugging Faceのダウンロード動向で中国オープンウェイトモデルが米国モデルを上回り、フロンティア開発競争の構図が変化 / DeepMind CEOがFINRA型の独立標準化機関によるフロンティアAI規制を提唱 / Reflection AIがNebiusと10億ドル規模のコンピュート契約、DeepSeekは15億ドル調達とIPO準備が進行 / MetaのAdam Mosseri氏はエンジニア1人あたりのAIトークン消費に上限が必要になると発言</summary>
-  </entry>
-  <entry>
-    <title>2026年7月15日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-15.html</id>
-    <updated>2026-07-15T00:00:00+09:00</updated>
-    <summary>PrismMLが「Bonsai 27B」を発表。ternary/1-bit量子化でスマホでも動く27Bクラスモデルを実現し、性能を9割前後維持 / CursorのWindows版に、リポジトリ直下のgit.exeを無条件実行してしまう0dayが半年以上未修正のまま放置と研究者が公開 / Claude Codeを使ったカナダ・アルバータ州政府の大規模レガシーシステム刷新事例や、金融機関でのClaude/Gemini/ChatGPT全社導入の経緯など、実運用でのAI活用事例が複数 / Cursorエージェントへの「ブランチ整理」依頼でDドライブが全消去された事故のポストモーテムが公開され、AIエ…</summary>
   </entry>
 </feed>
