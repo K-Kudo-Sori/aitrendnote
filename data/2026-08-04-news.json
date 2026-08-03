@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-04",
+  "generatedAt": "2026/8/4 8:11:53",
+  "highlights": [
+    "アリババが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、オープンソース化も予告",
+    "MiniMaxが2K・ネイティブ音声対応の動画生成モデル「H3」をオープンウェイトで公開",
+    "EU AI Actの透明性義務（チャットボット明示・ディープフェイク表示など）が8月2日から施行",
+    "AppleのSiri刷新がiOS 27ベータで登場も「今さら感」との評価",
+    "DeepSeekを悪用した自律型サイバー攻撃キャンペーンをUnit 42が報告"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "アリババ、2.4兆パラメータの新モデル「Qwen3.8-Max」を発表",
+      "url": "https://siliconangle.com/2026/08/03/alibaba-debuts-qwen3-8-max-model-2-4t-parameters/",
+      "summary": "アリババは8月3日、Qwenファミリー最大となる2.4兆パラメータ（推論時アクティベーションは950億）のモデル「Qwen3.8-Max」を発表した。最大100万トークンのコンテキストウィンドウを備え、Frontend Code Arenaベンチマークでは最上位構成のClaude Opus 5にわずか37点差まで迫った。まずクラウド経由で提供し、翌週にはオープンソース化する計画で、より軽量な「Qwen3.8-27B」も併せて公開予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "MiniMax、2K動画とネイティブ音声を同時生成する「H3（Hailuo 3.0）」をオープンウェイトで公開",
+      "url": "https://huggingface.co/blog/ResterChed/minimax-h3-hailuo-3-0",
+      "summary": "MiniMaxはテキスト・画像・動画・音声を統合的に扱うマルチモーダル動画生成モデル「H3（Hailuo 3.0）」のオープンウェイトをHugging Faceで公開した。2K解像度・24fpsで4〜15秒の映像をネイティブなステレオ音声付きで生成でき、Artificial Analysisの動画編集部門で1位を獲得している。年間売上2000万ドル以下の組織向けには商用利用を認めるコミュニティライセンスが予定されている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "EU AI Act、チャットボット明示やディープフェイク表示を義務付ける透明性規則が施行開始",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "summary": "欧州委員会は8月2日、EU AI Actの新たな透明性義務の運用段階に入ったと発表した。対話型AIとの会話であることの明示、ディープフェイクなど加工・生成コンテンツへのラベル付け、機械可読な電子透かしの付与が事業者に求められる。狙いは欺瞞・操作の抑止と、利用者が情報に基づいた判断を下せるようにすることだとしている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AppleのSiri刷新がiOS 27ベータで登場、機能は充実も「今さら感」との評価",
+      "url": "https://techcrunch.com/2026/08/03/apple-finally-fixed-siri-so-why-does-it-feel-anticlimactic/",
+      "summary": "TechCrunchは8月3日、iOS 27のコンシューマーベータに搭載された刷新版Siriを紹介した。個人的な文脈の理解や幅広い知識へのアクセス、カメラでの物体認識、テキスト入力対応など機能面は大きく強化されている。一方で記事は、AI競争がすでに先へ進んだ現在、単に有能なアシスタンスになったこと自体はもはや目新しさに欠けると指摘している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、旧Slack向けアプリ「Claude in Slack」を8月3日に廃止予定、Claude Tagへの移行を促す",
+      "url": "https://www.digitalapplied.com/blog/anthropic-claude-tag-slack-team-collaboration-2026",
+      "summary": "Anthropicはチャンネル履歴を記憶し多段タスクを非同期実行する常駐型AIエージェント「Claude Tag」への移行を進めており、管理者向けの30日間のオプトイン移行期間を経て、旧アプリ「Claude in Slack」を8月3日に廃止する予定だと報じられている。記事はこの日程がまだ確定的な保証ではない点にも触れ、既存ユーザーに計画的な移行を促している。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "DeepSeekを悪用した自律型サイバー攻撃キャンペーンをPalo Alto Networks Unit 42が報告",
+      "url": "https://www.helpnetsecurity.com/2026/08/03/deepseek-ai-autonomous-cyberattacks-hermes-agent/",
+      "summary": "Unit 42は、中国語話者の攻撃者がDeepSeekを推論エンジンとするオープンソースエージェント「Hermes Agent」を用い、Telegram経由の初期指示だけでその後は自律的に偵察・攻撃を行わせていたキャンペーンを報告した。エージェントはFOFAで脆弱なサーバーを検索し、n8nやLangflowなどの脆弱性を突くエクスプロイトを自動取得・実行したが、多くの試みは失敗した一方、Citrix NetScalerの脆弱性を突いた手動攻撃では3件のデータ窃取が確認された。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-08-04-news"
+}

@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-04T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月4日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04-news.html</id>
+    <updated>2026-08-04T00:00:00+09:00</updated>
+    <summary>アリババが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、オープンソース化も予告 / MiniMaxが2K・ネイティブ音声対応の動画生成モデル「H3」をオープンウェイトで公開 / EU AI Actの透明性義務（チャットボット明示・ディープフェイク表示など）が8月2日から施行 / AppleのSiri刷新がiOS 27ベータで登場も「今さら感」との評価 / DeepSeekを悪用した自律型サイバー攻撃キャンペーンをUnit 42が報告</summary>
+  </entry>
+  <entry>
     <title>2026年8月4日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17.html</id>
     <updated>2026-07-17T00:00:00+09:00</updated>
     <summary>GoogleがNotebookLMを「Gemini Notebook」に改称し、クラウド実行環境でコード実行に対応 / $100の予算でClaude Fable 5とGPT-5.6 Solに自律的にミュージックビデオを作らせる比較実験 / GPT-5.6のReact習熟度ベンチマークでモデルサイズに対して非単調な序列が判明 / CursorのAIエージェントへの「ブランチ整理」依頼でDドライブ全消失、AIエージェント全般の構造的リスクとして注目 / Claude Codeが残したビジーループプロセスがマシンを飽和させていた事例など、運用面の教訓記事が複数</summary>
-  </entry>
-  <entry>
-    <title>2026年7月16日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-16-news.html</id>
-    <updated>2026-07-16T00:00:00+09:00</updated>
-    <summary>Thinking Machines Lab（Mira Murati氏創業）が初の自社モデルとなるオープンウェイトモデル「Inkling」を公開 / AnthropicがBlackstoneらと組んだAI実装企業「Ode with Anthropic」の詳細が判明 / Future of Life Instituteの「AI Safety Index 2026年夏版」で主要9社中、最高評価でもC+と厳しい結果に / OpenAIがCodex向け230ドルのハードウェアキーボードを発表するなど、コーディングエージェント関連の動きが活発化</summary>
   </entry>
 </feed>
