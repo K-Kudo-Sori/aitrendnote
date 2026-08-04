@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-05",
+  "generatedAt": "2026/8/5 8:10:50",
+  "highlights": [
+    "AlibabaがQwen3.8-Maxを発表し、2.4兆パラメータでフロンティア級性能に迫る",
+    "AnthropicがVoltaと100億ドル規模のクラウド調達契約を締結",
+    "Nvidia主導のOpen Secure AI Alliance（OSAA）が発足1週間でセキュリティ情報共有の枠組みを始動",
+    "オープンウェイトモデルの性能向上とともに安全面のギャップが指摘される",
+    "EU AI Act第50条の透明性義務が8月2日に発効し、罰則付きで運用開始"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Alibaba Qwen Releases Qwen3.8-Max: A 2.4 Trillion Parameter MoE Model and the Most Capable One in the Qwen Family to Date",
+      "url": "https://siliconangle.com/2026/08/03/alibaba-debuts-qwen3-8-max-model-2-4t-parameters/",
+      "summary": "Alibabaが2.4兆パラメータ（推論時アクティブ950億）のMoEモデル「Qwen3.8-Max」を発表した。最大100万トークンのコンテキスト長に対応し、Frontend Code ArenaベンチマークではClaude Opus 5の最上位設定にわずか37点差まで迫った。今週中にオープンソース公開予定で、小型版「Qwen3.8-27B」も同時リリースされる。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic signs $10 billion deal with AI cloud startup Volta",
+      "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "summary": "Anthropicは、AIクラウドスタートアップのVoltaと6年間で100億ドル規模のクラウドコンピュート調達契約を締結した。Voltaはビットコイン採掘企業Bitdeerと協力し、ノルウェーに133メガワット規模のデータセンターを建設、Nvidiaの最新チップ「Vera Rubin」を導入してAnthropicの計算能力拡張を支える。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Nvidia doesn't mess around: A week after open AI industry group formed, it's already showing progress",
+      "url": "https://techcrunch.com/2026/08/04/nvidia-doesnt-mess-around-a-week-after-open-ai-industry-group-formed-its-already-showing-progress/",
+      "summary": "Nvidia主導で発足した業界団体Open Secure AI Alliance（OSAA）には既に120社以上が参加し、発足からわずか1週間で「Shared AI Findings Exchange（SAFE）」という作業部会を立ち上げた。AI関連サイバーインシデントの機密報告や被害者通知、原因分析の指針づくりを進めており、NvidiaのGarakやAmazonのStrands Agentsなどオープンソース技術の提供も進んでいる。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Open-weight AI models are catching up to the frontier. The safety gap remains.",
+      "url": "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+      "summary": "中国Z.aiのオープンウェイトモデル「GLM-5.2」がOpenAIやAnthropicのフロンティアモデルに能力面で接近しつつある。SaferAIの報告書によれば、GLM-5.2はサイバー・生物兵器関連のデュアルユース課題を一切拒否しなかった一方、Claude Opus 4.7は一貫して拒否したという。重みが公開されると事後的な安全対策が効かなくなるため、高性能なオープンウェイトモデルの制御リスクが懸念されている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple says more ex-employees may have taken confidential data to OpenAI",
+      "url": "https://techcrunch.com/2026/08/04/apple-says-more-ex-employees-may-have-taken-confidential-data-to-openai/",
+      "summary": "Appleは、OpenAIに対する営業秘密訴訟を拡大し、新たな裁判所提出書類でさらに11人の元従業員がAppleの未発表製品に関する機密情報の持ち出しに関与した可能性があると主張した。Appleは予備差止命令の発令を求めており、OpenAIは営業秘密の保有を否定して争っている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "EU AI Act: Transparency Obligations Take Effect 2 August 2026",
+      "url": "https://www.cooley.com/news/insight/2026/2026-08-03-eu-ai-act-transparency-obligations-take-effect-2-august-2026",
+      "summary": "EU AI Act第50条の透明性義務が2026年8月2日に発効し、AIチャットボットとの対話表示や合成音声・画像・動画・文章への機械可読な表示付与など四つの場面で開示・標識義務が課されるようになった。違反時は最大1500万ユーロまたは全世界年間売上高の3％の罰金が科され、EU市場向けにAIを提供・利用する世界中の事業者が対象となる。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-08-05-news"
+}

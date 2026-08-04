@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-05T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月5日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05-news.html</id>
+    <updated>2026-08-05T00:00:00+09:00</updated>
+    <summary>AlibabaがQwen3.8-Maxを発表し、2.4兆パラメータでフロンティア級性能に迫る / AnthropicがVoltaと100億ドル規模のクラウド調達契約を締結 / Nvidia主導のOpen Secure AI Alliance（OSAA）が発足1週間でセキュリティ情報共有の枠組みを始動 / オープンウェイトモデルの性能向上とともに安全面のギャップが指摘される / EU AI Act第50条の透明性義務が8月2日に発効し、罰則付きで運用開始</summary>
+  </entry>
+  <entry>
     <title>2026年8月5日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-18-news.html</id>
     <updated>2026-07-18T00:00:00+09:00</updated>
     <summary>Moonshot AIが2.7〜2.8兆パラメータのオープンウェイトモデル「Kimi K3」を発表、米国勢に肉薄 / NVIDIAが日本の製造・ロボティクス大手22社と組み、エッジ向け物理AIモデル「Cosmos 3 Edge」を発表 / Databricksが評価額1880億ドルに到達し、AI企業への転身を加速 / 習近平国家主席がWAIC上海で基調講演し「世界AI協力機構」の発足を宣言 / AppleがOpenAIを営業秘密の窃取で提訴した裁判の内容が明らかに、AppleはApple IntelligenceのAlibaba/Baidu連携で中国展開も承認</summary>
-  </entry>
-  <entry>
-    <title>2026年7月17日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-17-news.html</id>
-    <updated>2026-07-17T00:00:00+09:00</updated>
-    <summary>Moonshot AIが最大3兆パラメータの新モデル「Kimi K3」を近日公開、Anthropic Opus 4.8に匹敵する性能を主張 / Appleの生成AI機能「Apple Intelligence」が中国当局の承認を取得、AlibabaのQwenと連携 / Google DeepMindのハサビスCEOが提唱する米国主導のフロンティアAI標準化団体構想に、Sam AltmanやSatya Nadellaも賛同 / 日本でソフトバンク・ソニー・ホンダなど44社が「フィジカルAI」基盤企業連合を発足、政府も1兆円規模で支援 / MicrosoftがAI活用で過去最多570件の脆弱性を修…</summary>
   </entry>
 </feed>
