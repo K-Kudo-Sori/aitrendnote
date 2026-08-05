@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-05T00:00:00+09:00</updated>
+  <updated>2026-08-06T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月6日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06.html</id>
+    <updated>2026-08-06T00:00:00+09:00</updated>
+    <summary>Google DeepMindでHassabis氏がChairに退き、Jeff Dean氏が27年務めたGoogleを離れる組織再編が発表された。 / 4BパラメータのオープンモデルをRLでポストトレーニングし、GPT-5.6 Solに匹敵する検索精度を100分の1のコストで実現する事例が登場。 / Claude Codeなど生成AI開発ツールに関する実践知（プロンプトのTDD的検証、無駄可視化ツール、AIフレンドリーなCLI設計）が日本語圏で相次いで発信された。 / 国産AI基盤プロジェクト「FRONTia」が対話型AIではなくフィジカルAIで勝負する戦略を打ち出した。</summary>
+  </entry>
   <entry>
     <title>2026年8月5日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19.html</id>
     <updated>2026-07-19T00:00:00+09:00</updated>
     <summary>Claude CodeのAgent Skill/プラグイン活用（敵対的検証・プラグイン3選・自然な日本語Skill）の記事が目立つ / AIエージェントにDBやSQLを安全に触らせるための設計（MCPサーバー、権限承認、監査ログ）が複数記事で共通テーマに / Fable 5とGPT-5.6の性能比較や、オープンLLMをLambdaで動かす検証など、モデル・インフラ寄りの実測記事も充実 / Docker SandboxesやMicroVMなど、AIエージェント実行環境のセキュリティ境界に関する実践入門が登場</summary>
-  </entry>
-  <entry>
-    <title>2026年7月18日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-18-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-18-news.html</id>
-    <updated>2026-07-18T00:00:00+09:00</updated>
-    <summary>Moonshot AIが2.7〜2.8兆パラメータのオープンウェイトモデル「Kimi K3」を発表、米国勢に肉薄 / NVIDIAが日本の製造・ロボティクス大手22社と組み、エッジ向け物理AIモデル「Cosmos 3 Edge」を発表 / Databricksが評価額1880億ドルに到達し、AI企業への転身を加速 / 習近平国家主席がWAIC上海で基調講演し「世界AI協力機構」の発足を宣言 / AppleがOpenAIを営業秘密の窃取で提訴した裁判の内容が明らかに、AppleはApple IntelligenceのAlibaba/Baidu連携で中国展開も承認</summary>
   </entry>
 </feed>
