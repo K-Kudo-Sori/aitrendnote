@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-06T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月6日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06-news.html</id>
+    <updated>2026-08-06T00:00:00+09:00</updated>
+    <summary>Anthropicが独自AIチップ設計チームの採用を開始、インフラ自給への布石 / MetaがClaude Code/Codexに対抗する新エージェント「Muse Code」を投入 / Google の重鎮 Jeff Dean が退社しAI創薬・科学研究スタートアップ「Discovery Loop」を設立 / Alibabaが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、来週オープンウェイト公開予定 / EUでAI Actの透明性義務が8月2日に発効、AI生成コンテンツのラベル表示が必須に</summary>
+  </entry>
+  <entry>
     <title>2026年8月6日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19-news.html</id>
     <updated>2026-07-19T00:00:00+09:00</updated>
     <summary>中国Moonshot AIが2.8兆パラメータの世界最大オープンソースモデル「Kimi K3」を発表し、米国勢との性能差が急速に縮小 / AnthropicがBlackstone等と15億ドル規模のAI実装企業「Ode with Anthropic」を設立し、モデルではなく導入支援を次の主戦場に / 習近平国家主席が上海の世界AI会議で初の基調演説を行い、AIのグローバルな協調体制構築を提唱 / Thinking Machines Labが初のオープンウェイトモデル「Inkling」を公開し、汎用モデルへの対抗戦略を実証 / MCP（Model Context Protocol）が7月28日…</summary>
-  </entry>
-  <entry>
-    <title>2026年7月19日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19.html</id>
-    <updated>2026-07-19T00:00:00+09:00</updated>
-    <summary>Claude CodeのAgent Skill/プラグイン活用（敵対的検証・プラグイン3選・自然な日本語Skill）の記事が目立つ / AIエージェントにDBやSQLを安全に触らせるための設計（MCPサーバー、権限承認、監査ログ）が複数記事で共通テーマに / Fable 5とGPT-5.6の性能比較や、オープンLLMをLambdaで動かす検証など、モデル・インフラ寄りの実測記事も充実 / Docker SandboxesやMicroVMなど、AIエージェント実行環境のセキュリティ境界に関する実践入門が登場</summary>
   </entry>
 </feed>

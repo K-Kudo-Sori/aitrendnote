@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-06",
+  "generatedAt": "2026/8/6 8:11:10",
+  "highlights": [
+    "Anthropicが独自AIチップ設計チームの採用を開始、インフラ自給への布石",
+    "MetaがClaude Code/Codexに対抗する新エージェント「Muse Code」を投入",
+    "Google の重鎮 Jeff Dean が退社しAI創薬・科学研究スタートアップ「Discovery Loop」を設立",
+    "Alibabaが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、来週オープンウェイト公開予定",
+    "EUでAI Actの透明性義務が8月2日に発効、AI生成コンテンツのラベル表示が必須に"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、AIチップ設計チームを採用中",
+      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/",
+      "summary": "AnthropicがClaudeの高速化・効率化を目的に、独自のカスタムAIチップを設計する専門チームの採用を進めていることが分かった。これまでAWS・Google・Nvidia・AMDとのハードウェア契約に依存してきたが、需要拡大を受けOpenAIやGoogle DeepMind、Metaと同様に自社チップ開発へ舵を切る。先月にはSamsungとの製造パートナーシップ交渉も報じられていた。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、大規模コードベース向けAIエージェント「Muse Code」を発表",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "summary": "Metaがベータ版のターミナルコーディングエージェントMuse Codeを公開した。計画立案からコード作成、検証までを担い、大規模プロジェクトでは複数のサブエージェントが独立したworktreeで並列作業する。既存のコーディングモデルMuse Sparkを基盤とし、コスト効率の高さを武器にOpenAIのCodexやAnthropicのClaude Codeに対抗する狙いだ。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Jeff Dean氏らGoogleのトップ研究者が退社、新AIスタートアップを設立",
+      "url": "https://techcrunch.com/2026/08/05/jeff-dean-and-other-top-ai-researchers-are-leaving-google-to-launch-their-own-startup/",
+      "summary": "Google在籍27年で同社30番目の社員だったJeff Dean氏が、Sanjay Ghemawat氏、Quoc Le氏、Oriol Vinyals氏らとともにGoogleを退社し、科学研究の実験ループをAIで自動化する公益法人「Discovery Loop」を設立した。Radical VenturesとKhosla Venturesが資金調達を主導し、Alphabetも支援している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "MacPaw、Liquid AIと提携しオンデバイス推論を開発者向けに提供へ",
+      "url": "https://techcrunch.com/2026/08/05/macpaw-taps-liquid-ai-to-offer-on-device-inference-to-devs-building-for-its-app-store/",
+      "summary": "ウクライナ拠点のアプリ開発企業MacPawがLiquid AIと提携し、AIアシスタント「Eney」のローカルホスト版と、オンデバイス推論・ローカルメモリ基盤「Elix」を開発する。将来的にはこの技術スタックを、15万人以上の有料ユーザーを抱える自社アプリストアSetAppの開発者向けにも提供する計画。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Alibaba、2.4兆パラメータの新モデル「Qwen3.8-Max」を発表",
+      "url": "https://news.cgtn.com/news/2026-08-03/Alibaba-unveils-Qwen3-8-Max-its-most-capable-AI-model-to-date-1Pj3AAwmjPa/p.html",
+      "summary": "Alibabaが自社最大・最高性能となる新モデルQwen3.8-Maxを発表した。総パラメータ数2.4兆（有効95億）のスパースMoE構成で、最大100万トークンのコンテキストと画像・動画を含むマルチモーダル理解に対応する。API価格はClaude Opus 5の入力で約40%、出力で約24%に抑え、モデルの重みは来週オープンソースで公開予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "EU、AI Actの透明性義務を8月2日付で施行開始",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august",
+      "summary": "欧州委員会は2026年8月2日より、AI Actに基づく透明性義務の施行を開始した。チャットボット等の対話型AIはAIとの対話であることの告知が、ディープフェイクやAI生成・改変コンテンツには機械可読マークとラベル表示が義務付けられる。違反時には最大1500万ユーロまたは世界年間売上高の3%の制裁金が科される。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-08-06-news"
+}
