@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026/8/7 8:11:06",
+  "highlights": [
+    "Google DeepMindでハサビスCEOとディーン氏のチーフサイエンティストが同時退任する大型人事刷新",
+    "Metaがターミナル型コーディングエージェント「Muse Code」を発表しClaude Code/Codexと競合",
+    "ホワイトハウスがフロンティアAIモデルの事前審査枠組みを非公開のまま最終化",
+    "秋田市でUAE投資による2兆円規模の国内最大級AIデータセンター計画が浮上",
+    "OpenAIがアップルの営業秘密訴訟の却下を裁判所に申し立て"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "グーグルディープマインド、ハサビスCEOが退任しチーフサイエンティストへ ディーン氏も退社",
+      "url": "https://the-decoder.com/google-deepmind-loses-both-its-ceo-and-chief-scientist-as-demis-hassabis-and-jeff-dean-step-down-simultaneously/",
+      "summary": "Google DeepMindのデミス・ハサビスCEOが日常業務の指揮から退き、Alphabetのチーフサイエンティストに就任する。同時にチーフサイエンティストのジェフ・ディーン氏も27年在籍したGoogleを離れ、新会社Discovery Loopを設立する。日々の運営はCTOだったコレイ・カヴクチュオール氏がSVPとして引き継ぎ、サンダー・ピチャイCEOに直接報告する体制になる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、アップルの営業秘密訴訟について却下を裁判所に申し立て",
+      "url": "https://techcrunch.com/2026/08/06/openai-says-apples-own-security-practices-undermine-its-trade-secrets-case/",
+      "summary": "OpenAIは、アップルが提起した営業秘密の窃取を巡る訴訟について、連邦判事に却下を求める申立てを行った。OpenAI側は、アップル自身が私用iCloudの業務利用を容認し退職者のアクセス権を失効させていなかった点を指摘し、セキュリティ管理の不備がむしろアップル側の主張を弱めていると反論している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、ターミナル型コーディングエージェント「Muse Code」を発表",
+      "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+      "summary": "Metaは大規模なコードベースでの開発作業を支援するターミナル型コーディングエージェント「Muse Code」のベータ版を発表した。自社モデル「Muse Spark」を基盤とし、コーディングや計画立案、検証までを一貫して行える。macOSとLinuxで利用可能で、Anthropic「Claude Code」やOpenAI「Codex」と価格面で差別化を図る狙いがある。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "ホワイトハウス、フロンティアAIモデルの事前審査枠組みを非公開のまま最終化",
+      "url": "https://fortune.com/2026/08/04/baffling-white-house-wont-publicly-release-ai-model-evaluation-framework-it-reviewed-today-with-openai-anthropic-microsoft-and-others/",
+      "summary": "ホワイトハウスは、フロンティアAIモデルを公開前に政府へ提出させる評価枠組みを最終化し、OpenAI・Anthropic・Google・Meta・Microsoft・Nvidiaなど主要企業に説明した。企業が任意で最大30日間モデルを提出する仕組みだが、枠組みの詳細は一般公開されず、参加企業のみに共有される。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "秋田市に国内最大級のAIデータセンター計画、建設費2兆円規模でUAEが投資協議",
+      "url": "https://www.nikkei.com/article/DGXZQOCC138LW0T10C26A7000000/",
+      "summary": "秋田市に日本最大級のAI向けデータセンターを建設する計画が進んでおり、整備費は2兆円規模に上る見通し。UAE政府系ファンドなどが投資する方向で協議しており、2030年代早期の稼働を目指す。秋田県が持つ風力発電などの再生可能エネルギーの優位性を生かした立地となる。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-08-07-news"
+}

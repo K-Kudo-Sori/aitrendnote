@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-07T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月7日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07-news.html</id>
+    <updated>2026-08-07T00:00:00+09:00</updated>
+    <summary>Google DeepMindでハサビスCEOとディーン氏のチーフサイエンティストが同時退任する大型人事刷新 / Metaがターミナル型コーディングエージェント「Muse Code」を発表しClaude Code/Codexと競合 / ホワイトハウスがフロンティアAIモデルの事前審査枠組みを非公開のまま最終化 / 秋田市でUAE投資による2兆円規模の国内最大級AIデータセンター計画が浮上 / OpenAIがアップルの営業秘密訴訟の却下を裁判所に申し立て</summary>
+  </entry>
+  <entry>
     <title>2026年8月7日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21.html</id>
     <updated>2026-07-21T00:00:00+09:00</updated>
     <summary>中国勢のオープンウェイトモデル（Kimi K3, Qwen 3.8）が欧米フロンティアモデルに急速に追いつき、AI業界の競争構造に影響 / AIエージェントによる脆弱性発見やコード生成の実務活用が加速する一方、著作権・責任の所在といったガバナンス論点も顕在化 / Claude Code関連では「敵対的検証」プロンプトやプラグイン活用など、開発生産性を高める実践的ノウハウの共有が引き続き活発</summary>
-  </entry>
-  <entry>
-    <title>2026年7月20日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-20.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-20.html</id>
-    <updated>2026-07-20T00:00:00+09:00</updated>
-    <summary>Claude Code v2.1.181以降でRust版Bunが使われていることが判明 / 「レビューして」より「敵対的検証して」が効くという実践知見 / AIエージェント向けサンドボックス（Docker Sandboxes / smolagentsのタイムアウト問題）に注目</summary>
   </entry>
 </feed>
