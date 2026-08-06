@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-07",
+  "generatedAt": "2026/8/7 7:05:14",
+  "highlights": [
+    "AIエージェントへのコマンド承認をめぐる人間側のミス率調査など、エージェントの安全運用に関する話題が目立った",
+    "Claude Code や Microsoft Agent Framework など、エージェント／ハーネス設計に関する実践記事が複数",
+    "AIに業務知識をどう渡すか（RAG・オントロジー）というコンテキスト設計の話題が国内外で共通して見られた",
+    "推論能力の限界（Abduction）を扱う研究紹介など、LLMの能力を冷静に見る記事も"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Qwen3.8 Max now ranked as the best overall model by agentic index",
+      "url": "https://artificialanalysis.ai/?intelligence=agentic-index",
+      "summary": "AIモデルの独立評価サイト Artificial Analysis のトップページで、Intelligence Index が v4.1.1 に更新され、Qwen3.8 Max がエージェント指標（Agentic Index）で総合トップにランクされたことが紹介されている。GDPval-AA v2 や Terminal-Bench v2.1 など9種類の評価を統合した指標で、595モデル中26モデルが新規追加された。あわせて、提供元のエンドポイントが参照モデルと同じ品質を提供しているかを測る Endpoint Accuracy Index も新設された。直近の更新履歴には Claude Opus 5 やDeepSeek V4 Flash など主要モデルの評価も並んでいる。",
+      "category": "model",
+      "points": 330,
+      "comments": 204,
+      "author": "apitman"
+    },
+    {
+      "source": "hackernews",
+      "title": "GitHub Actions and Pages are experiencing degraded availability",
+      "url": "https://www.githubstatus.com/incidents/qcvjkzcs7j74",
+      "summary": "GitHub Status に掲載された障害情報で、GitHub Actions と GitHub Pages の可用性が低下していることが報告されている。ページの大部分は通知登録用のメールアドレス・電話番号入力フォームで構成されており、インシデントの詳細な原因や復旧見込みについての具体的な記述は本文からは確認できない。CI/CD やページ公開に依存する開発者にとっては、ビルドやデプロイが一時的に遅延・失敗する可能性がある点に注意が必要な内容。",
+      "category": "infra",
+      "points": 253,
+      "comments": 207,
+      "author": "Footkerchief"
+    },
+    {
+      "source": "hackernews",
+      "title": "Humans missed 1 in 3 threats approving AI agent commands across 40k game runs",
+      "url": "https://scalex.dev/blog/ai-agent-permissions-stats/",
+      "summary": "AIコーディングエージェントが実行するコマンドを人間が承認/拒否する体験型ゲームの統計分析で、4万セッション・40万件超の判断データをもとに人間側の見落とし傾向を分析している。平均正答率は66.3%で、明らかに破壊的なコマンド（rm -rf など）は見逃されにくい一方、認証情報の窃取や外部送信（exfiltration）を伴う攻撃は3倍近く見逃されやすいと報告。特に npm run analyze のような一見無害に見えるスクリプト名の裏に悪意あるコードが仕込まれるケースは、履歴ログに内容が表示されていても約65%が承認されてしまうという結果が出ており、「特定コマンドを都度承認する」モデル自体の限界が指摘されている。",
+      "category": "security",
+      "points": 224,
+      "comments": 178,
+      "author": "Wirbelwind"
+    },
+    {
+      "source": "hackernews",
+      "title": "Improving GPT‑5.6 Sol in ChatGPT, expanding GPT‑5.6 Luna access for free users",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+      "summary": "本文取得失敗。",
+      "category": "model",
+      "points": 94,
+      "comments": 75,
+      "author": "tedsanders"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: The Channels SDK – Bring Any Agent to Any Channel (Slack, MS Teams)",
+      "url": "https://github.com/CopilotKit/channels-sdk",
+      "summary": "CopilotKit が公開した Channels SDK は、AG-UI 互換のAIエージェントを Slack や Microsoft Teams など既存のコミュニケーションツール上でネイティブに動作させるためのSDK。LangGraph・CrewAI・Mastra・Pydantic AI・Google ADK など様々なフレームワークで作られたエージェントを接続でき、メッセージをSlackのBlock KitやTeamsのAdaptive Cardsとしてプラットフォーム固有のUIで表示できる。ツール実行前に人間の承認ゲートをチャット内に組み込む機能もあり、コーディングエージェント自身にセットアップ作業を任せる導入フローが用意されている。",
+      "category": "agent",
+      "points": 75,
+      "comments": 19,
+      "author": "davidmckayv"
+    },
+    {
+      "source": "zenn",
+      "title": "【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理",
+      "url": "https://zenn.dev/knowledgesense/articles/7c1a8f7720b119",
+      "summary": "AI半導体ベンチャー Cerebras が公開した社内ナレッジ検索基盤の技術ブログを日本語で解説した記事。専用ベクトルDBを使わずPostgreSQL一本（GINインデックス＋pgvector）で構築し、1日15,000件以上の質問に対応している点が特徴。Slackスレッドをそのままベクトル化せずLLMで構造化してから格納する工夫や、キーワード検索・ベクトル検索・IDF・鮮度の4手法をRRFで統合するハイブリッド検索、MCP経由では「検索の部品」だけをツールとして公開しエージェント側に組み立てを任せる設計など、実運用に基づく工夫が紹介されている。一方で部署ごとのアクセス権限管理が最大の課題として指摘されている。",
+      "category": "agent",
+      "points": 129,
+      "author": "Atsushi Kadowaki"
+    },
+    {
+      "source": "zenn",
+      "title": "gpt-5.6-sol の high に「ウルトラ」と入力して「ソウル」と話させる技術",
+      "url": "https://zenn.dev/microsoft/articles/agent-framework-ultra-soul",
+      "summary": "「ウルトラ」と入力すると「ソウル」と返すよう GPT-5.6 Sol（reasoning effort high）を仕向けるというネタ企画を、Microsoft Agent Framework（C#/.NET）のHarnessAgentを使って実現する記事。Instructionsで直接指示する方法や、ユーザー意図を推測するツールをエージェントに与える方法など、複数の「不正」手段を段階的に試しながら Agent Framework の Instructions・Tools・Reasoning Effort設定の使い方を実践的に解説している。ネタ記事としながらも Agent Framework のハーネス構築手順の実例として参考になる内容になっている。",
+      "category": "agent",
+      "points": 52,
+      "author": "Kazuki Ota"
+    },
+    {
+      "source": "zenn",
+      "title": "AI フレンドリーな CLI を開発するテクニック",
+      "url": "https://zenn.dev/shunsuke_suzuki/articles/make-cli-ai-friendly",
+      "summary": "OSSのCLIツール開発者が、AIコーディングエージェントがWeb Fetchに頼らずツールの仕様を正しく理解できるようにするための設計手法を紹介している。CLIのヘルプメッセージやエラーログにエージェント向けの案内文を仕込む、ドキュメントをtopicごとに分割しYAML Frontmatterでdescriptionを付ける、`docs list`/`docs show`のようなサブコマンドでエージェントが自律的にドキュメントへアクセスできるようにする、といった工夫が具体例とともに解説されている。人間が読み飛ばすような詳細ログでもエージェントは読み込む点を踏まえ、ログの充実がより重要になっているという指摘もある。",
+      "category": "devtool",
+      "points": 124,
+      "author": "Shunsuke Suzuki"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code の「無駄」を可視化するツール cclens を作った",
+      "url": "https://zenn.dev/lambdalisue/articles/introduce-cclens",
+      "summary": "Claude Codeの設定（CLAUDE.mdやスキルなど）が実際に効果を発揮しているかを、日常のセッションログを解析するだけで可視化するRust製ツール「cclens」が紹介されている。一度も呼ばれていない設定や高コストで稀にしか使われない設定、繰り返し失敗するツール、Claudeが編集を繰り返して行き詰まっているファイルなどをランキング表示する`waste`や、常時オンで消費されるコンテキスト量を可視化する`overhead`など複数のビューを提供し、追加の計測コストをかけずに設定の棚卸しができる点が特徴。全処理はローカルで完結し、外部にデータを送信しない設計になっている。",
+      "category": "devtool",
+      "points": 61,
+      "author": "Alisue"
+    },
+    {
+      "source": "zenn",
+      "title": "オントロジーで AI に業務知識を渡す — AWS の OSS「Context Ontology Accelerator」を試してみた",
+      "url": "https://zenn.dev/aws_japan/articles/context-ontology-accelerator-deploy",
+      "summary": "AWSのソリューションアーキテクトが、業務の意味（用語・関係・ルール）を機械可読な形でAIに渡すためのAWS製OSS「Context Ontology Accelerator（COA）」を実際にデプロイして検証した記事。Text-to-SQLの精度が学術ベンチマークSpider 1.0では9割超でも実企業データを模したSpider 2.0では2割程度まで落ちる例を挙げ、原因がモデルの賢さではなく渡す情報側（スキーマのグラウンディング）にあると説明。COAはSQL生成だけでなく、論理的整合性の検証やSHACL制約の検証、FIBO/Schema.orgへのグラウンディング、MCP経由でのコンテキスト提供など、オントロジー本来の多様な用途に対応している点が紹介されている。",
+      "category": "research",
+      "points": 64,
+      "author": "いなりく / Riku Inada"
+    },
+    {
+      "source": "devto",
+      "title": "I Recreated Management With AI: 9 Things I Do Differently",
+      "url": "https://dev.to/anchildress1/i-recreated-management-with-ai-9-things-i-do-differently-3j8g",
+      "summary": "個人開発者が、Codex・ChatGPT・Claude Code・Cowork・Geminiなど複数のAIツールを並行運用する中で、自分自身がコード実行役から「マネジメント役」に変わっていったと振り返る記事。AIが書いたコードをAI自身にレビューさせ、そのレビューをさらに実ブランチと突き合わせて検証し、問題点を次のAIへのルールとして記録する運用フローを構築し、人間によるコードレビューはほぼ廃止したと述べている。個人プロジェクトでの取り組みではあるが、複数のゲームジャムやコンテストで受賞した実績も紹介されている。",
+      "category": "agent",
+      "points": 10,
+      "comments": 3,
+      "author": "Ashley Childress",
+      "tags": [
+        "discuss",
+        "ai",
+        "writing",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Spent a Day With Kiro Crew. Here's What It Actually Does.",
+      "url": "https://dev.to/aws-builders/i-spent-a-day-with-kiro-crew-heres-what-it-actually-does-fk0",
+      "summary": "オープンソースのAIエージェントオーケストレーター「Kiro Crew」を実際のDevOpsプロジェクトで検証した記事。決済サービスのレイテンシ急増という架空の障害アラートを与えたところ、7つの診断ステップを並列実行し、33秒でgitの最近のデプロイ履歴・cronジョブ・システムリソースを相関させて「pg-pool更新に伴うDB接続プールの誤設定」という根本原因の仮説を提示した。さらに平日朝の定期ヘルスチェックジョブを自動生成させたり、障害対応で得た知見をチームの恒久的なナレッジとして保存させたりする活用例も紹介されている。",
+      "category": "agent",
+      "points": 12,
+      "comments": 1,
+      "author": "Sarvar Nadaf",
+      "tags": [
+        "agents",
+        "ai",
+        "showdev",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "My First Paying Customer Failed 4 Times: Quality Is Not a Final Check",
+      "url": "https://dev.to/woshiliyana/my-first-paying-customer-failed-4-times-quality-is-not-a-final-check-52l0",
+      "summary": "字幕生成サービスの開発者が、最初の有料顧客の案件が4回連続で失敗した原因を分析したポストモーテム記事。ブラウザ側で秒単位に丸めた動画の長さと、実測処理を行うワーカー側の正確な長さという「二つの真実」が0.3秒ずれていたため、生成した字幕キューが検証ゲートで常に境界超過として弾かれていたことが判明した。原因は品質ゲート自体の不具合ではなく、どのデータを信頼できる唯一の情報源とするかという製品設計上の意思決定が欠けていたことにあると結論づけ、品質は最終チェックではなく入力境界の設計そのものだと主張している。",
+      "category": "product",
+      "points": 4,
+      "comments": 1,
+      "author": "Yana Li",
+      "tags": [
+        "postmortem",
+        "startup",
+        "product",
+        "abotwrotethis"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The expensive failure is an agent re-implementing something your team already killed",
+      "url": "https://dev.to/masondelan/the-expensive-failure-is-an-agent-re-implementing-something-your-team-already-killed-51an",
+      "summary": "AIコーディングエージェントが、過去にチームが一度導入し撤回した設計（例: 長期有効な認証トークンのDBカラム）を、当時の議論の文脈を知らないまま数か月後に再び実装しようとしてしまう「高コストな失敗」を扱った記事。開発者は`prior_attempts`という、変更時点でエージェント自身が書いた却下理由を追記専用で永続化するツールを紹介し、過去のセッションで既に棄却された設計判断をエージェントが検索・参照できる仕組みの重要性を論じている。事後的に別のLLMが差分から理由を推測する方式や、却下済み判断を同期時に消してしまう既存ツールとの違いにも触れている。",
+      "category": "agent",
+      "points": 1,
+      "comments": 2,
+      "author": "Mason Delan",
+      "tags": [
+        "ai",
+        "claudecode",
+        "mcp",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I rewrote the same detector three times in one day. Each fix introduced a new way of being wrong.",
+      "url": "https://dev.to/visibilityatlas/i-rewrote-the-same-detector-three-times-in-one-day-each-fix-introduced-a-new-way-of-being-wrong-378e",
+      "summary": "LLMが企業の「公式サイト」として実在しないドメインを捏造する現象を検出するツールを1日で3回書き直した経緯を紹介する記事。1版目はエンジン間の回答の食い違いだけを検出条件にしたため複数エンジンが同じ誤りに合意する危険なケースを見逃し、2版目は「official」という単語の近くにあるURLを機械的に検出した結果、実際にはLLMが偽サイトを警告している文脈まで誤検出（134件中ほとんどが誤検知）してしまった。3版目で断定・警告・否定の3状態を区別する改良を加えたがまだ不完全で、著者は「同じバグが形を変えて3回現れた」と振り返り、検出ロジックの検証には出力全体を見る重要性を強調している。",
+      "category": "research",
+      "points": 1,
+      "comments": 1,
+      "author": "VisibilityAtlas",
+      "tags": [
+        "llm",
+        "testing",
+        "debugging",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "ずぼらAI駆動開発、爆誕",
+      "url": "https://qiita.com/nobu34/items/224f55bc85b813930f61",
+      "summary": "自分でCLAUDE.mdやスキルをゼロから作る代わりに、Awesome GitHub Copilotやskills.shなど公開済みのスキルを取り込んで自分用に調整する「ずぼらな」Claude Code運用を紹介する記事。導入したスキルが英語で書かれていたためClaude Codeの出力まで英語に引っ張られる問題が発生し、settings.jsonで会話全体の言語を日本語に固定したが、コミットメッセージのフォーマットなどスキル固有のルールまでは上書きされず、最終的にCLAUDE.mdにスキルのルールを日本語で上書きする運用に落ち着いたという体験談。配布スキルにはプロンプトインジェクションのリスクもあるため導入前に中身を確認すべきという注意喚起もある。",
+      "category": "devtool",
+      "author": "nobu34"
+    },
+    {
+      "source": "qiita",
+      "title": "AI僧侶ロボット「ブッダロイド」が見せた、\"代行\"というフィジカルAIの伸びしろ",
+      "url": "https://qiita.com/sumomoo/items/a5c8d7625488a57c2303",
+      "summary": "京都大学熊谷ラボなどが開発した、仏教特化AI「ブッダボット」を人型ロボット「Unitree G1」に搭載した「ブッダロイド」を紹介する記事。経典を学習した対話AIが相談者の悩みに答えつつ合掌やお辞儀などの動作も行い、将来的には僧侶の宗教儀礼の一部を補助・代行することも期待されているという。著者はこれを自動運転タクシーなど既存の「AIによる代行サービス」の延長線上に位置づけ、手順と正解が決まっている身体を伴う役務は今後さらにAIに代替されうる領域として展望している。",
+      "category": "product",
+      "author": "sumomoo"
+    },
+    {
+      "source": "qiita",
+      "title": "AI が原因を当てても、「思いついた」わけじゃない —— 推論の3分類で見分ける",
+      "url": "https://qiita.com/jqit_suwa/items/aefb1adac27a34646cf3",
+      "summary": "Google DeepMindの論文「LLMs can't jump」（ICML 2026採択）を基に、パースの推論分類（Deduction・Induction・Abduction）を使ってAIのバグ原因特定能力を検討する記事。LLMはコードを実行して確かめるDeductionや、入出力からルールを推定するInductionは得意な一方、結果から原因を作り出すAbductionには構造的に対応する仕組みがないと論文は主張しており、AIがバグの原因を「当てた」ように見えても実際は類似パターンを学習データで見たことがあるだけ（Induction）の可能性があると指摘する。当たっていても外れていても同じ自信ありげな口調で返ってくるため、答えの根拠を鵜呑みにせず自分で確認することの重要性を説いている。",
+      "category": "research",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "プロンプトの次は何を学べばいい？ AIとの付き合い方を4段階で整理する",
+      "url": "https://qiita.com/jqit_suwa/items/cb785917d2661858f7b7",
+      "summary": "AI活用にまつわる「〇〇エンジニアリング」という用語の乱立を、プロンプト・コンテキスト・ハーネス・ループという入れ子の4層構造として整理した記事。プロンプトは1回の指示の書き方、コンテキストはAIに渡す情報の設計、ハーネスはAIに与える手足と守らせる枠組み（本番DBに触らせない、承認を挟むなど「お願い」ではなく仕組みで縛る）、ループはHITL（人間が都度承認）とHOTL（人間は監視のみ）を使い分けながら繰り返し処理を自動化する層と位置づけている。著者自身の記事執筆ワークフローを例に、数分単位のループはAIに任せつつ「何を書くべきか」を決める外側のループは人間が回すべきだと述べている。",
+      "category": "agent",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "「試してみよう」が毎回「後回し」になるのは怠惰ではなく、情報渋滞のせい【AI時代の弊害】",
+      "url": "https://qiita.com/sumomoo/items/d5cb8ed4935a8df88811",
+      "summary": "Codex・Claude Code・GitHub Copilot・Cursorなど次々に登場するAIツールを「試したいのに試せない」現象を、心理学の「意図と行動のギャップ」や行動経済学の知見（米国の確定拠出年金の自動加入化で参加率が倍増した事例）を引いて分析する記事。原因は意志の弱さではなく、比較検討という下調べの手間が心理的ブレーキになることと、選択肢の増加ペース自体がAI時代に異常に速くなっていることにあると論じ、「全部比較してから選ぶ」のではなく「今週はこれ一つだけ5分だけ試す」といった対象を絞った小さな一歩を提案している。",
+      "category": "other",
+      "author": "sumomoo"
+    }
+  ]
+}

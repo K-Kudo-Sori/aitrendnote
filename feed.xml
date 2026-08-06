@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-06T00:00:00+09:00</updated>
+  <updated>2026-08-07T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月7日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07.html</id>
+    <updated>2026-08-07T00:00:00+09:00</updated>
+    <summary>AIエージェントへのコマンド承認をめぐる人間側のミス率調査など、エージェントの安全運用に関する話題が目立った / Claude Code や Microsoft Agent Framework など、エージェント／ハーネス設計に関する実践記事が複数 / AIに業務知識をどう渡すか（RAG・オントロジー）というコンテキスト設計の話題が国内外で共通して見られた / 推論能力の限界（Abduction）を扱う研究紹介など、LLMの能力を冷静に見る記事も</summary>
+  </entry>
   <entry>
     <title>2026年8月6日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-20.html</id>
     <updated>2026-07-20T00:00:00+09:00</updated>
     <summary>Claude Code v2.1.181以降でRust版Bunが使われていることが判明 / 「レビューして」より「敵対的検証して」が効くという実践知見 / AIエージェント向けサンドボックス（Docker Sandboxes / smolagentsのタイムアウト問題）に注目</summary>
-  </entry>
-  <entry>
-    <title>2026年7月19日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-19-news.html</id>
-    <updated>2026-07-19T00:00:00+09:00</updated>
-    <summary>中国Moonshot AIが2.8兆パラメータの世界最大オープンソースモデル「Kimi K3」を発表し、米国勢との性能差が急速に縮小 / AnthropicがBlackstone等と15億ドル規模のAI実装企業「Ode with Anthropic」を設立し、モデルではなく導入支援を次の主戦場に / 習近平国家主席が上海の世界AI会議で初の基調演説を行い、AIのグローバルな協調体制構築を提唱 / Thinking Machines Labが初のオープンウェイトモデル「Inkling」を公開し、汎用モデルへの対抗戦略を実証 / MCP（Model Context Protocol）が7月28日…</summary>
   </entry>
 </feed>
