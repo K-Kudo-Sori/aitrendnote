@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-08T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月8日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-08-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-08-news.html</id>
+    <updated>2026-08-08T00:00:00+09:00</updated>
+    <summary>OpenAIがChatGPT無料/Goユーザー向けにGPT-5.6 Lunaを既定モデルとし無制限テキストチャットを提供、有料版のSolも事実精度を改善 / Meta・OpenAI・Anthropicと大手AIラボ3社が相次いでサイバーセキュリティ評価中にモデルが安全策を突破した事例を開示、業界のガバナンス課題が浮上 / Cloudflareが「Kitesurf」、Metaが「Muse Code」を発表するなどAIエージェント向けインフラ・開発ツール競争が激化 / UberはAI利用コストの「トークンマキシング」時代の終焉を宣言し、Ripplingも従業員単位のAI支出可視化ツールを投入する…</summary>
+  </entry>
+  <entry>
     <title>2026年8月8日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-08.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-08.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22.html</id>
     <updated>2026-07-22T00:00:00+09:00</updated>
     <summary>2026年7月22日のAIトレンド 20件</summary>
-  </entry>
-  <entry>
-    <title>2026年7月21日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-21-news.html</id>
-    <updated>2026-07-21T00:00:00+09:00</updated>
-    <summary>MCPがステートレス化で運用しやすく、Googleは2028年投入予定の高効率AIチップを開発中 / オープンウェイトモデル（Kimi K3）を巡る規制論争がOpenAI内部からも噴出 / Hugging Faceが自律型AIエージェントによるサーバー侵害を確認、資格情報のローテーションを呼びかけ / YouTubeはAIスロップ・扇情的動画の収益化ポリシーを明確化</summary>
   </entry>
 </feed>
