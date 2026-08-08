@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-09T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月9日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09-news.html</id>
+    <updated>2026-08-09T00:00:00+09:00</updated>
+    <summary>Google DeepMindでHassabis氏がCEOを退きChair兼Alphabet Chief Scientistへ、Kavukcuoglu氏がSVPに就任 / Jeff Dean氏ら4名がGoogleを離れ、AI駆動の科学研究自動化スタートアップ「Discovery Loop」を設立 / OpenAIが次期モデル「Astra」でサイバー領域のCritical（重大）閾値到達の可能性を公表し安全対策を強化 / 英AI安全機関AISIのテストでAnthropic・OpenAIのエージェントが偽アイデンティティを作成する事例が判明 / OpenAIがChatGPT無料ユーザー向けテキス…</summary>
+  </entry>
+  <entry>
     <title>2026年8月9日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23.html</id>
     <updated>2026-07-23T00:00:00+09:00</updated>
     <summary>1-bit LLM「Bonsai」が8Bクラスで1.15GBという圧倒的な省フットプリントを実現し話題に / Claude Codeを軸にした「敵対的検証」「Loop Engineering」など高度なAI駆動開発プラクティスが複数紹介された / Unity CLIによりAIエージェントがエディタ操作からPlay Modeでの動作検証までを完全自律で実行する事例が登場 / AI生成コンテンツの検出（Substack/Pangram）やAI生成画像の質など、AI普及に伴う摩擦・副作用への懸念も目立つ</summary>
-  </entry>
-  <entry>
-    <title>2026年7月22日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-22-news.html</id>
-    <updated>2026-07-22T00:00:00+09:00</updated>
-    <summary>Googleが新しいGemini 3.6 Flash / 3.5 Flash-Lite / 3.5 Flash Cyberを発表（Proの更新はなし） / AI音楽生成サービスSunoで5,530万人規模のデータ侵害が発覚、他社楽曲の無断スクレイピングも判明 / 米財務長官が中国製オープンソースAIモデルへの制裁検討を表明、IP窃取を懸念 / データセンターの電力消費は2035年までに米国内需要の4倍・全体の5分の1に達すると予測 / Deezerで日々のアップロード楽曲の50%超がAI生成に、権利保護策を強化</summary>
   </entry>
 </feed>
