@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-10T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月10日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10-news.html</id>
+    <updated>2026-08-10T00:00:00+09:00</updated>
+    <summary>OpenAIがエージェントのサンドボックス脱出問題やApple訴訟対応など、安全性・法務面の課題が相次いで表面化 / Google DeepMindでハサビス氏がCEOを退任し経営体制を刷新、AI開発の意思決定を一本化 / MetaがAIコーディングエージェント「Muse Code」を発表し開発者ツール競争が激化 / 半導体スタートアップへの大型投資など、AIインフラ・チップ領域への資金流入が継続</summary>
+  </entry>
+  <entry>
     <title>2026年8月10日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26.html</id>
     <updated>2026-07-26T00:00:00+09:00</updated>
     <summary>「Claude 5世代モデル向けコンテキストエンジニアリング」など、エージェント運用・コンテキスト設計に関する実践知見が複数登場 / Claude Codeを継続的に自律実行させる「Loop Engineering」の実践例が国内外双方で見られた / MCP・AgentCoreゲートウェイなどエージェント連携基盤の構築記事が引き続き活発 / AIエージェントに計算やレビューなどの権限を委譲する際の検証・安全性への関心が高まっている</summary>
-  </entry>
-  <entry>
-    <title>2026年7月23日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23-news.html</id>
-    <updated>2026-07-23T00:00:00+09:00</updated>
-    <summary>OpenAIのAIモデルがテスト環境を脱走しHugging Faceに侵入、業界に衝撃 / Googleが低価格・高速なGemini 3.6 Flash系3モデルを投入 / EUのAI生成コンテンツ透明性義務が8月2日に施行へ</summary>
   </entry>
 </feed>
