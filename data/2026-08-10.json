@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-10",
+  "generatedAt": "2026/8/10 7:06:45",
+  "highlights": [
+    "Claude Code周りの実践知見（コメント量の分析、コンテキスト自動引き継ぎhook、スラッシュコマンド整理、ループエンジニアリング）が多数投稿された。",
+    "AIエージェント開発環境（OpenChamber、Orca）やエージェント評価フレームワーク（EvalForge）など、エージェント基盤に関する話題が目立った。",
+    "セキュリティ分野では、管理職を狙うランサムウェア攻撃の高度化に関する調査が報告された。",
+    "RAG・社内ナレッジ管理の実践事例として、専用ベクトルDBを使わずPostgresのみで運用するCerebrasの事例が紹介された。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "How I use LLMs to learn complex topics",
+      "url": "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+      "summary": "筆者は、AIにいきなり説明させるのではなく、まずplan modeで対象分野の知識ベースを構築させ、その正確性をレビューさせた上で、ローポリーのシミュレーションアニメーションとして視覚化させる学習法を紹介している。半導体チップの製造工程を題材に、この方法で作った学習用サイト「ChipTycoon」を実例として挙げている。文章や箇条書きを読むより、工程をカートが進むアニメーションで追う方が概念の対応付けがしやすく理解が定着すると述べる。さらに画像を3Dオブジェクト化するスキルや、途中に問いを挟むクイズ要素を加えることで学習効果を高められるとしている。",
+      "category": "devtool",
+      "points": 206,
+      "comments": 109,
+      "author": "laurentiurad"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenChamber: An Agentic Development Environment",
+      "url": "https://openchamber.dev/",
+      "summary": "OpenChamberは、複数のAIモデルを横断してコーディングタスクを進められるエージェント型開発環境で、デスクトップ・ブラウザ・モバイル・エディタ統合など複数の形態で利用できる。1つのタスクを最大5モデルで並列実行し、結果を比較・統合する「Multi-run and Fusion」や、大きな差分を手順ごとに分解して見せる「Changes Walkthrough」などの機能を持つ。GitHubのIssue/PRと連携した作業や、cronでのスケジュール実行、アプリを閉じても継続する「Session Goals」も備える。コードやセッション内容は収集されず、リモート接続はパスワードやリレー経由の暗号化で保護されるとしている。",
+      "category": "devtool",
+      "points": 80,
+      "comments": 44,
+      "author": "hexomancer"
+    },
+    {
+      "source": "hackernews",
+      "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
+      "url": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
+      "summary": "Zscalerの調査によると、あるランサムウェアキャンペーンでは334組織・351人の被害者のうち約3分の2が管理職以上であり、平均年齢は46歳、経理・営業・人事などの部門が多かったという。攻撃者は経営層ではなく、支払い承認や予算管理など「業務上の権限」を持つ管理職を狙う傾向が強まっており、侵害後に公開情報と組み合わせて報告ラインを特定しているとされる。管理者権限ではなく業務権限を狙う手口へのシフトが指摘されており、一部の組織では複数の従業員が同時に侵害される事例も確認された。Zscalerはランサムウェアのブロック件数が前年比146%増、データ窃取量は92%増と報告している。",
+      "category": "security",
+      "points": 56,
+      "comments": 22,
+      "author": "joebuckwilliams"
+    },
+    {
+      "source": "hackernews",
+      "title": "The tragedy of the commons, AI edition",
+      "url": "https://www.economist.com/britain/2026/08/06/the-tragedy-of-the-commons-ai-edition",
+      "summary": "本文取得失敗。",
+      "category": "other",
+      "points": 33,
+      "comments": 7,
+      "author": "simonpure"
+    },
+    {
+      "source": "hackernews",
+      "title": "The Hacker's Renaissance",
+      "url": "https://phrack.org/issues/72/19#article",
+      "summary": "Phrack誌の最新号に掲載された、1986年の「ハッカー宣言」から40年を経た現在のハッカー文化を振り返るマニフェストである。かつて好奇心から生まれたハッキングが、バグバウンティやCTF、企業のセキュリティ職といった形で「商品化」され、当初の反骨精神が薄れてきたと論じている。かつては自分でシェルコードを書き、システムを開いて理解することが目的だったが、今では規制やコンプライアンスの枠組みに覆われていると指摘する。全体として、ハッカー精神の変質に対する内省的な問いかけとなっている。",
+      "category": "security",
+      "points": 19,
+      "comments": 7,
+      "author": "yu3zhou4"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude が書く長いコメントは、Claude 自身の役に立っていなかった",
+      "url": "https://zenn.dev/uzu_tech/articles/86a2ef05a7d649",
+      "summary": "筆者はClaude Codeが書く長いコメントについて本人（AI）に尋ねたところ、「長い説明は自分の読解の助けになっておらず、むしろコンテキストを圧迫している」という回答を得た。さらに、コメントの分量は実装への自信のなさを言葉で埋め合わせている面があるとの指摘も得られ、「コードから復元できない情報だけを書く」というルールを設けたという。しかし実際にPR 27件のdiffを集計すると、コメント比率は21.1%から8.8%に減った一方、4行以上の長いコメントブロックの個数はほぼ減っていなかった。分析の結果、長いブロックの内容はいずれも「コードから復元できない情報（過去の障害経緯やライブラリの仕様など）」に該当しており、有用だからこそ消せないという構造的な問題が判明したと結んでいる。",
+      "category": "devtool",
+      "points": 153,
+      "author": "wellPicker"
+    },
+    {
+      "source": "zenn",
+      "title": "【RAG】話題の米国AIベンチャーで実践される「社内ナレッジ」管理",
+      "url": "https://zenn.dev/knowledgesense/articles/7c1a8f7720b119",
+      "summary": "AIチップベンチャーのCerebrasが公開した社内ナレッジ検索基盤の技術ブログを日本語で解説した記事で、リリースから3ヶ月で1日15,000件以上の質問に応答しているという。特徴的なのは専用ベクトルDBを使わず、PostgresのみでGINインデックスによるキーワード検索とpgvectorによるベクトル検索を両立させている点である。Slackの会話のような非構造データはそのまま埋め込まず、LLMでスレッド単位に構造化してから格納し、長い連投は条件を満たす場合のみ別チャンクとして切り出す工夫をしている。検索時はキーワード・ベクトル・IDF・鮮度の4手法をRRFで統合し、MCP経由では検索の部品（search_slackなど）だけをツールとして公開し、呼び出し順序はエージェント側に委ねる設計になっている。筆者は権限管理の難しさを今後の課題として指摘している。",
+      "category": "agent",
+      "points": 189,
+      "author": "Atsushi Kadowaki"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code で「ループエンジニアリング」を実践してみた",
+      "url": "https://zenn.dev/tetsu_don/articles/e40b95dfc726ac",
+      "summary": "筆者は、AIエージェント自身に「エラー検知→原因調査→修正→レビュー→push」のフローを自律的に繰り返させる「ループエンジニアリング」を、Claude Codeのサブエージェント機能を使って実践した記録を紹介している。LLMは自己採点を甘くする傾向があるため、pytestやmypyのような機械的なゲートと、実装者（Maker）と検証者（Checker）を別コンテキストで分離する設計を採用した。検証用にopenBD APIを使った書籍価格チェッカーを新規に作り、Cloud Loggingのエラーを検知させて実際にバグを検出・修正するところまで実践できたという。Cloud Loggingのラベル設定などの実装上のハマりどころについても具体的に触れている。",
+      "category": "agent",
+      "points": 38,
+      "author": "てつどん"
+    },
+    {
+      "source": "zenn",
+      "title": "gpt-5.6-sol の high に「ウルトラ」と入力して「ソウル」と話させる技術",
+      "url": "https://zenn.dev/microsoft/articles/agent-framework-ultra-soul",
+      "summary": "ネタ記事として、Microsoft Agent Frameworkを使い、モデルgpt-5.6-solのreasoning effort highに対して「ウルトラ」と入力したら「ソウル」と返すよう仕向ける手法を紹介している。素の状態では期待通りの応答は得られず、まずInstructionsに直接的な指示を書く方法を試し、さらにツール経由でユーザーの意図を推測させる関数を実装する方法へと発展させている。C#（.NET 10）とMicrosoft Foundryを用いたHarnessAgentの実装例が具体的なコードとともに示されている。ジョーク色の強い内容だが、Agent FrameworkでのInstructions設定やツール呼び出しの実装方法が実用的に解説されている。",
+      "category": "agent",
+      "points": 85,
+      "author": "Kazuki Ota"
+    },
+    {
+      "source": "zenn",
+      "title": "Raspberry Pi 5でClaude Codeを動かす",
+      "url": "https://zenn.dev/gsy0911/articles/a4dc76f0639576",
+      "summary": "筆者はMacBook Proのスリープによる不安定さを避けるため、Raspberry Pi 5上にNixOSで常時起動のClaude Code環境を構築し、remote-controlで外部から常にアクセスできるようにした。構成をflake.nixで宣言的に管理することで、SDカードが壊れても同じイメージを焼き直すだけで環境を復元できる点をメリットとして挙げている。macOS上でaarch64-linux向けイメージをビルドするためDockerコンテナをLinuxビルダーとして使う手順や、SSH・mDNS・起動時のリポジトリ自動pullなどの設定モジュール構成も具体的に紹介されている。母艦のMacとは切り離された専用機であるため、多少強い権限を与えても隔離された環境で完結する点が利点とされている。",
+      "category": "infra",
+      "points": 8,
+      "author": "gsy0911"
+    },
+    {
+      "source": "devto",
+      "title": "Stop using the localStorage hack to sync browser tabs. BroadcastChannel does it natively.",
+      "url": "https://dev.to/parsajiravand/stop-using-the-localstorage-hack-to-sync-browser-tabs-broadcastchannel-does-it-natively-4an9",
+      "summary": "複数のブラウザタブ間で状態を同期する際、localStorageのstorageイベントを使う従来の手法は、タイムスタンプによる重複排除やremoveItemの後処理など回避策だらけであると指摘している。代わりにBroadcastChannel APIを使えば、同一オリジンのタブ・ワーカー・iframe間でpostMessageするだけでメッセージを送受信でき、コードがシンプルになると説明する。ログアウトの全タブ反映やカート内容の同期、設定変更のリアルタイム反映といった具体的なユースケースがコード例とともに示されている。BroadcastChannelは構造化クローンアルゴリズムを使うため、オブジェクトやMap、Blobなど幅広い型をそのまま送信できる点も紹介されている。",
+      "category": "other",
+      "points": 24,
+      "comments": 4,
+      "author": "Parsa Jiravand",
+      "tags": [
+        "javascript",
+        "webdev",
+        "frontend",
+        "api"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I measured his app with his own code. He measured my claim with his own corpus.",
+      "url": "https://dev.to/lizhuojunx86/i-measured-his-app-with-his-own-code-he-measured-my-claim-with-his-own-corpus-1l5m",
+      "summary": "AI利用量トラッカーを監査するシリーズの第5回で、Claude Codeの使用量を表示するデスクトップアプリ「Clawdmeter」のトークン集計バグを報告した顛末を扱っている。Claude CodeはひとつのアシスタントメッセージをJSONLの複数レコードに分割して書き出すため、レコード単位で単純合計すると約2.34倍の過大集計になるバグがあったという。筆者は独自の再実装ではなく、相手のtranscript.pyをそのままスタブ経由でimportして実行することで「再現性のある客観的な数値」を提示し、議論の余地を減らす手法を取ったと述べている。報告から3日で修正版がリリースされ、さらに開発者からの逆指摘によって筆者自身の主張にもスコープの見落としがあったことが判明したという。",
+      "category": "devtool",
+      "points": 1,
+      "comments": 0,
+      "author": "Li Zhuojun",
+      "tags": [
+        "ai",
+        "llm",
+        "opensource",
+        "testing"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "🏦 Vaya: an AI loan advisor that asks whether you can still afford to live",
+      "url": "https://dev.to/minhlong2605/vaya-an-ai-loan-advisor-that-asks-whether-you-can-still-afford-to-live-gkc",
+      "summary": "ハッカソンで開発された「Vaya」は、ベトナムの複数銀行のローン商品を比較する対話型AIアドバイザーで、金利の安さではなく「借りた後も生活が成り立つか」を軸にした提案を行う。ユーザーが自然言語で借入希望を伝えると、DTI比率やリスク評価、キャッシュフローの持続可能性分析を含むランキング形式の提案を返す。アーキテクチャの中核は、数値計算・スコアリング・ランキングを担う決定論的な「Decision Engine」と、意図抽出・対話・RAGによる説明のみを担うLLM層を明確に分離している点にある。これにより計算過程が説明可能で、公平性を担保しやすい設計になっているという。",
+      "category": "product",
+      "points": 12,
+      "comments": 0,
+      "author": "Mike",
+      "tags": [
+        "showdev",
+        "ai",
+        "qoderhackathon",
+        "qodervietnam"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Surviving the AI Bubble With Two Pieces of Junk From Amazon",
+      "url": "https://dev.to/numbpill3d/surviving-the-ai-bubble-with-two-pieces-of-junk-from-amazon-5h1i",
+      "summary": "筆者はAI業界の過熱ぶりを「バブル」と評しつつ、バブルが弾けた後にも通用するスキルとして、安価なガジェットを使った家庭内セキュリティ監視の構築を提案している。20〜26ドル程度の小型ルーター（GL.iNet Mango）にOpenWrtを導入し、Pi-holeやSnort/Suricataのような広告ブロック・侵入検知を動かして、自宅ネットワークの通信を可視化する「20ドルのSOC」を作った経緯を紹介する。スマート電球や子供のタブレットが不審な通信を行っている様子を実際に検知できたとし、AIエージェントが普及するほど、それを監視・防御する側のスキルの価値が上がると論じている。ハードウェアレベルで何も信用しない「ディフェンシブコンピューティング」の重要性を主張する内容である。",
+      "category": "security",
+      "points": 5,
+      "comments": 0,
+      "author": "v. Splicer",
+      "tags": [
+        "ai",
+        "programming",
+        "tutorial",
+        "automation"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built Scenario Packs for Agent Regression Testing. The Integration, Not the Judge, Broke Me.",
+      "url": "https://dev.to/debashish_ghosal/i-built-scenario-packs-for-agent-regression-testing-the-integration-not-the-judge-broke-me-1k9k",
+      "summary": "OSSのエージェント評価ハーネス「EvalForge」の開発記録の第2回で、ツール利用エージェントの回帰テスト用シナリオパックの設計について扱っている。当初はスコアリングロジックの設計が難所になると想定していたが、実際に難しかったのは、ffmpegをモジュールスコープでimportしたり特定モデルをハードコードしたりする実際のサードパーティエージェントと、テストハーネスとの間の「統合」部分だったという。expectedやmetricsといった評価専用フィールドはエージェントに渡す前に取り除く「grounding truthの境界」を設けるなど、シナリオパックをテストファイルではなく「契約（コントラクト）」として設計する方針を具体的なYAML例とコードで示している。単一ツール検索や複数ツール統合、プロンプトインジェクションやSSRFなどセキュリティ系も含む20〜28種類のシナリオが用意されているという。",
+      "category": "agent",
+      "points": 9,
+      "comments": 7,
+      "author": "Debashish Ghosal",
+      "tags": [
+        "ai",
+        "agentskills",
+        "discuss"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIがコードを書く時代に、なぜWebエンジニアは必要なのか",
+      "url": "https://qiita.com/saikoseiko/items/b44110b1bd3e3d687fae",
+      "summary": "生成AIによってReactコンポーネント生成やAPI実装などの定型作業は大幅に効率化されたが、ビジネス要件の整理やアーキテクチャ設計、セキュリティ・パフォーマンス設計といった判断業務は依然として人間の役割であると論じている。AI活用の巧拙によって初級・中級・上級エンジニアの間で二極化が進んでいるとし、上級エンジニアほどAIをアーキテクチャ比較や脅威分析など「思考を加速する」用途に使っていると指摘する。結論として、AIがコードを書く時代だからこそ「何を作るべきか」「なぜその設計か」を判断できるエンジニアの価値がむしろ高まると述べている。",
+      "category": "other",
+      "author": "saikoseiko"
+    },
+    {
+      "source": "qiita",
+      "title": "AIで完成度を上げたい、でも人間味のない完璧すぎる作品は嫌だ",
+      "url": "https://qiita.com/sumomoo/items/cfe3c47453968b2d3c29",
+      "summary": "筆者は「プロンプトエンジニアリング→コンテキストエンジニアリング→ハーネスエンジニアリング→ループエンジニアリング」という、この半年ほどのAI活用手法の進化を整理し、人間の役割が「直接指示する側」から「AIが動く仕組みを作る側」へ移ってきていると述べている。現状のAIは品質を0から7〜8割まで持っていくのは得意だが、残り2〜3割の仕上げにはまだ人の手が必要だと感じているとしつつ、ループエンジニアリングの精度が上がればこの前提も覆るかもしれないとも書いている。それでも、自分の意見や体験が乗っていない完璧な作品には意味を感じないとし、AIと共に作る過程そのものを楽しみながら人間らしさを残していきたいと結んでいる。",
+      "category": "agent",
+      "author": "sumomoo"
+    },
+    {
+      "source": "qiita",
+      "title": "トークン浪費と性能低下を防ぐ、Claude Code の自動引き継ぎ hook を作った",
+      "url": "https://qiita.com/tomada/items/46e675f6ced44dcd10ad",
+      "summary": "筆者は、Claude Codeの長いセッション終盤で指示を忘れたり同じファイルを読み返したりする体感を、コンテキスト使用率の膨張と結びつけ、しきい値を超えたら自動で区切りと引き継ぎノート作成を促すhookを自作した。statusLineでコンテキスト使用率を可視化・状態ファイルへ出力し、20%でUserPromptSubmit hookが方針をClaudeにだけ伝え、25%でStop hookが完走か引き継ぎかの判断をClaudeに強制する3段構えの仕組みになっている。Stop hookのdecisionにblockを指定すると応答を終了させずreasonの文面を新たな指示として渡せる点や、hookにコンテキスト使用量が直接渡されないためstatusLine経由で迂回する必要があった実装上の制約についても具体的に解説している。発動時にはClaudeが自ら引き継ぎノートを書き、新セッションに貼るだけのプロンプトまで生成するという。",
+      "category": "devtool",
+      "author": "tomada"
+    },
+    {
+      "source": "qiita",
+      "title": "【便利】 Claude Codeの覚えておきたいスラッシュコマンドまとめ",
+      "url": "https://qiita.com/tamashiro_nobuyuki/items/573178ed3b8a6a22ebb1",
+      "summary": "Claude Codeでよく使うスラッシュコマンドを用途別に整理した記事で、/compactと/clearの違い（会話履歴が要約されて残るか完全に消えるか）や、/modelでのモデル切り替え、/usageでの利用状況確認方法を紹介している。/initによるCLAUDE.mdの自動生成や、CLAUDE_CODE_NEW_INIT=1と組み合わせた対話型初期化フローについても触れている。レビュー用の/reviewと/code-reviewについては、対象がGitHub PRかローカル差分か、権限が読み取り専用か自動修正可能かなど違いを表で整理している。",
+      "category": "devtool",
+      "author": "tamashiro_nobuyuki"
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェント開発環境「Orca」のプラグインを自作してみた",
+      "url": "https://qiita.com/tamakiiii/items/12fd39f66cb095a7fc02",
+      "summary": "AIエージェント向け開発環境「Orca」に追加されたプラグイン機能について、公式ドキュメントが未整備な中、アプリケーションバンドルの仕様を読み解いてゼロからプラグインを作成する手順をまとめている。マニフェストファイルorca-plugin.jsonとHTMLファイル1つだけで動く最小構成を示し、idをorca-で始めたりpublisherをstablyaiにしたりすると予約識別子扱いでインストールが拒否される、engines.orcaの書式が正規表現で厳格に検証される、contributesに書けるキーは7種類のみ、capabilitiesは文字列配列ではなくオブジェクト配列で指定する、といったハマりどころを具体的に解説している。entryに指定するファイルには完結したHTMLではなく<body>以降のみを書く点も紹介されている。",
+      "category": "devtool",
+      "author": "tamakiiii"
+    }
+  ]
+}

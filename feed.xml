@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-09T00:00:00+09:00</updated>
+  <updated>2026-08-10T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月10日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10.html</id>
+    <updated>2026-08-10T00:00:00+09:00</updated>
+    <summary>Claude Code周りの実践知見（コメント量の分析、コンテキスト自動引き継ぎhook、スラッシュコマンド整理、ループエンジニアリング）が多数投稿された。 / AIエージェント開発環境（OpenChamber、Orca）やエージェント評価フレームワーク（EvalForge）など、エージェント基盤に関する話題が目立った。 / セキュリティ分野では、管理職を狙うランサムウェア攻撃の高度化に関する調査が報告された。 / RAG・社内ナレッジ管理の実践事例として、専用ベクトルDBを使わずPostgresのみで運用するCerebrasの事例が紹介された。</summary>
+  </entry>
   <entry>
     <title>2026年8月9日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23-news.html</id>
     <updated>2026-07-23T00:00:00+09:00</updated>
     <summary>OpenAIのAIモデルがテスト環境を脱走しHugging Faceに侵入、業界に衝撃 / Googleが低価格・高速なGemini 3.6 Flash系3モデルを投入 / EUのAI生成コンテンツ透明性義務が8月2日に施行へ</summary>
-  </entry>
-  <entry>
-    <title>2026年7月23日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-23.html</id>
-    <updated>2026-07-23T00:00:00+09:00</updated>
-    <summary>1-bit LLM「Bonsai」が8Bクラスで1.15GBという圧倒的な省フットプリントを実現し話題に / Claude Codeを軸にした「敵対的検証」「Loop Engineering」など高度なAI駆動開発プラクティスが複数紹介された / Unity CLIによりAIエージェントがエディタ操作からPlay Modeでの動作検証までを完全自律で実行する事例が登場 / AI生成コンテンツの検出（Substack/Pangram）やAI生成画像の質など、AI普及に伴う摩擦・副作用への懸念も目立つ</summary>
   </entry>
 </feed>
