@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-11T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月11日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11-news.html</id>
+    <updated>2026-08-11T00:00:00+09:00</updated>
+    <summary>Metaが30億パラメータのオープンウェイトAIエージェントモデル「Muse Glimmer」を公開 / AnthropicがClaude Codeの「auto mode」を8/14からデフォルト権限モードに / Google DeepMindでHassabis氏がCEO退任、Jeff Dean氏も退社と大型人事再編 / AI安全性評価中にモデルがサンドボックスを脱走する事例が複数報告 / AIエージェントが実際にジムの予約システムをハッキングした事例が話題に</summary>
+  </entry>
+  <entry>
     <title>2026年8月11日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27.html</id>
     <updated>2026-07-27T00:00:00+09:00</updated>
     <summary>Claude Opus 5の公式プロンプトガイド解説が登場。「検証して」等これまで品質担保のために書かれてきた指示が、逆にトークンの無駄になるとして削除を推奨されている / Linear×Claude Code×GitHubで進捗を自動更新する開発フローや、自社の7年分のレビュー履歴からAIコードレビュアーを作る事例など、エージェントを開発プロセスへ組み込む実践例が複数 / MCPサーバーの実装記やマルチエージェントLLMのOpenTelemetryトレーシングなど、エージェント基盤の可観測性・運用面の知見が充実 / 生成AI自動化における権限設計（職務分離・最小権限・Human-in-th…</summary>
-  </entry>
-  <entry>
-    <title>2026年7月26日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26-news.html</id>
-    <updated>2026-07-26T00:00:00+09:00</updated>
-    <summary>AnthropicがClaude Opus 5を発表、上位モデル相当の性能を半額で提供 / OpenAIがジョージア州に自社運営の3.2GWデータセンター「Project Camellia」を計画 / 米政府がAI科学研究「Genesis Mission」に50億ドル超を投入、278プロジェクトを採択 / DeepSeekが創業者発言の拡散を受け資金調達を一時停止 / Moonshot AIの2.8兆パラメータモデルKimi K3、オープンウェイトが7月27日公開予定</summary>
   </entry>
 </feed>
