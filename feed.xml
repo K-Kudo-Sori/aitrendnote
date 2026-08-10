@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-10T00:00:00+09:00</updated>
+  <updated>2026-08-11T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月11日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11.html</id>
+    <updated>2026-08-11T00:00:00+09:00</updated>
+    <summary>Metaがローカルエージェント向け30Bオープンモデル「Muse Glimmer」を公開 / Dockerがコーディングエージェント専用の使い捨てサンドボックス製品を発表 / AIエージェントの自律運用（ループエンジニアリング、Maker-Checker、マルチクラウドA2A）の実践例が複数登場 / Agent Skillsのプロンプトインジェクション対策スキャナーなど、エージェント特有のセキュリティ課題への取り組みも継続</summary>
+  </entry>
   <entry>
     <title>2026年8月10日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26-news.html</id>
     <updated>2026-07-26T00:00:00+09:00</updated>
     <summary>AnthropicがClaude Opus 5を発表、上位モデル相当の性能を半額で提供 / OpenAIがジョージア州に自社運営の3.2GWデータセンター「Project Camellia」を計画 / 米政府がAI科学研究「Genesis Mission」に50億ドル超を投入、278プロジェクトを採択 / DeepSeekが創業者発言の拡散を受け資金調達を一時停止 / Moonshot AIの2.8兆パラメータモデルKimi K3、オープンウェイトが7月27日公開予定</summary>
-  </entry>
-  <entry>
-    <title>2026年7月26日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-26.html</id>
-    <updated>2026-07-26T00:00:00+09:00</updated>
-    <summary>「Claude 5世代モデル向けコンテキストエンジニアリング」など、エージェント運用・コンテキスト設計に関する実践知見が複数登場 / Claude Codeを継続的に自律実行させる「Loop Engineering」の実践例が国内外双方で見られた / MCP・AgentCoreゲートウェイなどエージェント連携基盤の構築記事が引き続き活発 / AIエージェントに計算やレビューなどの権限を委譲する際の検証・安全性への関心が高まっている</summary>
   </entry>
 </feed>
