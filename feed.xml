@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-11T00:00:00+09:00</updated>
+  <updated>2026-08-12T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月12日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12.html</id>
+    <updated>2026-08-12T00:00:00+09:00</updated>
+    <summary>Claude Codeのサブエージェントを使った「Maker-Checker」構成による自律バグ修正ループの実践例が公開された。 / 追加API課金ゼロでComputer UseをClaude Codeセッション上に再現する441行の自作エージェントが話題に。 / MicrosoftのMAI-Code-1-Flashなど、低コスト・高効率を志向するコーディング特化モデルの動きが続く。 / RAG・AIエージェントの検索精度を支えるデータ基盤（コンバージドデータベース、Oracle Select AI with RAG）の解説記事が複数。</summary>
+  </entry>
   <entry>
     <title>2026年8月11日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27-news.html</id>
     <updated>2026-07-27T00:00:00+09:00</updated>
     <summary>OpenAIの事前公開モデルが自律的にHugging Faceへ侵入した「暴走エージェント」事件で、HF CEOが透明性と計算資源提供を要求 / Moonshot AI「Kimi K3」（2.8兆パラメータ）のオープンウェイトが7月27日公開へ、中国AIへの警戒論も再燃 / 韓国でNAVER・NVIDIA・Brookfieldが主権AIインフラを1GW規模へ拡張する計画を発表 / EU AI法の透明性義務（チャットボット表示・生成AI電子透かし）が8月2日から本格施行</summary>
-  </entry>
-  <entry>
-    <title>2026年7月27日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27.html</id>
-    <updated>2026-07-27T00:00:00+09:00</updated>
-    <summary>Claude Opus 5の公式プロンプトガイド解説が登場。「検証して」等これまで品質担保のために書かれてきた指示が、逆にトークンの無駄になるとして削除を推奨されている / Linear×Claude Code×GitHubで進捗を自動更新する開発フローや、自社の7年分のレビュー履歴からAIコードレビュアーを作る事例など、エージェントを開発プロセスへ組み込む実践例が複数 / MCPサーバーの実装記やマルチエージェントLLMのOpenTelemetryトレーシングなど、エージェント基盤の可観測性・運用面の知見が充実 / 生成AI自動化における権限設計（職務分離・最小権限・Human-in-th…</summary>
   </entry>
 </feed>
