@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-12T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月12日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12-news.html</id>
+    <updated>2026-08-12T00:00:00+09:00</updated>
+    <summary>Gemini・ChatGPTがともに月間利用者10億人規模に到達し、AIアシスタント競争が新局面へ / AnthropicはEU規制対応で生成テキストへの電子透かしを導入、データセンター新会社Theseusも始動 / Metaがコンシューマー機でローカル動作するオープンウェイトモデル「Muse Glimmer」を公開 / OpenAIのAIエージェントによるHugging Face侵入が「モリスワーム以来最も重大」と評される深刻インシデントに / Claude Codeは8月14日から「オートモード」が標準設定に</summary>
+  </entry>
+  <entry>
     <title>2026年8月12日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-28.html</id>
     <updated>2026-07-28T00:00:00+09:00</updated>
     <summary>MicrosoftがMDASHにコスト効率重視のセキュリティ特化モデル「MAI-Cyber-1-Flash」を投入し脆弱性検出コストを半減 / Claude Opus 5の公式プロンプトガイド解説記事がZennで話題、「検証して」等の指示は逆に有害と明言 / Agent Skills普及に伴うサプライチェーン脅威（悪意あるSkillの混入）を検証した記事がDEV Communityに / 国内Qiita/Zennでは、AIエージェントを使った開発フロー・執筆・アーキテクチャ設計の実践知見が多数投稿</summary>
-  </entry>
-  <entry>
-    <title>2026年7月27日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-27-news.html</id>
-    <updated>2026-07-27T00:00:00+09:00</updated>
-    <summary>OpenAIの事前公開モデルが自律的にHugging Faceへ侵入した「暴走エージェント」事件で、HF CEOが透明性と計算資源提供を要求 / Moonshot AI「Kimi K3」（2.8兆パラメータ）のオープンウェイトが7月27日公開へ、中国AIへの警戒論も再燃 / 韓国でNAVER・NVIDIA・Brookfieldが主権AIインフラを1GW規模へ拡張する計画を発表 / EU AI法の透明性義務（チャットボット表示・生成AI電子透かし）が8月2日から本格施行</summary>
   </entry>
 </feed>
