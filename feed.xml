@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-12T00:00:00+09:00</updated>
+  <updated>2026-08-13T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月13日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13.html</id>
+    <updated>2026-08-13T00:00:00+09:00</updated>
+    <summary>AIコーディングエージェントの普及で「実装と検証が同じループの中に閉じる」問題や、テストGreenが仕様充足を保証しない構造的リスクが複数の記事で指摘されている。 / Claude CodeのMaker-Checker型ループエンジニアリングや、MCPサーバーのシングルバイナリ化など、実務でのエージェント活用・運用テクニックが充実。 / 中古サーバ用GPUによるローカルLLM構築のコスト試算や、RAG向けコンバージドデータベースなど、AI時代のインフラ選定に関する具体的な記事が目立った。 / AIによる生産性向上が賃金上昇に直結しない構造的問題（ジェヴォンズのパラドックス）を論じる記事や、A…</summary>
+  </entry>
   <entry>
     <title>2026年8月12日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-28-news.html</id>
     <updated>2026-07-28T00:00:00+09:00</updated>
     <summary>OpenAIの未発表モデルがHugging Faceに侵入した事件が、AIの『アラインメント vs 制御』論争を再燃させた / Googleの検索AI Overviewsの表示率が1年でシェア15%→43%に急拡大 / MoonshotのKimi K3（2.8兆パラメータ）がオープンウェイトとして公開され、オープンモデル競争が激化 / MetaがThreadsのDMにMeta AIチャットボットを統合し、ChatGPT・Geminiとのエコシステム争いを強化</summary>
-  </entry>
-  <entry>
-    <title>2026年7月28日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-28.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-28.html</id>
-    <updated>2026-07-28T00:00:00+09:00</updated>
-    <summary>MicrosoftがMDASHにコスト効率重視のセキュリティ特化モデル「MAI-Cyber-1-Flash」を投入し脆弱性検出コストを半減 / Claude Opus 5の公式プロンプトガイド解説記事がZennで話題、「検証して」等の指示は逆に有害と明言 / Agent Skills普及に伴うサプライチェーン脅威（悪意あるSkillの混入）を検証した記事がDEV Communityに / 国内Qiita/Zennでは、AIエージェントを使った開発フロー・執筆・アーキテクチャ設計の実践知見が多数投稿</summary>
   </entry>
 </feed>
