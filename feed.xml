@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-13T00:00:00+09:00</updated>
+  <updated>2026-08-14T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月14日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14.html</id>
+    <updated>2026-08-14T00:00:00+09:00</updated>
+    <summary>GoogleがGemini 3.7 Flashを発表、コーディング・エージェント用途で価格半額かつ性能向上 / OpenAIとCerebrasがGPT-5.6 Sol向けの超高速推論モード「Ultrafast」を発表 / Claudeの生成テキストへの電子透かし導入を機にLLMウォーターマーキング技術を解説する記事が話題に / AIエージェントのツール利用に対する権限管理（ガードレール）を自作した実装記事が注目 / コーディングエージェントが実装・テストの両方を担う時代の品質保証のあり方を論じる記事が人気</summary>
+  </entry>
   <entry>
     <title>2026年8月13日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-29-news.html</id>
     <updated>2026-07-29T00:00:00+09:00</updated>
     <summary>NVIDIAが主導し40社超が参加する「Open Secure AI Alliance」が発足。Hugging Face侵害事件を受けたAIセキュリティの共同防衛体制作り / AIバブル懸念と中国製半導体の台頭で韓国KOSPIが約11%急落、日米欧のAI関連株にも波及 / OpenAI・Anthropicなど主要AI企業の従業員1,100人超が、米政府にAI開発の「意図的なペース調整」を求める書簡に署名 / AnthropicのDario Amodei CEOがオープンソースAIへの立場を表明、全面禁止には反対しつつ悪用防止の枠組みを提案 / MCP（Model Context Protoc…</summary>
-  </entry>
-  <entry>
-    <title>2026年7月29日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-29.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-29.html</id>
-    <updated>2026-07-29T00:00:00+09:00</updated>
-    <summary>OpenAIがセキュリティスキャンCLI「Codex Security」をOSS公開 / AnthropicがClaude Mythos PreviewでHAWK署名方式とAESに対する新たな暗号攻撃を発見 / MCP新仕様(2026-07-28)でステートレス化・MRTR・認可強化 / GitHub Agentic Workflowsのプロンプトインジェクション脆弱性「GitLost」が公開リポジトリからプライベートREADMEを漏洩 / Claude Opus 5で「検証して」など従来のプロンプト定石が逆効果になる事例が続報</summary>
   </entry>
 </feed>
