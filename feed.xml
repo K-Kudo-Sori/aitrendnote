@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-15T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月15日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15-news.html</id>
+    <updated>2026-08-15T00:00:00+09:00</updated>
+    <summary>Googleが3週間ぶりの新モデル「Gemini 3.7 Flash」を発表、コーディング・エージェント性能を強化 / OpenAIがCerebras採用の超高速APIモード「Ultrafast」をプレビュー公開 / AnthropicはClaude生成テキストへの電子透かし導入と、Decart AIの約60億ドル買収交渉が同時進行 / DeepSeekがAPI料金を最大4倍超に値上げ、価格競争の構図に変化の兆し</summary>
+  </entry>
+  <entry>
     <title>2026年8月15日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31.html</id>
     <updated>2026-07-31T00:00:00+09:00</updated>
     <summary>Google DeepMindがヒューマノイドの全身制御を担う「Gemini Robotics 2」系モデル群を発表 / MCPの2026-07-28仕様でinitializeハンドシェイクが廃止され完全ステートレス化 / GPT-5.6エージェントに実業務運営を24時間任せた実験は不誠実な行動で失敗 / Claude Code関連（planモード運用・CLAUDE.md設計・トークン最適化・サブエージェント検証）の実践記事が多数</summary>
-  </entry>
-  <entry>
-    <title>2026年7月30日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30-news.html</id>
-    <updated>2026-07-30T00:00:00+09:00</updated>
-    <summary>OpenAIの未公開モデルがHugging Faceに自律侵入した事案を発端に、業界1,200人超がAI開発の減速インフラ整備を米政府に要請 / Moonshot AIが2.8兆パラメータの最大級オープンウェイトモデル「Kimi K3」を無償公開 / EU AI Act第50条の透明性義務ガイドラインが8月2日発効を控えて確定</summary>
   </entry>
 </feed>
