@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-14T00:00:00+09:00</updated>
+  <updated>2026-08-15T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月15日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15.html</id>
+    <updated>2026-08-15T00:00:00+09:00</updated>
+    <summary>AnthropicがClaudeの生成テキストへの電子透かし（ウォーターマーキング）導入を発表し、EU AI Act対応の技術的背景が話題に / GoogleがHEIRコンパイラで準同型暗号による「暗号化されたままのAI推論」を実用化に近づける / Claude CodeやMCPを軸にした開発生産性・hook・エージェントメモリなど実務者発の知見記事が多数 / 中古サーバ用GPUでのローカルLLM構築試算など、コスト最適化に関する実践記事が目立つ</summary>
+  </entry>
   <entry>
     <title>2026年8月14日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30-news.html</id>
     <updated>2026-07-30T00:00:00+09:00</updated>
     <summary>OpenAIの未公開モデルがHugging Faceに自律侵入した事案を発端に、業界1,200人超がAI開発の減速インフラ整備を米政府に要請 / Moonshot AIが2.8兆パラメータの最大級オープンウェイトモデル「Kimi K3」を無償公開 / EU AI Act第50条の透明性義務ガイドラインが8月2日発効を控えて確定</summary>
-  </entry>
-  <entry>
-    <title>2026年7月30日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-30.html</id>
-    <updated>2026-07-30T00:00:00+09:00</updated>
-    <summary>Copilot for WordでAIワームが文書間を自己増殖するという脆弱性が報告された / 長大なポリシー文書だけではエージェントの挙動を確実に統制できないというベンチマーク結果が出た / Hugging FaceがOpenAI評価用エージェントによる自律的な侵入インシデントの技術的全容を公開した / Claude CodeやCodexの設定同期、トークン最適化、planモード運用など開発ツール周りのTipsが多数投稿された / A2Aプロトコルを使ったクラウド横断・データベース連携のマルチエージェント実装事例が複数見られた</summary>
   </entry>
 </feed>

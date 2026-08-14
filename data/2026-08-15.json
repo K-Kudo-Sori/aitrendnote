@@ -1,0 +1,226 @@
+{
+  "date": "2026-08-15",
+  "generatedAt": "2026/8/15 7:07:22",
+  "highlights": [
+    "AnthropicがClaudeの生成テキストへの電子透かし（ウォーターマーキング）導入を発表し、EU AI Act対応の技術的背景が話題に",
+    "GoogleがHEIRコンパイラで準同型暗号による「暗号化されたままのAI推論」を実用化に近づける",
+    "Claude CodeやMCPを軸にした開発生産性・hook・エージェントメモリなど実務者発の知見記事が多数",
+    "中古サーバ用GPUでのローカルLLM構築試算など、コスト最適化に関する実践記事が目立つ"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Google is making private AI practical with homomorphic encryption",
+      "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
+      "summary": "Googleは、暗号化されたデータのまま推論できる準同型暗号（Homomorphic Encryption）を実用化するオープンソースコンパイラ「HEIR」を紹介した。HEIRは学習済みAIモデルを暗号化入力に対応させる変換を担い、非専門家でも「ワンクリック」で暗号化推論を組み込めることを目指している。Belfort・Niobium・Cornami・Optalysysなどハードウェアアクセラレータ開発企業と提携し、Georgia TechやCMUなど複数大学とも共同研究を進めている。エンドツーエンド暗号化では提供できなかったスパム検出やレコメンドなどの機能を、プライバシーを保ったまま実現できるとしている。",
+      "category": "research",
+      "points": 205,
+      "comments": 128,
+      "author": "u1hcw9nx"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI by Hand",
+      "url": "https://www.byhand.ai/",
+      "summary": "「AI by Hand」は、Tom Yeh教授が運営するSubstackで、AIの数学・アルゴリズム・アーキテクチャを手計算で学べるコンテンツを提供している。7万人超の購読者を抱える人気ニュースレターだが、ページ本体はJavaScript必須の購読案内のみで、記事本文の詳細な内容は取得できなかった。",
+      "category": "other",
+      "points": 136,
+      "comments": 12,
+      "author": "sans_souse"
+    },
+    {
+      "source": "hackernews",
+      "title": "Maximizing the value of your Claude Code sessions",
+      "url": "https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions",
+      "summary": "Anthropicが、Claude Codeのセッションからより多くの価値を引き出すための運用ノウハウを公開した。/clearでタスク間の不要な文脈を消す、モデルとeffortレベルはセッション開始前に固定してプロンプトキャッシュを壊さない、ファイルは@メンションで直接添付する、ノイズの多いコマンドは静音化かサブエージェントで実行する、などのTipsを紹介。トークン価格はモデル・入力/出力・キャッシュ有無で決まり、効率化とは「使うトークンを減らすこと」ではなく「使うトークンを本当に必要な作業に向けること」だと説明している。",
+      "category": "devtool",
+      "points": 98,
+      "comments": 68,
+      "author": "twapi"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Mole – Deep research agent for your terminal",
+      "url": "https://github.com/lajosdeme/mole",
+      "summary": "「mole」は、予算上限を厳密に守りながら動作するターミナル向けディープリサーチエージェント。質問を分解して検索・情報源の読み込み・主張の抽出を行い、各主張は元テキストの引用と突き合わせて裏取りしてから引用付きで回答を生成する。予算はDBの制約として事前に確保・決済され超過は実測0%、CSVなどローカルデータは集計値のみが外部に出る設計になっている。MCPに対応しコーディングエージェントからも呼び出せる。",
+      "category": "agent",
+      "points": 29,
+      "comments": 6,
+      "author": "lajosdeme"
+    },
+    {
+      "source": "hackernews",
+      "title": "What You Gain by Building Your Own Game Engine",
+      "url": "https://eliasfarhan.ch/gamedev/cpp/2026/08/14/srnative-01-why-a-custom-engine.html",
+      "summary": "本文取得失敗。",
+      "category": "other",
+      "points": 28,
+      "comments": 28,
+      "author": "kwakwa_cat"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude がテキストに電子透かしを入れ始めたので、LLM ウォーターマーキングの仕組みを調べた",
+      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
+      "summary": "2026年8月、AnthropicがClaudeの生成テキストに機械可読な電子透かしを埋め込むと発表した。EU AI Act第50条の透明性規範への署名に伴う対応で、LLMウォーターマーキングは「次のトークンを選ぶ際のわずかな揺らぎ」に秘密鍵由来の偏りを与える手法が基本にあると解説する。KGW法（グリーンリスト方式）から始まり、生成分布を歪めないGumbel-Maxトリックや、Google DeepMindが実運用しているSynthID-TextのTournament samplingまで、技術発展の系譜を整理している。2000万件規模の本番トラフィックでの評価まで論文で報告されており、著者は「実用化は無理」という2023年当時の予想が覆されたと述べている。",
+      "category": "research",
+      "points": 389,
+      "author": "Kaito Sugimoto"
+    },
+    {
+      "source": "zenn",
+      "title": "曖昧に使っていたAI周りの言葉を理解する",
+      "url": "https://zenn.dev/yoshipon_tech/articles/a51bbfcc068c1f",
+      "summary": "AI・モデル・LLM・アプリケーション・MCP・MCPサーバーといった、業務で曖昧に使われがちなAI関連用語を整理した記事。モデル（LLM）はあくまで次のトークンを予測する計算エンジンであり、仕様書作成やコマンド実行を行っているのはその上に被さるアプリケーション側であると説明する。トークン・コンテキスト・コンテキストウィンドウ・メモリの違いや、APIがステートレスで毎回会話履歴を送り直している点、MCPがAIアプリと外部データソースをつなぐ標準通信プロトコルである点も具体例とともに解説している。",
+      "category": "agent",
+      "points": 78,
+      "author": "よしぽん"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code に「同じ指摘を二度させない」仕組みを hook で作った",
+      "url": "https://zenn.dev/nozomi720/articles/claude_code_hooks_feedback",
+      "summary": "Claude Codeに何度も同じ指摘を繰り返す問題を解消するため、指摘内容をMarkdownファイルとして永続化し、指摘回数（count）に応じてhookの強制力を段階的に上げる仕組みを構築した記事。1〜2回目は警告のみ、3〜4回目は確認を求め、5回目以降はツール実行自体を禁止するseverity制御をPythonで実装し、UserPromptSubmit・PreToolUse・Stopの3種のhookで「読ませる」「やらせない」「終わらせない」を三段構えにしている。現在47個のルールが運用され、うち14個はhookが機械的に検知できる形になっているという。",
+      "category": "devtool",
+      "points": 55,
+      "author": "nonchan7720"
+    },
+    {
+      "source": "zenn",
+      "title": "中古サーバ用GPUでローカルLLM環境を作る試算（MI50 / P40 / P100 / V100 / CMP 170HX）",
+      "url": "https://zenn.dev/phpmyadmin/articles/used-server-gpu-local-llm",
+      "summary": "データセンターやマイニング向けの中古サーバGPU（MI50・P40・P100・V100・CMP 170HX）を使ってローカルLLM環境を安価に構築する試算記事。VRAM 1GBあたりの価格では中古GPUが新品RTX 5090の最大28分の1に達するとし、オフィスワーク向け（22GB程度のモデル）とDeepSeek V4-Flash稼働向け（142GB以上）の2構成についてホスト機込みの価格・速度・消費電力を比較している。中古V100構成は新品RTX 5090の約7分の1の価格で速度差は1.8倍にとどまるなど、コストパフォーマンスの高さを示している。",
+      "category": "infra",
+      "points": 48,
+      "author": "toyoshi"
+    },
+    {
+      "source": "zenn",
+      "title": "macOSでメモリを使い続けるCursorUIViewServiceを無効化する",
+      "url": "https://zenn.dev/discus0434/articles/disable-cursoruiviewservice-macos",
+      "summary": "macOSのCursorUIViewServiceプロセスがメモリを使い続ける現象について、原因と対処法をまとめた記事。CursorUIViewServiceはコードエディタのCursorとは無関係で、AppleのTextInputUIに含まれるカーソル表示用XPCサービスであり、UIKitのFeature Flagを書き換えて新しいテキストカーソル機能を無効化することでメモリ増加を止められると報告している。AIやLLMに直接関連する内容ではない。",
+      "category": "other",
+      "points": 48,
+      "author": "動詞"
+    },
+    {
+      "source": "devto",
+      "title": "Reviving Open Source Giants: How I Brought Weave Scope Back with Multi-Platform Docker Support in One Afternoon Using Antigravity",
+      "url": "https://dev.to/gde/reviving-open-source-giants-how-i-brought-weave-scope-back-with-multi-platform-docker-support-in-cmo",
+      "summary": "メンテナンスが止まっていたコンテナ監視ツール「Weave Scope」を、GoogleのAIコーディングツール「Antigravity」を使って1日でマルチアーキテクチャ（ARM64/AMD64）対応に復活させた事例記事。従来なら数日かかる依存関係の修復・Dockerfileの刷新・マルチアーキビルドの自動化を、Antigravityによるリポジトリ解析やビルドブロッカーの診断で効率化したという。著者は、AIツールの真価はゼロからのコード生成よりも、放置された優れたOSSの復元・近代化にあると結んでいる。",
+      "category": "devtool",
+      "points": 12,
+      "comments": 0,
+      "author": "Mario Ezquerro",
+      "tags": [
+        "opensource",
+        "devops",
+        "docker",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Dev Opportunity Radar #12: $10K+ Magnificent Grants, Free CodePath Courses, AI Societal Impact Lab Fellowship, and Interview Prep 101",
+      "url": "https://dev.to/devengers/dev-opportunity-radar-12-10k-magnificent-grants-free-codepath-courses-ai-societal-impact-lab-56h5",
+      "summary": "開発者向けの奨学金・フェローシップ・ハッカソン情報をまとめる週刊シリーズの第12回。Magnificent Grants、AI Societal Impact Lab 2026年秋フェローシップ、CodePathの2026年秋コース、Interview Prep 101などAI関連の教育・資金支援機会を紹介している。読者コミュニティからの情報提供も反映する形式で運営されている。",
+      "category": "other",
+      "points": 22,
+      "comments": 3,
+      "author": "Hemapriya Kanagala",
+      "tags": [
+        "discuss",
+        "community",
+        "opportunities",
+        "resources"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Looker's Native MCP Server with Claude Code",
+      "url": "https://dev.to/gde/lookers-native-mcp-server-with-claude-code-11j8",
+      "summary": "Looker（Google Cloud）がMCPサーバーをホスト型で提供するようになり、これまでローカルで動かしていたMCP Toolboxバイナリが不要になったことを解説する記事。管理者がLooker管理画面でMCPを有効化し許可ツールを設定した上で、Claude CodeからHTTP経由でLookerのMCPエンドポイントに接続する手順と、カスタマーホスト型インスタンス非対応・ツールアクセスがグローバル単位の許可リストのみといった現時点の制約を紹介している。",
+      "category": "agent",
+      "points": 7,
+      "comments": 0,
+      "author": "xbill",
+      "tags": [
+        "mcp",
+        "looker",
+        "claudecode",
+        "cli"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Durable Memory: Why Vector Databases Aren't Enough",
+      "url": "https://dev.to/kenwalger/durable-memory-why-vector-databases-arent-enough-3h8f",
+      "summary": "AIメモリスタック連載の第3回で、「Durable Memory（永続メモリ）」はベクターデータベースという実装の話ではなく、何を保存すべきかを意図的に決める「ポリシー」であると論じる記事。仕様書・ユーザー設定・意思決定記録・検証済み観察などは保存すべきだが、スクラッチ計算や中間推論、一時的なツール出力は保存すべきでないとし、記憶の設計は「読み出し（検索）」ではなく「書き込み（何を残すか）」の問題だと主張している。すべてを記憶する「Digital Attic（デジタル物置）」状態に陥ると、かえって何も見つけられなくなると警告している。",
+      "category": "agent",
+      "points": 14,
+      "comments": 9,
+      "author": "Ken W Alger",
+      "tags": [
+        "ai",
+        "llm",
+        "database",
+        "architecture"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "[Dev Log][Python] Create short videos from photos and clips with Gemini 3.7 Flash: ReelCraft",
+      "url": "https://dev.to/gde/dev-logpython-create-short-videos-from-photos-and-clips-with-gemini-37-flash-reelcraft-1gc6",
+      "summary": "Gemini 3.7 FlashとLyria 3を使って、写真や動画クリップから短尺の縦型動画を自動生成するPython製CLIツール「ReelCraft」の開発記。当初はマルチモーダルなGemini Omni Flashに複数動画をまとめて理解させようとしたが、複数動画間の参照・推論は非対応と判明したため、動画ごとに個別解析してテキストで集約する設計に変更した経緯を紹介している。編集案の人手確認、ffmpegでの9:16縦型トリミング、Lyria 3による背景音楽生成、字幕の自動焼き込みまでの5段階パイプラインと、途中で遭遇したffmpeg・Geminiの「成功したのに出力が壊れている」トラブルにも触れている。",
+      "category": "devtool",
+      "points": 8,
+      "comments": 1,
+      "author": "Evan Lin",
+      "tags": [
+        "ai",
+        "gemini",
+        "python"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "エラーを 3 秒で AI に丸投げする若手を見て、AI から答えを取り上げることにした",
+      "url": "https://qiita.com/jksoft/items/65f7824679ddf171a93d",
+      "summary": "若手エンジニアがエラーをそのままAIに貼り付けて解決する様子を見て危機感を抱いた著者が、答えを教えずヒントと設問で自力解決を促すAIメンターサービス「SocraMetry」を開発した経緯を紹介する記事。エラーを投げると回答ではなく段階的な問い（Gate A: ヒント、Gate B: 設問、Gate C: 開示）が返り、観察・切り分け・仮説・検証・修正の5軸でデバッグ力を対話履歴から測定する。評価に使われた瞬間に指標が歪む「Goodhartの法則」を意識し、順位付けを既定にしない・成長率を主指標にするなど、測定される側が損をしない設計を心がけたという。",
+      "category": "devtool",
+      "author": "jksoft"
+    },
+    {
+      "source": "qiita",
+      "title": "Copilot Studio で非構造化データはどこまでナレッジになるのか【Part 3: Copilot Studio (Standard harness) を極める】",
+      "url": "https://qiita.com/Isato-Hiyama/items/2b49b499dc5294017efd",
+      "summary": "Microsoft Copilot Studioの非構造化データ活用を検証する連載の第3回。従量課金化したGitHub Copilot Harness（New UI）に対し、定額のStandard Harness（Classic UI）でも同等の精度（7問中7問正解）に到達できるかを再検証した。SharePointコネクタをツールとして明示的に登録し、Code Interpreterへ直接解析させるプロンプト設計とモデルをOpus 4.8に更新したことで、従来5〜6問止まりだった正答率を7問全問正解まで引き上げられたと報告している。",
+      "category": "agent",
+      "author": "Isato-Hiyama"
+    },
+    {
+      "source": "qiita",
+      "title": "【JavaScript】HTML5 Canvas API入門！基礎から図形・テキスト描画まで徹底解説",
+      "url": "https://qiita.com/kasumi_sato/items/a7135eb6caaf336f4053",
+      "summary": "JavaScriptのHTML5 Canvas APIについて、SVGやWebGLとの違いから基本的な図形・テキスト描画、円弧やベジェ曲線の描き方までをコード例付きで解説する入門記事。AI技術とは直接関係のない、フロントエンド開発の技術解説記事である。",
+      "category": "other",
+      "author": "kasumi_sato"
+    },
+    {
+      "source": "qiita",
+      "title": "整えるな。とにかくたくさん吐き出せ。~AIとの「1ターン」を大きく前進させる仮説~",
+      "url": "https://qiita.com/sh-fukaya/items/82ebbf176a12965a8e16",
+      "summary": "AIとの1回のやり取り（1ターン）で成果物までのリードタイムを最も縮めるのは、文章を整えずに大量の情報を速く吐き出すことだという仮説を提示する記事。整形・構造化・文脈統合・生成はAI側の仕事であり、人間は言語化・発散・方向づけに専念すればよいとし、著者自身は音声入力を使って誤変換交じりのまま大量に情報を渡すスタイルに切り替えたことで、依頼から相談までコミュニケーションが柔軟になったと述べている。実際のClaude Coworkセッション分析も交えつつ、体感としてリードタイムが短縮したと報告している。",
+      "category": "other",
+      "author": "sh-fukaya"
+    },
+    {
+      "source": "qiita",
+      "title": "汎用問題ではなく自社規程から出題する—AIによる実務判断型ISMSテストを自動生成する仕組み",
+      "url": "https://qiita.com/mf-huong-dao-thi-thu/items/2ee9d42987c564f02388",
+      "summary": "ISMSやプライバシーマーク運用企業向けに、汎用の既製テスト問題ではなく自社の社内規程を入力として実務判断型のテスト問題をAzure OpenAIで自動生成する仕組みを紹介する記事。規程条文をそのまま設問化するのではなく「この場面でどう判断すべきか」という状況設定型の設問に変換し、生成後はExcel出力を経て担当者が内容を確認・修正するHuman-in-the-Loop型のフローを採用している。日本語・英語・ベトナム語の多言語対応や、受験履歴の自動記録による教育証跡管理にも対応しているという。",
+      "category": "security",
+      "author": "mf-huong-dao-thi-thu"
+    }
+  ]
+}
