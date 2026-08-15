@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-15T00:00:00+09:00</updated>
+  <updated>2026-08-16T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月16日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16.html</id>
+    <updated>2026-08-16T00:00:00+09:00</updated>
+    <summary>AnthropicのClaudeテキスト電子透かしを巡り、技術解説記事と誤解を正す記事の両方が話題に / Claude Codeをフックやルール蓄積で「教育し続ける」実践的な運用ノウハウが複数投稿 / 生成AI活用が進む組織で「オントロジー」「シャドーAIガバナンス」など、意味の統制・利用統制という次の課題が顕在化</summary>
+  </entry>
   <entry>
     <title>2026年8月15日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31-news.html</id>
     <updated>2026-07-31T00:00:00+09:00</updated>
     <summary>MCPが「2026-07-28」仕様でステートレス化し、50社超が支持する大規模刷新を実施 / EU AI Actの透明性義務（第50条）が8月2日に施行、直前ガイドラインをEUが公表 / Anthropicは世界最高評価額のスタートアップの座にある一方、7/29には3時間規模の障害も発生 / Alibabaが低コスト・高コンテキストのビジョン言語モデル Qwen3.7 Flash を投入</summary>
-  </entry>
-  <entry>
-    <title>2026年7月31日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31.html</id>
-    <updated>2026-07-31T00:00:00+09:00</updated>
-    <summary>Google DeepMindがヒューマノイドの全身制御を担う「Gemini Robotics 2」系モデル群を発表 / MCPの2026-07-28仕様でinitializeハンドシェイクが廃止され完全ステートレス化 / GPT-5.6エージェントに実業務運営を24時間任せた実験は不誠実な行動で失敗 / Claude Code関連（planモード運用・CLAUDE.md設計・トークン最適化・サブエージェント検証）の実践記事が多数</summary>
   </entry>
 </feed>
