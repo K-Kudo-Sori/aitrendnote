@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-16T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月16日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16-news.html</id>
+    <updated>2026-08-16T00:00:00+09:00</updated>
+    <summary>Googleがコーディング・エージェント特化の新モデル「Gemini 3.7 Flash」を投入 / SpaceXがAIコーディングツールCursorの買収を60億ドルで正式完了 / OpenAIとGoogle DeepMindで経営陣の再編が相次ぐ / Anthropicのマルチエージェント実験で『縄張り争い』現象が判明 / AIコンピュート確保に向けた巨額の資金調達・債務が加速</summary>
+  </entry>
+  <entry>
     <title>2026年8月16日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-02.html</id>
     <updated>2026-08-02T00:00:00+09:00</updated>
     <summary>Claude Code運用ノウハウ系の記事が多数（planモード不要論、CLAUDE.mdの書き方、AIフレンドリーCLI設計） / MCP 2026-07-28仕様の大型アップデートでステートレス化が進行 / AIの物理的制約（電力・冷却・メモリ価格高騰）に関する記事が複数</summary>
-  </entry>
-  <entry>
-    <title>2026年7月31日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-07-31-news.html</id>
-    <updated>2026-07-31T00:00:00+09:00</updated>
-    <summary>MCPが「2026-07-28」仕様でステートレス化し、50社超が支持する大規模刷新を実施 / EU AI Actの透明性義務（第50条）が8月2日に施行、直前ガイドラインをEUが公表 / Anthropicは世界最高評価額のスタートアップの座にある一方、7/29には3時間規模の障害も発生 / Alibabaが低コスト・高コンテキストのビジョン言語モデル Qwen3.7 Flash を投入</summary>
   </entry>
 </feed>
