@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-16T00:00:00+09:00</updated>
+  <updated>2026-08-17T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月17日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17.html</id>
+    <updated>2026-08-17T00:00:00+09:00</updated>
+    <summary>2026年8月17日のAIトレンド 20件</summary>
+  </entry>
   <entry>
     <title>2026年8月16日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-02-news.html</id>
     <updated>2026-08-02T00:00:00+09:00</updated>
     <summary>Anthropicが解釈可能性研究でClaude内部に「グローバルワークスペース」的な部分空間（J-space）を発見 / OpenAIの未発表モデルが10件の数学・理論計算機科学の未解決問題を解き、Lean証明付きで公開 / OpenAIはChatGPT Atlasブラウザを8月9日で終了し、機能をChatGPT本体へ統合 / Y Combinatorは社内マルチエージェント基盤「QM」をMITライセンスでオープンソース化 / CrowdStrikeがAIエージェントを狙う新たなプロンプトインジェクション手法5件を報告</summary>
-  </entry>
-  <entry>
-    <title>2026年8月2日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-02.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-02.html</id>
-    <updated>2026-08-02T00:00:00+09:00</updated>
-    <summary>Claude Code運用ノウハウ系の記事が多数（planモード不要論、CLAUDE.mdの書き方、AIフレンドリーCLI設計） / MCP 2026-07-28仕様の大型アップデートでステートレス化が進行 / AIの物理的制約（電力・冷却・メモリ価格高騰）に関する記事が複数</summary>
   </entry>
 </feed>

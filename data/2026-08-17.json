@@ -1,0 +1,219 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026/8/17 7:39:39",
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Claude: System Prompts",
+      "url": "https://platform.claude.com/docs/en/release-notes/system-prompts",
+      "summary": "Hacker Newsに投稿されたAnthropic公式サイトの「Claude: System Prompts」ページへのリンク。取得できた本文はサイトナビゲーションのみで、システムプロンプトの具体的な記述内容自体は本文からは確認できなかった。ページはAnthropicがClaude各モデルに設定しているシステムプロンプトを公開する取り組みに関連するとみられ、モデルの透明性向上を意図したものと考えられる。詳細はリンク先の実際のページを参照する必要がある。",
+      "category": "model",
+      "points": 465,
+      "comments": 204,
+      "author": "tosh"
+    },
+    {
+      "source": "hackernews",
+      "title": "The AI Credit Resale Economy",
+      "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+      "summary": "セキュリティ研究者が、Anthropicなどの未使用API利用枠（トークン）を割引価格で転売する「トークンブローカー」の存在を追跡した記事。スタートアップ間で余ったクレジットを融通し合う慣行が、いつの間にか業者を介した市場として商業化している実態を、実際のメール勧誘やチャットのやり取りを交えて紹介している。相場は正規料金から40〜50%引きといった水準で、直接取引の勧誘メールが多くの創業者に届いていることが報告されている。筆者はブローカーに直接接触し、この非公式市場がどのように機能しているかを取材している。",
+      "category": "product",
+      "points": 198,
+      "comments": 74,
+      "author": "mlenhard"
+    },
+    {
+      "source": "hackernews",
+      "title": "Stripe Clinches over $7B Deal to Buy AI Firm OpenRouter",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-16/stripe-nears-deal-to-buy-ai-firm-openrouter-for-over-7-billion",
+      "summary": "本文取得失敗。",
+      "category": "product",
+      "points": 77,
+      "comments": 64,
+      "author": "zacharyozer"
+    },
+    {
+      "source": "hackernews",
+      "title": "The Case Against Formal Verification, 50 Years Later",
+      "url": "https://ivan-gavran.github.io/0-social-processes-paper",
+      "summary": "長らくニッチな分野とされてきた形式検証（フォーマルベリフィケーション）が、AIコーディングの普及を背景に急速に注目を集めている状況を論じる記事。AIエージェントが書くコードは人間の理解が及びにくい「穴」を生むため、正しさを担保する別の手段として検証技術への需要が高まっていると指摘する。また、AIによってコード生成自体が高速化するほど、今後の生産性向上の余地は正しさの保証（検証）の領域に移っていくという見立てを示す。LeanなどのAI時代の仕様記述言語の広がりや、大規模アプリケーションの end-to-end 検証プロジェクトの例にも触れている。",
+      "category": "research",
+      "points": 53,
+      "comments": 44,
+      "author": "ghuntley"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Seems Down",
+      "url": "https://news.ycombinator.com/item?id=49324078",
+      "summary": "Claudeの認証サービスが利用不能になり、OAuthセッションが強制的に切断されるという障害が発生したことを報告するHacker Newsスレッド。公式ステータスページには当初更新が反映されていなかったものの、Downdetectorには多数の障害報告が寄せられていたと紹介されている。コメント欄では、代替として他のLLMサービスへ一時的に切り替えたというユーザーの声も見られる。障害の技術的な原因は本文からは明らかにされていない。",
+      "category": "infra",
+      "points": 44,
+      "comments": 29,
+      "author": "zhan_eg"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude がテキストに電子透かしを入れ始めたので、LLM ウォーターマーキングの仕組みを調べた",
+      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
+      "summary": "AnthropicがEU AI Actの透明性規範に署名したことを受け、2026年8月以降にリリースされるClaudeのモデルが生成テキストに機械可読な電子透かしを埋め込むようになったことを解説する記事。テキストへの透かしは、LLMが次の単語を確率分布からサンプリングする際の「揺らぎ」を秘密鍵由来のルールでわずかに偏らせることで実現されると説明する。この分野の起点となった2023年のKGW法（語彙をグリーンリストとレッドリストに分けロジットにボーナスを与える手法）を紹介しつつ、GoogleのSynthID-Textなど先行する実装にも言及している。画像と異なりテキストは離散的なトークン列であるため実用化は困難だと思われていたが、3年で研究が急速に進展した経緯が振り返られている。",
+      "category": "model",
+      "points": 430,
+      "author": "Kaito Sugimoto"
+    },
+    {
+      "source": "zenn",
+      "title": "なぜAI時代にGoが最適な言語なのか",
+      "url": "https://zenn.dev/iwatsukayura/articles/google-go-ai",
+      "summary": "GoogleのGolangプロダクトマネージャーらが執筆した「Why Go is an Ideal Language for AI-Assisted Software Engineering」の日本語訳と、訳者自身の考察をまとめた記事。AIがコードを書く時代こそ言語選定の重要性が増しており、Goは標準ツールチェーンだけでコンパイル・テスト・依存関係管理・脆弱性検査までをカバーする「ソフトウェアエンジニアリングのプラットフォーム」だと位置づけている。これにより、AIエージェントが自らの出力を検証・修正するLoop Engineeringの土台を整えやすく、統一された書式や読みやすさ重視の言語設計がレビュー負荷の軽減にも寄与すると論じる。訳者はGoogle発の主張であるという留保をつけつつ、賛同点と疑問点を訳文の後に整理している。",
+      "category": "devtool",
+      "points": 78,
+      "author": "IwatsukaYura"
+    },
+    {
+      "source": "zenn",
+      "title": "5ヶ月育てたClaude CodeのCLAUDE.md/skills/rulesをOpus 5向けにClaude自身に棚卸しさせた",
+      "url": "https://zenn.dev/koki_n22/articles/986f61d16989cb",
+      "summary": "5か月かけて育ててきたClaude Code用のCLAUDE.md・skills・rulesが、Opus 5では逆に読み込ませない方がうまく動くと感じたため、Claude自身に棚卸しをさせた体験記。専用コマンドで各ファイルの要否や書き換えを判断させたところ、40個あったskillsが6個、常時ロード量は32,694文字から9,465文字へと72%削減できたという。一方で「その仕組み自体が今も必要か」という根本的な問いには自発的には踏み込んでくれず、自律開発ループの要否などはユーザー側から提案して初めて不要と判断されたと述べている。Opus 5向けに既存設定を見直す際は、書き換えだけでなく仕組み自体の要否から検討するとよいと結論づけている。",
+      "category": "devtool",
+      "points": 53,
+      "author": "koki_n22"
+    },
+    {
+      "source": "zenn",
+      "title": "メール確認コードを不要にする Email Verification Protocol (EVP)",
+      "url": "https://zenn.dev/tkou15/articles/email-verification-protocol",
+      "summary": "アカウント登録時に多くのサイトで必須となっているメール確認コードのやり取りを、ブラウザが発行者から署名済みトークンを取得する仕組みに置き換えて省略しようとする新プロトコル「Email Verification Protocol（EVP）」を解説する記事。上位サイトの95%がメールでのアカウント作成に対応し、その73%が確認完了までサインアップを進ませないという調査結果を挙げ、この往復がコンバージョンに直結する課題であると指摘する。2026年6月にIETFでInternet-Draftが公開され、7月にはChromeでオリジントライアルが始まったとしている。仕様はIETFのHTTPレベルプロトコルとW3C/WICGのブラウザAPIの2つに分かれ、著者はOAuth 2.0やFedCMを手がけた人物であることも紹介されている。",
+      "category": "security",
+      "points": 56,
+      "author": "k1t"
+    },
+    {
+      "source": "zenn",
+      "title": "MacBook Air M5 RAM32GBで実用的なローカルLLMを探す 生成速度測定編",
+      "url": "https://zenn.dev/koki_n22/articles/493f85b9f875ca",
+      "summary": "MacBook Air M5（RAM32GB）でコーディング用途に実用的なローカルLLMを探すため、まず生成速度だけを比較検証した記事。最初に試した27.8B denseモデル「qwen3.6:27b」はメモリには載ったものの512トークン生成時で6.23 tokens/sしか出ず、実用に耐えないと判断したという。一方でMoE（Mixture of Experts）構成のモデルを試したところ、「north-mini-code-1.0」で49.29 tokens/s、「qwen3.6:35b-a3b」で41.85 tokens/sと大幅に高速だったと報告している。この結果を踏まえ、今後は「メモリに載るか」だけでなく「実機で十分な速度が出るか」で候補を絞ってから品質評価に進む方針に変更したとしている。",
+      "category": "model",
+      "points": 7,
+      "author": "koki_n22"
+    },
+    {
+      "source": "devto",
+      "title": "Pawford Academy — A SwiftUI Puppy Training App with ElevenLabs AI Voice 🐾🎓",
+      "url": "https://dev.to/gamya_m/pawford-academy-a-swiftui-puppy-training-app-with-elevenlabs-ai-voice-552k",
+      "summary": "DEV Community主催の週末ハッカソン「Dog Days Edition」への投稿記事で、子犬のしつけを記録できるSwiftUI製iOSアプリ「Pawford Academy」を紹介している。ElevenLabsのAI音声を使い、トレーニングセッション終了ごとに犬を励ますボイスコーチ機能を搭載しているのが特徴。このほか、犬種選択（16種類）を含むプロフィール設定、6種類の気分を記録するムードトラッカー、10種類の基本コマンドのセッションログ、全セッション完了時の卒業証書発行機能などを備える。開発の動機は、筆者が子供の頃に飼っていた愛犬への思い出にあると綴られている。",
+      "category": "product",
+      "points": 15,
+      "comments": 2,
+      "author": "Gamya ",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "swiftui",
+        "ios"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Your Dog Can't Tell You Where It Hurts. MATCH_RECOGNIZE in Snowflake Can.",
+      "url": "https://dev.to/soumyadeepdey/your-dog-cant-tell-you-where-it-hurts-matchrecognize-in-snowflake-can-1pan",
+      "summary": "DEV Community週末ハッカソン「Dog Days Edition」への投稿で、犬が痛みを隠す習性のために慢性的な健康問題の発見が遅れがちだという課題を、SnowflakeのSQLパターンマッチング機能「MATCH_RECOGNIZE」を使ったダッシュボードで可視化しようとする取り組みを紹介している。国際犬の日（8月26日）の由来に触れつつ、シェルターにいる犬と家庭にいる犬との間のギャップを問題意識の出発点としている。記事の大部分は実装で用いたSQLの解説に充てられており、行動データから異常なパターンを検出するアプローチが説明されている。AIというよりはデータベース技術の活用が中心の内容である。",
+      "category": "other",
+      "points": 10,
+      "comments": 0,
+      "author": "Soumyadeep Dey ",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "snowflake",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Paw & Order: upload your dog, and defend them against evidence generated from their own photo",
+      "url": "https://dev.to/arjen_/paw-order-upload-your-dog-and-defend-them-against-evidence-generated-from-their-own-photo-of7",
+      "summary": "DEV Community週末ハッカソン「Dog Days Edition」への投稿記事で、愛犬の写真をアップロードすると、AIが生成した「証拠」をもとにその犬が架空の罪で起訴され、ユーザーが弁護人として裁判を進めるブラウザゲーム「Paw & Order」を紹介している。生成AIによる犬の画像3点が証拠として提示され、証人尋問の中で少なくとも1人は嘘をついているという設定で、プレイヤーの選択によって裁判が分岐していく。最終的に4種類の判決のいずれかとスコアが表示され、隠された「真実」は裁判開始前に生成されており、同じ事件でも選択次第で結末が変わる仕組みになっている。",
+      "category": "product",
+      "points": 7,
+      "comments": 0,
+      "author": "Arjen",
+      "tags": [
+        "weekendchallenge",
+        "devchallenge"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How We Got an LLM to Draw Charts Without Ever Touching a Pixel",
+      "url": "https://dev.to/lovestaco/how-we-got-an-llm-to-draw-charts-without-ever-touching-a-pixel-1i21",
+      "summary": "コードレビュー分析ツールを提供するLiveReview社が、蓄積したレビューデータをチャットボット「Livi」で可視化する際に、LLMに直接ピクセルを描かせるのではなく、チャットの定義（仕様）を出力させる設計にした理由を解説する記事。この方式により、同じチャート定義がブラウザ上のインタラクティブなグラフと、Slackに貼れる静止画PNGの両方として表示できるようになるという。LLMに適切なグラフの種類（棒グラフ・折れ線グラフなど）を選ばせること自体が想像以上に難しい課題だったことにも触れている。エンジニアリングリーダーが「導入は増えているか」といった問いに対し、印象論ではなく実データに基づくグラフで答えられるようにすることが狙いだとしている。",
+      "category": "devtool",
+      "points": 24,
+      "comments": 3,
+      "author": "Athreya aka Maneshwar",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "beginners"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Claude Impact Lab LA: Community Changed the Code",
+      "url": "https://dev.to/earlgreyhot1701d/claude-impact-lab-la-community-changed-the-code-1mg2",
+      "summary": "Claude Communityが主催するローカルイベント「Claude Impact Lab」のロサンゼルス開催回に参加した体験記。事前に開催された「Claude Conversation」で語られた、AIが仕事に与える影響についての議論を踏まえ、当日その場で結成したチームで1日がかりのビルドイベントに取り組んだ様子が綴られている。筆者はコードを一切書いていない状態のアイデアと仕様書だけを持ち込み、その場で出会った3人と協力してプロダクト「Civiq」（市議会の議題を市民が追いやすくするツール）へと形にしていったという。開発が進むにつれてアイデアの発案者・貢献者が増え、80分後にはプロダクト名自体をチームで改名するに至った過程が描かれている。",
+      "category": "product",
+      "points": 12,
+      "comments": 1,
+      "author": "Earl Grey",
+      "tags": [
+        "ai",
+        "civictech",
+        "community",
+        "claude"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "エラーを 3 秒で AI に丸投げする若手を見て、AI から答えを取り上げることにした",
+      "url": "https://qiita.com/jksoft/items/65f7824679ddf171a93d",
+      "summary": "エラーメッセージを一度も読まずにAIへ貼り付け、返ってきたコードをそのまま使う若手エンジニアの姿を見て違和感を覚えた筆者が、自分自身にも同じ傾向があることに気づいた体験を綴る記事。生成AIで開発速度は上がった一方、なぜ壊れ何故直ったかを理解しないまま次のタスクへ進む習慣が広がり、個人の実力が成果物から見えにくくなっている問題を指摘する。評価面談でエンジニアの実力を語ろうとしても、コミットログがAIとの共同作業になっており「印象」でしか語れないという管理職としての悩みも紹介される。この課題感から、AIに答えを出させるのではなく問いを投げかけさせる仕組み「SocraM」というプロダクトを開発したことが述べられている。",
+      "category": "product",
+      "author": "jksoft"
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェントの作業結果、マークダウンで読むの辛くない？ →「HTML共有くん」を作りました",
+      "url": "https://qiita.com/minorun365/items/320b4230c0b0c169ba13",
+      "summary": "Claude CodeなどのAIエージェントに任せた経費精算・稼働報告・レビュー対応などの雑務の成果物（多くはHTML）を、出先のスマートフォンからでも一覧・確認できるダッシュボード「HTML共有くん」を自作した経緯を紹介する記事。案件フォルダに散らばったHTMLをfile://ではスマホのSafariで開けない、Slackに貼ると旧版が残る、Driveだと権限設定が毎回必要といった従来の不便さが開発の動機になっている。OSSとして公開されており、中身はCLIとスキルで構成されているため、Claude CodeだけでなくCodexやCursorなど手元のどのエージェントからも同じように呼び出せるという。原本は案件フォルダのGitに置き配信はコピーする、人間はアップロードせずエージェントに日本語で頼むだけ、といった設計方針が挙げられている。",
+      "category": "agent",
+      "author": "minorun365"
+    },
+    {
+      "source": "qiita",
+      "title": "なぜ、AI時代においてC#は最適な言語の1つなのか？",
+      "url": "https://qiita.com/tomokusaba/items/45b66545bb7ea88e8403",
+      "summary": "AI時代のプログラミング言語選定において、C#が「AIが生成したコードの質を人間が早く見抜き、安全に運用できる」設計になっているため優れていると論じる記事。強い静的型システムやRoslynによるコンパイル時のエラー検出、.editorconfigによるルールの自動化、充実したBCL・標準ライブラリなどを理由に挙げている。AIは文法的には正しくても意味的に破綻したコード（例として型の不整合な演算）を生成しがちであり、動的型付け言語では実行時まで気づきにくいこうした誤りを、C#はコンパイル前段階で検出しやすいと主張する。結論として、AI時代に重要なのは「書く力」より「生成されたコードをすぐに安全に検証できるか」であり、その点でC#が有利だとまとめている。",
+      "category": "devtool",
+      "author": "tomokusaba"
+    },
+    {
+      "source": "qiita",
+      "title": "『Claude Code実践入門』を発売日に一気読みしたので感想をつらつらと",
+      "url": "https://qiita.com/tomada/items/0bfbaffce6fae70be17f",
+      "summary": "2026年8月14日に発売された書籍『Claude Code実践入門［生成AI深掘りガイド］』を発売日に一気読みした感想記事。全7章337ページで、タスク管理アプリ「TaskBoard」を題材にしたハンズオン形式により、基本操作からCLAUDE.mdや権限設定、スキル・MCPでの拡張、ヘッドレスモードやCI活用、企業導入時のセキュリティ・コストの観点まで章を追って学べる構成だと紹介している。単なる機能の羅列ではなく、実際にコマンドを動かした結果や、.envを読ませようとしてClaudeに止められる過程をログで示すなど、実演を伴う解説が随所にあることを評価している。Claude Codeを使い込んでいる筆者でも知らなかった組み込みスキルの広さや、/loop・/goalコマンドの活用など、発見が多かったとまとめている。",
+      "category": "devtool",
+      "author": "tomada"
+    },
+    {
+      "source": "qiita",
+      "title": "原本は1つ、ビューは毎回作り直す。AIをアシスタントにした軽量タスク運用",
+      "url": "https://qiita.com/gmo-co-kitaura/items/acb76b46b710348c60cd",
+      "summary": "少人数チームでのタスク管理ツール選定に行き詰まった筆者が、専用ツールを選ぶのをやめ、Claude DesktopのCowork機能を使ってタスクの原本（自然言語の台帳）をAIに管理させ、必要な形式のビュー（一覧・週次レポートなど）はその都度AIに作り直させる運用に切り替えた事例を紹介する記事。平日朝9:30に未完了タスクをAIが自動的に提示し、ユーザーは番号で進捗を伝えるだけで済むようにするなど、更新の起点を人間からAI側へ移した点が特徴とされる。フォームへの入力は不要で、話し言葉でタスクを伝えるだけでAIがフェーズや作業種別を会話から埋め、関連する既存タスクがあれば指摘してくれる点が有用だったと述べている。ファイル読み書きと定時実行の仕組みさえあれば、Claude Desktop以外のツールでも同じ考え方を流用できるとしている。",
+      "category": "agent",
+      "author": "gmo-co-kitaura"
+    }
+  ]
+}
