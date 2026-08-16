@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-17",
+  "generatedAt": "2026/8/17 8:13:52",
+  "highlights": [
+    "AnthropicがEU AI法対応でClaude生成テキストへの透かし導入を発表、世界全体に適用へ",
+    "Googleがコーディング/エージェント特化の新モデル「Gemini 3.7 Flash」を投入、価格を半額に",
+    "Stripeがマルチモデルアクセスの「OpenRouter」を70億ドル超で買収と報道",
+    "AnthropicのCEOはAIへの世間の反発を「信頼の危機」と分析、業界の実績不足を指摘",
+    "OpenAIはCerebrasとの連携で最大14倍高速な「Ultrafast」モードをGPT-5.6 Solに追加"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、Claudeが生成するテキストへの透かし導入を発表",
+      "url": "https://www.anthropic.com/news/claude-text-watermark",
+      "summary": "AnthropicはEU AI法（Transparency Code）への対応として、Claudeが生成・大幅編集したテキストに人間の目には分からない透かしを埋め込むと発表した。2026年8月2日以降にEUで提供する新モデルは提供開始時から対応し、この仕組みは世界全体に適用される。8月2日より前のモデルには移行期間を設けて順次対応していく方針。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、コーディング・エージェント向け新モデル「Gemini 3.7 Flash」を発表",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "summary": "Googleは2026年8月13日、コーディングやAIエージェント用途に最適化した新モデル「Gemini 3.7 Flash」を発表した。前モデルのGemini 3.6 Flashに比べコード生成精度が向上し（FrontierCodeで43.6%、DeepSWEで65.3%）、価格は年内は従来比半額の入力100万トークンあたり0.75ドル・出力3.75ドルに設定された。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Stripe、AIゲートウェイ企業OpenRouterを70億ドル超で買収へ",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "summary": "Bloombergの報道として、決済大手StripeがAIモデルへの統合アクセスを提供するOpenRouterを70億ドル超で買収する見通しと報じられた。OpenRouterは400以上のAIモデルへのアクセスを提供し世界で800万ユーザーを抱えるが、わずか3カ月前に評価額13億ドルでシリーズBを調達したばかりだった。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicのCEO、AIへの反発は「本質的には信頼の危機」と発言",
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "summary": "AnthropicのダリオCEOは、自身のリスク警告がAIへの反発を煽っているという批判に反論し、自らの発信は「リスクと便益をほぼ均等に扱ってきた」と述べた。その上で反発の根本原因は「人々が企業や政府、テック業界を信頼していないこと」にあり、AI企業が世界に恩恵をもたらすという約束をまだ果たせていない点こそ批判されるべきだと主張した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "ザッカーバーグ氏が描くAIの未来、なぜ人々の支持を得られないのか",
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "summary": "Meta CEOのマーク・ザッカーバーグ氏は「The Future is for Everyone」と題した約6500語のエッセイを公開し、誰もが使えるパーソナルAIエージェントが広がる未来像を描いた。TechCrunchはこれに対し、SNS時代の実績への不信感やビジョンの抽象性から懐疑論が根強いと指摘している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、法人向け高速処理モード「Ultrafast」をGPT-5.6 Solに追加",
+      "url": "https://itbrief.asia/story/openai-launches-ultrafast-gpt-5-6-sol-for-businesses",
+      "summary": "OpenAIはCerebrasのウェハースケール技術を活用し、GPT-5.6 Solを標準比最大14倍高速・毎秒750トークンで応答する「Ultrafast」モードを発表した。現在は一部顧客向けの限定プレビューで、障害対応や金融のリアルタイム分析、カスタマーサポートなど即時性が求められる用途での活用が想定されている。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-08-17-news"
+}
