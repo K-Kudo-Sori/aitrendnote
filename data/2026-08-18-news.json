@@ -1,0 +1,49 @@
+{
+  "date": "2026-08-18",
+  "generatedAt": "2026/8/18 8:09:14",
+  "highlights": [
+    "Z.aiが新モデル「GLM-5.3」を発表、コーディング性能を大幅強化しつつ脆弱性解析能力も急伸したため重み公開を2週間遅らせて安全性評価",
+    "Anthropicが四半期ベースで初の営業黒字化に近づき、OpenAIに先んじて2兆ドル評価でのIPOを目指す動きが加速",
+    "AmazonがAI学習データ確保のため希少な古書を裁断・スキャンしている実態が報じられ物議",
+    "AI動画生成のHiggsfieldが4億ドルのシリーズBを調達、8カ月で評価額が4倍の54億ドルに",
+    "GoogleのAIエージェントがChromeに13年間潜んでいたサンドボックス脱出の脆弱性を発見・修正済みと判明"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Z.ai、AIモデル「GLM-5.3」を発表——コーディングと脆弱性解析を強化、重みは2週間後に公開予定",
+      "url": "https://gihyo.jp/article/2026/08/glm-5.3",
+      "summary": "中国Z.ai（旧Zhipu AI）は7430億パラメータの基盤モデルをベースに事後学習を強化した新モデル「GLM-5.3」を発表した。公開コーディングベンチマークでClaude Opus 4.8を上回るなど大幅な性能向上を達成した一方、脆弱性発見・悪用手順の構築能力も想定以上に伸びたため、安全性評価と堅牢化を終えるまでモデルの重み公開を発表から2週間遅らせるとしている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、2兆ドル評価でのIPOを目指すもAmazon並みの収益力にはまだ届かず",
+      "url": "https://fortune.com/2026/08/14/anthropic-valuation-ipo-amazon-trillion-openai/",
+      "summary": "Anthropicは2026年10月の株式公開を視野に2兆ドルという評価額を目指しているが、その水準を正当化するには年間590億〜790億ドル規模の利益が必要になるとの分析が出ている。同社は2026年第2四半期に売上高109億ドルで初の営業黒字を計上する見込みだが、これは支払利息や税を除いた営業ベースの数字であり、正味利益はまだ小さい。株式公開でOpenAIに先行することで市場の評価基準を握る狙いがあるとみられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "書籍販売から始まったAmazon、AI学習用に希少な古書を裁断してスキャン",
+      "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/",
+      "summary": "Amazonが希少な絶版書籍を大量に購入し、背表紙を切り落として本文をスキャンしAIモデルの学習データにしている実態を404 Mediaが追跡装置を使った調査で明らかにした。2022年以前に書かれた書籍はAI生成コンテンツを含まないため、AIがAI自身の出力を学習してしまう「モデル崩壊」を避けられる貴重なデータ源とされる。Amazonは「顧客向け製品・サービス改善のため商業ルートで書籍を購入している」とコメントしている。",
+      "category": "other"
+    },
+    {
+      "source": "websearch",
+      "title": "AI動画生成のHiggsfield、シリーズBで4億ドルを調達し評価額54億ドルに",
+      "url": "https://techcrunch.com/2026/08/17/higgsfield-raises-400m-series-b-quadrupling-its-valuation-in-8-months-to-5-4b/",
+      "summary": "元Snap幹部が創業したAI動画・画像生成プラットフォームHiggsfieldが、DST Global主導のシリーズBで4億ドルを調達し評価額54億ドルとなった。8カ月前の前回ラウンド（評価額13億ドル）から4倍への急上昇となる。同社は映像制作向けの「Cinema Studio」や広告向けの「Marketing Studio」を提供し、200カ国3000万ユーザー・フォーチュン500企業390社が利用、年換算売上高は7億ドルに達している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "GoogleのAIエージェント、Chromeに13年間潜んでいたサンドボックス脱出の脆弱性を発見",
+      "url": "https://www.securityweek.com/googles-ai-agent-uncovers-13-year-old-chrome-flaw-amid-record-patching-pace/",
+      "summary": "Googleが構築したGemini活用のAIエージェントが、Chromeのナビゲーション機能に13年間存在していたサンドボックス脱出の脆弱性（CVSSスコア9.8、CVE-2026-3545）を発見した。悪用されれば侵害されたレンダラーからローカルファイルを読み取られる恐れがあったが、Chrome 145で既に修正済み。GoogleのAIパイプラインはこれを含め直近2回のリリースだけで1000件超の脆弱性を修正しており、AIによる脆弱性発見の実効性を示す事例として注目されている。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-08-18-news"
+}

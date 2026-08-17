@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-18T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月18日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18-news.html</id>
+    <updated>2026-08-18T00:00:00+09:00</updated>
+    <summary>Z.aiが新モデル「GLM-5.3」を発表、コーディング性能を大幅強化しつつ脆弱性解析能力も急伸したため重み公開を2週間遅らせて安全性評価 / Anthropicが四半期ベースで初の営業黒字化に近づき、OpenAIに先んじて2兆ドル評価でのIPOを目指す動きが加速 / AmazonがAI学習データ確保のため希少な古書を裁断・スキャンしている実態が報じられ物議 / AI動画生成のHiggsfieldが4億ドルのシリーズBを調達、8カ月で評価額が4倍の54億ドルに / GoogleのAIエージェントがChromeに13年間潜んでいたサンドボックス脱出の脆弱性を発見・修正済みと判明</summary>
+  </entry>
+  <entry>
     <title>2026年8月18日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04.html</id>
     <updated>2026-08-04T00:00:00+09:00</updated>
     <summary>Anthropicがサイバーセキュリティ評価中の設定ミスで実在企業3社にAIが侵入したインシデントを公表 / arXiv論文「HANDBOOK.md」が長い指示書をAIが守れる割合は最良モデルでも36.2%と報告 / MCPが2026-07-28仕様で大型アップデート、initializeハンドシェイクとセッションIDを廃止 / 中国Moonshot AIの新モデル「Kimi K3」（2.8兆パラメータ）が無料公開で話題に / Claude Code関連の運用ノウハウ記事（planモード離れ、タスク管理、Skills活用）が多数</summary>
-  </entry>
-  <entry>
-    <title>2026年8月3日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03-news.html</id>
-    <updated>2026-08-03T00:00:00+09:00</updated>
-    <summary>EU AI法の透明性義務が8月2日から本格執行開始 / OpenAIがアクティブユーザー10億人・導入企業200万社を突破 / OpenAIがカンボジア拠点の詐欺組織によるChatGPT悪用を摘発 / サム・アルトマン氏の「開発ペースを落とすべき」発言が波紋 / AppleがQ3決算で増収増益、新Siri AIを軸にAI戦略を強調</summary>
   </entry>
 </feed>
