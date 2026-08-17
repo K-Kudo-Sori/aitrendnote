@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-17T00:00:00+09:00</updated>
+  <updated>2026-08-18T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月18日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18.html</id>
+    <updated>2026-08-18T00:00:00+09:00</updated>
+    <summary>GitHub CopilotのAI「Autofix」が入れたコード修正が原因で、Snowflakeのリポジトリに重大な脆弱性が生まれ、実際に悪用実証まで至った事例が公開された / AnthropicがClaude生成テキストへの電子透かし埋め込みを開始し、その仕組み（distortion-free方式・SynthID-Text）を解説する記事が話題に / AIエージェント時代の開発言語としてGoが再評価されており、静的型・可読性重視の設計がAIコード生成のガードレールとして機能するという議論 / Claude Code関連の話題（cross-session messaging、/watch-…</summary>
+  </entry>
   <entry>
     <title>2026年8月17日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03-news.html</id>
     <updated>2026-08-03T00:00:00+09:00</updated>
     <summary>EU AI法の透明性義務が8月2日から本格執行開始 / OpenAIがアクティブユーザー10億人・導入企業200万社を突破 / OpenAIがカンボジア拠点の詐欺組織によるChatGPT悪用を摘発 / サム・アルトマン氏の「開発ペースを落とすべき」発言が波紋 / AppleがQ3決算で増収増益、新Siri AIを軸にAI戦略を強調</summary>
-  </entry>
-  <entry>
-    <title>2026年8月3日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-03.html</id>
-    <updated>2026-08-03T00:00:00+09:00</updated>
-    <summary>MCPが2026-07-28仕様で大型刷新。initializeハンドシェイクとセッションIDが廃止され、ステートレスなリクエスト単位モデルへ移行 / Claude Code運用系の記事が多数：planモード不要論、サブエージェント並列のコスト検証、Claude/Codex設定ファイルの同期ツール自作 / 「AIの出力をそのまま出すだけの人にならないために」など、生成AI時代のエンジニアの働き方を内省する記事が目立つ</summary>
   </entry>
 </feed>

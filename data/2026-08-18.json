@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-18",
+  "generatedAt": "2026/8/18 7:04:11",
+  "highlights": [
+    "GitHub CopilotのAI「Autofix」が入れたコード修正が原因で、Snowflakeのリポジトリに重大な脆弱性が生まれ、実際に悪用実証まで至った事例が公開された",
+    "AnthropicがClaude生成テキストへの電子透かし埋め込みを開始し、その仕組み（distortion-free方式・SynthID-Text）を解説する記事が話題に",
+    "AIエージェント時代の開発言語としてGoが再評価されており、静的型・可読性重視の設計がAIコード生成のガードレールとして機能するという議論",
+    "Claude Code関連の話題（cross-session messaging、/watch-video、diagram-designスキル）が日本語コミュニティで複数取り上げられ、公式ドキュメントと紹介記事のズレが指摘された"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "AI;DR (AI; Didn't Read)",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+      "summary": "筆者は自身をAI推進派だとしながらも、編集や吟味をせずにそのまま送られてくるAI生成文章に強い抵抗感を覚えるようになったと述べる。TL;DR（長すぎて読んでいない）になぞらえて「AI;DR（AIが書いたので読んでいない）」という新語を提案し、SNSでも話題になった。カスタマーサポートなど100%AI生成が許容される場面はある一方、同僚間のやり取りや個人の発信で無編集のAI出力をそのまま送ることには問題提起している。人間の手が入っていない文章は読む価値が低いとみなす、新しい読者側のポリシーを呼びかける内容。",
+      "category": "other",
+      "points": 378,
+      "comments": 229,
+      "author": "mooreds"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI-Generated GitHub Copilot “Autofix” Allowed Compromise of Snowflake's Jira",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
+      "summary": "Wiz Researchの自律型AIセキュリティ調査ツール「Red Agent」が、SnowflakeのGitHub Actionsワークフローに存在するスクリプトインジェクション脆弱性を発見した。この脆弱性は「Copilot Autofix powered by AI」を共著者とするPRによって、安全だった既存のサニタイズ処理が直接文字列展開に置き換えられたことで混入していた。攻撃者は細工したGitHub issueのタイトルだけで任意コマンドを実行でき、実際にJiraの認証情報を窃取できることが実証された。AIコーディングエージェントが脆弱性を生み出し、別のAIエージェントがそれを即座に発見・悪用するという新しいリスク構図を示す事例として報告されている。",
+      "category": "security",
+      "points": 280,
+      "comments": 116,
+      "author": "galnagli"
+    },
+    {
+      "source": "hackernews",
+      "title": "GPT 5.6 Sol is the best \"vision\" model OpenAI ever released",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/",
+      "summary": "Roboflowが独自のVLMベンチマークでOpenAIの新モデル群（Sol・Terra・Luna）の視覚能力を検証した記事。物体検出はGPT-5.5の13.8 mAPからSolは46.2 mAPへ大幅に向上し、物体カウントの精度も64.9%から73.0%に改善するなど、画像認識能力が大きく強化されたことを報告している。一方で2000×2000ピクセル以上の大きな画像では出力が不安定になる既知の問題があり、事前リサイズが実務上の回避策として推奨されている。座標指定形式（XYXYの絶対座標）を誤るとGeminiなど他モデルと比べて精度が大きく落ちる点にも言及している。",
+      "category": "model",
+      "points": 279,
+      "comments": 146,
+      "author": "plurby"
+    },
+    {
+      "source": "hackernews",
+      "title": "On AI regulation and messaging",
+      "url": "https://twitter.com/DarioAmodei/status/2088758816376807762",
+      "summary": "AnthropicのCEO Dario Amodeiが、AI規制と権力集中の関係についてのSNS上での議論に応答した内容。「規制か分散か」という二項対立は誤りであり、公正な制度設計はむしろ権力を分散させ得ると主張。AnthropicがSB 53などの政策提案において、フロンティア企業に不利で新興企業に有利になるよう意図的に閾値を設計してきた経緯を説明している。AIは規制の有無にかかわらず構造的に権力を集中させる性質を持つとした上で、事前デプロイ試験など米政権が検討中の枠組みを支持する立場を表明している。",
+      "category": "product",
+      "points": 224,
+      "comments": 479,
+      "author": "jacquesm"
+    },
+    {
+      "source": "hackernews",
+      "title": "How to disable or avoid intrusive AI",
+      "url": "https://www.librarian.net/notoai/",
+      "summary": "図書館スタッフの筆者が、日常のデバイスやアプリに組み込まれた「望まれていないAI機能」を無効化するための実践的ガイドをまとめた記事。Adobe Acrobat/Reader、Android/Gemini、Amazon Alexa、Apple Intelligence/Siri、Chrome/Edge/Firefoxなど、主要なソフトウェア・サービスごとに、AI機能をオフにする具体的な設定手順を紹介している。AIを好んで使うユーザー向けではなく、意図せず組み込まれたAI機能を避けたい利用者向けのリファレンスとして書かれている。",
+      "category": "product",
+      "points": 213,
+      "comments": 112,
+      "author": "ColinWright"
+    },
+    {
+      "source": "zenn",
+      "title": "Codexを効率よく使う方法（ChatGPT + GitHub）",
+      "url": "https://zenn.dev/aun_phonogram/articles/3f8c1a7b5d902e",
+      "summary": "ChatGPTとCodexを使い分けて開発効率を高める方法を紹介する記事。ChatGPT（Chat）とCodex/ChatGPT Workでは利用枠が別立てであることを踏まえ、コード変更を伴わない調査・実装計画・PRの補助レビューをChatGPTのGitHubプラグインに任せることで、Codexの利用枠を実装作業に集中させる運用を提案している。レート制限の回避が目的ではなく正規の範囲内での使い分けであることを強調し、対象リポジトリ・PR・Issueを明確に指定することで誤操作を防ぐコツも紹介している。",
+      "category": "devtool",
+      "points": 53,
+      "author": "吉岡 裕貴"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude がテキストに電子透かしを入れ始めたので、LLM ウォーターマーキングの仕組みを調べた",
+      "url": "https://zenn.dev/hellorusk/articles/3328866ca9e922",
+      "summary": "AnthropicがEU AI Act対応の一環としてClaudeの生成テキストに電子透かしを埋め込むと発表したことを受け、LLMウォーターマーキング技術の仕組みを解説する記事。次トークン選択の確率的揺らぎを秘密鍵由来のルールで偏らせるKGW法を起点に、生成分布を歪めないdistortion-free手法（Gumbel-Maxトリック）や、Google DeepMindが実運用しているSynthID-Textのトーナメント方式サンプリングまでを、具体例を交えて詳しく説明している。2023年当時「実用化は無理」と思われていた技術が数年で本番投入されるに至った経緯を追っている。",
+      "category": "model",
+      "points": 456,
+      "author": "Kaito Sugimoto"
+    },
+    {
+      "source": "zenn",
+      "title": "AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで",
+      "url": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
+      "summary": "AIエージェントが複数の外部サービス（GitHub、Slack、Notion等）と連携する際に毎回発生する認可の手間、いわゆる「認可疲れ」を解消する方法を解説する記事。ブラウザのCookieに依存できないAIエージェントの制約を踏まえ、最初の認証で得たid_tokenをRFC 8693のトークン交換によって各サービス向けのaccess_tokenに変換するOBO（On-Behalf-Of）方式やID-JAGといった手法を、AWSでの実装例を交えて紹介している。安全に「一度の認証で複数サービスへの認可を得る」ための設計と本番運用上の注意点をまとめている。",
+      "category": "agent",
+      "points": 37,
+      "author": "icoxfog417"
+    },
+    {
+      "source": "zenn",
+      "title": "メール確認コードを不要にする Email Verification Protocol (EVP)",
+      "url": "https://zenn.dev/tkou15/articles/email-verification-protocol",
+      "summary": "アカウント登録時に送られる確認メールのやり取りを丸ごと不要にする新プロトコル「EVP（Email Verification Protocol）」を解説する記事。ブラウザがメールプロバイダーから署名済みトークンを取得しサイトに提示することでメールアドレスの所有を証明する仕組みで、2026年6月にIETFドラフトが公開され、7月にはChromeでオリジントライアルが開始された。DNSのTXTレコードを使った発行者ディスカバリーの設計思想や、サイト側でフォームに隠しフィールドを1つ追加するだけで済む実装の容易さなどが具体的なコード例とともに紹介されている。",
+      "category": "devtool",
+      "points": 83,
+      "author": "k1t"
+    },
+    {
+      "source": "zenn",
+      "title": "なぜAI時代にGoが最適な言語なのか",
+      "url": "https://zenn.dev/iwatsukayura/articles/google-go-ai",
+      "summary": "Google社員による原文「Why Go is an Ideal Language for AI-Assisted Software Engineering」の日本語訳と、訳者自身の考察をまとめた記事。AIがコードを大量に書く時代には、開発のボトルネックが「書くこと」から「レビュー・検証・保守」に移行するとし、標準ツールチェーンによる一貫性・可読性重視の言語設計・静的型システム・後方互換性の保証といったGoの特性が、AIエージェントの出力を検証しやすくするガードレールとして機能すると論じている。Google発の記事であるためポジショントークを含む点にも留意を促している。",
+      "category": "devtool",
+      "points": 94,
+      "author": "IwatsukaYura"
+    },
+    {
+      "source": "devto",
+      "title": "Learn how to build a disclosure component using the native HTML details tag",
+      "url": "https://dev.to/micaavigliano/learn-how-to-build-an-expandable-and-collapsible-component-using-the-native-html-details-tag-1h8j",
+      "summary": "JavaScriptやWAI-ARIAを使わずに、HTMLの<details>タグだけでアクセシブルな開閉コンポーネント（ディスクロージャー）を作る方法を解説する記事。キーボード操作でのフォーカス移動、開閉状態のスクリーンリーダーへの通知など、アクセシビリティ要件を<details>タグが標準でどう満たしているかを説明し、::marker疑似要素を使ったスタイリング方法や、標準の三角アイコンを非表示にするCSSテクニックも紹介している。AI関連の話題ではなく、Webアクセシビリティ実装のノウハウ記事。",
+      "category": "other",
+      "points": 6,
+      "comments": 1,
+      "author": "Mica",
+      "tags": [
+        "a11y",
+        "webdev",
+        "html",
+        "designsystem"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Coding agents got boring the moment we built a really good one.",
+      "url": "https://dev.to/backboardio/coding-agents-got-boring-the-moment-we-built-a-really-good-one-1mc4",
+      "summary": "Backboard.ioの共同創業者が、自社の高性能コーディングエージェント「R-CLI」をオープンソース化した理由を語る記事。Terminal-Bench 2.1でフロンティア級の性能を持つエージェントを数ヶ月で構築できた経験から、コーディングエージェント自体の技術的な参入障壁は急速に低下していると分析。今後の価値は、モデルを安価に運用すること、組織固有のコンテキストを持続的に持たせること、プライベートかつセキュアに運用することなど、エージェントの「下側」の技術に移っていくと主張し、単一のエージェントを囲い込むのではなく多数のエージェントを改善する基盤づくりに注力する方針を示している。",
+      "category": "agent",
+      "points": 5,
+      "comments": 2,
+      "author": "Jonathan Murray",
+      "tags": [
+        "agents",
+        "ai",
+        "coding",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Don't Give the Model SQL",
+      "url": "https://dev.to/mattstratton/dont-give-the-model-sql-5h32",
+      "summary": "自身の健康データを追跡するWebアプリを開発した筆者が、LLMに直接SQLを書かせる「よくある設計」をあえて採用しなかった理由を説明する記事。決定的なルールベースのcoach view（LLM不使用）と、13個の読み取り専用ツール経由でLLMが答えるask viewを明確に分離。未完了の当日データを完了日と比較してしまう、重複計測で運動量が実際の2倍になるなど、データ特有の「6つの罠」がプロンプトに書いても再現よく回避できないため、ツール設計そのもので罠を塞ぐアプローチを取ったと述べている。",
+      "category": "agent",
+      "points": 4,
+      "comments": 2,
+      "author": "Matty Stratton",
+      "tags": [
+        "ai",
+        "llm",
+        "programming",
+        "database"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Shipping Assumptions: A Reliability Stack for AI-Generated Code",
+      "url": "https://dev.to/copyleftdev/shipping-assumptions-a-reliability-stack-for-ai-generated-code-3p9f",
+      "summary": "AIによるコード生成が加速する中で、リンターやテストでは検出できない「システムが暗黙に前提とする不変条件（invariant）」の欠落が新たな失敗モードになっていると指摘する記事。局所的には妥当に見えるコードでも、コンポーネント間の境界・状態遷移・失敗モードが明示されないまま生成されると、全体として一貫性のないシステムになりうるとし、C4モデルなど複数の技法を組み合わせて人間の意図と機械の出力の間に共有モデルを持つことの重要性を論じている。",
+      "category": "devtool",
+      "points": 12,
+      "comments": 6,
+      "author": "Don Johnson",
+      "tags": [
+        "ai",
+        "architecture",
+        "testing",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built Cat Guardian for My Seven Cats 🐾",
+      "url": "https://dev.to/lfrichter/i-built-cat-guardian-for-my-seven-cats-287",
+      "summary": "筆者が飼う7匹の猫のために開発した、迷子対策アプリ「Cat Guardian」を紹介する開発コンテスト参加記事。猫ごとにデジタルIDと健康記録を持たせ、QRコード付き首輪タグから個人情報を公開せずに公開救助プロフィールへアクセスできる仕組みを構築した。Geminiを用いて毛柄や目の色などの視覚的特徴から識別プロファイルを生成するAI機能を搭載しつつ、医療診断は明確にスコープ外としている。React・Supabase・Gemini/Ollama/Mistralなどを組み合わせて実装されている。",
+      "category": "product",
+      "points": 2,
+      "comments": 0,
+      "author": "Luis Fernando Richter",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "googleaichallenge",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェントの作業結果、マークダウンで読むの辛くない？ →「HTML共有くん」を作りました",
+      "url": "https://qiita.com/minorun365/items/320b4230c0b0c169ba13",
+      "summary": "Claude Codeなどのコーディングエージェントに任せた雑務の成果物（HTML）を、スマホからも確認・共有できるようにする自作OSSツール「HTML共有くん」を紹介する記事。S3とCloudFrontだけで配信しLLMは配信時に一切動かないためコストはごく僅かであること、HMAC署名による期限付きURLで状態を持たずにアクセス制御を行う設計、社内限定公開時のIP判定に/whoamiエンドポイントを自作した経緯など、実運用で得た工夫を具体的に紹介している。",
+      "category": "devtool",
+      "author": "minorun365"
+    },
+    {
+      "source": "qiita",
+      "title": "海外で急速に広がる「FDE」と、AI時代のエンジニアに求められるより高い専門性",
+      "url": "https://qiita.com/sumomoo/items/7a8bf8214f6d4f70de17",
+      "summary": "Palantir発祥の職種「FDE（Forward Deployed Engineer）」が、OpenAIやAnthropicなど海外AI企業を中心に広がっている背景を解説する記事。顧客先に赴いて課題をヒアリングしながらその場でシステムを構築する役割で、AIを使ったシステムは企業ごとに使い方や課題が大きく異なるため重要性が増しているとされる。実装担当・現場担当・UI/UX担当のように役割が分業されているケースが多く、「広く浅く」より特定分野を深く極めた人材が集まってチームを構成する点に特徴があると論じている。",
+      "category": "product",
+      "author": "sumomoo"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Codeに動画を見せる /watch-video、実は「渡すだけ」じゃなかった — 3つの深さを使い分ける",
+      "url": "https://qiita.com/jqit_suwa/items/fe5975104ffefa49f632",
+      "summary": "Claude Codeの動画解析Skill「/watch-video」について、「渡すだけで全部やる」という紹介と実際の仕様のズレを検証した記事。既定モードは文字起こしのみの transcript で、画像解析まで行うには visual または multimodal を明示的に選ぶ必要があり、10分超の動画ではコスト確認が入ることを指摘している。フレーム抽出間隔が動画の種類（画面共有は5秒、トーキングヘッドは30秒など）に応じて自動調整される点や、字幕がある場合はWhisperを使わず優先利用する3段構えの文字起こし設計なども詳しく解説している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Codeの新機能、\"仕事の引き継ぎ\"じゃありません — 公式ドキュメントで確認した3つのズレ",
+      "url": "https://qiita.com/jqit_suwa/items/b919d0b4cdc0a26ec988",
+      "summary": "Claude Code v2.1.224で追加された cross-session messaging（セッション間メッセージング）機能について、「作業のリレー」として広まった紹介と公式ドキュメントの内容のズレを一次情報で検証した記事。実際に渡るのは短いテキスト1通のみで会話履歴やファイルは渡らないこと、ネイティブWindowsでは動作せずmacOS/Linux（WSL2含む）限定であること、複数セッションでの役割分担リレーはagent teamsなど別機能の担当であることを、公式ドキュメントを引用しながら整理している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "Mermaidで書いた過去記事の図を、話題の図解スキルに食わせてみた — 色指定が全部捨てられた",
+      "url": "https://qiita.com/jqit_suwa/items/3906db61d153fe8691aa",
+      "summary": "GitHub Trendingで人気の高いClaude Code用スキル「diagram-design」を使い、日本語のMermaid図をレイアウトから描き直す検証記事。このスキルはMermaidのソースから内容と方向性だけを取り出し、色指定などのスタイルはすべて破棄した上でlight/dark/full3種のレイアウトをゼロから生成する「再描画」であり、ダークテーマ対策の色指定や改行制御が不要になったと報告している。日本語ラベルの折り返し崩れや文字化けも起きず、階層構造や中心ノードの推定も正確に行われた一方、Windows環境で日本語ファイルを扱うとUnicodeEncodeErrorが発生する既知の問題も指摘している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    }
+  ]
+}
