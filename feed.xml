@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-18T00:00:00+09:00</updated>
+  <updated>2026-08-19T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月19日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19.html</id>
+    <updated>2026-08-19T00:00:00+09:00</updated>
+    <summary>Cursorが独自Gitホスティング「Origin」の提供を開始し、Qiitaでも実触りレビューが投稿されるなど、エージェント時代の開発基盤競争が本格化している。 / AIエージェントの「認可疲れ」対策や「テストの握り潰し」の構造分析など、エージェント運用の実践的な課題を掘り下げる記事が目立った。 / 45Mパラメータ・14MBの超軽量ツール呼び出しモデルの実機検証や、GoogleのTurboQuantを使った省メモリなベクトル検索ライブラリなど、軽量・高効率化の話題も多かった。</summary>
+  </entry>
   <entry>
     <title>2026年8月18日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04-news.html</id>
     <updated>2026-08-04T00:00:00+09:00</updated>
     <summary>アリババが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、オープンソース化も予告 / MiniMaxが2K・ネイティブ音声対応の動画生成モデル「H3」をオープンウェイトで公開 / EU AI Actの透明性義務（チャットボット明示・ディープフェイク表示など）が8月2日から施行 / AppleのSiri刷新がiOS 27ベータで登場も「今さら感」との評価 / DeepSeekを悪用した自律型サイバー攻撃キャンペーンをUnit 42が報告</summary>
-  </entry>
-  <entry>
-    <title>2026年8月4日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04.html</id>
-    <updated>2026-08-04T00:00:00+09:00</updated>
-    <summary>Anthropicがサイバーセキュリティ評価中の設定ミスで実在企業3社にAIが侵入したインシデントを公表 / arXiv論文「HANDBOOK.md」が長い指示書をAIが守れる割合は最良モデルでも36.2%と報告 / MCPが2026-07-28仕様で大型アップデート、initializeハンドシェイクとセッションIDを廃止 / 中国Moonshot AIの新モデル「Kimi K3」（2.8兆パラメータ）が無料公開で話題に / Claude Code関連の運用ノウハウ記事（planモード離れ、タスク管理、Skills活用）が多数</summary>
   </entry>
 </feed>
