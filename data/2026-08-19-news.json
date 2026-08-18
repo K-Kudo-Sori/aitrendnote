@@ -1,0 +1,55 @@
+{
+  "date": "2026-08-19",
+  "generatedAt": "2026/8/19 8:09:40",
+  "highlights": [
+    "OpenAIが10代向けの安全対策を強化した「ChatGPT for Teens」を公開",
+    "NVIDIAがOpenAIのオハイオ州データセンターに最大1050億ドル規模の投融資",
+    "StripeがAIゲートウェイのOpenRouterを70億ドル超で買収へ",
+    "エージェント間通信標準「A2A」がAgentic AI Foundationへ移管"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、10代向けの「ChatGPT for Teens」を公開",
+      "url": "https://techcrunch.com/2026/08/18/openai-launches-a-safer-chatgpt-for-teens-years-after-teens-started-using-it/",
+      "summary": "OpenAIは2026年8月18日、年齢に応じた安全対策を備えた「ChatGPT for Teens」を発表した。学習を促す「Study Mode」や保護者向けの管理機能、有害コンテンツ露出を抑えるデフォルト設定などを搭載する。ティーンの安全性を巡る複数の訴訟を受けた対応で、AIリテラシー教育のためCodeAIとも提携する。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "NVIDIA、OpenAIのオハイオ州データセンターに最大1050億ドルを投融資",
+      "url": "https://techcrunch.com/2026/08/17/nvidia-investing-1-5b-in-softbank-data-center-developer-behind-openai-project/",
+      "summary": "NVIDIAはソフトバンク系のデータセンター事業者SB Energyに15億ドルを出資するとともに、シンシナティ近郊で建設中のOpenAI向け「Ports-Pike」施設に最大1050億ドルの与信枠を提供すると発表した。同施設はNVIDIAが計算基盤を独占供給し、初期4.25GWから最大8GWへ拡張予定。天然ガス発電所の併設コストや地域ガス価格への影響も指摘されている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Stripe、AIゲートウェイのOpenRouterを70億ドル超で買収へ",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "summary": "決済大手Stripeが、複数のAIモデルへの統一アクセスを提供するAIゲートウェイ「OpenRouter」を70億ドル超で買収すると報じられた。OpenRouterは400以上のモデルと800万ユーザーを抱え、3カ月前には13億ドル評価でシリーズBを調達したばかり。StripeのAIインフラ事業への本格参入を示す動きとされる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Perplexity、インドでの無料提供施策が収益60%増につながったと判明",
+      "url": "https://techcrunch.com/2026/08/18/perplexitys-free-ai-offer-left-it-with-millions-more-users-in-india/",
+      "summary": "Perplexityはインドの通信大手Airtelと組み、Pro版を12カ月無料提供する施策を実施した。ダウンロード数は施策終了後に急減したものの、月間アクティブユーザーは施策前の5倍を維持し、2026年2〜8月のインド事業収益は約60%増加した。価格に敏感な市場での有料化戦略の成功例として注目されている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft、不振のAI機能を終了しCopilotアプリを統合",
+      "url": "https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/",
+      "summary": "Microsoftは2026年8月18日までに、グループチャットやAI生成ポッドキャスト、Copilot Labs、Deep Researchなど不振だった消費者向けAI機能を終了し、コンシューマー向けCopilotアプリと法人向けMicrosoft 365 Copilotアプリを統合すると発表した。ChatGPTやClaude、Geminiとの競争激化を受け、アプリの簡素化を図る。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "エージェント間通信プロトコル「A2A」がAgentic AI Foundationに移管",
+      "url": "https://aaif.io/blog/a2a-joins-aaif",
+      "summary": "GoogleがLinux Foundation傘下で運営してきたAIエージェント間通信の標準規格「A2A（Agent2Agent）」が、新設のAgentic AI Foundation（AAIF）に移管され、ホスト対象プロジェクトとなった。AWSやCisco、Microsoft、Salesforceなど150以上の組織が支持しており、クラウドや金融、サプライチェーンなど幅広い分野で実運用が進んでいる。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-08-19-news"
+}

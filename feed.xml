@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-19T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月19日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19-news.html</id>
+    <updated>2026-08-19T00:00:00+09:00</updated>
+    <summary>OpenAIが10代向けの安全対策を強化した「ChatGPT for Teens」を公開 / NVIDIAがOpenAIのオハイオ州データセンターに最大1050億ドル規模の投融資 / StripeがAIゲートウェイのOpenRouterを70億ドル超で買収へ / エージェント間通信標準「A2A」がAgentic AI Foundationへ移管</summary>
+  </entry>
+  <entry>
     <title>2026年8月19日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05.html</id>
     <updated>2026-08-05T00:00:00+09:00</updated>
     <summary>npmの人気キャッシュ系パッケージ群（keyv/flat-cache等）がサプライチェーン攻撃で侵害され、大規模な波及が発生 / Apple対OpenAIの営業秘密訴訟が拡大、元従業員11人が新たに関与した疑い / 経産省・NEDO主導の国産AI基盤「FRONTia」がフィジカルAI分野で始動 / 中国Moonshot AIの新モデル「Kimi K3」が無料公開の重みで世界最先端グループ入り / AIエージェント向けのMCPツール設計・評価基盤・タスク管理など実運用ノウハウ記事が充実</summary>
-  </entry>
-  <entry>
-    <title>2026年8月4日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-04-news.html</id>
-    <updated>2026-08-04T00:00:00+09:00</updated>
-    <summary>アリババが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、オープンソース化も予告 / MiniMaxが2K・ネイティブ音声対応の動画生成モデル「H3」をオープンウェイトで公開 / EU AI Actの透明性義務（チャットボット明示・ディープフェイク表示など）が8月2日から施行 / AppleのSiri刷新がiOS 27ベータで登場も「今さら感」との評価 / DeepSeekを悪用した自律型サイバー攻撃キャンペーンをUnit 42が報告</summary>
   </entry>
 </feed>
