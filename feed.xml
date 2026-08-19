@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-20T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月20日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20-news.html</id>
+    <updated>2026-08-20T00:00:00+09:00</updated>
+    <summary>Anthropic CEOのDario Amodeiが「AIへの信頼危機」を認め、実利をまだ届けられていないと発言 / OpenAI・Microsoftはそれぞれセキュリティ関連の対応に追われる一日に / AI推論インフラのEtchedが1ヶ月で評価額を倍増させ700億円規模の資金調達</summary>
+  </entry>
+  <entry>
     <title>2026年8月20日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06.html</id>
     <updated>2026-08-06T00:00:00+09:00</updated>
     <summary>Google DeepMindでHassabis氏がChairに退き、Jeff Dean氏が27年務めたGoogleを離れる組織再編が発表された。 / 4BパラメータのオープンモデルをRLでポストトレーニングし、GPT-5.6 Solに匹敵する検索精度を100分の1のコストで実現する事例が登場。 / Claude Codeなど生成AI開発ツールに関する実践知（プロンプトのTDD的検証、無駄可視化ツール、AIフレンドリーなCLI設計）が日本語圏で相次いで発信された。 / 国産AI基盤プロジェクト「FRONTia」が対話型AIではなくフィジカルAIで勝負する戦略を打ち出した。</summary>
-  </entry>
-  <entry>
-    <title>2026年8月5日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05-news.html</id>
-    <updated>2026-08-05T00:00:00+09:00</updated>
-    <summary>AlibabaがQwen3.8-Maxを発表し、2.4兆パラメータでフロンティア級性能に迫る / AnthropicがVoltaと100億ドル規模のクラウド調達契約を締結 / Nvidia主導のOpen Secure AI Alliance（OSAA）が発足1週間でセキュリティ情報共有の枠組みを始動 / オープンウェイトモデルの性能向上とともに安全面のギャップが指摘される / EU AI Act第50条の透明性義務が8月2日に発効し、罰則付きで運用開始</summary>
   </entry>
 </feed>
