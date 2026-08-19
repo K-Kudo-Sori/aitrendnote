@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-19T00:00:00+09:00</updated>
+  <updated>2026-08-20T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月20日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20.html</id>
+    <updated>2026-08-20T00:00:00+09:00</updated>
+    <summary>ローカルLLMをチーム編成でオーケストレーションし、単体のフロンティアAIモデルの出力品質に匹敵・一部上回る検証結果が話題に / Claude Code関連の実践的な設定・不具合検証記事（タスクリスト非表示、spellcheckの日本語非対応、CLAUDE.mdの棚卸し）が複数投稿 / CursorのGitホスティング「Cursor Origin」など、AIエージェントの大量ブランチ生成を前提にした開発基盤が登場 / AIエージェントの外部サービス連携における「認可疲れ」を解消するOBOトークン交換の実装解説</summary>
+  </entry>
   <entry>
     <title>2026年8月19日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05-news.html</id>
     <updated>2026-08-05T00:00:00+09:00</updated>
     <summary>AlibabaがQwen3.8-Maxを発表し、2.4兆パラメータでフロンティア級性能に迫る / AnthropicがVoltaと100億ドル規模のクラウド調達契約を締結 / Nvidia主導のOpen Secure AI Alliance（OSAA）が発足1週間でセキュリティ情報共有の枠組みを始動 / オープンウェイトモデルの性能向上とともに安全面のギャップが指摘される / EU AI Act第50条の透明性義務が8月2日に発効し、罰則付きで運用開始</summary>
-  </entry>
-  <entry>
-    <title>2026年8月5日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-05.html</id>
-    <updated>2026-08-05T00:00:00+09:00</updated>
-    <summary>npmの人気キャッシュ系パッケージ群（keyv/flat-cache等）がサプライチェーン攻撃で侵害され、大規模な波及が発生 / Apple対OpenAIの営業秘密訴訟が拡大、元従業員11人が新たに関与した疑い / 経産省・NEDO主導の国産AI基盤「FRONTia」がフィジカルAI分野で始動 / 中国Moonshot AIの新モデル「Kimi K3」が無料公開の重みで世界最先端グループ入り / AIエージェント向けのMCPツール設計・評価基盤・タスク管理など実運用ノウハウ記事が充実</summary>
   </entry>
 </feed>
