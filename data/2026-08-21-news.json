@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026/8/21 8:10:44",
+  "highlights": [
+    "Pew Researchの調査で、ChatGPT登場以降に公開されたウェブページの3分の1にAI執筆の兆候が見られると判明",
+    "GoogleがSearch/Discover/Google Newsで出版社を優先表示できる「優先ソース」ボタンを一般提供",
+    "Broadcomがアンスロピック向けAIチップ資金として最大1000億ドル規模の債務調達を協議中",
+    "Meta AIがMac版アプリを公開し、システム全体の音声入力とアプリ横断の画面認識機能を提供",
+    "Claude Codeがv2.1.237でプロンプトキャッシングの不具合修正と「簡潔」出力スタイルを追加"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "ChatGPT登場以降に公開されたウェブページの3分の1にAI執筆の兆候、研究で判明",
+      "url": "https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/",
+      "summary": "Pew Researchが2026年7月に約50万件の英語ウェブページをCommon Crawlアーカイブから抽出し、Open Pangram技術で分析した結果、ChatGPT公開以降に発表されたページの35%にAI執筆の兆候が見られた。ランダムサンプルでは10%が「著しいAI執筆の兆候」を示し、.comドメインは.eduや.govドメイン（約1%）の約10倍の割合だった。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、AI検索によるトラフィック減少に悩む出版社向けに新機能「優先ソース」ボタンを発表",
+      "url": "https://techcrunch.com/2026/08/20/google-gives-publishers-a-new-way-to-fight-ai-driven-traffic-losses/",
+      "summary": "Googleは、読者が出版社サイトに埋め込まれたボタンをクリックすることで、その出版社をSearch・Discover・Google Newsで「優先ソース」として登録できる新機能を発表した。Googleの調査では、優先ソースが利用可能な場合クリックスルー率が2倍になるという。5月に発表されたAI機能向けの優先ソース機能に続くもので、既に34万5000件以上のユニークなソースが選択されている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Broadcom、アンスロピック向けAIチップ資金として最大1000億ドル規模の債務調達を協議",
+      "url": "https://kfgo.com/2026/08/20/broadcom-seeks-more-than-60-billion-in-latest-ai-debt-deal-bloomberg-news-reports/",
+      "summary": "Bloomberg Newsの報道によると、Broadcomは大手投資家と組み、AIチップ向け資金として600億ドル超（ジュニア債務約300億ドルとシニア担保部分600〜700億ドルを含み、総額最大1000億ドル）の調達を協議している。この資金はアンスロピックなどAIチップの利用企業の利益になるとされ、ブラックストーンやアポロ・グローバル・マネジメントが投資参加を検討している。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta AI、Mac版アプリを公開しシステム全体の音声対話・画面認識機能を提供",
+      "url": "https://techcrunch.com/2026/08/20/meta-ais-new-mac-app-wants-you-to-talk-to-your-apps/",
+      "summary": "Metaは新しいMac用「Meta AI」アプリを公開した。全アプリで使えるシステム全体の音声入力（ディクテーション）機能を備え、Muse Sparkモデルを使って現在の画面内容を認識し質問に答えることもできる。Instagram・FacebookやGoogle Workspaceとの連携でキャンペーン分析やドキュメント・スプレッドシート作成にも対応する。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、SearchとGeminiに学習支援ツールを追加し学生向け機能を強化",
+      "url": "https://techcrunch.com/2026/08/19/google-launches-new-study-tools-for-students-across-search-and-gemini/",
+      "summary": "GoogleはSearchとGeminiに新しい学習支援機能を統合したと発表した。Searchではインタラクティブなビジュアルや3Dシミュレーションの生成、練習クイズの自動作成、Lensを使った問題解説などを提供し、Geminiでは複数ステップの研究レポート作成や音声対話機能、ノート・フラッシュカード・クイズをまとめる学習ハブを新設する。OpenAIなど競合との学生ユーザー獲得競争を意識した発表とみられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Claude Code v2.1.237、プロンプトキャッシングの不具合修正と「簡潔」出力スタイルを追加",
+      "url": "https://releasebot.io/updates/anthropic/claude-code",
+      "summary": "AnthropicはClaude Codeのバージョン2.1.237をリリースした。LLMゲートウェイやカスタムベースURLを使うセッションでプロンプトキャッシングが正しく機能しない不具合を修正したほか、前置きや説明を省き結果を優先して出力する「簡潔（Concise）」出力スタイルを新たに追加した。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-08-21-news"
+}

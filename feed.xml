@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-21T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月21日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21-news.html</id>
+    <updated>2026-08-21T00:00:00+09:00</updated>
+    <summary>Pew Researchの調査で、ChatGPT登場以降に公開されたウェブページの3分の1にAI執筆の兆候が見られると判明 / GoogleがSearch/Discover/Google Newsで出版社を優先表示できる「優先ソース」ボタンを一般提供 / Broadcomがアンスロピック向けAIチップ資金として最大1000億ドル規模の債務調達を協議中 / Meta AIがMac版アプリを公開し、システム全体の音声入力とアプリ横断の画面認識機能を提供 / Claude Codeがv2.1.237でプロンプトキャッシングの不具合修正と「簡潔」出力スタイルを追加</summary>
+  </entry>
+  <entry>
     <title>2026年8月21日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07.html</id>
     <updated>2026-08-07T00:00:00+09:00</updated>
     <summary>AIエージェントへのコマンド承認をめぐる人間側のミス率調査など、エージェントの安全運用に関する話題が目立った / Claude Code や Microsoft Agent Framework など、エージェント／ハーネス設計に関する実践記事が複数 / AIに業務知識をどう渡すか（RAG・オントロジー）というコンテキスト設計の話題が国内外で共通して見られた / 推論能力の限界（Abduction）を扱う研究紹介など、LLMの能力を冷静に見る記事も</summary>
-  </entry>
-  <entry>
-    <title>2026年8月6日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06-news.html</id>
-    <updated>2026-08-06T00:00:00+09:00</updated>
-    <summary>Anthropicが独自AIチップ設計チームの採用を開始、インフラ自給への布石 / MetaがClaude Code/Codexに対抗する新エージェント「Muse Code」を投入 / Google の重鎮 Jeff Dean が退社しAI創薬・科学研究スタートアップ「Discovery Loop」を設立 / Alibabaが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、来週オープンウェイト公開予定 / EUでAI Actの透明性義務が8月2日に発効、AI生成コンテンツのラベル表示が必須に</summary>
   </entry>
 </feed>
