@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-20T00:00:00+09:00</updated>
+  <updated>2026-08-21T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月21日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21.html</id>
+    <updated>2026-08-21T00:00:00+09:00</updated>
+    <summary>コーディングエージェント関連の実践知見が多数: 新人教育ハーネス、UI実装品質の改善、ローカルLLMオーケストレーションでフロンティアAIを超える試みなど / セキュリティ分野ではプロンプトインジェクション対策の落とし穴やAIコードレビューの誤検知（false negative）を扱う実体験記事が目立つ / GoogleがI/OでマルチモーダルAI動画生成モデル「Gemini Omni」を発表、DiffusionGemmaなど拡散モデルベースの高速LLMも登場 / AIエージェントの認可・承認まわり（OAuth token exchange、MCPツールの事前承認設定）でハマった事例が複数報…</summary>
+  </entry>
   <entry>
     <title>2026年8月20日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06-news.html</id>
     <updated>2026-08-06T00:00:00+09:00</updated>
     <summary>Anthropicが独自AIチップ設計チームの採用を開始、インフラ自給への布石 / MetaがClaude Code/Codexに対抗する新エージェント「Muse Code」を投入 / Google の重鎮 Jeff Dean が退社しAI創薬・科学研究スタートアップ「Discovery Loop」を設立 / Alibabaが2.4兆パラメータの新モデル「Qwen3.8-Max」を発表、来週オープンウェイト公開予定 / EUでAI Actの透明性義務が8月2日に発効、AI生成コンテンツのラベル表示が必須に</summary>
-  </entry>
-  <entry>
-    <title>2026年8月6日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-06.html</id>
-    <updated>2026-08-06T00:00:00+09:00</updated>
-    <summary>Google DeepMindでHassabis氏がChairに退き、Jeff Dean氏が27年務めたGoogleを離れる組織再編が発表された。 / 4BパラメータのオープンモデルをRLでポストトレーニングし、GPT-5.6 Solに匹敵する検索精度を100分の1のコストで実現する事例が登場。 / Claude Codeなど生成AI開発ツールに関する実践知（プロンプトのTDD的検証、無駄可視化ツール、AIフレンドリーなCLI設計）が日本語圏で相次いで発信された。 / 国産AI基盤プロジェクト「FRONTia」が対話型AIではなくフィジカルAIで勝負する戦略を打ち出した。</summary>
   </entry>
 </feed>

@@ -1,0 +1,227 @@
+{
+  "date": "2026-08-21",
+  "generatedAt": "2026/8/21 7:04:19",
+  "highlights": [
+    "コーディングエージェント関連の実践知見が多数: 新人教育ハーネス、UI実装品質の改善、ローカルLLMオーケストレーションでフロンティアAIを超える試みなど",
+    "セキュリティ分野ではプロンプトインジェクション対策の落とし穴やAIコードレビューの誤検知（false negative）を扱う実体験記事が目立つ",
+    "GoogleがI/OでマルチモーダルAI動画生成モデル「Gemini Omni」を発表、DiffusionGemmaなど拡散モデルベースの高速LLMも登場",
+    "AIエージェントの認可・承認まわり（OAuth token exchange、MCPツールの事前承認設定）でハマった事例が複数報告されている"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "HTML Can Do That",
+      "url": "https://chrisburnell.com/html-can-do-that/",
+      "summary": "近年のブラウザ標準機能により、以前はJavaScriptが必要だった動的なUIの多くがHTMLのみで実現できるようになったことを紹介するページ。popover属性によるポップオーバー表示、dialog要素によるモーダルダイアログ、details要素のname属性を使った排他的アコーディオン、command/commandfor属性によるボタンからのpopover制御などを実例コード付きで解説している。筆者はHTML Day 2026を記念して作成し、その後アクセシビリティ面での実装状況の弱さを補足する形で更新を重ねている。ブラウザごとのサポート状況にも言及し、まだアクセシビリティ対応が不十分な機能もあると注意喚起している。",
+      "category": "devtool",
+      "points": 484,
+      "comments": 138,
+      "author": "encyclopedism"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: I trained a 125M model to autocomplete piano on-device",
+      "url": "https://simedw.com/2026/08/20/midi-autocomplete/",
+      "summary": "MIDIキーボードでの演奏をリアルタイムに自動補完する、1億2500万パラメータのTransformerモデルを開発した個人プロジェクトの紹介。iPhone 15上で毎秒約108ノートを生成できる速度を達成しており、成果はRollTabという無料アプリとして公開されている。開発の鍵となったのは、MIDIイベントを効率よく離散トークン化する表現方法の選定で、NOTE_ON/NOTE_OFF方式では音の途切れが発生する問題があったため、最終的に(pitch, delta_onset, duration, velocity)をまとめた表現に落ち着いたと述べている。学習データのクリーニングやDPOによる事後学習も精度向上に大きく寄与したという。",
+      "category": "model",
+      "points": 452,
+      "comments": 100,
+      "author": "simedw"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "url": "https://www.danielvaughn.dev/posts/huzzah/",
+      "summary": "既存のAIコーディングエージェントに対する疲労感から生まれた、新しいAI開発パラダイム「Huzzah」を紹介する記事。従来のチャット型エージェントは長文・命令形・使い捨てのプロンプトを繰り返す非効率さがあるとし、Huzzahでは擬似コードで宣言的かつ永続的な仕様ファイル（.hz）を記述し、保存時にその差分をLLMへのプロンプトとして自動的にコードへ反映させる仕組みを提案している。FizzBuzzやショッピングカート、Todoリストなどの具体例を用いて、通常のチャット操作との違いをデモしている。人間の意図を持続的な記録として残せる点を利点として強調している。",
+      "category": "devtool",
+      "points": 157,
+      "comments": 84,
+      "author": "danielvaughn"
+    },
+    {
+      "source": "hackernews",
+      "title": "Vomit: Clean up Claude 5's token output with a separate LLM",
+      "url": "https://github.com/zachahn/vomit",
+      "summary": "Claudeの出力を別のローカルLLMに通して読みやすい英語に変換するツール「Vomit」の紹介記事。完全にローカルで動作しテレメトリを送信しないことが特徴だが、ローカルLLMがClaudeの操作内容やファイルにアクセスできないため多少のハルシネーションが発生し、処理速度も遅いという制限がある。GoやOllama、OpenAI互換APIを使ったローカルLLMをバックエンドとして利用可能で、`vomit scrub -claude`によりhook経由でClaudeの出力を置き換えたり、`vomit tail`で非侵襲的に翻訳結果を確認したりできる。作者は「vibeコーディング」で作られたツールであり、Mac環境でしか検証していないと明言している。",
+      "category": "devtool",
+      "points": 146,
+      "comments": 148,
+      "author": "Bluestein"
+    },
+    {
+      "source": "hackernews",
+      "title": "DiffusionGemma Technical Report",
+      "url": "https://arxiv.org/abs/2608.00146",
+      "summary": "Googleが発表した実験的なオープンウェイトの言語モデル「DiffusionGemma」の技術レポート。従来の自己回帰型LLMのように1トークンずつ逐次生成するのではなく、離散拡散モデルにより256トークンのブロックを並列に反復精緻化することで、逐次デコードのボトルネックを回避している。Gemma 4（アクティブ38億・総パラメータ252億のMoEモデル）をゼロからではなくファインチューニングして構築し、元の自己回帰モデルの学習トークン予算の10%未満で済む2段階の学習パイプラインを採用した。H100 GPU 1台で毎秒約1,500トークンという、投機的デコードを用いた自己回帰モデルよりも大幅に高速な生成速度を達成しつつ、思考モードやマルチモーダル入力、長文コンテキストの機能も維持しているという。",
+      "category": "model",
+      "points": 122,
+      "comments": 31,
+      "author": "gmays"
+    },
+    {
+      "source": "zenn",
+      "title": "Codexを効率よく使う方法（ChatGPT + GitHub）",
+      "url": "https://zenn.dev/aun_phonogram/articles/3f8c1a7b5d902e",
+      "summary": "OpenAIのCodexとChatGPTを使い分けることで開発効率を上げる方法を紹介する記事。ChatGPT（Chat）とCodex/ChatGPT（Work）とでは利用枠の扱いが異なる点を整理し、コード変更を伴わない調査・実装計画・PRレビューの下準備などをChatGPTのGitHubプラグインに任せることで、Codex本体の利用枠を実装作業に集中させる運用を提案している。具体的な使い方として、GitHubプラグイン経由でのリポジトリ調査依頼の文例や、ChatGPTでの調査結果をCodexのコンテキストとして引き継ぐ方法、対象リポジトリ・PR番号を曖昧にせず明示することの重要性などを解説している。コード変更自体はミス防止のためChatGPTには行わせず、Codexに限定する方針を取っているという。",
+      "category": "devtool",
+      "points": 200,
+      "author": "吉岡 裕貴"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカルLLM編成が単独のフロンティアAIを超えた日",
+      "url": "https://zenn.dev/nrs/articles/b920540a64e1a1",
+      "summary": "フロンティアモデルのレート制限や方針変更への不満から、オーケストレーションツール「TAKT」を使いローカルLLMを編成してフロンティアモデル単体の実装品質を上回ることを試みた検証記事。約9万行のTypeScript製マルチエージェントオーケストレーター自体への機能追加というタスクを題材に、正しさ・堅牢性・規律・設計の4区分・24項目からなる採点表でGPT-5.6-Solが採点者となり7つのモデル編成を比較評価している。実装・レビュー・補佐といった役割ごとに異なるモデル（GPT-5.6-Luna、DeepSeek-V4-Flash、Gemma4:31B、nemotron-3-superなど）を割り当てる編成や、リーダーが作業を分割し複数エージェントに並列実装させるチーム編成（team_leader機能）などを試し、一部の編成でSol単体を上回る結果が得られたと報告している。",
+      "category": "agent",
+      "points": 63,
+      "author": "nrs"
+    },
+    {
+      "source": "zenn",
+      "title": "AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計",
+      "url": "https://zenn.dev/mkj/articles/aad5698672aef3",
+      "summary": "松尾研究所のチームが、新入社員向けオンボーディング文書をCodexのSkillsとして整備し、AIエージェントに社内固有の業務知識を持たせる取り組みを紹介する記事。社内知識なし・Notionを都度検索・Skillsを参照の3条件を15の実務課題×3試行で比較したところ、精度はそれぞれ33.0%・87.3%・96.0%となり、Skills化が有効であることに加え応答速度や入力トークン量でも優位だったという。当初作成した一問一答型のEvalは選択肢から正解を推測できてしまい実務評価に不向きだったため、複数の社内ルールを統合する自由回答型の課題と、必須要件をチェックする項目別Rubric（重大な誤りはcriticalとして別扱い）による評価方法へ作り直した経緯を詳述している。",
+      "category": "agent",
+      "points": 14,
+      "author": "ukita"
+    },
+    {
+      "source": "zenn",
+      "title": "コーディングエージェントが実装するUIの品質を上げるためにやったこと",
+      "url": "https://zenn.dev/moshjp/articles/39972d023f0440",
+      "summary": "デザインシステムを整備してもコーディングエージェントによるUI実装の精度が上がらないという課題に対し、MOSHが半年間取り組んだ改善策を紹介する記事。Figma・Notion・Storybookに情報が分散していた問題に対し、各コンポーネントのStorybookファイルのJSDocにFigmaとNotionのURLを紐づけ、MCP経由でエージェントが正しい情報を参照できるようにした。さらに実装方針を提案する「design-context」と、ガイドライン根拠に基づき指摘を行う「design-review」というAgent Skillを作成し、指摘事項をMUST/SHOULD/IMO/nits/Qに分類する仕組みや、繰り返される指摘をLinterのカスタムルール化する運用も導入したという。",
+      "category": "devtool",
+      "points": 46,
+      "author": "dachi"
+    },
+    {
+      "source": "zenn",
+      "title": "AI エージェントの「認可疲れ」に効く処方箋 : 理論から実装まで",
+      "url": "https://zenn.dev/aws_japan/articles/2b62886aa8735e",
+      "summary": "複数の外部サービス（GitHub、Slack、Notionなど）と連携するAIエージェントが、サービスごとに何度も認可を求められる「認可疲れ」を解消する方法を解説する記事。人間のSSOに相当する仕組みをAIエージェントで実現するため、最初の認証で得たid_tokenを別サービス向けのaccess_tokenに交換するOBO（On-Behalf-Of、RFC 8693のトークン交換）という手法を紹介し、SSOとの構造的な対比表で分かりやすく整理している。AWSでの実装例を交え、本番運用時に注意すべき安全性の考慮点についても触れている。",
+      "category": "security",
+      "points": 64,
+      "author": "icoxfog417"
+    },
+    {
+      "source": "devto",
+      "title": "I wrote a test for prompt injection. It passed while the attack worked.",
+      "url": "https://dev.to/mk023/i-wrote-a-test-for-prompt-injection-it-passed-while-the-attack-worked-kc9",
+      "summary": "複数のLLMに同じ質問をさせ互いの回答を匿名で評価させるツール「llm-council」の開発者が、自身のリポジトリに対する監査で発見したプロンプトインジェクション脆弱性の体験談。他モデルの回答を区切るために使っていたフェンス境界（区切り文字列）が固定文字列だったため、悪意ある回答がその文字列を模倣して境界を偽装し、以降のテキストを「引用データ」ではなく「指示」として読ませることが可能だった。さらに深刻だったのは、その脆弱性を検証するはずのテストがカバレッジ100%でパスし続けていたにもかかわらず、実際にはPython文字列の出現回数と順序を確認しているだけで、攻撃が防げるかという肝心の性質を一切検証していなかった点。対策として、推測不可能なランダムなnonceを実行ごとの区切り文字列に用いる方式に変更したことを報告している。",
+      "category": "security",
+      "points": 5,
+      "comments": 9,
+      "author": "Marco",
+      "tags": [
+        "devchallenge",
+        "bugsmash",
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Breaking the Multimodal Barrier: Exploring Gemini Omni and My Time with GDG Calabar",
+      "url": "https://dev.to/gde/breaking-the-multimodal-barrier-exploring-gemini-omni-and-my-time-with-gdg-calabar-569o",
+      "summary": "Google I/O 2026で発表されたマルチモーダルAI動画生成モデル「Gemini Omni」を紹介し、著者がGoogle Developer Groups Calabarでの勉強会で実演した経験を綴った記事。従来のVeoを置き換える形で、テキスト・画像・動画・音声を単一プロンプトへまとめて入力できる点が特徴で、対話的な編集（シーンの一部だけ変更する等）や音声との自動同期生成、720pクリップへの不可視透かしSynthIDの付与といった機能を持つ。生成物をGoogle Flowに取り込んで最終編集する使い方や、教育向け解説動画やニッチチャンネル運営、地域の中小企業向けCM制作などクリエイティブな活用可能性についても述べている。",
+      "category": "product",
+      "points": 5,
+      "comments": 1,
+      "author": "Gbemisola Esho",
+      "tags": [
+        "ai",
+        "videoproduction",
+        "creativeindustry",
+        "aifilmaking"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The test was green. Every real connection would have failed.",
+      "url": "https://dev.to/yashksaini/the-test-was-green-every-real-connection-would-have-failed-3e37",
+      "summary": "py-libp2pのWebRTC-Direct実装で、証明書ピン留めのために独自証明書をaiortcのRTCPeerConnectionに設定するコードが、実は何の効果もない「サイレントな失敗」をしていたことを突き止めたデバッグ記録。aiortc 1.5以降のAPI変更に対応して`pc._certificates = [...]`という形で証明書を後付けしたが、これはaiortc内部が実際に参照するPythonの名前マングリングされた属性（`_RTCPeerConnection__certificates`）とは別物であり、実装した証明書は一切使われていなかった。ループバックテストではDTLSフィンガープリントの検証自体が行われないため問題は表面化せず、テストは常にグリーンのまま、実際の接続では必ず認証に失敗する状態だったと報告している。",
+      "category": "devtool",
+      "points": 10,
+      "comments": 0,
+      "author": "Yash Kumar Saini",
+      "tags": [
+        "devchallenge",
+        "bugsmash",
+        "python",
+        "testing"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Reasoning Ledger: Remembering Decisions, Not Just Data",
+      "url": "https://dev.to/kenwalger/the-reasoning-ledger-remembering-decisions-not-just-data-56gm",
+      "summary": "AIエージェントの記憶アーキテクチャを論じるシリーズの第4回。仕様書やADR（アーキテクチャ決定記録）といった永続記憶（Durable Memory）は「何が」正しいかは保存できても、「なぜ」その決定に至ったかという推論過程までは保存できていないと指摘する。Gitがソースコードだけでなくコミット履歴やレビュー、議論を保存することで「なぜ変更したか」を後から追えるのと同様に、AIエージェントにも証拠・ツール呼び出し・ポリシー評価・承認履歴などを記録する「Reasoning Ledger（推論台帳）」という層が必要だと提案している。プライベートな思考過程そのものではなく、観測可能な意思決定プロセスを記録する点が特徴で、YAML形式の記録例も示されている。",
+      "category": "agent",
+      "points": 12,
+      "comments": 4,
+      "author": "Ken W Alger",
+      "tags": [
+        "ai",
+        "agents",
+        "llm",
+        "architecture"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built an AI Code Reviewer. Then OWASP Broke It.",
+      "url": "https://dev.to/phucphungbk/i-built-an-ai-code-reviewer-then-owasp-broke-it-2ika",
+      "summary": "アドバーサリアルな視点でコードの脆弱性を発見するVS Code拡張機能「EdgeGuard」を開発した記録。OWASP Benchmark for Javaでテストしたところ、LLMが外部関数の中身を確認できない場合に「内部でサニタイズされているはず」と楽観的に判断し、実際にはSQLインジェクションが可能なコードを安全と誤判定するfalse negativeが多発することが判明した。対策として、未知の関数を通過したデータはサニタイズの証拠がない限り汚染されたまま扱うという明示的なテイント追跡ルールを導入し、SAFE/VULNERABLEの単純な二値判定ではなく根拠を示すステップ形式の分析に変更した。さらに数千関数を全てLLMに送るとコストとレート制限の問題が生じるため、ローカルの静的リスクスクリーニングで危険な兆候のある関数のみを事前に絞り込む2段構成にしたという。",
+      "category": "security",
+      "points": 5,
+      "comments": 5,
+      "author": "Phúc Phùng",
+      "tags": [
+        "programming",
+        "security",
+        "ai",
+        "vscode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "新人AI禁止のあと、「新人AI制御教育ハーネス」を配った結果（Skill原文あり）",
+      "url": "https://qiita.com/WdknWdkn/items/fe4b1810f45e4b6df166",
+      "summary": "AIを使いこなせず理解が伴わないコードを大量生産してしまった新人にAIを一時禁止した経験を踏まえ、その運用ノウハウを仕組み化した教育ハーネス「newcomer」を紹介する記事。PHP/JS/MySQL/HTML・CSS/AI利用の5軸ごとにランクを持たせ、ランク0〜1ではAIによる実装そのものを、ランク2では新規ファイル作成をPreToolUseのhookとCLAUDE.mdの記述で機械的に禁止し、方針提示・擬似コード・最小スニペットという段階的な誘導のみを許可する設計になっている。実際の新人とのやり取りでは、AIが回避策を出さず制限の趣旨を尊重して行動したり、レビューの往復を通じて新人自身がバグを深掘りして修正範囲を適切に縮小したりする様子が紹介され、ランク制がゲームのレベルアップのように受け止められ学習意欲を高めた一方、AIが手順を教えすぎて自力で調べる経験が不足するという新たな課題も見えてきたと述べている。",
+      "category": "devtool",
+      "author": "WdknWdkn"
+    },
+    {
+      "source": "qiita",
+      "title": "AIも人も、ただ褒めるだけでは変わらない。大事なのは\"時間を惜しまない一言\"",
+      "url": "https://qiita.com/sumomoo/items/195c278d026657c6618f",
+      "summary": "AIへの指示に何気なく添えていた褒め言葉が本当に回答精度へ影響するのか調べた記事。マイクロソフト等の国際共同研究チームによる「感情的刺激」を指示文に加える実験では、単純なタスクで平均8%、複雑なタスクで115%、要約や創作など人による評価が必要なタスクで約11%の精度・評価向上が確認されており、効果があったのは単なる褒め言葉ではなく「重要性・理由を伝える」表現や「期待をかけ背中を押す」表現だったと分析している。さらに心理学者エレン・ランガーのコピー機実験（理由を添えると承諾率が60%から94%に上昇）を引き合いに出し、AIだけでなく人への依頼でも「なぜ必要かを一言添える」姿勢が重要だと結論づけ、日々の業務での具体的な行動リストを提案している。",
+      "category": "other",
+      "author": "sumomoo"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code の設定でハマる箇所まとめ",
+      "url": "https://qiita.com/jqit_suwa/items/d49739b934606d4abdbd",
+      "summary": "Claude Codeを1週間使う中でハマった、公式ドキュメントに載っていない環境変数やWindows特有の落とし穴を症状別にまとめた記事。対話セッション限定のfork機能を非対話環境で有効化するには`CLAUDE_CODE_FORK_SUBAGENT=1`が必要なこと、新しいモデルではTodoWriteが使えずTask系ツールに切り替わるため`CLAUDE_CODE_ENABLE_TODO_TOOLS=1`の設定が必要なこと、AGENTS.mdはClaude Codeが直接読まないため`@AGENTS.md`インポートで対応する必要があること、Windowsでのsymlink作成がコピーになってしまい更新が反映されない問題などを、実測データとともに具体的な対処法つきで解説している。spellcheck機能が辞書未インストールのため無音で失敗する事例や、pip installがパス長260文字超過で謎のエラーになる事例なども取り上げている。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "AIセキュリティ何から勉強すりゃええの？",
+      "url": "https://qiita.com/mikihitooooo/items/ced6a0aa744379d338b6",
+      "summary": "レガシーシステム保守エンジニアだった筆者が、AI活用の普及に伴い後追いで重要性が高まるであろうAIセキュリティ分野の学習を始めるにあたり調べた内容をまとめた記事。OWASP Top 10 for LLMやプロンプトインジェクション（特に間接プロンプトインジェクション）、arXivでの最新攻撃手法の追跡、デジタル庁のAIガイドラインなどを情報源として挙げ、まず「大規模言語モデルへの攻撃サーベイ」「間接プロンプトインジェクションの実例」「RAGに対するポイズニング攻撃のベンチマーク」の3本の論文から着手する学習計画を立てている。将来的には論文収集から検証・対策検討までのサイクルをスクリプトやIaCで半自動化していきたいという展望も述べている。",
+      "category": "security",
+      "author": "mikihitooooo"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Coworkの定期タスクが4回止まった。原因は全部承認の設定だった話",
+      "url": "https://qiita.com/I635230/items/390d20b6c6e3eef92f45",
+      "summary": "Confluenceに日次の作業メモページを自動作成する定期タスクをClaude Coworkのスケジュール実行に移行したところ、毎朝処理が同じツールを延々と呼び続けて止まってしまう問題に4回対処した記録。1〜3回目はGoogleカレンダーMCPのツールの癖やツール名の解決方法を疑い対策を重ねたが改善せず、最終的に事前承認リスト（tool_policy_overrides）に含まれていない未承認のMCPツールを呼ぶと、無人環境では誰も承認できずリトライを繰り返し続けることが根本原因だったと判明した。対策として、未承認だった`getConfluencePageDescendants`を承認済みの`searchConfluenceUsingCql`に置き換え、祝日判定もカレンダーAPI呼び出しをやめてプロンプトへの静的リスト埋め込みに変更することで解決したという。",
+      "category": "agent",
+      "author": "I635230"
+    }
+  ]
+}
