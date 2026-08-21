@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-21T00:00:00+09:00</updated>
+  <updated>2026-08-22T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月22日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22.html</id>
+    <updated>2026-08-22T00:00:00+09:00</updated>
+    <summary>Claude Codeの新出力スタイル「Concise」やメモリ棚卸しなど、Claude Code運用ノウハウ系の記事が複数投稿された / AIエージェントの「認可疲れ」「メモリAPIの構造喪失」「計画段階の失敗」など、エージェント基盤設計に関する論考が目立った / ローカルLLMの編成がフロンティアモデル単体を上回ったとする検証記事や、AI時代の開発者アーキタイプ論など、AIと開発者の役割変化を扱う記事も見られた</summary>
+  </entry>
   <entry>
     <title>2026年8月21日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07-news.html</id>
     <updated>2026-08-07T00:00:00+09:00</updated>
     <summary>Google DeepMindでハサビスCEOとディーン氏のチーフサイエンティストが同時退任する大型人事刷新 / Metaがターミナル型コーディングエージェント「Muse Code」を発表しClaude Code/Codexと競合 / ホワイトハウスがフロンティアAIモデルの事前審査枠組みを非公開のまま最終化 / 秋田市でUAE投資による2兆円規模の国内最大級AIデータセンター計画が浮上 / OpenAIがアップルの営業秘密訴訟の却下を裁判所に申し立て</summary>
-  </entry>
-  <entry>
-    <title>2026年8月7日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07.html</id>
-    <updated>2026-08-07T00:00:00+09:00</updated>
-    <summary>AIエージェントへのコマンド承認をめぐる人間側のミス率調査など、エージェントの安全運用に関する話題が目立った / Claude Code や Microsoft Agent Framework など、エージェント／ハーネス設計に関する実践記事が複数 / AIに業務知識をどう渡すか（RAG・オントロジー）というコンテキスト設計の話題が国内外で共通して見られた / 推論能力の限界（Abduction）を扱う研究紹介など、LLMの能力を冷静に見る記事も</summary>
   </entry>
 </feed>
