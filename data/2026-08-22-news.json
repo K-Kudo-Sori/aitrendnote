@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-22",
+  "generatedAt": "2026/8/22 8:07:13",
+  "highlights": [
+    "NvidiaがAIモデル構築スタートアップPoolsideと総額70億ドル規模の提携（ライセンス60億ドル＋出資10億ドル）",
+    "OpenAIがNvidia保証付きでオハイオ州に過去最大級のデータセンターリース契約（最大1050億ドル保証）",
+    "ChatGPTがApple Messagesと連携し、メッセージの自動作成・送信が可能に",
+    "AI計算基盤「Ray」の脆弱性が実際に悪用され、CISAが既知の悪用脆弱性カタログに追加",
+    "ラスベガスでテスラ・Waymo・Aviariのロボタクシー計7,000台の展開が認可"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Nvidia、PoolsideのAIモデル開発基盤「Model Factory」と従業員109人を60億ドルで確保",
+      "url": "https://the-decoder.com/nvidia-is-acquiring-poolsides-model-factory-and-109-employees-for-6-billion/",
+      "summary": "Nvidiaは、AIモデル構築スタートアップPoolsideのソフトウェア基盤「Model Factory」を60億ドルでライセンス取得し、開発チーム109人の雇用を進める。同時に企業価値120億ドル評価でPoolsideに10億ドルを追加出資する。両社は「買収でもアクイハイアでもない」と強調しており、規制審査を避けつつ人材と技術を確保する狙いとみられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、Nvidia保証付きでオハイオ州に過去最大級のデータセンターリース契約",
+      "url": "https://the-decoder.com/openai-signs-record-ohio-data-center-lease-with-nvidia-backing-up-to-105-billion/",
+      "summary": "OpenAIはソフトバンク傘下SB Energyと、オハイオ州の旧ウラン濃縮施設跡地で最大8ギガワット規模のデータセンターを対象に20年間のリース契約を締結した。Nvidiaは初期フェーズの残存価値を最大1050億ドルまで保証し、独占的なチップ供給元となるほかSB Energyに15億ドルを出資する。最初の800メガワットは2028年に稼働予定。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "ChatGPT、新しいApple Messagesプラグインでメッセージの自動作成・送信が可能に",
+      "url": "https://techcrunch.com/2026/08/20/chatgpt-can-now-send-texts-for-you-with-new-apple-messages-plugin/",
+      "summary": "OpenAIはChatGPT向けにApple Messages連携プラグインを発表した。ユーザーはChatGPT上でメッセージの整理・分析・編集に加え、過去のやり取りを踏まえた返信案の作成やメッセージの自動送信をChatGPTに依頼できる。処理はローカル端末で行われメッセージ本文はサーバーに保存されないとしており、ChatGPT WorkやCodexとの連携で業務用途にも展開する方針。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple、SiriやVision Proチームなどで数百人規模の人員削減か",
+      "url": "https://techcrunch.com/2026/08/21/apple-is-reportedly-cutting-hundreds-of-jobs-from-siri-vision-pro-teams/",
+      "summary": "Appleが200人超の人員削減を実施したと報じられた。Vision Proチームで約100人、Siriおよび「Intelligent Systems Experience」チーム（デバイスへのAI統合を担当）で約100人が対象とされる。Appleは新しいAI技術・デバイス開発へ経営資源を再配分する組織再編の一環と説明しており、新規職種の創出も進めるとしている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AI計算基盤「Ray」の脆弱性が実悪用、CISAが既知の悪用脆弱性カタログに追加",
+      "url": "https://securityaffairs.com/197419/security/u-s-cisa-adds-a-ray-project-ray-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+      "summary": "米CISAは、AI・機械学習ワークロードで広く使われる分散処理基盤Rayの脆弱性（CVE-2025-62593、CVSS 9.4）を既知の悪用脆弱性（KEV）カタログに追加した。User-Agentヘッダー検証の不備を突く手法で、DNSリバインディング攻撃と組み合わせたリモートコード実行が可能になるとされる。連邦機関には2026年8月20日までの修正が義務付けられた。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "テスラ・Waymo・Aviari、ラスベガスで計7,000台のロボタクシー展開が認可",
+      "url": "https://www.reviewjournal.com/local/traffic/tesla-waymo-and-aviari-cleared-to-deploy-7000-las-vegas-robotaxis-3867451/",
+      "summary": "ネバダ交通局は、テスラ（5,000台）、Waymo（1,000台）、Aviari（1,000台）の計7,000台の自動運転ロボタクシーの運行を承認した。3社には車両検査書類の提出や保険維持、運賃の事前提出などが義務付けられる。テスラは当初10台のみの認可から段階的に拡大されており、AI自動運転の実社会展開が加速している。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-08-22-news"
+}

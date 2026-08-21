@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-22T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月22日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22-news.html</id>
+    <updated>2026-08-22T00:00:00+09:00</updated>
+    <summary>NvidiaがAIモデル構築スタートアップPoolsideと総額70億ドル規模の提携（ライセンス60億ドル＋出資10億ドル） / OpenAIがNvidia保証付きでオハイオ州に過去最大級のデータセンターリース契約（最大1050億ドル保証） / ChatGPTがApple Messagesと連携し、メッセージの自動作成・送信が可能に / AI計算基盤「Ray」の脆弱性が実際に悪用され、CISAが既知の悪用脆弱性カタログに追加 / ラスベガスでテスラ・Waymo・Aviariのロボタクシー計7,000台の展開が認可</summary>
+  </entry>
+  <entry>
     <title>2026年8月22日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-08.html</id>
     <updated>2026-08-08T00:00:00+09:00</updated>
     <summary>Claude Codeの承認プロンプトで、危険度が見た目で判断しづらい「スコープ違反」の見逃し率が破壊的操作の3倍という分析結果が公開 / Databricksがモデルルーティングやトークン削減などの「コストレバー」でAIコーディング支出を70%削減したと報告 / GoogleがGKE Agent Sandboxを提供開始し、未信頼なエージェント生成コードを隔離実行する基盤が整いつつある / Google CloudのOpen Knowledge FormatをきっかけにRAGの限界とLLM Wikiパターンが改めて注目されている / AIエージェントに仕事を任せる個人開発ツール（moeca…</summary>
-  </entry>
-  <entry>
-    <title>2026年8月7日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-07-news.html</id>
-    <updated>2026-08-07T00:00:00+09:00</updated>
-    <summary>Google DeepMindでハサビスCEOとディーン氏のチーフサイエンティストが同時退任する大型人事刷新 / Metaがターミナル型コーディングエージェント「Muse Code」を発表しClaude Code/Codexと競合 / ホワイトハウスがフロンティアAIモデルの事前審査枠組みを非公開のまま最終化 / 秋田市でUAE投資による2兆円規模の国内最大級AIデータセンター計画が浮上 / OpenAIがアップルの営業秘密訴訟の却下を裁判所に申し立て</summary>
   </entry>
 </feed>
