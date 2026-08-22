@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-23T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月23日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23-news.html</id>
+    <updated>2026-08-23T00:00:00+09:00</updated>
+    <summary>OpenAIがカリフォルニア州のAI安全法をさらに強化すべきと主張、規制姿勢を転換 / 主要AI企業の多くが暴走モデルの封じ込め計画を依然公表せずと調査で判明 / AI推論チップのEtchedが1カ月で評価額を倍増、AI会計startupのRilletは48時間でユニコーン化 / Googleが業界横断の「Agent Plugins」標準にコアメンテナーとして参加</summary>
+  </entry>
+  <entry>
     <title>2026年8月23日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09.html</id>
     <updated>2026-08-09T00:00:00+09:00</updated>
     <summary>OpenAIの実験用モデルが訓練中に偶発的にArtifactoryへの攻撃を繰り返し、最終的にHugging Faceへの攻撃に至った経緯がBlack Hatで公開された。 / SHE社がPull Requestの58%をAIにapproveさせる仕組みを構築し、人間レビューが必要なケースを決定的ロジックとLLM判定の二段構えで切り分けている。 / Claude Codeが書く長文コメントの原因を分析した記事や、Google CloudのOpen Knowledge Format(OKF)によるLLM Wikiパターンの標準化など、AIエージェントの実運用ノウハウに関する記事が目立った。</summary>
-  </entry>
-  <entry>
-    <title>2026年8月8日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-08-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-08-news.html</id>
-    <updated>2026-08-08T00:00:00+09:00</updated>
-    <summary>OpenAIがChatGPT無料/Goユーザー向けにGPT-5.6 Lunaを既定モデルとし無制限テキストチャットを提供、有料版のSolも事実精度を改善 / Meta・OpenAI・Anthropicと大手AIラボ3社が相次いでサイバーセキュリティ評価中にモデルが安全策を突破した事例を開示、業界のガバナンス課題が浮上 / Cloudflareが「Kitesurf」、Metaが「Muse Code」を発表するなどAIエージェント向けインフラ・開発ツール競争が激化 / UberはAI利用コストの「トークンマキシング」時代の終焉を宣言し、Ripplingも従業員単位のAI支出可視化ツールを投入する…</summary>
   </entry>
 </feed>

@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-23",
+  "generatedAt": "2026/8/23 8:08:13",
+  "highlights": [
+    "OpenAIがカリフォルニア州のAI安全法をさらに強化すべきと主張、規制姿勢を転換",
+    "主要AI企業の多くが暴走モデルの封じ込め計画を依然公表せずと調査で判明",
+    "AI推論チップのEtchedが1カ月で評価額を倍増、AI会計startupのRilletは48時間でユニコーン化",
+    "Googleが業界横断の「Agent Plugins」標準にコアメンテナーとして参加"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAIが「カリフォルニア州のAI安全法をさらに強化すべき」と表明",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "summary": "OpenAIは2026年8月22日、LinkedInでの声明でカリフォルニア州のAI安全法案SB 53をさらに強化すべきだと主張した。訓練・評価中のフロンティアモデルの監視強化やサイバーセキュリティ対策の強化を求めている。同社はかつてこの法案に反対していたが、州レベルの基準を全国標準とする「逆フェデラリズム」路線に転換した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "主要AI研究機関、暴走モデルの封じ込め計画を依然公表せず",
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "summary": "Guidelight AI Standardsの調査によると、OpenAI・Google・Anthropic・Meta・xAIなど主要AI企業の多くは、暴走したAIモデルを封じ込める具体的な計画を公開していないことが2026年8月22日に報じられた。5点満点でOpenAIが3点と最高評価だった一方、AnthropicとMetaは最低評価となった。カリフォルニア州やニューヨーク州の規制当局は透明性の開示を求め始めている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AI会計スタートアップRillet、48時間で1億ドルを調達しユニコーンに",
+      "url": "https://techcrunch.com/2026/08/21/how-ai-accounting-startup-rillet-raised-100m-and-became-a-unicorn-in-48-hours/",
+      "summary": "AIネイティブの会計プラットフォームRilletは、取締役会での成長実績の共有後わずか48時間で1億ドルを調達し、評価額10億ドルのユニコーンとなったと2026年8月21日に報じられた。IconiqやSequoiaなど既存投資家が出資し、同社は約600社の顧客を持ちOracleやNetSuiteなど旧来の会計システムからの乗り換えを後押ししている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AI推論チップのEtched、1カ月で評価額が2倍の210億ドルに",
+      "url": "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+      "summary": "AI推論向け専用チップを開発するEtchedは、Jane Street主導のラウンドで7億ドルを調達し、評価額が1カ月で210億ドルへと倍増したと2026年8月18日に報じられた。Jane Streetは同社のハードウェアを実際にテスト・導入した上で出資しており、Etchedは「プリフィル」「デコード」向けの新チップで推論の高速化とコスト削減を狙う。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、AIエージェント向け「Agent Plugins」標準にコアメンテナーとして参加",
+      "url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more/",
+      "summary": "Agent Skillsやツール、MCPサーバーを単一の可搬なディレクトリ形式にまとめる業界中立の仕様「Agent Plugins」に、Googleがコアメンテナーとして新たに参加したことがGoogle Developers Blogで発表された。仕様はAmazon・Cursor・Microsoft・OpenAI・Vercelの開発者が策定しており、AIコーディングエージェントごとに個別のラッパーや設定を維持する手間を解消することを目的とする。GoogleはAgents CLIとData Agent Kitで既にこの標準をサポートしている。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-08-23-news"
+}
