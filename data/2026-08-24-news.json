@@ -1,0 +1,48 @@
+{
+  "date": "2026-08-24",
+  "generatedAt": "2026/8/24 8:11:27",
+  "highlights": [
+    "出所不明の新モデル「Ox Alpha」がOpenRouterに登場し、正体を巡って業界で憶測が広がっている。",
+    "Z.aiの新モデル「GLM-5.3」はコーディング性能が大幅向上した一方、意図せず高いサイバーセキュリティ能力を獲得し、2,000件超の脆弱性を発見した。",
+    "OpenAIがGPT-5.6 Solの価格を引き下げるなど、フロンティアモデル間の価格競争が続いている。",
+    "Googleは検索・Discover・Newsのパーソナライズ機能を拡充し、AIとの対話で好みを指定できるようにした。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "謎のステルスモデル「Ox Alpha」、正体を巡り憶測が広がる",
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "summary": "OpenRouterで無償公開された新モデル「Ox Alpha」が話題になっている。開発元は匿名の第三者プロバイダーとされ公式な確認がないまま、中国Z.aiのGLM系列やMicrosoftの未発表モデルではないかとの憶測がネット上で広がっている。Stripe CEOのパトリック・コリソン氏は性能を高く評価するコメントを寄せた。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Z.ai、コーディング特化モデル「GLM-5.3」を発表 — 想定外のサイバー能力も",
+      "url": "https://docs.z.ai/release-notes/new-released",
+      "summary": "中国Z.aiが新モデル「GLM-5.3」を公開した。コーディング性能はGLM-5.2比で50%向上し、Terminal Bench 3.0などオープンソースモデルの最高水準を達成した。学習データにセキュリティ関連情報を加えた結果、脆弱性発見・攻撃チェーン立案能力が想定を超えて向上し、複数のセキュリティチームとの実地テストで2,436件の脆弱性（うち1,097件が中〜高深刻度）を発見した。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Simon Willison氏、LLM CLIツール「llm 0.33」をリリース",
+      "url": "https://simonwillison.net/2026/Aug/22/llm/",
+      "summary": "コマンドラインからLLMを操作するPythonツール「llm」のバージョン0.33が公開された。OpenAI Pythonライブラリ3.x系への対応やHTTPクライアントの刷新に加え、embedコマンドの--keyオプション対応、複数テンプレートの併用、Responses API向けのreasoning_summaryオプションなどが追加されている。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、「GPT-5.6 Sol」のAPI価格を20%以上引き下げ",
+      "url": "https://www.investing.com/news/stock-market-news/openai-cuts-developer-pricing-for-frontier-gpt56-sol-model-by-more-than-20-4872186",
+      "summary": "OpenAIは主力モデル「GPT-5.6 Sol」のAPI価格を、8月21日から3ヶ月間の期間限定で値下げすると発表した。入力トークンは100万あたり5ドルから4ドルへ、出力トークンは30ドルから20ドルへ引き下げられ、ChatGPT WorkやCodexの対象クレジットにも適用される。これによりSolの価格はAnthropicのClaude Opus 5を下回ることになった。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、検索・Discover・Newsをチャットでパーソナライズできる機能を発表",
+      "url": "https://blog.google/products-and-platforms/products/search/personalize-search-discover-news/",
+      "summary": "Googleは8月20日、検索結果やDiscoverフィード、Google Newsの音声ブリーフィングをより細かくパーソナライズできる新機能を発表した。好みのニュースソースを選べる「Preferred Sources」ボタンや、見たい・見たくない内容をチャット形式で指定できるDiscoverのカスタマイズ機能などが含まれる。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-08-24-news"
+}
