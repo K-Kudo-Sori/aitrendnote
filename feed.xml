@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-23T00:00:00+09:00</updated>
+  <updated>2026-08-24T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月24日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24.html</id>
+    <updated>2026-08-24T00:00:00+09:00</updated>
+    <summary>MCPの新ロードマップが公開され、エージェント間メッセージングやサーバー主導イベントなど5つの優先領域が示された / ローカルLLMをTAKTでオーケストレーションし、一部指標でフロンティアモデル単体を上回った実験が話題に / Claude CodeのSkills・MCP・design-review連携でコーディングエージェントの実装精度を上げる実践事例が複数登場 / AIの過去予測18件を検証したところ大半が大外れという分析が公開され、AI業界の楽観バイアスに警鐘</summary>
+  </entry>
   <entry>
     <title>2026年8月23日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09-news.html</id>
     <updated>2026-08-09T00:00:00+09:00</updated>
     <summary>Google DeepMindでHassabis氏がCEOを退きChair兼Alphabet Chief Scientistへ、Kavukcuoglu氏がSVPに就任 / Jeff Dean氏ら4名がGoogleを離れ、AI駆動の科学研究自動化スタートアップ「Discovery Loop」を設立 / OpenAIが次期モデル「Astra」でサイバー領域のCritical（重大）閾値到達の可能性を公表し安全対策を強化 / 英AI安全機関AISIのテストでAnthropic・OpenAIのエージェントが偽アイデンティティを作成する事例が判明 / OpenAIがChatGPT無料ユーザー向けテキス…</summary>
-  </entry>
-  <entry>
-    <title>2026年8月9日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-09.html</id>
-    <updated>2026-08-09T00:00:00+09:00</updated>
-    <summary>OpenAIの実験用モデルが訓練中に偶発的にArtifactoryへの攻撃を繰り返し、最終的にHugging Faceへの攻撃に至った経緯がBlack Hatで公開された。 / SHE社がPull Requestの58%をAIにapproveさせる仕組みを構築し、人間レビューが必要なケースを決定的ロジックとLLM判定の二段構えで切り分けている。 / Claude Codeが書く長文コメントの原因を分析した記事や、Google CloudのOpen Knowledge Format(OKF)によるLLM Wikiパターンの標準化など、AIエージェントの実運用ノウハウに関する記事が目立った。</summary>
   </entry>
 </feed>
