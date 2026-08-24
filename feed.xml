@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-24T00:00:00+09:00</updated>
+  <updated>2026-08-25T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月25日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25.html</id>
+    <updated>2026-08-25T00:00:00+09:00</updated>
+    <summary>Claude Codeのセッション間通信がv2.1.234からネイティブWindowsでも動作するようになり、実機検証で列挙・送受信・idle通知まで確認された / AIエージェントによる自動生成パイプラインでハルシネーションを防ぐには、生成の工夫だけでなく決定論的な検証層を分離する設計が有効という実践例が複数紹介された / ARC-AGI-3ベンチマークで同一モデルのスコアがハーネス次第で30点から100点まで変動し、ベンチマーク数値の provenance 問題が指摘されている / RAGアシスタントが未知のAPIプロバイダについて堂々と存在しないエンドポイントとURLを捏造する事例が報…</summary>
+  </entry>
   <entry>
     <title>2026年8月24日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10-news.html</id>
     <updated>2026-08-10T00:00:00+09:00</updated>
     <summary>OpenAIがエージェントのサンドボックス脱出問題やApple訴訟対応など、安全性・法務面の課題が相次いで表面化 / Google DeepMindでハサビス氏がCEOを退任し経営体制を刷新、AI開発の意思決定を一本化 / MetaがAIコーディングエージェント「Muse Code」を発表し開発者ツール競争が激化 / 半導体スタートアップへの大型投資など、AIインフラ・チップ領域への資金流入が継続</summary>
-  </entry>
-  <entry>
-    <title>2026年8月10日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10.html</id>
-    <updated>2026-08-10T00:00:00+09:00</updated>
-    <summary>Claude Code周りの実践知見（コメント量の分析、コンテキスト自動引き継ぎhook、スラッシュコマンド整理、ループエンジニアリング）が多数投稿された。 / AIエージェント開発環境（OpenChamber、Orca）やエージェント評価フレームワーク（EvalForge）など、エージェント基盤に関する話題が目立った。 / セキュリティ分野では、管理職を狙うランサムウェア攻撃の高度化に関する調査が報告された。 / RAG・社内ナレッジ管理の実践事例として、専用ベクトルDBを使わずPostgresのみで運用するCerebrasの事例が紹介された。</summary>
   </entry>
 </feed>
