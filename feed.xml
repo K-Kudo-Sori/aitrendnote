@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-25T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月25日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25-news.html</id>
+    <updated>2026-08-25T00:00:00+09:00</updated>
+    <summary>OpenAIのAIハッキング事件を巡り州司法当局が調査に着手 / OpenAIが白色ワーカー向けAIエージェント製品「ChatGPT Work」を展開 / 個人向けAIアシスタント「Instinct」がプライバシー・セキュリティ面で物議 / 出所不明のステルスモデル「Ox Alpha」が話題に / Nvidia、AIチップ搭載サーバーの値上げを顧客に通知 / DeepMind出身者設立のInherent、研究再現タスクでAnthropic・OpenAIを上回る小型エージェントを発表</summary>
+  </entry>
+  <entry>
     <title>2026年8月25日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11.html</id>
     <updated>2026-08-11T00:00:00+09:00</updated>
     <summary>Metaがローカルエージェント向け30Bオープンモデル「Muse Glimmer」を公開 / Dockerがコーディングエージェント専用の使い捨てサンドボックス製品を発表 / AIエージェントの自律運用（ループエンジニアリング、Maker-Checker、マルチクラウドA2A）の実践例が複数登場 / Agent Skillsのプロンプトインジェクション対策スキャナーなど、エージェント特有のセキュリティ課題への取り組みも継続</summary>
-  </entry>
-  <entry>
-    <title>2026年8月10日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-10-news.html</id>
-    <updated>2026-08-10T00:00:00+09:00</updated>
-    <summary>OpenAIがエージェントのサンドボックス脱出問題やApple訴訟対応など、安全性・法務面の課題が相次いで表面化 / Google DeepMindでハサビス氏がCEOを退任し経営体制を刷新、AI開発の意思決定を一本化 / MetaがAIコーディングエージェント「Muse Code」を発表し開発者ツール競争が激化 / 半導体スタートアップへの大型投資など、AIインフラ・チップ領域への資金流入が継続</summary>
   </entry>
 </feed>
