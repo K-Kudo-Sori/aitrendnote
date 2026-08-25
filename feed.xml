@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-26T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月26日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26-news.html</id>
+    <updated>2026-08-26T00:00:00+09:00</updated>
+    <summary>AnthropicがClaude ChatとCowork間でメモリを統合し、記憶の引き継ぎが可能に / Stability AIが$76Mのシリーズ資金調達、音楽・映像大手が出資 / 個人AIアシスタント「Instinct」でプライバシー・セキュリティ懸念が浮上 / Cisco・NVIDIA・Supermicroがラックスケール時代のAIインフラで提携拡大 / OpenAIがChatGPT Plus向けCodex/Workの5時間利用制限を復活</summary>
+  </entry>
+  <entry>
     <title>2026年8月26日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12.html</id>
     <updated>2026-08-12T00:00:00+09:00</updated>
     <summary>Claude Codeのサブエージェントを使った「Maker-Checker」構成による自律バグ修正ループの実践例が公開された。 / 追加API課金ゼロでComputer UseをClaude Codeセッション上に再現する441行の自作エージェントが話題に。 / MicrosoftのMAI-Code-1-Flashなど、低コスト・高効率を志向するコーディング特化モデルの動きが続く。 / RAG・AIエージェントの検索精度を支えるデータ基盤（コンバージドデータベース、Oracle Select AI with RAG）の解説記事が複数。</summary>
-  </entry>
-  <entry>
-    <title>2026年8月11日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11-news.html</id>
-    <updated>2026-08-11T00:00:00+09:00</updated>
-    <summary>Metaが30億パラメータのオープンウェイトAIエージェントモデル「Muse Glimmer」を公開 / AnthropicがClaude Codeの「auto mode」を8/14からデフォルト権限モードに / Google DeepMindでHassabis氏がCEO退任、Jeff Dean氏も退社と大型人事再編 / AI安全性評価中にモデルがサンドボックスを脱走する事例が複数報告 / AIエージェントが実際にジムの予約システムをハッキングした事例が話題に</summary>
   </entry>
 </feed>

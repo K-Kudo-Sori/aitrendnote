@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026/8/26 8:19:47",
+  "highlights": [
+    "AnthropicがClaude ChatとCowork間でメモリを統合し、記憶の引き継ぎが可能に",
+    "Stability AIが$76Mのシリーズ資金調達、音楽・映像大手が出資",
+    "個人AIアシスタント「Instinct」でプライバシー・セキュリティ懸念が浮上",
+    "Cisco・NVIDIA・Supermicroがラックスケール時代のAIインフラで提携拡大",
+    "OpenAIがChatGPT Plus向けCodex/Workの5時間利用制限を復活"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Claude Cowork finally remembers what you told the app in chat",
+      "url": "https://techcrunch.com/2026/08/25/claude-cowork-finally-remembers-what-you-told-the-app-in-chat/",
+      "summary": "AnthropicはClaude ChatとClaude Coworkのメモリシステムを統合し、一方で得た情報をもう一方でも自動的に参照できるようにした。ユーザーは保存された記憶を確認・編集・削除でき、健康情報や政治的信条などのセンシティブな情報はデフォルトでは記憶されない。全プランで利用可能。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Stability AI, maker of image generator Stable Diffusion, raises $76 million in fresh funding",
+      "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/",
+      "summary": "Stable Diffusionを手がけるStability AIがシリーズBで7600万ドルを調達し、累計調達額は2億3200万ドルとなった。Universal Music GroupやSony Music、Warner Music、Electronic Arts、AMD Venturesなどが出資。音楽・映像・画像生成向けのクリエイティブ製品群の拡充とプロフェッショナルサービス部門の強化に充てる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Instinct's powerful AI assistant is raising privacy and security concerns",
+      "url": "https://techcrunch.com/2026/08/24/instincts-powerful-ai-assistant-is-raising-privacy-and-security-concerns/",
+      "summary": "元Sierra研究者らが開発した個人向けAIアシスタント「Instinct」に、プライバシーとセキュリティ上の懸念が指摘されている。利用規約でユーザーデータの広範な利用権を保持し、Gmail連携を解除した後もメール内容を保存し続けた事例や、認証コードの抽出・フィッシングへの脆弱性、ユーザー確認なしのメール送信などがテスターにより報告された。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Cisco Expands Secure AI Factory with NVIDIA for the Rack-Scale Era",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m08/cisco-secure-ai-factory-nvidia-rack-scale.html",
+      "summary": "CiscoはSupermicroとの提携により、液冷・空冷対応の高密度サーバーシステムをSecure AI Factory with NVIDIAに統合すると発表した。Cisco Silicon OneやSpectrum-Xベースのネットワーク機器とも組み合わせ、トリリオンパラメータ級の学習からエッジ推論までを支える。提供開始は2026年10月を予定。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI restores 5-hour Codex and Work limits for ChatGPT Plus users",
+      "url": "https://9to5mac.com/2026/08/24/openai-restores-5-hour-codex-and-work-limits-for-chatgpt-plus-users/",
+      "summary": "OpenAIはChatGPT PlusプランのCodexおよびChatGPT Workについて、8月25日から5時間の利用制限を再導入すると発表した。約6週間撤廃されていた制限の復活で、サーバー負荷の平準化と週次利用枠の充実が狙い。Pro（$100/$200）プランは当面この制限の対象外となる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Hot Chips 2026: Nvidia breaks down 88-core Vera CPU — spatial multithreading benchmarked, 1.2 TB/s SOCAMM2 memory, agentic workloads detailed, and more",
+      "url": "https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-spatial-multithreading-benchmarked-1-2-tb-s-socamm2-memory-agentic-workloads-detailed-and-more",
+      "summary": "NVIDIAはHot Chips 2026で、独自ARMv9.2互換コア「Olympus」を88基搭載するVera CPUの詳細を公開した。SOCAMM2 LPDDR5Xメモリで最大1.5TB容量・1.2TB/s帯域を実現し、空間マルチスレッディングによりエージェント型ワークロードで最大1.8倍の高速化を主張。チップレットではなくモノリシックダイを採用している点が特徴。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-08-26-news"
+}
