@@ -1,0 +1,206 @@
+{
+  "date": "2026-08-26",
+  "generatedAt": "2026/8/26 7:06:38",
+  "highlights": [
+    "OpenAIが自社設計の推論チップ「Jalapeño」を発表、性能あたり消費電力でNvidia Blackwellを上回ると報告",
+    "Claude Code / Claude Design関連のTipsや運用ノウハウ記事が国内ブログで多数公開",
+    "AIによるコード・テスト生成の「レビュー」自体を検証する動き（敵対的検証、独立性の限界）が話題に",
+    "AI推論インフラを一般家庭に分散配置する構想や、RAGの会話履歴における権限管理の盲点など、インフラ・セキュリティ視点の記事も"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "OpenAI Jalapeño: Better than Nvidia Blackwell",
+      "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+      "summary": "OpenAIがBroadcomと共同開発した推論特化ASIC「Jalapeño」がHot Chipsで発表され、SemiAnalysisによるInferenceXベンチマークで検証された。設計開始からわずか約16ヶ月というASICとしては異例の速さでテープアウトに至り、特定モデル向けではなく汎用の推論チップとして設計されている点が特徴。HBM4を搭載し、消費電力あたりのトークンスループットでNvidia Blackwellを含む主要GPUを上回る結果を示した。DeepSeek R1では単一トークン予測のみで1ユーザーあたり毎秒700トークン超を達成するなど、投機的デコードなしでも高い対話性能を発揮している。数値はOpenAI提供のものであり、AgentXなど一部のベンチマークは未検証との留保も付いている。",
+      "category": "infra",
+      "points": 213,
+      "comments": 147,
+      "author": "bmulholland"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+      "url": "https://github.com/ThinkOffApp/CarWatch",
+      "summary": "個人開発者が、Raspberry Pi 5上でQwen3.6-35B-A3Bのローカル量子化モデルを動かし、車載AIエージェント「CarWatch」を構築した事例を紹介している。オフライン環境でも動作し、745ページの取扱説明書を根拠にしたRAGによる質問応答や、車両の温度・ネットワーク状態など自身の状態を把握して正直に答える設計が特徴。音声認識はwhisper.cppを用いて全てPi上で完結させ、フルオフラインの音声対話を実現している。オンライン接続時のみクラウド上位モデルへエスカレーションするなど、ローカル優先・オンライン補完という設計思想を貫いている。",
+      "category": "agent",
+      "points": 64,
+      "comments": 15,
+      "author": "petruspennanen"
+    },
+    {
+      "source": "hackernews",
+      "title": "Warnock: Harnessing GPU geometry amplification for vector graphics",
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3820012",
+      "summary": "本文取得失敗",
+      "category": "other",
+      "points": 35,
+      "comments": 2,
+      "author": "coffeeaddict1"
+    },
+    {
+      "source": "zenn",
+      "title": "claude のメモリを棚卸しする",
+      "url": "https://zenn.dev/cureapp/articles/c1e963064d05fd",
+      "summary": "筆者がClaude Codeの自動メモリ機能（~/.claude/projects以下に保存される個人用メモリ）の仕組みを改めて調査し、実際の内容を棚卸しした記事。毎セッションで読み込まれるのはMEMORY.mdという目次ファイルのみであり、その1行のフックが古いファイルへの唯一の入り口になっているため、目次の内容が不正確だと関連ファイルが永久に参照されなくなる構造上のリスクを指摘している。実際に自身のメモリを確認したところ、マージ済みのPRを未完了と記載するなど古い進捗情報が残っていたと報告。標準の`/consolidate-memory`スキルでは重複や孤立リンクは整理できても進捗の古さまでは検出できないため、ユーザーの合意を取りながら安全に整理する自作スキルを作成したと述べている。",
+      "category": "devtool",
+      "points": 168,
+      "author": "Tatsunori Nakano"
+    },
+    {
+      "source": "zenn",
+      "title": "あなたのHTML資料には、魂が込められていますか？",
+      "url": "https://zenn.dev/tokium_dev/articles/html-shiryo-ni-tamashii",
+      "summary": "未経験エンジニアの筆者が、Claude Codeで生成した見やすいHTML資料を読んでも内容が頭に入らないという課題に直面し、あえて「ダサい」デザインのHTML資料を生成することで読み飛ばしを防ぐという逆転の発想を紹介している。デザイナーによる「最悪なデザイン手法7選」を字義通りすべて適用し、大量の色や無意味な装飾、整列の崩れなどを盛り込んだテンプレートとClaude Codeスキルを自作・公開した。見た目や語り口はあえて崩す一方、構造・事実・出典は変えないという一線を明確にしている点がポイント。結果として一言一句読むようになり、インプットの定着が進んだと結論づけている。",
+      "category": "devtool",
+      "points": 43,
+      "author": "タケノコご飯"
+    },
+    {
+      "source": "zenn",
+      "title": "敵対的検証をLLMコードレビューで試すと何が起きるのか",
+      "url": "https://zenn.dev/knowledgesense/articles/0cb441713c9fee",
+      "summary": "LLMによるコードレビューの精度を高める手法「Adversarial Review」を、論文とAnthropicのブログ記事を引用しつつ紹介している。Reviewer役のエージェントが敵対的検証で問題候補を洗い出し、Critic役のエージェントがコード上の証拠に基づいて反論・検証を行い、両者が合意するまでやり取りを繰り返す仕組み。単純な敵対的検証だけでは根拠の薄い誤指摘が多くなる課題を、証拠付きの反論プロセスで補っている点が要点。既存手法と比べて指摘のF1スコアが3ポイント向上した一方、トークン消費量は約4.5倍に増加したことも報告している。",
+      "category": "agent",
+      "points": 14,
+      "author": "sasakuna"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Designを使ったポスター制作について",
+      "url": "https://zenn.dev/kaiyo/articles/65f98a5abadac5",
+      "summary": "学会発表用ポスターの制作にClaude Designを活用した経験をまとめた記事で、レイアウト構築やブロック配置、数値の可視化など「0→1」の初期デザイン生成を得意とする一方、強調点の取捨選択や文言の洗練といった「1→100」の仕上げは人間の手直しが必須だったと総括している。原稿から従来2週間かかっていた制作期間が実質半分程度に短縮された一方、文字サイズの調整不足や不要な英語サブタイトルの付与など細かな問題も多く発生したという。デザイナーも同様の所感を持っており、Claude Designは「見られるレベル」までは自動生成できる有用なツールと評価している。共同編集時にはプラン差異により同一プロジェクトを編集できず、HTMLでのファイル受け渡しが必要になった点も課題として挙げられている。",
+      "category": "devtool",
+      "points": 9,
+      "author": "Kai Yoshida"
+    },
+    {
+      "source": "zenn",
+      "title": "家族で使うAIエージェントのDiscord運用",
+      "url": "https://zenn.dev/kimushun1101/articles/family-ai-agents-on-discord",
+      "summary": "個人でDiscordに常駐させていたAIエージェントを、Anthropicの利用規約と両立させながら家族で使えるように拡張した構成を紹介する記事。Claude MaxプランはConsumer Terms of Serviceによりアカウントの共有が禁止されているため、契約者本人専用のbotと、Claude APIをバックエンドにした家族共有用botの2体に役割を分離している。OSSのxangiを利用し、Linuxユーザーをbotごとに分離してホームディレクトリや認証情報を隔離するなど、セキュリティ面の工夫も詳述されている。チャンネルごとの権限設定や環境変数を用いて、パブリック/プライベートの話題や担当botの切り分けも行っている。",
+      "category": "agent",
+      "points": 18,
+      "author": "木村 駿介 / Shunsuke KIMURA"
+    },
+    {
+      "source": "devto",
+      "title": "AI promoted every developer to reviewer. Nobody tested the reviewer.",
+      "url": "https://dev.to/heinrichneb/ai-promoted-every-developer-to-reviewer-nobody-tested-the-reviewer-m4h",
+      "summary": "AIによるコード生成が普及する中、開発者の役割が実質的に「レビュアー」へ移行しているにもかかわらず、そのレビューを担う自動チェック自体が検証されていないという問題を指摘する記事。筆者が自身のリポジトリの204個の結論を出すガード（自動チェック）を調査したところ、既知の不正な入力を与えて失敗することを実際に確認できていたのはわずか11%だったという。デプロイゲートが自身の依存するツールの欠如で6時間気付かれず失敗し続けた事例や、正規表現が意図しない文字列にマッチして成功を失敗と誤判定した事例など、具体的な「greenだが機能していない」チェックの実例を3つ紹介している。AIがアーティファクトの大半を生成する時代においては、検証を担うガード自体の検証（negative control）が重要だと結論づけている。",
+      "category": "devtool",
+      "points": 38,
+      "comments": 37,
+      "author": "Heinrich Neb",
+      "tags": [
+        "ai",
+        "productivity",
+        "testing",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "What Do You Do While AI Codes?",
+      "url": "https://dev.to/anchildress1/what-do-you-do-while-ai-codes-k8k",
+      "summary": "AIエージェントがコードを書いている待ち時間、開発者は何をすべきかという素朴な疑問を掘り下げたエッセイ的記事。ゆっくり考える時間に充てる、コードの中身ではなく変更の方向性だけを俯瞰して見守る、資料作成やドキュメント整備などの後回しにしていた雑務をこなす、隙間時間に資格学習を進める、Slackでの相談に応じるといった複数の対処法を、それぞれの利点と落とし穴とともに紹介している。特にSlackでの「ちょっとした質問対応」は際限なく時間を奪う罠になりやすく、AIの作業が終わった頃には自分がボトルネックになっているという指摘が印象的である。",
+      "category": "devtool",
+      "points": 17,
+      "comments": 14,
+      "author": "Ashley Childress",
+      "tags": [
+        "discuss",
+        "ai",
+        "productivity",
+        "devex"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "A Wider Computer, Not a Bigger One: Modeling AI Inference Across Millions of Homes",
+      "url": "https://dev.to/copyleftdev/a-wider-computer-not-a-bigger-one-modeling-ai-inference-across-millions-of-homes-5cmo",
+      "summary": "データセンターではなく一般家庭にAI推論用のアプライアンスを分散配置する「HEARTH」という構想を、著者が経済モデルを5回作り直しながら検証した記事。当初は施設コストのみを比較して家庭側が有利という結論だったが、GPUの調達コストと稼働率を加味すると逆転し、モデルサイズによって結果が変わることが判明した。8Bクラスの小規模モデルは家庭用コンシューマGPUでもバッチ処理の余地が残り採算が合う一方、32Bクラスになるとメモリ制約でデータセンター側が優位になるという結論に至っている。全体として「巨大な1台のコンピュータ」ではなく「多数の小さな独立ノードによる幅広いネットワーク」として、小規模モデル推論に限定した現実的な着地点を提示している。",
+      "category": "infra",
+      "points": 12,
+      "comments": 2,
+      "author": "Don Johnson",
+      "tags": [
+        "ai",
+        "aiops",
+        "infrastructure"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Your Job Ends at 5. Your Developer Brain Doesn't.",
+      "url": "https://dev.to/harsh2644/your-job-ends-at-5-your-developer-brain-doesnt-26m8",
+      "summary": "仕事終了後も未解決のバグや設計判断が頭から離れず、就業時間外にも思考が続いてしまう開発者特有の現象を、ストレス反応系（HPA軸）の観点から分析したエッセイ。開発の課題には自然な「完了」の合図がないため、脳が問題を「未解決」と認識し続けてしまうことが背景にあると説明している。「ちょっとSlackを見るだけ」のつもりが長時間の対応に発展してしまう罠についても触れ、これは意図的な残業とは異なる「終業の切れ目がそもそも存在しない」状態だと位置づけている。趣味としてのコーディング自体を否定するのではなく、境界の付け方を見直す必要性を訴える内容になっている。",
+      "category": "other",
+      "points": 23,
+      "comments": 5,
+      "author": "Harsh ",
+      "tags": [
+        "mentalhealth",
+        "career",
+        "productivity",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Chat history is a second read path into your RAG data — gate the replay like the search",
+      "url": "https://dev.to/rdiegoss/chat-history-is-a-second-read-path-into-your-rag-data-gate-the-replay-like-the-search-10j0",
+      "summary": "RAG（検索拡張生成）製品において、会話履歴に永続化した引用元カード（ソースドキュメント）が、検索と同じ権限チェックを経ずに再表示されてしまう「第二の読み取り経路」というセキュリティ上の盲点を指摘する記事。「過去に見せた情報だから今見せても問題ない」という発想を否定し、書き込み時点で許可されていたことは読み取り時点の許可を何ら証明しないという原則（Persistence is not permission）を提示している。テナント管理者がAI機能のトグルを変更した場合に備え、履歴閲覧時にも改めて現在の権限を再評価し、権限がなければソースカードだけを非表示にしつつ本文は表示するなど、段階的なフェイルクローズ設計を実装した具体的なコード例も紹介している。",
+      "category": "security",
+      "points": 11,
+      "comments": 3,
+      "author": "Rodrigo Diego",
+      "tags": [
+        "rag",
+        "security",
+        "ai",
+        "llm"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【ローカルLLM】国産LLM「LLM-jp-4-33B」と「Qwen3.8-27B」の推論性能比較（RTX 5070 Ti + RTX 3070 Ti）",
+      "url": "https://qiita.com/h-nabata/items/b80484406e839ee6507b",
+      "summary": "国産LLMであるLLM-jp-4-33B-thinkingと中国製のQwen3.8-27Bについて、RTX 5070 Ti・RTX 3070 Tiを用いたローカル環境でQ4_K_M量子化版同士の推論性能を比較検証した記事。高度な日本語読解や数学・コーディングなど10分野・128問の基本問題と80問の応用問題からなる独自ベンチマークを作成し、公平性を担保するため両モデルともMTP（複数トークン予測）を無効化して条件を揃えている。アーキテクチャの違い（LLM-jpは標準的なTransformer、Qwenはハイブリッド構造でMTP学習込み）を踏まえつつ、reasoning強度をmediumに固定した条件下でのスコアを比較している。",
+      "category": "model",
+      "author": "h-nabata"
+    },
+    {
+      "source": "qiita",
+      "title": "元ヤフーエンジニア社長が考える、AI時代のエンジニアに必要な3つのスキル",
+      "url": "https://qiita.com/ryoheiiwamoto/items/5f21adcca8aff1b0357a",
+      "summary": "元Yahooエンジニアで現在スタートアップ代表を務める筆者が、AI時代にエンジニアが生き残るために必要な3つの力として「AIを使いこなす力」「ビジネス戦闘力（概念化能力）」「人間力」を挙げている。指示されたことをこなすだけの受け身の仕事はAIに代替されていくため、指示される前に提案できる人材への転換が必要だと主張。AIツールを使いこなす力を前提としつつ、論理的思考力や抽象化・具体化を往復する力、そして一緒に働きたいと思われる人間性が今後の差別化要因になると述べている。スキルが均一化する時代には、地頭の良さとチームへの貢献意欲が最後に評価される、という結論で締めくくられている。",
+      "category": "other",
+      "author": "ryoheiiwamoto"
+    },
+    {
+      "source": "qiita",
+      "title": "/model を1度でも押すと ANTHROPIC_DEFAULT_MODEL は効きません",
+      "url": "https://qiita.com/jqit_suwa/items/7ecdfc6067e09aed00a1",
+      "summary": "Claude Codeに追加された環境変数`ANTHROPIC_DEFAULT_MODEL`が、名前に反して`/model`コマンドで一度でもモデルを選択すると機能しなくなるという挙動を、実測をもとに検証した記事。設定の優先順位は`--model`フラグ＞`ANTHROPIC_MODEL`＞設定ファイルの`model`値＞`ANTHROPIC_DEFAULT_MODEL`の順であり、`/model`の選択は`settings.json`に保存されるため、一度でも切り替えた環境ではデフォルト変数が無視されると指摘している。また`ANTHROPIC_DEFAULT_MODEL=haiku`のように`default`/`inherit`/`opusplan`/`haiku`を指定した場合は変数自体が無視される仕様であることも判明したと報告。チーム全体に強制したい場合は`ANTHROPIC_MODEL`を、初期値だけ決めたい場合は`settings.json`から`model`を削除した上で`ANTHROPIC_DEFAULT_MODEL`を使うべきだと結論づけている。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "AIにテストを書かせると、決まって同じ場所が抜ける",
+      "url": "https://qiita.com/jqit_suwa/items/a0fa9752528e2b3def71",
+      "summary": "AIにテスト仕様書を作成させ、それをISTQBのテスト技法規格に沿って機械的に監査するとどこが抜けるのかを検証した記事。ファイル添付機能を題材にAIへ生成させた78件のテストケースは、境界値分析やデシジョンテーブル、状態遷移表を自発的に作成するなど質は高かったものの、規格に基づく監査では4技法平均で網羅率63.12%にとどまり、26件の指摘が付いたという。「valid値は書くがinvalid値が抜ける」「上限は書くが下限が抜ける」といった一貫した抜け漏れパターンがあることを明らかにしている。また、別のAIエージェントにレビューさせても同一プロバイダ・同一APIキーである限り認知バイアスが共通するため、ISTQBが定義する独立性のうち「同僚レベル」までしか到達できないと論じている。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "Oracle AI Database Private Agent Factory 26.4 を 26.7 へ Upgrade してみてみた",
+      "url": "https://qiita.com/shirok/items/de8732a3d1ebc441af10",
+      "summary": "Oracle AI Database Private Agent Factory（PAF）を、既存のバージョン26.4環境を維持したままバージョン26.7へアップグレードした手順と検証結果をまとめた記事。26.7の新機能として、エージェント間連携（A2A）、ワークフローレベルのメモリ機能、IAMによるロールベースのアクセス制御、Anthropic・Azure OpenAI・OpenRouterなどモデルプロバイダの拡充が挙げられている。Marketplace上の表示更新とドキュメント・インストールキットの公開タイミングにズレがあった点や、Podman/SELinuxに起因するコンテナイメージのビルドエラーに遭遇し、原因切り分けから復旧までを行った経緯もトラブルシューティングとして記録されている。既存のモデルやデータソース、エージェント設定が引き継がれることを主な検証対象としている。",
+      "category": "product",
+      "author": "shirok"
+    }
+  ]
+}

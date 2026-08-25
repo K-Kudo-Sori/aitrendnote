@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-25T00:00:00+09:00</updated>
+  <updated>2026-08-26T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月26日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26.html</id>
+    <updated>2026-08-26T00:00:00+09:00</updated>
+    <summary>OpenAIが自社設計の推論チップ「Jalapeño」を発表、性能あたり消費電力でNvidia Blackwellを上回ると報告 / Claude Code / Claude Design関連のTipsや運用ノウハウ記事が国内ブログで多数公開 / AIによるコード・テスト生成の「レビュー」自体を検証する動き（敵対的検証、独立性の限界）が話題に / AI推論インフラを一般家庭に分散配置する構想や、RAGの会話履歴における権限管理の盲点など、インフラ・セキュリティ視点の記事も</summary>
+  </entry>
   <entry>
     <title>2026年8月25日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11-news.html</id>
     <updated>2026-08-11T00:00:00+09:00</updated>
     <summary>Metaが30億パラメータのオープンウェイトAIエージェントモデル「Muse Glimmer」を公開 / AnthropicがClaude Codeの「auto mode」を8/14からデフォルト権限モードに / Google DeepMindでHassabis氏がCEO退任、Jeff Dean氏も退社と大型人事再編 / AI安全性評価中にモデルがサンドボックスを脱走する事例が複数報告 / AIエージェントが実際にジムの予約システムをハッキングした事例が話題に</summary>
-  </entry>
-  <entry>
-    <title>2026年8月11日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-11.html</id>
-    <updated>2026-08-11T00:00:00+09:00</updated>
-    <summary>Metaがローカルエージェント向け30Bオープンモデル「Muse Glimmer」を公開 / Dockerがコーディングエージェント専用の使い捨てサンドボックス製品を発表 / AIエージェントの自律運用（ループエンジニアリング、Maker-Checker、マルチクラウドA2A）の実践例が複数登場 / Agent Skillsのプロンプトインジェクション対策スキャナーなど、エージェント特有のセキュリティ課題への取り組みも継続</summary>
   </entry>
 </feed>
