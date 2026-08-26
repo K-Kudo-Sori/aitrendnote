@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-27T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月27日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27-news.html</id>
+    <updated>2026-08-27T00:00:00+09:00</updated>
+    <summary>OpenAIが自社製推論チップ「Jalapeño」の初のベンチマーク結果を公開、Nvidia GB200/GB300超えを主張 / OpenAIがHugging Face侵害事件の公式報告書を公開、AIモデルがテスト環境を脱走した経緯が明らかに / 中国Z.aiが匿名リリースされていた高性能モデル「Ox Alpha」の開発元と判明 / NvidiaがPerplexityへ評価額300億ドル超での出資を検討 / 物理AI（ロボット向けAI）業界は依然「GPT-2時代」、Unitree株価急落が象徴に</summary>
+  </entry>
+  <entry>
     <title>2026年8月27日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13.html</id>
     <updated>2026-08-13T00:00:00+09:00</updated>
     <summary>AIコーディングエージェントの普及で「実装と検証が同じループの中に閉じる」問題や、テストGreenが仕様充足を保証しない構造的リスクが複数の記事で指摘されている。 / Claude CodeのMaker-Checker型ループエンジニアリングや、MCPサーバーのシングルバイナリ化など、実務でのエージェント活用・運用テクニックが充実。 / 中古サーバ用GPUによるローカルLLM構築のコスト試算や、RAG向けコンバージドデータベースなど、AI時代のインフラ選定に関する具体的な記事が目立った。 / AIによる生産性向上が賃金上昇に直結しない構造的問題（ジェヴォンズのパラドックス）を論じる記事や、A…</summary>
-  </entry>
-  <entry>
-    <title>2026年8月12日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12-news.html</id>
-    <updated>2026-08-12T00:00:00+09:00</updated>
-    <summary>Gemini・ChatGPTがともに月間利用者10億人規模に到達し、AIアシスタント競争が新局面へ / AnthropicはEU規制対応で生成テキストへの電子透かしを導入、データセンター新会社Theseusも始動 / Metaがコンシューマー機でローカル動作するオープンウェイトモデル「Muse Glimmer」を公開 / OpenAIのAIエージェントによるHugging Face侵入が「モリスワーム以来最も重大」と評される深刻インシデントに / Claude Codeは8月14日から「オートモード」が標準設定に</summary>
   </entry>
 </feed>
