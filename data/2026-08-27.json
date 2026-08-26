@@ -1,0 +1,218 @@
+{
+  "date": "2026-08-27",
+  "generatedAt": "2026/8/27 7:04:48",
+  "highlights": [
+    "Claude Codeの暗号化思考ログが復号され認証情報が漏洩し得るという論文が話題に",
+    "クラウドエージェント（Claude Code on the web / Cursor Cloud Agents）へ開発の大半を移す動きが加速",
+    "AIエージェントの「常時稼働」志向への設計面からの批判的考察が反響",
+    "hookでの機械的ルール強制やAdversarial Reviewなど、LLM開発の規律・検証手法の工夫が進む",
+    "GoogleのAntigravityがVS Code公式拡張化し、Codespacesと組み合わせた安全な自律実行が注目"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Tailcat – Like netcat, but over Tailscale’s data plane",
+      "url": "https://github.com/tailscale/tailcat",
+      "summary": "Tailscaleのオープンソース部品を流用したCLI/ライブラリ「Tailcat」を紹介する記事。Tailscaleのコントロールプレーンを使わず、data plane（WireGuard暗号化トンネルとDERPリレー）だけを利用してnetcatのような通信を行える。アカウント登録やルーティングテーブルの変更なしに、トークンベースの接続、ローカルポート転送、認証なしSSH、SOCKS5プロキシなどが可能。Go言語製でオープンソースとして公開されている。",
+      "category": "other",
+      "points": 378,
+      "comments": 68,
+      "author": "nderjung"
+    },
+    {
+      "source": "hackernews",
+      "title": "It’s so hard to finish an idea that is not yours and is just suggested by AI",
+      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+      "summary": "Obsidianノートへの安易なAI活用に警鐘を鳴らすブログ記事。長文のAI生成要約をノートに蓄積すると、自分の思考とAIの出力の境界が曖昧になり「AIスロップ」に埋もれてしまうと指摘する。著者は関連ノート検索など補助的な用途には価値を認めつつ、タグ付けや長文要約の自動生成には慎重な姿勢を取る。ローカルモデルを使った高度なリサーチ用途には将来的な活用余地があるとしつつ、人間自身の思考を代替させない使い方を勧めている。",
+      "category": "other",
+      "points": 143,
+      "comments": 79,
+      "author": "zazuke"
+    },
+    {
+      "source": "hackernews",
+      "title": "Serve Markdown to AI Agents with Accept Headers",
+      "url": "https://acceptmarkdown.com/",
+      "summary": "WebサイトがAccept: text/markdownヘッダーによるコンテンツネゴシエーションでMarkdown版のページを返せるようにする手法を紹介するサイト。AIエージェントやRAGパイプラインがナビゲーションや装飾を除いた本文だけを取得でき、トークン消費削減・ノイズ低減・レイテンシ改善につながるとする。Nginx、Cloudflare Workers、Next.jsなど主要スタック向けの実装レシピや、対象URLが正しくMarkdownを返すか診断するチェッカーツールも提供している。",
+      "category": "devtool",
+      "points": 52,
+      "comments": 17,
+      "author": "tilt"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: We built the smallest dual-band aircraft tracker",
+      "url": "https://pantsforbirds.com/the-worlds-smallest-dual-band-ads-b-receiver-module/",
+      "summary": "Pants for Birds社が発表した超小型・低消費電力のデュアルバンドADS-B受信モジュール「ADSBee m1421」の紹介記事。Semtechの新チップLR2021とTIのCC1314を組み合わせ、重さ2g未満・消費電力60mW未満というサイズでMode SとUATの両方式を受信できる。オープンソースのファームウェアと回路図をGPLv3で公開しており、既存機種ADSBee 1090との使い分けも解説している。",
+      "category": "other",
+      "points": 11,
+      "comments": 2,
+      "author": "CoolNamesAllTkn"
+    },
+    {
+      "source": "zenn",
+      "title": "AIは回せば回すほど凄いのか ―「常時稼働」という設計の敗北",
+      "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
+      "summary": "「AIエージェントを24時間ぶん回す」という風潮に対する批判的考察。高品質モデルの常時稼働はAPI課金で破綻し、安価モデルの常時稼働は手戻りコストで破綻するとして、コスト面からも設計面からも「常時稼働」は非合理だと論じる。良い設計とは必要なときだけ動的にエージェントを呼び出すオーケストレーションであり、常時稼働はその判断ロジックが作れないことの裏返しだと指摘する。さらにプロダクト開発の本質的なボトルネックは「作ること」ではなく「使われること」にあり、マーケティングやユーザー対応など自動化できない工程こそ重要だと結論づけている。",
+      "category": "agent",
+      "points": 88,
+      "author": "Eggletric"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカルでの開発やめませんか？Claude Code / Cursorで開発の8割をクラウドに移した話",
+      "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
+      "summary": "開発者がClaude Code on the webやCursorのCloud Agentsを使い、開発作業の8割以上をクラウド上のエージェントに移した体験談。専用VM環境により、許可待ちなしの自律実行（YOLOモード）でも手元PCが壊れるリスクがなく、環境構築からテスト・アプリ起動までエージェントが検証まで完結できる利点を説明する。ブランチをローカルにチェックアウトせずにマージできる、PCを閉じても処理が継続する、複数リポジトリを横断できるといった具体的なメリットを紹介する一方、プロンプトインジェクションによる情報持ち出しリスクには注意が必要だと述べている。",
+      "category": "devtool",
+      "points": 26,
+      "author": "kaito"
+    },
+    {
+      "source": "zenn",
+      "title": "claude のメモリを棚卸しする",
+      "url": "https://zenn.dev/cureapp/articles/c1e963064d05fd",
+      "summary": "Claude Codeの自動メモリ機能（~/.claude/projects/配下）を調査したブログ。毎セッションで読み込まれるのはMEMORY.mdという目次ファイルの先頭200行/25KBのみで、トピックファイルは目次の記述から辿られたときだけ読まれる仕組みだと説明する。放置すると進捗系の記述が実態と乖離した「嘘」として残り続け、条件付き警告などが解除されないままエージェントが誤った前提で動いてしまう問題を指摘。標準の/consolidate-memoryスキルでは解決しないため、ユーザーの合意を取りながらMEMORY.mdを整理する自作スキル「memory-inventory」を作成したと紹介している。",
+      "category": "devtool",
+      "points": 182,
+      "author": "Tatsunori Nakano"
+    },
+    {
+      "source": "zenn",
+      "title": "敵対的検証をLLMコードレビューで試すと何が起きるのか",
+      "url": "https://zenn.dev/knowledgesense/articles/0cb441713c9fee",
+      "summary": "LLMによるコードレビューの精度を上げる「Adversarial Review」という手法を紹介する記事。Reviewerが敵対的検証で問題候補を洗い出し、Critic役がコード上の証拠に基づいて反論・検証し、両者が合意するまでやり取りを繰り返すことで根拠の薄い誤検出を減らす仕組みを解説する。既存手法に比べF1スコアが3ポイント向上した一方、トークン消費は約4.5倍に増加したという評価結果を紹介。手法自体はシンプルで導入しやすく、レビュー負荷の軽減に有効だとまとめている。",
+      "category": "agent",
+      "points": 36,
+      "author": "sasakuna"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeの規律をhookに降ろしたら、Haikuでも壊れなくなった",
+      "url": "https://zenn.dev/yui/articles/97597aa13b9802",
+      "summary": "Claude Codeのplaybookルールをプロンプトではなくhook（PostToolUse）で機械的に強制する手法を紹介する記事。プロンプトに書いたルールはコンテキストが伸びるほど、モデルのランクが下がるほど遵守率が落ちるという問題があるため、grepで判定できるルール（\"use client\"の位置、@ts-ignoreの濫用など）はhookでの自動チェックに切り出したと説明する。これによりモデルの状態に依存せず発火率100%を実現し、違反時のみトークンを消費する構造になり、差し戻しループも減少。さらにビルダー役をSonnet、判断役をOpusに割り当てるといったモデルプロファイルの使い分けも合わせて導入している。",
+      "category": "devtool",
+      "points": 12,
+      "author": "yui"
+    },
+    {
+      "source": "devto",
+      "title": "Introducing AI Disclosure on DEV: Tools for Nuance, Clarity, and Better Feeds",
+      "url": "https://dev.to/devteam/introducing-ai-disclosure-on-dev-tools-for-nuance-clarity-and-better-feeds-34mk",
+      "summary": "技術コミュニティサイトDEVが、記事作成時に「Hand Written」「AI-Assisted」「Fully Autonomous」の3段階でAI関与度を開示する機能を導入したという発表。AIによる執筆支援自体は問題視しないが、自律生成コンテンツを隠して人間の一次体験のように見せる行為は規約違反とし、アカウント停止の対象になり得ると明記している。今後はAI関与度に応じてフィードから記事を除外できる「Feed Preferences」機能も提供予定だとしている。",
+      "category": "product",
+      "points": 50,
+      "comments": 4,
+      "author": "Ben Halpern",
+      "tags": [
+        "showdev",
+        "announcements",
+        "ai",
+        "community"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Tested 5 Design to Code Tools With the Same Outdated SaaS Dashboard",
+      "url": "https://dev.to/hadil/i-tested-5-design-to-code-tools-with-the-same-outdated-saas-dashboard-1ijk",
+      "summary": "同一の旧式SaaSダッシュボードと同一の再設計プロンプトを使い、Flowstep・Anima・v0 by Vercel・Lovable・Bolt.newの5つのデザイン→コード変換AIツールを比較検証した記事。見た目のデザイン品質だけでなく、生成されたフロントエンドコードの品質も評価軸に含めている点が特徴。Flowstepが最も完成度の高い再設計とコード構造を示した一方、各ツールでビジュアルとコード品質の得意分野が異なり、優劣は単純には決まらないと結論づけている。",
+      "category": "devtool",
+      "points": 36,
+      "comments": 7,
+      "author": "Hadil Ben Abdallah",
+      "tags": [
+        "ai",
+        "design",
+        "coding",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Back from Wudang Mountain. The book is under review.",
+      "url": "https://dev.to/xulingfeng/back-from-wudang-mountain-the-book-is-under-review-2o3b",
+      "summary": "著者が中国・武当山への登山旅行中に土砂崩れに遭遇しながら生還した体験記。旅の合間に執筆していたAI関連の短編集「AI, Ego & Regret」（AIシステムの失敗とそれに関わった人間のエゴ・後悔をテーマにした作品集）をAmazon KDPへ提出し、審査中であることを報告している。技術的内容は薄く、著者の個人的な近況報告が中心の記事。",
+      "category": "other",
+      "points": 47,
+      "comments": 15,
+      "author": "xulingfeng",
+      "tags": [
+        "discuss",
+        "career",
+        "programming",
+        "community"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Build a Full-Stack Music Station with OpenRouter, Amazon Bedrock, and Nuxt",
+      "url": "https://dev.to/aws/build-a-full-stack-music-station-with-openrouter-amazon-bedrock-and-nuxt-5fh4",
+      "summary": "Amazon Bedrock、ElevenLabs、OpenRouterを組み合わせてローファイ音楽ステーション「Compile & Chill」を構築するチュートリアル記事。Bedrockでシーン画像を生成し、ElevenLabsで楽曲を作曲、OpenRouter経由で静止画から短い動画を生成する仕組みで、生成物はプライベートなS3に保存される。APIキーなどの認証情報はNuxtのサーバー側runtimeConfigに隠し、ループバック以外へのバインドには長いトークンを必須にするなど、セキュリティ面の実装ポイントも解説している。",
+      "category": "devtool",
+      "points": 23,
+      "comments": 3,
+      "author": "Erik Hanchett",
+      "tags": [
+        "nuxt",
+        "aws",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "My Cloud Run Multi-Agent Fleet Passed Its Demo. The Architecture Was Still Wrong.",
+      "url": "https://dev.to/dannwaneri/my-cloud-run-multi-agent-fleet-passed-its-demo-the-architecture-was-still-wrong-1p",
+      "summary": "Google Cloudのハッカソン向けに構築した、地質調査サイトごとの汚染リスクを相関検知するマルチエージェントシステムの開発記。デモが一度成功したものの、実際には相関検知のロジックがプロセス内メモリに依存しており、Cloud Runが偶然同一インスタンスにリクエストをルーティングしただけで正しく動いたと気づいた経緯を紹介する。状態をFirestoreの共有ストアへ移すことで根本修正し、さらにデータ出典の裏取りが不十分だった調査対象サイトも実在・検証済みのものに差し替えたと述べ、「動いた」ことと「正しい」ことは別だという教訓を強調している。",
+      "category": "agent",
+      "points": 13,
+      "comments": 0,
+      "author": "Daniel Nwaneri",
+      "tags": [
+        "googlecloud",
+        "hackathon",
+        "cloudrun",
+        "adk"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIの思考ログは、暗号化されているから安全ではなかった",
+      "url": "https://qiita.com/jqit_suwa/items/92a59e7a464fac9731da",
+      "summary": "Claude Codeのログに蓄積される暗号化済み思考（chain-of-thought）ブロックが、実は攻撃で復号され得ることを解説する記事。2026年8月の論文「Stealing Reasoning Traces from Proprietary LLM APIs」は、同一プロバイダ内であれば暗号化トレースを別の弱いモデルに注入して平文化できる手法を示し、公開されていたエージェントログからAPIキー62件を含む認証情報182件・PII 367件を復元したと報告している。著者は自分のClaude Codeログを実測し、19.6MB・5,419件の思考ブロックが蓄積されていたことを確認、この攻撃は現時点でプロバイダの緩和策により再現できないとされるが、既に公開済みのログは残るため注意が必要だと結んでいる。",
+      "category": "security",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "元ヤフーエンジニア社長が考える、AI時代のエンジニアに必要な3つのスキル",
+      "url": "https://qiita.com/ryoheiiwamoto/items/5f21adcca8aff1b0357a",
+      "summary": "元Yahooエンジニアで現PRUM代表の著者が、AI時代のエンジニアに必要な3つの力として「AIを使いこなす力」「ビジネス戦闘力（論理的思考力や俯瞰力）」「人間力」を挙げる記事。AIに指示を投げれば形になる時代には、指示を待つだけの受け身の仕事は不要になっていくとし、エンジニアからコンサル的な役割への移行を提案する。スキルが均一化していく中で最終的に差がつくのは地頭の良さと一緒に働きたいと思われる人間力だと結論づけている。",
+      "category": "other",
+      "author": "ryoheiiwamoto"
+    },
+    {
+      "source": "qiita",
+      "title": "Antigravity for VS Code in GitHub Codespacesが便利すぎる件【サンドボックス / 脱GitHub Copilot】",
+      "url": "https://qiita.com/yangguofu/items/ae3e9f9f0f5a4515f276",
+      "summary": "Googleが2026年8月に公式VS Code拡張として提供したAIコーディングエージェント「Antigravity」を、GitHub Codespacesの使い捨てコンテナ内で動かす活用法を紹介する記事。ローカル環境で全自動承認（Always Proceed）モードを使うのはSSH鍵などが晒されるリスクがあるが、Codespacesならコンテナ自体が使い捨てのサンドボックスになるため、承認ダイアログを都度求められる「承認ダイアログ地獄」から解放されつつ安全に自律実行させられると説明する。devcontainer.jsonで拡張をリモート側に確実にインストールする設定方法も解説している。",
+      "category": "devtool",
+      "author": "yangguofu"
+    },
+    {
+      "source": "qiita",
+      "title": "Oracle AI Database Private Agent Factory 26.4 を 26.7 へ Upgrade してみてみた",
+      "url": "https://qiita.com/shirok/items/de8732a3d1ebc441af10",
+      "summary": "Oracle AI Database Private Agent Factory（PAF）を26.4から最新版26.7へアップグレードした検証記事。26.7ではエージェント間連携（A2A）、ワークフローレベルのメモリ、IAMによるロール管理、Anthropic/Azure OpenAI/OpenRouterなどモデルプロバイダの追加といった機能拡張が入ったと説明する。既存のMarketplace環境を作り直さずに新しいインストールキットを持ち込んでアップグレードする手順を実践し、Podman/SELinuxに起因するコンテナビルドエラーからの復旧を含むトラブルシューティングも記録している。",
+      "category": "infra",
+      "author": "shirok"
+    },
+    {
+      "source": "qiita",
+      "title": "Autonomous AI Lakehouse × Private Agent Factoryで音楽フェス運営分析 AI Agentを作ってみてみた",
+      "url": "https://qiita.com/shirok/items/ad6a82f1cfe0ebc72f43",
+      "summary": "Oracle Autonomous AI LakehouseとPrivate Agent Factoryを組み合わせ、架空の音楽フェスティバル「Lakehouse Sound Festival 2026」の運営データを分析するAIエージェントを構築した記事。SQL Tool（構造化データ分析）とRAG Tool（PDF文書検索）、Oracle PL/SQL Executor（承認付きアクション実行）をMain Agentが使い分け、公演遅延の原因調査から正式な対応手順の確認、改善タスクの登録までを自然言語の質問一つで行えるようにしている。Main AgentにGrok-4.3、SQL/RAG生成にCohere Command-A、Embeddingにcohere.embed-v4.0を使うなど、用途ごとにモデルを分けた構成を採用している。",
+      "category": "agent",
+      "author": "shirok"
+    }
+  ]
+}

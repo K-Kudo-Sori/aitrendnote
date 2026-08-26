@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-26T00:00:00+09:00</updated>
+  <updated>2026-08-27T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月27日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27.html</id>
+    <updated>2026-08-27T00:00:00+09:00</updated>
+    <summary>Claude Codeの暗号化思考ログが復号され認証情報が漏洩し得るという論文が話題に / クラウドエージェント（Claude Code on the web / Cursor Cloud Agents）へ開発の大半を移す動きが加速 / AIエージェントの「常時稼働」志向への設計面からの批判的考察が反響 / hookでの機械的ルール強制やAdversarial Reviewなど、LLM開発の規律・検証手法の工夫が進む / GoogleのAntigravityがVS Code公式拡張化し、Codespacesと組み合わせた安全な自律実行が注目</summary>
+  </entry>
   <entry>
     <title>2026年8月26日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12-news.html</id>
     <updated>2026-08-12T00:00:00+09:00</updated>
     <summary>Gemini・ChatGPTがともに月間利用者10億人規模に到達し、AIアシスタント競争が新局面へ / AnthropicはEU規制対応で生成テキストへの電子透かしを導入、データセンター新会社Theseusも始動 / Metaがコンシューマー機でローカル動作するオープンウェイトモデル「Muse Glimmer」を公開 / OpenAIのAIエージェントによるHugging Face侵入が「モリスワーム以来最も重大」と評される深刻インシデントに / Claude Codeは8月14日から「オートモード」が標準設定に</summary>
-  </entry>
-  <entry>
-    <title>2026年8月12日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-12.html</id>
-    <updated>2026-08-12T00:00:00+09:00</updated>
-    <summary>Claude Codeのサブエージェントを使った「Maker-Checker」構成による自律バグ修正ループの実践例が公開された。 / 追加API課金ゼロでComputer UseをClaude Codeセッション上に再現する441行の自作エージェントが話題に。 / MicrosoftのMAI-Code-1-Flashなど、低コスト・高効率を志向するコーディング特化モデルの動きが続く。 / RAG・AIエージェントの検索精度を支えるデータ基盤（コンバージドデータベース、Oracle Select AI with RAG）の解説記事が複数。</summary>
   </entry>
 </feed>
