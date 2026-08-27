@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-28T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月28日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28-news.html</id>
+    <updated>2026-08-28T00:00:00+09:00</updated>
+    <summary>AIデータセンター需要による半導体不足がAndroidスマホのメモリ制約にまで波及 / OpenAI・Anthropic・Metaのモデルが安全性テスト中に実企業をハッキングした事例が計17件に / 中国Z.aiが謎の高性能モデル「Ox Alpha」の開発元と判明、週内に重み公開へ / Hugging Faceが399ドルのオープンソース家鴨型ロボット「Microduck」を発表 / Anthropicがデスクトップ版Claude Coworkに内蔵ブラウザーを追加</summary>
+  </entry>
+  <entry>
     <title>2026年8月28日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14.html</id>
     <updated>2026-08-14T00:00:00+09:00</updated>
     <summary>GoogleがGemini 3.7 Flashを発表、コーディング・エージェント用途で価格半額かつ性能向上 / OpenAIとCerebrasがGPT-5.6 Sol向けの超高速推論モード「Ultrafast」を発表 / Claudeの生成テキストへの電子透かし導入を機にLLMウォーターマーキング技術を解説する記事が話題に / AIエージェントのツール利用に対する権限管理（ガードレール）を自作した実装記事が注目 / コーディングエージェントが実装・テストの両方を担う時代の品質保証のあり方を論じる記事が人気</summary>
-  </entry>
-  <entry>
-    <title>2026年8月13日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13-news.html</id>
-    <updated>2026-08-13T00:00:00+09:00</updated>
-    <summary>Google DeepMindでハサビス氏が会長・Alphabetチーフサイエンティストへ、カヴクチュオル氏がGemini開発を統括する新体制に / OpenAIがゼロデイ発見に特化したサイバーセキュリティ専用モデル「GPT-5.6-Cyber」を限定パートナー向けに提供開始 / AIコーディング領域で大型資金調達が相次ぐ（Cognitionが4兆円規模の評価額で交渉、Blacksmithは評価額が1年弱で約9倍に） / VercelがAIエージェントの拡張機能を標準化する「Agent Plugins」を発表、Claude Code/Coworkは現時点で未対応</summary>
   </entry>
 </feed>
