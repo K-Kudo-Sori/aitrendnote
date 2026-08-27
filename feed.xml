@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-27T00:00:00+09:00</updated>
+  <updated>2026-08-28T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月28日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28.html</id>
+    <updated>2026-08-28T00:00:00+09:00</updated>
+    <summary>Google DeepMindが動画生成モデル「Gemini Omni 1.1 Flash」と音声認識モデル「Gemini 3.5 Transcribe」を相次いで発表 / 「AIエージェントを常時稼働させる」設計思想への疑義や、開発をクラウドエージェントへ移す動きなど、AI活用の運用論が複数のブログで議論されている / AI生成コードの再現性・テスト網羅性・レビューの独立性を実データで検証する日本語の実証記事が目立つ / GitHub CopilotのEnタープライズ統制やAIエージェントの誤投稿リスクなど、AIエージェント運用のガバナンス・安全性に関する話題も継続</summary>
+  </entry>
   <entry>
     <title>2026年8月27日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13-news.html</id>
     <updated>2026-08-13T00:00:00+09:00</updated>
     <summary>Google DeepMindでハサビス氏が会長・Alphabetチーフサイエンティストへ、カヴクチュオル氏がGemini開発を統括する新体制に / OpenAIがゼロデイ発見に特化したサイバーセキュリティ専用モデル「GPT-5.6-Cyber」を限定パートナー向けに提供開始 / AIコーディング領域で大型資金調達が相次ぐ（Cognitionが4兆円規模の評価額で交渉、Blacksmithは評価額が1年弱で約9倍に） / VercelがAIエージェントの拡張機能を標準化する「Agent Plugins」を発表、Claude Code/Coworkは現時点で未対応</summary>
-  </entry>
-  <entry>
-    <title>2026年8月13日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-13.html</id>
-    <updated>2026-08-13T00:00:00+09:00</updated>
-    <summary>AIコーディングエージェントの普及で「実装と検証が同じループの中に閉じる」問題や、テストGreenが仕様充足を保証しない構造的リスクが複数の記事で指摘されている。 / Claude CodeのMaker-Checker型ループエンジニアリングや、MCPサーバーのシングルバイナリ化など、実務でのエージェント活用・運用テクニックが充実。 / 中古サーバ用GPUによるローカルLLM構築のコスト試算や、RAG向けコンバージドデータベースなど、AI時代のインフラ選定に関する具体的な記事が目立った。 / AIによる生産性向上が賃金上昇に直結しない構造的問題（ジェヴォンズのパラドックス）を論じる記事や、A…</summary>
   </entry>
 </feed>
