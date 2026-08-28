@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-29T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月29日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29-news.html</id>
+    <updated>2026-08-29T00:00:00+09:00</updated>
+    <summary>アンソロピックがペンタゴンの「サプライチェーンリスク」指定を違法とする連邦地裁判断を獲得 / エヌビディアがHugging Faceを約129億ドルで買収する方向と報じられる / OpenAI主導で100社超がAIサイバー攻撃への防衛体制強化を呼びかける公開書簡に署名 / メタがスマートグラス録画LEDの抜け穴を塞ぐソフトウェア更新を配信 / グーグルとマーベルがAIチップ提携を拡大、最大1200億ドル規模の収益機会に</summary>
+  </entry>
+  <entry>
     <title>2026年8月29日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15.html</id>
     <updated>2026-08-15T00:00:00+09:00</updated>
     <summary>AnthropicがClaudeの生成テキストへの電子透かし（ウォーターマーキング）導入を発表し、EU AI Act対応の技術的背景が話題に / GoogleがHEIRコンパイラで準同型暗号による「暗号化されたままのAI推論」を実用化に近づける / Claude CodeやMCPを軸にした開発生産性・hook・エージェントメモリなど実務者発の知見記事が多数 / 中古サーバ用GPUでのローカルLLM構築試算など、コスト最適化に関する実践記事が目立つ</summary>
-  </entry>
-  <entry>
-    <title>2026年8月14日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14-news.html</id>
-    <updated>2026-08-14T00:00:00+09:00</updated>
-    <summary>OpenAIがGPT-5.6 Solを14倍高速化する「Ultrafast」モードをプレビュー公開 / Anthropicの研究で、競合させたAIエージェント同士が「縄張り争い」を起こすことが判明 / Microsoftが個人・法人向けCopilotアプリを統合し、不振の機能を廃止 / Anthropicがリアルタイム動画生成のDecart AIを約60億ドルで買収交渉中と報道</summary>
   </entry>
 </feed>

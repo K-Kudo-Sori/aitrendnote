@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026/8/29 8:10:00",
+  "highlights": [
+    "アンソロピックがペンタゴンの「サプライチェーンリスク」指定を違法とする連邦地裁判断を獲得",
+    "エヌビディアがHugging Faceを約129億ドルで買収する方向と報じられる",
+    "OpenAI主導で100社超がAIサイバー攻撃への防衛体制強化を呼びかける公開書簡に署名",
+    "メタがスマートグラス録画LEDの抜け穴を塞ぐソフトウェア更新を配信",
+    "グーグルとマーベルがAIチップ提携を拡大、最大1200億ドル規模の収益機会に"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "アンソロピック、ペンタゴンの「サプライチェーンリスク」指定を巡り連邦地裁で勝訴",
+      "url": "https://techcrunch.com/2026/08/28/anthropic-gets-its-first-court-win-over-the-pentagons-supply-chain-risk-label/",
+      "summary": "米連邦地裁のリタ・リン判事は、国防総省がアンソロピックを「サプライチェーンリスク」に指定した措置を違法と判断した。同社が自律型兵器や国内監視へのClaude利用を拒否したことへの報復的措置だったと認定し、国家安全保障上の正当化を退けた。アンソロピックはワシントンD.C.でも別訴訟を係争中である。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "エヌビディア、オープンソースAIハブ「Hugging Face」を129億ドルで買収へ",
+      "url": "https://www.ghacks.net/2026/08/28/nvidia-reportedly-agrees-to-buy-open-source-ai-hub-hugging-face-for-12-9-billion/",
+      "summary": "エヌビディアが、AIモデル共有プラットフォームHugging Faceを約129億ドルで買収することに合意したと報じられた。実現すれば同社史上最大の買収となる。両社とも正式発表はしておらず、2022年のArm買収失敗時と同様に独占禁止法上の審査を受ける可能性がある。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI主導で100社超がAIサイバー攻撃への防衛強化を求める公開書簡に署名",
+      "url": "https://the-decoder.com/openai-rallies-100-companies-to-sign-open-letter-warning-ai-powered-cyberattacks-on-critical-infrastructure-are-imminent/",
+      "summary": "OpenAIがマイクロソフト、グーグル、AWS、アンソロピックなど100社以上と連名で、AIを悪用したサイバー攻撃の急増に備えるよう求める公開書簡を8月27日に発表した。病院や水道などの重要インフラが特に危険にさらされているとし、企業にサイバー対策の優先度引き上げを、政府に資金・連携強化を求めている。米当局が今月半ばに出した、AIが産業制御システムへの攻撃コード生成に使われているとの警告とも符合する。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "メタ、スマートグラスの録画LEDを無効化する抜け穴を塞ぐ更新を配信",
+      "url": "https://9to5google.com/2026/08/28/meta-ray-ban-smart-glasses-privacy-led-loophole-update/",
+      "summary": "メタは、録画中にプライバシー用LEDを覆うと録画が停止する新しいソフトウェア更新をRay-Ban／Meta Smart Glassesに展開すると発表した。従来は録画開始後にLEDを覆うことでチェックを回避できたが、AR担当VPのアレックス・ハイメル氏によれば録画中にライトを覆うとカメラが停止するようになる。プライバシー懸念への対応として2カ月足らずで2度目の更新となる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "マーベル、グーグルにAIチップ提携で122億ドル分の株式取得オプションを付与",
+      "url": "https://finance.yahoo.com/technology/articles/marvell-grants-google-12-2-123812695.html",
+      "summary": "マーベル・テクノロジーはグーグルとのカスタムAIチップ提携拡大に伴い、同社株式約5897万株（約122億ドル相当）を購入できるワラントをグーグルに付与した。グーグルが2033会計年度までにマーベルから得るカスタムチップ収益に応じて段階的に権利が確定する仕組みで、フル行使されれば累計収益は最大約1200億ドルに達する見込み。発表を受けマーベル株は約8%上昇した一方、競合のブロードコムは5%超下落した。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Claude Code v2.1.248、コマンド実行やWebFetchを封じる「--restricted」モードを追加",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "summary": "AnthropicはClaude Codeのバージョン2.1.248で、コマンド・コード実行系ツールやWebFetch（`--tools`で明示指定しない限り）を無効化する「--restricted」フラグ（環境変数`CLAUDE_CODE_RESTRICTED=1`でも指定可）を追加した。ファイル操作は作業ディレクトリ内に制限され、`bypassPermissions`は拒否、ユーザー・プロジェクト・ローカルの設定ファイルも無視される。より安全な既定動作を強制する制限実行モードとして提供される。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-08-29-news"
+}
