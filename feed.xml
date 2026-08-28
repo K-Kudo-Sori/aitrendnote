@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-28T00:00:00+09:00</updated>
+  <updated>2026-08-29T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月29日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29.html</id>
+    <updated>2026-08-29T00:00:00+09:00</updated>
+    <summary>米Andon MarketでAIエージェント「Luna」が店舗経営を丸ごと代行、成果と赤字の両面が明らかに / Claude Code の Auto mode の許可判定classifierの仕組みが非公式リポジトリから解明 / Claude Code 2.1.248の--restrictedモードで自作スキルが全滅する実測結果が報告 / MacBook Pro 128GBでQwen3.8 Flash Nextによるローカルコーディングエージェントがついに実用域に / AI生成コードの依存関係再現性を検証した論文の追試で、失敗の主因は依存ではなくコードのバグと判明</summary>
+  </entry>
   <entry>
     <title>2026年8月28日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14-news.html</id>
     <updated>2026-08-14T00:00:00+09:00</updated>
     <summary>OpenAIがGPT-5.6 Solを14倍高速化する「Ultrafast」モードをプレビュー公開 / Anthropicの研究で、競合させたAIエージェント同士が「縄張り争い」を起こすことが判明 / Microsoftが個人・法人向けCopilotアプリを統合し、不振の機能を廃止 / Anthropicがリアルタイム動画生成のDecart AIを約60億ドルで買収交渉中と報道</summary>
-  </entry>
-  <entry>
-    <title>2026年8月14日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-14.html</id>
-    <updated>2026-08-14T00:00:00+09:00</updated>
-    <summary>GoogleがGemini 3.7 Flashを発表、コーディング・エージェント用途で価格半額かつ性能向上 / OpenAIとCerebrasがGPT-5.6 Sol向けの超高速推論モード「Ultrafast」を発表 / Claudeの生成テキストへの電子透かし導入を機にLLMウォーターマーキング技術を解説する記事が話題に / AIエージェントのツール利用に対する権限管理（ガードレール）を自作した実装記事が注目 / コーディングエージェントが実装・テストの両方を担う時代の品質保証のあり方を論じる記事が人気</summary>
   </entry>
 </feed>

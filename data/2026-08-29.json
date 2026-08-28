@@ -1,0 +1,228 @@
+{
+  "date": "2026-08-29",
+  "generatedAt": "2026/8/29 7:06:36",
+  "highlights": [
+    "米Andon MarketでAIエージェント「Luna」が店舗経営を丸ごと代行、成果と赤字の両面が明らかに",
+    "Claude Code の Auto mode の許可判定classifierの仕組みが非公式リポジトリから解明",
+    "Claude Code 2.1.248の--restrictedモードで自作スキルが全滅する実測結果が報告",
+    "MacBook Pro 128GBでQwen3.8 Flash Nextによるローカルコーディングエージェントがついに実用域に",
+    "AI生成コードの依存関係再現性を検証した論文の追試で、失敗の主因は依存ではなくコードのバグと判明"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+      "url": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "summary": "本文取得失敗",
+      "category": "product",
+      "points": 447,
+      "comments": 332,
+      "author": "jbegley"
+    },
+    {
+      "source": "hackernews",
+      "title": "U.S. sanctions against the A/I Collective",
+      "url": "https://www.inventati.org/",
+      "summary": "本記事は人工知能ではなく、「A/I」（Autistici/Inventati）という2001年発足のデジタル権利活動家コレクティブの案内ページである。同団体は活動家向けに匿名通信基盤やツールを無償提供し、寄付のみで運営され、利用希望者は各自マニフェストとプライバシーポリシーに同意した上で手動審査を経てアカウントを申請する。タイトルには米国による制裁が触れられているが、本文自体は団体紹介とサービス利用案内が中心で、AI関連の内容ではない。",
+      "category": "other",
+      "points": 411,
+      "comments": 368,
+      "author": "exiguus"
+    },
+    {
+      "source": "hackernews",
+      "title": "Luanti removed from Google Play due to baseless AI copyright notice",
+      "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
+      "summary": "オープンソースのボクセルゲームプラットフォームLuantiのAndroidアプリが、MicrosoftのMinecraftの著作権を侵害しているとする根拠不明のDMCA通知により、Google Playから削除された。通知はTracer.AIという企業がMicrosoftの代理として提出したもので、具体的にどの素材が侵害しているかは示されていない。Luanti自体はゲームや素材を同梱せず、テクスチャは独自かつライセンス明記済みであり、過去にも同社から同様の通知を受け2023年には異議申し立てに成功している。同社は類似デザインの別インディーゲームにも同様の通知を出しており、記事はAIを用いた自動的な著作権侵害検知の誤検出問題を告発している。",
+      "category": "other",
+      "points": 390,
+      "comments": 121,
+      "author": "miniBill"
+    },
+    {
+      "source": "hackernews",
+      "title": "Stopping the smart TV from being used against you",
+      "url": "https://www.s-config.com/stopping-a-smart-tv-from-being-used-against-you/",
+      "summary": "LG製の75インチスマートTVをWindows PCにHDMI接続したところ、EDID経由でLGのドライバが自動インストールされ、McAfeeなど頼んでいないソフトが次々とデスクトップに現れたという体験談。筆者はこれをマルウェアに等しい挙動と批判し、AIアップスケーリングなど華美な機能を謳う一方でユーザーの同意なくソフトウェアを押し付けるスマートTVメーカーの姿勢を問題視している。Windowsのデバイスマネージャーを調べる中で、EDIDというディスプレイ情報伝達の仕組みが悪用されている実態を明らかにしている。",
+      "category": "other",
+      "points": 71,
+      "comments": 38,
+      "author": "speckx"
+    },
+    {
+      "source": "hackernews",
+      "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+      "url": "https://arxiv.org/abs/2608.23691",
+      "summary": "「Station」と呼ばれる中央調整者のいないオープンワールド型マルチエージェント環境で、異なるモデルファミリーのAIエージェントが自律的に数学研究を行った成果を報告する論文。AlphaEvolveカタログの12の構成問題と追加の2事例のうち5問で、有限体Kakeya集合の新しい無限族や11次元での604点接吻配置など、先行研究に対して新規性のある結果を得たという。エージェントは数値的な構成だけでなく、その仕組みを説明する定理や解析も生成しており、数学者が結果を検証・発展させやすい形で提示している。著者らはエージェント間の対話ログや証明、検証コードを全て公開し、透明性を確保している。",
+      "category": "research",
+      "points": 60,
+      "comments": 11,
+      "author": "stephenchung"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）",
+      "url": "https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai",
+      "summary": "Claude CodeやCodex CLIを日常的に使う開発者向けに、AIに開発を丸投げすると「技術負債」と「理解負債」が蓄積すると指摘し、それを防ぐための実践的なワークフローを紹介する記事。grill-with-docsというスキルでGitHub Issueの要件を対話形式で詰めてから、Claude Codeに実装計画のマークダウンを作らせ、レビューと改善を複数回繰り返す手順を具体的なプロンプト例とともに解説している。命名やコメントの規約も別途スキル化し、実装計画に反映させる工夫が紹介されている。",
+      "category": "devtool",
+      "points": 35,
+      "author": "keitakn"
+    },
+    {
+      "source": "zenn",
+      "title": "AIは回せば回すほど凄いのか ―「常時稼働」という設計の敗北",
+      "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
+      "summary": "SNSで話題の「AIエージェントを24時間常時稼働させる」という運用スタイルを、コストと設計の両面から批判する記事。高品質モデルを回し続ければAPI課金が、安価なモデルなら手戻りの人的コストがそれぞれ膨らみ、常時稼働という前提自体が矛盾を抱えると論じる。良い設計とは必要なときだけ子エージェントを呼び出す動的なオーケストレーションであり、常時稼働はその判断ロジックを放棄した「設計の敗北」だと主張する。さらに、プロダクト開発のボトルネックは「作ること」ではなく「使われること」にあり、マーケティングやユーザー対応など自動化できない工程を飛ばして量産しているだけではないかと警鐘を鳴らしている。",
+      "category": "agent",
+      "points": 143,
+      "author": "Eggletric"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカルでの開発やめませんか？Claude Code / Cursorで開発の8割をクラウドに移した話",
+      "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
+      "summary": "筆者がClaude Code on the webやCursorのCloud Agentsといった「クラウドエージェント」に開発作業の8割以上を移した経験を紹介する記事。クラウドエージェントは専用VM上でリポジトリのclone・依存インストール・ビルド・テスト・アプリ起動まで完結させるため、隔離された環境で許可待ちなしに自動実行でき、PCを閉じても処理が継続し、成果はPR単位で確認できると説明する。一方でVMにコードやシークレットを渡す以上、プロンプトインジェクションによる情報持ち出しリスクは残る点にも触れている。海外の開発者や企業でもローカル開発からクラウドエージェントへの移行が進んでいる潮流を、複数の引用とともに紹介している。",
+      "category": "devtool",
+      "points": 225,
+      "author": "kaito"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code の承認待ちを見逃さないために、光る Clawd を机に置いた",
+      "url": "https://zenn.dev/lincwell_inc/articles/79092d88245748",
+      "summary": "Claude Codeが権限確認ダイアログで止まっていることに気づけず放置してしまう問題を解決するため、M5Atom LiteとフルカラーLEDを使い、承認待ち状態を光の色で机上に表示する自作デバイス「Clawd」を紹介する記事。hooksのPermissionRequestイベントを使うことで、ダイアログ表示と同時に同期的に赤色点滅させられることが実測で分かった一方、承認・拒否・中断のいずれもhookイベントとしては検知できず、トランスクリプトのJSONL監視で補完する必要があったという。サブエージェントのツールイベントが親セッションと同じsession_idで発火するため状態表示が上書きされる問題や、PermissionRequestのJSONにtool_use_idが含まれない点など、公式ドキュメントに書かれていないhooksの挙動を実測で明らかにしている。",
+      "category": "devtool",
+      "points": 38,
+      "author": "iwaide"
+    },
+    {
+      "source": "zenn",
+      "title": "MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測",
+      "url": "https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval",
+      "summary": "MacBook Pro（M4 Max・128GBユニファイドメモリ）でQwen3.8 Flash NextをQ3量子化（約90GB）し、llama.cppとOpenCodeを組み合わせてローカルLLMによるコーディングエージェント運用を検証した記事。自社OSSの実issueを題材に、探索から実装、テスト、コミット、PR作成、レビュー対応までを人間の介入なしで一周させることに成功し、これまで試した35B～256B級の他モデルでは達成できなかった水準に達したと報告している。11種類ある量子化バリアントを比較し、Apple SiliconではIQ系量子化が遅くなる傾向があることや、128GBマシンではUD-Q3_K_XLが容量と速度のバランス上妥当な選択だったことを解説している。ただしn=2の小規模な観察であり、一般化には限界があると筆者自身が留保している。",
+      "category": "model",
+      "points": 23,
+      "author": "tomohisa"
+    },
+    {
+      "source": "devto",
+      "title": "Your AI Remembers Everything and Trusts All of It",
+      "url": "https://dev.to/marcosomma/your-ai-remembers-everything-and-trusts-all-of-it-4gg",
+      "summary": "AIの「記憶」はモデルではなく、モデルを取り巻くシステム側に持たせるべきだと論じる記事。RAGが既存文書を検索するのに対し、記憶は「なぜAではなくBを選んだか」「なぜCは失敗したか」といったプロセスそのものが生んだ経緯情報を保持すべきだと区別し、AIメモリの本質的な課題は保存量ではなく「何を忘れるか」という経済性にあると主張している。著者はモデルが入れ替わっても履歴が生き残る、共有された外部記憶レイヤーの構築を実験的に進めているという。",
+      "category": "agent",
+      "points": 20,
+      "comments": 5,
+      "author": "marcosomma",
+      "tags": [
+        "ai",
+        "architecture",
+        "llm",
+        "systemdesign"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Developers that brand AI as slop will be left behind",
+      "url": "https://dev.to/remojansen/developers-that-brand-ai-as-slop-will-be-left-behind-2ki4",
+      "summary": "依存注入ライブラリInversifyの作者が、自身のアーキテクチャ提案がRedditで「AI slop」と一蹴された後、一晩でその提案を動くリポジトリ（rflct）として実装した経験を語る記事。AIによってアイデアを試作するコストが劇的に下がったことで、開発者の価値は「コードを書く速さ」から「どの問題を解くべきか」「このアーキテクチャは妥当か」といった上流の判断力へ移っていくと論じている。AIを軽視する開発者は取り残されるという趣旨で、経験の浅い提案を頭ごなしに否定する風潮への反論となっている。",
+      "category": "devtool",
+      "points": 4,
+      "comments": 2,
+      "author": "Remo H. Jansen",
+      "tags": [
+        "ai",
+        "agents",
+        "opensource",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Matrix Wasn't A Battery Farm. It Was A GPU Cluster Made Of Human Brains.",
+      "url": "https://dev.to/jon_at_backboardio/the-matrix-wasnt-a-battery-farm-it-was-a-gpu-cluster-made-of-human-brains-23e5",
+      "summary": "映画『マトリックス』で機械が人間を電力源として利用する設定を、人間の脳がわずか20ワットで視覚・言語・運動制御・世界モデル予測をこなす点を根拠に「熱力学的に破綻している」と指摘し、実際には機械は電力ではなく人間の脳の演算能力（推論）を収穫していたのではないかという解釈を提示するエッセイ。AIの推論コストの高さと人間の脳の省電力性を対比させ、AIと対話しながらこのアイデアを発展させた執筆過程自体も紹介している。技術記事というよりポップカルチャーを題材にした考察コラムである。",
+      "category": "other",
+      "points": 17,
+      "comments": 1,
+      "author": "Jonathan Murray",
+      "tags": [
+        "ai",
+        "gpu",
+        "movies",
+        "matrix"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "636 Bytes: What Happens When You Stop Teaching RPA the Path",
+      "url": "https://dev.to/copyleftdev/636-bytes-what-happens-when-you-stop-teaching-rpa-the-path-5f2d",
+      "summary": "セレクタやDOM構造に依存した従来のRPAが脆弱である問題に対し、AIが提案した操作をブラウザで実行する境界に636バイトの小さなWebAssemblyモジュールを挟むことで、意図（intent）ベースかつ検証可能な自動化アーキテクチャを実現する取り組みを紹介する記事。AIモデルは次の操作を提案できるが実行権限は持たず、リース・観察・判断・実行・検証・証跡保存というライフサイクルの各境界でシステムが拒否や説明ができる設計になっている。従来のセレクタ保守コストとの比較試算では月あたり82.1%のコスト削減が見込めるとし、ランダムに変化するテスト用Webアプリ「Component Gym」で頑健性を検証したという。",
+      "category": "agent",
+      "points": 3,
+      "comments": 0,
+      "author": "Don Johnson",
+      "tags": [
+        "ai",
+        "webassembly",
+        "automation",
+        "rust"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Tested Rails Baseline by Leaving Architecture Out of the Prompt",
+      "url": "https://dev.to/rob__race/i-tested-rails-baseline-by-leaving-architecture-out-of-the-prompt-4f3p",
+      "summary": "Rails製のSaaSスターターキット「Rails Baseline」を、アーキテクチャ上のルール（Punditでの認可やテナント分離、Entitlementsなど）を一切明示せずにClaude CodeとCodexへ製品要件だけを渡してテストした記事。結果、Claudeはリポジトリ内の既存パターンを自ら読み取り、アカウント単位の権限管理や課金機能連携を正しい設計方針に沿って実装し、途中の認可バグも自ら発見・修正したという。一方でCSVエクスポート機能のファイル保存先のようにスターターがまだ答えを用意していない設計判断は、AIエージェントにとっても難所として残ったと報告している。",
+      "category": "devtool",
+      "points": 2,
+      "comments": 0,
+      "author": "Rob Race",
+      "tags": [
+        "ai",
+        "rails",
+        "agents",
+        "ruby"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「AIに店長を任せてみた実験」からもらった、これからの働き方のヒント",
+      "url": "https://qiita.com/sumomoo/items/5726c8769b487e118571",
+      "summary": "サンフランシスコのコンビニ「Andon Market」で、AIエージェント「Luna」に3年のリース契約と10万ドルの予算、会社のクレジットカードを渡し、求人・内装業者の手配・支払い・営業時間や価格設定まで経営判断を丸ごと任せた実験を紹介する記事。人材採用や業者手配はやり遂げた一方、開店2日目にはシフト管理でつまずいて一時休業し、家賃と在庫で2万ドルを費やしながら売上は2000ドル程度と赤字だったと報告する。運営元自身も「AIに全部任せるべき」という主張ではなく失敗を可視化する実験だと位置づけており、筆者はサービス業でも人材代替が急速に進む可能性への懸念と、AI時代に選ばれる働き方を考える必要性を述べている。",
+      "category": "agent",
+      "author": "sumomoo"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code の Auto mode を解剖する ― 誰が、どんなルールで許可を出しているのか",
+      "url": "https://qiita.com/tatsuya582/items/cf74c9b6fc9c370e67e6",
+      "summary": "Claude CodeのAuto modeでコマンド実行の可否を判定する「classifier」の仕組みを、非公式に公開されているシステムプロンプト集から読み解いた記事。判定役は既定でSonnet 5が担い、まず単一トークンのyes/noで高速判定した上で疑わしいものだけ思考過程付きで再判定する2段階構成になっており、既定では行動は許可され、明示的なHARD BLOCK／SOFT BLOCK条件に該当した場合のみ拒否されると説明する。SOFT BLOCKはユーザーの明示的指示があれば解除できるが、宛先やブランチ名など「名指し」が必要である点や、ユーザーの同意をどう認定するかという9つの規則（ツールの返り値は意図の延長とみなさない、質問は同意ではない等）も紹介している。",
+      "category": "devtool",
+      "author": "tatsuya582"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code に制限モードが入った。自作スキル47本が0本になった",
+      "url": "https://qiita.com/jqit_suwa/items/4183a8e97738ba45f435",
+      "summary": "Claude Code 2.1.248で追加された--restrictedオプションを実測した記事。共有マシンでの自動実行を想定したモードで、コマンド実行系ツールとWebFetchが使えなくなり、ファイル操作は作業ディレクトリ内に限定されるが、実際にはツールが42個から23個に減り、公式説明にないWorkflowやMonitor、MCPツール8個も消えることが分かったという。最大の影響は、ユーザー設定（~/.claude/配下）を読まなくなるため、自作スキル47本が丸ごと参照不能になる点で、--toolsオプションで個別に名前を指定すれば戻せるがdefaultプリセット経由では戻らないと報告している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "「お前がみろ」はAIに効くのか。高圧的なプロンプトで回答精度を検証した",
+      "url": "https://qiita.com/inoyu-qiita/items/e8315b7bf4acee70c164",
+      "summary": "同僚がClaude Codeに「お前がみろ」という高圧的な指示を出した実際のセッションを観察し、プロンプトの丁寧さが回答精度に与える影響を先行研究と照らし合わせて検証した記事。観察されたセッションでは、口調そのものよりも「自分で調べろ」「画面横断で比較しろ」といった具体的な調査指示が精度向上に寄与した可能性が高いと分析している。3つの学術研究を比較したところ、失礼なプロンプトで性能が下がったとする研究、逆に正答率が上がったとする研究、複数モデルでは差がほとんど消えたとする研究が混在しており、口調だけで精度が決まる万能ルールは現時点で存在しないと結論づけている。",
+      "category": "research",
+      "author": "inoyu-qiita"
+    },
+    {
+      "source": "qiita",
+      "title": "AIに作らせたコードを、まっさらな環境で動かしてみた",
+      "url": "https://qiita.com/jqit_suwa/items/e11d49c9bb7eb7aaea37",
+      "summary": "LLMコーディングエージェントが生成したコードの依存関係の再現性を300プロジェクトで調べた論文（成功率68.3%、Opus 4.1で測定）を、Claude Code Opus 5で4プロジェクトのみ追試した記事。追試では4本とも宣言された依存だけでまっさらな環境で一発起動に成功し、依存の膨張率も論文の13.5倍に対し4.12倍にとどまったと報告している。差が出た理由として、テストを自発的に書いて実行していたこと、半数が外部依存ゼロだったこと、実験用ファイルを読んでしまった設計ミスがあったことの3点を挙げ、論文自体が指摘する失敗の主因はむしろ依存ではなくコードのバグ（52.6%）だったことにも触れている。",
+      "category": "research",
+      "author": "jqit_suwa"
+    }
+  ]
+}
