@@ -1,0 +1,217 @@
+{
+  "date": "2026-08-30",
+  "generatedAt": "2026/8/30 7:06:29",
+  "highlights": [
+    "vLLM v0.28.0でKimi-K3・DeepSeek V4向けの大規模推論最適化と新しい投機的デコード手法が多数追加された",
+    "Claude Codeの--restrictedモードや環境変数によるサブエージェントモデル制御など、運用面の細かな仕様変更が日本語コミュニティで実測レポートされている",
+    "クラウドエージェント（Claude Code on the web / Cursor Cloud Agents）へ開発作業の大半を移す事例が増えている",
+    "MacBook Pro 128GBでのローカルLLM（Qwen3.8 Flash Next）実測など、ローカル環境でのAI活用も進展"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "StemDeck, a free, open-source and local AI stem separator",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "summary": "StemDeckは、音声ファイルやYouTube URLからボーカル・ドラム・ベースなど最大6つのステムをローカルで分離できる無料・オープンソースのツール。Demucsのhtdemucs_6sモデルを使い、CUDA/MPS/CPUを自動検出して動作する。DAW風の波形エディタでミュート・ソロ・ループ再生ができ、BPMやキー、LUFSなどの楽曲解析機能も備える。アカウント登録やアップロード、サブスクリプションが不要で、すべての処理が手元のマシン内で完結する点が特徴。",
+      "category": "product",
+      "points": 189,
+      "comments": 57,
+      "author": "thclpr"
+    },
+    {
+      "source": "hackernews",
+      "title": "Good Culture Is the Biggest Productivity Hack, Not AI",
+      "url": "https://newsletter.eng-leadership.com/p/good-culture-is-the-biggest-productivity",
+      "summary": "著者は、AIツールよりも組織文化こそが最大の生産性向上要因だと主張する。「AIがあるから人はもう要らない」という発言は心理的安全性を損ない、逆に生産性を下げると指摘する。コンウェイの法則を引きながら、組織のコミュニケーション構造が製品の質に直結するため、文化が悪ければAIを導入しても成果は改善しないと論じる。AI活用自体は否定せず、良い文化を前提条件として整えることの重要性を強調している。",
+      "category": "other",
+      "points": 172,
+      "comments": 31,
+      "author": "gpi"
+    },
+    {
+      "source": "hackernews",
+      "title": "vLLM v0.28.0",
+      "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0",
+      "summary": "推論サーバvLLMのv0.28.0がリリースされ、270名超のコントリビューターによる584コミットが統合された。Kimi-K3向けのDecode Context Parallelや融合カーネルなど大規模な最適化、DeepSeek V4のsparse MLAのデコード・投機的デコード対応、DFlash2やDSparkなど新しい投機的デコード手法が追加された。Model Runner V2ではE/P/D分離や重みオフロード、ティアードKVキャッシュのディスクオフロードなども実装された。bitsandbytesのプラグイン化やTransformers 5.15.0への更新など破壊的変更も含まれる。",
+      "category": "infra",
+      "points": 55,
+      "comments": 18,
+      "author": "mrrrcs"
+    },
+    {
+      "source": "hackernews",
+      "title": "Domain-Driven Agents",
+      "url": "https://coldtake.dev/blog/domain-driven-agents",
+      "summary": "著者は、LLMコーディングエージェントがグリーンフィールドではうまく機能する一方、依存関係が複雑なレガシーコードベースでは品質が急落すると指摘する。原因はコード自体に用語や設計判断の共有された定義がなく、モデルが推測に頼らざるを得ないためだと分析する。対策として、技術的な意思決定（戦略的作業）は自分が担い、決定を実装に落とし込む機械的作業（戦術的作業）はAIエージェントに委ねる分業を提案する。具体的には、Issueの作成やスキル・サブエージェントを活用したワークフローで、レガシーコードの「読み解けなさ」を段階的に解消していく手法を紹介している。",
+      "category": "agent",
+      "points": 19,
+      "comments": 1,
+      "author": "AlarQ"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）",
+      "url": "https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai",
+      "summary": "著者は、Claude CodeやCodex CLIを使ったAI開発において、丸投げにより技術負債と「理解負債」が蓄積する問題を指摘する。対策として、grill-with-docsスキルでAIに質問攻めをさせながらGitHub Issueに詳細な要件を言語化させ、実装計画はレビューと改善を複数回繰り返して作成する手法を紹介する。実装計画は人間ではなく別のAIエージェントがそのまま実装に使える、自己完結した内容にすることを重視している。半年前の記事の続編として、新しいスキルやツールの導入を反映した最新版の開発フローをまとめている。",
+      "category": "devtool",
+      "points": 141,
+      "author": "keitakn"
+    },
+    {
+      "source": "zenn",
+      "title": "AIは回せば回すほど凄いのか ―「常時稼働」という設計の敗北",
+      "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
+      "summary": "著者は、SNSで見かける「AIエージェントを24時間ぶん回す」という発信に疑問を呈し、コストと設計の両面から常時稼働の非合理性を論じる。高品質モデルの常時稼働はAPI課金で破綻し、安価なモデルは手戻りコストで破綻するため、どちらに転んでも矛盾が生じると指摘する。良い設計とは必要なときだけ子エージェントを呼び出す動的なオーケストレーションであり、常時稼働はその判断ロジックを放棄した結果に過ぎないと主張する。さらに、プロダクト開発の本質は「作ること」ではなく「使われること」であり、マーケティングや改善対応など自動化できない工程を飛ばして量産している発信には注意が必要だと結論づけている。",
+      "category": "agent",
+      "points": 152,
+      "author": "Eggletric"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code の承認待ちを見逃さないために、光る Clawd を机に置いた",
+      "url": "https://zenn.dev/lincwell_inc/articles/79092d88245748",
+      "summary": "著者はClaude Codeの権限確認ダイアログの見逃しを防ぐため、M5Atom LiteとLEDを使った物理インジケータ「Clawd」を自作した。Claude Codeのhooksを実測した結果、承認待ちの検知にはNotificationではなくPermissionRequestイベントを使うべきこと、また承認・拒否・中断のいずれも既存のhookイベントでは検知できないことなど、公式ドキュメントに記載のない挙動を発見した。サブエージェントのツールイベントが親と同じsession_idで発火するため、承認待ち表示が誤って上書きされる問題にも対処している。ハードウェアとhooksを組み合わせて、画面を見ていなくても視界の端でClaude Codeの状態が把握できる仕組みを実現した。",
+      "category": "devtool",
+      "points": 62,
+      "author": "iwaide"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカルでの開発やめませんか？Claude Code / Cursorで開発の8割をクラウドに移した話",
+      "url": "https://zenn.dev/sc30gsw/articles/953334f11df507",
+      "summary": "著者は、Claude Code on the webやCursorのCloud Agentsといったクラウドエージェントを活用し、開発作業の8割以上をローカルからクラウドに移行したという。クラウドエージェントは専用VMでリポジトリのclone・依存インストール・ビルド・テスト・アプリ起動までを完結させるため、許可待ちなしで自律的に実行でき、PCを閉じてもタスクが継続する点が利点だと説明する。一方で、VM内で自動実行される分、プロンプトインジェクションによるコードやシークレットの持ち出しリスクには注意が必要だとも述べている。ブランチをローカルにチェックアウトせずにPRをマージできる、複数リポジトリを一つの環境で扱えるなど、具体的なメリットを列挙している。",
+      "category": "devtool",
+      "points": 252,
+      "author": "kaito"
+    },
+    {
+      "source": "zenn",
+      "title": "MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測",
+      "url": "https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval",
+      "summary": "著者は、MacBook Pro（M4 Max、ユニファイドメモリ128GB）上でQwen3.8 Flash NextのQ3量子化GGUF（約90GB）をllama.cppとOpenCodeで動かし、実際にマージ済みのIssueを使った検証で人間の介入なしに実装からPR作成、レビュー対応までの一周を達成したと報告する。80〜100GB帯で高性能なモデルがこれまで見つからなかったが、MoE構成のQwen3.8 Flash Nextでようやく実用水準に達したという。量子化バリアントの選定ではUD-Q3_K_XLが容量とApple Silicon上の速度のバランスで妥当だったこと、IQ系量子化はApple Siliconで遅くなる傾向があることなども実測に基づいて解説している。n=2の小規模な観察である点は留保しつつ、ローカルLLMの実用性向上を具体的な数値とともに示している。",
+      "category": "model",
+      "points": 37,
+      "author": "tomohisa"
+    },
+    {
+      "source": "devto",
+      "title": "What Happens After You Win a DEV Challenge? A Complete Guide to Getting Paid",
+      "url": "https://dev.to/dj29/what-happens-after-you-win-a-dev-challenge-a-complete-guide-to-getting-paid-3f8n",
+      "summary": "著者は、GitHub Copilotを使って復活させた個人プロジェクトでDEVのハッカソン「Finish-Up-A-Thon Challenge」に優勝した経験をもとに、賞金受け取りまでの実務フローを解説する。受賞発表後、DEV++の付与、MLHとDEVからの本人確認情報の依頼、Rampアカウントでの銀行口座登録とW-8BENなどの税務書類提出、インドの場合はFEMA対応まで、受賞から入金まで約2か月かかる具体的な手順を時系列で紹介している。同種のガイドが見当たらなかったため、自身の経験を記録として公開したという内容。",
+      "category": "other",
+      "points": 34,
+      "comments": 15,
+      "author": "Dhruv Jani",
+      "tags": [
+        "devjournal",
+        "discuss",
+        "career",
+        "hackathon"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Asked for a Portfolio but Got a Filing Cabinet",
+      "url": "https://dev.to/anchildress1/i-asked-for-a-portfolio-but-got-a-filing-cabinet-4ef8",
+      "summary": "著者は、自身のポートフォリオサイトがAI生成っぽく見えるという指摘を受け、GeminiやClaude Designを使ってデザインを作り直した経験を綴る。当初はAIに提案させたデザイン案がことごとく「アーカイブ／ダッシュボード」的なブラウジングUIになってしまい、本人らしさが表現できなかったと振り返る。「アーティスティックなページにしたい」とAIに伝えたことで方向性が定まり、単色アクセントや対照的な2書体など具体的なルールを自ら決めることで納得のいくデザインにたどり着いた。AIに全てを委ねるのではなく、人間が判断を下すことの重要性を実例とともに述べている。",
+      "category": "devtool",
+      "points": 7,
+      "comments": 3,
+      "author": "Ashley Childress",
+      "tags": [
+        "ai",
+        "webdev",
+        "design",
+        "ux"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Gemma 4 in Pure JAX: What Ports from TPU to GPU, and What Doesn't",
+      "url": "https://dev.to/gde/gemma-4-in-pure-jax-what-ports-from-tpu-to-gpu-and-what-doesnt-3m09",
+      "summary": "著者は、Gemma 4を純粋なJAXで実装し、Cloud TPUとNVIDIA GPU（Turing/Ada）の複数アクセラレータ上で動かす実験を行った。Gemma 4特有のスライディング層とグローバル層で異なるヘッド次元を持つ構造は、vLLMなど他の推論スタックでは特殊対応が必要になる一方、JAXでは単なる配列形状の違いとして自然に扱えることを示した。一方で、計算dtypeをデバイスのcompute capabilityから動的に決定する必要がある点や、TPU向けに書かれたPallasカーネルのタイリングがGPUのSRAM容量差でそのまま移植できない点など、抽象化が漏れ出す箇所も具体的に報告している。「移植性」を謳うJAXでも、ハードウェア差異が完全には隠蔽されないことを実測ベースで示す内容。",
+      "category": "model",
+      "points": 1,
+      "comments": 0,
+      "author": "xbill",
+      "tags": [
+        "gemma",
+        "jax",
+        "googleai",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "MCP C# Per-Request Client Capabilities: Read the Request, Not the Server",
+      "url": "https://dev.to/ssukhpinder/mcp-c-per-request-client-capabilities-read-the-request-not-the-server-566m",
+      "summary": "MCP（Model Context Protocol）の2026-07-28仕様変更により、初期化ハンドシェイクを前提としたセッション概念が廃止され、各リクエストが_metaフィールド内にclientCapabilitiesを自己完結的に持つようになったことを解説する。C#実装ではステートレスなHTTPハンドラ内でrequest.Server.ClientCapabilitiesが意図的にnullになるため、以前の値をキャッシュしたりサーバー側のプロパティを参照したりすると誤った判断をしてしまう落とし穴があると指摘する。サーバーは常に現在のリクエストからケーパビリティを読み取るべきであり、以前のメッセージから推測してはならないと結論づけている。",
+      "category": "agent",
+      "points": 6,
+      "comments": 1,
+      "author": "Sukhpinder Singh",
+      "tags": [
+        "mcp",
+        "dotnet",
+        "csharp",
+        "testing"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Googled Myself for 20 Minutes and Found My Home Address, My Mom's Maiden Name, and My Dog",
+      "url": "https://dev.to/numbpill3d/i-googled-myself-for-20-minutes-and-found-my-home-address-my-moms-maiden-name-and-my-dog-560e",
+      "summary": "著者は、特別なツールを使わず自分の名前だけを起点にGoogle検索を20分間行い、自宅住所や母親の旧姓、飼い犬の情報まで特定できてしまった経験を報告する。郡の資産評価サイトやデータブローカーのページ、家族の訃報記事、公開された家系図サービスなど、個々には合法・公開情報である断片をつなぎ合わせるだけで、銀行の本人確認質問に答えられるレベルの個人情報グラフが構築できてしまうと警告する。現代の個人情報漏えいは単一の秘密の流出ではなく、公開情報同士のつながり（グラフ）として存在している点がリスクの本質だと結論づけている。",
+      "category": "security",
+      "points": 8,
+      "comments": 0,
+      "author": "v. Splicer",
+      "tags": [
+        "programming",
+        "security",
+        "cybersecurity",
+        "coding"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIの口癖を日本語記事で測ろうとして、3回とも失敗した",
+      "url": "https://qiita.com/jqit_suwa/items/4231026d13f7527c0f69",
+      "summary": "著者は、Hacker Newsで話題になったGitHubのPR説明文の語彙クラスタリング分析（Claudeの特徴語として\"load-bearing\"が浮上した研究）を、自身のQiita記事30本で日本語版として追試しようとし、3回とも失敗したと報告する。英語の特徴語をそのまま数える、同じ比率計算式を日本語に当てる、AIっぽい言い回しを内外比較するという3つの手法を試したが、いずれも定型文の断片が上位に出るなど意味のある結果を得られなかった。失敗の原因は、分析対象（英語PR文と日本語技術記事）の違い、日本語の形態素解析なしでは語が取れないこと、そして対応語を人間が恣意的に選ぶしかないことの3点に整理している。手法が優れているほど別言語への移植は難しいという教訓を、無理に結論を作らず正直に記録した内容。",
+      "category": "research",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "環境変数でサブエージェントのモデルを固定できなくなった",
+      "url": "https://qiita.com/jqit_suwa/items/fc7f964572190fb8a77a",
+      "summary": "Claude Code 2.1.251で、環境変数CLAUDE_CODE_SUBAGENT_MODELの挙動が「すべてを上書きする」から「既定値を設定する」方式に変更されたことを、4パターンの実測で確認した記事。エージェント定義に model: が明記されている場合はそちらが優先され、環境変数は無視されるようになった一方、model: 未指定のエージェントは引き続き環境変数に従う。著者の環境では286本のサブエージェント定義のうち21本がmodel: sonnetを明示しており、これらはコストダウンのために環境変数でHaikuに統一しようとしても影響を受けない例外になると報告している。環境変数でモデルを一括制御していた運用は挙動が変わるため、事前の確認を促している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "【ポエム】2026年 AIコーディングプログラマの心象風景",
+      "url": "https://qiita.com/ssc-ksaitou/items/d48a62b87545a0e7d2c7",
+      "summary": "著者は、AIコーディングエージェントを使う際の自身のメンタルモデルを整理したエッセイを記している。制約のない状態ではAIエージェントの出力はどんな結果にもなり得るため、指示プロンプト・CLAUDE.mdなどのコンテキスト・自動テストといった「ハーネス」を積み重ねて、許容される出力範囲を狭めていく必要があると述べる。ハーネスが検出できるのはあくまで「誤り」までであり、最後に残る人間の願望とのズレを埋めるのはモデルの知性に委ねるしかないと指摘する。ハーネスの整備と賢いモデルの活用は独立に効く一方、賢いモデルほどハーネスなしでもある程度成立してしまうという関係性も述べている。",
+      "category": "devtool",
+      "author": "ssc-ksaitou"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code に制限モードが入った。自作スキル47本が0本になった",
+      "url": "https://qiita.com/jqit_suwa/items/4183a8e97738ba45f435",
+      "summary": "Claude Code 2.1.248で追加された--restrictedモード（共有マシン上での評価ハーネス向け）を実測した記事。公式説明では「コマンド実行系ツールとWebFetchを外し、ファイル操作を作業ディレクトリに限定する」とされているが、実際には利用可能ツールが42から23に4割強減り、Workflow・Monitor・LSPやMCPツール8個も公式に説明のない形で消えることを確認した。さらに、ユーザー設定・プロジェクト設定を読まない仕様のため、~/.claude/skills/配下に置いていた自作スキル47本が1本も認識されなくなる（Skillツール自体は残るが呼び出し先がない）という影響を報告している。--toolsで個別にツール名を指定すれば復元できるが、defaultプリセット経由では戻らないなど、公式ドキュメントに書かれていない挙動を実測で補足している。",
+      "category": "security",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "Kiro５兄弟のいまどきのセキュリティ基礎知識 ― Kiro CLIとDraw.io MCPで信頼境界を描くまで",
+      "url": "https://qiita.com/kamogashira/items/519a52614ba113bfe9cb",
+      "summary": "著者は、Security-JAWS第42回での登壇内容をもとに、AWSのAIエージェントツール群「Kiro」5形態（IDE/CLI/Web/Mobile/Crew）のセキュリティ設計を整理する。各形態を共通のエージェント実行基盤に統合する「Unified Agent Harness」への移行が進行中だが、permissions.yamlなど権限設定の新系列はまだ全形態で利用可能ではなく、統合は途中段階にあると指摘する。新系列の権限設定はfs_read・fs_write・shell・mcpなど12種類のcapabilityに対しallow/ask/denyを宣言する方式で、評価順位はdeny > ask > allowであり、条件に一致しない操作は拒否ではなく人間への確認（ask）に落ちると説明している。Kiro CLIとDraw.io MCPを組み合わせて信頼境界図を自動生成する具体的な活用例も紹介しつつ、「統合が進んでいる＝セキュリティ設定が統一済み」ではない点に注意を促している。",
+      "category": "security",
+      "author": "kamogashira"
+    }
+  ]
+}

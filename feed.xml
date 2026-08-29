@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-29T00:00:00+09:00</updated>
+  <updated>2026-08-30T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月30日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30.html</id>
+    <updated>2026-08-30T00:00:00+09:00</updated>
+    <summary>vLLM v0.28.0でKimi-K3・DeepSeek V4向けの大規模推論最適化と新しい投機的デコード手法が多数追加された / Claude Codeの--restrictedモードや環境変数によるサブエージェントモデル制御など、運用面の細かな仕様変更が日本語コミュニティで実測レポートされている / クラウドエージェント（Claude Code on the web / Cursor Cloud Agents）へ開発作業の大半を移す事例が増えている / MacBook Pro 128GBでのローカルLLM（Qwen3.8 Flash Next）実測など、ローカル環境でのAI活用も進展</summary>
+  </entry>
   <entry>
     <title>2026年8月29日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15-news.html</id>
     <updated>2026-08-15T00:00:00+09:00</updated>
     <summary>Googleが3週間ぶりの新モデル「Gemini 3.7 Flash」を発表、コーディング・エージェント性能を強化 / OpenAIがCerebras採用の超高速APIモード「Ultrafast」をプレビュー公開 / AnthropicはClaude生成テキストへの電子透かし導入と、Decart AIの約60億ドル買収交渉が同時進行 / DeepSeekがAPI料金を最大4倍超に値上げ、価格競争の構図に変化の兆し</summary>
-  </entry>
-  <entry>
-    <title>2026年8月15日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-15.html</id>
-    <updated>2026-08-15T00:00:00+09:00</updated>
-    <summary>AnthropicがClaudeの生成テキストへの電子透かし（ウォーターマーキング）導入を発表し、EU AI Act対応の技術的背景が話題に / GoogleがHEIRコンパイラで準同型暗号による「暗号化されたままのAI推論」を実用化に近づける / Claude CodeやMCPを軸にした開発生産性・hook・エージェントメモリなど実務者発の知見記事が多数 / 中古サーバ用GPUでのローカルLLM構築試算など、コスト最適化に関する実践記事が目立つ</summary>
   </entry>
 </feed>
