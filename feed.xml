@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-08-31T00:00:00+09:00</updated>
   <entry>
+    <title>2026年8月31日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31-news.html</id>
+    <updated>2026-08-31T00:00:00+09:00</updated>
+    <summary>OpenAIがSpaceXによる買収後のCursorへのモデル提供を打ち切りへ / AnthropicがAIエージェントに実験機器を操作させる新標準を公開 / Google DeepMindが動画生成モデル「Gemini Omni 1.1 Flash」を発表 / Sony MusicとWarner ChappellがAnthropicを著作権侵害で提訴 / 中国Z.aiの謎の高性能オープンウェイトモデル「Ox Alpha」の正体が判明</summary>
+  </entry>
+  <entry>
     <title>2026年8月31日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17.html</id>
     <updated>2026-08-17T00:00:00+09:00</updated>
     <summary>2026年8月17日のAIトレンド 20件</summary>
-  </entry>
-  <entry>
-    <title>2026年8月16日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16-news.html</id>
-    <updated>2026-08-16T00:00:00+09:00</updated>
-    <summary>Googleがコーディング・エージェント特化の新モデル「Gemini 3.7 Flash」を投入 / SpaceXがAIコーディングツールCursorの買収を60億ドルで正式完了 / OpenAIとGoogle DeepMindで経営陣の再編が相次ぐ / Anthropicのマルチエージェント実験で『縄張り争い』現象が判明 / AIコンピュート確保に向けた巨額の資金調達・債務が加速</summary>
   </entry>
 </feed>
