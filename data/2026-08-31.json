@@ -1,0 +1,228 @@
+{
+  "date": "2026-08-31",
+  "generatedAt": "2026/8/31 7:05:54",
+  "highlights": [
+    "Claude Code のフック・スキル・制限モードなど「ハーネス」まわりの実測レポートが複数登場",
+    "AIエージェントの承認ゲートやハーネス設計の穴を突く形式的検証・セキュリティ寄りの記事が目立つ",
+    "ローカルLLM（Qwen3.8 Flash Next）が128GB MacBook Proで実用域に達したという実測報告",
+    "連続拡散言語モデル（Continuous Diffusion LM）の技術動向まとめ",
+    "「AIを常時稼働させること」への設計批判など、AI開発のあり方を問う考察記事が複数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Haiku R1/beta6 has been released",
+      "url": "https://www.haiku-os.org/news/2026-08-26_haiku_r1_beta6",
+      "summary": "オープンソースOS「Haiku」のベータ版であるR1/beta6のリリース告知記事。前回のbeta5から約2年ぶりのリリースで、Haikuの25周年から約1週間後の公開となった。リリースノートやプレスコンタクト、ダウンロード方法へのリンクが紹介されている。AI関連の内容ではなく、OSプロジェクトのニュースリリースである。",
+      "category": "other",
+      "points": 206,
+      "comments": 58,
+      "author": "metrofun"
+    },
+    {
+      "source": "hackernews",
+      "title": "Longest Straight Line Paths on Water or Land on the Earth (2018)",
+      "url": "https://arxiv.org/abs/1804.07389",
+      "summary": "2018年に投稿された数学論文（arXiv）で、地球上で陸地に触れずに航行できる最長の直線経路と、逆に水域に触れずに走行できる最長の直線経路を求める最適化問題を扱う。海岸線のフラクタル性や島・湖の存在によりこの問題はカオス的になるとし、分枝限定法（branch-and-bound）を用いた計算手法を提案している。AIとは無関係な数理最適化・地理学の話題である。",
+      "category": "other",
+      "points": 182,
+      "comments": 55,
+      "author": "joebig"
+    },
+    {
+      "source": "hackernews",
+      "title": "What my dad taught me about AI coding in the 90s",
+      "url": "https://askmike.org/articles/ai-coding-lessons-in-the-90s-from-my-dad/",
+      "summary": "著者が子供の頃に父と行った「目隠しチェス」の経験から、盤面を丸暗記するのではなく駒の関係性・攻防・戦術パターンを構造的に把握する能力が強さの本質だったと振り返る。この視点をAIコーディングに応用し、LLMに丸投げして読まずに採用する「バイブコーディング」の危険性を指摘する。高水準言語の登場でハードウェア詳細を意識しなくてよくなったのと同様に、AI時代はコード自体を意識しなくてよくなったが、その分コードの構造やAPI・インターフェースの関係性を頭の中で把握し続ける「目隠しチェス」的な能力こそが、Claude Codeのようなツールを使いこなす熟練プログラマの条件だと論じている。",
+      "category": "devtool",
+      "points": 117,
+      "comments": 62,
+      "author": "askmike"
+    },
+    {
+      "source": "hackernews",
+      "title": "Electric rain can eat through metal",
+      "url": "https://www.scientificamerican.com/article/electric-rain-can-eat-through-metal/",
+      "summary": "Nature誌に掲載された研究を紹介する記事で、水滴が滑らかな表面を伝って流れ落ちる際に静電気を帯び、金属を腐食させるほどの電荷を持つことが示された。研究チームは銅板にテフロンコーティングを施し水を流す実験を行い、水滴が正、金属が負に帯電して電場が強まり、コーティングを突き破って腐食孔を作ることを確認した。防食コーティングが正しく施工されていない場合に劣化が起きる仕組みの説明にもつながるとされる。AIとは無関係な物理・化学分野の科学ニュースである。",
+      "category": "other",
+      "points": 77,
+      "comments": 15,
+      "author": "sohkamyung"
+    },
+    {
+      "source": "hackernews",
+      "title": "Continuous Diffusion Language Models (CDLM's)",
+      "url": "https://sander.ai/2026/08/24/continuous-dlms.html",
+      "summary": "自己回帰（一トークンずつ生成）が主流の言語モデルに対し、近年再び活発化している「連続拡散言語モデル」の研究動向をまとめた技術解説記事。2021年の離散拡散モデル（multinomial diffusion、D3PMなど）から、2022年以降にDiffusion-LMなど離散データを連続埋め込みに変換してガウスノイズで拡散させる手法が登場した経緯を解説している。自己回帰の露出バイアスや穴埋め・制約付き生成の弱点を克服する代替パラダイムとして、拡散モデルが再注目されている背景を、歴史的経緯を追いながら詳しく論じている。",
+      "category": "research",
+      "points": 15,
+      "comments": 2,
+      "author": "peter_d_sherman"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）",
+      "url": "https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai",
+      "summary": "Claude CodeやCodex CLIを日常的に使う開発者向けに、AIに開発を丸投げすることで生じる「技術負債」と「理解負債」を防ぐための実践的な開発手法を紹介する記事。人間がAIに質問攻めされながら要件を言語化する「grill-with-docs」スキルでGitHub Issueを作成し、その後Claude Codeに実装計画のマークダウンを作らせてレビューを繰り返すワークフローを解説している。具体的な依頼プロンプトの文面や使用するエージェントスキルの導入手順も示されており、AIコーディングにおける開発者側の理解を維持する工夫がテーマとなっている。",
+      "category": "devtool",
+      "points": 290,
+      "author": "keitakn"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code の承認待ちを見逃さないために、光る Clawd を机に置いた",
+      "url": "https://zenn.dev/lincwell_inc/articles/79092d88245748",
+      "summary": "Claude Codeの権限確認ダイアログを放置してしまう問題を解決するため、M5Atom LiteとLEDを使った物理インジケータ「Clawd」を自作した記事。Claude CodeのフックからHTTP経由でLEDの状態（待機・作業中・承認待ち・完了・エラー）を送信する仕組みを構築し、通知ではなく「常に視界の端にある状態表示」を目指したという。実測の結果、承認待ちの検知には`Notification`ではなく`PermissionRequest`イベントを使うべきこと、承認・拒否・中断のいずれもフックからは検知できずトランスクリプトの監視で補完する必要があることなど、Claude Codeフックの挙動に関する詳細な知見が報告されている。",
+      "category": "devtool",
+      "points": 72,
+      "author": "iwaide"
+    },
+    {
+      "source": "zenn",
+      "title": "AIは回せば回すほど凄いのか ―「常時稼働」という設計の敗北",
+      "url": "https://zenn.dev/eggletric/articles/4ea81df765fb66",
+      "summary": "SNSで見られる「AIエージェントを24時間動かして自動化した」という言説に対し、現役開発者の立場から疑問を呈する記事。高品質モデルを常時稼働させればAPI課金で破綻し、安価なモデルで回せば手戻りコストで破綻するとし、コスト構造の面から「常時稼働」の非合理性を指摘している。良い設計とは無駄な処理を走らせないことであり、AIエージェントも必要な時だけ特化型のサブエージェントを呼び出す動的オーケストレーションが理想であって、常時稼働はその判断ロジックを放棄した「設計の敗北」だと論じる。さらに、プロダクト開発のボトルネックは「作ること」ではなく「使われること」にあり、マーケティングやエッジケース対応など人間の判断が必要な工程を飛ばして量産だけを誇示する風潮に警鐘を鳴らしている。",
+      "category": "agent",
+      "points": 155,
+      "author": "Eggletric"
+    },
+    {
+      "source": "zenn",
+      "title": "MacBook Pro 128GB でローカル LLM がついに実用になった ─ Qwen3.8 Flash Next 実測",
+      "url": "https://zenn.dev/jtechjapan_pub/articles/local-llm-qwen-flash-next-eval",
+      "summary": "M4 Max・ユニファイドメモリ128GBのMacBook Proで、Qwen3.8 Flash NextをQ3量子化（約90GB）したGGUFモデルをllama.cppとOpenCodeで動かし、実案件のGitHub issueを解いた実測レポート。パケット読み込みからリポジトリ探索、実装、ビルド・テスト、コミット、draft PR作成、レビュー対応までを人間の介入なしで一周させることに初めて成功したという。MoE構成により総パラメータ200B級でありながら1トークンあたりの実計算は数Bで済むため90GBのモデルが128GBメモリに収まる点、Apple SiliconではIQ系量子化が遅くUD-Q3_K_XLが容量と速度のバランス上妥当だった点など、量子化バリアントの選定根拠を詳細に検証している。",
+      "category": "model",
+      "points": 41,
+      "author": "tomohisa"
+    },
+    {
+      "source": "zenn",
+      "title": "肥大化し続けるCLAUDE.md",
+      "url": "https://zenn.dev/tokium_dev/articles/claude-md-keeps-growing",
+      "summary": "整理してもいつの間にか肥大化してしまうCLAUDE.mdの問題に対し、Claude CodeのPostToolUseフックでファイルサイズを機械的に測定し、上限（12288バイト）を超えたら書き込みをブロックするシェルスクリプトを紹介する記事。上限超過時にはClaudeへ「削るのではなく置き場を変えよ」というメッセージを返し、その場限りの手順はdocs/へ、特定ファイル限定のルールは.claude/rules/へ移動させる運用ルールを提示している。実際に378行あったCLAUDE.mdを、内容を削除せずに25,147バイトから10,281バイトまで削減できた事例が示されている。",
+      "category": "devtool",
+      "points": 25,
+      "author": "ちっち"
+    },
+    {
+      "source": "devto",
+      "title": "I gave an AI agent a production rollback button — then spent the hackathon trying to trick it into pressing it",
+      "url": "https://dev.to/prince_panchani_f971a20ec/i-gave-an-ai-agent-a-production-rollback-button-then-spent-the-hackathon-trying-to-trick-it-into-2cha",
+      "summary": "MCPツールのannotation（readOnlyHint / destructiveHint）が未設定の場合、承認ゲートのポリシーがどのタグにもマッチせず、本番環境を破壊するツール呼び出しが承認なしで素通りしてしまう脆弱性を発見した記事。著者はこの穴を起点に、投資調査は自動化するが本番変更の実行は必ず人間の承認を要する自律インシデント対応エージェント「sentinel-agent」を構築した。さらにコードレビューで指摘されたMCPサーバの認証なし公開バインディングの問題から、承認ゲートがハーネス層でのみ機能しMCPサーバに直接到達する経路は素通りしてしまう構造的欠陥を発見し、自作の防御策を自ら攻撃するテストスイートまで作成したという。",
+      "category": "security",
+      "points": 8,
+      "comments": 0,
+      "author": "Prince Panchani",
+      "tags": [
+        "wemakedevs",
+        "truefoundry",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Git Said It Succeeded. The State Said Otherwise.",
+      "url": "https://dev.to/kenielzep97/git-said-it-succeeded-the-state-said-otherwise-34ka",
+      "summary": "Gitの成功メッセージを信じず実際の状態を確認することで見つかった、rebase関連の落とし穴をまとめた記事。rerereはgit addだけでは学習されずgit commitやrebase --continueで記録される点、rerere.autoupdateを有効にすると衝突が解消されたまま気づかず素通りしてしまう危険性、--autosquashが「成功」と表示されながらfixupコミットを履歴に残してしまうケースなどを、実際にコマンドを実行して検証している。AIそのものの話ではなく、AI支援で執筆されたGit運用のトラブルシューティング記事である。",
+      "category": "other",
+      "points": 20,
+      "comments": 20,
+      "author": "Self-Correcting Systems",
+      "tags": [
+        "git",
+        "testing",
+        "devops",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Tell Me About You",
+      "url": "https://dev.to/kenielzep97/tell-me-about-you-1hi4",
+      "summary": "67本の投稿を重ねてきた著者が、読者との対話を振り返りつつ自己紹介と読者への問いかけを行うパーソナルな記事。目隠しチェスに似た先読み思考を要するゲームPokeMMOへの熱中や、バスケットボールのコーチ活動など私生活を語りつつ、目指しているのは失敗を隠さず気づき修正できる「Self-Correcting Systems」の構築だと述べる。複数のAIエージェントを別々の役割に配置し、互いに異議を唱え合わせながら開発する「Drift Gauntlet」という制約体系のもとで作業しているという、著者独自のマルチエージェント運用スタイルが紹介されている。",
+      "category": "agent",
+      "points": 8,
+      "comments": 4,
+      "author": "Self-Correcting Systems",
+      "tags": [
+        "watercooler",
+        "discuss",
+        "community",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built an Agent That Marked Its Own Finding as Already Known",
+      "url": "https://dev.to/kenielzep97/a-finding-is-not-a-discovery-gib",
+      "summary": "「bug」「defect」「vulnerability」といった単語をプロンプトに含めないハーネスの制約下で、エージェントに未知のコードの欠陥を見つけさせ、それが既知の不具合クラスと一致するか（NEW / CONFIRMS_KNOWN）を自己申告させる検証を行った記事。エージェントは見つけた不具合を新規発見と偽らず「既知」と申告する誠実な挙動を示したが、著者が検証したところ実際には既知クラスの条件が逆であり、エージェント自身の判定は構造的には正しくても意味的には誤りだったことが判明した。この結果から、新規性の分類には妥当だが意味的な正しさまでは保証しないという、ハーネスの検証範囲の限界を明らかにしている。",
+      "category": "agent",
+      "points": 22,
+      "comments": 4,
+      "author": "Self-Correcting Systems",
+      "tags": [
+        "trueforge",
+        "qodo",
+        "testing",
+        "architecture"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Bugs Are Innocent Until Reproduced: Building Verdict, an Evidence-First Agent Harness",
+      "url": "https://dev.to/himanshu_748/bugs-are-innocent-until-reproduced-building-verdict-an-evidence-first-agent-harness-50lf",
+      "summary": "「バグは再現されるまで無罪」という原則のもと、GitHub issueを再現可能な証拠に基づく調査に変換するエージェントハーネス「Verdict」を紹介する記事。Hunter（トリガー条件の特定）、Surgeon（変更箇所の局所化）、Insurance（回帰テスト計画への変換）という3つの制限付きサブエージェントが順に働き、承認された条件・コマンド予算の範囲でのみ調査を行う設計になっている。実際にTrueForgeのissueに対し、問題が起きる条件で10回中10回再現し、対照条件では0回であったことを示すことで、単なる推測ではなく対照実験に基づく再現性の証拠を提示する仕組みを実演している。",
+      "category": "agent",
+      "points": 8,
+      "comments": 4,
+      "author": "Himanshu Kumar",
+      "tags": [
+        "ai",
+        "testing",
+        "opensource",
+        "showdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code に制限モードが入った。自作スキル47本が0本になった",
+      "url": "https://qiita.com/jqit_suwa/items/4183a8e97738ba45f435",
+      "summary": "Claude Code 2.1.248で追加された`--restricted`モードを実測検証した記事。公式説明は「コマンド実行系ツールとWebFetchを外し、ファイル操作を作業ディレクトリに限定する」というものだが、実際に測ると使えるツールが42個から23個へ45%減少し、公式に明記されていないWorkflowやMonitor、MCPツール8個も丸ごと消えることが判明した。さらにユーザー設定を読まない仕様のため、`~/.claude/skills/`に置いていた自作スキル47本が0本になり、サブエージェント286本も参照されなくなるなど、共有マシンでの安全な自動実行を目的としたこのモードが、スキルやサブエージェントを積み上げてきたユーザーには大きな影響を与えることを具体的な測定結果とともに報告している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "【AWS DevOps Agent】コードレビューと自動検証テストの検証",
+      "url": "https://qiita.com/aliean/items/bec57a9a20c7f9e60f79",
+      "summary": "PRレビューの滞留を解消するため、AWS DevOps Agentのコードレビュー機能と自動検証テスト機能を検証した記事。CDKでエージェントスペースを構築し、GitHubリポジトリと連携してPR作成時にレビューと検証環境上での自動テストを実行する仕組みを試している。導入時にはus-east-1でのCDKブートストラップ未実施でのエラー、リポジトリ内に置いた独自のレビュー観点ファイルが読み込まれず`AGENTS.md`への記載が必要だったこと、日本語出力を明示しないと英語で返ってくることなど、実際に躓いた3つのポイントとその対処法を共有している。",
+      "category": "agent",
+      "author": "aliean"
+    },
+    {
+      "source": "qiita",
+      "title": "「ハーネス」ってなんぞ？ Claudeに“性格”と“記憶”を持たせる仕組みを、おじさんでも分かるように調べてみた",
+      "url": "https://qiita.com/OnuuuumaX/items/8b7ac7751411f79a41d7",
+      "summary": "AIコーディング文脈で使われる「ハーネス」という概念を、初心者向けに馬具の比喩を使って解説する記事。ハーネスをRules（ルール）、Skills（スキル）、Hooks（フック）、Memory（メモリ）、Feedback loops（フィードバックループ）の5要素に整理し、それぞれを新人研修マニュアルや引き継ぎノートなど職場の仕組みに例えている。麻雀点数計算アプリの開発で実際にメモリ・ルールファイル・フック・テスト自動実行を順に導入した経験を紹介し、5つが揃って初めて「毎回安定して仕事ができる」状態になると結論づけている。",
+      "category": "devtool",
+      "author": "OnuuuumaX"
+    },
+    {
+      "source": "qiita",
+      "title": "ガバメントクラウドAWS環境における統合監視・AIによる障害時自動調査について検討してみた",
+      "url": "https://qiita.com/fj_yoshimura_kosuke/items/1cb40e25071475268431",
+      "summary": "「Organizations管理権限がない」「完全閉域ネットワーク」という制約の下で、ガバメントクラウド上の多数のAWSアカウントとオンプレミス機器を統合監視する構成を検討した記事。CloudWatch OAMの個別アカウントリンクとVPC Interface Endpointによる完全閉域構成を用い、Organizationsなしでもメトリクス・ログ・X-Rayトレースなどを集約アカウントに集められることを示している。加えて、2026年1月新機能のAlarm Mute Rulesによるメンテナンス通知抑止や、AWS DevOps AgentによるAI駆動の障害時自動調査を組み合わせることで、コスト・ネットワーク・運用性の3観点から統合監視を実現する方針を解説している。",
+      "category": "infra",
+      "author": "fj_yoshimura_kosuke"
+    },
+    {
+      "source": "qiita",
+      "title": "【ポエム】2026年 AIコーディングプログラマの心象風景",
+      "url": "https://qiita.com/ssc-ksaitou/items/d48a62b87545a0e7d2c7",
+      "summary": "AIコーディングエージェントを使う際の著者自身のメンタルモデルを言語化したポエム的な記事。制約のない状態のAIエージェントの出力はほぼ無限にありうるとした上で、指示プロンプト・コンテキスト（CLAUDE.mdなど）・自動テストといった「ハーネス」を足していくことで、許容される出力の範囲を「誤り」として塗りつぶしていくイメージを提示している。ハーネスで塗りつぶせるのはあくまで「誤り」までであり、残った願望との間の余白を埋めるのは最終的にモデルの知性だとし、ハーネス設計と賢いモデルの利用はそれぞれ独立に効いてくると結んでいる。",
+      "category": "agent",
+      "author": "ssc-ksaitou"
+    }
+  ]
+}

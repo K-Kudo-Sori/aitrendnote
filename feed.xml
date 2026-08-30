@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-30T00:00:00+09:00</updated>
+  <updated>2026-08-31T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年8月31日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31.html</id>
+    <updated>2026-08-31T00:00:00+09:00</updated>
+    <summary>Claude Code のフック・スキル・制限モードなど「ハーネス」まわりの実測レポートが複数登場 / AIエージェントの承認ゲートやハーネス設計の穴を突く形式的検証・セキュリティ寄りの記事が目立つ / ローカルLLM（Qwen3.8 Flash Next）が128GB MacBook Proで実用域に達したという実測報告 / 連続拡散言語モデル（Continuous Diffusion LM）の技術動向まとめ / 「AIを常時稼働させること」への設計批判など、AI開発のあり方を問う考察記事が複数</summary>
+  </entry>
   <entry>
     <title>2026年8月30日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16-news.html</id>
     <updated>2026-08-16T00:00:00+09:00</updated>
     <summary>Googleがコーディング・エージェント特化の新モデル「Gemini 3.7 Flash」を投入 / SpaceXがAIコーディングツールCursorの買収を60億ドルで正式完了 / OpenAIとGoogle DeepMindで経営陣の再編が相次ぐ / Anthropicのマルチエージェント実験で『縄張り争い』現象が判明 / AIコンピュート確保に向けた巨額の資金調達・債務が加速</summary>
-  </entry>
-  <entry>
-    <title>2026年8月16日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-16.html</id>
-    <updated>2026-08-16T00:00:00+09:00</updated>
-    <summary>AnthropicのClaudeテキスト電子透かしを巡り、技術解説記事と誤解を正す記事の両方が話題に / Claude Codeをフックやルール蓄積で「教育し続ける」実践的な運用ノウハウが複数投稿 / 生成AI活用が進む組織で「オントロジー」「シャドーAIガバナンス」など、意味の統制・利用統制という次の課題が顕在化</summary>
   </entry>
 </feed>
