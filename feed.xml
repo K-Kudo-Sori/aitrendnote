@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-01T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月1日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html</id>
+    <updated>2026-09-01T00:00:00+09:00</updated>
+    <summary>Google が動画生成モデル「Gemini Omni 1.1 Flash」を公開、40秒シーン拡張と4K対応で実運用レベルに / Anthropic が Claude Code の公式プラグインディレクトリを開設し、拡張エコシステムを整備 / Sony Music・Warner Chappell が Anthropic を著作権侵害で提訴、音楽業界とAI企業の対立が激化 / ServiceNow の AI Platform に CVSS 10.0 の重大脆弱性、未認証での任意コード実行が可能な状態だった</summary>
+  </entry>
+  <entry>
     <title>2026年9月1日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18.html</id>
     <updated>2026-08-18T00:00:00+09:00</updated>
     <summary>GitHub CopilotのAI「Autofix」が入れたコード修正が原因で、Snowflakeのリポジトリに重大な脆弱性が生まれ、実際に悪用実証まで至った事例が公開された / AnthropicがClaude生成テキストへの電子透かし埋め込みを開始し、その仕組み（distortion-free方式・SynthID-Text）を解説する記事が話題に / AIエージェント時代の開発言語としてGoが再評価されており、静的型・可読性重視の設計がAIコード生成のガードレールとして機能するという議論 / Claude Code関連の話題（cross-session messaging、/watch-…</summary>
-  </entry>
-  <entry>
-    <title>2026年8月17日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17-news.html</id>
-    <updated>2026-08-17T00:00:00+09:00</updated>
-    <summary>AnthropicがEU AI法対応でClaude生成テキストへの透かし導入を発表、世界全体に適用へ / Googleがコーディング/エージェント特化の新モデル「Gemini 3.7 Flash」を投入、価格を半額に / Stripeがマルチモデルアクセスの「OpenRouter」を70億ドル超で買収と報道 / AnthropicのCEOはAIへの世間の反発を「信頼の危機」と分析、業界の実績不足を指摘 / OpenAIはCerebrasとの連携で最大14倍高速な「Ultrafast」モードをGPT-5.6 Solに追加</summary>
   </entry>
 </feed>

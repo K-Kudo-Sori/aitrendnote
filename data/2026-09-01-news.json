@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-01",
+  "generatedAt": "2026/9/1 8:17:12",
+  "highlights": [
+    "Google が動画生成モデル「Gemini Omni 1.1 Flash」を公開、40秒シーン拡張と4K対応で実運用レベルに",
+    "Anthropic が Claude Code の公式プラグインディレクトリを開設し、拡張エコシステムを整備",
+    "Sony Music・Warner Chappell が Anthropic を著作権侵害で提訴、音楽業界とAI企業の対立が激化",
+    "ServiceNow の AI Platform に CVSS 10.0 の重大脆弱性、未認証での任意コード実行が可能な状態だった"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Google、動画生成モデル「Gemini Omni 1.1 Flash」を発表",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "summary": "Googleは2026年8月27日、開発者向けの動画生成モデル「Gemini Omni 1.1 Flash」を発表した。シーンを最大40秒まで拡張できるほか、開始・終了フレームの指定による滑らかな転換、4Kへのアップスケール、高速な360pドラフト生成に対応する。Google AI Studio や Gemini Enterprise Agent Platform から利用でき、プロ向け動画制作ワークフローに使える「実運用レベル」の技術と位置付けられている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "アリババ、デスクトップ版コーディングエージェント「Qoder」を公開",
+      "url": "https://www.qbitai.com/2026/08/480940.html",
+      "summary": "アリババは音声対話でタスクを実行できるデスクトップ版AIコーディングエージェント「Qoder」を公開した。デスクトップ上の常駐キャラクターに話しかけることでコード生成・テスト・検証を自動実行し、Computer Use / Browser Use と連携して動作確認も行う。40以上のコネクタ・70以上のプラグイン・2万を超えるスキルに対応し、非エンジニアでも会話だけでアプリを作れることを謳う。既に世界で6億ユーザー、10万社の企業顧客を抱えるとしている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、Claude Code の公式プラグインディレクトリを開設",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "summary": "Anthropicは、Claude Code向けプラグインを集約する公式ディレクトリ「claude-plugins-official」をGitHub上に公開した。Anthropic製の内部プラグインとサードパーティ製の外部プラグインを整理して収録し、`/plugin install` コマンドや `/plugin > Discover` から検索・導入できる。プラグイン名は不変の識別子として扱われ、外部プラグインは提出フォームから品質・セキュリティ基準の審査を経て追加される。公開時点で3.5万以上のスターを獲得している。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "NVIDIA、GPU単体を超えた「システムレベル」の優位性を強調",
+      "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+      "summary": "NVIDIAの競争優位はGPU単体にとどまらず、データセンター全体のシステム設計に広がりつつある。新アーキテクチャ「Vera Rubin」では専用CPU「Vera」やストレージ・ネットワークを統合し、データ移動を最適化することで該当処理において最大3倍の性能向上を実現するという。AI基盤がギガワット級に巨大化する中、生のGPU性能よりもデータ移動とメモリ協調の効率化が競争力の源泉になりつつあり、GPUのコモディティ化に対する新たな参入障壁になっていると分析されている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "ServiceNowのAI Platformに最大深刻度CVSS 10.0の脆弱性、未認証での攻撃が可能",
+      "url": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+      "summary": "ServiceNowは自社のAI Platformに存在する4件の脆弱性を公表し、修正パッチを提供した。うち3件は最大深刻度のCVSS 10.0で、GraphQLの Composite Data API におけるコードインジェクション、画像アップロード処理におけるアクセス制御不備、SQLインジェクションが含まれる。いずれも認証なしで悪用可能とされ、攻撃者は任意コード実行やインスタンスデータの改ざん、権限昇格、データベースへの直接的なSQL実行が行える状態だった。ServiceNowは現時点で悪用の兆候は確認していないとしている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "長期タスク遂行エージェントの新手法「PILOT」、実行中の自己改善を実現",
+      "url": "https://arxiv.org/abs/2608.26530",
+      "summary": "長期にわたるタスクを遂行するAIエージェントは、従来は実行が完了してから学習・改善するため、実行途中で軌道修正する機会を逃していた。新手法「PILOT」はスーパーバイザー・ワーカー構成を採用し、実行中にスーパーバイザーがワーカーの方針を修正・中断できる「ライブ・ステアリング」と、判明した手順や失敗パターンを再利用可能なスキル・記憶に変換する「ライブ自己進化」を組み合わせる。各種ベンチマークで自己改善設定において12〜15ポイント程度の性能向上を達成し、出力トークン数を4割超削減しつつ効率指標を2倍以上改善したという。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Sony Music・Warner Chappellが Anthropic を著作権侵害で提訴",
+      "url": "https://techcrunch.com/2026/08/29/sony-music-warner-sue-anthropic-alleging-a-brazen-campaign-of-intellectual-property-theft/",
+      "summary": "Sony Music Publishing、Warner Chappell Music などの音楽出版社が、Anthropicおよび共同創業者を相手取りカリフォルニア北部地区連邦裁判所に提訴した。訴状は、Claudeの学習のために著作権付き楽曲の歌詞や譜面を含む大量の素材を、違法なトレント配布・スクレイピングによって無断で収集したとする「大胆な窃取キャンペーン」だったと主張している。Anthropicは「出版社側の主張には同意できず、法廷で全面的に争う」とコメントしており、Anthropicは2025年9月にも著作権を巡る別の集団訴訟で15億ドルの和解に応じた経緯がある。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-09-01-news"
+}
