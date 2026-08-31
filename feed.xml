@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-08-31T00:00:00+09:00</updated>
+  <updated>2026-09-01T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月1日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01.html</id>
+    <updated>2026-09-01T00:00:00+09:00</updated>
+    <summary>AppleがMac Studio/miniの新モデルを異例のタイミングで発表。背景は企業のAI用途需要の急増 / Claude Code周りの実践記事が多数。hooksの実測知見、個人設定、丸投げしないAI開発手法など / Agent Skillの導入コスト比較（自作3,225トークン vs 導入90,000トークン）が話題に / AIチャット34製品の利用規約比較で、データが学習・閲覧・保存される経路を整理 / AWS DevOps Agentによる自動コードレビュー・検証テストの実践レポート</summary>
+  </entry>
   <entry>
     <title>2026年8月31日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17-news.html</id>
     <updated>2026-08-17T00:00:00+09:00</updated>
     <summary>AnthropicがEU AI法対応でClaude生成テキストへの透かし導入を発表、世界全体に適用へ / Googleがコーディング/エージェント特化の新モデル「Gemini 3.7 Flash」を投入、価格を半額に / Stripeがマルチモデルアクセスの「OpenRouter」を70億ドル超で買収と報道 / AnthropicのCEOはAIへの世間の反発を「信頼の危機」と分析、業界の実績不足を指摘 / OpenAIはCerebrasとの連携で最大14倍高速な「Ultrafast」モードをGPT-5.6 Solに追加</summary>
-  </entry>
-  <entry>
-    <title>2026年8月17日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-17.html</id>
-    <updated>2026-08-17T00:00:00+09:00</updated>
-    <summary>2026年8月17日のAIトレンド 20件</summary>
   </entry>
 </feed>
