@@ -1,0 +1,223 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026/9/2 8:41:54",
+  "highlights": [
+    "Anthropicが新モデル「Claude Fable 5.1」「Claude Mythos 5.1」を発表。コスト削減とセーフガード改善が柱。",
+    "GoogleとPurdue大学がエージェントの文脈膨張問題を解決する新手法「SKILL.state」を提案。",
+    "Claude Codeのモデル切り替え時のプロンプトキャッシュ破棄コストを実測した記事が話題に。",
+    "AI開発の実務Tips（技術的負債、アーキテクチャ設計、外部イベント駆動のエージェント運用）が複数掲載。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "Anthropicがコーディングと知的作業向けの新モデル「Claude Fable 5.1」と、サイバーセキュリティ・ライフサイエンス領域向けに安全策を強化した「Claude Mythos 5.1」を発表した。両モデルは同一のベースモデルだが、安全対策のレベルが異なる。トークン単価は従来のFable 5比で最大約25%（高度なエージェント用途では最大約45%）削減される。またEnterprise Frontier Safeguards（EFS）により、顧客管理下のインフラにデータを保存することでゼロデータ保持相当のプライバシーを実現するとしている。ベンチマークではFable 5に対しコスト当たり性能が大きく向上したことが示されている。",
+      "category": "model",
+      "points": 832,
+      "comments": 798,
+      "author": "denysvitali"
+    },
+    {
+      "source": "hackernews",
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "summary": "筆者は5090 GPU上でわずか1.5時間・約67セントの学習コストで小型のTransformerを訓練し、ARC-AGI-1で44%のスコアを達成したと報告している。これは多くの大規模LLMを上回る成績であり、TRM/HRMと同水準のサンプル効率を実現したという。アーキテクチャの近代化（SwiGLU、RMSNormなど）やデータの多様化、入力トークンを損失計算から除外する変更などが精度向上に寄与した。著者はサンプル効率の限界を探ることを目的とし、コードとブログをオープンソースで公開している。",
+      "category": "research",
+      "points": 547,
+      "comments": 147,
+      "author": "porridgeraisin"
+    },
+    {
+      "source": "hackernews",
+      "title": "American Airlines mechanic Azriel “Al” Blackman has died",
+      "url": "https://simpleflying.com/american-airlines-mechanic-passes-away-100-record-80-years/",
+      "points": 364,
+      "comments": 149,
+      "author": "NaOH"
+    },
+    {
+      "source": "hackernews",
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "summary": "著名なAI懐疑派の論客Ed Zitron氏の過去の予測を、実際の財務データと照らし合わせて検証した記事。2024年にZitron氏がMeta・Google・Microsoftを「死につつある企業」と評したのに対し、これら3社は2023年から2026年にかけて売上・利益ともに大幅な成長を続けていることをデータで示している。著者はAI推進派・懐疑派いずれにも強い立場を取らず、事実ベースで予測の正確性を検証する姿勢を取っている。他の予測についても同様に検証結果が続く。",
+      "category": "product",
+      "points": 321,
+      "comments": 379,
+      "author": "jatins"
+    },
+    {
+      "source": "hackernews",
+      "title": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+      "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "summary": "著者がOpenAIのCodexデスクトップアプリ（現ChatGPTアプリに統合）のキャッシュフォルダを調査したところ、Python・Node.jsのフルインストールに加え、Poppler、git、そしてLibreOfficeのネイティブバイナリなど合計1.7GBのファイルが同梱されていることを発見した。これらはCodexがドキュメント操作のために利用する「スキル」から参照されていると見られる。単なるチャットアプリの裏側に、フル機能のオフィススイートが隠されていたという意外性のある発見を紹介する短いブログ記事。",
+      "category": "devtool",
+      "points": 200,
+      "comments": 104,
+      "author": "timpera"
+    },
+    {
+      "source": "zenn",
+      "title": "202608個人的claude code設定",
+      "url": "https://zenn.dev/kawarimidoll/articles/d3f1a7542de71a",
+      "summary": "筆者個人のClaude Code運用設定を半年ぶりにまとめた記事。8bitdo microコントローラーでの操作、permissions.defaultModeをautoにして自律実装を進める設定、advisorModelにfableを指定する構成、作業中のスリープ防止、SidePulseによる進捗通知など、日常運用の工夫を多数紹介している。settings.jsonの差分をjqで正規化する手法や、statuslineでトークン使用割合を絵文字表示する工夫にも触れている。agent-browserやterminal-useを用いた自律的な動作確認、cageやguard-and-guideによる危険操作の制限についても解説している。",
+      "category": "devtool",
+      "points": 439,
+      "author": "kawarimidoll"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）",
+      "url": "https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai",
+      "summary": "AIコーディングツールにすべてを任せることで蓄積する「技術的負債」と「理解負債」への対処法を解説する記事。半年前の前回記事の続編で、grill-with-docsやexplain-visuallyといったエージェントスキルを新たに導入した開発フローを紹介している。GitHub Issueの要件定義段階でAIが人間に質問を重ねて詳細化するgrill-with-docsスキル、実装計画のマークダウン作成と複数回のレビュー・改善を繰り返す手順など、AIに丸投げせず開発者が理解を保ちながら進める具体的な実践方法が述べられている。",
+      "category": "devtool",
+      "points": 576,
+      "author": "keitakn"
+    },
+    {
+      "source": "zenn",
+      "title": "会話セッションを邪魔せずに Claude Code / Codex / Cursor を外部イベントで動かすCLIの作り方まとめ",
+      "url": "https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor",
+      "summary": "ブラウザ上でのUI指摘を受けてClaude Code・Codex・Cursorに自動でファイル修正させるプレビューCLIツール「Artifact Share」の開発知見をまとめた記事。会話セッションを塞がずにエージェントを外部イベントで起こす仕組みが3エージェントで全く異なる点が最大の課題だったとし、Claude Codeはバックグラウンドタスク完了時の自動ターン再開、Codexは実行中セッションへのメッセージキュー投入、CursorはACP経由の専用セッションへのプロンプト送信という別解を採用したことを解説している。常駐デーモンを持たず1ファイル1プロセスで完結させる設計や、UI要素の位置を再解決可能な形で保存するアンカー設計についても述べている。",
+      "category": "agent",
+      "points": 35,
+      "author": "Coji Mizoguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "PR の概要や動作確認結果を HTML で共有するのに、zip 不要の GitHub Actions Artifact がちょうどよかった",
+      "url": "https://zenn.dev/she_techblog/articles/github-actions-artifact-no-zip",
+      "summary": "GitHub Actionsのartifactが2026年にzip化なしでアップロードできるようになった変更を活用し、AIが生成したPRレビューガイドや動作確認結果のHTMLをzip解凍不要でブラウザ表示できるようにした運用を紹介する記事。actions/upload-artifact@v7のarchive: falseオプションで単一ファイルをそのままアップロードでき、PRへのコメントに直接URLを貼れる点が大きな利点だとしている。CIでAIがPR差分を解析してレビューガイドHTMLを生成しBotがコメントする実例、Claudeがブラウザ動作確認結果をスクリーンショット付きHTMLでまとめて報告する実例が紹介されている。",
+      "category": "devtool",
+      "points": 32,
+      "author": "hatsu"
+    },
+    {
+      "source": "zenn",
+      "title": "Google提唱の「SKILL.state」について。プロンプトに型の概念を導入",
+      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
+      "summary": "GoogleとPurdue大学が2026年8月に提案した、長時間稼働エージェントの精度低下を防ぐ新手法「SKILL.state」を解説する記事。会話履歴をそのままAIに渡す代わりに、型が定義された構造化データ（現在の実行状態）だけを都度更新して渡すことで、コンテキスト膨張による精度劣化を防ぐ仕組みだという。200ステップの長時間タスクでは従来手法がスコア0.74〜0.88まで低下する中、SKILL.stateは0.94を維持し、トークン消費も617万から12万へ大幅に削減されたと報告している。ノイズ混入や外部要因による状態変化への耐性でも既存手法を上回る結果が示されている。",
+      "category": "research",
+      "points": 36,
+      "author": "Atsushi Kadowaki"
+    },
+    {
+      "source": "devto",
+      "title": "How to Design AI Evaluations You Can Actually Trust",
+      "url": "https://dev.to/googleai/how-to-design-ai-evaluations-you-can-actually-trust-41c3",
+      "summary": "Google AIのDeveloper Relationsチームが、AIエージェント向けスキルの評価（eval）を信頼できる形で設計するための知見を紹介する記事。評価環境の制約（サンドボックスの種類や利用可能なツール）を事前に理解すること、ベースラインの精度が既に高すぎて効果測定にならない「天井効果」を避けるために難易度の高いプロンプトを用意することなど、5つのルールのうち前半部分を解説している。評価プロンプトと採点基準（rubric）を対応させる「プロンプト・グレーダー・ミスマッチ」の問題にも言及しており、続編でスコアリングルーブリックの詳細を扱うとしている。",
+      "category": "research",
+      "points": 21,
+      "comments": 4,
+      "author": "Jan-Felix Schmakeit",
+      "tags": [
+        "ai",
+        "evals"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "What happens to technical debt when AI makes code cheap?",
+      "url": "https://dev.to/jennapederson/what-happens-to-technical-debt-when-ai-makes-code-cheap-9oa",
+      "summary": "AIによってコード生成のコストが下がったことで技術的負債がどう変化するかを論じるエッセイ記事。AIエージェントはリファクタリングや依存関係の移行など既存の技術的負債の解消を得意とする一方で、実装速度が学習速度を上回ることで新たな負債を大量に生み出しやすいと指摘している。技術的負債は単なる悪いコードではなく、当時の情報に基づく合理的な判断のギャップから生まれるものであり、本番環境で得られる経験は生成では代替できないと論じている。AI時代における技術的負債の本質的な意味の変化について考察するシリーズの第3回。",
+      "category": "devtool",
+      "points": 8,
+      "comments": 2,
+      "author": "Jenna Pederson",
+      "tags": [
+        "ai",
+        "programming",
+        "software",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "React 19 Actions: I Explained 3 Hooks Without Ever Explaining What an Action Is",
+      "url": "https://dev.to/shubhradev/react-19-actions-i-explained-3-hooks-without-ever-explaining-what-an-action-is-m79",
+      "summary": "React 19の新機能「Action」の本質を解説するシリーズ第4回の記事。startTransition内で呼び出された関数がActionと定義され、useActionState・useOptimistic・useFormStatusという3つのフックが実は同じ仕組みの異なる側面であったことを説明している。useActionStateは戻り値を状態として保持する唯一の「入口」であり、useFormStatusは親フォームのpending状態を読み取るだけ、useOptimisticはTransition内から呼ぶセッターであると整理している。AIとは無関係のフロントエンド技術解説記事。",
+      "category": "other",
+      "points": 28,
+      "comments": 10,
+      "author": "Shubhra Pokhariya",
+      "tags": [
+        "react",
+        "javascript",
+        "webdev",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Building With AI When You Don't Know Architecture: A Survival Guide",
+      "url": "https://dev.to/james_anderson_h/building-with-ai-when-you-dont-know-architecture-a-survival-guide-1ma3",
+      "summary": "プログラミング未経験者がAIでアプリを作る際、機能追加を重ねるうちにプロジェクトが破綻してしまう問題への対処法を解説する記事。AIはコードを書く障壁を取り除いたが構造化する障壁は取り除いていないとし、UI・ビジネスロジック・データアクセスを分離すること、1ファイル1機能に絞ることなど、コンピュータサイエンスの知識がなくても実践できる設計原則を紹介している。AIへの具体的な指示文例も提示されており、初心者がAI駆動開発でプロジェクトの理解を保ち続けるための実践的ガイドとなっている。",
+      "category": "devtool",
+      "points": 35,
+      "comments": 24,
+      "author": "James Anderson",
+      "tags": [
+        "ai",
+        "beginners",
+        "webdev",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I raced six models against each other on DigitalOcean Inference. The cheapest one won.",
+      "url": "https://dev.to/remdore/i-raced-six-models-against-each-other-on-digitalocean-inference-the-cheapest-one-won-4lga",
+      "summary": "DigitalOcean Inferenceのエンドポイントを使い、Llama・DeepSeek・Mistral・Qwen・OpenAIのオープンウェイトモデルなど6つのモデルに同じプロンプトを同時に投げて速度とコストを比較したツールを開発した記事。当初gunicornの同期ワーカーがボトルネックとなり6ストリームが実質的に順番待ちになっていたが、スレッド化ワーカーに切り替えることで初回トークン到達時間を大幅に短縮できたことを報告している。最終的に最も安価なモデルが総合的に優れた結果を示したとしており、コードはMITライセンスで公開されている。",
+      "category": "model",
+      "points": 8,
+      "comments": 1,
+      "author": "Remdore",
+      "tags": [
+        "showdev",
+        "ai",
+        "python",
+        "digitalocean"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code でモデルを切り替えると、そのターンだけ書き直しが287倍",
+      "url": "https://qiita.com/jqit_suwa/items/5fe930eb46d064b3da06",
+      "summary": "Claude Code 2.1.251で見えるようになったプロンプトキャッシュの統計を使い、モデル切り替え時のキャッシュ破棄コストを実測した記事。同一セッション内でopusからsonnetに切り替えた瞬間だけキャッシュの書き直しトークン数が197から56,584へと287倍に跳ね上がる一方、opusに戻す際は67トークンと安価で済むという非対称な挙動を発見している。TTL（1時間枠と5分枠）を切り替えるとキャッシュが別の入れ物に分かれること、`claude -p`を毎回新規実行するとキャッシュヒット率が32.5%に留まることなども実験で確認しており、長時間セッションほどモデル切り替えのコストが大きくなると結論づけている。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "【個人開発】MLBの試合日程をGoogleカレンダー・Appleカレンダーに自動同期するWebアプリを作りました【React/TypeScript/iCalendar】",
+      "url": "https://qiita.com/takahiro_honda/items/b44d4e2b526aa009f822",
+      "summary": "大谷翔平選手らが所属するドジャースの試合日程を、Google・Appleカレンダーに自動同期するWebアプリ「SportsCal Sync」を個人開発した体験記。React 19・TypeScript・Firebase Functionsを用い、iCalendar（.ics）のURL購読とREFRESH-INTERVALプロパティを利用してカレンダー側から定期的に最新データを取得させる仕組みを実装したという。AIとは直接関係のない個人開発の技術記事で、MVPに機能を絞り込んだ開発の学びについても振り返っている。",
+      "category": "other",
+      "author": "takahiro_honda"
+    },
+    {
+      "source": "qiita",
+      "title": "2026年今から WordPress を立ち上げるなら — AWS Lightsail + Cloudflare WAF を使った構築手順",
+      "url": "https://qiita.com/sugumura/items/2f32c69f11bbc97b2fd9",
+      "summary": "新規公開されたWordPressサイトが公開初日から攻撃対象になる現状を踏まえ、AWS Lightsail上にWordPressを構築する際にCloudflare WAFを最初から組み込む手順を解説する記事。静的IPの割り当て、SSH接続元の制限、HTTP/HTTPSアクセスをCloudflareのIPレンジのみに絞るファイアウォール設定など、実IPを隠蔽し直接アクセスを遮断する構成を段階的に示している。certbotによるSSL証明書取得とCloudflareプロキシ有効化の順序についても、検証エラーを避けるための具体的な手順が説明されている。",
+      "category": "security",
+      "author": "sugumura"
+    },
+    {
+      "source": "qiita",
+      "title": "ChatGPT・Gemini・Claude…データはAIの学習に使われるのか？情報漏洩のリスクは？　34製品の利用規約を読み比べてみた",
+      "url": "https://qiita.com/songchong/items/3abbc43f0d7c471e6688",
+      "summary": "ChatGPT・Gemini・Claudeなど34のAI製品の利用規約・プライバシーポリシーを調査し、入力データがどう扱われるかを整理した記事。「学習に使われる」という言葉には再学習・人によるレビュー・保存という性質の異なる3つの経路が混ざっていると指摘し、同じ製品でも個人向けと法人向けで結論が逆転する例が34件中10件あったとしている。学習を停止しても既に取得済みのデータは削除されない場合がある点や、訓練データがそのまま再現される既知の研究成果にも触れ、規約だけでは「学習内容が他人の回答に出るか」まで踏み込んで説明していない実態を明らかにしている。",
+      "category": "security",
+      "author": "songchong"
+    },
+    {
+      "source": "qiita",
+      "title": "ゲーム制作における Herdrとgit worktreeの自立型マルチエージェント環境",
+      "url": "https://qiita.com/yuji_yasuhara/items/99c589264a006658a15a",
+      "summary": "Godotゲーム開発において複数のコーディングエージェント（Claude Code、Codexなど）を並列実行する際の「調整」問題を解決するために構築した環境を解説する記事。エージェント用ターミナルマルチプレクサ「Herdr」とgit worktreeを組み合わせ、リーダーエージェントがチケットを起票してworkerエージェントに指令し報告書をレビューする「MyKanban」という独自スキル・CLIを開発したという。さらに、サンドボックス内のworkerがGodotの実機画面を確認できるようにするGUIブローカープラグインも作成し、役割分担をリーダー/worker間で仕組みとして固定することで、並列開発時の混乱を防ぐ設計思想を詳述している。",
+      "category": "agent",
+      "author": "yuji_yasuhara"
+    }
+  ]
+}

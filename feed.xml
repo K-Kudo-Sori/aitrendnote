@@ -14,6 +14,13 @@
     <summary>OpenAIが「重大なサイバーセキュリティ閾値」を初めて満たしたと主張する新モデル「Astra」を予告 / 米国防総省のGenAI.milにChatGPT MilとGrok for Governmentが追加され300万人規模に拡大 / AnthropicがLambdaと350億ドル規模のクラウド計算契約を締結し計算資源の多様化を加速 / 韓国政府が2027年度予算でAI分野に前年比84.3%増となる9兆4000億ウォンを計上 / Apple対OpenAIの営業秘密訴訟でOpenAIが反論、10月1日に審理予定</summary>
   </entry>
   <entry>
+    <title>2026年9月2日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02.html</id>
+    <updated>2026-09-02T00:00:00+09:00</updated>
+    <summary>Anthropicが新モデル「Claude Fable 5.1」「Claude Mythos 5.1」を発表。コスト削減とセーフガード改善が柱。 / GoogleとPurdue大学がエージェントの文脈膨張問題を解決する新手法「SKILL.state」を提案。 / Claude Codeのモデル切り替え時のプロンプトキャッシュ破棄コストを実測した記事が話題に。 / AI開発の実務Tips（技術的負債、アーキテクチャ設計、外部イベント駆動のエージェント運用）が複数掲載。</summary>
+  </entry>
+  <entry>
     <title>2026年9月1日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19.html</id>
     <updated>2026-08-19T00:00:00+09:00</updated>
     <summary>Cursorが独自Gitホスティング「Origin」の提供を開始し、Qiitaでも実触りレビューが投稿されるなど、エージェント時代の開発基盤競争が本格化している。 / AIエージェントの「認可疲れ」対策や「テストの握り潰し」の構造分析など、エージェント運用の実践的な課題を掘り下げる記事が目立った。 / 45Mパラメータ・14MBの超軽量ツール呼び出しモデルの実機検証や、GoogleのTurboQuantを使った省メモリなベクトル検索ライブラリなど、軽量・高効率化の話題も多かった。</summary>
-  </entry>
-  <entry>
-    <title>2026年8月18日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18-news.html</id>
-    <updated>2026-08-18T00:00:00+09:00</updated>
-    <summary>Z.aiが新モデル「GLM-5.3」を発表、コーディング性能を大幅強化しつつ脆弱性解析能力も急伸したため重み公開を2週間遅らせて安全性評価 / Anthropicが四半期ベースで初の営業黒字化に近づき、OpenAIに先んじて2兆ドル評価でのIPOを目指す動きが加速 / AmazonがAI学習データ確保のため希少な古書を裁断・スキャンしている実態が報じられ物議 / AI動画生成のHiggsfieldが4億ドルのシリーズBを調達、8カ月で評価額が4倍の54億ドルに / GoogleのAIエージェントがChromeに13年間潜んでいたサンドボックス脱出の脆弱性を発見・修正済みと判明</summary>
   </entry>
 </feed>
