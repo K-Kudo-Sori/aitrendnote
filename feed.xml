@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-01T00:00:00+09:00</updated>
+  <updated>2026-09-02T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月2日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02-news.html</id>
+    <updated>2026-09-02T00:00:00+09:00</updated>
+    <summary>OpenAIが「重大なサイバーセキュリティ閾値」を初めて満たしたと主張する新モデル「Astra」を予告 / 米国防総省のGenAI.milにChatGPT MilとGrok for Governmentが追加され300万人規模に拡大 / AnthropicがLambdaと350億ドル規模のクラウド計算契約を締結し計算資源の多様化を加速 / 韓国政府が2027年度予算でAI分野に前年比84.3%増となる9兆4000億ウォンを計上 / Apple対OpenAIの営業秘密訴訟でOpenAIが反論、10月1日に審理予定</summary>
+  </entry>
   <entry>
     <title>2026年9月1日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18-news.html</id>
     <updated>2026-08-18T00:00:00+09:00</updated>
     <summary>Z.aiが新モデル「GLM-5.3」を発表、コーディング性能を大幅強化しつつ脆弱性解析能力も急伸したため重み公開を2週間遅らせて安全性評価 / Anthropicが四半期ベースで初の営業黒字化に近づき、OpenAIに先んじて2兆ドル評価でのIPOを目指す動きが加速 / AmazonがAI学習データ確保のため希少な古書を裁断・スキャンしている実態が報じられ物議 / AI動画生成のHiggsfieldが4億ドルのシリーズBを調達、8カ月で評価額が4倍の54億ドルに / GoogleのAIエージェントがChromeに13年間潜んでいたサンドボックス脱出の脆弱性を発見・修正済みと判明</summary>
-  </entry>
-  <entry>
-    <title>2026年8月18日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-18.html</id>
-    <updated>2026-08-18T00:00:00+09:00</updated>
-    <summary>GitHub CopilotのAI「Autofix」が入れたコード修正が原因で、Snowflakeのリポジトリに重大な脆弱性が生まれ、実際に悪用実証まで至った事例が公開された / AnthropicがClaude生成テキストへの電子透かし埋め込みを開始し、その仕組み（distortion-free方式・SynthID-Text）を解説する記事が話題に / AIエージェント時代の開発言語としてGoが再評価されており、静的型・可読性重視の設計がAIコード生成のガードレールとして機能するという議論 / Claude Code関連の話題（cross-session messaging、/watch-…</summary>
   </entry>
 </feed>

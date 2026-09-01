@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-02",
+  "generatedAt": "2026/9/2 8:18:33",
+  "highlights": [
+    "OpenAIが「重大なサイバーセキュリティ閾値」を初めて満たしたと主張する新モデル「Astra」を予告",
+    "米国防総省のGenAI.milにChatGPT MilとGrok for Governmentが追加され300万人規模に拡大",
+    "AnthropicがLambdaと350億ドル規模のクラウド計算契約を締結し計算資源の多様化を加速",
+    "韓国政府が2027年度予算でAI分野に前年比84.3%増となる9兆4000億ウォンを計上",
+    "Apple対OpenAIの営業秘密訴訟でOpenAIが反論、10月1日に審理予定"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAIの新モデル「Astra」は間もなく登場——コンピュータシステムへの侵入を得意とする",
+      "url": "https://techcrunch.com/2026/09/01/open-ais-astra-model-is-on-the-way-and-very-good-at-breaking-into-computer-systems/",
+      "summary": "OpenAIは、自社初めて「重大なサイバーセキュリティ閾値」を満たしたと主張する新モデル「Astra」を発表した。人間の指示なしに未知のセキュリティ脆弱性を発見・悪用できるとされ、社内テストのExploitBenchで満点を記録し、2件のゼロデイ脆弱性を発見したという。OpenAIは近く提供を開始する方針だが、高度な機能へのアクセスはアカウント制限やチェーン・オブ・ソート監視など複数の安全策で制限するとしており、専門家からは公開前の対策の十分性を疑問視する声も出ている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "米国防総省が独自版ChatGPTとGrokを配備",
+      "url": "https://techcrunch.com/2026/08/31/the-pentagon-now-has-its-own-version-of-chatgpt-and-grok/",
+      "summary": "米国防総省（DoD）は、安全な生成AIポータル「GenAI.mil」に、OpenAIの「ChatGPT Mil」とxAIの「Grok for Government」を新たに追加し、既存のGoogle Geminiと並行提供を開始した。同ポータルは国防総省職員約300万人のうち既に170万人以上が利用しており、機密情報を扱わずに最先端AIモデルへ安全にアクセスできる仕組みを提供する。ChatGPT Milは計画立案や物流など事務作業向け、Grok for Governmentは調達分析やサプライチェーン管理などの実務支援に重点を置く一方、Anthropic製Claudeはデータセキュリティ要件を巡る過去の対立から今回の拡張には含まれていない。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicがNvidia出資のLambdaと350億ドルのクラウド契約を締結",
+      "url": "https://thenextweb.com/news/anthropic-lambda-35bn-cloud-deal",
+      "summary": "Anthropicは、Nvidiaが出資するクラウド事業者Lambdaとの間で、350億ドル規模の計算資源提供契約を結んだ。契約は、旧ビットコインマイニング企業Hut 8がテキサス州で開発するデータセンターを対象とし、NvidiaがLambdaへの出資・Hut 8とのサイト契約・チップ供給を担う複雑な構造になっている。Anthropicは特定のクラウド事業者への依存を避けるため複数サプライヤーに分散する方針を掲げているが、実際には多くの事業者が同じNvidia製ハードウェアを採用している点も指摘されている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "韓国政府、2027年度予算でAI分野に9兆4000億ウォンを計上し過去最大規模に",
+      "url": "https://biz.heraldcorp.com/article/10858709",
+      "summary": "韓国の科学技術情報通信部は2027年度予算案として、前年比24.5%増となる過去最大規模の29兆6476億ウォンを編成したと発表した。このうちAI分野には前年比84.3%増の9兆4000億ウォンを投入し、政府全体のAI関連予算の57%を占める規模となる。AIデータセンターや半導体などの主要プロジェクトにも約7956億ウォンが配分され、政府は同予算を「AI大転換」の元年と位置づけている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple対OpenAIの営業秘密訴訟、OpenAIが「Apple自身が招いた混乱」と反論",
+      "url": "https://www.macrumors.com/2026/09/01/dispute-said-to-be-mess-of-apples-own-making/",
+      "summary": "Appleの元従業員2名（Chang Liu氏、Tang Tan氏）による営業秘密持ち出し疑惑を巡るApple対OpenAIの訴訟で、OpenAIは新たな答弁書でApple側の主張を全面的に否定した。OpenAIは、Appleが業務での個人iCloud利用を容認し、退職者への対応も杜撰だったため情報管理の境界が曖昧になっていたと主張し、意図的な窃取ではないとした。OpenAIはこれまでApple出身者を約400人採用しており、カリフォルニア州法は競合他社への転職を認めていると強調している。審理はEdward J. Davila判事のもと10月1日に予定されている。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-09-02-news"
+}
