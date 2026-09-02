@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-02T00:00:00+09:00</updated>
+  <updated>2026-09-03T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月3日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03.html</id>
+    <updated>2026-09-03T00:00:00+09:00</updated>
+    <summary>Googleが「Gemini 3.8 Flash」と、脆弱性検出・自動パッチ適用に特化した「Gemini 3.8 Flash Cyber」を発表。 / Claude Fable 5.1 のリリースに伴い、キャッシュ読み込みの安定性やtool_choiceの破壊的変更を検証する記事がQiitaで複数投稿された。 / AIエージェントに与える権限・実行環境をどう安全に設計するか（サンドボックスOS、ナレッジグラフ活用）という運用面の話題が目立った。 / MCPとREST/SOAP/GraphQL/gRPCの違いを日本の業務システムの実例で整理する記事が公開された。</summary>
+  </entry>
   <entry>
     <title>2026年9月2日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19-news.html</id>
     <updated>2026-08-19T00:00:00+09:00</updated>
     <summary>OpenAIが10代向けの安全対策を強化した「ChatGPT for Teens」を公開 / NVIDIAがOpenAIのオハイオ州データセンターに最大1050億ドル規模の投融資 / StripeがAIゲートウェイのOpenRouterを70億ドル超で買収へ / エージェント間通信標準「A2A」がAgentic AI Foundationへ移管</summary>
-  </entry>
-  <entry>
-    <title>2026年8月19日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19.html</id>
-    <updated>2026-08-19T00:00:00+09:00</updated>
-    <summary>Cursorが独自Gitホスティング「Origin」の提供を開始し、Qiitaでも実触りレビューが投稿されるなど、エージェント時代の開発基盤競争が本格化している。 / AIエージェントの「認可疲れ」対策や「テストの握り潰し」の構造分析など、エージェント運用の実践的な課題を掘り下げる記事が目立った。 / 45Mパラメータ・14MBの超軽量ツール呼び出しモデルの実機検証や、GoogleのTurboQuantを使った省メモリなベクトル検索ライブラリなど、軽量・高効率化の話題も多かった。</summary>
   </entry>
 </feed>

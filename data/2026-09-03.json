@@ -1,0 +1,226 @@
+{
+  "date": "2026-09-03",
+  "generatedAt": "2026/9/3 7:04:53",
+  "highlights": [
+    "Googleが「Gemini 3.8 Flash」と、脆弱性検出・自動パッチ適用に特化した「Gemini 3.8 Flash Cyber」を発表。",
+    "Claude Fable 5.1 のリリースに伴い、キャッシュ読み込みの安定性やtool_choiceの破壊的変更を検証する記事がQiitaで複数投稿された。",
+    "AIエージェントに与える権限・実行環境をどう安全に設計するか（サンドボックスOS、ナレッジグラフ活用）という運用面の話題が目立った。",
+    "MCPとREST/SOAP/GraphQL/gRPCの違いを日本の業務システムの実例で整理する記事が公開された。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "summary": "Googleが新しいFlashモデル「Gemini 3.8 Flash」と、脆弱性検出・自動パッチ適用に特化した「Gemini 3.8 Flash Cyber」を発表した。3.8 Flashは3.7 Flashからソフトウェアエンジニアリングやエージェントタスク、専門領域での多段階推論を強化しつつ、価格は3.7 Flashと同水準に据え置かれている。長時間稼働するエージェントループで推論と評価を繰り返す設計により、DeepSWEやVals Finance Agent、Harvey's Legal Agent Benchmarkなどのベンチマークで大幅な性能向上を達成したという。Cyber版は「Fairwind Program」を通じて信頼できる防御側企業に提供される。",
+      "category": "model",
+      "points": 724,
+      "comments": 420,
+      "author": "bratao"
+    },
+    {
+      "source": "hackernews",
+      "title": "Can I opt out of my input or output data being used for training?",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "summary": "Mistral AIのヘルプ記事で、ユーザーの入力・出力データがモデル学習に使われる場合のオプトアウト方法が説明されている。個人向け「Vibe」サービスはデフォルトでオプトインだが、管理パネルやモバイルアプリの設定からいつでも学習利用を無効化できる。一方、企業向けVibeはデフォルトでオプトアウトされており、有効化は管理者権限で行う。Mistral StudioやAPIについても管理パネルの「匿名改善データ」トグルから個別にオプトアウトでき、Vibeとの設定は連動しない点が注意点として挙げられている。",
+      "category": "security",
+      "points": 344,
+      "comments": 147,
+      "author": "teekert"
+    },
+    {
+      "source": "hackernews",
+      "title": "Aging Brains Blend Memories Together Instead of Just Forgetting Them",
+      "url": "https://studyfinds.com/aging-brains-blend-memories-together-instead-of-forgetting-them-study-finds/",
+      "summary": "Cerebral Cortex誌に掲載された脳画像研究で、加齢に伴う記憶力低下は単なる「忘却」ではなく、異なる記憶同士が混ざり合う現象である可能性が示された。18〜74歳の61人を対象に顔と物体・場面のペアを学習させMRIで海馬の活動パターンを計測したところ、若年層では学習時と想起時の活動パターンの一致度が正確な再生を予測したのに対し、高齢層では同じ一致度がカテゴリを跨いだ混同エラーを予測する結果となった。脳の萎縮や注意力の差だけではこの現象を十分に説明できなかったという。AI関連ではなく神経科学分野の研究記事だが、Hacker Newsのトップ記事として抽出された。",
+      "category": "other",
+      "points": 168,
+      "comments": 76,
+      "author": "mdp2021"
+    },
+    {
+      "source": "hackernews",
+      "title": "Paint.net 5.2 alpha now runs on Linux",
+      "url": "https://forums.paint.net/topic/134562-paintnet-52-alpha-build-9739/",
+      "summary": "本文取得失敗。",
+      "category": "other",
+      "points": 163,
+      "comments": 131,
+      "author": "judah"
+    },
+    {
+      "source": "hackernews",
+      "title": "WebLLM: high-performance in-browser LLM inference engine",
+      "url": "https://github.com/mlc-ai/web-llm",
+      "summary": "WebLLMは、WebGPUによるハードウェアアクセラレーションを利用してブラウザ上で直接LLM推論を実行するオープンソースエンジンである。サーバー処理を必要とせずOpenAI APIと完全互換であり、ストリーミングやJSONモード、関数呼び出し（開発中）などの機能をブラウザ内で再現できる。Llama 3やPhi 3、Gemma、Mistral、Qwenなど多数のモデルファミリーに対応し、Web WorkerやChrome拡張機能への組み込みもサポートする。プライバシーを保ちながらGPUアクセラレーションを活かしたAIアシスタントをブラウザだけで構築できる点が特徴。",
+      "category": "devtool",
+      "points": 75,
+      "comments": 17,
+      "author": "saikatsg"
+    },
+    {
+      "source": "zenn",
+      "title": "202608個人的claude code設定",
+      "url": "https://zenn.dev/kawarimidoll/articles/d3f1a7542de71a",
+      "summary": "個人ブログで著者が現在運用しているClaude Codeの設定をまとめた記事。8bitdo microコントローラーをターミナル操作用にマッピングして片手操作を実現し、権限モードは`defaultMode: auto`、`advisorModel`にfableを指定するなど自律実行寄りの設定を採用している。作業中はスリープさせずSidePulseで進捗を通知させる工夫や、settings.jsonの差分をjqで正規化してdiffを見やすくする方法も紹介されている。危険な操作の制限にはcageやguard-and-guideといったサンドボックスツールを併用し、システムプロンプトで回避策探索を防いでいるという。",
+      "category": "devtool",
+      "points": 557,
+      "author": "kawarimidoll"
+    },
+    {
+      "source": "zenn",
+      "title": "Google提唱の「SKILL.state」について。プロンプトに型の概念を導入",
+      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
+      "summary": "GoogleとPurdue大学の研究者が2026年8月に提案した「SKILL.state」という長時間稼働エージェント向け新手法を解説する記事。会話履歴をそのままAIに渡す従来方式ではコンテキストが膨張して精度が劣化するため、型が定義された構造化データ（現在の実行状態）のみを毎ターン渡す方式を提案している。200ステップの倉庫管理シミュレーションでは、従来手法がスコア0.74〜0.88まで低下するのに対しSKILL.stateは0.94を維持し、消費トークンも617万から12万へ大幅に削減されたという。外部ノイズの混入耐性や、第三者による状態変化への即座の追従性でも既存手法を上回る結果が報告されている。",
+      "category": "research",
+      "points": 78,
+      "author": "Atsushi Kadowaki"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに丸投げしないで理解するためのAI開発手法（2026年8月現在）",
+      "url": "https://zenn.dev/avaintelligence/articles/dont-outsource-understanding-to-ai",
+      "summary": "AIコーディングツールに開発を丸投げすることで生じる「技術負債」と「理解負債」を防ぐための開発手法を紹介する記事。Claude CodeとCodex CLIを併用し、GitHub Issue作成時に`grill-with-docs`スキルでAIから逆質問を受けながら要件を明確化する手順を解説している。実装計画はマークダウンファイルとして`design-docs-for-ai/`配下に作成し、レビューと改善を複数回繰り返すことで、後続の実装フェーズに引き継ぐ情報の精度を高めているという。著者が公開している`code-naming`や`code-comments`など自作スキルも実例として紹介されている。",
+      "category": "devtool",
+      "points": 682,
+      "author": "keitakn"
+    },
+    {
+      "source": "zenn",
+      "title": "会話セッションを邪魔せずに Claude Code / Codex / Cursor を外部イベントで動かすCLIの作り方まとめ",
+      "url": "https://zenn.dev/coji/articles/artifactshare-preview-claude-codex-cursor",
+      "summary": "ブラウザ上でファイル要素をクリックして指摘を書き込むと、Claude Code・Codex・Cursorがファイルを自動修正する「preview」CLIの設計をまとめた記事。会話セッションを塞がずにエージェントを起動する仕組みが3エージェントでそれぞれ異なり、Claude Codeはバックグラウンドタスク完了時の自動ターン再開、Codexは実行中セッションへのメッセージキュー投入、Cursorは常駐ACPセッションへの固定プロンプト送信を利用しているという。常駐デーモンを持たず1ファイル1プロセスで完結させる設計や、指摘の位置をラベルと周辺テキストで再解決可能にするアンカー機構についても解説している。",
+      "category": "agent",
+      "points": 51,
+      "author": "Coji Mizoguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "トークン2000分の1——オントロジー×ナレッジグラフでClaude Codeの推測を消す",
+      "url": "https://zenn.dev/helloworld/articles/bcaea69f58eae5",
+      "summary": "コードの依存関係をナレッジグラフ化する4つのOSSツール（code-review-graph、Graphify、Serenaなど）をClaude Codeと組み合わせ、ファイル全読みによる推測を減らす手法を紹介する記事。実測ではレビュー用コンテキストが全文読みの最大14万トークンから約70トークンまで削減され、日本語の質問でも意味検索により該当する関数を発見できたという。CLAUDE.mdにルーティングルールを1つ書くだけで、質問の種類に応じて適切なツール（意味検索・LSP・グラフ横断検索）が自動的に選ばれる点も9種類の質問で検証されている。一方でセキュリティスキャン機能は検出力が弱く、SQLインジェクションや秘密鍵の検出には別途Semgrepなどの併用を推奨している。",
+      "category": "devtool",
+      "points": 31,
+      "author": "週末ものづくり部"
+    },
+    {
+      "source": "devto",
+      "title": "What do you build when you can build anything?",
+      "url": "https://dev.to/ale3oula/what-do-you-build-when-you-can-build-anything-4eg0",
+      "summary": "AIによって「誰でも何でも作れる」時代になったことの弊害を論じるエッセイ記事。著者は、AIの登場でアイデアから実装までの障壁が消えたことで「作らねばならない」という強迫観念（Agency Hell）が生まれていると指摘する。写真散歩アプリの構想を例に、AIで容易に試作できるからこそ「本当に作る価値があるか」を問い直す姿勢が重要だと論じている。何でも作れる時代に本当に大切なのは「何を作らないか」を選ぶスキルだと結論づけている。",
+      "category": "other",
+      "points": 17,
+      "comments": 8,
+      "author": "Alexandra",
+      "tags": [
+        "ai",
+        "productivity",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Execution Trees, Not More Logs: A Better Debugging Model for AI Agents",
+      "url": "https://dev.to/raju_dandigam/execution-trees-not-more-logs-a-better-debugging-model-for-ai-agents-3d4g",
+      "summary": "AIエージェントのデバッグにおいて、フラットなログよりも実行ツリー形式が優れているという主張を、OSSツール「AgentInspect」の実装例とともに紹介する記事。フラットログでは並列ツール呼び出しやネストしたエージェント委譲の因果関係を人間が頭の中で再構築する必要があるが、実行ツリーはネスト構造やフォールバック処理の親子関係を明示的に表現できるという。TypeScriptでの計測コード例を示しつつ、ネストによる責任範囲の可視化やエラー回復動作の追跡など、ツリー表現が明らかにするバグのパターンをいくつか解説している。",
+      "category": "devtool",
+      "points": 19,
+      "comments": 18,
+      "author": "Raju Dandigam",
+      "tags": [
+        "ai",
+        "typescript",
+        "debugging",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Tried Pair Programming With Three Different AI Tools For a Month",
+      "url": "https://dev.to/elsie-rainee/i-tried-pair-programming-with-three-different-ai-tools-for-a-month-2nnc",
+      "summary": "著者がCursor、GitHub Copilot、Claude Codeの3つをペアプログラミングツールとして1か月間実践比較した記事。単純な「Todoアプリを作って」型の比較を避け、既存コードへの機能追加やデバッグなど実務に近いタスクで評価している。結果として、Copilotは日常的なコーディングや定型処理に強く、Cursorは複数ファイルにまたがる対話的な変更に強く、Claude Codeは大規模なコードベースの理解やターミナルからの複数ステップ完遂に強いと結論づけている。3ツールの最大の差はコード生成速度ではなく、生成前にどれだけ有用なコンテキストを活用できるかだったという。",
+      "category": "devtool",
+      "points": 24,
+      "comments": 11,
+      "author": "Elsie Rainee",
+      "tags": [
+        "productivity",
+        "ai",
+        "tools",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "My AI Gateway Added 400ms to Every Request. Here's Where It Went",
+      "url": "https://dev.to/devstackhub/my-ai-gateway-added-400ms-to-every-request-heres-where-it-went-2fkp",
+      "summary": "AIゲートウェイ導入後にリクエストが300〜500ms遅くなった原因を調査する実践的な記事。著者はプロバイダへの直接リクエストとゲートウェイ経由リクエストを比較し、認証・ポリシーチェック・ルーティング・ストリーミングなど各段階を個別に計測することの重要性を説く。特にコネクション再利用の欠如によるDNS/TCP/TLSの繰り返しコストや、リクエストごとにDBへ認証照会が発生するケースを典型的な遅延要因として挙げている。平均値だけでなくp95・p99のテール遅延を見るべきだという指摘もなされている。",
+      "category": "infra",
+      "points": 15,
+      "comments": 4,
+      "author": "Dev Stack Hub",
+      "tags": [
+        "ai",
+        "llm",
+        "devops",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Why I'm Building ShrekOS When Containers Already Exist",
+      "url": "https://dev.to/the_leon_odor/why-im-building-shrekos-when-containers-already-exist-1lg6",
+      "summary": "AIエージェントに与える権限をエージェント自身やフレームワークの判断に委ねるのではなく、OSレベルで制御すべきだという思想から生まれた「ShrekOS」を紹介する記事。著者はエージェントの自律性を高めるほど「制限しすぎて使い物にならない」か「機械に危険な権限を与えすぎる」かの二択に陥っていたと振り返る。Debianベースの不変イミュータブルなベースOSにAppArmorのパスベースポリシーを組み合わせ、ffmpegインストールのようなツール導入時にホスト全体を汚染させない実行時権限モデルを実現しようとしている。既存のコンテナやサンドボックス技術の発明ではなく、それらを組み合わせて一貫した運用モデルにする「構成」の取り組みだと位置づけている。",
+      "category": "security",
+      "points": 3,
+      "comments": 0,
+      "author": "Leon Odor",
+      "tags": [
+        "linux",
+        "security",
+        "architecture",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Fable 5.1、キャッシュ読みは4分の1。ただし tool_choice が400を返す",
+      "url": "https://qiita.com/jqit_suwa/items/c0f5b86dfb8a3106cbaf",
+      "summary": "9月1日に公開されたClaude Fable 5.1の価格・仕様変更を検証したQiita記事。価格表上の変更点はキャッシュ読み込みの$1.00→$0.25への値下げのみだが、公式ドキュメントには3つの破壊的変更（tool_choiceのany/toolが使えず400エラーになる、旧モデルがthinkingブロックを読めない、過去ターン編集でthinkingブロックが無効化される）があると指摘する。並列ツール呼び出しの減少や進捗メッセージの減少といった挙動変化も報告されており、公式ページの価格表と脚注の記述に矛盾がある点も指摘されている。",
+      "category": "model",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Fable 5.1、2ターン目のキャッシュに12回中8回乗り損ねた",
+      "url": "https://qiita.com/jqit_suwa/items/8ae6739d0bb525e1b41b",
+      "summary": "Claude Fable 5.1のプロンプトキャッシュのヒット率が不安定であることを実測したQiita記事。同一手順で初回→継続を12回繰り返したところ、キャッシュヒット率が99%台になるか約40%になるかの二値に割れ、8回がキャッシュミスとなった。比較対象のOpus 5は7回、Sonnet 5は5回とも99%台でヒットしており、割れる現象はFable 5.1固有だったという。ターン間隔を45秒空けても改善せず、キャッシュを外すと1ターンあたり約1ドルの追加コストが発生する計算になると報告している。",
+      "category": "model",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code のサブエージェント、モデルの固定手段が4日で戻ってきた",
+      "url": "https://qiita.com/jqit_suwa/items/e0e1ca2287fb4da46852",
+      "summary": "Claude Code 2.1.251で失われたサブエージェントのモデル固定手段が、2.1.257で新しい環境変数`CLAUDE_CODE_SUBAGENT_MODEL_FORCE`として4日後に復活したことを検証したQiita記事。8条件の実測により、FORCE=1を立てるとエージェント定義の`model: sonnet`指定や組み込みのExploreも強制的に上書きされる一方、forkサブエージェントだけはキャッシュ維持のためメイン会話と同じモデルで走り続けることが確認された。エージェント定義側の`model: inherit`はFORCEで上書きされるが、スキル側のinheritは公式仕様通り例外として保護されるという。著者の環境では286個のエージェント定義のうち21個がこの変更の影響を受けると報告している。",
+      "category": "devtool",
+      "author": "jqit_suwa"
+    },
+    {
+      "source": "qiita",
+      "title": "AIにアンケートの生データを丸投げしたら、対応表を読んで前処理を一瞬で終わらせてくれた話",
+      "url": "https://qiita.com/IkuyaM/items/655665c108a1972f04ca",
+      "summary": "データ分析ツール「Exploratory」のAIエージェント機能を使い、コード化されたアンケート回答CSVと対応表（コードブック）から集計用データへの変換を自動化した体験記。データを投入するだけでAIが2つのファイルの関係を解析し、列名を設問文に、値を回答ラベルに変換する提案を行い、作業は2〜3分で完了したという。生成されたR言語スクリプトを確認すると、対応表の空欄補完や質問タイプごとの処理分岐など、通常は人間が行う細かい判断も自動で反映されていたことが紹介されている。処理はスキルとして保存されるため、翌月以降のデータ差し替え時も同じスクリプトを再利用できる点が評価されている。",
+      "category": "product",
+      "author": "IkuyaM"
+    },
+    {
+      "source": "qiita",
+      "title": "MCP vs. API（REST・SOAP・GraphQL・gRPC）どれが使える？ 日本の業務システム 56 件を調べてみた",
+      "url": "https://qiita.com/songchong/items/64a8710cffb39963c2b3",
+      "summary": "MCPとREST/SOAP/GraphQL/gRPCの違いを、業務システム担当者向けに整理した入門記事。MCPはAPIの代替ではなく、著者が調査した56システムのうちMCPを提供する14件はすべてAPIも同時に提供していたと報告している。MCPは実行時に`tools/list`で機能一覧を自ら公開できる点が最大の特徴であり、REST/SOAPの設計時ドキュメント（OpenAPI/WSDL）とは性質が異なると説明する。エラー体系はJSON-RPC 2.0、型定義はJSON Schema、認証はOAuth 2.1を前提とするなど、MCPを既存API群と併用する際の実務上の違いが整理されている。",
+      "category": "agent",
+      "author": "songchong"
+    }
+  ]
+}
