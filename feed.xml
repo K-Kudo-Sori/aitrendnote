@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-03T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月3日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03-news.html</id>
+    <updated>2026-09-03T00:00:00+09:00</updated>
+    <summary>AnthropicがClaude Fable 5.1/Mythos 5.1を発表、コーディング性能向上とコスト削減を両立 / Anthropicは企業向けセキュリティ策「Enterprise Frontier Safeguards」も発表 / GoogleはGemini 3.8 Flashとセキュリティ特化版「Flash Cyber」を投入し競争が激化 / OpenAIは医療分野でEpic連携とカリフォルニア州の未成年AI安全法案支持を発表 / TechCrunch Disruptは「Real World AI」ステージを新設し物理世界とAIの融合に焦点</summary>
+  </entry>
+  <entry>
     <title>2026年9月3日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20.html</id>
     <updated>2026-08-20T00:00:00+09:00</updated>
     <summary>ローカルLLMをチーム編成でオーケストレーションし、単体のフロンティアAIモデルの出力品質に匹敵・一部上回る検証結果が話題に / Claude Code関連の実践的な設定・不具合検証記事（タスクリスト非表示、spellcheckの日本語非対応、CLAUDE.mdの棚卸し）が複数投稿 / CursorのGitホスティング「Cursor Origin」など、AIエージェントの大量ブランチ生成を前提にした開発基盤が登場 / AIエージェントの外部サービス連携における「認可疲れ」を解消するOBOトークン交換の実装解説</summary>
-  </entry>
-  <entry>
-    <title>2026年8月19日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-19-news.html</id>
-    <updated>2026-08-19T00:00:00+09:00</updated>
-    <summary>OpenAIが10代向けの安全対策を強化した「ChatGPT for Teens」を公開 / NVIDIAがOpenAIのオハイオ州データセンターに最大1050億ドル規模の投融資 / StripeがAIゲートウェイのOpenRouterを70億ドル超で買収へ / エージェント間通信標準「A2A」がAgentic AI Foundationへ移管</summary>
   </entry>
 </feed>
