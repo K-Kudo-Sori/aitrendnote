@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-03T00:00:00+09:00</updated>
+  <updated>2026-09-04T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月4日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04.html</id>
+    <updated>2026-09-04T00:00:00+09:00</updated>
+    <summary>Anthropicがショッピング/店舗向けエージェントの参考実装commerce-agentsをApache 2.0で公開 / GoogleとPurdue大学がSKILL.stateを提案。会話履歴を渡さず型付き状態のみで長時間エージェントの精度を維持 / Claude Fable 5.1がキャッシュ読み価格を1/4に。tool_choiceのany/toolが400になる破壊的変更に注意 / ナレッジグラフでClaude Codeのレビュー用コンテキストを14万トークンから70トークンに削減する実例 / OpenAI・Claude・Grokが同時ダウンし、クラウド障害の連鎖が疑われる事態が…</summary>
+  </entry>
   <entry>
     <title>2026年9月3日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20-news.html</id>
     <updated>2026-08-20T00:00:00+09:00</updated>
     <summary>Anthropic CEOのDario Amodeiが「AIへの信頼危機」を認め、実利をまだ届けられていないと発言 / OpenAI・Microsoftはそれぞれセキュリティ関連の対応に追われる一日に / AI推論インフラのEtchedが1ヶ月で評価額を倍増させ700億円規模の資金調達</summary>
-  </entry>
-  <entry>
-    <title>2026年8月20日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20.html</id>
-    <updated>2026-08-20T00:00:00+09:00</updated>
-    <summary>ローカルLLMをチーム編成でオーケストレーションし、単体のフロンティアAIモデルの出力品質に匹敵・一部上回る検証結果が話題に / Claude Code関連の実践的な設定・不具合検証記事（タスクリスト非表示、spellcheckの日本語非対応、CLAUDE.mdの棚卸し）が複数投稿 / CursorのGitホスティング「Cursor Origin」など、AIエージェントの大量ブランチ生成を前提にした開発基盤が登場 / AIエージェントの外部サービス連携における「認可疲れ」を解消するOBOトークン交換の実装解説</summary>
   </entry>
 </feed>
