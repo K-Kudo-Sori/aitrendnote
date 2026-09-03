@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-04T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月4日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04-news.html</id>
+    <updated>2026-09-04T00:00:00+09:00</updated>
+    <summary>OpenAIが「サイバーセキュリティ危険水準」に達したとされる新モデルGPT-6 Astraを発表 / AnthropicがClaude Fable 5.1/Mythos 5.1を投入、コスト最大45%減と研究タスク性能向上を強調 / Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIモデルと安全策を公表 / GoogleがCanva対抗のプロンプト型AIデザインツール「Google Pics」を発表 / AnthropicがECサイト向け「商取引エージェント」設計図をオープンソース公開</summary>
+  </entry>
+  <entry>
     <title>2026年9月4日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21.html</id>
     <updated>2026-08-21T00:00:00+09:00</updated>
     <summary>コーディングエージェント関連の実践知見が多数: 新人教育ハーネス、UI実装品質の改善、ローカルLLMオーケストレーションでフロンティアAIを超える試みなど / セキュリティ分野ではプロンプトインジェクション対策の落とし穴やAIコードレビューの誤検知（false negative）を扱う実体験記事が目立つ / GoogleがI/OでマルチモーダルAI動画生成モデル「Gemini Omni」を発表、DiffusionGemmaなど拡散モデルベースの高速LLMも登場 / AIエージェントの認可・承認まわり（OAuth token exchange、MCPツールの事前承認設定）でハマった事例が複数報…</summary>
-  </entry>
-  <entry>
-    <title>2026年8月20日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-20-news.html</id>
-    <updated>2026-08-20T00:00:00+09:00</updated>
-    <summary>Anthropic CEOのDario Amodeiが「AIへの信頼危機」を認め、実利をまだ届けられていないと発言 / OpenAI・Microsoftはそれぞれセキュリティ関連の対応に追われる一日に / AI推論インフラのEtchedが1ヶ月で評価額を倍増させ700億円規模の資金調達</summary>
   </entry>
 </feed>

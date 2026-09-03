@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-04",
+  "generatedAt": "2026/9/4 8:14:33",
+  "highlights": [
+    "OpenAIが「サイバーセキュリティ危険水準」に達したとされる新モデルGPT-6 Astraを発表",
+    "AnthropicがClaude Fable 5.1/Mythos 5.1を投入、コスト最大45%減と研究タスク性能向上を強調",
+    "Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIモデルと安全策を公表",
+    "GoogleがCanva対抗のプロンプト型AIデザインツール「Google Pics」を発表",
+    "AnthropicがECサイト向け「商取引エージェント」設計図をオープンソース公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、ChatGPTとCodexを大幅刷新する新モデル「GPT-6 Astra」を発表",
+      "url": "https://9to5mac.com/2026/09/03/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/",
+      "summary": "OpenAIは2026年9月3日、新モデル「GPT-6 Astra」を発表した。FrontierMath Tier 4で98%、ARC-AGI-3で99.9%のスコアを記録するなど、コンピュータ操作・コーディング・サイバーセキュリティなどで高い性能を示す。まずは限定組織に展開し、その後数日でChatGPT Plus/Pro/Business/Enterprise利用者やAPI・AWS経由での利用に拡大する予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、コーディングと知識労働向け新モデル「Claude Fable 5.1」「Claude Mythos 5.1」を発表",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "Anthropicは一般提供のFable 5.1と、限定アクセスの高性能版Mythos 5.1を発表した。科学研究タスクの精度が従来のFable 5から24.7%→52.6%に向上したほか、キャッシュ読み込み価格の75%引き下げにより高度なエージェント処理で最大45%のコスト削減を実現。企業向けにはゼロデータ保持と不正利用検知を両立する「Enterprise Frontier Safeguards」も導入された。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、EC事業者向け「商取引エージェント」の設計図をオープンソースで公開",
+      "url": "https://claude.com/blog/claude-for-commerce-agents",
+      "summary": "Anthropicは2026年9月2日、小売・トラベル・通信・エンターテインメント業界向けにClaudeを使った購買エージェントと店舗運営エージェントのリファレンス実装「commerce-agents」を公開した。導入企業ではカート単価が最大35%増加し、購入完了率が60%向上した事例が紹介されている。Claude API・Amazon Bedrock・Microsoft Foundry・Google Cloud Vertex AI等で利用可能。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Google・Anthropic・OpenAIがサイバーセキュリティ特化AIモデルと安全策を相次いで公表",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "summary": "GoogleはGemini 3.8 Flash Cyberと、政府・医療・通信事業者向けの早期アクセスプログラム「Fairwind」を発表。AnthropicはMythos 5.1にサイバーセキュリティ・生命科学分野向けの信頼アクセスプログラムを設け、サンドボックス脱出を防ぐ分類器を追加した。OpenAIは開発中のAstraが「重大なサイバーセキュリティ能力閾値」に達したとし、未知の脆弱性を自律的に発見・悪用できる水準にあるとした上で、限定プログラム「Daybreak Blue」経由での提供を予定している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、プロンプト操作型のAIデザインツール「Google Pics」を発表しCanvaに対抗",
+      "url": "https://techcrunch.com/2026/09/01/googles-answer-to-canva-is-an-ai-tool-where-you-prompt-instead-of-design/",
+      "summary": "Googleは2026年9月1日、画像生成モデル「Nano Banana」を活用したデザインツール「Google Pics」を発表した。テンプレートから作る従来型のCanvaと異なり、プロンプトからポスターやチラシ、SNS投稿画像などの初稿を生成し、その後精密編集できる点が特徴。GoogleドキュメントやスライドへのAI編集機能組み込みを皮切りに、Workspaceのビジネス顧客とGoogle AI Pro/Ultra加入者向けに数週間かけて展開される。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "GMOサイバーセキュリティ、AIが攻撃成立を実証する「証明型」脆弱性診断サービスを開始",
+      "url": "https://prtimes.jp/main/html/rd/p/000005515.000000136.html",
+      "summary": "GMOサイバーセキュリティ byイエラエは2026年9月3日、フロンティアAIと独自検証ツール、ホワイトハッカーの知見を組み合わせた新サービス「ネット de 診断 AIホワイトハッカー侵入テスト」の提供を開始した。脆弱性の存在有無だけでなく、実際に攻撃が成立するかをAIが自動検証する「証明型」診断へ転換し、複雑なビジネスロジックや複数脆弱性の連鎖攻撃は人間のホワイトハッカーが対応する。既存の資産可視化サービスとも連携する。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-09-04-news"
+}
