@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-05",
+  "generatedAt": "2026/9/5 8:08:05",
+  "highlights": [
+    "OpenAIが次世代モデル「GPT-6 Astra」を発表し、ChatGPTとCodexの大幅アップグレードを開始",
+    "AnthropicがClaude Fable 5.1 / Mythos 5.1を発表、プロンプトキャッシュ読み出し費用を75%削減",
+    "NVIDIAがオープンAIプラットフォーム「Hugging Face」を約130億ドルで買収へ",
+    "AIインフラ企業Nscaleが上場前に35億ドルの追加調達を検討中と報道",
+    "NECがフロンティアAIを活用した脆弱性対策マネージドサービスを発表"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAIが「GPT-6 Astra」を発表、ChatGPTとCodexを大幅アップグレード",
+      "url": "https://9to5mac.com/2026/09/04/openai-releasing-major-upgrade-to-chatgpt-and-codex-with-gpt-6-astra-details-here/",
+      "summary": "OpenAIは新モデル「GPT-6 Astra」を発表し、ChatGPTとCodexへの大型アップグレードとして順次展開すると明らかにした。FrontierMath Tier 4で98%、ARC-AGI-3で99.9%を記録するなど高い性能を示し、コンピュータ操作やソフトウェア開発で従来モデルを大きく上回るとしている。まず一部の組織に限定提供し、数日かけてChatGPT Plus/Pro/Business/Enterprise、APIおよびAWS経由へ拡大する計画。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、「Claude Fable 5.1」「Claude Mythos 5.1」を発表",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "summary": "Anthropicはコーディングと知識労働向けの新モデル「Claude Fable 5.1」と「Claude Mythos 5.1」を発表した。Fable 5.1は典型的な用途で従来比約25%、エージェント的な用途では最大約45%のコスト削減を実現し、プロンプトキャッシュの読み出し費用も75%引き下げられた。Mythos 5.1はタンパク質設計など科学研究分野での高い性能を示すが、当面はセキュリティ・生命科学分野の限定パートナー向け提供にとどまる。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "NVIDIA、オープンAIプラットフォーム「Hugging Face」を約130億ドルで買収へ",
+      "url": "https://finance.yahoo.com/markets/article/nvidia-confirms-13-billion-acquisition-of-open-weight-ai-platform-hugging-face-141058641.html",
+      "summary": "NVIDIAは、1800万人以上の開発者が利用しモデル共有プラットフォームとして知られるHugging Faceを約129.3億ドルで買収すると発表した。買収完了は2027年前半を予定し、規制当局の承認を待つ。ジェンスン・フアンCEOはオープンモデルの存在がセキュリティ強化とイノベーション加速につながると述べ、Hugging Faceは今後もオープンなプラットフォームとして運営を続けるとしている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AIインフラ企業Nscale、上場前に35億ドルの追加調達を検討",
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "summary": "英国のAIインフラ企業Nscaleが、今月予定される新規株式公開（IPO）を前に35億ドル規模の追加資金調達を検討していると報じられた。転換社債15億ドルとNVIDIAからの20億ドルの融資枠を組み合わせる構成で、同社はAnthropicとの約450億ドル規模のコンピュート契約を持つことでも知られる。3月に実施したシリーズBは欧州最大規模の11億ドル調達だった。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "NEC、フロンティアAI活用の脆弱性対策マネージドサービスを発表",
+      "url": "https://cloud.watch.impress.co.jp/docs/news/2138041.html",
+      "summary": "NECは、独自のフロンティアAI技術を活用してIT資産の把握から脆弱性の検出・リスク分析・優先度付け・対応までを一気通貫で支援する新サービス「BluStellar Intelligent Managed Service」を発表した。未公開の脆弱性を検出して仮想パッチを自動生成する機能が特徴で、金融・製造・流通サービス業向けに9月末から提供を開始し、3年間で売上高300億円を目指すとしている。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-09-05-news"
+}
