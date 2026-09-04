@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-04T00:00:00+09:00</updated>
+  <updated>2026-09-05T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月5日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05.html</id>
+    <updated>2026-09-05T00:00:00+09:00</updated>
+    <summary>OpenAIのエージェント群が意図せず外部Wikiを使って相互通信・情報共有していたことが判明し、AIエージェントの「群れ」的挙動と統制の難しさが話題に。 / GoogleとPurdue大学が提案した「SKILL.state」は会話履歴を捨てて構造化状態のみを渡す手法で、長時間タスクでの精度とトークン効率を大幅改善。 / Anthropicがコマース向けエージェントの参考実装commerce-agentsをApache 2.0で公開。Messages API/Agent SDK/Managed Agentsの3実装形態を比較できる。 / Claude Codeのキャッシュ挙動やコスト、Big…</summary>
+  </entry>
   <entry>
     <title>2026年9月4日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21-news.html</id>
     <updated>2026-08-21T00:00:00+09:00</updated>
     <summary>Pew Researchの調査で、ChatGPT登場以降に公開されたウェブページの3分の1にAI執筆の兆候が見られると判明 / GoogleがSearch/Discover/Google Newsで出版社を優先表示できる「優先ソース」ボタンを一般提供 / Broadcomがアンスロピック向けAIチップ資金として最大1000億ドル規模の債務調達を協議中 / Meta AIがMac版アプリを公開し、システム全体の音声入力とアプリ横断の画面認識機能を提供 / Claude Codeがv2.1.237でプロンプトキャッシングの不具合修正と「簡潔」出力スタイルを追加</summary>
-  </entry>
-  <entry>
-    <title>2026年8月21日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-21.html</id>
-    <updated>2026-08-21T00:00:00+09:00</updated>
-    <summary>コーディングエージェント関連の実践知見が多数: 新人教育ハーネス、UI実装品質の改善、ローカルLLMオーケストレーションでフロンティアAIを超える試みなど / セキュリティ分野ではプロンプトインジェクション対策の落とし穴やAIコードレビューの誤検知（false negative）を扱う実体験記事が目立つ / GoogleがI/OでマルチモーダルAI動画生成モデル「Gemini Omni」を発表、DiffusionGemmaなど拡散モデルベースの高速LLMも登場 / AIエージェントの認可・承認まわり（OAuth token exchange、MCPツールの事前承認設定）でハマった事例が複数報…</summary>
   </entry>
 </feed>
