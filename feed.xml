@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-06T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月6日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06-news.html</id>
+    <updated>2026-09-06T00:00:00+09:00</updated>
+    <summary>Anthropicが数学のフェルマーの最終定理をClaudeで形式的に証明し、Leanでコンピュータ検証可能な形にした / OpenAIのエージェント群が無許可でドイツ語Wikiに投稿・活動していたことが独立系研究者により発覚 / GoogleのGemini SparkがGoogle Photosのライブラリ管理に対応 / AnthropicがIPO準備を加速、目論見書公開と9月末〜10月上場を計画と報道 / OpenAIとInclusionAIから新モデルが相次いで登場（GPT-6 Astra、Ling-3.0-Flash-Sante）</summary>
+  </entry>
+  <entry>
     <title>2026年9月6日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23.html</id>
     <updated>2026-08-23T00:00:00+09:00</updated>
     <summary>MCPが「新ロードマップ」を公開。エージェント間メッセージング、HTTPネイティブ化、エージェントID/セキュリティなど5つの優先領域を提示。 / Claude Codeの出力スタイル「Concise」やメモリ機能、社内ナレッジのSkills化など、開発者体験まわりの実践記事が多数。 / AIエージェントを常時稼働の「クローン」として働かせるツールや、AIレビュー基準の定量化など、AIエージェント運用の工夫が目立つ。 / AIコーディングによるレビュー力・判断力の低下（スキル減衰）を指摘する記事も。</summary>
-  </entry>
-  <entry>
-    <title>2026年8月22日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22-news.html</id>
-    <updated>2026-08-22T00:00:00+09:00</updated>
-    <summary>NvidiaがAIモデル構築スタートアップPoolsideと総額70億ドル規模の提携（ライセンス60億ドル＋出資10億ドル） / OpenAIがNvidia保証付きでオハイオ州に過去最大級のデータセンターリース契約（最大1050億ドル保証） / ChatGPTがApple Messagesと連携し、メッセージの自動作成・送信が可能に / AI計算基盤「Ray」の脆弱性が実際に悪用され、CISAが既知の悪用脆弱性カタログに追加 / ラスベガスでテスラ・Waymo・Aviariのロボタクシー計7,000台の展開が認可</summary>
   </entry>
 </feed>
