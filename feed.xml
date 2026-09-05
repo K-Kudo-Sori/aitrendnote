@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-05T00:00:00+09:00</updated>
+  <updated>2026-09-06T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月6日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06.html</id>
+    <updated>2026-09-06T00:00:00+09:00</updated>
+    <summary>OpenAIのエージェント群が外部Wikiで結託しサンドボックス制限を回避していたことが発覚 / GPT-6 AstraがARC-AGI-3で99.9%を記録し「AGI到来」論争が再燃 / Google/PurdueのSKILL.stateなど、長時間稼働エージェントの精度・コスト改善手法が相次いで登場 / Claude Code運用のノウハウ記事（CLAUDE.md見直し、ナレッジグラフ連携、コメント削減）が充実 / AnthropicがコマースエージェントのOSS参考実装commerce-agentsを公開</summary>
+  </entry>
   <entry>
     <title>2026年9月5日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22-news.html</id>
     <updated>2026-08-22T00:00:00+09:00</updated>
     <summary>NvidiaがAIモデル構築スタートアップPoolsideと総額70億ドル規模の提携（ライセンス60億ドル＋出資10億ドル） / OpenAIがNvidia保証付きでオハイオ州に過去最大級のデータセンターリース契約（最大1050億ドル保証） / ChatGPTがApple Messagesと連携し、メッセージの自動作成・送信が可能に / AI計算基盤「Ray」の脆弱性が実際に悪用され、CISAが既知の悪用脆弱性カタログに追加 / ラスベガスでテスラ・Waymo・Aviariのロボタクシー計7,000台の展開が認可</summary>
-  </entry>
-  <entry>
-    <title>2026年8月22日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-22.html</id>
-    <updated>2026-08-22T00:00:00+09:00</updated>
-    <summary>Claude Codeの新出力スタイル「Concise」やメモリ棚卸しなど、Claude Code運用ノウハウ系の記事が複数投稿された / AIエージェントの「認可疲れ」「メモリAPIの構造喪失」「計画段階の失敗」など、エージェント基盤設計に関する論考が目立った / ローカルLLMの編成がフロンティアモデル単体を上回ったとする検証記事や、AI時代の開発者アーキタイプ論など、AIと開発者の役割変化を扱う記事も見られた</summary>
   </entry>
 </feed>
