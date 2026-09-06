@@ -1,0 +1,207 @@
+{
+  "date": "2026-09-07",
+  "generatedAt": "2026/9/7 7:07:11",
+  "highlights": [
+    "OpenAIが研究者向けコーディングエージェント活用の内部実態を公開",
+    "Claude Codeのコンテキスト削減・要約術・CLAUDE.md見直しなど開発ツール活用ノウハウが充実",
+    "SKILL.stateなど長時間稼働エージェントの精度改善手法が登場",
+    "AIエージェント14製品比較やBedrock Guardrailsのツール境界検証などエージェント導入・防御の実務知見が集まる"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Research acceleration: The view inside OpenAI",
+      "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "summary": "OpenAIが自社の研究者がコーディングエージェントを日常的に使うようになった変化について公開したブログ記事。今年に入り研究者はエージェントを常時・並行的に利用するようになり、コードの生産量や実験数が増加し、エージェントが担うタスクも複雑化・高精度化していると報告している。同社は「自動化されたAI研究者」の実現を2028年3月までの目標として掲げ、今年9月時点で「数日かかる明確なタスクをこなせる研究インターン」レベルに到達したとする。一方で、研究の優先順位判断や結果の評価、システムの展開判断は引き続き人間が担うとし、急速な自己改善を無条件に追求すべきではないとして、アラインメントと安全性の確保を並行して進める方針を強調している。",
+      "category": "research",
+      "points": 87,
+      "comments": 57,
+      "author": "iamsyr"
+    },
+    {
+      "source": "hackernews",
+      "title": "Harnessing the Universal Geometry of Embeddings",
+      "url": "https://arxiv.org/abs/2505.12540",
+      "summary": "異なるモデル・アーキテクチャで作られたテキスト埋め込みを、対応データやエンコーダなしで別のベクトル空間へ翻訳する初の手法を提案する論文。プラトン的表現仮説が示唆する「普遍的な潜在表現」を介して埋め込みを変換することで、アーキテクチャやパラメータ数、学習データが異なるモデル間でも高いコサイン類似度を達成できるとしている。この手法は、埋め込みベクトルのみを持つ攻撃者が元の文書の分類や属性を推測できてしまう可能性を示しており、ベクトルデータベースのセキュリティに重大な含意を持つと指摘している。",
+      "category": "research",
+      "points": 9,
+      "comments": 0,
+      "author": "ur-whale"
+    },
+    {
+      "source": "hackernews",
+      "title": "Reverse engineering the storage format for an undocumented database",
+      "url": "https://blog.glazer.ee/posts/converting-cronos/",
+      "summary": "旧ソ連圏で使われてきた業務用データベース「CronosPro」の破損扱いだったダンプファイルを、AIコーディングエージェント（Codex）を活用しながら解析・復元した事例レポート。既存のオープンソース変換ツールCronodumpではうまく変換できなかったダンプに対し、ファイル構造（CroStru/CroBank/CroIndex）の関係や難読化されたスキーマを読み解き、パーサーの誤った前提を修正していった過程を詳しく解説している。スキーマレコードの余分なヘッダーやテキストの16進エクスポートなど、読める値だけでは不十分だった具体的なつまずきどころも紹介し、最終的に正しくCSVへ変換することに成功したとしている。",
+      "category": "devtool",
+      "points": 4,
+      "comments": 0,
+      "author": "pintprint"
+    },
+    {
+      "source": "zenn",
+      "title": "トークン2000分の1——オントロジー×ナレッジグラフでClaude Codeの推測を消す",
+      "url": "https://zenn.dev/helloworld/articles/bcaea69f58eae5",
+      "summary": "Claude Codeにコードの構造をナレッジグラフとして与えることで、ファイルを毎回読み直して関係を推測する無駄をなくす取り組みを紹介する記事。code-review-graph・better-code-review-graph・Graphify・Serenaという4つのOSSツールを組み合わせ、レビュー用コンテキストを14万トークンから約70トークンへ削減できたと報告している。意味検索により関数名を知らなくても日本語の質問でコードにたどり着けるほか、認証関連4ファイルの変更が間接依存を含め22ノード・8ファイルへ波及することを可視化できたという。CLAUDE.mdにルーティングルールを1つ書くだけで、質問の種類に応じて適切なツールが自動的に選ばれることを9種類の質問で検証し、全問正解だったとしている。",
+      "category": "devtool",
+      "points": 136,
+      "author": "週末ものづくり部"
+    },
+    {
+      "source": "zenn",
+      "title": "AIに「中学生でもわかるように1枚のHTMLで図解して」が、複雑なコードを読む前の最良の準備運動かも",
+      "url": "https://zenn.dev/yesodco/articles/ed0eb2f6b7621a",
+      "summary": "2,000行を超える複雑なタスク生成ロジックをClaude Code（Fable 5.1）に「中学生でもわかるように1枚のHTMLで図解して」と依頼したところ、しおり・写真・付箋といった比喩と図解で全体像を整理したページが生成され、読解の負荷が大きく下がったという事例を紹介している。読者レベルを極端に下げる指示は専門用語を使えなくするため、モデルに「要約」ではなく「構造の抽出」を強制する効果があると分析している。「1枚のHTML」「図解」「たとえとコードの対応表」の3要素が揃うことで地図として使える資料になり、対象年齢を変えるだけで同じ調査から立場の異なる複数の説明資料を派生できるとも述べている。ただし比喩はあくまで近似であり、正しさの検証は自分でコードに戻って行う必要があると注意を促している。",
+      "category": "devtool",
+      "points": 76,
+      "author": "たけうちさんは縮退しました🌀"
+    },
+    {
+      "source": "zenn",
+      "title": "ルールではなくskillに指示を書くことで、Claudeのコメントを減らせた",
+      "url": "https://zenn.dev/uzu_tech/articles/58a84a9346b910",
+      "summary": "Claude Codeが生成するコードの冗長なコメントを減らそうと、「コードから復元できない情報だけを書く」というルールを.claude/rules/やグローバルCLAUDE.mdに追加したものの、PRのコメント比率を改めて広範囲に集計し直すと効果はほとんど見られなかったという検証結果を報告している。代わりに、PR作成に使う/prスキルの手順自体に「追加したコメントをgit diffで機械的に抽出し1行ずつ点検する」ステップを組み込んだところ、コメント行数の中央値やPR規模別の比率、4行以上続くコメントの塊の発生率などが明確に改善したとしている。ルールは書く瞬間に思い出さなければ効かない一方、手順化すると判断対象が「これから書く文」から「機械的に抽出された行のリスト」に変わり、記憶に頼らずに済むためだと分析している。ただし、タスクID参照のような正規表現で判別できる項目は大きく減った一方、「旧実装は〜だった」のような主観判断が必要な項目は手順にしても減らなかったという。",
+      "category": "devtool",
+      "points": 50,
+      "author": "wellPicker"
+    },
+    {
+      "source": "zenn",
+      "title": "Google提唱の「SKILL.state」について。プロンプトに型の概念を導入",
+      "url": "https://zenn.dev/knowledgesense/articles/ad123283bdea26",
+      "summary": "GoogleとPurdue大学が2026年8月に提案した、長時間稼働するAIエージェントの精度を上げる新手法「SKILL.state」を紹介する記事。会話履歴をそのままAIに渡す代わりに、あらかじめ定義したスキーマに従う構造化された「現在の実行状態」だけを渡し、思考過程は破棄してJSONパッチによる状態更新のみを引き継ぐ仕組みだという。200ステップの長時間タスクで従来手法のスコアが0.74〜0.88まで落ちるのに対しSKILL.stateは0.94を維持し、トークン消費も617万から12万へ大幅に削減、外部からの想定外の状況変化にも即座に対応できたとする実験結果を紹介している。ただし定型業務向けの手法であり、事前に作業を定義できないイレギュラー業務には向かないと注意点も述べている。",
+      "category": "agent",
+      "points": 124,
+      "author": "Atsushi Kadowaki"
+    },
+    {
+      "source": "zenn",
+      "title": "PRレビューもエラー調査も定額で自動化する、Claude Codeのroutine活用実例",
+      "url": "https://zenn.dev/atamaplus/articles/6be03483c0110b",
+      "summary": "スケジュール・GitHubイベント・APIトリガーでClaude Codeを自動起動できる「routine」機能を、個人やチームの業務効率化にどう活用しているかを8つの実例で紹介する記事。定額プランの範囲内でコストを気にせず動かせる点と、PR作成や監視アラート発火などのイベント駆動で人間より先に初動を始められる点を利点として挙げている。毎朝の利用枠開始やセッション名の自動リネーム、チームの休暇予定確認、日次E2Eテストのflaky判定・再実行、LLM出力エラーの週次分析、本番エラーの自動一次調査など、定期実行系・イベント駆動系それぞれの具体的なroutineの内容と導入効果を解説している。",
+      "category": "devtool",
+      "points": 50,
+      "author": "yutake27"
+    },
+    {
+      "source": "devto",
+      "title": "Multiple Browser Agents Need More Than Separate Profiles",
+      "url": "https://dev.to/volker_schukai/multiple-browser-agents-need-more-than-separate-profiles-565j",
+      "summary": "複数のエージェントが並行してブラウザ操作を行う際、ブラウザプロファイルを分けるだけでは「今誰がその操作を制御しているか」を保証できない問題を扱った開発報告記事。開発中のツール「SessionDock」は、ブラウザワークスペースを「スロット」というプロジェクト・ワークツリー・環境・想定アカウントを紐づけた管理対象として扱い、人とエージェントが同一スロットに同時書き込みしないよう排他的で時間制限付きのリースを導入している。さらに「エポック」という単調増加する世代番号で制御権の移譲を管理し、制御が人からエージェントへ、またはその逆に移った後に届いた遅延アクションを、古い世代番号を理由に拒否できる仕組みを説明している。記事執筆時点ではステート管理とスケジューラの中核部分は実装・テスト済みだが、実際のログインや権限委譲フローの統合はまだ完了していないとしている。",
+      "category": "agent",
+      "points": 14,
+      "comments": 17,
+      "author": "Volker Schukai",
+      "tags": [
+        "ai",
+        "automation",
+        "architecture",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Markov Chain Monte Carlo: the 1953 algorithm hiding under modern AI",
+      "url": "https://dev.to/lovestaco/markov-chain-monte-carlo-the-1953-algorithm-hiding-under-modern-ai-5cb4",
+      "summary": "現代のAI・統計手法の裏側で使われている1953年発明のアルゴリズム「マルコフ連鎖モンテカルロ法（MCMC）」を、専門用語を避けて直感的に解説する入門記事。モンテカルロ法（ランダムに点を打って積分値を推定する）とマルコフ連鎖（直前の状態だけに依存し、十分回せば定常分布に収束する）という2つのアイデアを組み合わせることで、直接サンプリングできない複雑な分布からも間接的にサンプルを得られると説明している。天気予報を例にした簡単な3状態モデルなどの具体例を通じて、なぜこの手法がベイズ統計や様々な現代的推論手法の基盤になっているかを順序立てて紹介している。",
+      "category": "research",
+      "points": 17,
+      "comments": 1,
+      "author": "Athreya aka Maneshwar",
+      "tags": [
+        "machinelearning",
+        "python",
+        "datascience",
+        "computerscience"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "You write one kind sentence. I donate a dime. A blockchain makes sure I do.",
+      "url": "https://dev.to/nazar-boyko/you-write-one-kind-sentence-i-donate-a-dime-a-blockchain-makes-sure-i-do-f5o",
+      "summary": "DEVの週末チャレンジ向けに開発された「Kindness Chain」というWebアプリを紹介する記事。訪問者が親切な行いについて一文投稿すると、その内容がSolana devnet上にSPLメモとして記録され、各メモが直前のメモの署名を持つことでブロックチェーンとして誰でも検証できるチェーンを形成する。投稿が確定するたびに開発者が10セントを難民支援団体に寄付する仕組みで（上限50ドル）、寄付額の正しさをコマンド一つで検証できるようにしている点を特徴としている。開発者自身が難民として渡米した経験から着想を得たプロジェクトだと述べている。",
+      "category": "other",
+      "points": 11,
+      "comments": 3,
+      "author": "Nazar Boyko",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "solana",
+        "go"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Dev log #20 Deleting 180k lines and chasing socket leaks: A week in the OSS trenches",
+      "url": "https://dev.to/yashksaini/dev-log-deleting-180k-lines-and-chasing-socket-leaks-a-week-in-the-oss-trenches-4f9b",
+      "summary": "個人の週次開発ログ記事で、Obsidianボルトから約18万行の不要な内部状態を削除してGit履歴を整理したこと、py-libp2pでシャットダウン時のソケットリークを2件発見し修正PRを送ったこと、WebRTC-Direct相互接続テストへの取り組み、breakscaleプロジェクトでのタイムアウト集計バグの修正など、1週間で102コミットを行った活動をまとめている。ポートフォリオサイトのUI改善やSEO修正にも触れており、低レイヤーのネットワーキングやOSS貢献に注力した様子を報告している。",
+      "category": "other",
+      "points": 17,
+      "comments": 3,
+      "author": "Yash Kumar Saini",
+      "tags": [
+        "ai",
+        "programming",
+        "rust",
+        "networking"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Posting from a shed with one bar of signal: an offline write queue in plain JS",
+      "url": "https://dev.to/canad1an/posting-from-a-shed-with-one-bar-of-signal-an-offline-write-queue-in-plain-js-4n6p",
+      "summary": "造船記録サイトboatbuildlog.comの開発者が、電波の弱い納屋や車庫で使われる前提のもと、投稿が失敗しても書いた内容を絶対に失わないオフライン書き込みキューをフレームワークなしのプレーンJavaScriptで実装した経緯を解説する記事。写真を含むエントリをlocalStorageではなくBlobを扱えるIndexedDBに保存し、接続復帰時に自動で再送する仕組みを紹介している。CSRFトークンをドラフトと一緒に保存せず再送時に最新のものを取得し直す工夫や、サービスワーカーのキャッシュがクエリ文字列を無視してしまいバグを引き起こした経緯など、実際にハマった具体的な失敗とその修正方法を共有している。",
+      "category": "other",
+      "points": 6,
+      "comments": 3,
+      "author": "Matt ",
+      "tags": [
+        "javascript",
+        "webdev",
+        "pwa",
+        "indexeddb"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude・Cursor・Devin・Manus… AIエージェント14製品、社内システムを触らせて事故らないのはどれ？【中小企業の導入判断ガイド】",
+      "url": "https://qiita.com/songchong/items/94df4fbdeabaaf8f8ef5",
+      "summary": "中小企業が業務にAIエージェントを導入する際の判断材料として、Claude Code・Cursor・Devin・Manus・GitHub Copilot・Agentforceなど主要14製品を、公式ドキュメントや利用規約・価格体系・セキュリティ方針をもとに「8つの独自指標」で横断比較した記事。提供形態をブラウザ完結型・エディタ拡張型・デスクトップアプリ型・CLI常駐型の4分類に整理し、非エンジニアでも使える製品とPython/Node.js等の環境構築が必要な製品を明確に分けて示している。得意分野についても、ソフトウェア開発特化（8製品）、一般業務・リサーチ特化（3製品）、マルチエージェント協調基盤（3製品）の3系統に分類し、自律実行の実態やRemote Controlの有無なども評価軸に含めている。特定製品を推奨するのではなく、自社の業務内容やデータ主権、許容できる自律度、予算に応じた選定材料の提供を目的としているとしている。",
+      "category": "agent",
+      "author": "songchong"
+    },
+    {
+      "source": "qiita",
+      "title": "CLAUDE.mdをそろそろ見直す時期かも ── Claude 5世代向けの最適化手順・スキル・プロジェクト種類別の例",
+      "url": "https://qiita.com/nogataka/items/d6a54f3694726b9141f3",
+      "summary": "Anthropicが2026年7月のブログで、Claude Opus 5/Fable 5向けにClaude Codeのシステムプロンプトを80%以上削減しても性能低下が測定できなかったと公表したことを踏まえ、肥大化したCLAUDE.mdを見直すための7ステップの手順を紹介する記事。旧世代向けに積み上げた禁止ルールの列挙や手順の全文、使用例が、矛盾やモデルの判断の妨げになっている可能性を指摘し、「ルールを与える」から「判断基準を示す」への転換や、手順書はスキルへ移し参照だけ残す段階的開示への転換など、Claude 5世代で変わった6つの考え方を整理している。ただし不可逆な操作の確認ゲートや、リポジトリを見ても分からない罠に関する記述は削るべきではないとし、確実に止めたい操作はpermission設定のdenyやフックで機械的に遮断すべきだとも述べている。/doctorコマンドのv2.1.206以降でCLAUDE.mdの見直し提案が組み込まれたことにも触れている。",
+      "category": "devtool",
+      "author": "nogataka"
+    },
+    {
+      "source": "qiita",
+      "title": "AIに設計を任せるときに気をつけたい。「正しく動く」と「増えても耐えられる」は別だった",
+      "url": "https://qiita.com/adgjmptw0/items/365a4437aad4c939d1cc",
+      "summary": "生成AIを使ってPush通知機能の設計を進めていたところ、通知対象者1人あたり最大約11回DBへ問い合わせる構造になっており、対象者が1,000人になると約11,000回の問い合わせが発生してしまう設計上の問題に気づいたという事例を紹介している。通知対象者の確認・条件確認・端末情報取得・通知済み確認・結果保存という個々の処理は自然に見えても、それを対象者ごとに繰り返すことでDBアクセス回数が対象人数に比例して膨れ上がってしまう点を指摘している。解決策として、必要な情報をあらかじめDBからまとめて取得し、対象者ごとの通知処理はメモリ上で行い、結果もまとめて保存する設計への変更を提案している。生成AIは開発速度を上げる一方で「動くか」だけでなく「100倍の規模でも耐えられるか」を別途確認する必要があると結論づけている。",
+      "category": "devtool",
+      "author": "adgjmptw0"
+    },
+    {
+      "source": "qiita",
+      "title": "AgentCore Gatewayで送信元IP制限のある接続先に接続する",
+      "url": "https://qiita.com/takahash_3/items/0396070f5766efe984a8",
+      "summary": "Amazon Bedrock AgentCore Gatewayには送信元IPを固定する仕組みがないため、GatewayからLambda経由で呼び出す社内APIやSaaSに対してIP制限をかけたい場合の構成をCDK（TypeScript）で検証した記事。LambdaをVPCのプライベート（Isolated）サブネットに配置し、Manual ModeのRegional NAT Gatewayと固定のElastic IPを組み合わせることで、どのAZからLambdaが起動しても送信元IPを一つに固定できる構成を紹介している。バックエンドのAPI GatewayにはNAT GatewayのElastic IPだけを許可するリソースポリシーを設定し、APIキー認証も併用することで、送信元IP制限のある既存システムへ安全に接続できることを確認したとしている。当初想定していたAgentCore IdentityのApiKeyCredentialProviderによるAPIキー管理は、この構成では利用できなかったとも述べている。",
+      "category": "infra",
+      "author": "takahash_3"
+    },
+    {
+      "source": "qiita",
+      "title": "Bedrock GuardrailsだけでAIエージェントは守れるの？～ツール境界の隙間を検証してみた～",
+      "url": "https://qiita.com/manaty/items/55838e17caa0b195891e",
+      "summary": "Amazon Bedrock Guardrailsが守るのはあくまで「モデル境界」のテキストだけであり、エージェントがツールを呼び出す際のtoolUse.inputやtoolResultに含まれるPIIは検査対象外になるという公式ドキュメントの記載を、実際に検証した記事。PIIを含むデータを返すget_customer_dataとweb_searchという2つのツールを用いたStrands Agentsエージェントで試したところ、Guardrailsだけの状態ではツール経由のPII（氏名・メール・電話番号・カード番号）がそのまま素通りしてしまうことを確認したとしている。そこでStrands HooksのBeforeInvocationEvent・BeforeToolCallEvent・AfterToolCallEventの3つのチェックポイントにGuardrail呼び出しを追加したフックを実装し、同じケースで再テストしてPIIが適切にブロック・マスクされるようになることを示している。あわせてフック追加によるレイテンシの増加も計測し、モデル境界だけでなくツール境界にも独自の防御層が必要であることを結論づけている。",
+      "category": "security",
+      "author": "manaty"
+    }
+  ]
+}

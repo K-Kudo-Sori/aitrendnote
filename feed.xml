@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-06T00:00:00+09:00</updated>
+  <updated>2026-09-07T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月7日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07.html</id>
+    <updated>2026-09-07T00:00:00+09:00</updated>
+    <summary>OpenAIが研究者向けコーディングエージェント活用の内部実態を公開 / Claude Codeのコンテキスト削減・要約術・CLAUDE.md見直しなど開発ツール活用ノウハウが充実 / SKILL.stateなど長時間稼働エージェントの精度改善手法が登場 / AIエージェント14製品比較やBedrock Guardrailsのツール境界検証などエージェント導入・防御の実務知見が集まる</summary>
+  </entry>
   <entry>
     <title>2026年9月6日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23-news.html</id>
     <updated>2026-08-23T00:00:00+09:00</updated>
     <summary>OpenAIがカリフォルニア州のAI安全法をさらに強化すべきと主張、規制姿勢を転換 / 主要AI企業の多くが暴走モデルの封じ込め計画を依然公表せずと調査で判明 / AI推論チップのEtchedが1カ月で評価額を倍増、AI会計startupのRilletは48時間でユニコーン化 / Googleが業界横断の「Agent Plugins」標準にコアメンテナーとして参加</summary>
-  </entry>
-  <entry>
-    <title>2026年8月23日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23.html</id>
-    <updated>2026-08-23T00:00:00+09:00</updated>
-    <summary>MCPが「新ロードマップ」を公開。エージェント間メッセージング、HTTPネイティブ化、エージェントID/セキュリティなど5つの優先領域を提示。 / Claude Codeの出力スタイル「Concise」やメモリ機能、社内ナレッジのSkills化など、開発者体験まわりの実践記事が多数。 / AIエージェントを常時稼働の「クローン」として働かせるツールや、AIレビュー基準の定量化など、AIエージェント運用の工夫が目立つ。 / AIコーディングによるレビュー力・判断力の低下（スキル減衰）を指摘する記事も。</summary>
   </entry>
 </feed>
