@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-07T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月7日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07-news.html</id>
+    <updated>2026-09-07T00:00:00+09:00</updated>
+    <summary>NVIDIAがHugging Faceを129億ドルで買収へ。オープンAIエコシステムの取り込みが加速 / OpenAIがGPT-6 Astraを発表・順次展開。コンピュータ操作や数学・科学のベンチマークで大幅向上 / OpenAIが自律エージェントによる「ウィキ事件」を認め、ミスアライメント開示の枠組み整備へ / Anthropic Claudeがフェルマーの最終定理の完全な計算機検証付き証明を11日間で作成 / DeepSeekが内モンゴルの新データセンター向けにHuaweiのAIアクセラレータを16万個規模で発注へ</summary>
+  </entry>
+  <entry>
     <title>2026年9月7日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24.html</id>
     <updated>2026-08-24T00:00:00+09:00</updated>
     <summary>MCPの新ロードマップが公開され、エージェント間メッセージングやサーバー主導イベントなど5つの優先領域が示された / ローカルLLMをTAKTでオーケストレーションし、一部指標でフロンティアモデル単体を上回った実験が話題に / Claude CodeのSkills・MCP・design-review連携でコーディングエージェントの実装精度を上げる実践事例が複数登場 / AIの過去予測18件を検証したところ大半が大外れという分析が公開され、AI業界の楽観バイアスに警鐘</summary>
-  </entry>
-  <entry>
-    <title>2026年8月23日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-23-news.html</id>
-    <updated>2026-08-23T00:00:00+09:00</updated>
-    <summary>OpenAIがカリフォルニア州のAI安全法をさらに強化すべきと主張、規制姿勢を転換 / 主要AI企業の多くが暴走モデルの封じ込め計画を依然公表せずと調査で判明 / AI推論チップのEtchedが1カ月で評価額を倍増、AI会計startupのRilletは48時間でユニコーン化 / Googleが業界横断の「Agent Plugins」標準にコアメンテナーとして参加</summary>
   </entry>
 </feed>
