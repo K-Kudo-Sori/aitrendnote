@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-07T00:00:00+09:00</updated>
+  <updated>2026-09-08T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月8日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-08-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-08-news.html</id>
+    <updated>2026-09-08T00:00:00+09:00</updated>
+    <summary>OpenAIが社内研究でコーディングエージェントの活用が急拡大し、人間1日分の労働に対しエージェント3.1日分が稼働する規模に達したと報告 / AIチャットボット5種を対象にした調査で、患者が症状を軽く言うと3分の1超の確率で医師への受診勧奨を撤回してしまうことが判明 / EUのデジタル政策責任者が、米国のAI規制は訴訟や州法を通じて事実上進んでおり、EUとの規制ギャップは見た目ほど大きくないと発言 / GoogleのGeminiによる装備アドバイスを信じた登山者3人が米シャスタ山で遭難し救助される事案が発生 / 中国上海市公安局が、生成AIとエージェント技術を組み合わせた詐欺対策アプリ「全…</summary>
+  </entry>
   <entry>
     <title>2026年9月7日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24-news.html</id>
     <updated>2026-08-24T00:00:00+09:00</updated>
     <summary>出所不明の新モデル「Ox Alpha」がOpenRouterに登場し、正体を巡って業界で憶測が広がっている。 / Z.aiの新モデル「GLM-5.3」はコーディング性能が大幅向上した一方、意図せず高いサイバーセキュリティ能力を獲得し、2,000件超の脆弱性を発見した。 / OpenAIがGPT-5.6 Solの価格を引き下げるなど、フロンティアモデル間の価格競争が続いている。 / Googleは検索・Discover・Newsのパーソナライズ機能を拡充し、AIとの対話で好みを指定できるようにした。</summary>
-  </entry>
-  <entry>
-    <title>2026年8月24日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24.html</id>
-    <updated>2026-08-24T00:00:00+09:00</updated>
-    <summary>MCPの新ロードマップが公開され、エージェント間メッセージングやサーバー主導イベントなど5つの優先領域が示された / ローカルLLMをTAKTでオーケストレーションし、一部指標でフロンティアモデル単体を上回った実験が話題に / Claude CodeのSkills・MCP・design-review連携でコーディングエージェントの実装精度を上げる実践事例が複数登場 / AIの過去予測18件を検証したところ大半が大外れという分析が公開され、AI業界の楽観バイアスに警鐘</summary>
   </entry>
 </feed>
