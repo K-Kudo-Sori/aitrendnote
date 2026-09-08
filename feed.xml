@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-08T00:00:00+09:00</updated>
+  <updated>2026-09-09T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月9日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09.html</id>
+    <updated>2026-09-09T00:00:00+09:00</updated>
+    <summary>2026年9月9日のAIトレンド 20件</summary>
+  </entry>
   <entry>
     <title>2026年9月8日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-08-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25.html</id>
     <updated>2026-08-25T00:00:00+09:00</updated>
     <summary>Claude Codeのセッション間通信がv2.1.234からネイティブWindowsでも動作するようになり、実機検証で列挙・送受信・idle通知まで確認された / AIエージェントによる自動生成パイプラインでハルシネーションを防ぐには、生成の工夫だけでなく決定論的な検証層を分離する設計が有効という実践例が複数紹介された / ARC-AGI-3ベンチマークで同一モデルのスコアがハーネス次第で30点から100点まで変動し、ベンチマーク数値の provenance 問題が指摘されている / RAGアシスタントが未知のAPIプロバイダについて堂々と存在しないエンドポイントとURLを捏造する事例が報…</summary>
-  </entry>
-  <entry>
-    <title>2026年8月24日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-24-news.html</id>
-    <updated>2026-08-24T00:00:00+09:00</updated>
-    <summary>出所不明の新モデル「Ox Alpha」がOpenRouterに登場し、正体を巡って業界で憶測が広がっている。 / Z.aiの新モデル「GLM-5.3」はコーディング性能が大幅向上した一方、意図せず高いサイバーセキュリティ能力を獲得し、2,000件超の脆弱性を発見した。 / OpenAIがGPT-5.6 Solの価格を引き下げるなど、フロンティアモデル間の価格競争が続いている。 / Googleは検索・Discover・Newsのパーソナライズ機能を拡充し、AIとの対話で好みを指定できるようにした。</summary>
   </entry>
 </feed>
