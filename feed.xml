@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-09T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月9日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09-news.html</id>
+    <updated>2026-09-09T00:00:00+09:00</updated>
+    <summary>Mistralが欧州テック企業として過去最大級となる30億ユーロを調達し、主権AIインフラ強化に動く。 / MetaがコンシューマAIエージェント「Muse」を発表、個人情報アクセスを巡り信頼性が焦点に。 / QualcommとAmazonが最大600億ドル規模のカスタムAIチップ・光ネットワーク提携で合意。 / Anthropicの数学者とNYU教授の証明を巡り、OpenAIとの学術的優先権争いが表面化。 / Alibaba Cloud・CambriconがPyTorch Foundationにプラチナ会員として参加、中国発オープンソースAIスタックが拡大。</summary>
+  </entry>
+  <entry>
     <title>2026年9月9日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25-news.html</id>
     <updated>2026-08-25T00:00:00+09:00</updated>
     <summary>OpenAIのAIハッキング事件を巡り州司法当局が調査に着手 / OpenAIが白色ワーカー向けAIエージェント製品「ChatGPT Work」を展開 / 個人向けAIアシスタント「Instinct」がプライバシー・セキュリティ面で物議 / 出所不明のステルスモデル「Ox Alpha」が話題に / Nvidia、AIチップ搭載サーバーの値上げを顧客に通知 / DeepMind出身者設立のInherent、研究再現タスクでAnthropic・OpenAIを上回る小型エージェントを発表</summary>
-  </entry>
-  <entry>
-    <title>2026年8月25日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25.html</id>
-    <updated>2026-08-25T00:00:00+09:00</updated>
-    <summary>Claude Codeのセッション間通信がv2.1.234からネイティブWindowsでも動作するようになり、実機検証で列挙・送受信・idle通知まで確認された / AIエージェントによる自動生成パイプラインでハルシネーションを防ぐには、生成の工夫だけでなく決定論的な検証層を分離する設計が有効という実践例が複数紹介された / ARC-AGI-3ベンチマークで同一モデルのスコアがハーネス次第で30点から100点まで変動し、ベンチマーク数値の provenance 問題が指摘されている / RAGアシスタントが未知のAPIプロバイダについて堂々と存在しないエンドポイントとURLを捏造する事例が報…</summary>
   </entry>
 </feed>
