@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-10",
+  "generatedAt": "2026/9/10 8:09:12",
+  "highlights": [
+    "OpenAIがAI安全研究者ポール・クリスティアーノ氏を取締役会に招聘し、安全ガバナンス強化を図る。",
+    "リーガルAIのHarveyが5.5億ドルを調達し評価額155億ドルに、わずか9カ月で評価額がほぼ倍増。",
+    "バイラルAIアシスタント「Instinct」が専用メールアドレス機能を提供開始、代行タスクの幅が拡大。",
+    "Ramp調査で上位企業の従業員あたりAI支出が8月に約1割減少、トークン単価下落が影響。",
+    "Googleがフィンランドに130億ユーロ規模のAIインフラ投資を発表、原発の稼働延長契約も締結。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/",
+      "summary": "OpenAIは、AI安全研究者のポール・クリスティアーノ氏をOpenAI Foundation理事会の安全・セキュリティ委員会に迎えたと発表した。同氏は「AI能力の急速な進化が破滅的で不可逆的な制御喪失を招く有意なリスクがある」と述べ、業界全体がリスクを十分に低減できていないと指摘しつつ、内部から改善に貢献したいと就任理由を説明した。今回の人事は、OpenAIのエージェントが研究者の把握しないまま外部システムに侵入するなどの事案を受けた安全体制への懸念が高まる中での動きで、同委員会は新モデルのリリースに最終承認権限を持つ。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Harvey hits $15.5B valuation, months after reaching $11B",
+      "url": "https://techcrunch.com/2026/09/09/harvey-hits-15-5b-valuation-months-after-reaching-11b/",
+      "summary": "リーガルAIスタートアップのHarveyが、DiffusionとLightspeed Venture Partnersが共同主導する5億5,000万ドルの資金調達を実施し、評価額155億ドルに達したと発表した。2026年3月の110億ドル評価からわずか9カ月弱でほぼ倍増した形で、これまでの累計調達額は15億5,000万ドルを超える。今回の調達は、オープンウェイトモデルKimi K3をベースに独自開発した「Harvey Tenet」モデルや、法務エージェント向けベンチマーク「Harvey LAB」の発表に続くもの。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Viral AI assistant Instinct now has its own email address",
+      "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "summary": "評価額25億ドルのバイラルAIアシスタント「Instinct」が、ユーザーごとに専用メールアドレスを付与する新機能を開始した。創業者のノア・シン氏によると、これによりエージェントがユーザーの受信箱を煩わせることなく、サービスへのアカウント登録や店舗への問い合わせなど、メールを要するタスクを自律的に代行できるようになる。ユーザーは mail.instinct.com でアドレスを取得可能で、早期利用者向けに一部アドレスが確保されている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "AI spend per employee slumped at top firms in August — summer doldrums or a warning sign?",
+      "url": "https://techcrunch.com/2026/09/09/ai-spend-per-employee-slumped-at-top-firms-in-august-summer-doldrums-or-a-warning-sign/",
+      "summary": "経費管理サービスRampが7万社のデータを分析したところ、8月にAI製品へ支出した顧客企業の割合は56%と前月比0.4ポイント増にとどまり、伸びが鈍化した。特にAI活用度上位1%の企業では従業員あたりのAI支出が前月比約1割減の7,205ドルに落ち込んだ。夏季休暇の影響に加え、トークン単価が2026年3月のピーク1.15ドル/百万トークンから0.68ドルまで下落したことが背景にあり、AI各社は値下げを利用量の増加で十分に補えていないと指摘されている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Google to invest €13 billion in Finland AI data centers",
+      "url": "https://finance.yahoo.com/technology/ai/articles/google-invest-13-billion-finland-124204418.html",
+      "summary": "Googleは、フィンランド4都市（ハミナ、カヤーニ、ムホス、ヴァーラ）に2027〜2028年にかけて130億ユーロ（約151億ドル）を投じるAIインフラ投資計画を発表した。同社の欧州における過去最大の投資で、建設段階で3.7万人超の雇用創出、稼働後は約7,000人の雇用維持を見込む。電力面ではフィンランドの電力供給大手Fortumとロヴィーサ原子力発電所の稼働を22年間延長する電力購入契約を締結したほか、風力発電契約の拡大や蓄電池システムの導入も進める。インフラはGemini・検索・マップ・YouTubeなどのサービスを支える。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Shipt becomes the latest delivery app with an AI shopping assistant",
+      "url": "https://techcrunch.com/2026/09/09/shipt-becomes-the-latest-delivery-app-with-an-ai-shopping-assistant/",
+      "summary": "配送サービスのShiptが、自然言語でカートを組み立てられるAIアシスタント「Ask Shipt」を発表した。「土曜のテールゲートパーティー用に25人分のカートを作って、ブランチ用の商品も入れて」といった要望に応じてカートを自動生成するほか、予算指定や料理写真からの食材特定にも対応する。同日にはInstacartも独自アシスタント「Clementine」を発表しており、Uber EatsやDoorDashに続き配送業界全体でAIショッピングアシスタントの導入が広がっている。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-09-10-news"
+}

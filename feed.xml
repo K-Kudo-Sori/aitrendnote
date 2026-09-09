@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-10T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月10日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10-news.html</id>
+    <updated>2026-09-10T00:00:00+09:00</updated>
+    <summary>OpenAIがAI安全研究者ポール・クリスティアーノ氏を取締役会に招聘し、安全ガバナンス強化を図る。 / リーガルAIのHarveyが5.5億ドルを調達し評価額155億ドルに、わずか9カ月で評価額がほぼ倍増。 / バイラルAIアシスタント「Instinct」が専用メールアドレス機能を提供開始、代行タスクの幅が拡大。 / Ramp調査で上位企業の従業員あたりAI支出が8月に約1割減少、トークン単価下落が影響。 / Googleがフィンランドに130億ユーロ規模のAIインフラ投資を発表、原発の稼働延長契約も締結。</summary>
+  </entry>
+  <entry>
     <title>2026年9月10日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26-news.html</id>
     <updated>2026-08-26T00:00:00+09:00</updated>
     <summary>AnthropicがClaude ChatとCowork間でメモリを統合し、記憶の引き継ぎが可能に / Stability AIが$76Mのシリーズ資金調達、音楽・映像大手が出資 / 個人AIアシスタント「Instinct」でプライバシー・セキュリティ懸念が浮上 / Cisco・NVIDIA・Supermicroがラックスケール時代のAIインフラで提携拡大 / OpenAIがChatGPT Plus向けCodex/Workの5時間利用制限を復活</summary>
-  </entry>
-  <entry>
-    <title>2026年8月26日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26.html</id>
-    <updated>2026-08-26T00:00:00+09:00</updated>
-    <summary>OpenAIが自社設計の推論チップ「Jalapeño」を発表、性能あたり消費電力でNvidia Blackwellを上回ると報告 / Claude Code / Claude Design関連のTipsや運用ノウハウ記事が国内ブログで多数公開 / AIによるコード・テスト生成の「レビュー」自体を検証する動き（敵対的検証、独立性の限界）が話題に / AI推論インフラを一般家庭に分散配置する構想や、RAGの会話履歴における権限管理の盲点など、インフラ・セキュリティ視点の記事も</summary>
   </entry>
 </feed>
