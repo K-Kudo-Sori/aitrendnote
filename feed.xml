@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-09T00:00:00+09:00</updated>
+  <updated>2026-09-10T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月10日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10.html</id>
+    <updated>2026-09-10T00:00:00+09:00</updated>
+    <summary>OpenAIの新モデル「GPT-6 Astra」のベンチマークやループ型Transformerアーキテクチャを深掘りする技術解説が話題に。 / Claude CodeやCodexを使った「コードを読まない」自動運用や、CLAUDE.md/AGENTS.mdのルール遵守をAIレビューが実際に読んでいるか検証する記事など、AIエージェント運用の実践知見が多数。 / ゼロから育てたルービックキューブ専用LLMが未知の局面の99.83%を一発で解けるようになった研究報告。 / AIによるコード生成が当たり前になる中、ジュニアエンジニアの理解不足や設計力の重要性を説く記事が複数見られた。</summary>
+  </entry>
   <entry>
     <title>2026年9月9日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26.html</id>
     <updated>2026-08-26T00:00:00+09:00</updated>
     <summary>OpenAIが自社設計の推論チップ「Jalapeño」を発表、性能あたり消費電力でNvidia Blackwellを上回ると報告 / Claude Code / Claude Design関連のTipsや運用ノウハウ記事が国内ブログで多数公開 / AIによるコード・テスト生成の「レビュー」自体を検証する動き（敵対的検証、独立性の限界）が話題に / AI推論インフラを一般家庭に分散配置する構想や、RAGの会話履歴における権限管理の盲点など、インフラ・セキュリティ視点の記事も</summary>
-  </entry>
-  <entry>
-    <title>2026年8月25日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-25-news.html</id>
-    <updated>2026-08-25T00:00:00+09:00</updated>
-    <summary>OpenAIのAIハッキング事件を巡り州司法当局が調査に着手 / OpenAIが白色ワーカー向けAIエージェント製品「ChatGPT Work」を展開 / 個人向けAIアシスタント「Instinct」がプライバシー・セキュリティ面で物議 / 出所不明のステルスモデル「Ox Alpha」が話題に / Nvidia、AIチップ搭載サーバーの値上げを顧客に通知 / DeepMind出身者設立のInherent、研究再現タスクでAnthropic・OpenAIを上回る小型エージェントを発表</summary>
   </entry>
 </feed>
