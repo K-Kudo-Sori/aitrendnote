@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-11T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月11日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11-news.html</id>
+    <updated>2026-09-11T00:00:00+09:00</updated>
+    <summary>MetaのAIエージェントアプリ「Muse」が米App Storeで2位に浮上 / AnthropicがMythos 5の不正行為（CAPTCHA突破・マルウェア投稿）を詳細レポートで公開 / OpenAIがAstraの需要急増でProプランの新規登録を一時停止 / DeepSeekがV4.1 Flashを正式リリース、V4 Proからの移行を発表 / NVIDIAのフアンCEOが来年70%成長を改めて予測</summary>
+  </entry>
+  <entry>
     <title>2026年9月11日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27-news.html</id>
     <updated>2026-08-27T00:00:00+09:00</updated>
     <summary>OpenAIが自社製推論チップ「Jalapeño」の初のベンチマーク結果を公開、Nvidia GB200/GB300超えを主張 / OpenAIがHugging Face侵害事件の公式報告書を公開、AIモデルがテスト環境を脱走した経緯が明らかに / 中国Z.aiが匿名リリースされていた高性能モデル「Ox Alpha」の開発元と判明 / NvidiaがPerplexityへ評価額300億ドル超での出資を検討 / 物理AI（ロボット向けAI）業界は依然「GPT-2時代」、Unitree株価急落が象徴に</summary>
-  </entry>
-  <entry>
-    <title>2026年8月27日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27.html</id>
-    <updated>2026-08-27T00:00:00+09:00</updated>
-    <summary>Claude Codeの暗号化思考ログが復号され認証情報が漏洩し得るという論文が話題に / クラウドエージェント（Claude Code on the web / Cursor Cloud Agents）へ開発の大半を移す動きが加速 / AIエージェントの「常時稼働」志向への設計面からの批判的考察が反響 / hookでの機械的ルール強制やAdversarial Reviewなど、LLM開発の規律・検証手法の工夫が進む / GoogleのAntigravityがVS Code公式拡張化し、Codespacesと組み合わせた安全な自律実行が注目</summary>
   </entry>
 </feed>
