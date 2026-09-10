@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-10T00:00:00+09:00</updated>
+  <updated>2026-09-11T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月11日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11.html</id>
+    <updated>2026-09-11T00:00:00+09:00</updated>
+    <summary>Cognitionが新コーディングモデル「SWE-2」を発表、Fable 5.1に迫る性能を大幅な低コストで実現 / Magic.devが計算効率10倍以上のプリトレーニング手法を公開、DeepSeek V4 Proに約50分の1のFLOPsで匹敵 / Anthropicが2026年9月版の脅威インテリジェンスレポートを公開、Claudeの悪用事例と対策を報告 / OpenAIがCodexハーネスをAPI化した「Agents API」を発表 / 国内ではClaude Codeやエージェントハーネスを使った開発運用・パイプライン構築の実践記事が多数</summary>
+  </entry>
   <entry>
     <title>2026年9月10日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-27.html</id>
     <updated>2026-08-27T00:00:00+09:00</updated>
     <summary>Claude Codeの暗号化思考ログが復号され認証情報が漏洩し得るという論文が話題に / クラウドエージェント（Claude Code on the web / Cursor Cloud Agents）へ開発の大半を移す動きが加速 / AIエージェントの「常時稼働」志向への設計面からの批判的考察が反響 / hookでの機械的ルール強制やAdversarial Reviewなど、LLM開発の規律・検証手法の工夫が進む / GoogleのAntigravityがVS Code公式拡張化し、Codespacesと組み合わせた安全な自律実行が注目</summary>
-  </entry>
-  <entry>
-    <title>2026年8月26日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-26-news.html</id>
-    <updated>2026-08-26T00:00:00+09:00</updated>
-    <summary>AnthropicがClaude ChatとCowork間でメモリを統合し、記憶の引き継ぎが可能に / Stability AIが$76Mのシリーズ資金調達、音楽・映像大手が出資 / 個人AIアシスタント「Instinct」でプライバシー・セキュリティ懸念が浮上 / Cisco・NVIDIA・Supermicroがラックスケール時代のAIインフラで提携拡大 / OpenAIがChatGPT Plus向けCodex/Workの5時間利用制限を復活</summary>
   </entry>
 </feed>

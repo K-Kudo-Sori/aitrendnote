@@ -1,0 +1,226 @@
+{
+  "date": "2026-09-11",
+  "generatedAt": "2026/9/11 7:04:33",
+  "highlights": [
+    "Cognitionが新コーディングモデル「SWE-2」を発表、Fable 5.1に迫る性能を大幅な低コストで実現",
+    "Magic.devが計算効率10倍以上のプリトレーニング手法を公開、DeepSeek V4 Proに約50分の1のFLOPsで匹敵",
+    "Anthropicが2026年9月版の脅威インテリジェンスレポートを公開、Claudeの悪用事例と対策を報告",
+    "OpenAIがCodexハーネスをAPI化した「Agents API」を発表",
+    "国内ではClaude Codeやエージェントハーネスを使った開発運用・パイプライン構築の実践記事が多数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201",
+      "summary": "研究者のAndreas Thom氏によるMastodon（Mathstodon）上の投稿で、数学者が未発表の研究成果をOpenAIに提供・共有することの信頼性について疑問を投げかけている内容です。本文の大部分はMastodonのWebアプリ表示に関する案内文であり、投稿本体の詳細な論旨は取得できていません。Hacker Newsで議論を呼んだ投稿として紹介されています。AI企業への学術データ提供を巡る研究者コミュニティの懸念を示す一例といえます。",
+      "category": "other",
+      "points": 480,
+      "comments": 514,
+      "author": "pred_"
+    },
+    {
+      "source": "hackernews",
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "url": "https://cognition.com/blog/swe-2",
+      "summary": "Cognition社が最新のコーディング特化モデル「SWE-2」を発表しました。FrontierCode 1.1 Mainベンチマークで50.0%を記録し、Fable 5.1に1ポイント差まで迫りながら64%安いコストを実現しています。2.8兆パラメータのKimi K3をベースに強化学習を適用し、複数の推論エフォートレベルを単一のRL実行で同時に訓練する新手法や、コストに応じた線形ペナルティ、報酬ベースラインの改良などにより効率と性能を両立させました。SWE-1.7と比べてターン数を58%削減しつつスコアも向上しており、Devin Desktop/CLIから今日より利用可能です。",
+      "category": "model",
+      "points": 309,
+      "comments": 127,
+      "author": "seelos"
+    },
+    {
+      "source": "hackernews",
+      "title": "Compute-efficient pretraining and scaling to trillion-parameter models",
+      "url": "https://magic.dev/blog/pretraining#",
+      "summary": "Magic.devが、計算効率を10倍以上高めたプリトレーニング手法に関する研究成果を公開しました。DeepSeek V4 Proに匹敵する性能を約50分の1のFLOPs（GB200換算で約50万ドル相当）で達成し、さらに10倍のスケール（約400万ドル）まで計算量を増やすことで公開されている主要なオープンウェイトのベースモデルすべてを上回るperplexity評価結果を得たとしています。コード・論文・数学推論など複数のheldoutデータでのbits-per-byte評価とスケーリング則の当てはめにより効率性を検証しており、事前学習・エージェント的強化学習・長コンテキストを組み合わせて超人的なコーディングエージェントの実現を目指すとしています。",
+      "category": "model",
+      "points": 104,
+      "comments": 57,
+      "author": "ronfriedhaber"
+    },
+    {
+      "source": "hackernews",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "summary": "Anthropicが2026年9月版の脅威インテリジェンスレポートを公開し、2025年12月から2026年8月にかけて検知・阻止したClaudeの悪用事例を7つの被害領域（サイバー攻撃、影響工作、監視、詐欺、生物兵器関連、通常兵器開発、蒸留）別に紹介しています。国家関与が疑われるグループや金銭目的の犯罪者、商用スパイウェア業者などによる悪用の事例を挙げ、いずれも検知後に活動を停止させ、安全対策の強化や当局・業界パートナーとの情報共有を行ったとしています。モデルが高性能化するほどリスクも増大するため、AI開発者と社会の防御側双方の対策強化が必要だと訴えています。",
+      "category": "security",
+      "points": 39,
+      "comments": 19,
+      "author": "garo-pro"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Agents API",
+      "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "summary": "OpenAIが、Codexハーネスの機能をAPI経由で利用できる「Agents API」を発表しました。セッション管理・オーケストレーション・コンテキスト圧縮・復旧処理をOpenAI側が担い、開発者はツールとサンドボックス環境（OpenAIホスト型または自己ホスト型）を用意するだけでエージェントを構築できます。Agent・Environment・Session・Events/Itemsという4つの中核概念で構成され、コード実行やファイル編集、MCPサーバー接続、サブエージェントへの委任などを管理ハーネスが提供します。料金は使用モデルのAPI料金とサンドボックス利用料が別途かかる仕組みです。",
+      "category": "agent",
+      "points": 33,
+      "comments": 28,
+      "author": "aquir"
+    },
+    {
+      "source": "zenn",
+      "title": "Herdr × git worktree × Claude Codeの相性がいい話",
+      "url": "https://zenn.dev/gemcook/articles/herdr-worktree-parallel",
+      "summary": "複数のClaude Codeを並列実行するための環境構築についての記事です。同一ディレクトリで複数のClaude Codeを動かすとブランチ切替が競合するため、git worktreeで作業ディレクトリを分離し、さらにAIエージェント向けターミナルマルチプレクサ「Herdr」を組み合わせることで、各Claude Codeの状態（作業中か入力待ちか）を一覧管理できるようにしています。HerdrはCLI操作にも対応しており、Claude CodeにAgent Skillを与えることでworktreeの作成・削除やペイン分割まで自動化できる点を紹介しています。さらにSessionStartフックを使い、同じリポジトリのworktreeを1つの画面（Space）にまとめるカスタマイズも解説しています。",
+      "category": "devtool",
+      "points": 68,
+      "author": "muranakaaa"
+    },
+    {
+      "source": "zenn",
+      "title": "LLMのトークン効率化で気をつけたいことまとめ",
+      "url": "https://zenn.dev/ml_bear/articles/e5cc1047cba176",
+      "summary": "Claude CodeやCodexなどLLMサービスのコスト（利用枠消費）を抑えるための実践的なポイントをまとめた記事です。基本編として、最新モデルの積極活用、古いプロンプト工夫の見直し、タスクに応じたモデル・エフォートの使い分け、安易なサブエージェント構成を避けることを挙げています。応用編ではプロンプトキャッシュの仕組みを詳しく解説し、セッション中にeffortやモデルを頻繁に切り替えるとキャッシュが無効化されコストが増大すること、キャッシュには有効期限（サブスクで1時間、Codexで30分など）があることを説明しています。Uber社が対話セッションのデフォルトタイムアウトを1時間に延長した事例も紹介されています。",
+      "category": "devtool",
+      "points": 47,
+      "author": "ML_Bear"
+    },
+    {
+      "source": "zenn",
+      "title": "HTMLを社内共有するサービスを、コードを読まずに作る - 1人で25万行を回す自動運用の記録",
+      "url": "https://zenn.dev/coji/articles/solo-software-factory-without-reading-code",
+      "summary": "開発者がコードを一切読まずに、AIエージェントだけで25万行規模のTypeScriptサービス「Artifact Share」を1人で開発・運用してきた記録です。開発開始当初はガードレールなしでAIに任せ、事故が起きるたびに対策を積み上げる運用を行い、現在は有料課金ユーザーを抱える本番サービスとして稼働しています。試行錯誤の末、人間は「Issue作成」と「PRマージ」の2箇所だけに関与し、その間にAIによる「仕様書レビュー」と「実装レビュー」の2つのループを配置する体制に落ち着きました。レビューを無限に続けさせないため、指摘を「ブロッカー」「先送り」「対応不要」の3種類に分類し、ブロッカーがゼロになった時点で次工程に進めるルールを設けている点が紹介されています。",
+      "category": "devtool",
+      "points": 133,
+      "author": "Coji Mizoguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "なぜエージェントハーネスで開発パイプラインを作っているのか",
+      "url": "https://zenn.dev/xtm_blog/articles/689d035440c0ae",
+      "summary": "京都芸術大学のクロステック・マネジメントが、docker-agentをベースに独自のエージェントハーネスによる開発パイプラインを構築している取り組みを紹介する記事です。要求仕様書から設計書、実装、PR作成までを複数のエージェントが非同期・並列に分担する構成で、AIによる開発速度向上に対して人間のレビューがボトルネックになる問題を解消することを目的としています。既製のコーディングエージェントではなく内製ハーネスを選んだ理由として、マルチモデル対応や権限・サンドボックス・ログの標準装備、カスタマイズ性の高さを挙げています。人間向けとAIエージェント向けで最適な開発フローが異なることが分かってきたため、要求仕様書のフォーマット自体もパイプラインに合わせて再整備しているとのことです。",
+      "category": "agent",
+      "points": 27,
+      "author": "laiso"
+    },
+    {
+      "source": "zenn",
+      "title": "ルービックキューブを一撃で解く専用LLMを作った",
+      "url": "https://zenn.dev/turing_motors/articles/4178a603322b8e",
+      "summary": "Turing社が、ルービックキューブを1回の生成だけで解く専用の小型LLM「CUBE ZERO」をゼロから学習させた研究成果を紹介しています。現在の状態と過去の手順を受け取り次の1手を自己回帰的に出力するWorld Action Modelとして設計し、54面の状態をState Encoderでベクトル化してTransformerに注入することで、トークン列のほとんどをアクション生成に使えるようにしています。約2100万パラメータのモデルを、同一局面から8通り生成し成功例のみを学習するシンプルな自己学習で訓練し、未知の局面の99.83%を1回の生成で解けるようになったと報告しています。人間向けの定石を与えずに自己生成だけで安定した長い手順を獲得した点が興味深い結果としています。",
+      "category": "research",
+      "points": 93,
+      "author": "issei_y"
+    },
+    {
+      "source": "devto",
+      "title": "AI Is Already Better at Coding Than Most Software Developers",
+      "url": "https://dev.to/sylwia-lask/ai-is-already-better-at-coding-than-most-software-developers-4hno",
+      "summary": "DEV Communityの寄稿記事で、筆者は自身のキャリアを振り返りながら、AIコーディングエージェントは既に多くのソフトウェア開発者より高い水準でコードを書けるとの主張を展開しています。研究データによれば、フロンティアAIエージェントは人間なら数日〜数週間かかるようなコーディングタスクを既にこなせるとしています。また開発者間には能力差が元々存在しており、コーディング自体が飛び抜けて得意でなくても、製品理解や意思決定力に優れた人材はAIの力でより大きな成果を出せるようになると論じています。一方で、コーディングが容易になったからこそ差がつくポイントが別にあることを次段落で述べようとしています。",
+      "category": "other",
+      "points": 55,
+      "comments": 57,
+      "author": "Sylwia Laskowska",
+      "tags": [
+        "discuss",
+        "ai",
+        "webdev",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Admit it, you have a favorite AI (just like you have a favorite coworker)",
+      "url": "https://dev.to/missamarakay/admit-it-you-have-a-favorite-ai-just-like-you-have-a-favorite-coworker-1fa0",
+      "summary": "DEV Communityの記事で、筆者がオンボーディング監査プロジェクトを通じてClaude・Gemini・Microsoft Copilotの3つのAIチャットツールを実際に使い比べた感想をまとめています。Claudeについては、複数ファイルにまたがる変更点を明確に指示してくれるなど最もスムーズなペアプログラミング体験だったと評価する一方、根拠のない「ベストプラクティス」を提示した際に指摘するとすぐに非を認めて撤回した事例も紹介しています。Geminiは個人利用では便利だが今回の用途では可もなく不可もない評価で、無料枠のSonnet 5で作業のほとんどをこなせたと述べています。",
+      "category": "other",
+      "points": 7,
+      "comments": 3,
+      "author": "Amara Graham",
+      "tags": [
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "is Graph Engineering just reinventing systems architecture for the AI age?",
+      "url": "https://dev.to/googleai/is-graph-engineering-just-reinventing-systems-architecture-for-the-ai-age-2427",
+      "summary": "Google AIのブログ記事で、最近よく耳にする「グラフエンジニアリング」という概念について、Google社員のAnnie Wang氏に解説してもらった内容をまとめています。エージェントハーネス・ループ・グラフの違いを整理し、PRレビューパイプラインを題材にファンアウト・ジョイン・条件分岐ルーターといったパターンを用いた実例を紹介しています。グラフエンジニアリングはナレッジグラフやGraphRAGとは異なる概念であり、LLMをブラックボックスのループで自由に動かすのではなく、厳格なスキーマを持つノードとパイプラインで構成することで、マイクロサービスのようなバックエンドの予測可能性とデバッグ容易性をマルチエージェントシステムにもたらす発想だと説明しています。GoogleのAgent Development Kit（ADK）を用いた共有状態のオーケストレーション方法にも触れています。",
+      "category": "agent",
+      "points": 5,
+      "comments": 1,
+      "author": "Tilde A. Thurium",
+      "tags": [
+        "ai",
+        "agents",
+        "graphengineering",
+        "adk"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Stratagems #30: Lena Signed the Client. The AI Didn't Know It Was Being Audited.",
+      "url": "https://dev.to/xulingfeng/stratagems-30-lena-signed-the-client-the-ai-didnt-know-it-was-being-audited-3985",
+      "summary": "中国の兵法書「三十六計」になぞらえて、AI監査・AIガバナンスを題材にした連作フィクション「Stratagems」シリーズの第30話です。登場人物LenaがAI企業VeriTestを立ち上げてクライアントと契約を結ぶ場面が描かれており、AIが監査されていることに気づかないまま話が進むという筋書きになっています。技術解説記事ではなく、AI業界のガバナンスや監査を題材にした連載小説であり、過去29話までのあらすじも併せて掲載されています。",
+      "category": "other",
+      "points": 43,
+      "comments": 11,
+      "author": "xulingfeng",
+      "tags": [
+        "ai",
+        "discuss",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Gemma 4 on an 2021 4 GB Laptop GPU: QAT Takes It From 9.5 GiB to 1.6",
+      "url": "https://dev.to/gde/gemma-4-on-an-old-4-gb-laptop-gpu-qat-takes-it-from-95-gib-to-16-b5l",
+      "summary": "Google Developer Expertによる記事で、GoogleのオープンモデルGemma 4 E2Bの量子化認識学習（QAT）済みチェックポイントを、2021年発売のノートPC（4GBのGTX 1650 Ti搭載）にデプロイする手順を紹介しています。bfloat16では9.5GiB必要なモデルがQATにより3.35GBのファイル（GPU使用量は1.31GiB）まで圧縮され、実際に1618MiBのVRAMで読み込め、73.75トークン/秒で動作したと報告しています。llama.cppホスティングの管理を簡単にするためのPython製MCPツール群も自作し、GitHubで公開しています。",
+      "category": "infra",
+      "points": 6,
+      "comments": 2,
+      "author": "xbill",
+      "tags": [
+        "gemma",
+        "llamacpp",
+        "mcp",
+        "cuda"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【採用担当の本音】AI時代だからこそ、私たちが面接で「なぜ？」を繰り返す本当の理由",
+      "url": "https://qiita.com/m__ikeda/items/26cc98906fbae40e4e71",
+      "summary": "IT企業PRUMの採用広報担当による記事で、AIの進化に対して未経験エンジニア志望者が抱く不安に応える内容です。AIによってコードの見た目の出来栄え（HOW）は誰でも作れる時代になったからこそ、面接では「なぜこの設計にしたのか」という意思決定の理由（WHY）を語れる力を重視していると説明しています。企業が求めているのはAIの指示待ちではなく、AIを使いこなして意思決定できる「司令塔」人材であるとし、実装前に目的を1行メモする、AIに仕組みを解説させるといった「WHY」を鍛える具体的な方法を提案しています。",
+      "category": "other",
+      "author": "m__ikeda"
+    },
+    {
+      "source": "qiita",
+      "title": "元ヤフーエンジニア社長が考える、AIに仕事が奪われないと思う理由",
+      "url": "https://qiita.com/ryoheiiwamoto/items/0134c989bb86519eec2e",
+      "summary": "元ヤフーのエンジニアで現在IT企業PRUMの代表を務める筆者が、AIによってエンジニアの仕事がなくならないと考える理由を3つ挙げています。（1）日本のIT人材は現状でも大幅に不足しており効率化分は新たな需要に回る、（2）システムは作るほど複雑になり保守にエンジニアが必要であり続ける、（3）AIが起こした問題の最終的な責任は人間しか取れない、という論点です。今後エンジニアに必要なのはAI活用力に加えて「人間力」であり、責任を引き受けられる信頼できる人材にこそ仕事が集まり続けると結論づけています。",
+      "category": "other",
+      "author": "ryoheiiwamoto"
+    },
+    {
+      "source": "qiita",
+      "title": "3万スターの Claude Code スキルを入れたら、出力が43%短くなった",
+      "url": "https://qiita.com/suwa_nobu/items/cec37ce5a6141bb3eefc",
+      "summary": "Hacker Newsで話題になったClaude Codeスキル「i-have-adhd」（GitHub 3万スター超）について、日本語記事では実測がなかったため筆者が自ら効果測定を行った記事です。3種類の質問をそれぞれ3回ずつ、スキルあり・なしで比較したところ、出力の文字数が平均43%、出力トークン数が34%減少し、9回中9回でスキルあり側が短くなったと報告しています。一方で技術キーワード数（情報量の目安）も8〜30%減少しており、単に短くなっただけでなく含まれる情報の中身も入れ替わっていた（例：トレーラーの扱いへの言及が増え、別のオプション説明が消えた）ことを具体例とともに示しています。スキル自体の導入によるスキル一覧のトークン消費はほぼゼロだったとのことです。",
+      "category": "devtool",
+      "author": "suwa_nobu"
+    },
+    {
+      "source": "qiita",
+      "title": "NL2SQL: Select AIが Metadataから SQLを生成する仕組みと AI Ready Dataを整理してみてみた",
+      "url": "https://qiita.com/shirok/items/3cb311b037a975739948",
+      "summary": "日本オラクル社員による記事で、Oracle DatabaseのNL2SQL機能「Select AI」が、自然言語の業務用語からSQLを生成する仕組みを解説しています。Select AIはDatabase側がSchema Metadata（表名・列名・COMMENT・PK/FKなど）を追加した拡張プロンプトを作成してLLMにSQL生成を依頼する方式で、行データ自体は自動的にプロンプトへ含まれない点が特徴です。「有効顧客」のようなコード値の意味をCOMMENTに追記することで生成SQLの精度が変わった実例を示しながら、LLMが正しくSQLを生成するために必要な「AI Ready Data」（データだけでなく意味・関係・利用ルールまで含む概念）について整理しています。",
+      "category": "product",
+      "author": "shirok"
+    },
+    {
+      "source": "qiita",
+      "title": "ハーネスの次に来るもの ― Causal ReasoningでAIエージェントはどう変わるか？",
+      "url": "https://qiita.com/ryosuke_ohori/items/f8eaad0ddba954e2ebb6",
+      "summary": "AIエージェント開発における「Agent Harness」の重要性を踏まえつつ、その先に必要となる「Causal Reasoning（因果推論）」と「Introspection（内省）」について論じる記事です。Agentic AIの本質的な難しさはLLMを1回呼び出すことではなく、Plan→Execute→Observe→Reflect→Re-planという非決定的な推論ループを継続的かつ一貫して業務に使い続けることにあると説明しています。LLMは統計的な相関関係を学習しているに過ぎず、真の因果関係（このActionを実行すると何が起きるか）を理解しているわけではない点を指摘し、企業の業務プロセスは本来因果的な構造を持つため、この差がエージェントの規模拡大に伴って問題化しやすいと論じています。",
+      "category": "agent",
+      "author": "ryosuke_ohori"
+    }
+  ]
+}
