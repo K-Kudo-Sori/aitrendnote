@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-12",
+  "generatedAt": "2026/9/12 8:08:28",
+  "highlights": [
+    "Anthropicが中国5社によるClaudeの大規模不正蒸留とロシア発サイバー攻撃を摘発し、脅威インテリジェンスレポートを公開",
+    "Mistral AIがサムスン主導のシリーズDで30億ユーロを調達し、欧州テック企業として過去最大の資金調達に",
+    "OpenAIが開発者向け「Agents API」をパブリックベータで公開し、エージェント基盤競争が加速",
+    "DeepSeekとSakana AIから新モデルが相次いで登場し、価格・性能競争が激化",
+    "OpenAIがナビエ・ストークス方程式の難問への進展を発表したが、数学者との先取権論争が発生"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、中国5社によるClaudeの大規模不正蒸留とロシア発サイバー攻撃を摘発",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "summary": "2026年9月の脅威インテリジェンスレポートで、Anthropicはロシア国家支援型のサイバースパイ活動（GTG-20006）、ShinyHuntersに関連する金銭目的の攻撃（GTG-50014）、中国系スパイ活動（GTG-10007）などを摘発したと発表した。さらにAlibaba・Moonshot AI・DeepSeekなど中国系5社が、Claudeとのやり取りを利用してモデルを不正に蒸留していたとし、該当アカウントの削除や検知メカニズムの強化などの対策を講じたとしている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Mistral AI、サムスン主導のシリーズDで30億ユーロを調達 欧州テック企業として過去最大",
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "summary": "フランスのAIスタートアップMistral AIが、サムスン電子主導のシリーズDラウンドで30億ユーロ（約35.8億ドル）を調達し、企業価値は210億ユーロ超に達したと発表した。EQT傘下のScaleup Europe FundとPSG Equityが共同リードを務め、Advent・BlackRock・ルクセンブルク大公国などが新規投資家として参加した。調達資金は計算能力の拡張やインフラ構築、国際展開の加速に充てられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、スウェーデンのAIエージェント新興企業Stillaを買収",
+      "url": "https://www.mediapost.com/publications/article/417764/meta-acquires-swedish-ai-startup-to-boost-automate.html",
+      "summary": "Meta Platformsが、2024年設立のスウェーデン発AIスタートアップStilla.aiを買収した。Stillaは複数のツールを横断して業務を遂行するAIエージェントを開発しており、MetaはWhatsApp・Messenger・Instagramでの顧客対応を自動化する自社の「ビジネスエージェント」機能の強化に、Stillaの技術とチームを取り込む狙いがあるとみられる。買収条件は非公開。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "DeepSeek、新アーキテクチャの最小モデル「V4.1 Flash」をリリース",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "summary": "DeepSeekは2026年9月10日、新アーキテクチャファミリーの最小モデルとなる「V4.1 Flash」を発表した。ネイティブなマルチモーダル視覚理解に対応し、GPQA Diamondで90.9、Codeforcesレーティング3471などの高いベンチマークスコアを記録している。API上ではモデル名が`deepseek-flash`に変更され、旧モデルからのリクエストは自動的にV4.1 Flashへルーティングされる。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、開発者向け「Agents API」をパブリックベータで公開",
+      "url": "https://www.marktechpost.com/2026/09/10/openai-launches-the-agents-api-in-public-beta-putting-the-codex-harness-behind-one-api-call/",
+      "summary": "OpenAIは2026年9月10日、コーディング支援ツールCodexを支えるハーネスを開発者向けAPIとして公開する「Agents API」をパブリックベータで開始した。エージェント・環境・セッション・イベントの4概念で構成され、長時間セッションの自動コンテキスト圧縮や並列ツール実行、マルチエージェント連携に対応する。OpenAI管理型サンドボックスに加え、Cloudflare・DigitalOceanなどパートナー提供のサンドボックスでも実行できる。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAIがナビエ・ストークス方程式の難問に進展を発表、数学者との先取権をめぐり論争に",
+      "url": "https://theaiinsider.tech/2026/09/09/dispute-erupts-between-nyu-mathematician-and-openai-over-ai-assisted-proof-of-millennium-prize-problem/",
+      "summary": "OpenAIは2026年9月9日、ミレニアム懸賞問題の一つ「ナビエ・ストークス方程式の存在性と滑らかさ」について進展を得たと発表した。一方、NYUの数学者Tristan Buckmaster氏とAnthropicの数学者Levent Alpöge氏は、Codexを含む複数のAIモデルを用いた自身の研究成果をOpenAIが把握した直後に酷似した証明が発表されたとして先取権を疑問視しており、論争となっている。OpenAI自身はミレニアム賞の受賞を主張しておらず、クレイ数学研究所による検証を待つ姿勢を示している。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Sakana AI、コスト重視の「Fugu Max」と高性能版「Fugu Ultra v2」を発表",
+      "url": "https://sakana.ai/fugu-max-release/",
+      "summary": "Sakana AIは2026年9月11日、複数のオープンウェイトモデルをタスクに応じて動的に組み合わせるオーケストレーション型モデル「Fugu Max」と「Fugu Ultra v2」を発表した。Fugu Maxは入力100万トークンあたり2ドル・出力6ドルの価格で、Sonnet 5やGPT 5.6 Terraより出力コストが40〜60%低いとしている。複雑な推論やソフトウェア開発向けの高性能版Fugu Ultra v2は、複数のベンチマークで最高水準のスコアを記録したという。",
+      "category": "model"
+    }
+  ],
+  "slug": "2026-09-12-news"
+}
