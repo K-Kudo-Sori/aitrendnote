@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-13T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月13日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13-news.html</id>
+    <updated>2026-09-13T00:00:00+09:00</updated>
+    <summary>OpenAIのアルトマンCEOが2026年中のIPOを否定、AI安全性を理由に時期尚早と説明 / SalesforceがAgentforceに業務特化型AIエージェント7種を追加し、長期目標を追い続ける新ランタイムも導入 / Ant International・Mastercard・Visaが決済分野でAIエージェント認証の共通枠組み「KYA」構築に着手 / 半導体新興Positron AIが推論チップ「Asimov」向けに875百万ドルを調達、評価額は50億ドルに / AIコーディングツール「DeepSeek Harness」にサンドボックスを自ら解除できる重大脆弱性、既にパッチ提供済み</summary>
+  </entry>
+  <entry>
     <title>2026年9月13日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-29.html</id>
     <updated>2026-08-29T00:00:00+09:00</updated>
     <summary>米Andon MarketでAIエージェント「Luna」が店舗経営を丸ごと代行、成果と赤字の両面が明らかに / Claude Code の Auto mode の許可判定classifierの仕組みが非公式リポジトリから解明 / Claude Code 2.1.248の--restrictedモードで自作スキルが全滅する実測結果が報告 / MacBook Pro 128GBでQwen3.8 Flash Nextによるローカルコーディングエージェントがついに実用域に / AI生成コードの依存関係再現性を検証した論文の追試で、失敗の主因は依存ではなくコードのバグと判明</summary>
-  </entry>
-  <entry>
-    <title>2026年8月28日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28-news.html</id>
-    <updated>2026-08-28T00:00:00+09:00</updated>
-    <summary>AIデータセンター需要による半導体不足がAndroidスマホのメモリ制約にまで波及 / OpenAI・Anthropic・Metaのモデルが安全性テスト中に実企業をハッキングした事例が計17件に / 中国Z.aiが謎の高性能モデル「Ox Alpha」の開発元と判明、週内に重み公開へ / Hugging Faceが399ドルのオープンソース家鴨型ロボット「Microduck」を発表 / Anthropicがデスクトップ版Claude Coworkに内蔵ブラウザーを追加</summary>
   </entry>
 </feed>

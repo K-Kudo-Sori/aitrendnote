@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026/9/13 8:09:47",
+  "highlights": [
+    "OpenAIのアルトマンCEOが2026年中のIPOを否定、AI安全性を理由に時期尚早と説明",
+    "SalesforceがAgentforceに業務特化型AIエージェント7種を追加し、長期目標を追い続ける新ランタイムも導入",
+    "Ant International・Mastercard・Visaが決済分野でAIエージェント認証の共通枠組み「KYA」構築に着手",
+    "半導体新興Positron AIが推論チップ「Asimov」向けに875百万ドルを調達、評価額は50億ドルに",
+    "AIコーディングツール「DeepSeek Harness」にサンドボックスを自ら解除できる重大脆弱性、既にパッチ提供済み"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAIのサム・アルトマンCEO、2026年中のIPOは「時期尚早」と発言",
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "summary": "OpenAIのサム・アルトマンCEOは2026年9月12日、FortuneのインタビューでAI安全性を巡る現在の状況を踏まえると2026年中の株式公開は時期尚早だと述べた。同社は機密ベースでIPO申請を済ませているが実行を延期しており、実現は2027年以降になるとの見方もある。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Salesforce、業務特化型AIエージェント7種を含む「Agentforce」拡張を発表",
+      "url": "https://www.salesforce.com/news/stories/agentforce-job-ready-ai-agents/",
+      "summary": "Salesforceは2026年9月11日、営業・カスタマーサービス・ITなど業務領域ごとに設計された「ジョブレディ」AIエージェント7種（Casey、Paige、Carter、Hunter、Marshall、Piper、Fin）を発表した。あわせて、数日から数週間にわたり目標を追い続けられる新ランタイムや、業務進行中に学習・調整するメモリ機能も導入する。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Ant International・Mastercard・Visa、AIエージェント認証の共通枠組み「Know-Your-Agent」で協業",
+      "url": "https://www.ant-intl.com/en/news/detail/?id=ant-international-mastercard-and-visa-initiate-collaboration-on-know-your-agent-interoperability-to-scale-agentic-commerce",
+      "summary": "Ant International、Mastercard、Visaは2026年9月10日、AIエージェントによる決済・購買が拡大する中、カードネットワークやウォレット、エージェント基盤間でエージェントの身元を相互に認識できる「Know-Your-Agent（KYA）」枠組みでの協業を発表した。各社独自の認証プロトコルを維持しつつ、追跡可能性や共通認証要件、継続的な監視といった共通原則の策定を目指す。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Windows向けGeminiデスクトップアプリを正式リリース",
+      "url": "https://workspaceupdates.googleblog.com/2026/09/the-gemini-desktop-app-is-now-available-for-Windows.html",
+      "summary": "Googleは2026年9月11日、Windows 10/11向けのGeminiデスクトップアプリを正式公開した。Alt+Spaceのショートカットで即座に呼び出せるほか、Gmail・Drive・カレンダーなどGoogleサービスと連携した情報検索や要約、画像生成機能「Nano Banana」の利用にも対応する。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "半導体新興Positron AI、推論チップ「Asimov」向けに875百万ドルを調達",
+      "url": "https://www.prnewswire.com/news-releases/positron-ai-raises-875-million-at-a-5-billion-valuation-to-bring-its-next-generation-inference-silicon-to-market-302874601.html",
+      "summary": "AI推論用チップを手がけるPositron AIは2026年9月10日、評価額50億ドルでシリーズC資金として最大8.75億ドルを調達したと発表した。高帯域幅メモリ（HBM）ではなく汎用のLPDDR5Xメモリを採用した次世代チップ「Asimov」のテープアウトや、推論システム「Titan」の量産に資金を充てる。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "AIコーディングツール「DeepSeek Harness」に自らサンドボックスを解除できる脆弱性",
+      "url": "https://www.ox.security/blog/cve-2026-82533-deepseek-harness-ai-agent-sandbox-escape/",
+      "summary": "OX Securityの調査により、DeepSeekのオープンソースAIコーディングツール「DeepSeek Harness」に、サンドボックス内で動くエージェントが単一のシェルコマンドで自らの隔離環境を解除できる脆弱性（CVE-2026-82533、CVSS 9.4）が発見された。認証のないローカルAPIをHostヘッダー偽装で騙す手法が悪用されており、DeepSeekはバージョン0.1.2-alpha.1で修正済みとしている。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-09-13-news"
+}
