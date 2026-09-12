@@ -1,0 +1,224 @@
+{
+  "date": "2026-09-13",
+  "generatedAt": "2026/9/13 7:05:05",
+  "highlights": [
+    "Claude Codeを軸にしたエージェント開発の運用ノウハウ（worktree並列化、トークン効率化、Agent Skill設計）が国内ブログで多数",
+    "AIエージェントに開発パイプライン全体を任せる事例（自動レビューループ、docker-agentハーネス、3エージェント協働）が目立つ",
+    "AIコーディングアシスタントの構造的な限界（本番特有のエッジケースに弱い、同じ失敗を繰り返す）を指摘する記事も複数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "A Design Space Exploration of Async/Await",
+      "url": "https://cel.cs.brown.edu/blog/design-space-async-await/",
+      "summary": "Python・Rust・C#・JavaScript・Swiftなど主要言語のasync/await実装を比較した研究論文の紹介記事。開始時の評価方式（Eager/Lazy）、await時の中断保証、タスクの生存期間や参照の強さ、キャンセル時の例外伝播など9つの設計次元を抽出している。同じような簡単な非同期プログラムでも、7つのランタイムで実行結果が一致するものが一つもなかったという検証結果を示す。async/awaitは表面上似ていても言語ごとにセマンティクスが大きく異なることを具体的なコード例で明らかにしている。",
+      "category": "research",
+      "points": 412,
+      "comments": 119,
+      "author": "wcrichton"
+    },
+    {
+      "source": "hackernews",
+      "title": "LG denies TV spying claims, says tracking and snooping concerns 'not true'",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
+      "summary": "Gamers Nexusらによる調査で、LGのスマートTV「2億1600万台」が待機中も含めて常時ログを収集・送信し、音声を録音しているとの疑惑が報じられた。これに対しLGは、音声データはリモコンの音声ボタン押下時か特定のウェイクワード認識時のみ処理し、環境音を常時録音・収集することはないと公式に否定した。ウェイクワード判定はデバイス上で行われ、認識されない限り音声データはサーバーに送信されないと説明している。一方でネットワーク上の他デバイスをスキャンする機能自体は認めており、これはスマートTV一般に共通する標準機能だとしている。",
+      "category": "security",
+      "points": 333,
+      "comments": 285,
+      "author": "datakan"
+    },
+    {
+      "source": "hackernews",
+      "title": "Nvidia is the central bank of AI",
+      "url": "https://www.economist.com/interactive/briefing/2026/09/03/nvidia-is-the-central-bank-of-ai",
+      "summary": "本文取得失敗。",
+      "category": "product",
+      "points": 308,
+      "comments": 210,
+      "author": "tolugenius"
+    },
+    {
+      "source": "hackernews",
+      "title": "Retrospectively Reverse-Engineering Apple's Neural Engine",
+      "url": "https://eiln.github.io/posts/ane.html",
+      "summary": "筆者が3年前に中断したApple Neural Engine（ANE）のリバースエンジニアリングを再開し、M1のANEの内部アーキテクチャ（演算コア・データパス・スケジューラ・メモリ・実行モデル）を詳細に解析した記事。M5でANEコアがGPUコアに統合されたことを機に、単体NPUとしてのANEの終焉を見据えつつ、当時Appleが2017年のCNN向けにどのような設計判断をシリコンに刻んだかを振り返っている。16個の演算コアはそれぞれ128〜256並列のMAC（積和演算）レーンを持ち、当時想定されていた予測可能な再利用パターンが、Transformerの自己回帰デコードによって崩れたと分析する。CNN時代からTransformer時代への計算資源設計思想の変遷を、実際のハードウェア構造から読み解く内容。",
+      "category": "infra",
+      "points": 207,
+      "comments": 29,
+      "author": "zdw"
+    },
+    {
+      "source": "hackernews",
+      "title": "The worst spam emails: iLands AI agent hustle",
+      "url": "https://tedium.co/2026/09/11/ilands-agents-email-spam-kaixin-tang/",
+      "summary": "筆者のもとに「iLands」という企業のAIエージェントから、有料で調査代行を持ちかける営業メールが短期間に十数通届いたという体験談。iLandsは「人間とエージェントのネットワーク」を謳うプラットフォームで、AIエージェント同士がFiverrのように仕事を取り合う仕組みを作っている。創業者は、これらのエージェントは自身の稼働コスト（トークン代）を稼ぐためにフリーランサーの仕事を奪いにいっていると説明しており、筆者はフリーランサーとして職を脅かされる立場から強い不快感を表明している。AIエージェント経済が人間の仕事を代替しようとする実例として紹介されている。",
+      "category": "agent",
+      "points": 98,
+      "comments": 42,
+      "author": "ColinWright"
+    },
+    {
+      "source": "zenn",
+      "title": "Herdr × git worktree × Claude Codeの相性がいい話",
+      "url": "https://zenn.dev/gemcook/articles/herdr-worktree-parallel",
+      "summary": "複数のClaude Codeを並列で動かす際、git worktreeで作業ディレクトリを分け、ターミナルマルチプレクサ「Herdr」でペインを一覧管理する構成を紹介する記事。HerdrはClaude Codeの稼働状態をサイドバーに表示でき、CLIからもworktreeの作成・削除を操作できるため、Claude Code自身にHerdrとgitのコマンドをまとめて依頼できる点が相性の良さだと説明する。さらにSessionStartフックを使い、同一リポジトリのworktreeを1つのSpace（画面）にまとめるカスタマイズも紹介している。並列開発時にどのペインが稼働中でどれが入力待ちかを一目で把握できるようになったとしている。",
+      "category": "devtool",
+      "points": 101,
+      "author": "muranakaaa"
+    },
+    {
+      "source": "zenn",
+      "title": "LLMのトークン効率化で気をつけたいことまとめ",
+      "url": "https://zenn.dev/ml_bear/articles/e5cc1047cba176",
+      "summary": "Claude CodeやCodexなどLLMをサブスクで使う際のコスト（利用枠消費）を抑えるための実践的な注意点をまとめた記事。最新モデルほど低いeffortでも旧世代の最上位モデル相当の性能を出せること、プロンプトの過剰な工夫はもう不要な場合が多いこと、タスクによっては上位モデルの方が結局安く済むこと、安易なマルチエージェント化はコンテキスト重複でかえって高くつきやすいことを指摘する。後半ではプロンプトキャッシュの仕組みと、effortやモデルを頻繁に切り替えるとキャッシュが失効してコストが跳ね上がる点、キャッシュの有効期限（サブスクで1時間、従量課金や上限超過で5分など）にも触れている。",
+      "category": "devtool",
+      "points": 74,
+      "author": "ML_Bear"
+    },
+    {
+      "source": "zenn",
+      "title": "HTMLを社内共有するサービスを、コードを読まずに作る - 1人で25万行を回す自動運用の記録",
+      "url": "https://zenn.dev/coji/articles/solo-software-factory-without-reading-code",
+      "summary": "開発者がコードを一切読まずにAIエージェントだけで25万行規模の本番Webサービスを1人で開発・運用してきた記録。開発初期はガードレールなしで走らせ、事故が起きるたびに対策を追加する「ノーガード運転」で進め、現在は人間が関与するのを最初のIssue作成と最後のPRマージ確認の2箇所だけに絞っている。中間には「仕様書ループ」と「実装ループ」という2つのAIレビューループがあり、CodexとClaude Codeを並列で走らせて双方のブロッカーがゼロになるまで修正を繰り返す仕組みを構築している。レビューを終わらせるため、指摘を「ブロッカー」「先送り」「対応不要」の3種に分類し、その場で直すのはブロッカーのみに限定する工夫も紹介されている。",
+      "category": "agent",
+      "points": 144,
+      "author": "Coji Mizoguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "なぜエージェントハーネスで開発パイプラインを作っているのか",
+      "url": "https://zenn.dev/xtm_blog/articles/689d035440c0ae",
+      "summary": "京都芸術大学のクロステック・マネジメントが、docker-agentを基盤に要求仕様書からPull Request生成までを自動化するマルチエージェントの開発パイプラインを内製している理由を解説する記事。人間によるコードレビューがAIによる実装速度向上のボトルネックになっている点と、今後のプロダクト数増加に人員が追いつかない見込みが内製の動機だとしている。パイプラインは設計ステージと実装ステージに分かれ、各工程をスクリプトが機械的に通過判定し、ADRやコード規約との照合まで自動化することを目指す。基盤としてOpenHands SDKやClaude Agent SDKではなくdocker-agentを選んだ理由は、特定モデルに依存しないマルチモデル対応と権限・サンドボックスの標準装備、高いカスタマイズ性にあると述べている。",
+      "category": "agent",
+      "points": 45,
+      "author": "laiso"
+    },
+    {
+      "source": "zenn",
+      "title": "Agent Skillは振る舞いとナレッジを分けて設計する",
+      "url": "https://zenn.dev/socialplus/articles/f5d9e28470eb99",
+      "summary": "Claude Codeのチーム導入を進める中で、Agent Skillの設計方針として「振る舞い（やり方）」と「ナレッジ（観点）」を分離する手法を紹介する記事。当初は単一責任の原則でスキルを分割しても、レビュー観点などのナレッジが増えるたびにSKILL.md本文の自然言語が肥大化し保守が困難になったという。そこでSKILL.md本体には変わらない手順だけを残し、レビュー観点などの変わりやすい知識をreferences配下の別ファイルに切り出したところ、変更コストが大幅に下がったとしている。この分離はチーム利用時に特に有効で、メンバーごとの視点をナレッジ側にだけ追加でき、職能を超えたスキル配布もしやすくなったと述べている。",
+      "category": "agent",
+      "points": 39,
+      "author": "takubii"
+    },
+    {
+      "source": "devto",
+      "title": "Why AI Keeps Making the Same Coding Mistakes—And How Teaching It Pain Gives It Wisdom",
+      "url": "https://dev.to/gde/why-ai-keeps-making-the-same-coding-mistakes-and-how-teaching-it-pain-gives-it-wisdom-4a9m",
+      "summary": "AIコーディングアシスタントが簡単なデモでは優秀に見えても、本番環境特有の「サッドパス」（二重クリック、ネットワーク遅延、リソースリークなど）で繰り返し同じ失敗をする理由を論じる記事。学習データの大部分が教育的な「ハッピーパス」中心であるため、AIは自然とその種のコードに偏りやすいと説明する。また「〜するな」という否定的な指示を並べるルール文書は、かえってモデルの注意をその禁止パターンに引き寄せてしまい、あまり機能しないと指摘している。会話ごとに文脈がリセットされる「統計的健忘症」も、同じ間違いを繰り返す一因として挙げられている。",
+      "category": "devtool",
+      "points": 6,
+      "comments": 3,
+      "author": "Randal L. Schwartz",
+      "tags": [
+        "ai",
+        "programming",
+        "architecture",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "When Skill Evolution Means Removing Instructions",
+      "url": "https://dev.to/renanfranca/when-skill-evolution-means-removing-instructions-3484",
+      "summary": "AIエージェントのSkill設計に関する2つの研究（ACES/Skill Lift、GoogleのWikiSkill）と、筆者自身の実験を結びつけた記事。WikiSkillは経験の蓄積・知識・実行可能なスキルを分離し、弱いモデル向けの工夫が強いモデルではかえって制約や無駄なツール呼び出しを招く場合があると示す。筆者は自作スキルを228行から165行へ削減し、固定的な計画構造を減らして条件付きの情報や柔軟性をモデルに委ねたところ、同等の品質を保ちつつ入出力トークンを約18%削減できたと報告している。この経験から、スキルの進化とは指示を増やすことではなく、モデルの向上に伴って不要になった制約を取り除くことでもあると結論づけている。",
+      "category": "agent",
+      "points": 6,
+      "comments": 2,
+      "author": "Renan Franca",
+      "tags": [
+        "ai",
+        "agents",
+        "tooling",
+        "learning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I just did something my AI agents couldn't",
+      "url": "https://dev.to/effessdev/i-just-did-something-my-ai-agents-couldnt-pmi",
+      "summary": "ESP-IDFプロジェクトでコードをcomponentsフォルダに整理しようとした際、Gemini各種やDeepSeek、GitHub Copilotなど複数のAIに数日間助けを求めても解決できなかった体験談。原因はCMakeのコンポーネント依存解決に関わる#includeパスの問題で、AIはいずれも誤ったREQUIRES名を提示し続け、修正できなかったという。筆者は最終的に自分でGoogle検索して正しい設定を見つけ、1行の修正で解決した。AIに丸投げするのではなく自分でコードを編集し始めたことで、初めて根本原因に気づけたと振り返っている。",
+      "category": "devtool",
+      "points": 12,
+      "comments": 7,
+      "author": "EffessDev",
+      "tags": [
+        "ai",
+        "devjournal",
+        "programming",
+        "automation"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I read 500 'AI will replace developers' posts. They all make the same 3 mistakes.",
+      "url": "https://dev.to/infoinlet1/i-read-500-ai-will-replace-developers-posts-they-all-make-the-same-3-mistakes-3819",
+      "summary": "30日間AIに100%コードを書かせる実験を行った筆者が、「AIが開発者を置き換えるか」を論じる数百の記事に共通する3つの誤りを指摘する記事。1つ目は、コード生成速度という「タイピング」の巧拙を議論しているに過ぎず、実際に重要なのはどのコードが必要か・いつ間違っているかを見抜く判断力だという点。2つ目は、AIがジュニア相当の作業を吸収したことでスキルの階段（ジュニアからシニアへの成長経路）そのものが崩れつつあるのに、階段の形が変わらない前提で議論している点。3つ目は、どちらの立場もデモや理想的な場面だけを根拠にしており、本番運用の厳しい現実を基準にしていない点を挙げている。",
+      "category": "product",
+      "points": 19,
+      "comments": 5,
+      "author": "Info Inlet",
+      "tags": [
+        "ai",
+        "webdev",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Interviewed an Executable. It Had Notes.",
+      "url": "https://dev.to/copyleftdev/i-interviewed-an-executable-it-had-notes-1k3e",
+      "summary": "マルウェア解析サンドボックスの挙動を逆手に取り、自作のRust製実行ファイルに偽の製品情報（トークン計測バイパスツール）を持たせてVirusTotalに提出し、実行環境の情報をDNSとHTTPS経由で収集させた実験レポート。OSバージョンやCPU・メモリ量、起動パス、解析ツールらしきプロセス名の有無などをBoot・Profiled・Networked・Dwellの4段階でチェックポイントとして送信させ、21件の実行IDにわたり353件のイベントを記録したという。収集した情報から、どの解析基盤がどの時点で何を観測できているかを可視化する試みで、資格情報やドキュメント内容の収集、VM検知による実行回避は行っていないと明記している。マルウェア解析環境そのものの観測能力を逆に調査するユニークなセキュリティ研究。",
+      "category": "security",
+      "points": 1,
+      "comments": 2,
+      "author": "Don Johnson",
+      "tags": [
+        "security",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AWSのインフラ導入でAIを使っている箇所と手でやっている箇所",
+      "url": "https://qiita.com/infra365/items/aa30a54fc6f0849385a7",
+      "summary": "AWS上へのEC2構築・パッチ適用・バックアップ・監視導入を例に、要件定義から運用までの工程のうちAIを活用できている部分とできていない部分を整理した記事。マネジメントコンソールで実際の挙動を細かく確認する「検証」フェーズと、設計書・パラメータシート作成の一部は依然として手動作業が多く、ボトルネックになっていると分析する。一方、構築・試験フェーズはIaCコード生成や構築・試験手順書の自動生成など多くがAIで自動化できているという。検証フェーズで時間をかけてシステムの挙動を理解しているからこそ後続工程を自動化できており、この工程は今後もあえて手動で時間をかけるべきだと結論づけている。",
+      "category": "infra",
+      "author": "infra365"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Managed AgentsにIaC的に管理する機能が追加されたゾ!!",
+      "url": "https://qiita.com/moritalous/items/2168025729eb840d5143",
+      "summary": "Anthropicのant CLI v1.30.0で、Claude Managed Agentsのリソース（エージェント・環境設定）をコードとして管理する「apply」コマンドが追加されたことを紹介する記事。エージェント定義をMarkdown、実行環境をYAMLで記述し、Terraformのようにant apply --dry-runで変更内容をプレビューしてからapplyで実際にリソースを作成できる。実際にMicrosoft Learn MCPサーバーを使うAZ-900学習用エージェントと、アクセス先を限定したサンドボックス環境を作成する手順をハンズオン形式で示している。適用結果はclaude-lock.jsonという状態ファイルに記録され、IaC的なワークフローがManaged Agentsにも導入されたことを示す内容。",
+      "category": "agent",
+      "author": "moritalous"
+    },
+    {
+      "source": "qiita",
+      "title": "AI時代のコードレビューは、「AIから学びを得る貴重な機会」だったという話",
+      "url": "https://qiita.com/nagi-0106/items/14ebb10e7c8dc9bf470b",
+      "summary": "入社2年強のフロントエンドエンジニアが、新人がAIで書いたコードをレビューした経験から、AI時代のコードレビューの意義を考察する記事。自分もAIによるレビューに頼らざるを得なかった一方、AIが書いた見慣れないロジックに向き合うこと自体が学びの機会になると気づいたという。AIのレビュー結果は自分で修正しないぶん、指摘の妥当性の吟味に集中できる利点があり、自分の違和感とAIの指摘のずれに気づくことで自身の理解の正確さを確認する機会にもなると述べている。AIに頼り切りになりがちな若手エンジニアに向けて、レビューを学びに変える視点の転換を提案している。",
+      "category": "devtool",
+      "author": "nagi-0106"
+    },
+    {
+      "source": "qiita",
+      "title": "ハーネスの次に来るもの ― Causal ReasoningでAIエージェントはどう変わるか？",
+      "url": "https://qiita.com/ryosuke_ohori/items/f8eaad0ddba954e2ebb6",
+      "summary": "Agentic AIの主役がLLM単体からそれを取り巻くAgent Harnessへ移りつつある現状を踏まえ、その先にCausality（因果）とIntrospection（内省）が重要になると論じる記事。Reasoning LoopのPlan→Execute→Observe→Reflect→Re-planは非決定的であり、業務ワークフローには本来「なぜBが必要か」という因果構造が含まれていると指摘する。LLMは相関関係を大量に学習しているが、相関と因果は異なり、行動が現実の状態を変えるAgentにおいてはこの違いが重大な問題になり得ると説明する。企業の業務プロセスが元来因果的であることから、Causal Reasoningを組み込んだAgentの必要性を提起する内容。",
+      "category": "agent",
+      "author": "ryosuke_ohori"
+    },
+    {
+      "source": "qiita",
+      "title": "3匹のAIエージェントだけで、Webアプリを企画〜本番デプロイまで作った話（人間はほぼ指示しただけ）",
+      "url": "https://qiita.com/chiitata/items/2c2ad3d8d7398b89aee8",
+      "summary": "人間から「協力してWebアプリを作って、Vercel本番デプロイまで」という一言だけを受け、3体のAIエージェント（進行・インフラ担当のFizz、ライティング担当のHoney、実装・検証担当のPollen）が役割分担を自分たちで交渉しながらポモドーロ＋タスクボードアプリを完成させた記録。開発中、PollenがFizzの生成物に自分のファイルが上書きされていることに気づき、同じディスクを共有している事実をエージェント同士で発見・共有し、その場で「ファイル単位の単独所有」などの衝突回避ルールを策定し直した様子が紹介されている。実装ではReact 19のLintルールへの対応としてuseSyncExternalStoreを用いた書き換えも行われ、最終的にFizzがデプロイした後、PollenとHoneyがそれぞれ独立に本番URLを検証した。人間が一切介入せずAIだけで誤りに気づき修正し協働した点が見どころとして描かれている。",
+      "category": "agent",
+      "author": "chiitata"
+    }
+  ]
+}

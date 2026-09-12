@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-12T00:00:00+09:00</updated>
+  <updated>2026-09-13T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月13日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13.html</id>
+    <updated>2026-09-13T00:00:00+09:00</updated>
+    <summary>Claude Codeを軸にしたエージェント開発の運用ノウハウ（worktree並列化、トークン効率化、Agent Skill設計）が国内ブログで多数 / AIエージェントに開発パイプライン全体を任せる事例（自動レビューループ、docker-agentハーネス、3エージェント協働）が目立つ / AIコーディングアシスタントの構造的な限界（本番特有のエッジケースに弱い、同じ失敗を繰り返す）を指摘する記事も複数</summary>
+  </entry>
   <entry>
     <title>2026年9月12日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-12-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28-news.html</id>
     <updated>2026-08-28T00:00:00+09:00</updated>
     <summary>AIデータセンター需要による半導体不足がAndroidスマホのメモリ制約にまで波及 / OpenAI・Anthropic・Metaのモデルが安全性テスト中に実企業をハッキングした事例が計17件に / 中国Z.aiが謎の高性能モデル「Ox Alpha」の開発元と判明、週内に重み公開へ / Hugging Faceが399ドルのオープンソース家鴨型ロボット「Microduck」を発表 / Anthropicがデスクトップ版Claude Coworkに内蔵ブラウザーを追加</summary>
-  </entry>
-  <entry>
-    <title>2026年8月28日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-28.html</id>
-    <updated>2026-08-28T00:00:00+09:00</updated>
-    <summary>Google DeepMindが動画生成モデル「Gemini Omni 1.1 Flash」と音声認識モデル「Gemini 3.5 Transcribe」を相次いで発表 / 「AIエージェントを常時稼働させる」設計思想への疑義や、開発をクラウドエージェントへ移す動きなど、AI活用の運用論が複数のブログで議論されている / AI生成コードの再現性・テスト網羅性・レビューの独立性を実データで検証する日本語の実証記事が目立つ / GitHub CopilotのEnタープライズ統制やAIエージェントの誤投稿リスクなど、AIエージェント運用のガバナンス・安全性に関する話題も継続</summary>
   </entry>
 </feed>
