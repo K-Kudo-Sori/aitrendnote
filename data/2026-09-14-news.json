@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-14",
+  "generatedAt": "2026/9/14 8:07:53",
+  "highlights": [
+    "サカナAIが複数モデルを束ねる新オーケストレーターモデルを発表し、コスト・性能の両面で話題に。",
+    "AIの実存的リスクを巡る研究者・要人からの警告が相次ぎ、オバマ氏も民主党にAI政策の明確化を要求。",
+    "Googleがモバイル向けエージェント開発キットを正式リリースし、開発者エコシステムを拡大。",
+    "投資業界ではOpenAI・Anthropicへの一極集中に対する慎重論も浮上。",
+    "Yコンビネーターの最新デモデーは深層技術（ディープテック）色が強まった。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "サカナAI、複数モデルを束ねるオーケストレーターモデル「Fugu Max」と「Fugu Ultra v2」を発表",
+      "url": "https://www.marktechpost.com/2026/09/10/sakana-ai-launches-fugu-max-and-fugu-ultra-v2-for-cheaper-stronger-multi-agent-orchestration/amp/",
+      "summary": "サカナAIは2026年9月10日、単一モデルではなく複数モデルにタスクを振り分けて統合する「オーケストレーター」型モデルFugu MaxとFugu Ultra v2をAPIとして公開した。Fugu Maxは既存モデルより4〜6割安い価格で複数ベンチマークで高スコアを記録し、Fugu Ultra v2は視覚推論やソフトウェア工学系のベンチマークで自社より高価なモデルを上回る性能を示した。両モデルとも自社の主力モデル（Fable 5やGPT-6-Astra）には依存せず、ベンダーロックインを避ける設計になっている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "オバマ氏、民主党にAIの安全策について「明確な計画」を持つよう促す",
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "summary": "バラク・オバマ元大統領は2026年9月13日、民主党の資金集めイベントでハキーム・ジェフリーズ下院院内総務との対談に応じ、AIを民主党の中心的な政策課題とし、経済的・安全面での影響に対する「明確な計画」を持つべきだと訴えた。オバマ氏はAIが民間主導で急速に進歩している現状に懸念を示しつつ、創薬など恩恵にも言及し、AIについて公に議論する枠組みの必要性を提案した。発言はAnthropicの研究者による安全面を理由にした退職表明などを受けたものとされる。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AI業界で相次ぐ「破滅的リスク」警告の背景とは",
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "summary": "AnthropicおよびOpenAIに在籍していた研究者ジェイコブ・コクソン氏が「業界は人命を賭けたギャンブルをしている」として退職を表明し、Anthropicのアライメント担当者も「今後10年で10%を超える確率でAIが人類に破滅的被害をもたらし得る」との見解を示すなど、実存的リスクへの警告が相次いでいる。背景にはHugging Faceへのセキュリティ侵害やAIエージェントの想定外の挙動の報告があり、Anthropicの上場を控えるタイミングとも重なることから、こうした警告が投資家心理やビジネス上の思惑と結び付いているのではという議論も出ている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Kotlin向けエージェント開発キット「ADK for Kotlin 1.0」を正式リリース",
+      "url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+      "summary": "Googleは2026年9月9日、Kotlin・Java・Android向けにAIエージェントを構築できる「Agent Development Kit（ADK）for Kotlin」の正式版（1.0）をリリースし、Python/Java版のADK Coreと機能面で同等になった。階層型マルチエージェント構成や人間参加型の確認フロー、LiteRT-LMやML Kitを使ったオンデバイス推論、Room/AppSearchによる状態の永続化などをサポートし、サーバー側とモバイル端末側の両方で実運用に耐えるエージェント開発を目指す。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "インサイト・パートナーズのデビン・パレク氏、OpenAIやAnthropicへの一極集中に頼らない分散投資戦略を語る",
+      "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/",
+      "summary": "運用資産900億ドル規模のベンチャー投資会社インサイト・パートナーズのデビン・パレク氏は、多くのファンドが資金の35〜40％をOpenAIやAnthropicに集中投下する中、自社はあえて分散投資を続けていると説明した。同氏は「もしファンドの25％をAnthropicに投じていれば短期的な利回りは良く見えるだろう」と一極集中の誘惑を認めつつ、長期的にはベンチャー投資の歴史が過度な集中よりも分散を評価してきたと述べ、優れた創業者と有望市場の発掘を重視する姿勢を強調した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Yコンビネーターの最新デモデーで注目を集めた9つのスタートアップ",
+      "url": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
+      "summary": "Yコンビネーターの2026年9月デモデーでは、投資家から「まるでSFのようだ」と評されるほどディープテック色の強いスタートアップが目立ち、原子力駆動の海上データセンターや、AIデータセンター向け光ネットワーキング機器、推論特化のカスタムAIチップ、脳細胞を使った計算基盤、家庭用ヒューマノイドロボット、自然言語でロボットを操作するAPI層など多様なテーマの企業が投資家の注目を集めた。全体として評価額は近年の回よりも地に足のついた水準になったという。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-09-14-news"
+}
