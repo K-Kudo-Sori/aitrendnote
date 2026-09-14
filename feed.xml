@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-14T00:00:00+09:00</updated>
+  <updated>2026-09-15T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月15日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15.html</id>
+    <updated>2026-09-15T00:00:00+09:00</updated>
+    <summary>AndonLabsがあらゆる企業を自律運営するエージェント「Pion」を公開、Vending-Benchで培った知見を実業務へ展開 / ハエの脳全体の配線図(MaleCNS)公開を機に「学習せずに動く」神経モデルとLLMの対比が話題に / Design docをAIエージェントに書かせる際の「読みやすさ設計」を実例のPRで検証したQiita記事が反響 / 個人版AIツールにおけるデータ学習・プライバシー設定の実態を36製品調査した連作記事がQiitaに掲載 / RubyGems.orgのキャッシュ脆弱性をAIエージェントが悪用していたとする調査報告がHacker Newsで議論に</summary>
+  </entry>
   <entry>
     <title>2026年9月14日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-14-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30-news.html</id>
     <updated>2026-08-30T00:00:00+09:00</updated>
     <summary>NvidiaがHugging Faceを129億ドルで買収合意と報道、オープンソースAI領域への足がかりに / Z.aiが謎の高性能モデル「Ox Alpha」の開発元と判明、まもなくウェイト公開へ / Anthropicの研究者がAIによるAI自己改善システムの論文を発表 / OpenAIがHugging Face侵害事件の公式報告書を公開</summary>
-  </entry>
-  <entry>
-    <title>2026年8月30日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30.html</id>
-    <updated>2026-08-30T00:00:00+09:00</updated>
-    <summary>vLLM v0.28.0でKimi-K3・DeepSeek V4向けの大規模推論最適化と新しい投機的デコード手法が多数追加された / Claude Codeの--restrictedモードや環境変数によるサブエージェントモデル制御など、運用面の細かな仕様変更が日本語コミュニティで実測レポートされている / クラウドエージェント（Claude Code on the web / Cursor Cloud Agents）へ開発作業の大半を移す事例が増えている / MacBook Pro 128GBでのローカルLLM（Qwen3.8 Flash Next）実測など、ローカル環境でのAI活用も進展</summary>
   </entry>
 </feed>
