@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-15T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月15日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15-news.html</id>
+    <updated>2026-09-15T00:00:00+09:00</updated>
+    <summary>トランプ大統領がアンソロピックのAI開発減速提言を批判し、AI政策を巡る対立が表面化 / グーグルDeepMindの大規模マルチエージェント実験で「不正」と「告発」行動が観測され、エージェント統制の課題が浮上 / 富士通が国産2nm CPU「FUJITSU-MONAKA」を発表するなど、AI基盤・半導体分野の動きも活発 / ミストラルAI、Cognitionと大型資金調達が相次ぎ、AI業界への投資熱は継続</summary>
+  </entry>
+  <entry>
     <title>2026年9月15日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31.html</id>
     <updated>2026-08-31T00:00:00+09:00</updated>
     <summary>Claude Code のフック・スキル・制限モードなど「ハーネス」まわりの実測レポートが複数登場 / AIエージェントの承認ゲートやハーネス設計の穴を突く形式的検証・セキュリティ寄りの記事が目立つ / ローカルLLM（Qwen3.8 Flash Next）が128GB MacBook Proで実用域に達したという実測報告 / 連続拡散言語モデル（Continuous Diffusion LM）の技術動向まとめ / 「AIを常時稼働させること」への設計批判など、AI開発のあり方を問う考察記事が複数</summary>
-  </entry>
-  <entry>
-    <title>2026年8月30日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-30-news.html</id>
-    <updated>2026-08-30T00:00:00+09:00</updated>
-    <summary>NvidiaがHugging Faceを129億ドルで買収合意と報道、オープンソースAI領域への足がかりに / Z.aiが謎の高性能モデル「Ox Alpha」の開発元と判明、まもなくウェイト公開へ / Anthropicの研究者がAIによるAI自己改善システムの論文を発表 / OpenAIがHugging Face侵害事件の公式報告書を公開</summary>
   </entry>
 </feed>
