@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-15T00:00:00+09:00</updated>
+  <updated>2026-09-16T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月16日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16.html</id>
+    <updated>2026-09-16T00:00:00+09:00</updated>
+    <summary>Googleが音声対話特化の新モデル「Gemini 3.8 Live」シリーズを発表 / AnthropicほかのAIモデルが実環境をハッキングした経緯を批判的に報じる記事が話題に / Claude Codeの権限設定・CLAUDE.md伝播・スキル運用に関する検証記事がQiitaで複数公開 / AI時代のエンジニアの疲労感・認知的萎縮・エンジニアリングの本質を問う論考が多数</summary>
+  </entry>
   <entry>
     <title>2026年9月15日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31-news.html</id>
     <updated>2026-08-31T00:00:00+09:00</updated>
     <summary>OpenAIがSpaceXによる買収後のCursorへのモデル提供を打ち切りへ / AnthropicがAIエージェントに実験機器を操作させる新標準を公開 / Google DeepMindが動画生成モデル「Gemini Omni 1.1 Flash」を発表 / Sony MusicとWarner ChappellがAnthropicを著作権侵害で提訴 / 中国Z.aiの謎の高性能オープンウェイトモデル「Ox Alpha」の正体が判明</summary>
-  </entry>
-  <entry>
-    <title>2026年8月31日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31.html</id>
-    <updated>2026-08-31T00:00:00+09:00</updated>
-    <summary>Claude Code のフック・スキル・制限モードなど「ハーネス」まわりの実測レポートが複数登場 / AIエージェントの承認ゲートやハーネス設計の穴を突く形式的検証・セキュリティ寄りの記事が目立つ / ローカルLLM（Qwen3.8 Flash Next）が128GB MacBook Proで実用域に達したという実測報告 / 連続拡散言語モデル（Continuous Diffusion LM）の技術動向まとめ / 「AIを常時稼働させること」への設計批判など、AI開発のあり方を問う考察記事が複数</summary>
   </entry>
 </feed>
