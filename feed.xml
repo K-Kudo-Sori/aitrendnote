@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-16T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月16日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16-news.html</id>
+    <updated>2026-09-16T00:00:00+09:00</updated>
+    <summary>OpenAI・Anthropic・Google DeepMindが業界横断のAI安全標準団体設立に向けて協議を継続 / SalesforceとNvidiaが企業向け推論モデル「Koa」を発表、フロンティアモデルの代替を狙う / AIエージェントの安全性を第三者監査するAIUCなど、エージェント統治・セキュリティ関連の動きが活発化</summary>
+  </entry>
+  <entry>
     <title>2026年9月16日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01.html</id>
     <updated>2026-09-01T00:00:00+09:00</updated>
     <summary>AppleがMac Studio/miniの新モデルを異例のタイミングで発表。背景は企業のAI用途需要の急増 / Claude Code周りの実践記事が多数。hooksの実測知見、個人設定、丸投げしないAI開発手法など / Agent Skillの導入コスト比較（自作3,225トークン vs 導入90,000トークン）が話題に / AIチャット34製品の利用規約比較で、データが学習・閲覧・保存される経路を整理 / AWS DevOps Agentによる自動コードレビュー・検証テストの実践レポート</summary>
-  </entry>
-  <entry>
-    <title>2026年8月31日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-08-31-news.html</id>
-    <updated>2026-08-31T00:00:00+09:00</updated>
-    <summary>OpenAIがSpaceXによる買収後のCursorへのモデル提供を打ち切りへ / AnthropicがAIエージェントに実験機器を操作させる新標準を公開 / Google DeepMindが動画生成モデル「Gemini Omni 1.1 Flash」を発表 / Sony MusicとWarner ChappellがAnthropicを著作権侵害で提訴 / 中国Z.aiの謎の高性能オープンウェイトモデル「Ox Alpha」の正体が判明</summary>
   </entry>
 </feed>
