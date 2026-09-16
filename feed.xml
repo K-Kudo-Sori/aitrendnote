@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-17T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月17日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17-news.html</id>
+    <updated>2026-09-17T00:00:00+09:00</updated>
+    <summary>AIエージェントが実世界のデバイスやワークスペースに深く統合される動きが加速（Google HomeのMCP対応、Claude Chat/Coworkの統合）。 / Anthropic・OpenAI・Googleがサイバーセキュリティ向けAIモデルとセーフガードを相次いで発表。 / AnthropicのアモデイCEOが第三者安全性評価者の組み込みを提案するなど、フロンティアAIのガバナンス論議が本格化。 / 上海AI研究所が744BパラメータのオープンソースエージェントモデルAtria Dawn Previewを公開。 / 中国Z.AIが株式・社債で50億ドルを調達し次世代GLMモデル開発に…</summary>
+  </entry>
+  <entry>
     <title>2026年9月17日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02.html</id>
     <updated>2026-09-02T00:00:00+09:00</updated>
     <summary>Anthropicが新モデル「Claude Fable 5.1」「Claude Mythos 5.1」を発表。コスト削減とセーフガード改善が柱。 / GoogleとPurdue大学がエージェントの文脈膨張問題を解決する新手法「SKILL.state」を提案。 / Claude Codeのモデル切り替え時のプロンプトキャッシュ破棄コストを実測した記事が話題に。 / AI開発の実務Tips（技術的負債、アーキテクチャ設計、外部イベント駆動のエージェント運用）が複数掲載。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月1日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html</id>
-    <updated>2026-09-01T00:00:00+09:00</updated>
-    <summary>Google が動画生成モデル「Gemini Omni 1.1 Flash」を公開、40秒シーン拡張と4K対応で実運用レベルに / Anthropic が Claude Code の公式プラグインディレクトリを開設し、拡張エコシステムを整備 / Sony Music・Warner Chappell が Anthropic を著作権侵害で提訴、音楽業界とAI企業の対立が激化 / ServiceNow の AI Platform に CVSS 10.0 の重大脆弱性、未認証での任意コード実行が可能な状態だった</summary>
   </entry>
 </feed>

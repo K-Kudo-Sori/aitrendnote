@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026/9/17 8:07:29",
+  "highlights": [
+    "AIエージェントが実世界のデバイスやワークスペースに深く統合される動きが加速（Google HomeのMCP対応、Claude Chat/Coworkの統合）。",
+    "Anthropic・OpenAI・Googleがサイバーセキュリティ向けAIモデルとセーフガードを相次いで発表。",
+    "AnthropicのアモデイCEOが第三者安全性評価者の組み込みを提案するなど、フロンティアAIのガバナンス論議が本格化。",
+    "上海AI研究所が744BパラメータのオープンソースエージェントモデルAtria Dawn Previewを公開。",
+    "中国Z.AIが株式・社債で50億ドルを調達し次世代GLMモデル開発に投資。"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "上海AI研究所、744BパラメータのエージェントMoEモデル「Atria Dawn Preview」を公開",
+      "url": "https://huggingface.co/internlm/Atria-Dawn-Preview",
+      "summary": "上海人工知能研究所が、GLM-5.2を基盤とする744BパラメータのMoE型エージェントモデル「Atria Dawn Preview」をMITライセンスでHugging Faceに公開した。256Kのコンテキスト長を持ち、継続的な環境理解・ツール使用・複数ステップのタスク遂行を通じて、研究・エンジニアリングなどの実務での自律的な問題解決を目指す設計となっている。発見・創造・配信・サイバーセキュリティの4領域でのエージェントタスクを想定している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AIエージェントがGoogle Homeデバイスを制御可能に",
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/",
+      "summary": "Googleは、Claude・ChatGPTなどMCP対応のAIエージェントがGoogle Homeデバイスを制御できる新しいMCPサーバーのアーリーアクセスを開始した。自然言語の指示でカメラ映像の要約確認、スマートホームの状態監視、接続デバイスの操作が可能になる。当面はGoogle Home Premium Advanced（月額20ドル）の購読者向けに段階的展開される。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、Claude ChatとCoworkを1つのインターフェースに統合",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/",
+      "summary": "Anthropicは、Claude Chat・Cowork・Artifactsを同一ウィンドウから利用できるよう統合し、リクエストに応じてAIが自動的に適切な機能へルーティングする仕組みを導入した。同時にプレゼンテーションやドキュメントの作成・編集機能も追加し、PDFやPowerPoint形式でのエクスポートに対応した。新機能はまずProおよびMaxプランのユーザー向けに提供され、その後無料版・チームプランへ展開される予定。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google・Anthropic・OpenAI、サイバーセキュリティ向けAIモデルとセーフガード、アクセスプログラムを発表",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "summary": "Googleは「Gemini 3.8 Flash Cyber」を発表し、650社超のパートナーに「Fairwind Program」を通じた早期アクセスを提供する。Anthropicは「Claude Fable 5.1」「Claude Mythos 5.1」で、脆弱性の発見は許可しつつ実際のペネトレーションテストなど悪用行為を制限する方針を採用した。OpenAIはAstraモデルがサイバーセキュリティの重要基準を満たし、ジェイルブレイク要求の91.5%を拒否すると発表しており、3社とも防御側の利益とモデル悪用防止の両立に投資している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AnthropicとOpenAI、AI安全性評価者を社内に組み込みへ―独立性は本物か",
+      "url": "https://techcrunch.com/2026/09/16/anthropic-and-openai-want-to-embed-safety-evaluators-will-they-really-be-independent/",
+      "summary": "AnthropicのダリオCEOは、フロンティアAI企業すべてに訓練プロセス全体へアクセス可能な第三者安全性評価者を組み込み、重要な発見を企業の編集支配なしに公表する権利を与えるべきだと提案した。OpenAIのサム・アルトマンも同様の取り組みへのコミットを表明している。一方で研究者らは、企業が実際に独立性を尊重するかは不透明であり、実効性の確保には法制化が必要だと指摘している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "中国Z.AI、株式売却と社債発行で50億ドルを調達",
+      "url": "https://www.globaltimes.cn/page/202609/1370482.shtml",
+      "summary": "中国のAI開発企業Z.AI（智譜）は、香港での株式売却（約20億ドル）と2027年満期のゼロクーポン転換社債発行（約30億ドル）を通じて、合計約50億ドルの資金調達を発表した。調達資金の約60%は次世代GLM基盤モデルの研究開発、大規模学習・推論インフラの拡充、商用化のスケールアップに充てられる予定。中国のAI開発企業が研究開発投資を加速させる動きの一環となる。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-09-17-news"
+}
