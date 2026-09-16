@@ -1,0 +1,251 @@
+{
+  "date": "2026-09-17",
+  "generatedAt": "2026/9/17 7:06:39",
+  "highlights": [
+    "小規模モデルの強化学習によるPostgresクエリプラン最適化やターナリLLMの省メモリ化など、モデル・推論効率化の研究が進展。",
+    "MistralとMozillaが提携し、Firefoxのブラウザアシスタント「Smart Window」をMistralモデルで駆動するプライバシー重視のAI連携を発表。",
+    "Claude CodeやCodex、Copilotなど開発エージェントの実運用知見（ドキュメント品質、コードレビュー、権限管理の脆弱性）に関する記事が多数。",
+    "AI時代のエンジニア採用基準やスクラムの終焉など、開発組織・働き方への影響を論じる記事も目立った。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "url": "https://rohanbansal.com/qorl",
+      "summary": "筆者は、Postgresのデフォルトのクエリオプティマイザを上回るクエリプランを生成できるかを検証するため、40億パラメータのオープンウェイトモデルを教師ありファインチューニングとエージェント型強化学習で後学習させた。独自のGRPOバリアントでノイズの多い実行環境でのRLロールアウトを評価し、2台のマシンにvLLMとトレーナー、複数のPostgresコンテナを分散配置する測定基盤を構築した。結果として、113件のJOINを含むクエリで平均44.7%のレイテンシ削減を達成し、当初99件でプラン生成すらできなかったモデルが大幅に改善した。GPT系エージェントの軌跡を用いたオフポリシー蒸留も活用している。",
+      "category": "research",
+      "points": 252,
+      "comments": 43,
+      "author": "polyphilz"
+    },
+    {
+      "source": "hackernews",
+      "title": "Breaking the 1.58-bit Barrier for Ternary LLMs",
+      "url": "https://arxiv.org/abs/2609.16338",
+      "summary": "本論文は、{-1,0,+1}の3値で重みを表現するターナリLLMの省メモリ格納手法を提案する研究である。従来の5トリットパッキングは各記号が等確率という前提を置くが、実際には29個のターナリLLMモデルを調査したところゼロが最大51.5%を占めることが判明した。この偏りを活用した新手法BITCOSは、密なプレゼンスビットマップと圧縮した符号ベクトルを組み合わせ、ゼロ密度に応じて1重みあたり2-zビットまで削減する。BITCOSは29モデル中26モデルで既存手法より省メモリになり、AVX-512やXe2 GPUでの高速な展開処理も実現し、CPUで最大1.18倍、GPUで最大1.27倍のデコードスループット向上を確認した。",
+      "category": "model",
+      "points": 50,
+      "author": "matt_d"
+    },
+    {
+      "source": "hackernews",
+      "title": "Xiaomi Mimo 2.6 live post-training dashboard",
+      "url": "https://mimo.xiaomi.com/rl/",
+      "summary": "本文取得失敗。Xiaomi Mimo 2.6のポストトレーニング状況をリアルタイムに表示するダッシュボードページで、モデルの学習進捗をライブで公開している模様だが、詳細な本文は取得できなかった。",
+      "category": "model",
+      "points": 126,
+      "comments": 38,
+      "author": "krackers"
+    },
+    {
+      "source": "hackernews",
+      "title": "Vectorized and performance-portable Quicksort (2022)",
+      "url": "https://opensource.googleblog.com/2022/06/Vectorized%20and%20performance%20portable%20Quicksort.html",
+      "summary": "GoogleがオープンソースとしてSIMD命令を活用した高速なクイックソート実装を紹介する記事（2022年公開）。AVX-512等の持つcompress-store命令を用いてパーティション処理を高速化し、Arm SVE、RISC-V V、x86 AVX-512など6命令セット・3アーキテクチャに移植可能な実装をHighwayライブラリ上に構築した。標準ライブラリのstd::sortと比較して9〜19倍の高速化を達成し、Apple M1やIntel Skylake上で従来のアーキテクチャ特化実装を上回る性能を記録している。16〜128ビットの幅広いデータ型に対応する点も特徴。",
+      "category": "infra",
+      "points": 156,
+      "comments": 24,
+      "author": "mococa"
+    },
+    {
+      "source": "hackernews",
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "summary": "MistralとMozillaは、プライバシーと選択の自由を重視したAIブラウジングを実現するための提携を発表した。MozillaのAIブラウジングアシスタント「Firefox Smart Window」（ベータ版）がMistralのモデルで駆動されるようになり、まずフランスと北米のユーザー向けに提供、その後英国・ドイツにも展開予定である。両社は地域の言語や文化的文脈に合わせたファインチューニングを重視し、会話データはデフォルトでMozillaのサーバーに保存されず、Mistralもゼロデータ保持に同意している。オープンな技術とオープンな流通を組み合わせ、特定企業に囲い込まれないAI体験の提供を目指す。",
+      "category": "product",
+      "points": 498,
+      "comments": 177,
+      "author": "vertigoruntime"
+    },
+    {
+      "source": "zenn",
+      "title": "バイブコーディングで GUI が壊れていく理由とその対策プロンプト",
+      "url": "https://zenn.dev/nrs/articles/9ba91aea587bf5",
+      "summary": "筆者はmacOS常駐のAIアシスタント「CooSenpAI」をバイブコーディングで開発する中で、機能が増えるにつれ画面同士が互いを直接操作し合い、キー連打で画面が反応しなくなるなどの不具合が多発した経験を紹介する。原因は各画面が自分勝手に表示・非表示を決め、隣の画面に直接干渉していたことにあり、場当たり的な修正の積み重ねで複雑化していった。対策として、Passive View（MVPパターン）、Root配下の階層構造、Chain of Responsibilityによるイベントバブリング、Mediatorによる仲裁、ステートマシンという古典的な設計パターンを組み合わせた指示文をAIに与えることで、制御しやすい構造に改善できると提案している。",
+      "category": "devtool",
+      "points": 122,
+      "author": "nrs"
+    },
+    {
+      "source": "zenn",
+      "title": "かつて数学を学んでいたエンジニアがAIと数学について思うこと",
+      "url": "https://zenn.dev/339/articles/8efd1f1baec355",
+      "summary": "フィールズ賞受賞者らによるAI濫用への懸念表明を受け、元数学専攻のエンジニアである筆者が、数学コミュニティの視点だけでなく数学自体の発展にAIがどう影響するかを論じる記事。数学理論は計算の正しさの検証とは別に、洞察による理論構築という人間的な営みであり、現状のAIは人間が理解・検証可能な新理論を自発的には生み出せていないと指摘する。Leanによる形式証明があっても自然言語との対応付けにハルシネーションの余地が残り、専門家による検証負担が増大している。この検証疲弊が続くと、人間もAIも新しい理論を生み出せなくなる懸念があると警鐘を鳴らす。",
+      "category": "research",
+      "points": 26,
+      "author": "さざんかぬふ"
+    },
+    {
+      "source": "zenn",
+      "title": "トークンをケチってレビューをローカルLLMにやらせた話",
+      "url": "https://zenn.dev/k_motoki/articles/11de0ba46dd1ee",
+      "summary": "17万行規模の個人開発プロダクトで、Claude Code・Codex・Agentを併用して開発する中、コードレビューにかかるトークンコストを削減するため、ローカルGPU（GeForce 3060 12GB）上でOllamaのqwen2.5-coder:14bを用いたレビュー専用モデルを構築した取り組みを紹介する。git diffの増分からデータ損失やクラッシュリスク、セキュリティ境界破壊など重大な問題候補のみをJSON形式で検出させるプロンプトをModelfileとして定義し、Issueドリブン開発のワークフローに組み込んで運用している。偽陽性はあるものの、現状は概ねうまく機能しているとのこと。",
+      "category": "devtool",
+      "points": 73,
+      "author": "もとき"
+    },
+    {
+      "source": "zenn",
+      "title": "Fragment Refsのずるい使い方",
+      "url": "https://zenn.dev/uhyo/articles/react-fragment-refs-hack",
+      "summary": "React 19.3で追加されたFragment RefsはFragmentコンポーネントにrefを付与できる新機能で、addEventListenerやfocusなどのメソッドを持つFragmentInstanceオブジェクトを取得できる。筆者はこの機能のobserveUsingメソッドを応用し、IntersectionObserverやResizeObserverではない独自のオブジェクトを渡すことで、Fragment内の子DOM要素を横取り的に取得・操作する手法を紹介する。これにより、DOM要素を自身では描画しないが子要素にdisplay: noneのような属性操作を行うHiddenコンポーネントを、React 19.2で導入されたActivityコンポーネントに似た挙動として実装できる。ただし公式にサポートされた用法ではなく、将来動作しなくなる可能性があるため実プロダクトでの利用は推奨しないと注意を促している。",
+      "category": "devtool",
+      "points": 34,
+      "author": "uhyo"
+    },
+    {
+      "source": "zenn",
+      "title": "gherkin と skills でエージェントがブラウザを操作してテストする",
+      "url": "https://zenn.dev/sonicmoov/articles/57a9c2d0d281b5",
+      "summary": "フロントエンドのE2Eテストの工数増大という課題に対し、gherkin記法で自然言語のテストケースを記述し、AIエージェントがPlaywrightを自律的に操作してテストを実行する仕組みを紹介する記事。Given/When/Thenの構造がAIへのプロンプトとして流用しやすい点や、Background・Viewportsなど独自キーワードでPC/SP表示や共通前提を管理する工夫を解説する。バグを意図的に3件仕込んだ検証を3回実施した結果、正常シナリオの誤検知・バグの見逃しともに0件と高精度を確認し、1回あたり約164Kトークン・約3分で実行できたと報告している。",
+      "category": "devtool",
+      "points": 12,
+      "author": "y.morimoto"
+    },
+    {
+      "source": "devto",
+      "title": "How we built a desktop companion robot with Gemma 4 and Raspberry Pi",
+      "url": "https://dev.to/googleai/how-we-built-a-desktop-companion-robot-with-gemma-4-and-raspberry-pi-2oke",
+      "summary": "Google AIのエンジニアが、LEGOブロックとRaspberry Piで作った「DinoDesk AI」というデスクトップコンパニオンロボットの開発記録を紹介する。ローカルPC上のGemma 4とクラウドのGemini Flashを組み合わせたハイブリッドLLMアーキテクチャを採用し、簡単な会話はゼロコスト・プライベートなローカル処理で、複雑な推論が必要な場合は自動的にクラウドへエスカレーションする仕組みを構築した。カメラを使わないことで完全なプライバシーを確保しつつ、ローカルモード・クラウドモード・自動ハイブリッドモードの3モードを状況に応じて切り替えられる設計になっている。",
+      "category": "product",
+      "points": 20,
+      "comments": 3,
+      "author": "bebechien",
+      "tags": [
+        "raspberrypi",
+        "gemma",
+        "gemini",
+        "robotics"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Build real-time voice applications with Gemini 3.8 Live and 3.5 Transcribe",
+      "url": "https://dev.to/googleai/build-real-time-voice-applications-with-gemini-38-live-and-35-transcribe-4nb5",
+      "summary": "Google AIが新しいGemini Liveモデル「Gemini 3.8 Live」「3.8 Live Extended Thinking」と音声認識モデル「Gemini 3.5 Transcribe」の提供開始を発表した記事。3.8 Liveは対話を維持しながらタスクを実行できる音声対音声モデルで、Speech-to-Speechリーダーボードで1位を獲得し、非同期の関数呼び出しや視覚的コンテキストの活用、97以上の言語対応などが特徴。3.5 Transcribeは85以上の言語に対応し、ストリーミング時4.0%・非ストリーミング時2.6%という高精度な単語誤り率を達成している。音声入力$0.005/分、出力$0.018/分という価格でLive API経由で利用可能。",
+      "category": "model",
+      "points": 19,
+      "comments": 3,
+      "author": "Thor 雷神 Schaeff",
+      "tags": [
+        "ai",
+        "live",
+        "voice",
+        "gemini"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Building PoCs with Codex and GitHub Copilot while they try to adjust my PoC requirements along the way",
+      "url": "https://dev.to/missamarakay/building-pocs-with-codex-and-github-copilot-while-they-try-to-adjust-my-poc-requirements-along-the-1fc9",
+      "summary": "筆者がChatGPT CodexとGitHub Copilotを使ってPDFビューアのPoCを構築した体験記。Codexは要求に応じてPDFの抽出処理を繰り返し調整でき、最も滑らかな体験だったが、最初はApryse WebViewerをスタブ化するなど過度に簡略化する傾向が見られた。GitHub CopilotはClaude Haiku 4.5を用いた無料枠での利用で高速な初期構築ができた一方、依存パッケージのインストールで問題が続出し、バージョン変更や別ライブラリ（pdf.js）への切り替えを繰り返し提案してくるなど、一貫性のない対応に苦労した経験を紹介している。",
+      "category": "devtool",
+      "points": 9,
+      "comments": 4,
+      "author": "Amara Graham",
+      "tags": [
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Progressive Disclosure: What, Where, When, and Why",
+      "url": "https://dev.to/reporails/progressive-disclosure-what-where-when-and-why-36m3",
+      "summary": "AIコーディングエージェント向けの指示ファイル（AGENTS.md・CLAUDE.md）の設計について論じる記事。フォルダ単位やファイル単位でルールを読み込む「progressive disclosure（段階的開示）」はcontext rot問題を緩和する一方、すべてを一度に読み込ませる巨大な指示ファイルは、モデルの注意力が多数のルールに分散してしまう根本的な問題を抱えていると指摘する。28,721のリポジトリを調査した結果、指示ファイルの中央値は約50項目のうち実質的な指示は十数個に留まり、残りは注意を消費するだけの冗長な記述だったと報告し、ルールをどこで読み込むかだけでなく、いつ・何を読み込ませるべきかという設計が重要だと論じている。",
+      "category": "devtool",
+      "points": 6,
+      "comments": 0,
+      "author": " Gábor Mészáros",
+      "tags": [
+        "ai",
+        "claude",
+        "performance",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Scrum is finally dead 🎉 and we have to thank Coding Agents for that",
+      "url": "https://dev.to/remojansen/scrum-is-finally-dead-and-we-have-to-thank-coding-agents-for-that-18bi",
+      "summary": "筆者は、コーディングエージェントの登場によりスクラムというフレームワークがついに終焉を迎えつつあると論じるエッセイ記事。アジャイルマニフェストの本来の原則は正しかったが、組織にとって「原則」は内面化が困難で実践しにくいため、誰でも実行できる「プラクティス」としてのスクラム（スタンドアップやストーリーポイントなど）が代わりに普及した歴史的経緯を説明する。そして今、コーディングエージェントという能力の変化によって、原則そのものを直接実践することが物理的に可能になり、儀式としてのスクラムの存在意義が失われつつあるという主張を展開している。",
+      "category": "product",
+      "points": 5,
+      "comments": 1,
+      "author": "Remo H. Jansen",
+      "tags": [
+        "discuss",
+        "ai",
+        "agents",
+        "sdlc"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "生成AIが書いたドキュメントを読みたくない",
+      "url": "https://qiita.com/take-yoda/items/e5d9ce6618523af1ffc5",
+      "summary": "Claude CodeなどのAIエージェントが書くDesign docやPRの説明が「情報量は多いが疲れる」原因を、実際のGitHub PRを用いて検証した記事。原因として、網羅性と重要度を区別しない、結論が最後に来る、テンプレートの見出しを律儀に埋める、自明な項目にも両論併記するという4点を特定した。同じ要件・実装内容で、工夫なしのSkillと「結論を先頭に3行以内で書く」「代替案は表で比較する」「Non-goalsを書く」などのガイドを追加したSkillを比較したところ、後者はDesign docの分量が大幅に削減され、採用理由と却下理由がひと目で分かる読みやすい文書になったことを実例で示している。",
+      "category": "devtool",
+      "tags": [
+        "生成AI",
+        "ClaudeCode",
+        "プロンプトエンジニアリング",
+        "DesignDoc",
+        "SKILL"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "元ヤフーエンジニア社長が考える、AI時代の採用基準",
+      "url": "https://qiita.com/ryoheiiwamoto/items/7f388029f8821fc3ea6c",
+      "summary": "元Yahooエンジニアで現在エンジニア企業の代表を務める筆者が、AIによってエンジニアのスキル差が均一化していく時代における採用基準の変化を論じる記事。スキルは後からいくらでも伸ばせるとして、採用面接では「人間力（一緒に働きたいと思えるか）」「当事者意識（会社を一緒に作ろうとしてくれるか）」「実直さ・素直さ（コツコツ真面目に取り組めるか）」の3点を重視していると述べる。AIが技術力の差を埋めていく中で、これらの人間的資質こそが今後の最大の武器になるという主張を展開している。",
+      "category": "product",
+      "tags": [
+        "AI",
+        "未経験",
+        "採用"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "2026年9月時点 Microsoft の AI 戦略について",
+      "url": "https://qiita.com/yoshioterada/items/c42534895d5ca89b91b1",
+      "summary": "Microsoftの多岐にわたるAI関連サービスを整理し、2026年9月時点の全体戦略をまとめた記事。Microsoftの戦略は「Frontier Transformation」と呼ばれ、Human Ambition（人が実現したいこと）をIntelligence + Trust（知識と信頼）で支えるという考え方に基づき、「仕事を手伝う（Copilot群）」「必要な情報をAIに届ける（Microsoft IQ群）」「AIを管理し情報を守る（Agent 365、Entra、Purview等）」の3つの役割に整理して解説する。一般提供済みの機能とプレビュー・将来計画を区別しつつ、個人支援から業務・事業再設計まで活用段階が進んでいく将来像を示している。",
+      "category": "product",
+      "tags": [
+        "Microsoft",
+        "AI",
+        "AI活用",
+        "AIガバナンス"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "拒否ルールを全部消しても、Claude Code は eval を止めた。守っていたのは別の仕組みだった",
+      "url": "https://qiita.com/suwa_nobu/items/5145961004e38e2fe316",
+      "summary": "Claude Code 2.1.273のchangelogにあった「解析できないBash行（eval、env -C）にも拒否ルールを適用する変更を差し戻した」という記述を検証した記事。拒否ルール（deny設定）の有無に関わらず、eval・env -C・time -pの各コマンドは3バージョンとも同じ理由文言で一貫して止まっており、実際にこれらを止めていたのは拒否ルールではなく、その手前にあるBashの静的解析であることを120回の実験で明らかにした。--dangerously-skip-permissionsを付けるとこの静的解析の関門が消え、evalで包んだコマンドは拒否ファイルへの書き込みに3回中3回成功する一方、直接書き込みは引き続き拒否ルールで止まることも確認している。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ClaudeCode",
+        "Claude",
+        "ShellScript"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "NL2SQL: Oracle AI Database の COMMENT・ANNOTATIONS・Domainの違いを整理して Select AIで動作検証してみてみた",
+      "url": "https://qiita.com/shirok/items/b359aa1a55342c280840",
+      "summary": "Oracle AI Database 26aiのSelect AI（自然言語からSQLを生成する機能）において、データの業務的意味を伝えるためのCOMMENT・ANNOTATIONS・Domainという3つの機能の違いを実際に動作検証した記事。基本メタデータのみでは3問中1問しか期待結果と一致しなかったが、COMMENT・直接Annotations・Domain＋直接Annotationsを付与するといずれも3問すべてで期待結果と一致し、AI問い合わせ用Viewを用いることで複合質問にも対応できることを確認した。COMMENTは人向けの説明、AnnotationsはSelect AIも利用できる構造化メタデータ、Domainは複数列で再利用可能な業務上のデータ型という位置づけの違いを整理している。",
+      "category": "infra",
+      "tags": [
+        "AIReadyData",
+        "SelectAI",
+        "annotation",
+        "oracle",
+        "AI"
+      ]
+    }
+  ]
+}

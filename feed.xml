@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-16T00:00:00+09:00</updated>
+  <updated>2026-09-17T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月17日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17.html</id>
+    <updated>2026-09-17T00:00:00+09:00</updated>
+    <summary>小規模モデルの強化学習によるPostgresクエリプラン最適化やターナリLLMの省メモリ化など、モデル・推論効率化の研究が進展。 / MistralとMozillaが提携し、Firefoxのブラウザアシスタント「Smart Window」をMistralモデルで駆動するプライバシー重視のAI連携を発表。 / Claude CodeやCodex、Copilotなど開発エージェントの実運用知見（ドキュメント品質、コードレビュー、権限管理の脆弱性）に関する記事が多数。 / AI時代のエンジニア採用基準やスクラムの終焉など、開発組織・働き方への影響を論じる記事も目立った。</summary>
+  </entry>
   <entry>
     <title>2026年9月16日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01-news.html</id>
     <updated>2026-09-01T00:00:00+09:00</updated>
     <summary>Google が動画生成モデル「Gemini Omni 1.1 Flash」を公開、40秒シーン拡張と4K対応で実運用レベルに / Anthropic が Claude Code の公式プラグインディレクトリを開設し、拡張エコシステムを整備 / Sony Music・Warner Chappell が Anthropic を著作権侵害で提訴、音楽業界とAI企業の対立が激化 / ServiceNow の AI Platform に CVSS 10.0 の重大脆弱性、未認証での任意コード実行が可能な状態だった</summary>
-  </entry>
-  <entry>
-    <title>2026年9月1日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-01.html</id>
-    <updated>2026-09-01T00:00:00+09:00</updated>
-    <summary>AppleがMac Studio/miniの新モデルを異例のタイミングで発表。背景は企業のAI用途需要の急増 / Claude Code周りの実践記事が多数。hooksの実測知見、個人設定、丸投げしないAI開発手法など / Agent Skillの導入コスト比較（自作3,225トークン vs 導入90,000トークン）が話題に / AIチャット34製品の利用規約比較で、データが学習・閲覧・保存される経路を整理 / AWS DevOps Agentによる自動コードレビュー・検証テストの実践レポート</summary>
   </entry>
 </feed>
