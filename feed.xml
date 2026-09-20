@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-21T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月21日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21-news.html</id>
+    <updated>2026-09-21T00:00:00+09:00</updated>
+    <summary>OpenAIが法律特化AI基盤「Astra for Law」を発表、大手法律事務所への提供を開始 / Anthropicが生命科学向け認証プログラムと、Accentureとのモデル安全性評価パートナーシップを相次いで発表 / Anthropicがフロンティア研究所内のAI開発ペースを可視化する測定指標を初公表 / 主要AIコーディングエージェント4製品に無操作RCE脆弱性「Plugin4Shell」、Claude CodeとCodexは修正済みだがCopilotとGemini CLIは未対応</summary>
+  </entry>
+  <entry>
     <title>2026年9月21日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03.html</id>
     <updated>2026-09-03T00:00:00+09:00</updated>
     <summary>Googleが「Gemini 3.8 Flash」と、脆弱性検出・自動パッチ適用に特化した「Gemini 3.8 Flash Cyber」を発表。 / Claude Fable 5.1 のリリースに伴い、キャッシュ読み込みの安定性やtool_choiceの破壊的変更を検証する記事がQiitaで複数投稿された。 / AIエージェントに与える権限・実行環境をどう安全に設計するか（サンドボックスOS、ナレッジグラフ活用）という運用面の話題が目立った。 / MCPとREST/SOAP/GraphQL/gRPCの違いを日本の業務システムの実例で整理する記事が公開された。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月2日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02-news.html</id>
-    <updated>2026-09-02T00:00:00+09:00</updated>
-    <summary>OpenAIが「重大なサイバーセキュリティ閾値」を初めて満たしたと主張する新モデル「Astra」を予告 / 米国防総省のGenAI.milにChatGPT MilとGrok for Governmentが追加され300万人規模に拡大 / AnthropicがLambdaと350億ドル規模のクラウド計算契約を締結し計算資源の多様化を加速 / 韓国政府が2027年度予算でAI分野に前年比84.3%増となる9兆4000億ウォンを計上 / Apple対OpenAIの営業秘密訴訟でOpenAIが反論、10月1日に審理予定</summary>
   </entry>
 </feed>

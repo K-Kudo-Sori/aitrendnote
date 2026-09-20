@@ -1,0 +1,48 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026/9/21 8:10:21",
+  "highlights": [
+    "OpenAIが法律特化AI基盤「Astra for Law」を発表、大手法律事務所への提供を開始",
+    "Anthropicが生命科学向け認証プログラムと、Accentureとのモデル安全性評価パートナーシップを相次いで発表",
+    "Anthropicがフロンティア研究所内のAI開発ペースを可視化する測定指標を初公表",
+    "主要AIコーディングエージェント4製品に無操作RCE脆弱性「Plugin4Shell」、Claude CodeとCodexは修正済みだがCopilotとGemini CLIは未対応"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、法律業務特化のAI基盤「Astra for Law」を発表",
+      "url": "https://www.lawnext.com/2026/09/openai-releases-astra-for-law-a-gpt-6-model-configured-for-legal-work.html",
+      "summary": "OpenAIは9月17日、GPT-6 Astraをベースに法律業務向けにカスタマイズしたAI基盤「Astra for Law」を発表した。米国の判例・制定法・規則など2億3000万件超の法律情報を検索できる専用インデックスを備え、Thomson ReutersやHarveyなど26のパートナー製品と連携する。大手法律事務所向けの「Trusted Access」プログラムを通じて提供が始まり、法律調査の正確性は通常のウェブ検索より大幅に向上したとしている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、生命科学分野向け認証プログラム「Life Sciences Verification Program」を発表",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "summary": "Anthropicは9月17日、生命科学分野の研究者・組織向けに、通常より安全制限を緩和したClaude（Mythos・Opus・Sonnetモデル）へのアクセスを提供する「Life Sciences Verification Program」の申請受付を開始した。創薬や研究生物学など、一般提供モデルでは制限されている用途への対応を想定しており、審査を経た組織にはチーム単位で使える「Standard Use」と、個別プロジェクト向けの「High-risk Use」の2種類のアクセス権が付与される。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、Accentureと提携しモデル評価チームを社内に常駐させる体制を構築",
+      "url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "summary": "Anthropicは9月18日、Accentureと提携し、同社の専門部門Faculty出身の評価者をAnthropic社内に常駐させてレッドチーム演習や安全性評価を行う体制を発表した。両社は今後5年間でそれぞれ10億ドル以上をAI安全性に投資する計画で、Anthropicは非営利評価団体METRなどとも同様の枠組みの構築を協議しているという。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、フロンティア研究所内のAI開発ペースを可視化する測定指標を公表",
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "summary": "Anthropicは、フロンティアAI研究所内での開発速度を外部から把握できるようにするための測定指標を公表した。AI自身がどの程度自社のAI研究開発を担っているか、AIエージェントの行動に対する人間の監督状況、開発に投じられる計算資源という3点を追跡する内容で、現時点ではClaudeがAnthropic社内のAI研究開発業務の26%を主導しているとしている。今後、第三者による定期的な検証・公開も計画している。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "主要AIコーディングエージェント4製品に無操作RCE脆弱性「Plugin4Shell」",
+      "url": "https://www.air.security/blog-posts/plugin4shell",
+      "summary": "セキュリティ企業Air Securityは9月17日、Claude Code・OpenAI Codex・GitHub Copilot・Google Gemini CLIの4大AIコーディングエージェントに影響する、ユーザー操作なしでリモートコード実行が可能な脆弱性「Plugin4Shell」を公表した。プラグイン更新時のコミットハッシュ固定（SHA pinning）の検証不備を突き、攻撃者が管理するリポジトリを介して悪意あるコードを自動実行させることができるという。Claude Codeはバージョン2.1.179、Codexは0.146.0でそれぞれ修正済みだが、Copilotは未修正、Gemini CLIは提供終了のため修正予定がなく、利用者には後継の「Antigravity」への移行が推奨されている。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-09-21-news"
+}
