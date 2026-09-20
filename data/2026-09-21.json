@@ -1,0 +1,256 @@
+{
+  "date": "2026-09-21",
+  "generatedAt": "2026/9/21 7:07:07",
+  "highlights": [
+    "OpenAIの広告Cookie「__obi」がChatGPTアカウントと外部サイト閲覧行動を紐づけている実態が詳細に暴露された。",
+    "MCPサーバーのツール説明文が承認後に静かに書き換えられ得るサプライチェーンリスクが指摘され、ロックファイルによる対策ツールが登場。",
+    "話題の新型モデル「Jev」（確率だけを返すSystem One Model）について、既存LLMとの比較や仕組みの解説記事が複数見られた。",
+    "Claude Code / OpenCode / LiteLLM など開発ツールの実運用ノウハウ（AGENTS.md読込挙動、権限ルールの落とし穴、全社導入事例）が充実。",
+    "AIエージェント運用における構造化ハンドオフ（タスク仕様）やDevSecOpsパイプラインなど、エージェント時代の開発プロセス設計に関する記事が目立った。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "ChatGPT now knows what you do on other websites via ad collector",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+      "summary": "OpenAIの広告基盤bzr.openai.comが発行するCookie「__obi」は、ChatGPTアカウントに紐づいた識別子であり、そのCookieを埋め込んだ広告主サイトを訪問するとOpenAIに送信される。著者は実機で仕組みを再現し、936の広告主タグ・1,029ホストにわたる通信を検証した結果、閲覧ページや検索商品、購入行動などの情報がChatGPTアカウントと紐づけられ得ることを確認した。SDKには「Cookieを送らない」経路もあるが、スクリプト読み込み自体でCookieが付与されるため回避できない。メールや電話番号などフォームやタグマネージャから収集された個人情報もハッシュ化した上で送信され、郵便番号は平文のまま送られる事例が最も多かった。",
+      "category": "security",
+      "points": 456,
+      "comments": 252,
+      "author": "lmbbuchodi"
+    },
+    {
+      "source": "hackernews",
+      "title": "Pirate Face Rescues LLM Models from Deletion",
+      "url": "https://pirateface.co/",
+      "summary": "「Pirate Face」は、Hugging Face上の公開モデルをP2Pのトレント（マグネットリンク）としてミラーし、単一の運営者に依存せず永続的に保持することを目指すサービス。各モデルファイルはHugging Face公式のSHA-256ハッシュで検証され、改ざんされていないことを確認できる。既存のHF_ENDPOINT環境変数を差し替えるだけで既存パイプラインからそのまま利用できるAPI互換性も謳っている。ユーザーはハンドルを登録してモデルの「シード」に参加でき、検閲耐性のあるオープンモデル配布基盤を目指している。",
+      "category": "product",
+      "points": 367,
+      "comments": 119,
+      "author": "skepticalgenius"
+    },
+    {
+      "source": "hackernews",
+      "title": "Laya (OS Jev) on Mac M4 CoreML Offline (45 decisions per second)",
+      "url": "https://gist.github.com/fordnox/e592d0f68b543fd044be8e6d040863a0",
+      "summary": "GitHubのgistで、Jev系モデル「Laya」をMac M4上でCoreMLを使いオフライン動作させる検証が共有された。uvでプロジェクトを作成し、CoreML変換済みモデルをHugging Faceから取得して実行する簡単な手順が示されている。投稿者はPythonプロセスのメモリ使用量（物理フットプリント約560MB、ピーク778MB）をサンプリングし軽量に動作することを確認した。別のコメントでは、Cloudflare上でホストされたTypeSafe/Jev互換APIを介して同様の推論を試した例も共有されている。",
+      "category": "model",
+      "points": 110,
+      "comments": 21,
+      "author": "putna"
+    },
+    {
+      "source": "hackernews",
+      "title": "Prompts aren’t Real",
+      "url": "https://evaluation.club",
+      "summary": "長年ソフトウェアエンジニアとして働く著者が、消費者向けAIエージェントを本番運用する中で得た知見を語るトーク原稿。LLMは指示への追従や事実性、タスク遂行において本質的に信頼できず、構造化出力を指示しても稀に出力が崩壊することがあり、規模を持って運用すると必ずその「悪魔」が露呈すると指摘する。著者はプロンプトそのものに頼るのではなく、評価・最適化パイプラインを構築してAIでAIを検証する体制作りに力を入れていると述べる。全体として、プロンプトエンジニアリングの限界と、エージェント運用の心理的消耗について率直に語った内容。",
+      "category": "agent",
+      "points": 91,
+      "comments": 42,
+      "author": "mcfunley"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI's Sam Altman to Brief UN Security Council Next Week",
+      "url": "https://www.reuters.com/business/openais-sam-altman-to-brief-un-security-council-next-week-during-2026-09-18/",
+      "summary": "本文取得失敗。",
+      "category": "product",
+      "points": 26,
+      "comments": 28,
+      "author": "layer8"
+    },
+    {
+      "source": "zenn",
+      "title": "TypeSafeのJevを正しく驚く、それってLLMでできませんか？",
+      "url": "https://zenn.dev/nwn/articles/824026c76116e0",
+      "summary": "TypeSafe AIの新モデル「Jev」は文章を生成せず、判断と確率を直接返す点が特徴だが、著者はその高速化の多くが既存LLMでも「最初の1トークンのlogitだけを見る」手法で再現可能だと指摘する。Gemma3 270Mで検証したところ、JSON全体を生成する方式に比べて77倍高速化できたという。マリオをプレイさせる検証ではJevが平均応答276msで最も良いスコアを出したが、Llama 3.1 8BやGemma 4 26Bも僅差で続いた。著者は、Jevの真の強みは速度そのものよりも、選択肢の順序バイアスなどの影響を受けにくい「校正された確率」を提供する点にあるとする開発元の主張を紹介しつつ、その検証は今後の課題だとしている。",
+      "category": "model",
+      "points": 168,
+      "author": "ヨ"
+    },
+    {
+      "source": "zenn",
+      "title": "WebMCPを試してみた感想。フロントエンドの必須技術になりそうな予感。",
+      "url": "https://zenn.dev/chot/articles/268804cd6694ab",
+      "summary": "CMS「Orizm」のデザインエディターにWebMCPを組み込み、AIエージェントからページ編集ができるようにした実験記事。WebMCPはサーバーではなくブラウザ側（フロントエンド）にAI向けツールを直接登録する仕組みで、宣言型（HTML属性）と命令型（JavaScript）の2方式がある。同じページ複製タスクをWebMCPなし（ブラウザ操作のみ）と、参照系・操作系のツールを実装したWebMCPありで比較したところ、完了時間が約5分52秒から3分9秒へと約半分に短縮された。著者は、人間向けに作られた複雑なUI操作を伴う画面ほどWebMCPの効果が大きいと結論づけている。",
+      "category": "agent",
+      "points": 108,
+      "author": "hirayama"
+    },
+    {
+      "source": "zenn",
+      "title": "バイブコーディングで GUI が壊れていく理由とその対策プロンプト",
+      "url": "https://zenn.dev/nrs/articles/9ba91aea587bf5",
+      "summary": "macOS常駐AIアシスタントをバイブコーディングで開発する中で、画面同士が互いを直接操作し合う構造になり、キー連打や取り消し操作で表示が壊れる不具合が多発した経験を紹介する記事。原因は各画面（View）が自分の判断で表示・非表示を決め、他の画面を直接操作していたことにあると分析している。対策として、Passive View・階層化されたPresenterとRoot・Chain of Responsibilityによるイベントバブリング・Mediator・ステートマシンを組み合わせた設計パターンをAIに指示する定型文を提案し、これによりAIが生成するGUIの構造が安定したと報告している。",
+      "category": "devtool",
+      "points": 216,
+      "author": "nrs"
+    },
+    {
+      "source": "zenn",
+      "title": "全社に OpenCode + LiteLLM を導入してコストを抑えつつ AI 活用を進めている話",
+      "url": "https://zenn.dev/jtcc/articles/7e74fef42580a1",
+      "summary": "約200名の全社員が使うAI利用の入口を、AIエージェントのOpenCodeと自前ホストのLLMゲートウェイLiteLLMに統一した事例。導入前はChatGPTやClaude、Cursorなどが乱立し、プロンプトの可視化やコスト管理ができていなかったが、社員ごとにLiteLLMの予算上限付きキーを発行することでコストを導入前の10分の1以下に抑えられたという。Claude Code経由でLiteLLMを使う構成はAPIエラーが頻発したため、設定をJSONファイルで配布できるOpenCodeを採用し、非エンジニアにも展開しやすくした。モデルはLow〜XHighの4段階でLiteLLM側が裏側のモデルを制御する構成にし、SSOやガードレールも自前で整備している。",
+      "category": "infra",
+      "points": 50,
+      "author": "Takashi Nakagawa"
+    },
+    {
+      "source": "zenn",
+      "title": "AI ネイティブなデータ分析基盤を作った話",
+      "url": "https://zenn.dev/pksha/articles/5a1dc6470019d6",
+      "summary": "PKSHAのSREが1か月・1人月でVoiceAgent向けのデータ分析基盤「Laplace」を構築した事例。dbtのschema.ymlを唯一の定義源とするセマンティックレイヤーをLightdashで構築し、そのAPIを包むMCPサーバーを用意することで、AIクライアントから自然言語で同じ指標を参照できるようにした。PII列は専用テーブルに隔離し、権限を持つ人のみに期限付きでアクセスを付与するなど、AI経由でもPIIが漏れないガバナンス設計を行っている。実装はほぼ全てClaude Codeが書き、OSSのLightdashをセルフホストすることでライセンス費なし・月額1,200ドル程度の運用コストに抑えたという。",
+      "category": "infra",
+      "points": 58,
+      "author": "Shogun"
+    },
+    {
+      "source": "devto",
+      "title": "Architecting a Resilient DevSecOps Pipeline for Enterprise AI Agents",
+      "url": "https://dev.to/gde/architecting-a-resilient-devsecops-pipeline-for-enterprise-ai-agents-on4",
+      "summary": "自律的なAIエージェントを含むエンタープライズソフトウェアのサプライチェーンにおいて、シークレット漏洩・プロンプトインジェクション・依存関係の脆弱性・PRマージ時の未検査コードといったリスクが新たな攻撃対象になっていると指摘する記事。GitHub Actions上で、Gitleaks/TruffleHogによるシークレット検出、AIによるコードレビューとプロンプトセキュリティ監査、Veracodeによる依存関係とSASTの二重テストを組み合わせた4段階のDevSecOpsパイプラインを提案している。金融機関の決済オーケストレーションエージェントを例に、PRごとにこの多段階パイプラインを通過させることを求めるアーキテクチャを解説している。",
+      "category": "security",
+      "points": 12,
+      "comments": 4,
+      "author": "Jitendra Gupta",
+      "tags": [
+        "ai",
+        "devsecops",
+        "github",
+        "security"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Traditional Coding vs Agentic Coding: The Flow State Problem",
+      "url": "https://dev.to/bradtraversy/traditional-coding-vs-agentic-coding-the-flow-state-problem-57p5",
+      "summary": "著者は、手を動かしてコードを書く従来型の開発では「考える→書く→実行→観察→調整」という短いループにより集中状態（フロー）を保ちやすい一方、AIエージェントに実装を任せると、待ち時間の間に複数プロジェクトを同時並行で進めがちになり、注意が分散して生産性の実感が薄れると述べる。エージェントの作業を待つ間に別プロジェクトへプロンプトを送るという並行運用は一見効率的に見えるが、各プロジェクトの文脈を都度思い出すコストがかさむと指摘している。AIがコーディングを台無しにしたわけではないとしつつ、フロー状態を保つワークフローの設計を見直す必要があると結論づけている。",
+      "category": "devtool",
+      "points": 8,
+      "comments": 3,
+      "author": "Brad Traversy",
+      "tags": [
+        "ai",
+        "productivity",
+        "programming",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "HotelFlow: hotels don’t need another dashboard — they need the next action",
+      "url": "https://dev.to/ravi_saxena_6fd4d0ef1c9cb/hotelflow-hotels-dont-need-another-dashboard-they-need-the-next-action-38jj",
+      "summary": "ハッカソン提出作品「HotelFlow」は、宿泊客チェックイン後の遅延到着や部屋の不具合、人員不足といったオペレーション上の問題に対し、次に何をすべきかを提示するホテル運営エンジン。1つのExcelワークブック（部屋・スタッフ・予約・ルール・イレギュラー事象）を読み込み、緊急度やVIP対応などでジョブに優先度を付け、今後5分・15分・30分の対応キューをリアルタイムに組み立てる。「混乱をシミュレート」ボタンでイレギュラー事象を発生させると、優先順位と担当割り当てが即座に再計算される様子をデモしている。著者はLLMチャットボットではなく決定エンジン（Next.js/TypeScript実装）としてこれを作った点を強調している。",
+      "category": "product",
+      "points": 4,
+      "comments": 0,
+      "author": "RAVI SAXENA",
+      "tags": [
+        "mlhacks",
+        "devchallenge",
+        "hackathon"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The MCP server that changes its mind after you approve it",
+      "url": "https://dev.to/abdulxmanan/the-mcp-server-that-changes-its-mind-after-you-approve-it-4gom",
+      "summary": "MCPサーバーの「ツール説明文」は初回承認後も固定されず、パッケージの更新やアカウント乗っ取りによって悪意ある指示（例：SSH秘密鍵を読み取って送信させる）に静かに書き換えられ得ると警告する記事。設定ファイルのgit diffは変化せず、依存関係スキャナやSASTもツール説明文というプロンプトの中身までは検査しないため、既存のセキュリティツールはこの変化を検知できないと指摘する。対策として著者は、ツール定義のハッシュを記録するロックファイル方式のスキャナ「Bulwark」を紹介し、bulwark pinでロックしbulwark verifyで権限追加やテキスト変更を検出する運用を提案している。npx -y package@latestのような都度取得の慣行がこの問題を助長しているとも述べている。",
+      "category": "security",
+      "points": 3,
+      "comments": 4,
+      "author": "Abdul Manan",
+      "tags": [
+        "security",
+        "ai",
+        "python",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How I Built a Task Spec Contract Between My Planner and Implementer Agents",
+      "url": "https://dev.to/yureki_lab/how-i-built-a-task-spec-contract-between-my-planner-and-implementer-agents-e94",
+      "summary": "プランナーエージェントと、コンテキストを共有しない実装用サブエージェント群の間で、自由文による指示だと約31%のタスクでスコープの逸脱や誤ったファイルの変更が起きていたという著者の運用経験を紹介する記事。原因は「送り手にとっての自明」が「受け手にとっての未知」になる、コールドスタートな引き継ぎの構造的な問題にあると分析している。対策として、goal・why・許可/禁止パスなどを含む構造化された「タスク仕様（Task Spec）」スキーマを導入し、実装エージェントに着手前の内容の復唱を義務付けたところ、やり直し率が31%から7%に低下したという。同じ仕様が検証エージェントの入力としても再利用できる副次効果もあったと述べている。",
+      "category": "agent",
+      "points": 3,
+      "comments": 4,
+      "author": "yureki_lab",
+      "tags": [
+        "ai",
+        "claudecode",
+        "softwareengineering",
+        "programming"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code が AGENTS.md を読むようになった。ただし1回目のセッションでは読まれない",
+      "url": "https://qiita.com/suwa_nobu/items/c795cf89d0fd4091c9cb",
+      "summary": "Claude Code 2.1.277からCLAUDE.mdが存在しないプロジェクトでAGENTS.mdが読み込まれるようになったが、著者が合言葉を使った検証を行った結果、この機能はアップグレード後や新規導入後の「1回目のセッションでは読み込まれず、2回目以降から有効になる」という挙動を確認した。またCLAUDE.local.mdを1つでも置くと、チーム共有のAGENTS.mdが黙って読み込まれなくなることも判明し、これは公式ドキュメントにも注意書きがあるとしている。~/.claude/CLAUDE.mdやプロジェクトの.claude/rules/はAGENTS.mdの読み込み判定には影響しない一方、両方を読ませたい場合は設定でinstructionFilesを\"claude-md-and-agents-md\"に変更する必要があると解説している。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ClaudeCode",
+        "AIエージェント",
+        "Claude"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Write() で拒否しても、Claude Code は12回とも書き込んだ。効いていたのは Edit() だけだった",
+      "url": "https://qiita.com/suwa_nobu/items/e867493a5cbcdfaa40c9",
+      "summary": "Claude Code 2.1.275のchangelogにある「/update-configがWrite(path)権限ルールを書いていたが、実際のファイル権限検査はEdit(path)ルールとしか一致しない」というバグ修正について、著者が36回の実験で検証した記事。deny設定にWrite(ファイル)のみを書いた場合、Editツール・Writeツール・Bashリダイレクトの全経路で12回とも書き込みがブロックされずに成功してしまったのに対し、Edit(ファイル)を書けば全経路でブロックできることを確認した。2.1.275で修正されたのは/update-configが提案する拒否ルールの「書き方」のみで、既存のWrite()ルール自体の検査ロジックは修正後も効かないままだったと報告している。著者はgrep -n '\"Write('で自分の設定を確認し、見つかった場合はEdit()に書き換えるよう推奨している。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ClaudeCode",
+        "Claude",
+        "Security"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "生成AIセキュリティを学んで変わった「AIを安全に使う」という考え方",
+      "url": "https://qiita.com/kf_webdev/items/cbd1d7bb724676a3b686",
+      "summary": "Webエンジニアを目指す著者が、生成AIセキュリティの講座を受講して変化した「AIを安全に使う」という考え方を振り返る記事。個人情報や認証情報、社外秘データなどを分類し、「漏洩するかどうか」だけでなく「そもそも外部AIサービスに渡してよい情報か」を最初に考えるべきだという認識に至ったと述べる。直接・間接のPrompt Injectionについて学び、特に攻撃者がWebページやPDFに悪意ある指示を仕込み、利用者がそれをAIに読み込ませることで意図しない動作を引き起こす間接型に注意するようになったという。RAGについても、回答生成後にアクセス制御するのではなく、検索段階で権限のない文書を取得させないことが重要だと理解したとまとめている。",
+      "category": "security",
+      "tags": [
+        "生成AI",
+        "Security",
+        "LLM",
+        "rag",
+        "プロンプトインジェクション"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "話題のJevとは？文章を書かずに判断だけを返すAIモデルをざっくり解説",
+      "url": "https://qiita.com/yushibats/items/472325ce548da370ed5d",
+      "summary": "TypeSafe AIが2026年9月にリリースした新型モデル「Jev」を、文章を生成する代わりに用意された選択肢に対する確率を返す仕組みとして解説する記事。stateとquestionsを入力すると、Choice（選択）・Score（段階評価）・Noul（Yes/No確率）の3種類の型で複数の問いを1回の呼び出しで並列評価できる。応答速度は70〜500ミリ秒、料金は入力100万トークンあたり0.042ドルで出力は無料という点を紹介し、分類や振り分け、検証といった用途に向くが文章生成や計算は不得意だと整理している。確信度（confidence）の値に応じて自動割り当て・候補提示・人手確認のように処理を分岐させる実装例も紹介している。",
+      "category": "model",
+      "tags": [
+        "Jev",
+        "TypeSafeAI",
+        "LLM",
+        "生成AI",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "実はコミュニティ運営をやめようと思っていました",
+      "url": "https://qiita.com/sadabon444/items/6b4e0a5e4946d1a941ac",
+      "summary": "IT技術コミュニティの運営者が、仕事の多忙やプライベートの事情、心無い言葉、自身の技術力への不安から運営を辞めようと悩んでいた経験を振り返るエッセイ。他の運営メンバーとの飲み会で「遠慮せずやりたいことをやってほしい」という言葉をもらったことを転機に、営業ならではの視点でのアウトプットなど自分にできることを模索し始めたという。その後Microsoft MVPやAWS Community Builderに選出されるなど、コミュニティにおける自身の価値を見出せるようになったと述べている。技術的な内容ではなく、コミュニティ運営者向けの心境の振り返り（ポエム）である。",
+      "category": "other",
+      "tags": [
+        "なんでもCopilot",
+        "コミュニティ",
+        "コミュニティ運営",
+        "ポエム"
+      ]
+    }
+  ]
+}

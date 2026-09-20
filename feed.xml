@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-17T00:00:00+09:00</updated>
+  <updated>2026-09-21T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月21日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21.html</id>
+    <updated>2026-09-21T00:00:00+09:00</updated>
+    <summary>OpenAIの広告Cookie「__obi」がChatGPTアカウントと外部サイト閲覧行動を紐づけている実態が詳細に暴露された。 / MCPサーバーのツール説明文が承認後に静かに書き換えられ得るサプライチェーンリスクが指摘され、ロックファイルによる対策ツールが登場。 / 話題の新型モデル「Jev」（確率だけを返すSystem One Model）について、既存LLMとの比較や仕組みの解説記事が複数見られた。 / Claude Code / OpenCode / LiteLLM など開発ツールの実運用ノウハウ（AGENTS.md読込挙動、権限ルールの落とし穴、全社導入事例）が充実。 / AIエ…</summary>
+  </entry>
   <entry>
     <title>2026年9月17日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02-news.html</id>
     <updated>2026-09-02T00:00:00+09:00</updated>
     <summary>OpenAIが「重大なサイバーセキュリティ閾値」を初めて満たしたと主張する新モデル「Astra」を予告 / 米国防総省のGenAI.milにChatGPT MilとGrok for Governmentが追加され300万人規模に拡大 / AnthropicがLambdaと350億ドル規模のクラウド計算契約を締結し計算資源の多様化を加速 / 韓国政府が2027年度予算でAI分野に前年比84.3%増となる9兆4000億ウォンを計上 / Apple対OpenAIの営業秘密訴訟でOpenAIが反論、10月1日に審理予定</summary>
-  </entry>
-  <entry>
-    <title>2026年9月2日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-02.html</id>
-    <updated>2026-09-02T00:00:00+09:00</updated>
-    <summary>Anthropicが新モデル「Claude Fable 5.1」「Claude Mythos 5.1」を発表。コスト削減とセーフガード改善が柱。 / GoogleとPurdue大学がエージェントの文脈膨張問題を解決する新手法「SKILL.state」を提案。 / Claude Codeのモデル切り替え時のプロンプトキャッシュ破棄コストを実測した記事が話題に。 / AI開発の実務Tips（技術的負債、アーキテクチャ設計、外部イベント駆動のエージェント運用）が複数掲載。</summary>
   </entry>
 </feed>
