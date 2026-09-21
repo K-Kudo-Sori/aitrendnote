@@ -1,0 +1,64 @@
+{
+  "date": "2026-09-22",
+  "generatedAt": "2026/9/22 8:09:47",
+  "highlights": [
+    "OpenAIが数学とAIの独立諮問委員会を設立、AIが100件超の未解決問題を解決したと発表",
+    "MetaのAIアプリ「Muse」がモバイル初動でChatGPTを上回るダウンロード数を記録",
+    "GoogleがGemini搭載ノートPC「Googlebook」を899ドルで発表",
+    "サム・アルトマン氏がUNGA週間中に国連安全保障理事会でAIリスクを報告予定",
+    "トランプ大統領が「AI Force」創設とAI担当官任命を表明",
+    "AIコーディングエージェント4製品を襲ったゼロクリックRCE「Plugin4Shell」、Copilotは未修正のまま"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、AIが100件超の未解決数学問題を解いたとして数学諮問委員会を設立",
+      "url": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "summary": "OpenAIはプリンストン高等研究所に、数学とAIに関する独立諮問委員会を新設したと発表した。同社のAIモデルがナビエ・ストークス方程式関連の問題を含む100件以上の未解決数学問題を解いたとされる。ただし委員会にはOpenAIの研究ペースや方向性を変更する権限はなく、助言にとどまるとされている。この動きは、AI企業が数学者の知的成果を脅かしていると25人のフィールズ賞受賞者が公開書簡で批判した直後に発表された。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "MetaのAIアプリ「Muse」、モバイル初動でChatGPTを上回るペースで成長",
+      "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/",
+      "summary": "市場調査会社Aptopiaのデータによると、Metaの新AIアプリ「Muse」は米国・カナダでの提供開始から12日間でダウンロード数180万件を記録し、同期間のChatGPT（130万件）を上回った。デイリーアクティブユーザー数もMuseが64万2千人と、当時のChatGPT（23万1千人）を大きく超えている。Instagram・Facebook・WhatsAppとの連携によるクロスプロモーションが急成長を後押ししており、Threadsの立ち上げ時と同様の戦略が奏功している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Gemini搭載ノートPC「Googlebook」を899ドルで発表",
+      "url": "https://techcrunch.com/2026/09/21/googles-899-googlebook-is-a-bet-that-youll-buy-a-new-laptop-for-gemini/",
+      "summary": "GoogleはAndroid OS搭載のAIノートPC「Googlebook」の予約受付を開始した。価格は899ドルで、米国では10月4日に発売予定。「Magic Cursor」や「Rambler」などGeminiの機能をハードウェアに統合しており、学校向けに普及している約5000万台のChromebookからの乗り換えを狙う長期戦略の一環とみられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "MetaのAIエージェント「Muse」、Amazon.comでの購入操作をブロックされる",
+      "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/",
+      "summary": "Metaのアシスタント「Muse」経由でAmazon.com上の商品を購入しようとすると、「無許可のAIエージェントは利用規約違反」とするエラーが表示されるようになった。Amazonは自社の基盤モデルと推論基盤を保有しており外部エージェントを許可する義務がないほか、AIの誤情報によるカスタマー・ベンダー対応コストの増大を懸念しているとみられる。自律エージェントによるオンライン購買を巡り、プラットフォーム側の防衛姿勢が強まっていることを示す事例。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "サム・アルトマン氏、国連安全保障理事会でAIリスクについて説明へ",
+      "url": "https://gulfnews.com/world/americas/openais-sam-altman-to-brief-un-security-council-next-week-1.500680159",
+      "summary": "OpenAIのサム・アルトマンCEOが、国連総会（UNGA）のハイレベル週間中にフランス主催で開かれる国連安全保障理事会の会合でAIのリスクと国際的な規制のあり方について説明する予定であることが明らかになった。人類がより強力なAIシステムへの制御を失う可能性が議題の一つとされる。アルトマン氏はAnthropicのダリオ・アモデイ氏やイーロン・マスク氏らとともにAI開発のペースを緩める必要性を訴えており、こうした懸念を「デマ」と一蹴するトランプ米大統領とは立場が対立している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "トランプ米大統領、「AI Force」創設とAI担当官任命を表明",
+      "url": "https://www.fox8live.com/2026/09/20/trump-vows-create-ai-force-appoint-ai-czar/",
+      "summary": "トランプ米大統領は自身のSNS「Truth Social」で、かつての「宇宙軍」になぞらえた「AI Force」を創設し、AI担当官（AI czar）を任命する計画を明らかにした。AI業界の成長を妨げない姿勢を強調する一方で、AIに関する懸念にも対応するとしている。元AI研究者による「AIが人類を滅ぼしかねない」という警告や、大手AI企業幹部からの規制強化要求が相次ぐ中での発表だが、トランプ氏自身はそうした懸念を「デマ」として退けている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AIコーディングエージェント4製品に影響するゼロクリックRCE「Plugin4Shell」、Copilotは未修正のまま",
+      "url": "https://www.helpnetsecurity.com/2026/09/18/plugin4shell-ai-coding-agents-vulnerability/",
+      "summary": "セキュリティ研究者が発見した「Plugin4Shell」は、Claude Code・OpenAI Codex・GitHub Copilot・Gemini CLIの4つのAIコーディングエージェントに影響するゼロクリックのリモートコード実行（RCE）脆弱性で、プラグインをレビュー済みバージョンに固定する「SHAピニング」の仕組みを回避できる。攻撃者がプラグインの配布元を乗っ取ることで、開発者の認証情報・SSH鍵・本番環境などに到達し得る。AnthropicはClaude Code 2.1.179で、OpenAIはCodex 0.146.0でそれぞれ修正済みだが、9月21日時点でMicrosoft製Copilotは未修正のままで、GoogleはGemini CLI自体を廃止する対応を取った。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-09-22-news"
+}
