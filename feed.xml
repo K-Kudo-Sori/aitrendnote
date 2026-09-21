@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-21T00:00:00+09:00</updated>
+  <updated>2026-09-22T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月22日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-22.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-22.html</id>
+    <updated>2026-09-22T00:00:00+09:00</updated>
+    <summary>TypeSafe AIの新モデル「Jev」（判断特化・文章生成なし）が話題で、Zenn/Qiitaで複数の検証記事が出た / WebMCP（ブラウザ上でAI向けツールを公開する仕組み）の実践事例が複数登場 / AIコーディング時代のCI高速化やレビュー手法（Refutation Gate）など、AI開発の運用ノウハウ記事が目立った / npmパッケージ偽装によるサプライチェーン攻撃（暗号化ローダー）の詳細な調査レポート</summary>
+  </entry>
   <entry>
     <title>2026年9月21日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03-news.html</id>
     <updated>2026-09-03T00:00:00+09:00</updated>
     <summary>AnthropicがClaude Fable 5.1/Mythos 5.1を発表、コーディング性能向上とコスト削減を両立 / Anthropicは企業向けセキュリティ策「Enterprise Frontier Safeguards」も発表 / GoogleはGemini 3.8 Flashとセキュリティ特化版「Flash Cyber」を投入し競争が激化 / OpenAIは医療分野でEpic連携とカリフォルニア州の未成年AI安全法案支持を発表 / TechCrunch Disruptは「Real World AI」ステージを新設し物理世界とAIの融合に焦点</summary>
-  </entry>
-  <entry>
-    <title>2026年9月3日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-03.html</id>
-    <updated>2026-09-03T00:00:00+09:00</updated>
-    <summary>Googleが「Gemini 3.8 Flash」と、脆弱性検出・自動パッチ適用に特化した「Gemini 3.8 Flash Cyber」を発表。 / Claude Fable 5.1 のリリースに伴い、キャッシュ読み込みの安定性やtool_choiceの破壊的変更を検証する記事がQiitaで複数投稿された。 / AIエージェントに与える権限・実行環境をどう安全に設計するか（サンドボックスOS、ナレッジグラフ活用）という運用面の話題が目立った。 / MCPとREST/SOAP/GraphQL/gRPCの違いを日本の業務システムの実例で整理する記事が公開された。</summary>
   </entry>
 </feed>
