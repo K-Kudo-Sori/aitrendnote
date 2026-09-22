@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-23",
+  "generatedAt": "2026/9/23 8:09:00",
+  "highlights": [
+    "AnthropicがOpus 5.5を発表、Fable級の性能を低価格で提供",
+    "OpenAIがGPT-6 Sol/Lunaを刷新し低コスト・低エラー率を実現",
+    "Azure AI FoundryにCVSS 10.0の最大深刻度脆弱性、Microsoftが修正済み",
+    "Meta Museにローカルから乗っ取れるゼロデイ脆弱性が見つかりホットフィックス"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、低価格ながらFable級性能のOpus 5.5をリリース",
+      "url": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+      "summary": "Anthropicは新モデル「Opus 5.5」を発表し、「これまでテストした中で最も高性能なモデル」と説明した。上位モデルFableに匹敵する性能を持ちながら出力トークン価格は100万トークンあたり25ドルから20ドルに引き下げられた。専門用語を減らし要点を先に伝えるなど応答の質も改善されており、AnthropicはSonnet 5.5とHaiku 5.5も近日中に投入する予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、低コスト・低エラー率のGPT-6 Sol/Lunaを投入",
+      "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "summary": "OpenAIはコーディング向けの「GPT-6 Sol」と事務処理向けの「GPT-6 Luna」の更新版を発表した。API価格は前世代の5.6シリーズの半額まで引き下げられ、キャッシュや推論の改善が寄与している。GPT-6 Solの誤り発生率は前モデルの約半分に減少し、事実精度も旗艦モデルAstraに匹敵する水準まで向上したという。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Azure AI FoundryにCVSS 10.0の最大深刻度脆弱性、Microsoftが修正",
+      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+      "summary": "MicrosoftはAzure AI Foundryの脆弱性CVE-2026-85889を修正した。CVSSスコアは最大値の10.0で、「重要な機能に対する認証の欠如」により攻撃者がネットワーク経由で無許可のまま権限を昇格できる状態だった。修正はサーバー側で既に完了しており、顧客側での対応は不要とされている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AIトレーニングデータ需要急増でSnorkel AIが評価額3.5倍に",
+      "url": "https://techcrunch.com/2026/09/22/snorkel-ai-triples-valuation-to-3-5b-as-demand-for-ai-training-data-booms/",
+      "summary": "Snorkel AIはシリーズEで3億5000万ドルを調達し、評価額は13億ドルから35億ドルへと約3倍に上昇した。同社は合成データ生成と人間の専門家の知見を組み合わせた「データ・アズ・ア・サービス」として完成済みデータセットを提供する。AI各社の高品質な学習データへの旺盛な需要を背景に、年換算売上高はわずか12カ月で18倍の3億7500万ドルに達した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Qualcomm、AIを前面に押し出した新スマホチップ2種を発表",
+      "url": "https://techcrunch.com/2026/09/22/qualcomm-launches-two-new-smartphone-chips-with-emphasis-on-ai/",
+      "summary": "QualcommはフラッグシップチップSnapdragon 8 Elite Gen 6と、上位モデルのSnapdragon 8 Elite Extreme Gen 6を発表した。Extreme版は300億パラメータのMoEモデルをオンデバイスで実行でき、パーソナルAIアシスタントや音声処理の向上、8K/60fpsの動画撮影などを実現する。Motorolaは早速このExtremeチップを搭載した新モデル「Signature 27」を発表している。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "AstroForge、次期探査機の制御にAIを起用",
+      "url": "https://techcrunch.com/2026/09/22/astroforge-is-putting-ai-in-command-of-its-next-spacecraft/",
+      "summary": "宇宙スタートアップAstroForgeは、社内開発のTransformerベースAIモデル「Solo」を次期探査機の自律制御システムとして採用する。NASAのような地上インフラを持たない同社にとって、地球との常時通信なしに異常対応やナビゲーションを行える点が課題解決の鍵となる。信頼性への懸念からニューラルネットの採用が避けられてきた宇宙機制御分野において、深宇宙ミッションでの実運用は先駆的な試みとなる。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta MuseにMacを乗っ取れるゼロデイ脆弱性、ホットフィックスで対応",
+      "url": "https://www.malwarebytes.com/blog/bugs/2026/09/metas-muse-ai-assistant-has-a-zero-day-that-can-turn-it-into-a-mac-backdoor",
+      "summary": "セキュリティ研究者Patrick Wardle氏が、Meta AIエージェント「Muse」のゼロデイ脆弱性を発見した。ローカルでコード実行できる攻撃者は、非公開の設定を書き換えて音声ディクテーションの通信先を攻撃者サーバーへリダイレクトし、音声プロンプトや認証トークンを窃取できる。Museはメール・カレンダー・ファイル・マイク・カメラなど広範な権限を持つため悪用時の影響が大きく、事案公表後Metaは数時間以内にホットフィックスを配布した。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-09-23-news"
+}

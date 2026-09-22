@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-23T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月23日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23-news.html</id>
+    <updated>2026-09-23T00:00:00+09:00</updated>
+    <summary>AnthropicがOpus 5.5を発表、Fable級の性能を低価格で提供 / OpenAIがGPT-6 Sol/Lunaを刷新し低コスト・低エラー率を実現 / Azure AI FoundryにCVSS 10.0の最大深刻度脆弱性、Microsoftが修正済み / Meta Museにローカルから乗っ取れるゼロデイ脆弱性が見つかりホットフィックス</summary>
+  </entry>
+  <entry>
     <title>2026年9月23日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04-news.html</id>
     <updated>2026-09-04T00:00:00+09:00</updated>
     <summary>OpenAIが「サイバーセキュリティ危険水準」に達したとされる新モデルGPT-6 Astraを発表 / AnthropicがClaude Fable 5.1/Mythos 5.1を投入、コスト最大45%減と研究タスク性能向上を強調 / Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIモデルと安全策を公表 / GoogleがCanva対抗のプロンプト型AIデザインツール「Google Pics」を発表 / AnthropicがECサイト向け「商取引エージェント」設計図をオープンソース公開</summary>
-  </entry>
-  <entry>
-    <title>2026年9月4日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04.html</id>
-    <updated>2026-09-04T00:00:00+09:00</updated>
-    <summary>Anthropicがショッピング/店舗向けエージェントの参考実装commerce-agentsをApache 2.0で公開 / GoogleとPurdue大学がSKILL.stateを提案。会話履歴を渡さず型付き状態のみで長時間エージェントの精度を維持 / Claude Fable 5.1がキャッシュ読み価格を1/4に。tool_choiceのany/toolが400になる破壊的変更に注意 / ナレッジグラフでClaude Codeのレビュー用コンテキストを14万トークンから70トークンに削減する実例 / OpenAI・Claude・Grokが同時ダウンし、クラウド障害の連鎖が疑われる事態が…</summary>
   </entry>
 </feed>
