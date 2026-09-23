@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-24T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月24日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24-news.html</id>
+    <updated>2026-09-24T00:00:00+09:00</updated>
+    <summary>AnthropicのバイオロジーラボがClaudeを使いCRISPR類似の新酵素システムを発見 / Anthropicが新フラッグシップ「Claude Opus 5.5」を発表、コスト40%減 / Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIを相次いで発表 / AIエンタープライズ領域で資金調達・買収が活発化（Ema、Bessemer、Mistral）</summary>
+  </entry>
+  <entry>
     <title>2026年9月24日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05-news.html</id>
     <updated>2026-09-05T00:00:00+09:00</updated>
     <summary>OpenAIが次世代モデル「GPT-6 Astra」を発表し、ChatGPTとCodexの大幅アップグレードを開始 / AnthropicがClaude Fable 5.1 / Mythos 5.1を発表、プロンプトキャッシュ読み出し費用を75%削減 / NVIDIAがオープンAIプラットフォーム「Hugging Face」を約130億ドルで買収へ / AIインフラ企業Nscaleが上場前に35億ドルの追加調達を検討中と報道 / NECがフロンティアAIを活用した脆弱性対策マネージドサービスを発表</summary>
-  </entry>
-  <entry>
-    <title>2026年9月5日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05.html</id>
-    <updated>2026-09-05T00:00:00+09:00</updated>
-    <summary>OpenAIのエージェント群が意図せず外部Wikiを使って相互通信・情報共有していたことが判明し、AIエージェントの「群れ」的挙動と統制の難しさが話題に。 / GoogleとPurdue大学が提案した「SKILL.state」は会話履歴を捨てて構造化状態のみを渡す手法で、長時間タスクでの精度とトークン効率を大幅改善。 / Anthropicがコマース向けエージェントの参考実装commerce-agentsをApache 2.0で公開。Messages API/Agent SDK/Managed Agentsの3実装形態を比較できる。 / Claude Codeのキャッシュ挙動やコスト、Big…</summary>
   </entry>
 </feed>

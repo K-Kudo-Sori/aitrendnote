@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026/9/24 8:08:23",
+  "highlights": [
+    "AnthropicのバイオロジーラボがClaudeを使いCRISPR類似の新酵素システムを発見",
+    "Anthropicが新フラッグシップ「Claude Opus 5.5」を発表、コスト40%減",
+    "Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIを相次いで発表",
+    "AIエンタープライズ領域で資金調達・買収が活発化（Ema、Bessemer、Mistral）"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropicのバイオロジーラボ、既に大きな発見をしたと発表",
+      "url": "https://techcrunch.com/2026/09/23/anthropic-says-its-biology-lab-has-already-found-something-big/",
+      "summary": "Anthropicは、Claudeがバクテリオファージのゲノム内に隠れていた新しい酵素システムを発見したと発表した。DNAの切断・コピー・貼り付けを行えるなどCRISPRに似た性質を持つという。Claudeは約950のエージェントを動員し21時間・2億1000万トークンを費やして解析を行い、実際の実験は人間の科学者が実施した。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、新フラッグシップモデル「Claude Opus 5.5」を発表",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "summary": "Anthropicは新モデルファミリー第一弾となる「Claude Opus 5.5」を発表した。多くの作業でClaude Fable 5.1に匹敵する性能を、Opus 5比で40%低いコストで実現し、出力速度も30%以上向上した。価格は入力100万トークンあたり4ドル、出力20ドル、キャッシュ読み取り0.20ドルに引き下げられ、コーディングやビジネス分析のベンチマークでも高いスコアを記録している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Anthropic、OpenAIがサイバーセキュリティ向けAIモデル・安全策・アクセスプログラムを発表",
+      "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+      "summary": "大手3社が相次いでサイバーセキュリティ特化のAI施策を発表した。Googleは脆弱性発見に強い「Gemini 3.8 Flash Cyber」を公開し650以上の組織に早期アクセスを提供するFairwind Programを開始。Anthropicは「Claude Fable 5.1」「Claude Mythos 5.1」とゼロデータ保持を掲げるEnterprise Frontier Safeguardsを発表し、OpenAIはAstraモデルの安全性向上とDaybreak Blueプログラムを打ち出した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Ema、7700万ドルを調達 ― AIがエンタープライズソフトウェア市場を侵食",
+      "url": "https://techcrunch.com/2026/09/23/ema-raises-77m-as-ai-starts-eating-into-enterprise-software-and-services/",
+      "summary": "複数のAIエージェントでHR・IT・財務などの企業業務を自動化するEmaが、シリーズBで7700万ドルを調達し累計調達額は1億4000万ドルとなった。インド拠点のCreaegisを主導投資家に、Accel・Section 32・Prosusなど既存投資家も参加。Google・Microsoft・PwCなど50社超の企業顧客を持ち、大規模SaaSの置き換えが進んでいると創業者は述べている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "VC大手Bessemer、AI投資向けに新たに57.5億ドルを調達",
+      "url": "https://techcrunch.com/2026/09/23/vc-firm-bessemer-now-has-another-5-75b-to-invest-in-what-else-ai/",
+      "summary": "Bessemer Venture Partnersは、シード・アーリーステージ向け17.5億ドルとグロースステージ向け40億ドルの2本の新ファンドで、合計57.5億ドルを調達した。投資対象は計算インフラから基盤モデル、開発ツール、エージェント技術までAIスタック全体に及ぶ。同社パートナーはAIネイティブ企業がこれまでにない速度で成長していると述べている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Mistral AI、30億ユーロ調達後3件目の買収でマーケティングスタートアップPimentoを取得",
+      "url": "https://dealroom.co/news/155271-mistral-ai-buys-marketing-startup-pimento-in-third-acquisition-since-3b/",
+      "summary": "Mistral AIは、パリ拠点の広告AI支援スタートアップPimentoを買収したと発表した。買収額は非公開だが、30億ユーロの資金調達からわずか2週間での発表となった。KoyebやEmmi AIに続く3件目の買収で、モデル開発から企業の実務ワークフローへと事業領域を広げる狙いがある。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "YouTube、Studioアプリ内でクリエイター向けの新AI機能をリリース",
+      "url": "https://techcrunch.com/2026/09/23/youtube-releases-new-ai-features-for-creators-within-its-studio-app/",
+      "summary": "YouTubeは年次イベント「Made On YouTube」で、AI搭載Q&A機能「Ask Studio」のiOS/Android対応拡大、未公開動画へのフィードバック機能、動画内容から自動生成する動的サムネイル、参考コンテンツを表示するリサーチフィードなど複数の新AI機能を発表した。分析機能も強化され、パフォーマンス改善のアドバイスを提供する。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-09-24-news"
+}
