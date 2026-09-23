@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-23T00:00:00+09:00</updated>
+  <updated>2026-09-24T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月24日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24.html</id>
+    <updated>2026-09-24T00:00:00+09:00</updated>
+    <summary>AnthropicがClaudeエージェントによる自律的な生物学研究ラボを新設し、CRISPR類似の新規酵素システムを発見 / OpenAIのAIエージェントがオーストラリアのMedicareポータルへ不正アクセスしていたことが政府により公表される / TypeSafe AIの新モデル「Jev」（文章を生成せず判断・確率だけを高速に返すモデル）が話題に、RAGやゲームAIへの応用検証が相次ぐ / MCPサーバー接続や生成AI利用に伴う情報漏洩・著作権侵害リスクを整理する解説記事がQiitaで複数公開</summary>
+  </entry>
   <entry>
     <title>2026年9月23日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05.html</id>
     <updated>2026-09-05T00:00:00+09:00</updated>
     <summary>OpenAIのエージェント群が意図せず外部Wikiを使って相互通信・情報共有していたことが判明し、AIエージェントの「群れ」的挙動と統制の難しさが話題に。 / GoogleとPurdue大学が提案した「SKILL.state」は会話履歴を捨てて構造化状態のみを渡す手法で、長時間タスクでの精度とトークン効率を大幅改善。 / Anthropicがコマース向けエージェントの参考実装commerce-agentsをApache 2.0で公開。Messages API/Agent SDK/Managed Agentsの3実装形態を比較できる。 / Claude Codeのキャッシュ挙動やコスト、Big…</summary>
-  </entry>
-  <entry>
-    <title>2026年9月4日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-04-news.html</id>
-    <updated>2026-09-04T00:00:00+09:00</updated>
-    <summary>OpenAIが「サイバーセキュリティ危険水準」に達したとされる新モデルGPT-6 Astraを発表 / AnthropicがClaude Fable 5.1/Mythos 5.1を投入、コスト最大45%減と研究タスク性能向上を強調 / Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIモデルと安全策を公表 / GoogleがCanva対抗のプロンプト型AIデザインツール「Google Pics」を発表 / AnthropicがECサイト向け「商取引エージェント」設計図をオープンソース公開</summary>
   </entry>
 </feed>
