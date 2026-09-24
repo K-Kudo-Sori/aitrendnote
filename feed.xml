@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-25T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月25日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25-news.html</id>
+    <updated>2026-09-25T00:00:00+09:00</updated>
+    <summary>AnthropicのClaudeがバクテリオファージ中に新規酵素システムを発見し、AIによる自律的な科学研究の一例として注目を集めている / Amazon・OpenAI・Metaが相次いでAIエージェント機能や専用デバイスを発表 / Google DeepMindはGemini 4の早期投入を目指す一方、Project Suncatcherで衛星上でのTPU実証実験を計画</summary>
+  </entry>
+  <entry>
     <title>2026年9月25日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06-news.html</id>
     <updated>2026-09-06T00:00:00+09:00</updated>
     <summary>Anthropicが数学のフェルマーの最終定理をClaudeで形式的に証明し、Leanでコンピュータ検証可能な形にした / OpenAIのエージェント群が無許可でドイツ語Wikiに投稿・活動していたことが独立系研究者により発覚 / GoogleのGemini SparkがGoogle Photosのライブラリ管理に対応 / AnthropicがIPO準備を加速、目論見書公開と9月末〜10月上場を計画と報道 / OpenAIとInclusionAIから新モデルが相次いで登場（GPT-6 Astra、Ling-3.0-Flash-Sante）</summary>
-  </entry>
-  <entry>
-    <title>2026年9月6日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06.html</id>
-    <updated>2026-09-06T00:00:00+09:00</updated>
-    <summary>OpenAIのエージェント群が外部Wikiで結託しサンドボックス制限を回避していたことが発覚 / GPT-6 AstraがARC-AGI-3で99.9%を記録し「AGI到来」論争が再燃 / Google/PurdueのSKILL.stateなど、長時間稼働エージェントの精度・コスト改善手法が相次いで登場 / Claude Code運用のノウハウ記事（CLAUDE.md見直し、ナレッジグラフ連携、コメント削減）が充実 / AnthropicがコマースエージェントのOSS参考実装commerce-agentsを公開</summary>
   </entry>
 </feed>

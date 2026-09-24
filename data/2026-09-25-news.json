@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026/9/25 8:11:36",
+  "highlights": [
+    "AnthropicのClaudeがバクテリオファージ中に新規酵素システムを発見し、AIによる自律的な科学研究の一例として注目を集めている",
+    "Amazon・OpenAI・Metaが相次いでAIエージェント機能や専用デバイスを発表",
+    "Google DeepMindはGemini 4の早期投入を目指す一方、Project Suncatcherで衛星上でのTPU実証実験を計画"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Claudeがバクテリオファージ中の新規酵素システムを発見",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "summary": "Anthropicは、Claudeがバクテリオファージ（細菌に感染するウイルス）のDNA中から、これまで知られていなかった酵素システム「array-associated reverse transcriptases（ART）」を発見したと発表した。約950のClaudeエージェントが21時間かけて約19億のタンパク質クラスターを探索し、20万件の逆転写酵素からCRISPRに似た繰り返し配列を伴う候補を絞り込んだ。ARTの正確な機能はまだ分かっていないが、CRISPRの提唱者であるフェン・チャン氏も「非常に興味深い」と評価している。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Amazon、出品者向けSeller AssistantをClaudeやAmazon Quickと連携するプラグインを提供開始",
+      "url": "https://www.aboutamazon.com/news/innovation-at-amazon/seller-assistant-plugin-amazon-quick-claude",
+      "summary": "Amazonは、外部のAIアシスタントからSeller Centralのデータや機能にアクセスできる新しいプラグインを発表した。米国でベータ提供が始まり、出品者はAnthropicのClaudeやAmazon Quickを通じて在庫管理・価格設定・商品情報・分析データの確認や操作を行える。Seller AssistantはAmazon Bedrock上でAmazon NovaとClaudeを組み合わせて稼働しており、接続は約60秒でコーディング不要という。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、ChatGPTモバイルアプリに音声操作のエージェント機能を追加",
+      "url": "https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/",
+      "summary": "OpenAIは9月23日、ChatGPTのモバイルアプリに音声で操作できるエージェント機能を追加したと発表した。Plus/Proユーザーは音声でドキュメント作成やメールの下書き、Slackメッセージの要約などのタスクをWorkタブから実行できるようになる。無料/Goユーザーはプラグインや連携アプリの利用にとどまる。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Google DeepMind新体制、Gemini 4を年内の早い時期に投入する方針",
+      "url": "https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/",
+      "summary": "Google DeepMindの新トップに就いたKoray Kavukcuoglu氏は、Gemini 4がポストトレーニングの初期段階に入っており、年末より「かなり早い」時期に投入したいと述べた。前身のGemini 3.5 Proは発表後に複数回延期され未リリースのまま終わっており、OpenAIやAnthropicとの競争激化を背景に開発を急いでいるという。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、AIアシスタント「Muse」専用の携帯型デバイス「Muse Charm」を発表",
+      "url": "https://www.irishtimes.com/business/2026/09/24/theres-nothing-like-it-meta-unveils-dedicated-charm-device-for-using-muse-ai/",
+      "summary": "MetaはMeta Connectで、手のひらサイズのAI専用デバイス「Muse Charm」を発表した。約2インチの有機ELタッチスクリーン、5G通信、前後カメラ、指紋センサーを備え、音声チャットやメール送信、旅行の予約などをAIアシスタント「Muse」経由で行える。12月の発売を予定している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、TPU4基を搭載した実験衛星「Project Suncatcher」を10月1日に打ち上げへ",
+      "url": "https://convergedigest.com/google-project-suncatcher-orbital-ai-data-center-tpu/",
+      "summary": "Googleは10月1日、SpaceXのTransporter-18ミッションで、独自開発のTPU4基を搭載した冷蔵庫サイズの実験衛星「MVP」を打ち上げる予定だと発表した。低軌道上でAI向けアクセラレータが打ち上げ時の振動や放射線、熱環境に耐えられるかを検証し、将来的な軌道上AIデータセンター構想の実現可能性を探る。2027年には2基の衛星を使った追加試験も計画されている。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-09-25-news"
+}
