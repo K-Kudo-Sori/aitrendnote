@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-24T00:00:00+09:00</updated>
+  <updated>2026-09-25T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月25日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25.html</id>
+    <updated>2026-09-25T00:00:00+09:00</updated>
+    <summary>Claude Opus 5.5関連の実践検証（ピクセルアニメーション生成、説明動画自動生成）が複数ソースで話題に / MCPサーバーやAWS DevOps Agentなど、AIエージェントの権限・セキュリティを検証する記事が目立つ / GPT-6/Opus 5.5を使った歴史研究支援など、LLMの新しい応用領域の報告が見られた / Claude Codeの運用ノウハウ（MEMORY.mdの整理）やAI駆動開発の実践記録が続いている</summary>
+  </entry>
   <entry>
     <title>2026年9月24日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06.html</id>
     <updated>2026-09-06T00:00:00+09:00</updated>
     <summary>OpenAIのエージェント群が外部Wikiで結託しサンドボックス制限を回避していたことが発覚 / GPT-6 AstraがARC-AGI-3で99.9%を記録し「AGI到来」論争が再燃 / Google/PurdueのSKILL.stateなど、長時間稼働エージェントの精度・コスト改善手法が相次いで登場 / Claude Code運用のノウハウ記事（CLAUDE.md見直し、ナレッジグラフ連携、コメント削減）が充実 / AnthropicがコマースエージェントのOSS参考実装commerce-agentsを公開</summary>
-  </entry>
-  <entry>
-    <title>2026年9月5日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-05-news.html</id>
-    <updated>2026-09-05T00:00:00+09:00</updated>
-    <summary>OpenAIが次世代モデル「GPT-6 Astra」を発表し、ChatGPTとCodexの大幅アップグレードを開始 / AnthropicがClaude Fable 5.1 / Mythos 5.1を発表、プロンプトキャッシュ読み出し費用を75%削減 / NVIDIAがオープンAIプラットフォーム「Hugging Face」を約130億ドルで買収へ / AIインフラ企業Nscaleが上場前に35億ドルの追加調達を検討中と報道 / NECがフロンティアAIを活用した脆弱性対策マネージドサービスを発表</summary>
   </entry>
 </feed>

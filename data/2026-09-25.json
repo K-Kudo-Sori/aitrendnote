@@ -1,0 +1,255 @@
+{
+  "date": "2026-09-25",
+  "generatedAt": "2026/9/25 7:11:06",
+  "highlights": [
+    "Claude Opus 5.5関連の実践検証（ピクセルアニメーション生成、説明動画自動生成）が複数ソースで話題に",
+    "MCPサーバーやAWS DevOps Agentなど、AIエージェントの権限・セキュリティを検証する記事が目立つ",
+    "GPT-6/Opus 5.5を使った歴史研究支援など、LLMの新しい応用領域の報告が見られた",
+    "Claude Codeの運用ノウハウ（MEMORY.mdの整理）やAI駆動開発の実践記録が続いている"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Show HN: Koi.rest – watch some fish and regain your balance",
+      "url": "https://koi.rest",
+      "summary": "魚の映像を眺めながら風や鳥、焚き火、雨などの環境音を組み合わせて視聴できる、リラックス・集中用のシンプルなWebアプリ「Koi.rest」のShow HN投稿。タイマー機能（10〜60分）で作業や休憩の時間を区切って使うことができる。取得できた本文はUIのラベル程度で、AI関連の技術的な説明は確認できなかった。Hacker Newsでは19ポイント・1コメントを集めている。",
+      "category": "other",
+      "points": 19,
+      "comments": 1,
+      "author": "hxii"
+    },
+    {
+      "source": "hackernews",
+      "title": "Opus 5.5 is good at explainer videos",
+      "url": "https://launchvideo.io",
+      "summary": "launchvideo.ioは、URLまたはプロンプトを入力するとClaude Opus 5.5が台本を書き、サーバーレスエージェントが数分でプロモーション動画を自動生成するデモサイト。OpenComputer上で動く単一のエージェントがWebページを読み取り、仮想クロックでレンダリングした場面をチェックし、ffmpegで書き出してVercel Blobにアップロードするまで一気通貫で処理する。1本あたり入力約9万トークン・出力約1.5万トークンをOpus 5.5で消費し、生成には約4分かかるという。エージェント本体はTypeScriptの1ファイルで構成され、GitHubで公開されており、誰でもテンプレートから自分のエージェントとしてデプロイできる。",
+      "category": "agent",
+      "points": 68,
+      "comments": 44,
+      "author": "iacguy"
+    },
+    {
+      "source": "hackernews",
+      "title": "Rails World 2026 Opening Keynote [video]",
+      "url": "https://www.youtube.com/watch?v=vDjW_dRyKXY",
+      "summary": "Hacker Newsに投稿されたRails World 2026基調講演のYouTube動画へのリンクで、投稿自体は動画共有のみ。スクレイピングで取得できた本文はYouTubeプレイヤーの内部データ（トラッキングパラメータやストリーミングURLなど）であり、記事としての実質的なテキスト内容は含まれていなかった。基調講演の具体的な発表内容は本文からは確認できなかった。",
+      "category": "other",
+      "points": 178,
+      "comments": 190,
+      "author": "an0malous"
+    },
+    {
+      "source": "hackernews",
+      "title": "Using LLMs to trace alchemical knowledge and decode 17th century letters",
+      "url": "https://resobscura.substack.com/p/ai-labs-need-to-start-funding-historical",
+      "summary": "歴史研究者のBenjamin Breen氏が、GPT-6とClaude Opus 5.5を使って錬金術文献の系譜をたどり、17世紀の書簡を解読する実験結果を報告している。数学分野と同様、LLMが得意とするのは「専門家が既に解くべき問題を特定していて、データがデジタル化済みで、解の正誤を明確に判定できる」タイプの歴史的難問だと分析する。具体例として、暗号解読（1941年のドイツ軍暗号解読など）、翻訳の系譜追跡（ニュートンがラテン語訳した錬金術文献の原典特定）、点在する専門分野の知見をつなぐ作業を挙げている。筆者は、AI研究機関や助成団体が歴史研究者との協働にもっと投資すべきだと主張している。",
+      "category": "research",
+      "points": 40,
+      "comments": 8,
+      "author": "benbreen"
+    },
+    {
+      "source": "hackernews",
+      "title": "Sourcehut account takeover via build logs (XSS in ansi2html)",
+      "url": "https://blog.arusekk.pl/posts/srht-account-takeover/",
+      "summary": "SourceHutのビルドログをANSIエスケープシーケンスからHTMLへ変換するansi2htmlライブラリに、OSC 8ハイパーリンクの処理に起因するXSS脆弱性（CVE-2026-92973）が発見されたという脆弱性レポート。攻撃者はビルドログに悪意あるリンクを仕込むだけで、そのログを閲覧したユーザーのアカウントを乗っ取れる「ワーム化可能」な脆弱性だったと説明している。筆者はSourceHutのパッケージビルド基盤を調査する過程でこの問題を発見し、ansi2htmlへ修正パッチを提出した経緯を詳述している。文中では、curl|sudo bashと並べて「とりあえずこのフォルダでClaudeを起動する」ようなインストール手順への注意も呼びかけている。",
+      "category": "security",
+      "points": 42,
+      "comments": 3,
+      "author": "arusekk"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Opus 5.5によるピクセルアニメーション生成の検証",
+      "url": "https://zenn.dev/peoplex_blog/articles/1bc5c181ad19f0",
+      "summary": "PeopleXのエンジニアが、公開されたばかりのClaude Opus 5.5にピクセルアートアニメーションを生成させ、その実力を検証した記事。「サンゴ礁の一日」をテーマに、魚の群れがサメに反応して逃げる、昼夜で生き物の行動が変わるといった複雑な演出を、単一HTMLファイル（Canvas 2D、外部ライブラリ・画像なし）として1つのプロンプトからどこまで作れるか試している。最初は90秒周期の昼夜ループで生成させ、SNS投稿用に20秒程度への短縮を追加指示で対応させた。470行・約43KBのコードで、低解像度キャンバスを整数倍拡大するドット絵表現や、複数レイヤーによる奥行き表現などが実装されている。",
+      "category": "model",
+      "points": 33,
+      "author": "Aki 🚀 Product Engineer @ PeopleX"
+    },
+    {
+      "source": "zenn",
+      "title": "AWS DevOps Agent の堅牢性",
+      "url": "https://zenn.dev/cscloud_blog/articles/9968d12b332c03",
+      "summary": "セキュリティエンジニアが、AWSの運用支援AIエージェント「DevOps Agent」の権限まわりの堅牢性を検証した記事。強い権限を持つElevated Roleを付与した場合の任意パッケージインストールの可否、任意シェルコマンドの実行可否、パラメーター注入への耐性などを、実際にIAMやSSM Documentを組み合わせて検証している。結果として、Elevated Roleに強い権限を付けると承認ミスやソーシャルエンジニアリングで悪用され得る一方、Agent自体は任意コマンドの直接実行やコマンドインジェクションは一貫して拒否するなど、一定の堅牢性が確認できたとしている。ただし事前配置した無害な擬似マルウェアの実行は通ってしまうなど、Document側の設計次第でリスクが残ることも指摘している。",
+      "category": "security",
+      "points": 7,
+      "author": "nishikawa"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで定期的にやっておきたい MEMORY.md の大掃除",
+      "url": "https://zenn.dev/loglass/articles/f69996279763ab",
+      "summary": "ログラスのエンジニアが、Claude Codeの自動メモリ機能で溜まり続けるMEMORY.mdを定期的に整理する運用方法を紹介する記事。メモリは種類ごと（user/feedback/project/reference）にfrontmatterで管理され、セッション開始時にはインデックスの先頭200行・25KBまでしか読み込まれないため、放置すると重要な指摘が実質的に失われる点を課題として挙げている。ルールをスキルとして必要時のみ読み込ませる運用も試したが発火率が低く、結局CLAUDE.md配下の.claude/rulesに常駐させる方式へ戻したと述べる。あわせて、キャッシュ読み込みにより実際のトークンコストは限定的であることや、蓄積したメモリを要約・統合する自作スキル「/memory-compaction」の設計も紹介している。",
+      "category": "devtool",
+      "points": 13,
+      "author": "nekolas"
+    },
+    {
+      "source": "zenn",
+      "title": "競馬の論文 100 本を Jev で仕分けて、LLM と速度とコストを比べた",
+      "url": "https://zenn.dev/toshipon/articles/jev-paper-screening-vs-llm",
+      "summary": "個人で競馬の定量分析を行う筆者が、学術論文から有効な賭け戦略を探す仕分け作業に、確率つきでyes/no・択一・段階評価を返すモデル「Jev」を使った検証記事。100本の論文をキーワードによるheuristicとJevで仕分け比較したところ、heuristicは実装可能性を大きく過大評価していたのに対し、Jevの判定は再仕分けでもほぼ一致し安定していたと報告する。同じタスクを通常のLLM（Llama 3.3 70B）とも速度・コストで比較し、Jevの方が高速（中央値484ms対1441ms）だった一方、コストはWorkers AIのLlamaよりやや高く、公式が謳う「LLMの40〜200倍速い」ほどの差は見られなかったとしている。",
+      "category": "model",
+      "points": 11,
+      "author": "toshipon"
+    },
+    {
+      "source": "zenn",
+      "title": "会議・調査・資料作成をAgentに任せる：Microsoft環境で始めるプロジェクトLLM Wiki",
+      "url": "https://zenn.dev/mkj/articles/agent-native-project-work-with-llm-wiki",
+      "summary": "松尾研究所のデータサイエンティストが、Andrej Karpathy提唱の「LLM Wiki」概念を4か月間、複数のプロジェクト運用に取り入れた経験を紹介する記事。受領資料や会話の原文をRaw sourcesとして保存し、AgentがそこからWikiへ知識を整理・更新し続けることで、調査・会議運営・資料作成を人とAgentが同じWikiを見ながら進められるようになったという。実際の変化として、Agentがwikiの整合性チェックや古い情報との食い違いの指摘を続けること、人とAgentの対話自体がプロジェクトの知識として蓄積されること、Slackや会議の文字起こしから次のアクションや議事録を自動生成できるようになったことを挙げている。一般的なMicrosoft環境でこの仕組みを構築する具体的な方法にも触れている。",
+      "category": "agent",
+      "points": 6,
+      "author": "Y. O."
+    },
+    {
+      "source": "devto",
+      "title": "Polly Introduces an Open Source Maintenance Fee",
+      "url": "https://dev.to/gramli/polly-introduces-an-open-source-maintenance-fee-f3e",
+      "summary": ".NET向けの人気レジリエンスライブラリPollyが、OSS Maintenance Fee（OSMF）という新しい持続可能性モデルを導入したことを紹介する記事。ソースライセンスはそのままオープンソースを維持しつつ、Pollyを使う製品やプロジェクトで月2万ドル以上の収益がある企業には、メンテナンス済みリリースの利用に対して組織あたり月20ドルの支払いを求める仕組みだという。ライセンス変更やクローズドソース化ではなく、GitHub Sponsorsなどで収益企業からのみ少額の維持費を集めるアプローチとして、AI時代のOSS持続可能性問題への一つの解として注目している。筆者は以前書いた「AIがOSSの有料化シフトを加速しているか」という考察の延長として、この新モデルへの評価を述べている。",
+      "category": "product",
+      "points": 44,
+      "comments": 15,
+      "author": "Daniel Balcarek",
+      "tags": [
+        "csharp",
+        "opensource",
+        "dotnet",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Devlog: I Built a 3D Library in Three.js Without a Level Editor — So I Made My Own",
+      "url": "https://dev.to/mikachu/devlog-i-built-a-3d-library-in-threejs-without-a-level-editor-so-i-made-my-own-500i",
+      "summary": "DEV.toの記事を「物理的な本」としてThree.js製の3D空間「Oniria」内に配置し直す個人プロジェクトの開発記録。当初はサイバーパンク風の都市景観だったが、情報を整理する意味を持たせるため図書館というメタファーに切り替え、部屋をカテゴリ、棚をコレクション、本を記事に対応させる設計へ変更したという。レベルエディタを持たないため、GLBアセットをコードで複製・配置するヘルパー関数を自作し、座標を手で調整しながら配置する泥臭い工程を経て、独自の簡易編集ツールを作るに至った経緯を綴っている。",
+      "category": "devtool",
+      "points": 15,
+      "comments": 10,
+      "author": "Mika Flowers",
+      "tags": [
+        "devlog",
+        "ai",
+        "javascript",
+        "showdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI-assisted genealogy, a follow-up",
+      "url": "https://dev.to/nfrankel/ai-assisted-genealogy-a-follow-up-531",
+      "summary": "以前投稿した「AI-assisted genealogy」への反響を受け、筆者がAIエージェントを使った家系図調査の手法をさらに詳しく解説するフォローアップ記事。GEDCOM形式のQUAY（証拠の信頼度）タグを使い、系図サイトの情報はQUAY2、公的な戸籍・教区記録で裏付けが取れたものはQUAY3として格上げする「裏取り」の運用を説明している。サイトごとに専用のスキルを用意し、アカウント要否やCloudflareなどのボット対策レベルに応じて、curl・Playwright・デバッグモードのChrome操作を使い分けているという。認証情報をエージェントに直接渡さず、Playwrightの永続セッションやChromeのデバッグポートを使ってログイン状態を維持する運用にも触れている。",
+      "category": "agent",
+      "points": 6,
+      "comments": 2,
+      "author": "Nicolas Fränkel",
+      "tags": [
+        "ai",
+        "genealogy",
+        "claude",
+        "feedback"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Revisiting the Toyota Production System (TPS) in the Age of Coding Agents",
+      "url": "https://dev.to/remojansen/revisiting-the-toyota-production-system-tps-in-the-age-of-coding-agents-2bb5",
+      "summary": "コーディングエージェントの普及によりソフトウェア開発のボトルネックが「生産」から「検証」へ移りつつあると指摘し、トヨタ生産方式（TPS）の考え方を援用して解決策を探る記事。エージェントは人間よりはるかに速くコードを大量生産できるが、その正しさを確認する検証能力が追いつかず、品質管理が生産に追いつかない工場のような状態になっていると分析する。TPSの柱である「自働化（Jidoka）」、すなわち異常を検知したら即座に停止する仕組みを、ソフトウェア版の「アンドンコード」としてコーディングエージェントに応用できないかを論じている。欠陥の予防、早期検出、異常時の対応、仕掛品の許容量など、製造業の品質管理で培われた問いを、AIエージェント時代のソフトウェア開発にそのまま当てはめて考察している。",
+      "category": "agent",
+      "points": 6,
+      "comments": 6,
+      "author": "Remo H. Jansen",
+      "tags": [
+        "ai",
+        "agents",
+        "productivity",
+        "softwareengineering"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Double Engine Failure: Back to the Hangar After Two Data Providers Changed Course",
+      "url": "https://dev.to/georgekobaidze/double-engine-failure-back-to-the-hangar-after-two-data-providers-changed-course-3o3",
+      "summary": "GitHub Copilot CLI Challengeで優勝したフライト追跡アプリ「Metal Birds Watch」が、友人に見せようとした際に地図も飛行機データも表示されなくなっていたトラブルの顛末を綴った開発記。原因は、地図タイルを提供するCARTOが2026年8月28日付でAPIキー必須化に方針転換したことと、もう一つの飛行機データ提供元も仕様変更したことの「二重エンジン故障」だったという。CARTO側は無料で月500万タイルまでのAPIキーを取得してURLに付与することで解決したと述べている。外部無料APIに依存するサイドプロジェクトが、提供元の方針転換一つで簡単に壊れてしまう脆さを、ユーモラスな語り口で紹介している。",
+      "category": "devtool",
+      "points": 3,
+      "comments": 0,
+      "author": "Giorgi Kobaidze",
+      "tags": [
+        "debugging",
+        "showdev",
+        "webdev",
+        "node"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "攻撃者の視点でセキュリティを理解したいエンジニアへ。bashで学ぶ侵入技術の実践書",
+      "url": "https://qiita.com/yasu1109/items/1002367721b1650fcdf3",
+      "summary": "書籍『侵入技術入門 ―bashで学ぶ攻撃者の技法』のレビュー記事で、Linux標準のbashだけを使って偵察から侵入までの攻撃者視点の手順を実際に手を動かしながら学べる内容だと紹介している。日本語版限定の付録として「AIエージェントを使った侵入テスト」と「AIシステムのセキュリティ評価手法」が追加されており、生成AIの業務導入が進む中で攻撃者によるAIエージェント悪用の視点も補えると評価している。著者はDolev FarhiとNick Aleksで、演習形式のため読むだけでなく実際に手を動かして理解を確認できる点や、bashスクリプトによる複数ツール連携が自社の脆弱性診断自動化にも応用できそうだと筆者は評価している。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "ペネトレーションテスト",
+        "Bash",
+        "Linux",
+        "AIセキュリティ"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "OpenAI APIキーをOCI VaultとResource PrincipalでセキュアにしてSelect AIしてみてみた",
+      "url": "https://qiita.com/shirok/items/a5f34349c0b6ba8f3f62",
+      "summary": "Oracle Autonomous AI DatabaseのSelect AI機能でOpenAI APIを呼び出す際、これまでSQLに直接記述していたOpenAI APIキーを、OCI VaultのSecretへ保存しResource Principal経由で参照する構成に変更した検証記事。SQLスクリプトやシェル履歴、ログ、Gitリポジトリなどにキーが残ってしまうリスクを避けるため、Autonomous AI DatabaseがOCI Resource Principalを使ってVault Secretを取得し、それをVault Secret Credentialとして使う流れを実装している。OpenAI API自体はOCI IAMのResource Principalで直接認証できないためAPIキーは引き続き必要だが、キーの保管場所を安全な場所へ分離し、必要な権限を持つDatabaseだけが参照できる構成にすることが目的だとしている。Vault Secret Credentialは12時間ごとに自動更新され、即時反映したい場合は専用プロシージャで手動更新できるという。",
+      "category": "infra",
+      "tags": [
+        "OpenAI",
+        "API",
+        "SelectAI",
+        "oracle",
+        "Vault"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "MCP サーバーと繋いだだけで情報漏洩？ 危険の4パターンと事前に確認すべき7つのことをまとめてみた",
+      "url": "https://qiita.com/songchong/items/89175eaa7a30f71d0351",
+      "summary": "MCP（Model Context Protocol）をAIエージェントに接続する際のリスクを、ツールポイズニング・間接プロンプトインジェクション・過剰な権限と長寿命キー・自動承認の4パターンに整理し、接続前に確認すべき7項目をまとめた記事。MCPの仕様上、認可（OAuth）やHuman in the Loopでの確認はいずれも「推奨」止まりであり、安全性はサーバーの実装ではなく利用者側の設定次第で決まる点を強調している。実際の被害事例として、GitHubの公開issueにプロンプトインジェクションを仕込むだけで非公開リポジトリの内容が漏洩し得ると報告された2025年5月のInvariant Labsの調査を紹介している。確認すべき項目として、開発元とバージョン、外部第三者の書き込みを読むサーバーか、権限スコープの絞り込み、キーの保管・失効方法、自動承認の既定値などを挙げている。",
+      "category": "security",
+      "tags": [
+        "MCP",
+        "GitHub",
+        "AIエージェント",
+        "Security",
+        "Claude"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "高校の文化祭でPOSシステムをCloudflare上に1から構築/運用した話 〜短期開発から本番障害、そして完売まで〜",
+      "url": "https://qiita.com/ast-24/items/454fc975b095230565c7",
+      "summary": "高校生が文化祭の模擬店向けに、Cloudflare（Pages・Workers・Durable Objects・KV）だけでサーバレス構成のPOSシステムを1人で開発・運用した体験記。直前に雨天プログラムへ変更が決まりシステムを作り直すなど短期開発の困難を乗り越え、3日間で568件・976個の注文を処理し完売、来場者人気投票でも2位を獲得したという。開発では単純作業であるコーディングをAIに一任し、代わりに人間はAIが誤解しないよう1000行を超える詳細な仕様書を作成して「仕様書を正としAIに追従させる」進め方を採用した点を工夫として挙げている。本番中にはDurable Objects無料枠の読み取り上限超過による全面停止という障害も経験し、その原因分析と再発防止についても述べている。",
+      "category": "devtool",
+      "tags": [
+        "個人開発",
+        "学生",
+        "Web",
+        "cloudflare",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "これであなたも雑談マスター",
+      "url": "https://qiita.com/imazatooo/items/599e317de305d18c41a1",
+      "summary": "人の名前や背景を覚えるのが苦手な人向けに、会話に出た人物名・会社名を手がかりにAIエージェントが公開情報を調査し、根拠付きの話題や質問案をスマートグラス「Even G2」へ届けるサービス「これであなたも雑談マスター」を紹介するハッカソン応募記事。カメラを搭載しないEven G2を採用し映像データを一切使わない設計や、同一人物の再検索抑制・調査時間や回数の上限設定によるコスト制御、本文に実在する事実のみをカードに採用し根拠が不足する場合は情報を作らない設計など、セキュリティ・コスト・信頼性の観点での工夫を説明している。調査先の選択から追加検索・棄却の判断まではAIエージェントが自律的に行い、最終的に会話でどう使うかの判断は人間が担う役割分担にしているという。",
+      "category": "agent",
+      "tags": [
+        "AI",
+        "LLM",
+        "ASR"
+      ]
+    }
+  ]
+}
