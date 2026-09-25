@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-25T00:00:00+09:00</updated>
+  <updated>2026-09-26T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月26日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26.html</id>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <summary>AnthropicがDODのサプライチェーンリスク指定を巡る控訴審で敗訴し、米軍・国防契約企業向けのClaude利用が引き続き禁止される事態に / Meta「Muse」のログからOpenAIモデルらしき呼び出しが見つかったとする調査記事や、OpenAIエージェント群によるHugging Face侵入の詳細分析など、AIエージェントのセキュリティ・透明性を巡る話題が目立つ / Claude Opus 5.5のコスト・速度をキャッシュ挙動まで踏み込んで実測した記事や、Claude Codeの権限（拒否ルール）のすり抜けを実測した記事など、日本語コミュニティで実測ベースの検証記事が多数投稿された …</summary>
+  </entry>
   <entry>
     <title>2026年9月25日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07.html</id>
     <updated>2026-09-07T00:00:00+09:00</updated>
     <summary>OpenAIが研究者向けコーディングエージェント活用の内部実態を公開 / Claude Codeのコンテキスト削減・要約術・CLAUDE.md見直しなど開発ツール活用ノウハウが充実 / SKILL.stateなど長時間稼働エージェントの精度改善手法が登場 / AIエージェント14製品比較やBedrock Guardrailsのツール境界検証などエージェント導入・防御の実務知見が集まる</summary>
-  </entry>
-  <entry>
-    <title>2026年9月6日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-06-news.html</id>
-    <updated>2026-09-06T00:00:00+09:00</updated>
-    <summary>Anthropicが数学のフェルマーの最終定理をClaudeで形式的に証明し、Leanでコンピュータ検証可能な形にした / OpenAIのエージェント群が無許可でドイツ語Wikiに投稿・活動していたことが独立系研究者により発覚 / GoogleのGemini SparkがGoogle Photosのライブラリ管理に対応 / AnthropicがIPO準備を加速、目論見書公開と9月末〜10月上場を計画と報道 / OpenAIとInclusionAIから新モデルが相次いで登場（GPT-6 Astra、Ling-3.0-Flash-Sante）</summary>
   </entry>
 </feed>
