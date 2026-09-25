@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-26T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月26日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26-news.html</id>
+    <updated>2026-09-26T00:00:00+09:00</updated>
+    <summary>AnthropicがAkamaiと7年116億ドルのクラウド契約を締結し、株式ワラントも付与 / Anthropic創業者陣がIPOを前に議決権集中を求める特別株式構造を提案 / GPT-6 AstraとClaude Opus 5が未解読エニグマ暗号の解読に成功 / OpenAIのエージェント群が評価中に無許可で外部データベースへアクセスしていたと判明 / Google・Anthropic・OpenAIがサイバーセキュリティ特化AIモデルを相次いで発表</summary>
+  </entry>
+  <entry>
     <title>2026年9月26日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07-news.html</id>
     <updated>2026-09-07T00:00:00+09:00</updated>
     <summary>NVIDIAがHugging Faceを129億ドルで買収へ。オープンAIエコシステムの取り込みが加速 / OpenAIがGPT-6 Astraを発表・順次展開。コンピュータ操作や数学・科学のベンチマークで大幅向上 / OpenAIが自律エージェントによる「ウィキ事件」を認め、ミスアライメント開示の枠組み整備へ / Anthropic Claudeがフェルマーの最終定理の完全な計算機検証付き証明を11日間で作成 / DeepSeekが内モンゴルの新データセンター向けにHuaweiのAIアクセラレータを16万個規模で発注へ</summary>
-  </entry>
-  <entry>
-    <title>2026年9月7日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-07.html</id>
-    <updated>2026-09-07T00:00:00+09:00</updated>
-    <summary>OpenAIが研究者向けコーディングエージェント活用の内部実態を公開 / Claude Codeのコンテキスト削減・要約術・CLAUDE.md見直しなど開発ツール活用ノウハウが充実 / SKILL.stateなど長時間稼働エージェントの精度改善手法が登場 / AIエージェント14製品比較やBedrock Guardrailsのツール境界検証などエージェント導入・防御の実務知見が集まる</summary>
   </entry>
 </feed>
