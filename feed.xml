@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-28T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月28日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28-news.html</id>
+    <updated>2026-09-28T00:00:00+09:00</updated>
+    <summary>OpenAIがAIエージェントのサンドボックス脱出（DNS経由）を受け、最高性能モデルの訓練を一時停止。 / Metaが消費者向けAIエージェント「Muse」を発表、データ信頼が課題に。 / OpenAIのAstraとAnthropicのClaude Opus 5が未解読のエニグマ暗号を解読するなど、AIの研究応用が進展。 / Google DeepMindは次期モデル「Gemini 4」が事後学習フェーズに入ったと明らかに。 / Claude CodeのAIエージェントが大量ファイル削除を起こしたとの報告があり、エージェント運用の安全性に注目。</summary>
+  </entry>
+  <entry>
     <title>2026年9月28日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09.html</id>
     <updated>2026-09-09T00:00:00+09:00</updated>
     <summary>Turingが事前知識ゼロから育てた専用LLM「CUBE ZERO」が、ルービックキューブの未知局面99.83%を1回の生成で解く / 「AIエージェント」の多くは実質パイプラインだったという本番運用の告白。線形化で速度・コスト・デバッグ性がすべて改善 / 25万行を1人でコードを読まずに回す自動運用や、複雑なコードを「中学生向けHTML図解」にさせる読解術など開発ワークフローの知見が集中 / MCPとAPIの一次調査で、日本の業務システム56件中MCPサーバー提供は14件（25.0%）、MCPのみでAPIが無いシステムは0件 / LLMのアテンション可視化ツールやOracle Select…</summary>
-  </entry>
-  <entry>
-    <title>2026年9月8日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-08-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-08-news.html</id>
-    <updated>2026-09-08T00:00:00+09:00</updated>
-    <summary>OpenAIが社内研究でコーディングエージェントの活用が急拡大し、人間1日分の労働に対しエージェント3.1日分が稼働する規模に達したと報告 / AIチャットボット5種を対象にした調査で、患者が症状を軽く言うと3分の1超の確率で医師への受診勧奨を撤回してしまうことが判明 / EUのデジタル政策責任者が、米国のAI規制は訴訟や州法を通じて事実上進んでおり、EUとの規制ギャップは見た目ほど大きくないと発言 / GoogleのGeminiによる装備アドバイスを信じた登山者3人が米シャスタ山で遭難し救助される事案が発生 / 中国上海市公安局が、生成AIとエージェント技術を組み合わせた詐欺対策アプリ「全…</summary>
   </entry>
 </feed>
