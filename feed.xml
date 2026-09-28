@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-09-29T00:00:00+09:00</updated>
   <entry>
+    <title>2026年9月29日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29-news.html</id>
+    <updated>2026-09-29T00:00:00+09:00</updated>
+    <summary>AMDがFei-Fei Li氏のWorld Labsを82億ドルで買収 / Shopifyがブラウザ型AIエージェントによるチェックアウト完了に対応 / AIエージェントInstinctが10億ドルのシリーズC調達（評価額100億ドル） / MetaがMeta Enterprise Platformを発表、MongoDB前CEOが率いる / GoogleがGeminiのGemsを廃止しskillsへ移行</summary>
+  </entry>
+  <entry>
     <title>2026年9月29日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10.html</id>
     <updated>2026-09-10T00:00:00+09:00</updated>
     <summary>OpenAIの新モデル「GPT-6 Astra」のベンチマークやループ型Transformerアーキテクチャを深掘りする技術解説が話題に。 / Claude CodeやCodexを使った「コードを読まない」自動運用や、CLAUDE.md/AGENTS.mdのルール遵守をAIレビューが実際に読んでいるか検証する記事など、AIエージェント運用の実践知見が多数。 / ゼロから育てたルービックキューブ専用LLMが未知の局面の99.83%を一発で解けるようになった研究報告。 / AIによるコード生成が当たり前になる中、ジュニアエンジニアの理解不足や設計力の重要性を説く記事が複数見られた。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月9日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09-news.html</id>
-    <updated>2026-09-09T00:00:00+09:00</updated>
-    <summary>Mistralが欧州テック企業として過去最大級となる30億ユーロを調達し、主権AIインフラ強化に動く。 / MetaがコンシューマAIエージェント「Muse」を発表、個人情報アクセスを巡り信頼性が焦点に。 / QualcommとAmazonが最大600億ドル規模のカスタムAIチップ・光ネットワーク提携で合意。 / Anthropicの数学者とNYU教授の証明を巡り、OpenAIとの学術的優先権争いが表面化。 / Alibaba Cloud・CambriconがPyTorch Foundationにプラチナ会員として参加、中国発オープンソースAIスタックが拡大。</summary>
   </entry>
 </feed>

@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026/9/29 8:07:57",
+  "highlights": [
+    "AMDがFei-Fei Li氏のWorld Labsを82億ドルで買収",
+    "Shopifyがブラウザ型AIエージェントによるチェックアウト完了に対応",
+    "AIエージェントInstinctが10億ドルのシリーズC調達（評価額100億ドル）",
+    "MetaがMeta Enterprise Platformを発表、MongoDB前CEOが率いる",
+    "GoogleがGeminiのGemsを廃止しskillsへ移行"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "AMD、Fei-Fei Li氏のWorld Labsを82億ドルで買収へ",
+      "url": "https://techcrunch.com/2026/09/28/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion/",
+      "summary": "AMDは、Fei-Fei Li氏が創業したAI研究企業World Labsを82億ドルで買収する。Li氏はAMDのエグゼクティブバイスプレジデント兼チーフサイエンティストに就任する。物理世界を理解・シミュレートする「ワールドモデル」は、ロボットや自律システムへの生成AI展開に不可欠とされる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Shopify、ブラウザ型AIエージェントにチェックアウトを開放",
+      "url": "https://techcrunch.com/2026/09/28/shopify-opens-checkout-to-browser-based-ai-agents/",
+      "summary": "ShopifyはWebMCP対応を拡張し、ブラウザ型AIエージェントが加盟店サイトで購入を完了できるようにした。get_checkout、update_checkout、complete_checkoutの3つのツールで、購入者の承認のもと注文内容の変更と決済確定が可能になる。AmazonやAdidasがエージェントの購入をブロックする動きとは対照的で、対象の加盟店へ順次展開される。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "話題のAIエージェントInstinct、評価額100億ドルで10億ドルのシリーズC調達",
+      "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/",
+      "summary": "AIアシスタントのスタートアップInstinctが、SequoiaやBenchmarkなどから10億ドルを調達し、評価額は100億ドルとなった。前回の3.5億ドル調達からわずか1か月後の資金調達である。旅行予約や電話、サブスク管理などを代行するが、Metaの競合サービスMuseとの競争が激化している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、企業向けAIプラットフォームを発表　MongoDB前CEOが統括",
+      "url": "https://techcrunch.com/2026/09/28/meta-launches-enterprise-ai-platform-hires-mongodb-ceo-to-lead-new-initiative/",
+      "summary": "Metaは、Muse、Meta Business Agent、Muse APIなどのAI技術を企業や開発者に提供する「Meta Enterprise Platform」を立ち上げた。責任者にはMongoDB前CEOのChirantan \"CJ\" Desai氏を招へいした。同氏の退任を受けMongoDB株は17%超下落し、Dev Ittycheria氏が暫定CEOに就任した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、GeminiのGemsを廃止しスキルへ移行",
+      "url": "https://techcrunch.com/2026/09/28/google-is-killing-off-geminis-gems-in-favor-of-skills/",
+      "summary": "GoogleはGeminiでカスタムAIアシスタントを作れる「Gems」を廃止し、さまざまなタスクで使える「スキル」へ2026年11月17日から移行する。ユーザーが作成したGemsは手動操作なしで自動変換される。スキルの利用には「/」の入力が必要で、競合のオールインワン型エージェントに比べ直感性に欠けるとの指摘もある。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-09-29-news"
+}
