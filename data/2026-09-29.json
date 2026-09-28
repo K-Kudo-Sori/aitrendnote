@@ -1,0 +1,227 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026/9/29 7:07:28",
+  "highlights": [
+    "Claude Code のクラウドセッションが正式リリース、VS Code 拡張の更新頻度や新監査コマンドの検証記事も話題",
+    "Microsoft が新しい Copilot（Home・Code・Autopilot）を発表し、料金体系と大企業展開の課題が議論されている",
+    "超小型の判断特化モデル（Jeff）やLLM蒸留など、軽量モデルの実用化が注目される",
+    "AIを使った攻撃と防御、エージェント過剰設計への警鐘など運用面の論点も多い"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Parley: Federated, decentralised chat that speaks plain IRC",
+      "url": "https://git.mills.io/prologic/parley",
+      "summary": "Parley は、自分のドメインでインスタンスを運用でき、user@domain の形式で誰とでも会話できる分散型チャットです。irssi など既存の IRC クライアントからそのまま使える点が特徴です。リポジトリには192コミットと5つのタグがあり、CI も成功しています。直近のコミットでは、メンションを送信者が意図した相手にだけ通知する変更が入っています。",
+      "category": "other",
+      "points": 279,
+      "comments": 145,
+      "author": "davidcollantes"
+    },
+    {
+      "source": "hackernews",
+      "title": "It's Time to Investigate the AI Labs",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "summary": "主要な AI ラボ（OpenAI と Anthropic）の最近の振る舞いを批判的に論じた論説記事です。OpenAI による自社エージェントの強力さを強調する発表や、Anthropic 社員による人類絶滅確率の公開議論を、計画的な広報戦略だと見なしています。Anthropic CEO の書簡「We Must Pace the Frontier」も取り上げ、自社研究の害を列挙しながら開発を止めない姿勢を問題視しています。ラボへの調査が必要だという主張です。",
+      "category": "product",
+      "points": 111,
+      "comments": 26,
+      "author": "ibobev"
+    },
+    {
+      "source": "hackernews",
+      "title": "Jeff – Jev-compatible 0.8B decision models, trained at home, ~30 ms",
+      "url": "https://github.com/firelex/jeff",
+      "summary": "Jeff は Qwen3.5 と Gemma 4 をファインチューンした、ゼロショット分類向けの小型判断モデルです。状況と選択肢を自然言語で渡すと、1回の順伝播で各選択肢の較正済み確率を返し、テキスト生成やパース処理は不要です。RTX PRO 6000 で約22ms、Apple M4 Max（MLX）で約28ms と高速です。ベンチマークでは Jev に迫り、時には上回りますが、モデルが非常に小さいため複雑な推論は苦手だと明記されています。",
+      "category": "model",
+      "points": 102,
+      "comments": 12,
+      "author": "firelex"
+    },
+    {
+      "source": "hackernews",
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "summary": "ブラウザ上で7種類の超小型 LLM を動かして試せるデモサイトです。チャット、ベンチマーク、モデル比較と証明書発行、独自評価の機能があります。速度は tok/s で、精度は正規表現や完全一致による客観テストの合格率で測定します。計測結果はすべてローカルに保存され、135M クラスのモデルが失敗すること自体も測定の一部として扱われます。",
+      "category": "model",
+      "points": 89,
+      "comments": 33,
+      "author": "logicallee"
+    },
+    {
+      "source": "hackernews",
+      "title": "Cf: The Agentic CLI for the Cloudflare API",
+      "url": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+      "summary": "Cloudflare が Birthday Week の一環として、Cloudflare API 向けのエージェント志向 CLI「cf」を紹介するブログ記事です。タグには Agents や API が並んでおり、AI エージェントから Cloudflare の各機能を操作しやすくする位置づけと考えられます。ただし取得できた本文はタグ一覧が大半で、詳細な仕様は確認できませんでした。",
+      "category": "devtool",
+      "points": 83,
+      "comments": 37,
+      "author": "macleos"
+    },
+    {
+      "source": "zenn",
+      "title": "人工知能と小説新人賞審査",
+      "url": "https://zenn.dev/enjoetoh/articles/ai-as-literary-judge",
+      "summary": "作家の円城塔氏が、新人賞の審査に AI を使えるかを実地で試した記事です。第9回ゲンロンSF新人賞の候補作を対象に、Claude Code（claude-opus-5-5）へ審査員役として各作品を評価させ、手元の短評と比較するレポートを出力させています。投稿作が倍増している状況で、書き手が AI を使うなら選ぶ側も使うしかないという立場です。対象には全面的に AI で書かれた作品も含まれます。",
+      "category": "other",
+      "points": 47,
+      "author": "enjoetoh"
+    },
+    {
+      "source": "zenn",
+      "title": "Jevにゲームをやらせるな！LLMを蒸留してみよう！",
+      "url": "https://zenn.dev/nwn/articles/e49154653ecea9",
+      "summary": "Jev を使ったゲームプレイのデモが流行していることを受け、LLM を蒸留して小型モデルを作る流れを紹介する記事です。ゲームの入力は自然言語ではないため、決定木などの古典的手法で置き換えでき、高性能な LLM を蒸留すれば高速・安価・高精度なモデルが作れると主張しています。題材は公開されているマリオのハーネスで、エミュレーターの RAM から取った位置、速度、敵までの距離などを JSON にして渡す方式です。LightGBM も利用しています。",
+      "category": "model",
+      "points": 62,
+      "author": "ヨ"
+    },
+    {
+      "source": "zenn",
+      "title": "Platform Engineering Kaigi 2026 登壇資料まとめ",
+      "url": "https://zenn.dev/key60228/articles/d4f2591a42a876",
+      "summary": "Platform Engineering Kaigi 2026 の公開済み登壇資料を、タイムテーブル順にまとめたイベントレポートです。基本原理、AI 基盤としてのプラットフォーム、組織論、Kubernetes の Controller まで幅広いテーマを扱っています。基調講演は Kaspar von Grünberg 氏の「Architecting Agentic Development Platforms」で、資料は未公開の様子です。ノンエンジニア1,500人向けのゴールデンパスとガードレールの事例なども紹介されています。",
+      "category": "infra",
+      "points": 17,
+      "author": "KEY60228"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code クラウドセッション、使ってみて！",
+      "url": "https://zenn.dev/goat_eat_any/articles/claude-code-cloud-sessions",
+      "summary": "Claude Code をクラウドで動かす「クラウドセッション」の使い方を紹介する記事です。2026年9月24日の正式リリースで、旧称「Claude Code on the web」から名称が変わりました。Anthropic 管理の Ubuntu 24.04 VM（約4 vCPU、メモリ16GB、ディスク30GB）で動くため、PC やブラウザを閉じても処理が止まりません。Desktop アプリ、ブラウザ、スマホから同じセッションを続けられ、Pro・Max・Team などの既存サブスクリプションで使えます。",
+      "category": "devtool",
+      "points": 44,
+      "author": "たなちゅー"
+    },
+    {
+      "source": "zenn",
+      "title": "VS Code の Claude Code 拡張機能、なんか更新多い…？",
+      "url": "https://zenn.dev/headwaters/articles/15875671106c54",
+      "summary": "VS Code の Claude Code 拡張機能の更新が多いと感じた筆者が、Marketplace API で実際に回数を数えた記事です。プラットフォームごとの重複を除くと、2026年9月27日時点で347バージョンがあり、初版 1.0.25（2025年6月）から最新 2.1.283（2026年9月）までの464日で平均1.34日に1本の頻度です。リリース間隔の中央値は0.97日で、ほぼ毎日更新されている計算になります。",
+      "category": "devtool",
+      "points": 15,
+      "author": "noriyasu"
+    },
+    {
+      "source": "devto",
+      "title": "Implementation is where judgements go to become invisible",
+      "url": "https://dev.to/tom_jones_230c4659491adcd/implementation-is-where-judgements-go-to-become-invisible-4p1h",
+      "summary": "実装の中には過去の設計判断が見えない形で埋め込まれる、という考察です。筆者の作った「返信待ちの人を探すツール」は3つのバージョンがどれも正しいのに、答えが18、34、2とばらつきました。返信の判定ルールや dev.to API の仕様の違いが原因です。コードが単純に見えても過去の設計判断を隠してしまうため、判断を明示的に残す必要があると論じています。",
+      "category": "devtool",
+      "points": 14,
+      "comments": 13,
+      "author": "Tom Jones",
+      "tags": [
+        "testing",
+        "programming",
+        "discuss",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Half the AI agents in production are if-statements with a GPU bill",
+      "url": "https://dev.to/cyclopt_dimitrisk/half-the-ai-agents-in-production-are-if-statements-with-a-gpu-bill-4934",
+      "summary": "本番の AI エージェントの多くは、実質的に if 文に GPU 課金が付いただけだと指摘する記事です。エージェントフレームワークやベクターDB、マルチモデル構成を履歴書映えを理由に採用する「履歴書駆動 AI エンジニアリング」を新しい技術的負債と呼んでいます。デモでは動いても、遅延、トークン費用、デバッグの難しさ、非決定性が本番でコストになります。問題に必要な複雑さだけを選ぶべきだという主張です。",
+      "category": "agent",
+      "points": 18,
+      "comments": 9,
+      "author": "Dimitris Kyrkos ",
+      "tags": [
+        "ai",
+        "programming",
+        "architecture",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Dear Coder: Open This If You're Feeling AI FOMO",
+      "url": "https://dev.to/canro91/dear-coder-open-this-if-youre-feeling-ai-fomo-58d4",
+      "summary": "AI の話題に乗り遅れる不安（FOMO）を感じる開発者へ向けたエッセイです。モデルの高速化の発表や CEO の大胆な予測、MCP やエージェントなどの新語が毎週のように出てきますが、筆者は多くのチュートリアルをあえて読み飛ばしています。AI を導入しつつスキルを失わない方法を考えることに集中し、時代を超える基礎の価値を強調しています。",
+      "category": "other",
+      "points": 31,
+      "comments": 12,
+      "author": "Cesar Aguirre",
+      "tags": [
+        "career",
+        "ai",
+        "programming",
+        "beginners"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I'm an ER doctor. After decades without touching code, I built 3 websites with AI in one month — on my phone.",
+      "url": "https://dev.to/branislav_kuga_4118d3b3ab/im-an-er-doctor-after-decades-without-touching-code-i-built-3-websites-with-ai-in-one-month-on-5ccm",
+      "summary": "セルビアの救急医が、数十年ぶりのコーディングで AI と対話しながら1か月で3つの Web サイトを作った体験談です。開発はすべてスマートフォンで行い、3つとも公開済みです。PHP と WordPress の違い、SQL とデータベースの役割、サイトの構成要素といった概念を実践を通じて理解できたと語っています。燃え尽きの多い仕事の後の気分転換でもあったそうです。",
+      "category": "other",
+      "points": 4,
+      "comments": 3,
+      "author": "Kuga",
+      "tags": [
+        "showdev",
+        "ai",
+        "webdev",
+        "beginners"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I connected a fruit fly connectome to tic-tac-toe (with a minimax safety net)",
+      "url": "https://dev.to/asyncinnovator/i-connected-a-fruit-fly-connectome-to-tic-tac-toe-with-a-minimax-safety-net-5bc0",
+      "summary": "ショウジョウバエの神経系全体をマッピングした公開データベース（コネクトーム）の一部で、三目並べをプレイさせるプロジェクト FlyCNS-TicTacToe の紹介です。脳から指令を出す神経細胞と、それに入力する中枢神経細胞を選び、実際の結合の強さと興奮・抑制の情報を使います。盤面の9マスを神経細胞群への信号に変換し、出力を手として読み取ります。minimax を安全網として併用しています。",
+      "category": "research",
+      "points": 12,
+      "comments": 4,
+      "author": "Rishu",
+      "tags": [
+        "python",
+        "opensource",
+        "ai",
+        "beginners"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code の新しい監査コマンドは、そのままでは自分のスキル49本を見なかった",
+      "url": "https://qiita.com/suwa_nobu/items/ae5a8c1609c794a74a25",
+      "summary": "Claude Code 2.1.283 で追加された /doctor prompt-audit を、スキル49本とサブエージェント286個を持つ環境で試した検証記事です。1回目はプロジェクト内で実行して21.7分・$10.69・66件でしたが、~/.claude の権限がなく自分のスキルやサブエージェントは対象外でした。2回目は --add-dir を渡して12.7分・$9.62・12件となり、スキル45本とサブエージェントを認識しました。合計約34分・$20.31かかり、指摘内容は「旧モデル向けの書き方」ではなかったと報告しています。",
+      "category": "devtool",
+      "author": "suwa_nobu"
+    },
+    {
+      "source": "qiita",
+      "title": "2026年9月25日に発表された新しい Microsoft Copilot についての整理",
+      "url": "https://qiita.com/yoshioterada/items/7123aef3db7d1ba91fc3",
+      "summary": "2026年9月25日に発表された新しい Microsoft Copilot を整理した記事です。Home は Chat、Cowork、Office を統合し、Word、Excel、PowerPoint を Copilot 内から作成・編集できます。Code は自然言語でアプリやダッシュボード、ワークフローを作れる新機能です。最も影響が大きい Autopilot は、会議準備や進捗確認などを継続的に進める個人向けの能動的エージェントで、Copilot が「質問に答える AI」から「仕事を実行する AI」へ進化することを示しています。",
+      "category": "product",
+      "author": "yoshioterada"
+    },
+    {
+      "source": "qiita",
+      "title": "新しい Copilot（Home・Code・Autopilot）と料金体系を整理し、大企業で広く展開する際の課題を考えてみる",
+      "url": "https://qiita.com/Takashi_Masumori/items/6f65c23e580dd454d4c7",
+      "summary": "新しい Copilot の発表内容と料金体系を公式情報から整理し、大企業への展開課題を考察した記事です。料金はユーザー単位のライセンス（USL）と利用量に応じた課金（UBB）の2本立てです。多くの機能は Frontier プログラムやプレビューでの提供で、今後変わる可能性があります。全社展開の際に考えるべき点と、生成 AI が企業で広く使われるための前提条件についても筆者の見解が述べられています。",
+      "category": "product",
+      "author": "Takashi_Masumori"
+    },
+    {
+      "source": "qiita",
+      "title": "AI を使った攻撃は、結局 AI でしか守れないのか？ Google・Anthropic などから読み取る 5 つの変化と変わらないこと",
+      "url": "https://qiita.com/songchong/items/ac529af5701559ca29d8",
+      "summary": "NCSC、Google、Anthropic などの一次資料をもとに、AI で攻撃がどう変わったか、守りをどう変えるかを整理した記事です。攻撃は速くなり、手を出せる人が増えましたが、突かれる場所は大きく変わっていません。そのため、修正プログラムの迅速な適用、資格情報の保護と多要素認証、検知から遮断までの高速化、AI の API キーの厳格な管理といった基本対策が引き続き重要です。中小企業が何から始めるかも述べています。",
+      "category": "security",
+      "author": "songchong"
+    },
+    {
+      "source": "qiita",
+      "title": "Microsoft 365 E5 から E7 へ移行すべき？ ～ Copilot との価格差から考えるライセンス選び",
+      "url": "https://qiita.com/carol0226/items/525ec37aea28cb4420f0",
+      "summary": "Microsoft 365 E5 導入済みの組織が E7 へ移行すべきかを、価格差を中心に整理した記事です。価格は2026年9月時点の公開価格で、税抜き・1ユーザー月額です。組み合わせ例は公開価格の単純合算です。Copilot との価格差を踏まえ、E7 を検討すべきケースを解説しています。Agent 365 の高度な機能を使うエージェントに関わる利用者には利用形態に応じたライセンスが必要で、GSA は段階的な展開が想定されるとしています。",
+      "category": "product",
+      "author": "carol0226"
+    }
+  ]
+}

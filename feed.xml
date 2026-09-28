@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-28T00:00:00+09:00</updated>
+  <updated>2026-09-29T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月29日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29.html</id>
+    <updated>2026-09-29T00:00:00+09:00</updated>
+    <summary>Claude Code のクラウドセッションが正式リリース、VS Code 拡張の更新頻度や新監査コマンドの検証記事も話題 / Microsoft が新しい Copilot（Home・Code・Autopilot）を発表し、料金体系と大企業展開の課題が議論されている / 超小型の判断特化モデル（Jeff）やLLM蒸留など、軽量モデルの実用化が注目される / AIを使った攻撃と防御、エージェント過剰設計への警鐘など運用面の論点も多い</summary>
+  </entry>
   <entry>
     <title>2026年9月28日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09-news.html</id>
     <updated>2026-09-09T00:00:00+09:00</updated>
     <summary>Mistralが欧州テック企業として過去最大級となる30億ユーロを調達し、主権AIインフラ強化に動く。 / MetaがコンシューマAIエージェント「Muse」を発表、個人情報アクセスを巡り信頼性が焦点に。 / QualcommとAmazonが最大600億ドル規模のカスタムAIチップ・光ネットワーク提携で合意。 / Anthropicの数学者とNYU教授の証明を巡り、OpenAIとの学術的優先権争いが表面化。 / Alibaba Cloud・CambriconがPyTorch Foundationにプラチナ会員として参加、中国発オープンソースAIスタックが拡大。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月9日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-09.html</id>
-    <updated>2026-09-09T00:00:00+09:00</updated>
-    <summary>Turingが事前知識ゼロから育てた専用LLM「CUBE ZERO」が、ルービックキューブの未知局面99.83%を1回の生成で解く / 「AIエージェント」の多くは実質パイプラインだったという本番運用の告白。線形化で速度・コスト・デバッグ性がすべて改善 / 25万行を1人でコードを読まずに回す自動運用や、複雑なコードを「中学生向けHTML図解」にさせる読解術など開発ワークフローの知見が集中 / MCPとAPIの一次調査で、日本の業務システム56件中MCPサーバー提供は14件（25.0%）、MCPのみでAPIが無いシステムは0件 / LLMのアテンション可視化ツールやOracle Select…</summary>
   </entry>
 </feed>
