@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-29T00:00:00+09:00</updated>
+  <updated>2026-09-30T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年9月30日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-30.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-30.html</id>
+    <updated>2026-09-30T00:00:00+09:00</updated>
+    <summary>新モデル関連: GPT 6.1 Solの発表（HN）や、Claude Code上の12モデルを1年分比較した検証が話題。 / Claude Code/Codexの利用上限消費とキャッシュ課金の仕組みを解説する記事が注目。 / AIエージェントのガバナンス・責任の所在・権限境界など、運用面の議論が増加。 / Bedrockの暗黙的プロンプトキャッシュやPlaywright Test Agentsなど実務ツールの新機能も紹介。</summary>
+  </entry>
   <entry>
     <title>2026年9月29日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10-news.html</id>
     <updated>2026-09-10T00:00:00+09:00</updated>
     <summary>OpenAIがAI安全研究者ポール・クリスティアーノ氏を取締役会に招聘し、安全ガバナンス強化を図る。 / リーガルAIのHarveyが5.5億ドルを調達し評価額155億ドルに、わずか9カ月で評価額がほぼ倍増。 / バイラルAIアシスタント「Instinct」が専用メールアドレス機能を提供開始、代行タスクの幅が拡大。 / Ramp調査で上位企業の従業員あたりAI支出が8月に約1割減少、トークン単価下落が影響。 / Googleがフィンランドに130億ユーロ規模のAIインフラ投資を発表、原発の稼働延長契約も締結。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月10日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-10.html</id>
-    <updated>2026-09-10T00:00:00+09:00</updated>
-    <summary>OpenAIの新モデル「GPT-6 Astra」のベンチマークやループ型Transformerアーキテクチャを深掘りする技術解説が話題に。 / Claude CodeやCodexを使った「コードを読まない」自動運用や、CLAUDE.md/AGENTS.mdのルール遵守をAIレビューが実際に読んでいるか検証する記事など、AIエージェント運用の実践知見が多数。 / ゼロから育てたルービックキューブ専用LLMが未知の局面の99.83%を一発で解けるようになった研究報告。 / AIによるコード生成が当たり前になる中、ジュニアエンジニアの理解不足や設計力の重要性を説く記事が複数見られた。</summary>
   </entry>
 </feed>

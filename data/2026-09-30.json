@@ -1,0 +1,251 @@
+{
+  "date": "2026-09-30",
+  "generatedAt": "2026/9/30 7:07:47",
+  "highlights": [
+    "新モデル関連: GPT 6.1 Solの発表（HN）や、Claude Code上の12モデルを1年分比較した検証が話題。",
+    "Claude Code/Codexの利用上限消費とキャッシュ課金の仕組みを解説する記事が注目。",
+    "AIエージェントのガバナンス・責任の所在・権限境界など、運用面の議論が増加。",
+    "Bedrockの暗黙的プロンプトキャッシュやPlaywright Test Agentsなど実務ツールの新機能も紹介。"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+      "summary": "本文取得失敗。タイトルからは、GPT 6.1 Solが上位モデル「Astra」に近い知能を5分の1の価格で提供するという発表とみられるが、本文が取得できておらず詳細は確認できない。",
+      "category": "product",
+      "points": 674,
+      "comments": 606,
+      "author": "crorella"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: TurboGPT: train 22KiB transformer in 13s",
+      "url": "https://github.com/lostmsu/TurboGPT",
+      "summary": "バイトレベルの小型GPT（約22KiB）をCUDA C++で学習するMITライセンスのプロジェクト「TurboGPT」の紹介。Linux/NixOSやWindows(VS2022+CUDA 13.4)でビルドでき、チェックポイントからの再開やTensorBoard互換のログ出力に対応する。約1.5Gトークンの学習でhn1gデータセットの損失2.529を達成したと報告されている。",
+      "category": "research",
+      "points": 29,
+      "comments": 4,
+      "author": "lostmsu"
+    },
+    {
+      "source": "hackernews",
+      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "summary": "本文取得失敗（PDFのバイナリが取得され、本文テキストを読み取れなかった）。タイトルからは、Web・モバイルの対話型AIエージェントのプライバシーを分析した論文とみられるが、詳細は確認できない。",
+      "category": "security",
+      "points": 398,
+      "comments": 126,
+      "author": "damaru2"
+    },
+    {
+      "source": "hackernews",
+      "title": "Dots: Always-on agents",
+      "url": "https://openai.com/index/introducing-dots/",
+      "summary": "本文取得失敗。タイトルからは、常時稼働するエージェント「Dots」に関する紹介とみられるが、本文が取得できておらず詳細は確認できない。",
+      "category": "agent",
+      "points": 408,
+      "comments": 317,
+      "author": "alvis"
+    },
+    {
+      "source": "hackernews",
+      "title": "Sustainable energy without the hot air (2008)",
+      "url": "https://www.withouthotair.com/",
+      "summary": "AIとは直接関係が薄い、David MacKay氏による書籍『Sustainable Energy – without the hot air』（2008年）のサイトである。持続可能エネルギーの事実を定量的に示す内容で、PDFの無料ダウンロードや翻訳版の閲覧ができる。今回のスクレイピングではAI関連性が低い記事として抽出された。",
+      "category": "other",
+      "points": 127,
+      "comments": 68,
+      "author": "0sake_rs"
+    },
+    {
+      "source": "zenn",
+      "title": "AI開発時代だからこそ、テストの役割を見つめ直す",
+      "url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529",
+      "summary": "AIがコードを書く時代でも、各種テストの役割は「検出できる不具合の種類」で決まるという整理記事。ユニットテストは境界値を含むロジック、integrationテストは実DBや外部サービスとの結合、E2Eテストは画面をまたぐ不具合を検証する。自動テストは書かれた想定しか検証しないため、想定外の不具合は探索的テストで探す必要があると論じる。",
+      "category": "devtool",
+      "points": 64,
+      "author": "ABAB↑↓BA"
+    },
+    {
+      "source": "zenn",
+      "title": "目を醒ませ 僕らの信頼が生成AIに侵略されてるぞ",
+      "url": "https://zenn.dev/spookies/articles/e70b80a510f5e2",
+      "summary": "生成AIへの過度な依存で起きる問題は、AIのせいではなく人間が責任を放棄した結果だと主張するエッセイ。生成AIは責任を持てないため原理的に副操縦士の域を出ず、人間の価値は意思と責任を持つことにあると述べる。特にAI時代に業界へ入ったエンジニアやプロジェクト上流を担う人に向け、責任の持ち方を問いかける。",
+      "category": "other",
+      "points": 12,
+      "author": "すずるん"
+    },
+    {
+      "source": "zenn",
+      "title": "Playwright Test Agents × GitHub Actions：E2E テスト生成・修復の自動化",
+      "url": "https://zenn.dev/sun_asterisk/articles/e9b50f09839def",
+      "summary": "Playwright 1.56で追加されたTest Agents（E2Eテストの計画・生成・修復をAIに任せる仕組み）をGitHub Actionsから無人実行する設計を紹介する記事。3つのエージェントの役割、承認と検証の流れ、最小構成のサンプルを解説する。ガード・分類・判定ロジックはローカルで検証済みだが、AIエージェント実行部分の検証範囲には制限があると明記している。",
+      "category": "devtool",
+      "points": 8,
+      "author": "Alam Shafiul / ｱﾙﾑ ｼｮﾌｨｳﾙ"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code / Codexで「私のlimit、減りすぎ…？」と思ったときに見る記事",
+      "url": "https://zenn.dev/tokium_dev/articles/ai-agent-usage-limit-long-sessions",
+      "summary": "Claude CodeやCodexで利用上限が想定より早く尽きる原因を、ドキュメントとローカルログから調べた記事。キャッシュ済みトークンも通常の10分の1で課金され、手元では消費の3分の2がキャッシュ読取りだったと報告する。自動compactが何十回も走る長時間セッションなど、コンテキストが大きくなる使い方が消費を押し上げると分析している。",
+      "category": "devtool",
+      "points": 3,
+      "author": "hanafusay"
+    },
+    {
+      "source": "zenn",
+      "title": "VS Code の Claude Code 拡張機能、なんか更新多い…？",
+      "url": "https://zenn.dev/headwaters/articles/15875671106c54",
+      "summary": "VS CodeのClaude Code拡張機能の更新頻度が高い理由を、Marketplace APIでバージョン履歴を数えて検証した記事。2026年9月27日時点で公開済みエントリが2204件あることを確認した。curlでの取得方法（flags=16でバージョン一覧を取得）も示している。",
+      "category": "devtool",
+      "points": 26,
+      "author": "noriyasu"
+    },
+    {
+      "source": "devto",
+      "title": "I Built My First AI Agent With AWS AgentCore, and the Hardest Part Wasn't the AI",
+      "url": "https://dev.to/hemapriya_kanagala/i-built-my-first-ai-agent-with-aws-agentcore-and-the-hardest-part-wasnt-the-ai-54lf",
+      "summary": "Udacityの講座課題として、Amazon Bedrock AgentCoreとStrands SDKで初めてAIエージェントを構築した体験記。注文追跡・返金処理・ナレッジベースによる製品／ポリシー質問への回答・顧客の記憶を備えたカスタマーサポートエージェントを作った。最も難しかったのはAIの部分ではなくインフラの複雑さだったという学びが語られている。",
+      "category": "agent",
+      "points": 54,
+      "comments": 17,
+      "author": "Hemapriya Kanagala",
+      "tags": [
+        "discuss",
+        "aws",
+        "beginners",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Claude e Obsidian - Como uma QA utiliza essas ferramentas no dia-a-dia",
+      "url": "https://dev.to/he4rt/claude-e-obsidian-como-uma-qa-utiliza-essas-ferramentas-no-dia-a-dia-51jc",
+      "summary": "QA担当者がClaudeとObsidianを日常業務でどう活用しているかを紹介するポルトガル語の記事。AI時代で納品速度が上がる中、抜け漏れを防ぎテストシナリオを網羅するための整理術として使っている。ローカルのMarkdownがNotionより集中しやすいという実感も述べられている。",
+      "category": "devtool",
+      "points": 100,
+      "comments": 4,
+      "author": "Alicia Marianne Gonçalves",
+      "tags": [
+        "ai",
+        "productivity",
+        "braziliandevs",
+        "claude"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI Agent Governance on AWS: Block Agents, Prove EU AI Act Compliance",
+      "url": "https://dev.to/aws-builders/ai-agent-governance-on-aws-block-agents-prove-eu-ai-act-compliance-1829",
+      "summary": "AWS上のマルチエージェントAIについて、エージェントのブロックとEU AI Act対応の証跡化を扱うガバナンス解説。Strands Agentsとtracciaを使い、Amazon Nova Proでの実行結果に基づいてコスト内訳も示している。デモシステムは合成データで、Annex IIIの信用スコアリング義務は2027年12月2日に適用される。",
+      "category": "security",
+      "points": 33,
+      "comments": 11,
+      "author": "Sarvar Nadaf",
+      "tags": [
+        "aws",
+        "ai",
+        "governance",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Who's Accountable When the AI Was Just Following Instructions?",
+      "url": "https://dev.to/james_anderson_h/whos-accountable-when-the-ai-was-just-following-instructions-1efl",
+      "summary": "AIエージェントが指示に従っただけで被害が出たとき、誰が責任を負うのかを論じた記事。データ漏えいや本番DB削除、セキュリティテストでの侵入といった事例を挙げ、責任の所在が曖昧になる「霧」を指摘する。既存の製造物責任法の枠組みが参考になるという提案をしている。",
+      "category": "security",
+      "points": 21,
+      "comments": 11,
+      "author": "James Anderson",
+      "tags": [
+        "ai",
+        "ethics",
+        "agents",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Code Review Is Not an Authority Boundary",
+      "url": "https://dev.to/kenwalger/code-review-is-not-an-authority-boundary-3dfc",
+      "summary": "コードレビューは権限境界の代わりにならないという主張のセキュリティ記事。信頼できない拡張コードを実行する際、「悪さをさせない」よう頼る前に、そもそも悪用可能な権限を与えない設計が必要だと述べる。AIが実装を生成しても、何を許可するかはアーキテクチャが決めるべきで、WebAssemblyによる隔離が例として挙がる。",
+      "category": "security",
+      "points": 10,
+      "comments": 0,
+      "author": "Ken W Alger",
+      "tags": [
+        "security",
+        "webassembly",
+        "ai",
+        "architecture"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【自社開発1年目】「チーム経験ゼロ」の27歳元営業が、ダイレクト出版でAIを使い倒し本番コードを書くエンジニアになるまで",
+      "url": "https://qiita.com/kanzawa_kentaro/items/f69db1682fdc5ddb3ea8",
+      "summary": "27歳の元営業がエンジニア未経験でダイレクト出版に入社し、1年でAIを使いこなして本番コードを書くまでの体験談。大阪での2か月研修後、フロント(TypeScript, React)、バックエンド(Go)、再びフロントと担当した。失敗も経験し、「失敗時に何が起きるかまで考えてコードを書く力」がついたと振り返っている。",
+      "category": "other",
+      "tags": [
+        "採用",
+        "転職",
+        "研修",
+        "初心者",
+        "広報"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI時代のエンジニアが鍛えるべき「具体と抽象」という思考力",
+      "url": "https://qiita.com/jota9613/items/b5c5412dcf9c6ff10c54",
+      "summary": "AI時代のエンジニアに必要な「具体と抽象」の思考力について、コミュニティイベントの学びをまとめた記事。コード実装より、コードの良し悪しを判断する基礎力や、顧客・課題・理由・方法・時期を考える力が重要だと述べる。日米の学び方の違い（板書中心か、まず行動か）にも触れている。",
+      "category": "other",
+      "tags": [
+        "#JISOU"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【SELECT AIの精度が出ない時に試したい5つのポイント】①対象表の絞り込み",
+      "url": "https://qiita.com/KantaUeda/items/5a17586db2e06f6ddac3",
+      "summary": "Oracle Autonomous DatabaseのSELECT AIで精度が出ない時の対策の第1回として、対象表の絞り込みを解説する記事。「売上」が受注・請求・入金のどれか曖昧になるため、モデルやプロンプトを変える前にobject_listとenforce_object_listで参照範囲を業務単位に絞ることを勧める。複数のAIプロファイルを安全に使い分ける設計にも触れている。",
+      "category": "product",
+      "tags": [
+        "oracle",
+        "oci",
+        "生成AI",
+        "SelectAI",
+        "NL2SQL"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code で選べる12モデルに同じ仕事をさせた。1年で速度は2.7倍、値段は1%しか変わらなかった",
+      "url": "https://qiita.com/suwa_nobu/items/5749949156f8df6f728b",
+      "summary": "Claude Codeで選べる12モデル（2025年9月のSonnet 4.5〜2026年9月のOpus 5.5）に同じ仕事をさせ、36回測定した比較記事。同じ階級ではOpus 4.5→5.5で費用38%減・速度2.0倍、Sonnet 4.5→5で費用8%減・速度2.8倍になった。階級をまたぐと、1年前のSonnet 4.5と今日のOpus 5.5は費用がほぼ同じ(+1%)で速度は約2.7倍になったと報告する。",
+      "category": "model",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ClaudeCode",
+        "Claude",
+        "AI駆動開発"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "BedrockのClaudeに暗黙的なプロンプトキャッシュが登場！！とドキュメントにある（暗黙的とは？）",
+      "url": "https://qiita.com/moritalous/items/1b6a05842724fc1fff66",
+      "summary": "Amazon BedrockのClaudeに、指定不要の暗黙的プロンプトキャッシュ（Implicit Prompt Caching）がドキュメント上で登場したので実際に試した記事。Sonnet 5.5がBedrockで使えることを踏まえ、uvとboto3のスクリプトを書いて挙動を確認している。従来の明示的キャッシュとの違いや、Anthropic APIにはない点にも言及している。",
+      "category": "infra",
+      "tags": [
+        "AWS",
+        "bedrock",
+        "Claude"
+      ]
+    }
+  ]
+}
