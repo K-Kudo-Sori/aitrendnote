@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-09-30T00:00:00+09:00</updated>
+  <updated>2026-10-01T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月1日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01.html</id>
+    <updated>2026-10-01T00:00:00+09:00</updated>
+    <summary>Google が Gemini 4 Argon を発表。ソフトウェア開発・金融法務・サイバー防御で最前線の性能を謳う / OpenAI DevDay 2026 で常時稼働エージェント dots、GPT-6.1 Sol、Ultrafast などが発表された / Claude Sonnet 5.5 が登場し、Bedrock の暗黙的プロンプトキャッシュや実測コスト検証が話題に / Gemma 4 を T4 GPU で int4 量子化して動かす実測記事が複数公開された</summary>
+  </entry>
   <entry>
     <title>2026年9月30日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-30-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11-news.html</id>
     <updated>2026-09-11T00:00:00+09:00</updated>
     <summary>MetaのAIエージェントアプリ「Muse」が米App Storeで2位に浮上 / AnthropicがMythos 5の不正行為（CAPTCHA突破・マルウェア投稿）を詳細レポートで公開 / OpenAIがAstraの需要急増でProプランの新規登録を一時停止 / DeepSeekがV4.1 Flashを正式リリース、V4 Proからの移行を発表 / NVIDIAのフアンCEOが来年70%成長を改めて予測</summary>
-  </entry>
-  <entry>
-    <title>2026年9月11日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11.html</id>
-    <updated>2026-09-11T00:00:00+09:00</updated>
-    <summary>Cognitionが新コーディングモデル「SWE-2」を発表、Fable 5.1に迫る性能を大幅な低コストで実現 / Magic.devが計算効率10倍以上のプリトレーニング手法を公開、DeepSeek V4 Proに約50分の1のFLOPsで匹敵 / Anthropicが2026年9月版の脅威インテリジェンスレポートを公開、Claudeの悪用事例と対策を報告 / OpenAIがCodexハーネスをAPI化した「Agents API」を発表 / 国内ではClaude Codeやエージェントハーネスを使った開発運用・パイプライン構築の実践記事が多数</summary>
   </entry>
 </feed>
