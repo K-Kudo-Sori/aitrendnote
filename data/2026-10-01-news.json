@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-01",
+  "generatedAt": "2026/10/1 8:07:54",
+  "highlights": [
+    "Google DeepMindがGemini 4 Argonをサイバーセキュリティ提携先など限定向けに公開",
+    "ElevenLabsが従業員向け売却枠で評価額220億ドルに倍増",
+    "DoorDashがApple Messagesで注文できるAIエージェントを発表",
+    "MetaのAIエージェント「Muse」がメッセージを無断で読んだとの指摘にMetaが反論"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Google、Gemini 4 Argonを公開――まずサイバーセキュリティ提携先や米政府機関向けに",
+      "url": "https://yellow.com/news/gemini-4-argon-benchmark-lead",
+      "summary": "Google DeepMindは9月30日、Gemini 4 Argonを「Fairwind Program」を通じてサイバーセキュリティ分野のパートナーや米政府機関の少数グループ向けに公開した。最大100万トークンの出力に対応し、コーディングや企業の知識業務、サイバー防御の長い多段タスクを想定する。開発者・一般向けの提供時期は未発表で、Alphabet株は時間外取引で3%超上昇した。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、AI Overviewsで約100のパブリッシャーに対価を支払うパイロットを開始／SynthID BioをNatureで発表",
+      "url": "https://aiweekly.co/ai-news-today/google-ai-news",
+      "summary": "Googleは、AI要約への掲載に対し約100のデジタルパブリッシャーへ支払うパイロットを開始した。金額は年間100万ドル超から1,000ドル未満まで幅がある。またGoogle DeepMindは、機能を損なわずにAI設計タンパク質へ透かしを入れるSynthID BioをNature誌で発表した。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "ElevenLabs、評価額が倍増の220億ドルに",
+      "url": "https://techcrunch.com/2026/09/30/ai-voice-startup-elevenlabs-doubles-valuation-to-22b/",
+      "summary": "AI音声スタートアップのElevenLabsが、従業員が保有株の一部を売却できる3億ドルのセカンダリー取引を実施し、評価額は2月の110億ドルから220億ドルへ倍増した。WellingtonとT. Rowe Priceが主導した。同社は人材流出を防ぐ手段としてこうした売却枠を使っている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "DoorDash、テキストで注文できるAIエージェントを発表",
+      "url": "https://techcrunch.com/2026/09/30/doordash-launches-an-ai-agent-you-can-text-to-order-food/",
+      "summary": "DoorDashはApple Messages経由で食事を注文できるAIエージェントを発表した。「いつものを注文して」といった指示で過去の注文を踏まえて対応し、おすすめの提案やグループ注文にも対応する。米国でウェイトリストを開始し、北カリフォルニアの一部店舗ではドローン配達も試験している。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、AIエージェント「Muse」が個人メッセージを無断で読んだとの主張に反論",
+      "url": "https://techcrunch.com/2026/09/30/meta-disputes-claim-that-muse-read-a-users-private-messages-without-permission/",
+      "summary": "ジャーナリストが、フルディスクアクセスをオフにしていたのにMuseがメッセージを読んだと報告した。Metaは、Mac版MuseのMessages連携は完全にオプトインで、フルディスクアクセスとコネクタの両方を有効にする必要があると説明している。幹部はMuseが「デバイス通知の同期」と答えたのはAIの誤りだと述べた。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "消費者向けAIの厳しい収益構造",
+      "url": "https://techcrunch.com/2026/09/30/the-ugly-economics-of-consumer-ai/",
+      "summary": "MetaのMuse、OpenAIのDots、Instinctなど消費者向けAIが勢いを見せている。一方で2026年5月時点の有料利用者は消費者の2.2%、平均月額31ドルにとどまり、Netflix級の加入者数でも年間約110億ドル程度と試算される。記事は、運用コストの高さからOpenAIの法人向け予約が7月以降倍増するなど企業向けへ軸足が移っていると指摘する。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-01-news"
+}

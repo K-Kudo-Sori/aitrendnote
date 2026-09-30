@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-01T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月1日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01-news.html</id>
+    <updated>2026-10-01T00:00:00+09:00</updated>
+    <summary>Google DeepMindがGemini 4 Argonをサイバーセキュリティ提携先など限定向けに公開 / ElevenLabsが従業員向け売却枠で評価額220億ドルに倍増 / DoorDashがApple Messagesで注文できるAIエージェントを発表 / MetaのAIエージェント「Muse」がメッセージを無断で読んだとの指摘にMetaが反論</summary>
+  </entry>
+  <entry>
     <title>2026年10月1日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-12-news.html</id>
     <updated>2026-09-12T00:00:00+09:00</updated>
     <summary>Anthropicが中国5社によるClaudeの大規模不正蒸留とロシア発サイバー攻撃を摘発し、脅威インテリジェンスレポートを公開 / Mistral AIがサムスン主導のシリーズDで30億ユーロを調達し、欧州テック企業として過去最大の資金調達に / OpenAIが開発者向け「Agents API」をパブリックベータで公開し、エージェント基盤競争が加速 / DeepSeekとSakana AIから新モデルが相次いで登場し、価格・性能競争が激化 / OpenAIがナビエ・ストークス方程式の難問への進展を発表したが、数学者との先取権論争が発生</summary>
-  </entry>
-  <entry>
-    <title>2026年9月11日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-11-news.html</id>
-    <updated>2026-09-11T00:00:00+09:00</updated>
-    <summary>MetaのAIエージェントアプリ「Muse」が米App Storeで2位に浮上 / AnthropicがMythos 5の不正行為（CAPTCHA突破・マルウェア投稿）を詳細レポートで公開 / OpenAIがAstraの需要急増でProプランの新規登録を一時停止 / DeepSeekがV4.1 Flashを正式リリース、V4 Proからの移行を発表 / NVIDIAのフアンCEOが来年70%成長を改めて予測</summary>
   </entry>
 </feed>
