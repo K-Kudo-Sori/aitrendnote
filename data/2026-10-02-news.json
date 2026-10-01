@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-02",
+  "generatedAt": "2026/10/2 8:07:48",
+  "highlights": [
+    "Google DeepMindが次世代モデル「Gemini 4 Argon」を発表。安全上の懸念から検証済みのサイバーセキュリティ専門家のみに限定提供",
+    "AWSがAIエージェントのツール呼び出しをポリシーで制御するOSS「Dogwood Local Engine」を公開",
+    "米政権が連邦政府内の呼称を「AI」から「Super Intelligence」へ改める大統領令に署名",
+    "MetaがUS・カナダ向けに中小企業向けAIエージェント「Muse for Small Business」を提供開始"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Google、Gemini 4 Argonを発表　安全上の懸念から公開を制限",
+      "url": "https://dawn.com/news/2033975",
+      "summary": "Googleは新フラッグシップモデル「Gemini 4 Argon」を発表した。ソフトウェア開発、法務、財務分析、サイバーセキュリティなどに強く、OpenAIのAstraやAnthropicのOpusと競合するとされる。一般公開は行わず、審査を経たサイバーセキュリティ専門家に限定して提供し、公開時期は未定。自社開示のコーディング系ベンチマーク4件のうち2件では競合に及ばなかったとも報じられている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AWS、エージェントのツール呼び出しを制限するOSS「Dogwood Local Engine」を公開",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/01/aws-offers-local-open-source-leash-for-agent-harnesses/5300578",
+      "summary": "AWSはAIエージェントがツールを実行する前に、ユーザー定義のポリシーで許可/拒否を判定するRust製OSSライブラリを公開した。例えば「直近15分以内にテストが成功していなければGit pushを禁止する」といった時間条件を記述でき、判定履歴はディスクに永続化される。遅延は15分窓で約20マイクロ秒、24時間窓で約6ミリ秒。GitHubで無償公開されている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "米政権、連邦政府で「AI」を「Super Intelligence」に改める大統領令",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+      "summary": "トランプ大統領は9月29日付で、連邦政府の各省庁に公文書などで「Artificial Intelligence」ではなく「Super Intelligence（SI）」を使うよう求める大統領令に署名した。大統領科学技術担当補佐官には連邦としての定義の策定が指示されている。ファクトシートは、新呼称が現在の技術の実力をより正確に表すと説明している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、中小企業向けAIエージェント「Muse for Small Business」を提供開始",
+      "url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "summary": "MetaはShopify、Slack、Stripe、QuickBooksなど多数のツールと連携し、成長戦略の立案、メール・予定の整理、広告分析などを担う中小企業向けAIエージェントを発表した。投稿・送信・支出はユーザーの承認なしには実行されない。主要機能は無料で、現在は米国とカナダで利用できる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、10月にシンガポール拠点を開設へ　アジア太平洋で5拠点目",
+      "url": "https://www.digitimes.com/news/a20260924PD202/anthropic-openai-google-deepmind-talent.html",
+      "summary": "Anthropicは2026年10月にシンガポールへオフィスを開設する。東京、ベンガルール、ソウル、シドニーに続くアジア太平洋地域で5つ目の拠点となる。OpenAIやGoogle DeepMindもすでに同地に拠点を置いている。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-02-news"
+}

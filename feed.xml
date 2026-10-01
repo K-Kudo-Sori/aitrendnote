@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-02T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月2日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02-news.html</id>
+    <updated>2026-10-02T00:00:00+09:00</updated>
+    <summary>Google DeepMindが次世代モデル「Gemini 4 Argon」を発表。安全上の懸念から検証済みのサイバーセキュリティ専門家のみに限定提供 / AWSがAIエージェントのツール呼び出しをポリシーで制御するOSS「Dogwood Local Engine」を公開 / 米政権が連邦政府内の呼称を「AI」から「Super Intelligence」へ改める大統領令に署名 / MetaがUS・カナダ向けに中小企業向けAIエージェント「Muse for Small Business」を提供開始</summary>
+  </entry>
+  <entry>
     <title>2026年10月2日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13-news.html</id>
     <updated>2026-09-13T00:00:00+09:00</updated>
     <summary>OpenAIのアルトマンCEOが2026年中のIPOを否定、AI安全性を理由に時期尚早と説明 / SalesforceがAgentforceに業務特化型AIエージェント7種を追加し、長期目標を追い続ける新ランタイムも導入 / Ant International・Mastercard・Visaが決済分野でAIエージェント認証の共通枠組み「KYA」構築に着手 / 半導体新興Positron AIが推論チップ「Asimov」向けに875百万ドルを調達、評価額は50億ドルに / AIコーディングツール「DeepSeek Harness」にサンドボックスを自ら解除できる重大脆弱性、既にパッチ提供済み</summary>
-  </entry>
-  <entry>
-    <title>2026年9月13日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13.html</id>
-    <updated>2026-09-13T00:00:00+09:00</updated>
-    <summary>Claude Codeを軸にしたエージェント開発の運用ノウハウ（worktree並列化、トークン効率化、Agent Skill設計）が国内ブログで多数 / AIエージェントに開発パイプライン全体を任せる事例（自動レビューループ、docker-agentハーネス、3エージェント協働）が目立つ / AIコーディングアシスタントの構造的な限界（本番特有のエッジケースに弱い、同じ失敗を繰り返す）を指摘する記事も複数</summary>
   </entry>
 </feed>
