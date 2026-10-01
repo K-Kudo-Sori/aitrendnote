@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-01T00:00:00+09:00</updated>
+  <updated>2026-10-02T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月2日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02.html</id>
+    <updated>2026-10-02T00:00:00+09:00</updated>
+    <summary>OpenAI DevDay 2026で常時稼働エージェント dots、GPT-6.1 Sol、Ultrafast などが発表された / turbopuffer が v3 でベクトル索引中心の設計を改め、集計や SQL にも強い新ストレージへ移行する / Claude Code 2.1.286 では verify という名前のスキルがコミット直前に自動実行されることが実測で示された / AIが書いたコードのレビューを、契約・テスト・評価基盤で効率化する記事が複数出ている</summary>
+  </entry>
   <entry>
     <title>2026年10月1日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13.html</id>
     <updated>2026-09-13T00:00:00+09:00</updated>
     <summary>Claude Codeを軸にしたエージェント開発の運用ノウハウ（worktree並列化、トークン効率化、Agent Skill設計）が国内ブログで多数 / AIエージェントに開発パイプライン全体を任せる事例（自動レビューループ、docker-agentハーネス、3エージェント協働）が目立つ / AIコーディングアシスタントの構造的な限界（本番特有のエッジケースに弱い、同じ失敗を繰り返す）を指摘する記事も複数</summary>
-  </entry>
-  <entry>
-    <title>2026年9月12日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-12-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-12-news.html</id>
-    <updated>2026-09-12T00:00:00+09:00</updated>
-    <summary>Anthropicが中国5社によるClaudeの大規模不正蒸留とロシア発サイバー攻撃を摘発し、脅威インテリジェンスレポートを公開 / Mistral AIがサムスン主導のシリーズDで30億ユーロを調達し、欧州テック企業として過去最大の資金調達に / OpenAIが開発者向け「Agents API」をパブリックベータで公開し、エージェント基盤競争が加速 / DeepSeekとSakana AIから新モデルが相次いで登場し、価格・性能競争が激化 / OpenAIがナビエ・ストークス方程式の難問への進展を発表したが、数学者との先取権論争が発生</summary>
   </entry>
 </feed>
