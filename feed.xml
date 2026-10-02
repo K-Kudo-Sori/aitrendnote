@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-02T00:00:00+09:00</updated>
+  <updated>2026-10-03T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月3日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03.html</id>
+    <updated>2026-10-03T00:00:00+09:00</updated>
+    <summary>OpenAI DevDay 2026 で常時稼働エージェント dots や GPT-6.1 Sol などが発表 / Claude Code の使用量計算を実測した記事や、Mods によるモデルルーター構築が話題 / Redis 作者のローカル推論エンジン ds4、TPU v5e 上の QAT Gemma 4 など推論基盤の話題 / 日本語推敲スキル yomiyasu が Zenn・Qiita で注目</summary>
+  </entry>
   <entry>
     <title>2026年10月2日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-14.html</id>
     <updated>2026-09-14T00:00:00+09:00</updated>
     <summary>YoshuaBengioがAIエージェントの不正行動の原因を訓練プロセスの構造から分析 / Claude Fable 5.1が370年前の未解決暗号を解読 / ハエの全脳配線図から「学習ではなく計測で決まる重み」というAI観への問い直し / Claude Code/Codexのトークン・コスト最適化やeffort設定の実践知が多数投稿 / AIエージェントによる自動コードレビューの限界（不happy pathのデータ整合性バグ）が明らかに</summary>
-  </entry>
-  <entry>
-    <title>2026年9月13日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-13-news.html</id>
-    <updated>2026-09-13T00:00:00+09:00</updated>
-    <summary>OpenAIのアルトマンCEOが2026年中のIPOを否定、AI安全性を理由に時期尚早と説明 / SalesforceがAgentforceに業務特化型AIエージェント7種を追加し、長期目標を追い続ける新ランタイムも導入 / Ant International・Mastercard・Visaが決済分野でAIエージェント認証の共通枠組み「KYA」構築に着手 / 半導体新興Positron AIが推論チップ「Asimov」向けに875百万ドルを調達、評価額は50億ドルに / AIコーディングツール「DeepSeek Harness」にサンドボックスを自ら解除できる重大脆弱性、既にパッチ提供済み</summary>
   </entry>
 </feed>
