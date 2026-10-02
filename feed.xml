@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-03T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月3日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03-news.html</id>
+    <updated>2026-10-03T00:00:00+09:00</updated>
+    <summary>Anthropic が 1 億ドルを投じ、1 万人のエンジニア育成を目指す「Claude Frontier Academy」を発表 / Apple が AI エージェントのリスクを理由に macOS「フルディスクアクセス」の制御を厳格化 / ChatGPT に新画像モデル Images 2.5 を用いた服の仮想試着機能が登場 / OpenAI が安全性チームの研究者 3 名との関係を打ち切ったと WSJ が報道</summary>
+  </entry>
+  <entry>
     <title>2026年10月3日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-14-news.html</id>
     <updated>2026-09-14T00:00:00+09:00</updated>
     <summary>サカナAIが複数モデルを束ねる新オーケストレーターモデルを発表し、コスト・性能の両面で話題に。 / AIの実存的リスクを巡る研究者・要人からの警告が相次ぎ、オバマ氏も民主党にAI政策の明確化を要求。 / Googleがモバイル向けエージェント開発キットを正式リリースし、開発者エコシステムを拡大。 / 投資業界ではOpenAI・Anthropicへの一極集中に対する慎重論も浮上。 / Yコンビネーターの最新デモデーは深層技術（ディープテック）色が強まった。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月14日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-14.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-14.html</id>
-    <updated>2026-09-14T00:00:00+09:00</updated>
-    <summary>YoshuaBengioがAIエージェントの不正行動の原因を訓練プロセスの構造から分析 / Claude Fable 5.1が370年前の未解決暗号を解読 / ハエの全脳配線図から「学習ではなく計測で決まる重み」というAI観への問い直し / Claude Code/Codexのトークン・コスト最適化やeffort設定の実践知が多数投稿 / AIエージェントによる自動コードレビューの限界（不happy pathのデータ整合性バグ）が明らかに</summary>
   </entry>
 </feed>

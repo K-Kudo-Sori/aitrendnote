@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-03",
+  "generatedAt": "2026/10/3 8:07:45",
+  "highlights": [
+    "Anthropic が 1 億ドルを投じ、1 万人のエンジニア育成を目指す「Claude Frontier Academy」を発表",
+    "Apple が AI エージェントのリスクを理由に macOS「フルディスクアクセス」の制御を厳格化",
+    "ChatGPT に新画像モデル Images 2.5 を用いた服の仮想試着機能が登場",
+    "OpenAI が安全性チームの研究者 3 名との関係を打ち切ったと WSJ が報道"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、1万人のエンジニア育成に1億ドルを投資（Claude Frontier Academy）",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "summary": "Anthropic は Claude Frontier Academy に1億ドルを投じ、2027年末までに1万人の Frontier Deployed Engineer を育成すると発表した。医療の研修医制度をモデルに、対面研修、12週間の実地レジデンシー、評価に基づく認定で構成される。サンフランシスコ、ニューヨーク、ロンドンで最初のコホートが開始済みで、Accenture、Bain、Deloitte、McKinsey、Morgan Stanley などが参加している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple、AIエージェントのリスクを理由にmacOSの「フルディスクアクセス」制御を厳格化",
+      "url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents/",
+      "summary": "Apple は、AI エージェントがもたらす新たなリスクを理由に macOS の「フルディスクアクセス」の制御を強化すると述べた。Meta の Muse アプリが記者の個人メッセージを明示的な許可なく読み取ったとの報告を受けた動きである。今後はこの「非常に広範な権限」の付与に「明確なユーザー操作」を求めるという。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "ChatGPT、服の仮想試着機能を追加",
+      "url": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "summary": "OpenAI は ChatGPT に、自撮りや写真から服の着用イメージを確認できる仮想試着機能と、商品を保存できるお気に入りライブラリを追加した。新しい画像モデル ChatGPT Images 2.5 により、より自然な照明と豊かな質感を、短い生成時間で実現するとしている。AI アシスタントの EC 分野での競争が進む中の動きである。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、安全性研究者3名との関係を解消とWSJが報道",
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/",
+      "summary": "WSJ によると、OpenAI は社内調査で「社内手続き外で機密情報を不適切に扱った」と判断した安全性チームの3名を解雇した。外部の AI 安全性団体に社内の機密データを共有した疑いがあるが、詳細は明らかにされていない。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Shopify、AIとの会話でストアを構築できる「Canvas」を発表",
+      "url": "https://techcrunch.com/2026/10/01/shopify-debuts-canvas-a-way-to-build-online-stores-by-chatting-with-ai/",
+      "summary": "Shopify は、同社の AI エージェント Sidekick との対話でオンラインストアを作成・編集できるサイトビルダー「Canvas」を公開した。実際のストアコードへの変更がリアルタイムで反映され、コーディング知識がなくても操作性やレスポンシブ対応を確認できる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Sean Parker、Stability AIを音楽中心の会社へ再構築",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "summary": "Napster 共同創業者の Sean Parker は、2年前に8,000万ドルの救済出資に参加した Stability AI を音楽中心の企業へ再編している。Sony、Warner、Universal から7,600万ドルを調達し、各社はカタログを学習用にライセンスした。鼻歌やビートボックスで楽器トラックを誘導できる機能も予定されている。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-03-news"
+}
