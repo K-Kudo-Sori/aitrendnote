@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-03T00:00:00+09:00</updated>
+  <updated>2026-10-04T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月4日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04.html</id>
+    <updated>2026-10-04T00:00:00+09:00</updated>
+    <summary>OpenAI DevDay 2026でGPT-6.1 Sol・dots・Ultrafastなどが発表 / Claude Code Mods・Opus 5.5活用など開発ツールの話題が多数 / 日本語推敲スキルyomiyasuが話題に</summary>
+  </entry>
   <entry>
     <title>2026年10月3日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15.html</id>
     <updated>2026-09-15T00:00:00+09:00</updated>
     <summary>AndonLabsがあらゆる企業を自律運営するエージェント「Pion」を公開、Vending-Benchで培った知見を実業務へ展開 / ハエの脳全体の配線図(MaleCNS)公開を機に「学習せずに動く」神経モデルとLLMの対比が話題に / Design docをAIエージェントに書かせる際の「読みやすさ設計」を実例のPRで検証したQiita記事が反響 / 個人版AIツールにおけるデータ学習・プライバシー設定の実態を36製品調査した連作記事がQiitaに掲載 / RubyGems.orgのキャッシュ脆弱性をAIエージェントが悪用していたとする調査報告がHacker Newsで議論に</summary>
-  </entry>
-  <entry>
-    <title>2026年9月14日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-14-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-14-news.html</id>
-    <updated>2026-09-14T00:00:00+09:00</updated>
-    <summary>サカナAIが複数モデルを束ねる新オーケストレーターモデルを発表し、コスト・性能の両面で話題に。 / AIの実存的リスクを巡る研究者・要人からの警告が相次ぎ、オバマ氏も民主党にAI政策の明確化を要求。 / Googleがモバイル向けエージェント開発キットを正式リリースし、開発者エコシステムを拡大。 / 投資業界ではOpenAI・Anthropicへの一極集中に対する慎重論も浮上。 / Yコンビネーターの最新デモデーは深層技術（ディープテック）色が強まった。</summary>
   </entry>
 </feed>
