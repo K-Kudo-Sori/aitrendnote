@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-04",
+  "generatedAt": "2026/10/4 8:07:12",
+  "highlights": [
+    "OpenAIの安全担当幹部が「社内文化は壊れている」として辞任",
+    "MetaがパーソナルAIエージェント「Muse」向けのオープンソースHW施策を開始",
+    "Stability AIが大手レーベルから7,600万ドルを調達し音楽生成に軸足"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAIの安全担当従業員が辞任、同社の「文化は壊れている」と主張",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "summary": "OpenAIで3年半在籍した安全分野のリーダー、David Robinson氏が10月3日に辞任し、The Atlanticに寄稿しました。同氏は同社の試行錯誤型の開発手法は高性能化に伴い許容できないリスクを生むと主張し、フロンティアAI企業は原子力発電所や空港のような安全慣行を採用すべきだと訴えています。OpenAIにはそうした専門性を持つ人材が不足しているとも指摘しています。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、オープンソースの「Muse Gadgets」を発表 ― パーソナルAIエージェントMuseと連携するハードを自作可能に",
+      "url": "https://techcrunch.com/2026/10/02/meta-wants-you-to-build-your-own-muse-gadget/",
+      "summary": "Metaは開発者がMuseと連携するカスタムハードを作れるオープンソース施策「Muse Gadgets」を開始しました。無料のファームウェアとLinux SDKが提供され、Raspberry PiやESP32でディスプレイ・センサー・スマートホーム機器と接続できます。また購読者に5,000個の「Muse Home Link」USB-Cデバイスを無償配布し、スピーカーやテレビなどの操作を可能にします。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Sean ParkerがStability AIを音楽中心に再建、大手レーベルが7,600万ドルを出資",
+      "url": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
+      "summary": "Napster共同創業者のSean Parker氏がStability AIを音楽生成に注力する形で再編しています。Sony、Warner、Universalが7,600万ドルを出資し、カタログの学習利用も許諾しました。同社は3つの音声モデルと、テキストから楽器トラックを生成できる音楽編集ソフトを公開済みです。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "テキストメッセージ上で動くAIエージェント各種",
+      "url": "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "専用アプリではなくSMSやiMessageで使えるAIアシスタントが増えています。Instinctは10億ドルを調達し評価額100億ドルで、旅行計画やサブスク解約などを代行します。家族向けのFambot・Ollie・Ohai、旅行のMiso、クリエイター向けのStanley、業務向けのTownなど用途特化型も登場しています。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Amazon、データセンター反発を受け「もう秘密保持契約(NDA)は使わない」と表明",
+      "url": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+      "summary": "AWSのMatt Garman CEOは、データセンター案件で政府機関とのNDAの使用を取りやめると発表しました。米国では100件超のデータセンター建設一時停止が検討されるなど反発が強まっており、同氏は環境・経済面の「4つの誤解」に反論しています。ただし専門家は、住民の不信は企業と政府双方への根深い問題だと指摘しています。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-10-04-news"
+}

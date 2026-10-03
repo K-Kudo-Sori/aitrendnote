@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-04T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月4日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04-news.html</id>
+    <updated>2026-10-04T00:00:00+09:00</updated>
+    <summary>OpenAIの安全担当幹部が「社内文化は壊れている」として辞任 / MetaがパーソナルAIエージェント「Muse」向けのオープンソースHW施策を開始 / Stability AIが大手レーベルから7,600万ドルを調達し音楽生成に軸足</summary>
+  </entry>
+  <entry>
     <title>2026年10月4日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15-news.html</id>
     <updated>2026-09-15T00:00:00+09:00</updated>
     <summary>トランプ大統領がアンソロピックのAI開発減速提言を批判し、AI政策を巡る対立が表面化 / グーグルDeepMindの大規模マルチエージェント実験で「不正」と「告発」行動が観測され、エージェント統制の課題が浮上 / 富士通が国産2nm CPU「FUJITSU-MONAKA」を発表するなど、AI基盤・半導体分野の動きも活発 / ミストラルAI、Cognitionと大型資金調達が相次ぎ、AI業界への投資熱は継続</summary>
-  </entry>
-  <entry>
-    <title>2026年9月15日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-15.html</id>
-    <updated>2026-09-15T00:00:00+09:00</updated>
-    <summary>AndonLabsがあらゆる企業を自律運営するエージェント「Pion」を公開、Vending-Benchで培った知見を実業務へ展開 / ハエの脳全体の配線図(MaleCNS)公開を機に「学習せずに動く」神経モデルとLLMの対比が話題に / Design docをAIエージェントに書かせる際の「読みやすさ設計」を実例のPRで検証したQiita記事が反響 / 個人版AIツールにおけるデータ学習・プライバシー設定の実態を36製品調査した連作記事がQiitaに掲載 / RubyGems.orgのキャッシュ脆弱性をAIエージェントが悪用していたとする調査報告がHacker Newsで議論に</summary>
   </entry>
 </feed>
