@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-05",
+  "generatedAt": "2026/10/5 7:08:00",
+  "highlights": [
+    "OpenAI DevDay 2026でdotsやGPT-6.1 Solなど25項目が発表",
+    "Claude Modsが正式発表され、解説・活用記事が相次ぐ",
+    "AI開発時代のテストの役割や、構造検証と業務検証の違いが議論に"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Homa: The end of TCP for AI clusters [video]",
+      "url": "https://www.youtube.com/watch?v=eZ8WWZzoaR0",
+      "summary": "本文取得失敗（本文が空のため要約できません）。タイトルからはAIクラスタ向けにTCPに代わる通信プロトコル「Homa」を扱う動画と推測されます。",
+      "category": "infra",
+      "points": 33,
+      "comments": 5,
+      "author": "signa11"
+    },
+    {
+      "source": "hackernews",
+      "title": "How to scale intent, quality, and artistry with AI [video]",
+      "url": "https://www.youtube.com/watch?v=GLvFTMtw4Jk",
+      "summary": "本文取得失敗（YouTube動画ページでCAPTCHAが表示され、本文を取得できませんでした）。",
+      "category": "other",
+      "points": 30,
+      "comments": 7,
+      "author": "simonjgreen"
+    },
+    {
+      "source": "hackernews",
+      "title": "All I wanted was a custom domain email",
+      "url": "https://jacobg.co/emails-at-jacobg-co/",
+      "summary": "自分のドメインで安価かつアドレス無制限、送受信認証付き、Apple Mail連携ができるカスタムメールを求め、Cloudflare Email Routingやセルフホストなど複数の方法を試した記録です。Cloudflareは受信の転送は簡単ですが、送信などで要件を満たしきれません。何が駄目だったかを整理し、最終的に落ち着いた構成を紹介しています。AIとの関連は薄い記事です。",
+      "category": "other",
+      "points": 13,
+      "comments": 9,
+      "author": "jgx0"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: AI search for every photo and every frame of video on macOS",
+      "url": "https://github.com/allenv0/SCM",
+      "summary": "macOS上の写真と動画の全フレームをAIで検索できるアプリ「Screen Memories」のShow HNです。ローカルの視覚モデルが推論し、アカウントやクラウド、アップロードは不要です。自然文での記憶検索、シーン単位の動画検索、OCRによる文字検索、Whisperによる台詞検索の5つのモードがあります。監視フォルダの自動取り込みや重複排除も備え、メディアは端末外に出ません。",
+      "category": "product",
+      "points": 128,
+      "comments": 60,
+      "author": "allenleee"
+    },
+    {
+      "source": "hackernews",
+      "title": "Declaring a bird extinct: The median wait is 36 years after the last sighting",
+      "url": "https://birdshistory.com/how-long-to-declare-a-bird-extinct/",
+      "summary": "本文取得失敗（本文が空のため要約できません）。タイトルからは、鳥の絶滅宣言は最後の目撃から中央値で36年待つという内容と推測されます。AIとの関連は薄い記事です。",
+      "category": "other",
+      "points": 12,
+      "comments": 6,
+      "author": "Heidi_70"
+    },
+    {
+      "source": "zenn",
+      "title": "AI開発時代だからこそ、テストの役割を見つめ直す",
+      "url": "https://zenn.dev/ababup1192/articles/77b844dcfc1529",
+      "summary": "AIがコードを書く時代に、E2Eとユニットテストのどちらが重要かという議論に対し、テストの役割は検出できる不具合の種類で決まると整理した記事です。ユニットは境界値やロジック、integrationはDBや外部連携、E2Eは画面をまたぐ不具合を検出します。自動テストは書かれた想定しか検証しないため、想定外は探索的テストで探す必要があります。AIとの開発でも各テストを使い分けるべきだと説いています。",
+      "category": "devtool",
+      "points": 232,
+      "author": "ABAB↑↓BA"
+    },
+    {
+      "source": "zenn",
+      "title": "【最新v1.0.6公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+      "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "summary": "AIが生成した不自然で読みにくい日本語を、構造レベルで書き直すスキル「yomiyasu」v1.0.6の公開紹介です。単語禁止のブラックリスト方式にとどまらず、誰が何をどうしたかという統語構造の復元と、比喩動詞の具体化に重点を置いています。Claude Code、Codex、Cursorなどで「/yomiyasu」と呼び出せ、npx skills add nanaism/yomiyasu で導入できます。公開後も更新が続き、読みやすくなったとの声が寄せられています。",
+      "category": "devtool",
+      "points": 491,
+      "author": "大賀愛一郎（oga_aiichiro）"
+    },
+    {
+      "source": "zenn",
+      "title": "OpenAI DevDay 2026 発表まとめ",
+      "url": "https://zenn.dev/schroneko/articles/openai-devday-2026",
+      "summary": "サンフランシスコで開催されたOpenAI DevDay 2026の発表25項目をまとめた記事です。24時間常時稼働のエージェント「dots」、GPT-6 Astraに近い性能を低コストで使えるGPT-6.1 Sol、高速生成のUltrafastが発表されました。Codexのクラウド環境やCLI、コードレビューの強化、Agents APIのComputer Use対応もあります。ChatGPTのPlugin extensionsやSpace、Sign in with ChatGPT、月額$500のPro 500も追加されました。",
+      "category": "product",
+      "points": 106,
+      "author": "ぬこぬこ"
+    },
+    {
+      "source": "zenn",
+      "title": "目を醒ませ 僕らの信頼が生成AIに侵略されてるぞ",
+      "url": "https://zenn.dev/spookies/articles/e70b80a510f5e2",
+      "summary": "生成AIが仕事に浸透するなか、AIの出力を右から左へ流すだけの「Meat Proxy」状態を戒めるエッセイです。そうした破綻はAIのせいではなく、人が本来負うべき責任を放棄した結果だと主張します。生成AIは責任を持てず副操縦士の域を出ないため、人間の価値は意思と責任を持つことにあると結論づけています。自戒を込めた、賛否のあり得る内容です。",
+      "category": "other",
+      "points": 79,
+      "author": "すずるん"
+    },
+    {
+      "source": "zenn",
+      "title": "完全版 Claude Mods 入門 | Claude Codeを自由にカスタマイズする",
+      "url": "https://zenn.dev/nogu66/articles/claude-mods-complete-guide",
+      "summary": "2026年10月1日に正式発表されたClaude Codeの拡張機構「Claude Mods」の入門記事です。TypeScriptの関数でClaude Codeの機能や見た目を安全にカスタマイズでき、従来のhooksやプラグインでは足りない人向けとされています。register、($, e, next)の形、5層のチェーンといった仕組みを解説します。状態管理、テスト、配布までの作り方に加え、全イベントと$のAPI一覧、early access版からの変更点もまとめています。",
+      "category": "devtool",
+      "points": 22,
+      "author": "nogu"
+    },
+    {
+      "source": "devto",
+      "title": "OriginTrace: Protecting the DEV Community from Content Theft using Sanity Context MCP",
+      "url": "https://dev.to/dj29/origintrace-protecting-the-dev-community-from-content-theft-using-sanity-context-mcp-j5c",
+      "summary": "DEV Communityのコンテンツ盗用に対処するため、Sanity Context MCPを使って実在コンテンツを参照するエージェント「OriginTrace」を作ったSanity Challenge投稿です。作者は自分の記事が他サイトに無断転載されているのを見つけたことが動機でした。クレジット付きの正当な転載と盗用を見分けるのは難しいため、コンテンツを照会して判定を助けます。",
+      "category": "agent",
+      "points": 20,
+      "comments": 7,
+      "author": "Dhruv Jani",
+      "tags": [
+        "devchallenge",
+        "sanitychallenge",
+        "sanity",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Goblin Warren: an AI Dungeon Master that never invents a rule",
+      "url": "https://dev.to/prime_299792/the-goblin-warren-an-ai-dungeon-master-that-never-invents-a-rule-4d66",
+      "summary": "Sanity Challenge投稿のブラウザ向けD&D 5eダンジョン探索ゲーム「The Goblin Warren」の紹介です。3人の英雄で5階層を進み、3Dダイスのターン制戦闘を行います。AIダンジョンマスターはルールを創作せず、すべての裁定をSanityから検索して引用します。トレースを開けば、どう裁定したかを確認できます。",
+      "category": "agent",
+      "points": 14,
+      "comments": 1,
+      "author": "Anshu Mandal",
+      "tags": [
+        "sanitychallenge",
+        "gamedev",
+        "devchallenge",
+        "mcp"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I built my husband a vim trainer with a Gemma coach that runs in the browser",
+      "url": "https://dev.to/sizzlebop/i-built-my-husband-a-vim-trainer-with-a-gemma-coach-that-runs-in-the-browser-5fmh",
+      "summary": "Hacktoberfestの週末チャレンジ向けに、夫のためにvimを小さなドリルで教えるブラウザアプリ「hjkl」を作った記事です。覚えるコマンドが多く、操作が遅く感じて挫折するという課題に対応します。ブラウザ内で動くGemmaのコーチが学習を支援する点が特徴です。",
+      "category": "product",
+      "points": 41,
+      "comments": 9,
+      "author": "Jessica Doering",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "hf26challenge",
+        "showdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Put a Local LLM in Charge of a Colony and Asked It to Tell the Truth. It Didn't.",
+      "url": "https://dev.to/mikachu/i-built-a-text-based-survival-game-to-test-ai-morals-the-honest-one-lost-3fan",
+      "summary": "ローカルLLMにコロニーの運営を任せ、倫理的なジレンマで正直に答えるかを検証した実験です。冒頭の「透明性は選択肢ではない」という文は、不誠実さの宣言に見えましたが、由来を調べると印象が変わりました。プロンプトのたった1文の違いが、AIが40回中40回とも真実を告げるかを左右したと報告しています。プロンプト設計と誠実性の関係を示す事例です。",
+      "category": "research",
+      "points": 19,
+      "comments": 4,
+      "author": "Mika Flowers",
+      "tags": [
+        "machinelearning",
+        "ethics",
+        "opensource",
+        "python"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I built the same app twice — by hand, then with AI. I trust the fast one less.",
+      "url": "https://dev.to/infoinlet1/i-built-the-same-app-twice-by-hand-then-with-ai-i-trust-the-fast-one-less-5gbn",
+      "summary": "同じアプリを、手作業とAI任せの2回作り比べた体験談です。AI版は数時間で完成し、コードはきれいで命名も一貫し、エッジケースのテストも通すなど、数字では上回りました。それでも作者はAI版を信頼しきれないと述べています。速さと品質の指標だけでは測れない、信頼の問題を提起する議論記事です。",
+      "category": "devtool",
+      "points": 18,
+      "comments": 1,
+      "author": "Info Inlet",
+      "tags": [
+        "ai",
+        "webdev",
+        "csharp",
+        "discuss"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code ModsとJevでモデルルーターを構築（サブスクで使えるゾ！！）",
+      "url": "https://qiita.com/moritalous/items/8b663db633dde3c49d62",
+      "summary": "Claude CodeのModsとJevを組み合わせ、プロンプトに応じてHaiku・Sonnet・Opusを切り替えるモデルルーターを作った記事です。Claude Codeに依頼すると、必要なフックが揃っているとして実装してくれました。簡単な質問はHaiku、少し考える内容はSonnet、無茶な依頼はOpusが対応し、使用モデルも画面下に表示されます。サブスクの範囲で動かせます。",
+      "category": "devtool",
+      "author": "moritalous"
+    },
+    {
+      "source": "qiita",
+      "title": "ゴールシークプロンプトとは ― AIに質問させて成果物を作る方法を、テンプレートと実例で解説",
+      "url": "https://qiita.com/nogataka/items/3bd4598ddf5c3e9c2b3e",
+      "summary": "AIに質問させて成果物を作る「ゴールシークプロンプト」の解説記事です。最終ゴールを先に示し、足りない条件をAIから聞き出させて埋める手法で、名前はExcelのゴールシーク機能に由来します。プロンプト生成型、3点セット型、伴走型の3つの型とコピーして使えるテンプレートを紹介します。実例では、AIが先に質問だけを出し、回答を成果物や計画に反映する流れを示しています。",
+      "category": "devtool",
+      "author": "nogataka"
+    },
+    {
+      "source": "qiita",
+      "title": "結局、Looped Transformerってなんや？",
+      "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e",
+      "summary": "Looped Transformerを、最近の論文まで含めて整理した解説記事です。通常のTransformerが層ごとに異なるパラメータを持つのに対し、同じブロックを繰り返し適用してhidden stateを更新します。同じブロックを繰り返す利点、RNNとの違い、最近再び注目される理由、残る課題を扱います。Transformerの基本を知る人向けです。",
+      "category": "research",
+      "author": "sakai1250"
+    },
+    {
+      "source": "qiita",
+      "title": "仕事が忙しいので、プライベートに AI 秘書を雇ってみた",
+      "url": "https://qiita.com/araom/items/83f8180524500f685416",
+      "summary": "Claude Codeを「秘書」として、自宅サーバーやメール、ふるさと納税、家族写真まわりの雑務に5日間使った記録です。機密情報が絡むため、業務の前にまず私生活で試しました。何を任せたかより「何をさせないか」を重視し、権限設定、hook、ローカル専用のGit、秘密情報の置き場を決めています。人が判断を残した場面や、業務に持ち込める仕組みも整理しています。",
+      "category": "agent",
+      "author": "araom"
+    },
+    {
+      "source": "qiita",
+      "title": "LLMのJSON Schemaを厳しくしても業務検証を消せない理由",
+      "url": "https://qiita.com/TechStudioLab/items/0bbf128791023cc90893",
+      "summary": "Structured OutputsでJSON Schemaに準拠した出力が得られても、業務検証は消せないと論じる記事です。Schemaで防げるのは、JSONの破損、必須キーの欠落、enum外の値といった形式上の失敗です。開始日より期限が前、入力にない依頼者名の補完といった意味の誤りは通過します。失敗をparse不可、構造不一致、意味の誤りの3種に分け、アプリ側の検証を残すべきだと説明しています。",
+      "category": "model",
+      "author": "TechStudioLab"
+    }
+  ]
+}
