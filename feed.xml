@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-06T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月6日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06-news.html</id>
+    <updated>2026-10-06T00:00:00+09:00</updated>
+    <summary>GoogleがGemini 4 Argonを発表。入力$2/出力$10(百万トークン)の導入価格、出力上限100万トークン / 韓国の金融7社でAI系ペンテストツール由来とみられる情報流出（約6.5万人以上） / OpenAIはDevDayでGPT-6.1 Sol・常時稼働エージェントDots・月額$500プランを発表 / AnthropicのClaude Sonnet 5.5は前世代比30%以上高速、多くの作業で最大30%低コスト</summary>
+  </entry>
+  <entry>
     <title>2026年10月6日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17-news.html</id>
     <updated>2026-09-17T00:00:00+09:00</updated>
     <summary>AIエージェントが実世界のデバイスやワークスペースに深く統合される動きが加速（Google HomeのMCP対応、Claude Chat/Coworkの統合）。 / Anthropic・OpenAI・Googleがサイバーセキュリティ向けAIモデルとセーフガードを相次いで発表。 / AnthropicのアモデイCEOが第三者安全性評価者の組み込みを提案するなど、フロンティアAIのガバナンス論議が本格化。 / 上海AI研究所が744BパラメータのオープンソースエージェントモデルAtria Dawn Previewを公開。 / 中国Z.AIが株式・社債で50億ドルを調達し次世代GLMモデル開発に…</summary>
-  </entry>
-  <entry>
-    <title>2026年9月17日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17.html</id>
-    <updated>2026-09-17T00:00:00+09:00</updated>
-    <summary>小規模モデルの強化学習によるPostgresクエリプラン最適化やターナリLLMの省メモリ化など、モデル・推論効率化の研究が進展。 / MistralとMozillaが提携し、Firefoxのブラウザアシスタント「Smart Window」をMistralモデルで駆動するプライバシー重視のAI連携を発表。 / Claude CodeやCodex、Copilotなど開発エージェントの実運用知見（ドキュメント品質、コードレビュー、権限管理の脆弱性）に関する記事が多数。 / AI時代のエンジニア採用基準やスクラムの終焉など、開発組織・働き方への影響を論じる記事も目立った。</summary>
   </entry>
 </feed>
