@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-06",
+  "generatedAt": "2026/10/6 7:07:49",
+  "highlights": [
+    "Opus 5.5のエージェントが室温磁性半導体の候補を発見し、AIによる材料探索の成果として話題に",
+    "ClaudeをAI日記に使った女性がAnthropicの通報で起訴され、AI入力内容とプライバシーの議論に",
+    "Claude Code 2.1.287でClaude Mods正式リリース、2.1.288では子フォルダCLAUDE.mdの読込バグ修正",
+    "AIにAPIキーを渡す方法の比較や、モック先行の要件定義など、AI駆動開発の実践知が多数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Opus 5.5 agents discover two room-temperature magnetic semiconductor candidates",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors",
+      "summary": "AIエージェント群（Opus 5.5）が、材料計算によって室温で動作しうる磁性半導体の候補を2つ見つけたという報告記事。強磁性と反強磁性の中間的な性質を持つ材料はメモリ研究で求められており、著者はAIエージェントのチームと共に1つの候補を設計し、1999年に合成済みの別の物質も条件を満たすと計算で予測した。物理の初学者向けに磁性の基礎も解説している。",
+      "category": "research",
+      "points": 104,
+      "comments": 91,
+      "author": "outlier99"
+    },
+    {
+      "source": "hackernews",
+      "title": "Dust: Pretraining Transformers Without Backpropagation",
+      "url": "https://qlabs.sh/research/dust",
+      "summary": "本文取得失敗（取得時に upstream request failed と表示され、本文が得られなかった）。タイトルからは、誤差逆伝播を使わずにTransformerを事前学習する手法『Dust』に関する内容と推測されるが、詳細は確認できていない。",
+      "category": "research",
+      "points": 26,
+      "comments": 1,
+      "author": "E-Reverance"
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
+      "summary": "Floridaの女性がClaudeを日記代わりに使い、保安官事務所を襲撃すると書いたところ、Anthropicの安全機構が検知し、人間のレビュアーが信憑性のある脅威と判断して警察に通報した。女性は書面による暴力の脅迫の罪で重罪として起訴された。Anthropicは死亡や重傷を防ぐ緊急時に限りユーザー情報を共有することがあるとしており、AIに入力する内容への注意を促す事例として報じられている。",
+      "category": "security",
+      "points": 409,
+      "comments": 333,
+      "author": "emptybits"
+    },
+    {
+      "source": "hackernews",
+      "title": "Linux containers in 500 lines of code (2016)",
+      "url": "https://blog.lizzie.io/linux-containers-in-500-loc.html",
+      "summary": "約500行のCコードでLinuxコンテナを自作し、信頼できないコードを実行するための最小限の制限を探る2016年の記事。namespace、capabilityの削減、マウント、システムコールの許可・禁止、cgroupsによるリソース制限、ネットワークの各要素を順に実装・解説している。公開後に約70行増えたが、コンテナの仕組みを理解するのに適した内容。",
+      "category": "infra",
+      "points": 79,
+      "comments": 16,
+      "author": "mkornaukhov"
+    },
+    {
+      "source": "hackernews",
+      "title": "Martian chaos terrain",
+      "url": "https://en.wikipedia.org/wiki/Martian_chaos_terrain",
+      "summary": "火星に見られる『カオス地形』についてのWikipediaの記事。大小のブロック状の岩が不規則に集まった、地球には類似のないとされる地形で、その特徴を解説している。AIとの直接の関係は薄く、一般的な科学・天文トピックとして取り上げられている。",
+      "category": "other",
+      "points": 91,
+      "comments": 25,
+      "author": "tiagod"
+    },
+    {
+      "source": "zenn",
+      "title": "俺のAIプログラミング手法(2026/10/05)",
+      "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+      "summary": "mizchiによる、2026年10月時点でのAIプログラミング手法の棚卸し記事。人間の役割を定義し、モデルの性能を試して評価し、ループを構築して評価指標を作り、その改善にテストやCIをチューニングするという流れを示す。AIに任せられる仕事か、完了の定義は何かという考える順番や、プロンプトは陳腐化するため常にアンラーニングすべきという点を述べている。",
+      "category": "devtool",
+      "points": 316,
+      "author": "mizchi"
+    },
+    {
+      "source": "zenn",
+      "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
+      "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
+      "summary": "GraphRAGをゼロから解説する記事。LLM単体の会話からRAG、ナレッジグラフ、オントロジーへと流れを整理し、GraphRAGには『Graph+RAGの手法一般』と『MicrosoftのOSS（MS GraphRAG）』の2つの意味があると区別する。最終的にMS GraphRAGにしかない仕組みを理解することをゴールに、順を追って説明している。",
+      "category": "research",
+      "points": 24,
+      "author": "テッツォ"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順",
+      "url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3",
+      "summary": "Claude Codeの公式拡張機構『Claude Mods』（v2.1.287で正式リリース）の紹介。modはClaude Code内で動くTypeScript/JavaScript関数で、画面へのペイン追加やプロンプト・ツール呼び出しの書き換えができ、pluginで配布される。筆者はprompt-railなど3つのmodを導入した。modはサンドボックス外でユーザー権限で動くため、claude plugin validateで事前に中身を確認する手順を推奨している。",
+      "category": "devtool",
+      "points": 14,
+      "author": "yoshihiko"
+    },
+    {
+      "source": "zenn",
+      "title": "【最新v1.0.7公開】AI-Slopな日本語を構造レベルで読みやすくするSkill『yomiyasu（よみやす）』を作りました",
+      "url": "https://zenn.dev/algoartis/articles/0b1c731881b25c",
+      "summary": "AI生成の不自然な日本語を、構造レベルで読みやすく書き直すSkill『yomiyasu（よみやす）』の公開記事（v1.0.7）。単語を禁止するブラックリスト方式にとどまらず、文の統語構造（誰が・何を・どうしたか）の復元と比喩動詞の具体化を重視する。Claude Code、Codex、Cursorなどで /yomiyasu として呼び出せ、npx skills add で導入できる。",
+      "category": "devtool",
+      "points": 533,
+      "author": "大賀愛一郎（oga_aiichiro）"
+    },
+    {
+      "source": "zenn",
+      "title": "JevとClefを画像生成AIのプロダクトに組み込もう!",
+      "url": "https://zenn.dev/radius5/articles/20261004-j3v7cl3f",
+      "summary": "画像生成AIサービスcopainterのAIアシスタントで、画像生成モデルに送る前のリクエストを判定して止める仕組みを、TypeSafeのJevとCloudflareのClefという2つのモデルで構築した事例。Cloudflare WorkersとDurable Objectsを活用し、Nano BananaやGPT-Imageなどの外部モデルへ送る前に不適切な依頼をふるい分ける。",
+      "category": "product",
+      "points": 6,
+      "author": "Katsuyuki Karasawa"
+    },
+    {
+      "source": "devto",
+      "title": "THRASH: I Gave My Friend an Operating System for Her Brain",
+      "url": "https://dev.to/iclaldogan/thrash-i-gave-my-friend-an-operating-system-for-her-brain-c1m",
+      "summary": "Hacktoberfest Weekend Challengeへの投稿で、友人M.のために作った、頭の中の『スケジューラ』を補う個人向けツールTHRASHの紹介。多数の並行タスクを抱え込んでしまう友人の悩みを出発点に、夜中のノリを交えた軽い語り口で開発の経緯を述べている。",
+      "category": "other",
+      "points": 11,
+      "comments": 0,
+      "author": "İclal Doğan",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "hf26challenge"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "⚡ Dad Complains About Electric Bill, So I Built Him an Energy Dashboard and Found the Panels Lied ⚡",
+      "url": "https://dev.to/annavi11arrea1/dad-complains-about-electric-bill-so-i-built-him-an-energy-dashboard-and-found-the-panels-lied-3jhg",
+      "summary": "Hacktoberfest Weekend Challengeへの投稿。父親の高い電気代の不満をきっかけに、家庭のエネルギー使用量を可視化するダッシュボードを作った。分析の結果、太陽光パネルの発電に関する想定が実際とは違っていたことが分かったという体験談で、オープンソースとして公開されている。",
+      "category": "other",
+      "points": 19,
+      "comments": 1,
+      "author": "Anna Villarreal",
+      "tags": [
+        "devchallenge",
+        "weekendchallenge",
+        "hf26challenge",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "MCP Configuration for Google Workspace with Claude Code",
+      "url": "https://dev.to/gde/mcp-configuration-for-google-workspace-with-claude-code-11om",
+      "summary": "Google Workspaceのリモート MCP サーバー8種をClaude Codeに設定する手順ガイド。設定はClaude Codeのskillとpluginとして配布され、APIの有効化、サーバー登録、サインイン、動作テストまでを自動で行える。同じ著者によるGemini CLI・Antigravity CLI向け記事に続くシリーズの3本目。",
+      "category": "agent",
+      "points": 10,
+      "comments": 0,
+      "author": "xbill",
+      "tags": [
+        "claudecode",
+        "mcp",
+        "googleworkspace",
+        "googleoauth"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built an AI That Reads Eviction Notices and Refuses to Lie to You",
+      "url": "https://dev.to/aws-builders/i-built-an-ai-that-reads-eviction-notices-and-refuses-to-lie-to-you-3475",
+      "summary": "AWSのハッカソン『Zero to Shipped』（社会貢献部門）向けに作った、退去通告書を読み取って内容を説明するAIの紹介。サーバーレス構成で構築し、法的な内容について誤魔化さず正直に伝える設計を重視している。借主が通知の意味を理解できるよう支援することが目的。",
+      "category": "product",
+      "points": 10,
+      "comments": 1,
+      "author": "Sarvar Nadaf",
+      "tags": [
+        "aws",
+        "serverless",
+        "ai",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Publishing Markdown to Substack from an Agent Skill",
+      "url": "https://dev.to/gde/publishing-markdown-to-substack-from-an-agent-skill-258f",
+      "summary": "Claude Code、Codex、Antigravityで使えるエージェントスキル publishing-kit で、MarkdownをSubstackに公開する手順の解説。Substackには公開APIがなく、Webエディタ経由だと表やコードリンクが消える、textコードブロックが数式ブロックになるといった問題がある。キットはこれを検証し、コードブロックや画像、リンクを確認してから公開する。",
+      "category": "devtool",
+      "points": 10,
+      "comments": 1,
+      "author": "xbill",
+      "tags": [
+        "substack",
+        "writing",
+        "devtools",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった",
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
+      "summary": "社内SaaSのアンケート機能開発で、文章での要件定義をやめ、AIで先にモックを作って画面上で要件を決めた事例。データ構造に関わる分岐だけを先に決め、モックを実物に近い形で作る5ステップを紹介する。これにより認識ズレが実装前に3回見つかり、要件のすり合わせから実装完了まで2日で済んだという。",
+      "category": "devtool",
+      "author": "kazuki_ogawa"
+    },
+    {
+      "source": "qiita",
+      "title": "AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた",
+      "url": "https://qiita.com/songchong/items/873b4f14d26296176cfd",
+      "summary": "AIエージェントにAPIキーを渡す6つの方法（対話文、.env、環境変数、MCP、OAuthなど）の安全性を、Claude Code、Codex、Gemini CLI、Copilot、Cursorで調査した記事。方法ごとにキーが漏れる経路やリスクを比較し、どの渡し方が安全かを検討している。",
+      "category": "security",
+      "author": "songchong"
+    },
+    {
+      "source": "qiita",
+      "title": "結局、Looped Transformerってなんや？",
+      "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e",
+      "summary": "Looped Transformerとは何かを解説する記事。同じ層を繰り返し適用してモデルの深さを計算量として稼ぐアーキテクチャについて、概念や狙いを整理している。（本文は冒頭のみ確認した推測を含む）",
+      "category": "research",
+      "author": "sakai1250"
+    },
+    {
+      "source": "qiita",
+      "title": "新しく作ったファイルに、そのフォルダの CLAUDE.md は効いていなかった。直った今も指示は書いた後に届く",
+      "url": "https://qiita.com/suwa_nobu/items/5252da854dbebe02cccc",
+      "summary": "Claude Code 2.1.288で、サブフォルダのCLAUDE.mdやパス指定ルールが、ファイルの作成・編集（Write/Edit）時にも読み込まれるよう修正された件の検証記事。2.1.287では新規作成時に指示が届かず守られなかったが（0/3）、2.1.289では3/3で守られた。ただし一度書いてから指示が届き、書き直す2回書きになる点も指摘している。",
+      "category": "devtool",
+      "author": "suwa_nobu"
+    },
+    {
+      "source": "qiita",
+      "title": "RAG構築が一気に簡単に？Oracle Private Agent Factory のKnowledge Agent Nodeを試してみた",
+      "url": "https://qiita.com/ssfujita/items/8be112a1d43ab25f0cd9",
+      "summary": "Oracle Private Agent Factory 26.4で追加されたKnowledge Agent Nodeを使い、社内文書を参照して回答するRAGエージェントを構築してみた記事。OCI上のOracle Linux 8環境で、ファイルアップロードによるデータソース登録からKnowledge Agentの作成までを行い、Embeddingやベクトルストアを個別に組む手間なく短時間で構築できることを確認している。",
+      "category": "agent",
+      "author": "ssfujita"
+    }
+  ]
+}

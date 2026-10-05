@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-05T00:00:00+09:00</updated>
+  <updated>2026-10-06T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月6日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06.html</id>
+    <updated>2026-10-06T00:00:00+09:00</updated>
+    <summary>Opus 5.5のエージェントが室温磁性半導体の候補を発見し、AIによる材料探索の成果として話題に / ClaudeをAI日記に使った女性がAnthropicの通報で起訴され、AI入力内容とプライバシーの議論に / Claude Code 2.1.287でClaude Mods正式リリース、2.1.288では子フォルダCLAUDE.mdの読込バグ修正 / AIにAPIキーを渡す方法の比較や、モック先行の要件定義など、AI駆動開発の実践知が多数</summary>
+  </entry>
   <entry>
     <title>2026年10月5日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-05-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17.html</id>
     <updated>2026-09-17T00:00:00+09:00</updated>
     <summary>小規模モデルの強化学習によるPostgresクエリプラン最適化やターナリLLMの省メモリ化など、モデル・推論効率化の研究が進展。 / MistralとMozillaが提携し、Firefoxのブラウザアシスタント「Smart Window」をMistralモデルで駆動するプライバシー重視のAI連携を発表。 / Claude CodeやCodex、Copilotなど開発エージェントの実運用知見（ドキュメント品質、コードレビュー、権限管理の脆弱性）に関する記事が多数。 / AI時代のエンジニア採用基準やスクラムの終焉など、開発組織・働き方への影響を論じる記事も目立った。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月16日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-16-news.html</id>
-    <updated>2026-09-16T00:00:00+09:00</updated>
-    <summary>OpenAI・Anthropic・Google DeepMindが業界横断のAI安全標準団体設立に向けて協議を継続 / SalesforceとNvidiaが企業向け推論モデル「Koa」を発表、フロンティアモデルの代替を狙う / AIエージェントの安全性を第三者監査するAIUCなど、エージェント統治・セキュリティ関連の動きが活発化</summary>
   </entry>
 </feed>
