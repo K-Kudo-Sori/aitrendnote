@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-06T00:00:00+09:00</updated>
+  <updated>2026-10-07T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月7日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07.html</id>
+    <updated>2026-10-07T00:00:00+09:00</updated>
+    <summary>Google「EmbeddingGemma 2」が公開、テキスト・画像・音声・動画を単一空間に埋め込むオンデバイス向けモデル / OpenAIが型付き回答を返す「Decisions API」をパブリックベータ化 / Claude Codeの公式拡張「Claude Mods」が正式リリース（v2.1.287） / AIエージェントへのAPIキーの渡し方・漏洩経路を扱うセキュリティ記事が複数登場 / AIが設計したオープンソースのAIアクセラレータ「openTPU」が話題</summary>
+  </entry>
   <entry>
     <title>2026年10月6日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21.html</id>
     <updated>2026-09-21T00:00:00+09:00</updated>
     <summary>OpenAIの広告Cookie「__obi」がChatGPTアカウントと外部サイト閲覧行動を紐づけている実態が詳細に暴露された。 / MCPサーバーのツール説明文が承認後に静かに書き換えられ得るサプライチェーンリスクが指摘され、ロックファイルによる対策ツールが登場。 / 話題の新型モデル「Jev」（確率だけを返すSystem One Model）について、既存LLMとの比較や仕組みの解説記事が複数見られた。 / Claude Code / OpenCode / LiteLLM など開発ツールの実運用ノウハウ（AGENTS.md読込挙動、権限ルールの落とし穴、全社導入事例）が充実。 / AIエ…</summary>
-  </entry>
-  <entry>
-    <title>2026年9月17日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-17-news.html</id>
-    <updated>2026-09-17T00:00:00+09:00</updated>
-    <summary>AIエージェントが実世界のデバイスやワークスペースに深く統合される動きが加速（Google HomeのMCP対応、Claude Chat/Coworkの統合）。 / Anthropic・OpenAI・Googleがサイバーセキュリティ向けAIモデルとセーフガードを相次いで発表。 / AnthropicのアモデイCEOが第三者安全性評価者の組み込みを提案するなど、フロンティアAIのガバナンス論議が本格化。 / 上海AI研究所が744BパラメータのオープンソースエージェントモデルAtria Dawn Previewを公開。 / 中国Z.AIが株式・社債で50億ドルを調達し次世代GLMモデル開発に…</summary>
   </entry>
 </feed>

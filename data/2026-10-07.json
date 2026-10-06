@@ -1,0 +1,233 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026/10/7 7:06:58",
+  "highlights": [
+    "Google「EmbeddingGemma 2」が公開、テキスト・画像・音声・動画を単一空間に埋め込むオンデバイス向けモデル",
+    "OpenAIが型付き回答を返す「Decisions API」をパブリックベータ化",
+    "Claude Codeの公式拡張「Claude Mods」が正式リリース（v2.1.287）",
+    "AIエージェントへのAPIキーの渡し方・漏洩経路を扱うセキュリティ記事が複数登場",
+    "AIが設計したオープンソースのAIアクセラレータ「openTPU」が話題"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "EmbeddingGemma 2",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "summary": "GoogleがオンデバイスのマルチモーダルEmbeddingモデル「EmbeddingGemma 2」を公開した。テキスト・画像・音声・動画を単一の埋め込み空間に写像でき、軽量でオープンなモデルとされる。前作は2000万回超ダウンロードされ、端末上の検索やプライバシー重視のRAGに使われてきた。後継として対応モダリティを大きく広げた位置づけである。",
+      "category": "model",
+      "points": 140,
+      "comments": 20,
+      "author": "ilreb"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "summary": "AIエージェントが設計したオープンソースのAIアクセラレータ「openTPU」の紹介。SystemVerilogのハード設計、命令セット、ビット精度シミュレータ、カーネル言語とコンパイラ、PCIeカードを動かすホストソフトまでが1つのモノレポに収まる。実機のFPGAカード上で最新モデル10種を実重みで動かした成果が示され、AIが自分の推論用チップをどこまで作れるかを探る学習用プロジェクトでもある。",
+      "category": "infra",
+      "points": 181,
+      "comments": 234,
+      "author": "fsbonetto"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "summary": "本文取得失敗（取得できたのは著者プロフィールページの内容のみで、記事本文は得られなかった）。タイトルからはClaude Codeの「提案メッセージ」機能に関する考察記事とみられる。",
+      "category": "devtool",
+      "points": 28,
+      "comments": 9,
+      "author": "zed_labs_dev"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "summary": "OpenAIが「Decisions API」のパブリックベータを開始した。テキストや画像を評価し、条件が真である確率、固定の選択肢からの選択、基準に対するスコアといった型付きの回答をResponses APIの約10倍の速さで返す。分類やルーティング、優先度付けに使え、現在対応モデルはgpt-6-lunaのみで、数週間内にGAを予定している。専用エンドポイントPOST /v1/decisionsを利用する。",
+      "category": "product",
+      "points": 11,
+      "comments": 3,
+      "author": "chiefstorm"
+    },
+    {
+      "source": "hackernews",
+      "title": "Erdosproblems.com Succumbs to the AI Onslaught",
+      "url": "https://www.erdosproblems.com/forum/thread/blog:9",
+      "summary": "数学の未解決問題を集めたErdosproblems.comがAIの流入への対応を迫られているという話題。サイト運営者が示した変更案のうち、最初の2つは数学の進展を見えにくくするだけだと筆者は批判している。特に2つ目は問題の経緯を調べる読者の手間を増やすだけで、「Erdos hunters」の抑止にはならないと主張する。AI時代のクレジットや解説の価値についても触れている。",
+      "category": "research",
+      "points": 65,
+      "comments": 27,
+      "author": "pfdietz"
+    },
+    {
+      "source": "zenn",
+      "title": "俺のAIプログラミング手法(2026/10/05)",
+      "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+      "summary": "筆者がAIプログラミングの手法を棚卸しした記事。人間の役割を定義し、モデルの性能を評価し、ループを構築して評価指標を改善するという流れを示す。無茶振りをして何ができたかを観察し、それをドメイン知識にするとしている。プロンプトはすぐ陳腐化するので常にアンラーニングし、グローバルプロンプトには複数選択肢がある場合の判断基準だけを書くことを勧める。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順",
+      "url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3",
+      "summary": "2026年10月のv2.1.287で正式リリースされたClaude Code公式の拡張機構「Claude Mods」の解説。Claude Code内で動くTS/JS関数で、画面にペインを足したりプロンプトやツール呼び出しを書き換えたりでき、pluginとして配布される。筆者はprompt-rail、md-prompt、qa-guideの3つを導入した。modはサンドボックス外でユーザー権限で動くため、導入前にclaude plugin validateで拾うイベントや呼ぶAPIを確認する手順を勧めている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
+      "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
+      "summary": "GraphRAGをゼロから解説する記事。RAGとナレッジグラフから始め、GraphRAGを経てMicrosoft公開のOSS「MS GraphRAG」の仕組みの理解を目指す。GraphRAGには、Graph＋RAGの手法全般と、Microsoftの同名OSSという2つの意味があると整理する。LLM単体では未学習の新情報に答えられないという課題から、順を追って説明している。",
+      "category": "research"
+    },
+    {
+      "source": "zenn",
+      "title": "オブジェクト指向UIデザインをAgent Skillにして、Claudeが作るUIはどう変わるかの検証",
+      "url": "https://zenn.dev/emuni/articles/ooui-agent-skill",
+      "summary": "書籍『オブジェクト指向UIデザイン』の原則をClaude CodeのAgent Skillにまとめ、生成されるUIの変化を比較検証した記事。「もっと見やすく」のような曖昧な修正指示になりがちな課題に対し、設計理論に基づく判断軸をSkillとして渡した。RAGシステムの管理画面を題材に、Skillの有無でUIの構造がどう変わるかを比べている。Skillの原則はAI生成画面のレビュー基準にもなる。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "JevとClefを画像生成AIのプロダクトに組み込もう!",
+      "url": "https://zenn.dev/radius5/articles/20261004-j3v7cl3f",
+      "summary": "画像生成AIサービスcopainterで、外部の画像生成モデルへ送る前にリクエストを判定して止める仕組みを、TypeSafeのJevとCloudflareのClefの2モデルで作った事例。Grokなど、拒否されても課金されるモデルがあり、失敗の多いリクエストを事前に弾けば無駄なコストを減らせる。Cloudflare Workersを使って組み込んでいる。",
+      "category": "infra"
+    },
+    {
+      "source": "devto",
+      "title": "Redis vs Dragonfly: A Hands-On Comparison",
+      "url": "https://dev.to/adamthedeveloper/redis-vs-dragonfly-a-hands-on-comparison-22ko",
+      "summary": "RedisとDragonflyを同一環境で比較した実践記事。筆者はキャッシュ、セッション、レート制限、キューなどでRedisを使い続けてきたが、Redis互換APIで内部構造が異なるDragonflyを約3か月前に知り、既定構成での移行テストを行った。性能面を中心にハンズオンで比較している。",
+      "category": "infra",
+      "tags": [
+        "redis",
+        "programming",
+        "architecture",
+        "performance"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Witness Was the Suspect: Why AI Audit Logs Can't Be Trusted",
+      "url": "https://dev.to/james_anderson_h/the-witness-was-the-suspect-why-ai-audit-logs-cant-be-trusted-2190",
+      "summary": "AIエージェントの監査ログは信頼できないという指摘。ログはエージェント自身と同じプロセスが書くため、誤った対象に実行しても「成功」と整った形式で記録され、監視もそれを信じてしまう。改ざんされないこと（tamper-proof）と真実であること（truth-proof）は別物だと整理し、独立した検証の必要性を論じている。",
+      "category": "security",
+      "tags": [
+        "discuss",
+        "ai",
+        "security",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "🌿 AI Nature Quest: I Built an AI That Wants You to Stop Using It",
+      "url": "https://dev.to/extinctsion/ai-nature-quest-i-built-an-ai-that-wants-you-to-stop-using-it-56g6",
+      "summary": "Hacktoberfestのオープンソース AIチャレンジ向けの作品「AI Nature Quest」。画面に張り付かせるのではなく、アプリを閉じて外に出ることを促す屋外冒険ゲームというコンセプトで作られたオープンソースのAIアプリである。GemmaとGitHub Copilotが使われている。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "gemma",
+        "githubcopilot"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Gift Hunter: An AI Agent That Finds Gifts They’ll Actually Want",
+      "url": "https://dev.to/dj29/gift-hunter-an-ai-agent-that-finds-gifts-theyll-actually-want-3mkb",
+      "summary": "Hacktoberfest Weekend Challengeの投稿作品「Gift Hunter」。商品検索から始めず、贈る相手の興味や手がかりから出発して、本当に喜ばれるプレゼントを探すAIエージェントである。受け手の人物像を起点に候補を絞る発想で、一般的なギフト検索との違いを打ち出している。",
+      "category": "agent",
+      "tags": [
+        "showdev",
+        "devchallenge",
+        "weekendchallenge",
+        "hf26challenge"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Your AI Agent Will Do Something Terrible. Here's How to Survive It.",
+      "url": "https://dev.to/james_anderson_h/your-ai-agent-will-do-something-terrible-heres-how-to-survive-it-4lc8",
+      "summary": "実際に動作を行うAIエージェントは、いずれ必ず重大なミスをするという前提で、初期導入者の教訓をまとめた記事。メールの誤送信、誤った環境への破壊的コマンド実行など、メール送信やDB操作、外部API呼び出しができるエージェントで起きる事故を挙げる。デモでは魔法のように見えても、本番では最初のインシデントが起きるため、被害を抑える備えが必要だと説く。",
+      "category": "security",
+      "tags": [
+        "ai",
+        "agents",
+        "security",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった",
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
+      "summary": "要件定義を文章ではなく、AIで先にモックを作って画面で決めるように変えた事例。社内SaaSのアプリ内アンケート機能を、要件のすり合わせからPR3本のマージまで2日で実装した。文章の合意は誤解を隠すが、モックなら認識ズレが実装前に3回見つかったという。Claude Codeを使った5ステップの手順を紹介している。",
+      "category": "devtool",
+      "tags": [
+        "要件定義",
+        "AI駆動開発",
+        "ClaudeCode",
+        "開発プロセス",
+        "チーム開発"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "結局、Looped Transformerってなんや？",
+      "url": "https://qiita.com/sakai1250/items/8d90b7320bcd1c8aba9e",
+      "summary": "Looped Transformerの解説記事。同じTransformerブロックを深さ方向に繰り返し使う構造で、層ごとに別パラメータを持つ通常のTransformerとの違いを数式で示す。なぜ繰り返すのか、理論上の利点、RNNとの違い、最近再び注目される理由、残る課題を最近の論文まで含めて整理している。",
+      "category": "research",
+      "tags": [
+        "Transformer",
+        "機械学習",
+        "深層学習",
+        "LLM",
+        "論文解説"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI エージェントに API キーを渡しても大丈夫か？ 対話文・.env・環境変数・MCP・OAuth — 6 つの渡し方を Claude Code・Codex・Gemini CLI・Copilot・Cursor で調べてみた",
+      "url": "https://qiita.com/songchong/items/873b4f14d26296176cfd",
+      "summary": "Claude Code、Codex、Gemini CLI、Copilot、Cursorの公式文書をもとに、AIエージェントへAPIキーを渡す6通りの方法を比較した記事。対話文への貼り付け、.env、環境変数、MCP、OAuthなどがあり、鍵の文字列がAIの目に触れるほど漏洩経路が増える。最も安全なのは鍵そのものをAIに渡さないOAuthだと結論し、設定による守り方を示す。",
+      "category": "security",
+      "tags": [
+        "AIエージェント",
+        "ClaudeCode",
+        "cursor",
+        "codex",
+        "GeminiCLI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "API キーはどこから漏れるのか？ 自分のサイトに来た .env 探し 1,566 件と、公開事例を 7 つの経路に分けてみた",
+      "url": "https://qiita.com/songchong/items/02672765fe53f911a1a0",
+      "summary": "APIキーが漏れる経路を、公開事例と自サイトに届いた.env探しのアクセス1,566件から7つに分類した記事。サーバーや公開置き場が3つ、AIが3つ、利用者側が関わるものという内訳で、実際の漏洩は鍵を置いた場所が思ったより広く見えていたことが多いと指摘する。経路ごとに先に塞ぐべき対策を一覧にしている。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "Security",
+        "MCP",
+        "Gemini",
+        "初心者"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 25",
+      "url": "https://qiita.com/maskot1977/items/f9fb6943b55166ce32b8",
+      "summary": "AIが生成した解説をもとにした、Pythonで学ぶマクロ経済学入門シリーズ第25回。ストックフロー一貫（SFC）モデルのシミュレーションで「財源がない」という前提を検証する内容で、減税と給付金の違いや税制設計、名目GDPの成長が税収を決める点を論じる。AI関連度は低く、経済政策に関する主張を含む。",
+      "category": "other",
+      "tags": [
+        "Python",
+        "マクロ経済学",
+        "ChatGPT",
+        "Gemini",
+        "YouTube"
+      ]
+    }
+  ]
+}
