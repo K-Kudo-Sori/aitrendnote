@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-07",
+  "generatedAt": "2026/10/7 8:09:30",
+  "highlights": [
+    "Mistral が1兆パラメータの Mistral Large 4 を発表。重みは約3週間後に公開予定",
+    "Reflection が open-weight モデル Beam を発表、今月中に重み公開予定",
+    "OpenAI が EU 向けに ChatGPT/Codex の出力テキストへ透かしを導入",
+    "Anthropic がスタートアップ向けに Claude Team 1年無料＋$1,000 クレジットを提供",
+    "Lambda が IPO 前に最大40億ドルを調達へ"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Mistral の新しい1Tモデル、クローズド・オープン両方の競合を超えることを目指す",
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "summary": "Mistral が1兆パラメータの「Mistral Large 4」を発表した。現在はガードレール付きの公開エンドポイントのみで提供され、安全性テスト後、約3週間でオープンウェイトとして公開する予定。学習には Nvidia GPU 4,000基のみを使用したとしている。ベンチマーク結果は未公表。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Reflection、中国勢に対抗する低コストのオープンウェイトモデル「Beam」を発表",
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "summary": "Reflection が総パラメータ501B・アクティブ23BのMoE型テキストモデル Beam を発表した。コンテキスト長は100万トークンで、高度な推論ベンチマークで中国の主要オープンモデルに匹敵しつつ推論コストは3〜4分の1と主張する。ただし性能は第三者検証されていない。重みは今月中に公開予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、EUで ChatGPT のテキストに透かしを導入へ",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "summary": "OpenAI は ChatGPT と Codex の生成テキストに、語選択を微調整する不可視の透かし「textGrain」を導入する。EU AI 法の透明性規則への対応で、EU のユーザー向けに数週間かけて展開し、API では今日からオプトインで有効化できる。10%の単語を置換すると検出率は92%から66%に低下する。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、スタートアップに Claude Team 1年無料と1,000ドル分のクレジットを提供",
+      "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "summary": "Anthropic が SF Tech Week で「Claude for Startups」を拡充した。Claude Team（最大5席）の1年無料、API クレジット1,000ドル、Claude Marketplace へのアクセス、応用AIチームとのオフィスアワーが含まれる。設立5年以内または直近2年以内に資金調達したスタートアップが対象。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "AI コンピューティングのスタートアップ Lambda、IPO を前に40億ドルを調達へ",
+      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "summary": "Lambda はプレマネー評価額145億ドルで最大40億ドルを調達する。主導は Coatue と Blackstone。IPO は市場の不透明感で2026年から2027年に延期された。受注残は6月の150億ドルから9月に500億ドルへ急増し、うち約350億ドルは8月下旬の Anthropic との1契約による。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "AI エージェントの次の壁：ウェブサイトに入れてもらうこと",
+      "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "summary": "個人向け AI エージェントが、Amazon による Meta の Muse のブロックや Walmart のボット対策の誤作動など、ウェブサイト側にブロックされる事例が増えている。航空会社や eBay、Zillow、Yelp なども制限している。Meta と業界パートナーは、有益なエージェントを識別するオープン標準を策定中。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-10-07-news"
+}

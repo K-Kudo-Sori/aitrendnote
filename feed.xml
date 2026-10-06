@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-07T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月7日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07-news.html</id>
+    <updated>2026-10-07T00:00:00+09:00</updated>
+    <summary>Mistral が1兆パラメータの Mistral Large 4 を発表。重みは約3週間後に公開予定 / Reflection が open-weight モデル Beam を発表、今月中に重み公開予定 / OpenAI が EU 向けに ChatGPT/Codex の出力テキストへ透かしを導入 / Anthropic がスタートアップ向けに Claude Team 1年無料＋$1,000 クレジットを提供 / Lambda が IPO 前に最大40億ドルを調達へ</summary>
+  </entry>
+  <entry>
     <title>2026年10月7日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21-news.html</id>
     <updated>2026-09-21T00:00:00+09:00</updated>
     <summary>OpenAIが法律特化AI基盤「Astra for Law」を発表、大手法律事務所への提供を開始 / Anthropicが生命科学向け認証プログラムと、Accentureとのモデル安全性評価パートナーシップを相次いで発表 / Anthropicがフロンティア研究所内のAI開発ペースを可視化する測定指標を初公表 / 主要AIコーディングエージェント4製品に無操作RCE脆弱性「Plugin4Shell」、Claude CodeとCodexは修正済みだがCopilotとGemini CLIは未対応</summary>
-  </entry>
-  <entry>
-    <title>2026年9月21日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21.html</id>
-    <updated>2026-09-21T00:00:00+09:00</updated>
-    <summary>OpenAIの広告Cookie「__obi」がChatGPTアカウントと外部サイト閲覧行動を紐づけている実態が詳細に暴露された。 / MCPサーバーのツール説明文が承認後に静かに書き換えられ得るサプライチェーンリスクが指摘され、ロックファイルによる対策ツールが登場。 / 話題の新型モデル「Jev」（確率だけを返すSystem One Model）について、既存LLMとの比較や仕組みの解説記事が複数見られた。 / Claude Code / OpenCode / LiteLLM など開発ツールの実運用ノウハウ（AGENTS.md読込挙動、権限ルールの落とし穴、全社導入事例）が充実。 / AIエ…</summary>
   </entry>
 </feed>
