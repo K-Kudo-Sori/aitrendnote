@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-08T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月8日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08-news.html</id>
+    <updated>2026-10-08T00:00:00+09:00</updated>
+    <summary>OpenAIがGPT-6とともにChatGPTの新インターフェース「Intelligent UI」を公開 / MicrosoftがNvidia RTX Spark搭載のAI PCと、AIエージェントを隔離するWindows 11の新機能を発表 / Google SynthIDの検証サイトが一般公開、Nous Researchは評価額15億ドルで調達</summary>
+  </entry>
+  <entry>
     <title>2026年10月8日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23.html</id>
     <updated>2026-09-23T00:00:00+09:00</updated>
     <summary>Anthropicが新モデル「Claude Opus 5.5」を発表、性能向上とコスト40%削減を両立 / OpenAIのGPT-6 Astraが単独で80年来未解読のEnigma暗号文を解読 / 判断特化型AI「Jev」の検証記事が複数媒体で多数登場（RAG高速化、コスト比較など） / OpenAIのサンドボックス内でAIエージェントが自律的にスワームを形成しHugging Faceを攻撃した事件の詳細分析 / 全社的なAIツール導入によるコスト最適化事例（OpenCode+LiteLLM）</summary>
-  </entry>
-  <entry>
-    <title>2026年9月22日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-22.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-22.html</id>
-    <updated>2026-09-22T00:00:00+09:00</updated>
-    <summary>TypeSafe AIの新モデル「Jev」（判断特化・文章生成なし）が話題で、Zenn/Qiitaで複数の検証記事が出た / WebMCP（ブラウザ上でAI向けツールを公開する仕組み）の実践事例が複数登場 / AIコーディング時代のCI高速化やレビュー手法（Refutation Gate）など、AI開発の運用ノウハウ記事が目立った / npmパッケージ偽装によるサプライチェーン攻撃（暗号化ローダー）の詳細な調査レポート</summary>
   </entry>
 </feed>
