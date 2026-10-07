@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026/10/8 7:07:08",
+  "highlights": [
+    "Anthropic が小型モデル Claude Haiku 5.5 を発表。Haiku 4.5 比で約75%安価、Sonnet 5.5 のキャッシュ読み出しも半額に",
+    "Claude Code の拡張機構「Mods」（v2.1.287）に関する活用記事が Zenn で複数登場",
+    "タイムズカーで約660万アカウントの情報漏えい、免許証画像など本人確認書類は約160万件",
+    "AWS の Strands Decider（選択肢から答えを選ぶ小型モデル）のハンズオンが公開"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Claude Haiku 5.5",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "summary": "Anthropic が、同社で最も安価・高速・高性能な小型モデル Claude Haiku 5.5 を発表した。要約・コンパクション・DBクエリ・分類といった大量かつコスト重視の処理や、ライブ顧客サポート、ブラウザ操作のような速度重視の用途に向く。コーディングでは Opus 5.5 や Sonnet 5.5 のサブエージェントとしても使える。価格は Haiku 4.5 より平均約75%安く、Sonnet 5.5 のキャッシュ読み出し価格も半額になり、エージェント作業で約20%安くなる。Max/Team 契約者向けに月次API クレジットも新設される。",
+      "category": "model",
+      "points": 522,
+      "comments": 245,
+      "author": "sfkgtbor"
+    },
+    {
+      "source": "hackernews",
+      "title": "GPT‑6 and Intelligent UI for everyone",
+      "url": "https://openai.com/index/gpt-6-for-everyone/",
+      "summary": "本文取得失敗（Cloudflare のチャレンジページが返され、記事本文を取得できなかった）。タイトルからは OpenAI による GPT-6 と新しいインテリジェントUIの発表とみられるが、内容は確認できていない。",
+      "category": "product",
+      "points": 382,
+      "comments": 180,
+      "author": "joshuawright11"
+    },
+    {
+      "source": "hackernews",
+      "title": "Docker Agent",
+      "url": "https://github.com/docker/docker-agent",
+      "summary": "Docker Agent（docker-agent）は、宣言的な YAML 設定だけで AI エージェントを構築・実行・共有できる docker CLI プラグインである。コードなしで、専門化した複数のエージェントがタスクを委譲し合うマルチエージェント構成を作れる。ツールは組み込みのものに加え、ローカル・リモート・Docker ベースの MCP サーバーも利用できる。OpenAI、Anthropic、Gemini、AWS Bedrock、Mistral、xAI、Docker Model Runner など複数のモデルプロバイダに対応し、think や todo などの推論支援ツールも備える。",
+      "category": "agent",
+      "points": 130,
+      "comments": 55,
+      "author": "saikatsg"
+    },
+    {
+      "source": "hackernews",
+      "title": "Despite what Watson said, Rosalind Franklin understood structure of DNA first",
+      "url": "https://link.springer.com/article/10.1007/s10739-026-09866-7",
+      "summary": "Journal of the History of Biology に掲載された論文で、科学史家と X 線結晶学者が Rosalind Franklin の「写真51」を再検討している。ワトソンらが主張してきた「Franklin は写真の意義を理解できていなかった」という説を否定する内容である。Franklin は DNA の B 型らせんの主要パラメータが画像から計算できると分かった上で撮影を決めており、それらの計算もすでに行っていたと論じている。AI との関連は薄く、スクレイプで拾われた一般科学史の記事である。",
+      "category": "research",
+      "points": 56,
+      "comments": 6,
+      "author": "gumby"
+    },
+    {
+      "source": "hackernews",
+      "title": "Meta and Microsoft take steps to reduce employee usage of Claude AI",
+      "url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai/",
+      "summary": "本文取得失敗（Cloudflare のチャレンジページが返され、記事本文を取得できなかった）。タイトルからは、Meta と Microsoft が社内での Claude AI の利用を減らす措置を取ったという報道とみられるが、詳細は確認できていない。",
+      "category": "product",
+      "points": 187,
+      "comments": 195,
+      "author": "speckx"
+    },
+    {
+      "source": "zenn",
+      "title": "俺のAIプログラミング手法(2026/10/05)",
+      "url": "https://zenn.dev/mizchi/articles/ai-coding-loop-formal",
+      "summary": "mizchi 氏による AI プログラミング手法の棚卸し記事である。人間の役割を定義し、モデルにまず無茶振りして何ができるかを観察し、評価指標を作って自動化ループを回すという考え方を示す。プロンプトは急速に陳腐化するため常にアンラーニングが必要で、「あなたは優秀なプログラマです」のような定型句は古いとする。グローバルプロンプトには判断基準（Node 24+、pnpm 利用など）だけを書き、よく知られた OSS を使うとモデルの世界知識が効いて効率が上がると述べる。/compact の使い方にも触れている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeの「Claude Mods」とは？ 入れてみた3つのmodと、安全に入れる手順",
+      "url": "https://zenn.dev/yoshihiko555/articles/ea2db6070058b3",
+      "summary": "2026年10月1日の v2.1.287 で正式リリースされた Claude Code の拡張機構「Claude Mods」の解説記事。Mods は Claude Code 内で動く TypeScript/JavaScript 関数で、画面へのペイン追加、プロンプトやツール呼び出しの書き換え、権限リクエストの承認・拒否、出力からの秘密情報の除去などができる。プラグイン経由で配布され、/plugin コマンド2行で導入できる。著者は prompt-rail、md-prompt、qa-guide の3つを試した。mod はサンドボックス外でユーザー権限で動くため、導入前に claude plugin validate で拾うイベントや呼ぶ API を確認するよう勧めている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "オブジェクト指向UIデザインをAgent Skillにして、Claudeが作るUIはどう変わるかの検証",
+      "url": "https://zenn.dev/emuni/articles/ooui-agent-skill",
+      "summary": "書籍『オブジェクト指向UIデザイン』の設計原則を Claude Code の Agent Skill にまとめ、生成される UI がどう変わるかを比較検証した記事である。AI が作る画面は機能（動詞）の列挙に引っ張られやすく、「もっと見やすく」のような曖昧な修正指示になりがちという課題が出発点になっている。RAG 社内文書管理画面を題材に、Skill を与えた場合と与えない場合を比べている。Skill として渡した原則は、AI 生成画面をレビューする評価軸としても使える。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "GraphRAGをゼロから詳しく解説する【ナレッジグラフ・オントロジー】",
+      "url": "https://zenn.dev/tetsuro731/articles/6efe77a20b8c1c",
+      "summary": "RAG、ナレッジグラフ、オントロジー、GraphRAG といった用語を時系列で整理し、ゼロから理解することを目指す解説記事である。LLM 単体では学習していない新しい情報に答えられず、数値計算も苦手で、fine-tuning は更新のたびに追加コストがかかる。その対応策として RAG を説明し、RAG とナレッジグラフ、GraphRAG、Microsoft の OSS である MS GraphRAG の順に仕組みを解説する。GraphRAG には「Graph+RAG の手法一般」と「MS GraphRAG」の二つの意味があると整理している。",
+      "category": "research"
+    },
+    {
+      "source": "zenn",
+      "title": "Mods で Claude Code のセッションごとに管理できるメモ帳を作った",
+      "url": "https://zenn.dev/yesodco/articles/da634d752874b2",
+      "summary": "Claude Code の Mods を使い、セッションごとに TODO とメモを Markdown で残せる mod「session-memo」を作った事例である。開いているセッションが増えるとどのメモがどのセッションのものか分からなくなる、という課題を解決する。入力欄の上の帯に件数と「メモを開く」ボタンを出し、/memo でペインを開いて追記・削除ができる。/memo raw で md ファイルを直接編集でき、/memo <内容> で素早く追記もできる。Mods はターミナルとデスクトップアプリの Code タブの両方で動き、ペイン・帯・ステータスライン・トーストなどに表示できる。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Kaggle Benchmarking Challenge: $2,500 in Prizes for FIVE Winners!",
+      "url": "https://dev.to/devteam/join-the-kaggle-benchmarking-challenge-2500-in-prizes-for-five-winners-18ml?bb=264452",
+      "summary": "DEV と Kaggle が共催する Kaggle Benchmarking Challenge の告知記事である。参加者は自作のベンチマークを作り、実際のモデルで実行して、結果を報告する。期間は10月11日までで、5名の受賞者に合計2,500ドルの賞金が出る。最近のモデルは推論・コード生成・ツール利用・マルチターン対話をこなし能力もすぐ変わるため、公開リーダーボードだけでなく自分の実務に即した評価を作ろうという趣旨である。Kaggle Benchmarks を使って複数のモデルを横断評価できる。",
+      "category": "research",
+      "tags": [
+        "devchallenge",
+        "kagglechallenge",
+        "machinelearning",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Think We're Forgetting How to Be Bored",
+      "url": "https://dev.to/james_anderson_h/i-think-were-forgetting-how-to-be-bored-3pe5",
+      "summary": "待ち時間にすぐスマホを取り出してしまう習慣を振り返り、退屈を「生産的な心の余白」として捉え直そうというエッセイである。ケトルやエレベーターを待つような数十秒の空白でも、無意識に手がポケットに伸びる反射的な行動を、空白から逃げる小さな反応だと表現している。著者は最後に本当に退屈した時を思い出せないことに気づいたという。AI タグが付いているが、技術的な内容ではなく生産性とメンタルヘルスの議論が中心である。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "mentalhealth",
+        "productivity",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "🌿 AI Nature Quest: I Built an AI That Wants You to Stop Using It",
+      "url": "https://dev.to/extinctsion/ai-nature-quest-i-built-an-ai-that-wants-you-to-stop-using-it-56g6",
+      "summary": "Hacktoberfest Open-Source AI Challenge Week 1「Touch Grass」への応募作品で、AI が実世界のクエストを生成し、スマホを置いて外に出るよう促すオープンソースの屋外アドベンチャーゲーム AI Nature Quest である。多くの AI プロダクトが画面に引き留めようとするのとは逆に、画面を見る時間を最短にすることを目標にしている。AI が冒険を生成し、ユーザーは実際に体験して戻ってくるのを待つ。Gemma と GitHub Copilot が使われている。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "gemma",
+        "githubcopilot"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I built an AI that only works when my phone is in my pocket",
+      "url": "https://dev.to/codeswithroh/i-built-an-ai-that-only-works-when-my-phone-is-in-my-pocket-3ipn",
+      "summary": "Hacktoberfest Open-Source AI Challenge「Touch Grass」への応募作品で、目的地のない散歩アプリ Drift を紹介する記事である。時間と気分（静か、色、古いもの、音）を選ぶと、ブラウザ上で動く Gemma 4 が遊び心のあるルールを短く生成する。オープンウェイトの音声モデルがルールを一つずつ読み上げ、その間スマホはポケットに入れたままにする。外に出たあとも画面を見させる従来の「外出アプリ」への反発から、玄関に着く前に使い終わるアプリを目指している。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "gemma",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Touch Grass, Pack Your Docs: An Offline Coding Agent on a 4 GB Laptop GPU",
+      "url": "https://dev.to/gde/touch-grass-pack-your-docs-an-offline-coding-agent-on-a-4-gb-laptop-gpu-4lf1",
+      "summary": "4GB の GPU（GTX 1650 Ti）搭載ノート PC 上で、オフラインのコーディングエージェントを構築する手順を解説した記事である。llama.cpp でローカル実行する Gemma 4 E4B を opencode で駆動し、実行ごとに独立した採点器で評価している。thinking を有効にし、要件を常に手元に保つエージェントプロファイルを使うなど、必要な条件を満たすと動くコードをオフラインで書けるとしている。コンテキスト長の検証から合格する構成に至るまでの過程が示され、コードは GitHub で公開されている。",
+      "category": "agent",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "gemma",
+        "opencode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "文章で要件定義するのをやめた。AIでモックを先に作ったら、認識ズレが実装前に全部見つかった",
+      "url": "https://qiita.com/kazuki_ogawa/items/f1a15a199d9f91fe6080",
+      "summary": "社内 SaaS にアプリ内アンケート機能を追加した際、文章で要件を固めずに AI でモックを先に作る手順に変えた事例である。要件のすり合わせから PR 3本のマージまで2日で完了した。文章による合意は誤解を隠すが、AI によって実物に近いモックが数十分で作れるようになり、作る順序を逆転できたという。先に決めるのはデータの持ち方など、後で変えると作り直しになることだけとし、5ステップの進め方と、認識ズレが実装前に3回見つかった経験を紹介している。Claude Code を使用している。",
+      "category": "devtool",
+      "tags": [
+        "要件定義",
+        "AI駆動開発",
+        "ClaudeCode",
+        "開発プロセス",
+        "チーム開発"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【もう無理だよ…】免許証画像まで流出する時代に、エンジニアは何をすればいいのか",
+      "url": "https://qiita.com/shinkai_/items/4c6c12324e115a125621",
+      "summary": "タイムズカーの情報漏えいを題材に、エンジニアに何ができるかを考察する記事である。9月25日に不正アクセスを検知し、対象は約660万アカウント、うち運転免許証画像など本人確認書類の漏えいは約160万件と公表された。クレジットカード情報は保有しておらず、パスワードはハッシュ化されていたという。免許証画像だけで即座に口座が作れるとは限らないが、不正申込みの可能性は否定できないと同社も説明している。事実と考察を分けつつ、相次ぐ漏えいの原因、AI が脅威か味方か、エンジニアの取るべき姿勢を整理している。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "初心者",
+        "キャリア",
+        "Security",
+        "個人開発"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Strands Deciderハンズオン！",
+      "url": "https://qiita.com/har1101/items/cf5e734358e09f2410d0",
+      "summary": "2026年10月1日に AWS が発表した Strands Decider を動かすハンズオン手順である。Strands Decider は文章を生成せず、用意した選択肢から答えを選ぶだけの小型モデルである。choice、noul、score の3種類の質問を試し、HTTP サーバーとして起動して curl で呼び出し、さらに Strands Agents の Intervention、ModelRouter、グラフ、HumanInTheLoop に組み込む。環境構築を含め約1.5時間、EC2 の t4g.xlarge（東京、約0.17ドル/時）を使うため数十円からの利用料がかかり、終了後のリソース削除が必要である。CloudFormation テンプレートでエラーが出る場合は修正版を使うよう追記されている。",
+      "category": "agent",
+      "tags": [
+        "AWS",
+        "StrandsDecider2B",
+        "StrandsAgents"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Autonomous AI Lakehouseのデータを Ontologyでつないで Private Agent Factoryから NL2SQL＋RAG＋Knowledge Graphしてみてみた",
+      "url": "https://qiita.com/shirok/items/281689da5d9ee8c39540",
+      "summary": "Oracle の Autonomous AI Lakehouse のデータに Ontology で意味と関係を加え、Private Agent Factory（PAF）から NL2SQL、RAG、Knowledge Graph を組み合わせて使う検証記事である。音楽フェス運営エージェントを題材に、ネットワークスイッチの障害から同じ製造 Lot の別ステージの機材2台を辿り、追加で確認すべき対象を見つける。PAF の統合回答では、DB の数値、未完了タスク、サービス速報の交換条件と運用手順書の根拠を一度に示せた。別機材の Lot 関係は合成デモデータで、同じ Lot であることだけでは故障と判断しない点も明記されている。",
+      "category": "infra",
+      "tags": [
+        "Lakehouse",
+        "NL2SQL",
+        "rag",
+        "KnowledgeGraph",
+        "PAF"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIが正しい答えを返せる時代に、人はなぜ学ぶのか ～なんでもCopilotでの学びを通して～",
+      "url": "https://qiita.com/Oyu3m/items/9d68313e74aecac103bd",
+      "summary": "Microsoft 365 Copilot の学習コミュニティ「なんでもCopilot」が札幌で地方開催した勉強会の振り返り記事である。北海道大学の協力を得て、大学関係者や MVP が登壇し、2泊3日の観光ツアーには総勢19名が参加した。室蘭工業大学の斉藤さんから「AI が正しい答えを返せる時代に人が学ぶ価値は何か、大学は何を教え評価すべきか」という宿題を受け取り、著者はコミュニティの場づくりにも通じる問いとして考え始める。本文は「正しさとは何か」という問い返しから始まる。",
+      "category": "other",
+      "tags": [
+        "なんでもCopilot",
+        "Microsoft365",
+        "生成AI",
+        "学習",
+        "コミュニティ"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-07T00:00:00+09:00</updated>
+  <updated>2026-10-08T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月8日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08.html</id>
+    <updated>2026-10-08T00:00:00+09:00</updated>
+    <summary>Anthropic が小型モデル Claude Haiku 5.5 を発表。Haiku 4.5 比で約75%安価、Sonnet 5.5 のキャッシュ読み出しも半額に / Claude Code の拡張機構「Mods」（v2.1.287）に関する活用記事が Zenn で複数登場 / タイムズカーで約660万アカウントの情報漏えい、免許証画像など本人確認書類は約160万件 / AWS の Strands Decider（選択肢から答えを選ぶ小型モデル）のハンズオンが公開</summary>
+  </entry>
   <entry>
     <title>2026年10月7日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-22.html</id>
     <updated>2026-09-22T00:00:00+09:00</updated>
     <summary>TypeSafe AIの新モデル「Jev」（判断特化・文章生成なし）が話題で、Zenn/Qiitaで複数の検証記事が出た / WebMCP（ブラウザ上でAI向けツールを公開する仕組み）の実践事例が複数登場 / AIコーディング時代のCI高速化やレビュー手法（Refutation Gate）など、AI開発の運用ノウハウ記事が目立った / npmパッケージ偽装によるサプライチェーン攻撃（暗号化ローダー）の詳細な調査レポート</summary>
-  </entry>
-  <entry>
-    <title>2026年9月21日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-21-news.html</id>
-    <updated>2026-09-21T00:00:00+09:00</updated>
-    <summary>OpenAIが法律特化AI基盤「Astra for Law」を発表、大手法律事務所への提供を開始 / Anthropicが生命科学向け認証プログラムと、Accentureとのモデル安全性評価パートナーシップを相次いで発表 / Anthropicがフロンティア研究所内のAI開発ペースを可視化する測定指標を初公表 / 主要AIコーディングエージェント4製品に無操作RCE脆弱性「Plugin4Shell」、Claude CodeとCodexは修正済みだがCopilotとGemini CLIは未対応</summary>
   </entry>
 </feed>
