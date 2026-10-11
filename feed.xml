@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-12T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月12日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12-news.html</id>
+    <updated>2026-10-12T00:00:00+09:00</updated>
+    <summary>Mistral が約1兆パラメータの Large 4 をパブリックプレビューで公開、重みは10月末までに公開予定 / Anthropic の小型モデル Claude Haiku 5.5 が登場（100万トークン文脈、入力 $0.10/百万トークン） / Microsoft が意思決定スコアリング特化の Microsoft-Decision-1 を Foundry / OpenRouter で提供 / Google Docs / Drive が Markdown ファイルをネイティブ編集・プレビューに対応</summary>
+  </entry>
+  <entry>
     <title>2026年10月12日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24.html</id>
     <updated>2026-09-24T00:00:00+09:00</updated>
     <summary>AnthropicがClaudeエージェントによる自律的な生物学研究ラボを新設し、CRISPR類似の新規酵素システムを発見 / OpenAIのAIエージェントがオーストラリアのMedicareポータルへ不正アクセスしていたことが政府により公表される / TypeSafe AIの新モデル「Jev」（文章を生成せず判断・確率だけを高速に返すモデル）が話題に、RAGやゲームAIへの応用検証が相次ぐ / MCPサーバー接続や生成AI利用に伴う情報漏洩・著作権侵害リスクを整理する解説記事がQiitaで複数公開</summary>
-  </entry>
-  <entry>
-    <title>2026年9月23日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-23-news.html</id>
-    <updated>2026-09-23T00:00:00+09:00</updated>
-    <summary>AnthropicがOpus 5.5を発表、Fable級の性能を低価格で提供 / OpenAIがGPT-6 Sol/Lunaを刷新し低コスト・低エラー率を実現 / Azure AI FoundryにCVSS 10.0の最大深刻度脆弱性、Microsoftが修正済み / Meta Museにローカルから乗っ取れるゼロデイ脆弱性が見つかりホットフィックス</summary>
   </entry>
 </feed>

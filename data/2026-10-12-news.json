@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-12",
+  "generatedAt": "2026/10/12 8:09:20",
+  "highlights": [
+    "Mistral が約1兆パラメータの Large 4 をパブリックプレビューで公開、重みは10月末までに公開予定",
+    "Anthropic の小型モデル Claude Haiku 5.5 が登場（100万トークン文脈、入力 $0.10/百万トークン）",
+    "Microsoft が意思決定スコアリング特化の Microsoft-Decision-1 を Foundry / OpenRouter で提供",
+    "Google Docs / Drive が Markdown ファイルをネイティブ編集・プレビューに対応"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Mistral Large 4 を発表",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "summary": "Mistral が同社最大となる約1兆パラメータ（アクティブ約520億）のネイティブマルチモーダルモデルを10月6日に発表しました。NVIDIA Grace Blackwell 3,800基で欧州のデータセンターにて一から学習し、160以上の言語に対応します。Mistral Studio でパブリックプレビューAPIが利用可能（入力 $1.36／出力 $4.18 /百万トークン）で、オープンウェイトは10月末までに公開予定とされています。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Claude Haiku 5.5 がリリース",
+      "url": "https://llmgateway.io/models/claude-haiku-5-5",
+      "summary": "Anthropic の最速モデルとして Claude Haiku 5.5 が10月7日に提供開始されました。最大100万トークンの文脈、ツール呼び出し、ビジョン、適応的思考に対応し、分類・ルーティング・抽出・サブエージェントなど大量処理向けです。100Kトークンまでのプロンプトは入力 $0.10／出力 $0.50 /百万トークンです。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft-Decision-1：意思決定スコアリング向けの高速モデル",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/",
+      "summary": "Microsoft が Qwen3.5-9B をポストトレーニングした、ルーティング・分類・優先度付け・検証などの構造化タスク向けモデルを公開しました。選択肢ごとに較正された確率を返します。Microsoft は36ベンチマークで最高精度かつ GPT-6 Sol の35倍高速と主張しています（同社報告値）。Microsoft Foundry と OpenRouter で提供され、入力 $0.042/百万トークン、出力は無料です。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google Docs と Drive が Markdown ファイルのネイティブ編集・プレビューに対応",
+      "url": "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html",
+      "summary": "Google Docs で .md ファイルを Doc 形式に変換せずに開き、編集・共同作業できるようになりました。Drive ではリンクや表を含むレンダリング済みプレビューも表示されます。10月5日から段階的に展開され、全 Workspace 顧客と個人アカウントが対象です。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-10-12-news"
+}
