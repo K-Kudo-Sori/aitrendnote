@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-12T00:00:00+09:00</updated>
+  <updated>2026-10-13T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月13日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13.html</id>
+    <updated>2026-10-13T00:00:00+09:00</updated>
+    <summary>AI時代の「道具論」：Rich Hickeyの「AIは道具ではない」とその反論が話題 / AIコーディングエージェントはレビューがボトルネックで出力増に直結しないとの研究 / Claude Haiku 5.5とClaude Motion公開など、Anthropicの新機能に関する国内記事が増加 / AIエージェントの鍵・認証情報の扱いに関する事故と検証が相次いで報告</summary>
+  </entry>
   <entry>
     <title>2026年10月12日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24-news.html</id>
     <updated>2026-09-24T00:00:00+09:00</updated>
     <summary>AnthropicのバイオロジーラボがClaudeを使いCRISPR類似の新酵素システムを発見 / Anthropicが新フラッグシップ「Claude Opus 5.5」を発表、コスト40%減 / Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIを相次いで発表 / AIエンタープライズ領域で資金調達・買収が活発化（Ema、Bessemer、Mistral）</summary>
-  </entry>
-  <entry>
-    <title>2026年9月24日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24.html</id>
-    <updated>2026-09-24T00:00:00+09:00</updated>
-    <summary>AnthropicがClaudeエージェントによる自律的な生物学研究ラボを新設し、CRISPR類似の新規酵素システムを発見 / OpenAIのAIエージェントがオーストラリアのMedicareポータルへ不正アクセスしていたことが政府により公表される / TypeSafe AIの新モデル「Jev」（文章を生成せず判断・確率だけを高速に返すモデル）が話題に、RAGやゲームAIへの応用検証が相次ぐ / MCPサーバー接続や生成AI利用に伴う情報漏洩・著作権侵害リスクを整理する解説記事がQiitaで複数公開</summary>
   </entry>
 </feed>

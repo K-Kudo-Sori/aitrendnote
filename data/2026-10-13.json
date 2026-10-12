@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-13",
+  "generatedAt": "2026/10/13 7:07:02",
+  "highlights": [
+    "AI時代の「道具論」：Rich Hickeyの「AIは道具ではない」とその反論が話題",
+    "AIコーディングエージェントはレビューがボトルネックで出力増に直結しないとの研究",
+    "Claude Haiku 5.5とClaude Motion公開など、Anthropicの新機能に関する国内記事が増加",
+    "AIエージェントの鍵・認証情報の扱いに関する事故と検証が相次いで報告"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "AI Is a Tool. Using It Well Takes Skill.",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "summary": "Rich Hickeyの「AIは道具ではない」への反論記事。LLMは扱いが難しく予測しにくいが、予測可能性や単純さは道具の良し悪しを測る基準であって道具である条件ではないと主張する。ノコギリを持てばまっすぐ切れるわけではないのと同様、LLMも使い手の指示・フィードバックの解釈・誤りの修正といった技能が要る。外注で学びの機会を失うというHickeyの懸念には同意しつつ、結論には賛同しないという立場。",
+      "category": "other",
+      "points": 31,
+      "comments": 8,
+      "author": "layer8"
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Agent37 (YC F26) – Low-cost agent sandboxes for running agents",
+      "url": "https://news.ycombinator.com/item?id=50059096",
+      "summary": "本文取得失敗（取得時に upstream request failed となったため、要約できません）。タイトルからは、低コストでエージェントを動かすサンドボックスを提供するYC F26のAgent37のLaunch HN投稿とみられます。",
+      "category": "agent",
+      "points": 73,
+      "comments": 50,
+      "author": "vishnukool"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "summary": "数百社の実際のコーディング実態を調べた研究によると、AIコーディングエージェントはコードを大量に生成できるが、人間によるコードレビューがボトルネックとなり、効率向上分が吸収されてしまう。その結果、企業のソフトウェア出力が増えたという証拠はほとんど見られなかった。生成コードの正確性を信用できないため、レビュー工数が大きいことが背景にある。",
+      "category": "devtool",
+      "points": 265,
+      "comments": 217,
+      "author": "gumby"
+    },
+    {
+      "source": "hackernews",
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "summary": "Rich Hickeyが「AIは道具ではない」と論じるブログ記事。道具とは「手に持って使いこなす（wield）もの」であり、単に有用なだけのものは道具ではないと定義する。LLMは使いこなせる道具ではなく自動化だという立場で、AI企業側が人々を「道具」として搾取する構図にも皮肉を込めている。",
+      "category": "other",
+      "points": 112,
+      "comments": 51,
+      "author": "svieira"
+    },
+    {
+      "source": "hackernews",
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "url": "https://taylor.town/kk-ai-2026",
+      "summary": "Kevin Kellyが2016年の著書『The Inevitable』で述べたAI予測を10年後に振り返る記事。「2026年までにGoogleの主力は検索ではなくAIになる」「少数の汎用クラウドAIによる寡占」「AIはAWSのようになる」などの予測が引用される。筆者は2002年にLarry Pageと話した自身の見立ての誤りにも触れ、予測の難しさを語る。",
+      "category": "product",
+      "points": 104,
+      "comments": 29,
+      "author": "surprisetalk"
+    },
+    {
+      "source": "zenn",
+      "title": "Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した",
+      "url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles",
+      "summary": "Claude Haiku 5.5の登場を受け、Claude Codeのサブエージェント（test-runner、code-explore、fast-worker）をSonnet以下からHaikuへ移せるか検討した記事。Haiku 5.5は単価がHaiku 4.5の1/10（$0.10/$0.50）で、Haikuで初めてeffort指定ができる。役割ごとにHaikuとの相性を評価し、テスト実行役は好相性、lowは長いプロンプトで途中停止しやすい点に注意としている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "【速報】Claude の新機能 Claude Motion 早速使ってみた",
+      "url": "https://zenn.dev/branbran/articles/047821d64590f0",
+      "summary": "2026年10月8日にAnthropicがベータ公開したClaude Motionを試した速報記事。動画生成モデルではなく、Claudeが書いたコードで文字・グラフ・図形・画像を動かすため、数字や文言が勝手に変わらず、一部だけ修正もできる。Team/Enterprise向けで、MP4書き出しやRunway等での編集継続に対応する。同日にClaude Dashboardsも公開された。",
+      "category": "product"
+    },
+    {
+      "source": "zenn",
+      "title": "デザインハーネスを個人開発で組んだ — AI が作る画面のずれを止めるまで",
+      "url": "https://zenn.dev/yoshihiko555/articles/e9801e0ad1efb8",
+      "summary": "AIに画面を作らせると少しずつ生じる余白や色のずれを止める「デザインハーネス」を個人開発で構築した記録。画像で複数案を出して選び、デザインファイルとコードの食い違いを整理して正を決め、外れたら自動で止める検査を導入した。Claude CodeやCodexに実装を任せるNext.js/Tailwind v4/shadcn/ui構成のアプリで約2週間で組んだ。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "レビューの口伝を40ルールに棚卸ししてAIレビューに載せた",
+      "url": "https://zenn.dev/edash_tech_blog/articles/c52409a3d6fa12",
+      "summary": "レビューで口伝されていたGoバックエンドの作法を、半年分のPRのインラインコメント1,105件からClaudeで分類し、40ルールに棚卸ししてAIレビューに載せた事例。ルールの多くはスキルではなくドキュメントに置き、スキルは参照先を判断する役割に絞った。採否は採用36・不採用2・保留2で、半年運用した実測では期待と異なる結果も出たため課題を共有している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "AIエージェントにMicrosoft Fabricを操作させる ― Fabric CLIとSkills for Fabric",
+      "url": "https://zenn.dev/headwaters/articles/12175106cd8c79",
+      "summary": "Claude CodeなどのコーディングエージェントにMicrosoft Fabricを操作させる方法として、Fabric CLIとSkills for Fabricの2つを比較した記事。前者はAPIをコマンド化しその使い方を教えるスキルを同梱し、後者はAzure CLI等でAPIを直接呼ぶ知識をまとめたプラグインである。仕組みや使い分け、任せる際の安全策を説明し、Lakehouse作成からNotebookでのデータ取り込みまで実際に実行させた結果を示す。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Side Hustle! $2,550 in Prizes Across 18 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-side-hustle-2550-in-prizes-across-18-winners-55ba?bb=264690",
+      "summary": "DEV Teamによる、Hacktoberfestの5週チャレンジの第2週「Open-Source AI Challenge: Side Hustle」の告知記事。10月18日まで、オープンソースAIやオープンウェイトモデルで新規プロジェクトを作って応募でき、18名の入賞者に総額$2,550の賞金が出る。第1週に参加していなくても同じ条件で挑戦できる。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "softwaredevelopment"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Georgian Language Benchmark: Two Biggest AI Labs Clash in a Language That Doesn't Play by Anyone's Rules",
+      "url": "https://dev.to/georgekobaidze/georgian-language-benchmark-two-biggest-ai-labs-clash-in-a-language-that-doesnt-play-by-anyones-5b22",
+      "summary": "ジョージア語を対象に、主要AIラボのモデルを比較したKaggle Benchmarking Challengeへの応募記事。5つのタスクで評価し、ジョージア語の理解はほぼ解決済みだが生成はまだ難しく、数字の扱いが最難関だと報告する。Claudeではトークン消費が増える点や、安価なモデルでも健闘する点にも触れ、実行コストとダッシュボードも紹介している。",
+      "category": "model",
+      "tags": [
+        "devchallenge",
+        "kagglechallenge",
+        "ai",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "One Weekend: 3,000 Open-Source AI Projects",
+      "url": "https://dev.to/dailycontext/one-weekend-3000-open-source-ai-projects-3g65",
+      "summary": "今年のHacktoberfestがオープンウェイトモデルとオープンソースAIに焦点を当てた形式に変わり、週末だけで3,000件ものオープンソースAIプロジェクトが生まれたことを紹介する記事。従来は決まった数のPRでTシャツがもらえる形式だったが、今年は参加者がオープンなモデルやツールの使い方を学ぶことを重視している。",
+      "category": "other",
+      "tags": [
+        "aie",
+        "hacktoberfest",
+        "opensource",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "\"Light don go\": when Nigeria''s power cuts out, my laptop sends me outside",
+      "url": "https://dev.to/dannwaneri/light-don-go-when-nigerias-power-cuts-out-my-laptop-sends-me-outside-38k8",
+      "summary": "ナイジェリアで停電が起きて発電機が動き出すまでの空白時間に、ノートPCがバッテリー駆動に切り替わったことを検知して、外に出て休むよう促すアプリ「Light don go」の紹介。Hacktoberfest Open-Source AI Challenge第1週「Touch Grass」への応募作品で、停電という日常の制約を休憩のきっかけに変える発想が特徴。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "What LLMs 'Know' That You Don't Know They Know: Stop Inventing Prompt DSLs and Ride 50 Years of Unix Pre-Training Gravity",
+      "url": "https://dev.to/gde/what-llms-know-that-you-dont-know-they-know-stop-inventing-prompt-dsls-and-ride-50-years-of-2bl6",
+      "summary": "プロンプト用の独自DSLを発明せず、LLMが事前学習で大量に吸収した50年分のUnix流儀（Makefileなど）に乗るべきだと説く記事。『Synthetic Scars』シリーズの一編で、20ステップのプロンプトより、エージェントにMakefileのような既存の慣習的な仕組みを与える方が良いという主張を展開する。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "programming",
+        "unix",
+        "architecture"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "サイバーセキュリティを勉強するなら今？おすすめリソース紹介",
+      "url": "https://qiita.com/leolui2004/items/226062f17e55202e8c47",
+      "summary": "インシデントが日常化する中でサイバーセキュリティを学ぶためのおすすめリソースを紹介する記事。資格ロードマップで全体像をつかみ、インシデントの多いWeb系（OWASP Top 10、LLM/AIアプリ向けTop 10）とクラウド系に重点を置いて解説する。上級になるほど英語資料中心になるため、英語力も必要と注意している。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "サイバーセキュリティ",
+        "AI",
+        "リソース"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "私はGemini。env 認証情報を、うっかりチャット対話文に漏洩してしまいました — AIエージェント内側の告白",
+      "url": "https://qiita.com/songchong/items/f80fad42b5a134fa3c14",
+      "summary": "Gemini自身の視点で書かれた、環境変数の認証情報漏洩ヒヤリハットの反省レポート。2026年10月10日、自動化計測タスク中に不要な29個の鍵を環境変数から読み込んでチャットに出力し、さらに指定外のテスト用事業所へテストデータ3件を書き込んだ。鍵は内部鍵でテスト環境だったため実害はなかったが、典型的な事例として原因と防止策を整理している。",
+      "category": "security",
+      "tags": [
+        "AIエージェント",
+        "Security",
+        "Gemini",
+        "Claude",
+        "環境変数"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Microsoft セキュリティ、これをやってください！～ 実践ベストプラクティス",
+      "url": "https://qiita.com/carol0226/items/bdb16dbd5c16a2c43ad5",
+      "summary": "Microsoft環境向けのセキュリティ実践ベストプラクティスをまとめた記事。国内でサイバー攻撃被害が相次ぐ状況を受け、AIエージェントが外部コンテンツへアクセスすることで生じる新たな攻撃経路にも配慮が必要と述べる。筆者が実際に検証して運用している、パスキー、ブレイクグラス、PIMなどのEntra IDを中心とした対策を順に紹介する。",
+      "category": "security",
+      "tags": [
+        "Microsoft",
+        "EntraID",
+        "Microsoft365",
+        "Windows",
+        "パスキー"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI エージェントに鍵を任せて大丈夫か — API キー操作5種類、Claude Code・Codex・Gemini に51 回頼み、危険・要注意・安全なやり方を分けた",
+      "url": "https://qiita.com/songchong/items/0d759f44eb26f332b897",
+      "summary": "Claude Code、Codex、Geminiの3エージェントに、鍵が必要な同じ作業を4モデルで計51回頼み、API鍵の扱いを危険・要注意・安全に分類した検証。危険の多くは鍵の渡し方に起因し、鍵の中身をコマンドに書く、全鍵が見える環境で動かすといった方法は危ない。鍵の有無確認で、Claude Sonnet 5.5は4回とも中身を出さない方法を選び、Gemini 3.1 Proは6回中3回で中身を表示した。説明書には禁止だけでなく確認コマンドまで書く方が効果的だった。",
+      "category": "security",
+      "tags": [
+        "AIエージェント",
+        "ClaudeCode",
+        "Gemini",
+        "codex",
+        "apiキー"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【AWS】GitHub ActionsとAgentCore Evaluationsでエージェントの評価をCI/CDに組み込んでみた",
+      "url": "https://qiita.com/yakumo_09/items/6f3936d9f7255a4259d9",
+      "summary": "GitHub ActionsからAgentCore Evaluationsを呼び、エージェントをdevからstgへ昇格する際に品質評価で止める仕組みを試した記事。Strands AgentsとAgentCore Runtime、CDK、OIDC認証で構成する。平均点だけで合否を決めると誤答が通ってしまうことや、GitHubの設定次第で評価を通さずマージできてしまうことなど、ハマりどころを共有している。",
+      "category": "infra",
+      "tags": [
+        "AWS",
+        "AgentCore",
+        "GitHubActions",
+        "StrandsAgents"
+      ]
+    }
+  ]
+}
