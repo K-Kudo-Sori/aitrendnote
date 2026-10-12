@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-13T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月13日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13-news.html</id>
+    <updated>2026-10-13T00:00:00+09:00</updated>
+    <summary>Meta が初のフロンティアモデル「Muse Wonder」を発表、API 提供も開始 / Microsoft の Nadella 氏が AI に「緊急ブレーキ」を求め、Brad Smith 氏も規制強化を主張 / AI を使った議事録・建築図面生成スタートアップの資金調達・新製品が相次ぐ</summary>
+  </entry>
+  <entry>
     <title>2026年10月13日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25.html</id>
     <updated>2026-09-25T00:00:00+09:00</updated>
     <summary>Claude Opus 5.5関連の実践検証（ピクセルアニメーション生成、説明動画自動生成）が複数ソースで話題に / MCPサーバーやAWS DevOps Agentなど、AIエージェントの権限・セキュリティを検証する記事が目立つ / GPT-6/Opus 5.5を使った歴史研究支援など、LLMの新しい応用領域の報告が見られた / Claude Codeの運用ノウハウ（MEMORY.mdの整理）やAI駆動開発の実践記録が続いている</summary>
-  </entry>
-  <entry>
-    <title>2026年9月24日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-24-news.html</id>
-    <updated>2026-09-24T00:00:00+09:00</updated>
-    <summary>AnthropicのバイオロジーラボがClaudeを使いCRISPR類似の新酵素システムを発見 / Anthropicが新フラッグシップ「Claude Opus 5.5」を発表、コスト40%減 / Google・Anthropic・OpenAIがそろってサイバーセキュリティ特化AIを相次いで発表 / AIエンタープライズ領域で資金調達・買収が活発化（Ema、Bessemer、Mistral）</summary>
   </entry>
 </feed>
