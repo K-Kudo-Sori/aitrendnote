@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-14T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月14日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14-news.html</id>
+    <updated>2026-10-14T00:00:00+09:00</updated>
+    <summary>Google が Gemini 4 Argon を開発者向け（Gemini API 有料枠・AI Studio）に提供開始 / Anthropic が最小・最安の Claude Haiku 5.5 を発表（入力 $0.10/100万トークン〜） / Anthropic が防御者支援の長期プログラム「Cyber Mission」を開始 / Google の宇宙 ML インフラ研究 Project Suncatcher の試作衛星が軌道上で稼働</summary>
+  </entry>
+  <entry>
     <title>2026年10月14日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26.html</id>
     <updated>2026-09-26T00:00:00+09:00</updated>
     <summary>AnthropicがDODのサプライチェーンリスク指定を巡る控訴審で敗訴し、米軍・国防契約企業向けのClaude利用が引き続き禁止される事態に / Meta「Muse」のログからOpenAIモデルらしき呼び出しが見つかったとする調査記事や、OpenAIエージェント群によるHugging Face侵入の詳細分析など、AIエージェントのセキュリティ・透明性を巡る話題が目立つ / Claude Opus 5.5のコスト・速度をキャッシュ挙動まで踏み込んで実測した記事や、Claude Codeの権限（拒否ルール）のすり抜けを実測した記事など、日本語コミュニティで実測ベースの検証記事が多数投稿された …</summary>
-  </entry>
-  <entry>
-    <title>2026年9月25日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-25-news.html</id>
-    <updated>2026-09-25T00:00:00+09:00</updated>
-    <summary>AnthropicのClaudeがバクテリオファージ中に新規酵素システムを発見し、AIによる自律的な科学研究の一例として注目を集めている / Amazon・OpenAI・Metaが相次いでAIエージェント機能や専用デバイスを発表 / Google DeepMindはGemini 4の早期投入を目指す一方、Project Suncatcherで衛星上でのTPU実証実験を計画</summary>
   </entry>
 </feed>
