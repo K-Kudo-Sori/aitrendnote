@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-14",
+  "generatedAt": "2026/10/14 7:07:03",
+  "highlights": [
+    "Gemini 4 Argon、Chromeの大規模リファクタリングを数か月から数週間に短縮",
+    "AnthropicがAI時代の開発基盤として独自VCS「Scion」を構築、1日のマージは3万件超",
+    "Claude Haiku 5.5が単価1/10で登場、サブエージェント運用を見直す動き",
+    "判断特化モデルJevが日本語校正やLLM-as-a-Judgeで速度・コスト面の優位を示す",
+    "Claude Code 2.1.296でShift-JISファイルの文字化け不具合が修正"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Gemini 4 Argon",
+      "url": "https://deepmind.google/models/gemini/",
+      "summary": "GoogleのGemini 4「Argon」がChromeチームのリファクタリングに使われた事例。Chromiumの4,000万行のコードベース内にある約600万行の旧ブラウザ機能フォルダから、Webページのコア処理を切り離す作業を支援した。複数のクリーンな変更を並行して出し、数百ファイルにまたがる設計変更を数か月分の作業から数週間で完了させた。これによりライブのWebページがリロードなしにタブ・サイドパネル・フローティングウィンドウ間を移動でき、ブラウザクラッシュの一分野を解消できる見込みだという。",
+      "category": "product",
+      "points": 820,
+      "comments": 653,
+      "author": "737max"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/",
+      "summary": "OpenAIのサンフランシスコ本社で、幹部用会議室に録音機器を隠した疑いでサウジアラビア国籍の35歳の技術者が逮捕された。米司法省は、口頭通信を傍受する装置の使用・使用未遂の罪で起訴したと発表している。オフィスで見つかった無人のバッグには本人の財布と身分証が入っていたとされる。被告は火曜に連邦裁判所へ出廷し、現在も勾留中である。",
+      "category": "security",
+      "points": 100,
+      "comments": 122,
+      "author": "forthwall"
+    },
+    {
+      "source": "hackernews",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "summary": "Anthropicが社内で構築した独自のバージョン管理システム「Scion」についての記事。Claudeが自律的に研究ループを回し新サービスを作れるようになり、ボトルネックはコーディングではなくソース管理・ビルド・CIといった人間規模の開発基盤に移ったと述べる。1日のマージ数は2026年5月の約2,500件から9月には3万件超へ増えた。この増加に対応するため新システムを内製し、モノレポを全面的に移行した経緯が語られている。",
+      "category": "devtool",
+      "points": 404,
+      "comments": 401,
+      "author": "Philpax"
+    },
+    {
+      "source": "hackernews",
+      "title": "PostEra (YC W20) Is Hiring AI Researchers for Drug Discovery",
+      "url": "https://jobs.lever.co/postera/c7d50a36-db0a-4574-bfe4-8700b74a22c0",
+      "summary": "AI創薬のバイオテック企業PostEra（YC W20）の「エージェント科学」担当の機械学習研究者の求人。同社はAIプラットフォーム「Proton」で医薬品化学を加速し、女性の健康・不妊領域のパイプラインで複数の臨床候補を選定している。PfizerやAmgenなどとの複数年契約を含め、10億ドル超のAI提携を締結済みと紹介している。パンデミック対策の抗ウイルス創薬センターも主導しており、リモート・フルタイムでの募集である。",
+      "category": "other"
+    },
+    {
+      "source": "hackernews",
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "summary": "HNに投稿した後、個人ブログへのAIボットのアクセスが急増したという体験談。本文取得では目次部分が中心で、詳細な数値や対策は十分に取得できていない。ブログには他にLLMでEmacsのWebブラウザを改善する話などの記事が並んでいる。AIクローラーによる負荷への対処が主題と思われる。",
+      "category": "infra",
+      "points": 205,
+      "comments": 129,
+      "author": "sammy0910"
+    },
+    {
+      "source": "zenn",
+      "title": "Raspberry Pi 4でMCPサーバを構築する(3)",
+      "url": "https://zenn.dev/drbobt1122/articles/blog26101101",
+      "summary": "Raspberry Pi 4をMCPサーバにするシリーズの第3回。Pi Pico Wで収集してPi 4に保存したセンサデータに対し、異常検出のMCPサーバを構築した。時系列の異常検出にはPythonライブラリPyOD 3を採用している。PyOD 3は61種類の検出器を統一APIで使え、自然言語の依頼をワークフローに変換するエージェント対応とMCP経由の構造化ツールも提供する。累計4,600万回以上ダウンロードされている実績も紹介されている。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "Haiku 5.5 を機に Sonnet 以下で動かしていたサブエージェントを見直した",
+      "url": "https://zenn.dev/genda_jp/articles/haiku-5-5-subagent-roles",
+      "summary": "Claude Haiku 5.5の登場を受け、Claude Codeのサブエージェントを見直した記事。Haiku 5.5はeffort指定が可能で、100,000トークン以下なら入出力$0.10/$0.50とHaiku 4.5の1/10の単価になる。テスト実行役のtest-runner、調査役のcode-explore、実装役のfast-workerの3つについて役割ごとにHaikuとの相性を評価し、見直した結果をまとめている。評価は少数回の手元比較に基づくもので統計的なものではないと断っている。",
+      "category": "model"
+    },
+    {
+      "source": "zenn",
+      "title": "VLMに動画を読ませる前に知りたい、AIの「サブリミナル」問題",
+      "url": "https://zenn.dev/scien/articles/b3105ae3ea73bd",
+      "summary": "VLM（視覚言語モデル）に連続画像を読ませる際、紛れ込んだ別画像のノイズに影響されるかを検証した記事。映画のサブリミナル演出から着想を得て、人の行動やグループ所属を記録した公開データセットJRDB-Socialのロボット搭載カメラ映像を使い、連続フレームをVLMに入力した。「サブリミナル」はあくまで比喩で、人間の無意識知覚を調べたものではない。画像は隠さず入力しており、モデルがノイズに左右されるかを実験している。",
+      "category": "research"
+    },
+    {
+      "source": "zenn",
+      "title": "デザインハーネスを個人開発で組んだ — AI が作る画面のずれを止めるまで",
+      "url": "https://zenn.dev/yoshihiko555/articles/e9801e0ad1efb8",
+      "summary": "AIに画面を作らせると、並べたときに余白や色名がずれる問題を止めた個人開発の記録。AIに画像で複数案を出させて選び、デザインファイルとコードで食い違っていた色や文字サイズの基準を決め直し、デザインから外れたら自動で止める「デザインハーネス」を導入した。作る前にデザインを渡し、作った後に検査し、同じ指摘が続けば仕組み側を直すのが方針である。Next.js・Tailwind v4・shadcn/uiで、Claude CodeとCodexを使い約2週間で構築した。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "LLM の 23 秒を 0.3 秒にした — decision-only モデル Jev を日本語校正プラグインに実測投入した話",
+      "url": "https://zenn.dev/bamboo_nova/articles/c6176164dcffd0",
+      "summary": "日本語校正プラグインmeisekiに、判断特化モデルJevを組み込んで速度と精度を実測した記事。文脈判断20問をLLM（claude -p）は中央値23.5秒かけたのに対し、Jevは約300msで返し、約77倍高速だった。一致率はJevが17/20、LLMが19〜20/20とやや劣る。Jevを有効にすると判定対象のテキストがTypeSafeのサーバーに送信されるため、機密文書では.meiseki-no-jevファイルで送信を止められる点に注意が必要だと述べている。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Welcome to AI Engineer New York",
+      "url": "https://dev.to/dailycontext/welcome-to-ai-engineer-new-york-bh0?bb=264684",
+      "summary": "AI Engineer New York（ニューヨークで開催のAIエンジニア向けカンファレンス）の開幕を告げるカンファレンス取材記事。ニューヨークは米国におけるAI Engineerの第二の拠点で、昨年も印象的な講演やサミットがあったと紹介する。新しいアイデアを大規模に実用化する街として、西海岸のフロンティアAIリーダーも集まるという。fintechなどのタグが付いている。",
+      "category": "product",
+      "tags": [
+        "ai",
+        "aie",
+        "fintech"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI Fatigue? Yea I know.",
+      "url": "https://dev.to/francistrdev/ai-fatigue-yea-i-know-f9",
+      "summary": "AIの話題が溢れすぎて飽きてきた、という「AI疲れ」を綴ったエッセイ。プロジェクト作りやニュース、dev.toの記事までAI一色で、AI関連の記事を見るほど興味が薄れていくと感じている。2022年以前の多様な話題が恋しいと述べ、コミュニティに意見を求めるディスカッション投稿である。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "community",
+        "ai",
+        "writing"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Can a local LLM replace Claude Code? The benchmark everyone quotes is the wrong one.",
+      "url": "https://dev.to/rudratosh/can-a-local-llm-replace-claude-code-the-benchmark-everyone-quotes-is-the-wrong-one-2kna",
+      "summary": "ローカルLLMはClaude Codeの代わりになるか、という議論に対し、よく引用されるSWE-benchは測る対象が違うと指摘する記事。多くのガイドは「フロンティアとの差は5ポイント」と紹介するが、実際に使えるかを決めるのはツール呼び出しの信頼性だと主張する。ツール信頼性が95%でも、連鎖するとタスク全体では失敗しやすいことを確率の計算で示している。著者は多くのローカル構成を実際に試している。",
+      "category": "model",
+      "tags": [
+        "ai",
+        "llm",
+        "coding",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "People Are Vibe-Coding Clones of Every Paid App. What Actually Survives?",
+      "url": "https://dev.to/james_anderson_h/people-are-vibe-coding-clones-of-every-paid-app-what-actually-survives-38ak",
+      "summary": "Adobeの解約手数料に怒った開発者がClaudeでCreative Suiteの7アプリをRustで作り直して無料公開し、「ソフトウェアは終わった」と宣言した話を起点に、AIでの有料アプリのクローン乱立を論じる記事。CRMなどでも同様のクローンが出ている。それでも信頼性とエッジケースへの対応こそが本当の堀であり、クローンされても生き残るのはそこだと主張している。",
+      "category": "product",
+      "tags": [
+        "discuss",
+        "ai",
+        "opensource",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "What 9,050 AI-Written Scripts Taught Me About Slop",
+      "url": "https://dev.to/dailycontext/what-9050-ai-written-scripts-taught-me-about-slop-1g5n",
+      "summary": "AIが書いた台本9,050本から見えた「スロップ（AI臭い文章）」の傾向をまとめた記事。「今日の目まぐるしい世界では…」のような典型的なAI文体を例に挙げ、著者のTowards AIチームがClaudeを使って動画・講座・書籍・記事を大量に下書きしていると述べる。AI Engineer Conference関連の取材記事で、スロップを避ける工夫が主題である。",
+      "category": "other",
+      "tags": [
+        "ai",
+        "llm",
+        "aie",
+        "openweight"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "サイバーセキュリティを勉強するなら今？おすすめリソース紹介",
+      "url": "https://qiita.com/leolui2004/items/226062f17e55202e8c47",
+      "summary": "サイバーセキュリティを学ぶためのおすすめリソースを紹介する記事。インシデントが日常化する中、AIで仕事がなくなる心配よりも今のうちにセキュリティを学ぶ価値があると勧める。分野は広く、資格ロードマップで全体像をつかむことを推奨し、特にWeb系（SQLインジェクションやパッケージの脆弱性、OWASPなど）とクラウド系に重点を置く。上級になるほど英語資料が中心になる点にも触れている。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "サイバーセキュリティ",
+        "AI",
+        "リソース"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【Oracle × Snowflake】ADB の Iceberg テーブルを AICAT経由で Snowflake から参照する",
+      "url": "https://qiita.com/yushibats/items/bab0634ef6e52f1de33f",
+      "summary": "Oracle Autonomous AI DatabaseのデータをApache Icebergテーブルとして書き出し、Oracle AI Data Catalog（Iceberg RESTカタログ）経由でSnowflakeから参照する手順を紹介する記事。データの実体はObject Storageに1つだけ置かれ、データをコピーする仕組みなしにSnowflakeのSQLで読める。Oracle側でCOMMITした追加もSnowflakeに反映される。カタログの有効化、SQLでの書き出し、カタログリンクデータベースでの読み取りまでを実機で確認している。",
+      "category": "infra",
+      "tags": [
+        "AICAT",
+        "autonomous_database",
+        "Snowflake",
+        "oracle",
+        "iceberg"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIで作ったらオリジナルじゃないらしい。んなわけあるか。",
+      "url": "https://qiita.com/kentawata/items/c78381bfe83e93e75893",
+      "summary": "「AIで作ったものはオリジナルではない」という友人の疑問に対する個人的な反論エッセイ。著者は仕事や、ゲーム・音楽・MV制作でAIを多用している。AIは手段であり、ボーカロイドや打ち込みで表現が広がったのと近い感覚だと述べる。ポン出しした曲はそのままでは好みと違い、何度も修正して思い通りに近づける過程にこそ作り手の意図が入ると主張している。",
+      "category": "other",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ポエム",
+        "個人開発",
+        "ゲーム制作"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Shift-JIS のファイルを Claude Code で1か所直したら、日本語が全部壊れて戻せなくなった",
+      "url": "https://qiita.com/suwa_nobu/items/365d2561809fe1da8541",
+      "summary": "Claude Code 2.1.295までは、Shift-JISなど非UTF-8ファイルをEditで編集するとASCII以外の文字がすべて置換される不具合があり、2.1.296で修正された。著者は40回の測定を行い、旧版ではHaiku 5.5が3/3、Opus 5.5が2/3で日本語が全部壊れ、しかも返事は「変更しました」だった。2.1.296ではいずれも壊れず、Editが拒否されるか使わずに止まった。Windows 10上の261バイトのJavaファイルで検証している。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ClaudeCode",
+        "Claude",
+        "Java"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Jev vs Gemini Flash Lite — DeepEvalでLLM-as-a-Judgeを比較してみた",
+      "url": "https://qiita.com/take-yoda/items/136d1f5a4deea203c718",
+      "summary": "判断特化AI「Jev」をDeepEvalのLLM-as-a-JudgeとしてGemini 3.5 Flash Liteと比較した記事。料金は入力がJev $0.042/100万トークン（出力は無料）、Gemini 3.5 Flash Liteが入力$0.30・出力$2.50で、入力単価でJevは約1/7になる。DeepEvalはLLM出力をPytest感覚でテストできるOSSフレームワークである。著者はコストと速度の面から両者を比較している。",
+      "category": "model",
+      "tags": [
+        "Jev",
+        "DeepEval",
+        "生成AI",
+        "Gemini",
+        "Python"
+      ]
+    }
+  ]
+}
