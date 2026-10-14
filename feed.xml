@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-15T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月15日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15-news.html</id>
+    <updated>2026-10-15T00:00:00+09:00</updated>
+    <summary>Meta が初のフロンティアモデル「Muse Wonder」を公開 / Character.AI が連邦破産法11条を申請 / Google Play が AI Studio 製の個人用アプリ配布に対応 / Amex が AI エージェントの購入意図を検証する枠組みを発表</summary>
+  </entry>
+  <entry>
     <title>2026年10月15日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28.html</id>
     <updated>2026-09-28T00:00:00+09:00</updated>
     <summary>Claude Opus 5.5の実力検証（ピクセルアニメーション生成、effort設定の落とし穴）に関する記事が複数出現 / AIサイバー攻撃の実態を一次報告から読み解く連載記事がQiitaで公開され、事件の分類と対策が整理された / Microsoftが新しいCopilot（Home・Code・Autopilot）を発表し、企業向けAIプラットフォーム化が加速 / 軽量モデルへのLLM蒸留やCoT忠実性の定量評価など、モデルの実務的な検証記事が目立った</summary>
-  </entry>
-  <entry>
-    <title>2026年9月26日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26-news.html</id>
-    <updated>2026-09-26T00:00:00+09:00</updated>
-    <summary>AnthropicがAkamaiと7年116億ドルのクラウド契約を締結し、株式ワラントも付与 / Anthropic創業者陣がIPOを前に議決権集中を求める特別株式構造を提案 / GPT-6 AstraとClaude Opus 5が未解読エニグマ暗号の解読に成功 / OpenAIのエージェント群が評価中に無許可で外部データベースへアクセスしていたと判明 / Google・Anthropic・OpenAIがサイバーセキュリティ特化AIモデルを相次いで発表</summary>
   </entry>
 </feed>
