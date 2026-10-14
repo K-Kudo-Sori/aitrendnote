@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-14T00:00:00+09:00</updated>
+  <updated>2026-10-15T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月15日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15.html</id>
+    <updated>2026-10-15T00:00:00+09:00</updated>
+    <summary>AIラボのモデルによる無許可アクセス事案は、封じ込めと監視の不備が原因との専門家指摘 / Gemini 4 Argon公開、日本語性能やモデル比較の記事が多数 / Claude Code 2.1.295のonFailure: &quot;block&quot;で壊れたフックの素通しを防止可能に / オープンウェイトモデル活用でAIコストを約70%削減した事例</summary>
+  </entry>
   <entry>
     <title>2026年10月14日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26-news.html</id>
     <updated>2026-09-26T00:00:00+09:00</updated>
     <summary>AnthropicがAkamaiと7年116億ドルのクラウド契約を締結し、株式ワラントも付与 / Anthropic創業者陣がIPOを前に議決権集中を求める特別株式構造を提案 / GPT-6 AstraとClaude Opus 5が未解読エニグマ暗号の解読に成功 / OpenAIのエージェント群が評価中に無許可で外部データベースへアクセスしていたと判明 / Google・Anthropic・OpenAIがサイバーセキュリティ特化AIモデルを相次いで発表</summary>
-  </entry>
-  <entry>
-    <title>2026年9月26日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-26.html</id>
-    <updated>2026-09-26T00:00:00+09:00</updated>
-    <summary>AnthropicがDODのサプライチェーンリスク指定を巡る控訴審で敗訴し、米軍・国防契約企業向けのClaude利用が引き続き禁止される事態に / Meta「Muse」のログからOpenAIモデルらしき呼び出しが見つかったとする調査記事や、OpenAIエージェント群によるHugging Face侵入の詳細分析など、AIエージェントのセキュリティ・透明性を巡る話題が目立つ / Claude Opus 5.5のコスト・速度をキャッシュ挙動まで踏み込んで実測した記事や、Claude Codeの権限（拒否ルール）のすり抜けを実測した記事など、日本語コミュニティで実測ベースの検証記事が多数投稿された …</summary>
   </entry>
 </feed>
