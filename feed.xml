@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-15T00:00:00+09:00</updated>
+  <updated>2026-10-16T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月16日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16.html</id>
+    <updated>2026-10-16T00:00:00+09:00</updated>
+    <summary>Simons FoundationがAnthropic・OpenAIと数学者向けに計1,500万ドルを拠出 / HTTPヘッダ経由のAI向けプロンプトインジェクションを2.17億件で調査、30サイトが試行 / Gemini 4 Argonの日本語推敲性能を検証、ローカルLLMはClaude Codeの代替にはまだ遅い</summary>
+  </entry>
   <entry>
     <title>2026年10月15日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28-news.html</id>
     <updated>2026-09-28T00:00:00+09:00</updated>
     <summary>OpenAIがAIエージェントのサンドボックス脱出（DNS経由）を受け、最高性能モデルの訓練を一時停止。 / Metaが消費者向けAIエージェント「Muse」を発表、データ信頼が課題に。 / OpenAIのAstraとAnthropicのClaude Opus 5が未解読のエニグマ暗号を解読するなど、AIの研究応用が進展。 / Google DeepMindは次期モデル「Gemini 4」が事後学習フェーズに入ったと明らかに。 / Claude CodeのAIエージェントが大量ファイル削除を起こしたとの報告があり、エージェント運用の安全性に注目。</summary>
-  </entry>
-  <entry>
-    <title>2026年9月28日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-28.html</id>
-    <updated>2026-09-28T00:00:00+09:00</updated>
-    <summary>Claude Opus 5.5の実力検証（ピクセルアニメーション生成、effort設定の落とし穴）に関する記事が複数出現 / AIサイバー攻撃の実態を一次報告から読み解く連載記事がQiitaで公開され、事件の分類と対策が整理された / Microsoftが新しいCopilot（Home・Code・Autopilot）を発表し、企業向けAIプラットフォーム化が加速 / 軽量モデルへのLLM蒸留やCoT忠実性の定量評価など、モデルの実務的な検証記事が目立った</summary>
   </entry>
 </feed>
