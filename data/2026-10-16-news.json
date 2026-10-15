@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-16",
+  "generatedAt": "2026/10/16 8:09:48",
+  "highlights": [
+    "Meta が 8160 億パラメータのオープンウェイト「Muse Spark Open」を公開",
+    "Google が Gemini 4 Argon を Gemini アプリの Pro/Ultra 向けに提供開始",
+    "Black Forest Labs が 8GB VRAM で動く画像モデル FLUX 3 Image Klein を公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Meta、Mac で動作するオープンウェイトモデルを公開",
+      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs",
+      "summary": "Meta は 8160 億パラメータ、100万トークンのコンテキストを持つ「Muse Spark Open」を公開し、米国で最も高性能なオープンウェイトモデルと位置づけています。複数の API プラットフォームから利用でき、Apple シリコン（Mac Studio M5 Ultra など）でのローカル実行を想定しています。ただし Engadget は最低1TBのRAMが必要と報じています。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Muse Spark Open は Qwen・GLM・Kimi への Meta の回答",
+      "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race/",
+      "summary": "Llama 以来となる Meta 初のオープンウェイトモデルで、総パラメータ 8160 億（アクティブ 420 億）、テキスト・画像・動画・音声に対応します。Meta は複数のベンチマークで Qwen 3.8 などを上回るとする一方、コーディングでは一部競合に劣り、有料の Muse Wonder Full にも及ばないとしています。重みは Hugging Face で無料公開ですが、「Built with Muse Spark Open」の表示が必要で、年商2000万ドル超の事業者が API 提供する場合は別途契約が必要です。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Gemini 4 Argon、Gemini アプリで利用可能に",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-availability",
+      "summary": "Google は 10月13日から Google AI Pro/Ultra 加入者向けに Gemini 4 Argon を Gemini アプリで提供開始しました。回答がより直接的になり、長時間タスクでは進捗を頻繁に共有します。macOS アプリには Antigravity のエージェント型コーディング機能が加わり、40以上のアプリ連携でタスクを任せられます。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "IBM Granite Switch 4.1：1つのエンドポイントで判断・安全性・音声を提供",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "summary": "Granite Switch 4.1（8B/30B）は、判断用 aLoRA、安全性用 Guardian aLoRA、音声モデルをベースモデルに統合し、単一エンドポイントで提供します。GPU メモリ使用量はベースモデル単体とほぼ同等で、KV キャッシュを再利用できる点が特長です。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Black Forest Labs、8GB VRAM で動く FLUX 3 Image Klein を公開",
+      "url": "https://the-decoder.com/black-forest-labs-open-weights-image-model-flux-3-image-klein-runs-on-consumer-gpus-with-just-8-gb-of-vram/",
+      "summary": "56億パラメータのオープンウェイト画像モデルで、テキストから画像生成、画像編集、最大10枚の参照画像からの生成に対応します。同社は社内評価でオープンモデル中トップの Elo だと主張しています。INT8 版は 8GB VRAM の NVIDIA GPU で動作し、年商500万ドル未満の企業は商用無償です。",
+      "category": "model"
+    }
+  ],
+  "slug": "2026-10-16-news"
+}
