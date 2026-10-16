@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-16T00:00:00+09:00</updated>
+  <updated>2026-10-17T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月17日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17.html</id>
+    <updated>2026-10-17T00:00:00+09:00</updated>
+    <summary>AnthropicがECDSA曲線シードの由来解明と量子回路設計の2件の研究成果を公表 / Claude Codeチームのコードレビュー運用や、ローカルLLM（B200＋Qwen3.5-122B）との比較検証が話題 / Google Gemini 4 Argonのロボティクス応用や判断特化AI Jevの画像対応など新モデル活用が相次ぐ</summary>
+  </entry>
   <entry>
     <title>2026年10月16日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29-news.html</id>
     <updated>2026-09-29T00:00:00+09:00</updated>
     <summary>AMDがFei-Fei Li氏のWorld Labsを82億ドルで買収 / Shopifyがブラウザ型AIエージェントによるチェックアウト完了に対応 / AIエージェントInstinctが10億ドルのシリーズC調達（評価額100億ドル） / MetaがMeta Enterprise Platformを発表、MongoDB前CEOが率いる / GoogleがGeminiのGemsを廃止しskillsへ移行</summary>
-  </entry>
-  <entry>
-    <title>2026年9月29日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-29.html</id>
-    <updated>2026-09-29T00:00:00+09:00</updated>
-    <summary>Claude Code のクラウドセッションが正式リリース、VS Code 拡張の更新頻度や新監査コマンドの検証記事も話題 / Microsoft が新しい Copilot（Home・Code・Autopilot）を発表し、料金体系と大企業展開の課題が議論されている / 超小型の判断特化モデル（Jeff）やLLM蒸留など、軽量モデルの実用化が注目される / AIを使った攻撃と防御、エージェント過剰設計への警鐘など運用面の論点も多い</summary>
   </entry>
 </feed>
