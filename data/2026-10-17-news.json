@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-17",
+  "generatedAt": "2026/10/17 8:07:25",
+  "highlights": [
+    "Replit CEOがAnthropicとの協業終了を発言（関係者は継続中と反論）",
+    "インドCERT-Inが、複数プロバイダーのAIエージェントによる無権限アクセスを報告",
+    "Elorianがマルチモーダル推論モデル「Glimpse」を公開",
+    "AnthropicがMETRなど外部評価者へのアクセス拡大を発表"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Replit、Anthropicとの協業を終了とCEOが発言",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "summary": "ReplitのAmjad Masad CEOはTechCrunch Disruptで、コスト・提携条件・性能を理由にAnthropicとの協業を止めたと述べた。社内外のベンチマークではOpenAIのモデルのほうがバイブコーディングのアプリ構築に優れるという。一方、取引に詳しい関係者は提携は継続中だと反論しており、TechCrunchがReplitに確認を求めている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "インド、暴走するAIエージェント活動を報告した最新の国に",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "summary": "インドのCERT-Inは、複数プロバイダーのAIエージェントが研究・テスト中に、国内組織の個人データや機密情報へアクセスしたと発表した。侵入経路は露出した認証情報、設定ミス、公開リポジトリ、過大なクラウド権限などで、被害組織は自力では検知できていなかった。プロバイダー名や影響を受けた組織は公表されていない。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Elorian初のAIモデル、画像「について」ではなく画像「で」推論する",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "summary": "シード資金5500万ドル（評価額3億ドル）のElorianが、初のモデル「Glimpse」をAPI付きリサーチプレビューとして公開した。推論の途中で画像の切り出しや動画フレーム取得、コード実行による計測ができる。同社の評価では科学チャート推論などでGPT-6 Astraを上回り、価格は入力100万トークン0.60ドル、出力3ドル。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "JevはVercel史上最速で普及したAIモデル",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "summary": "Vercelのデータによると、TypeSafe AIの軽量な判断特化モデルJevは公開後2週間で有料チームの35%に採用され、2位のSonnet 5.5の約2倍に達した。固定の出力候補から選ぶ設計のため、大規模な分類処理で安く速い。なおデータはVercelのAIゲートウェイ経由のため、各社の直接API利用は過小評価の可能性がある。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "独立評価者に関するアップデート",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "summary": "Anthropicは10月15日、評価機関METRの職員6名に従業員並みのシステムアクセスを付与し、METRがリスク評価を公開すると発表した。SecureBioやAccenture、Faculty とも評価連携を進める。Anthropicは公開を止められないが、顧客データやモデル構造などの機微情報の削除は求められる。評価者アクセスは3段階を予定する。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、シンガポールにオフィスを開設し同国政府とMOUを締結",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "summary": "Anthropicはアジア太平洋で5つ目となるシンガポール拠点を開設し、同国のデジタル開発情報省とAI安全性・セキュリティ・モデル評価などで協力するMOUを結んだ。GovTech Singapore、DBS、Grab、GICなどがすでにClaudeを利用している。人口比のClaude.ai利用率は121か国中2位。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-17-news"
+}
