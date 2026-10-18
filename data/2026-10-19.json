@@ -1,0 +1,222 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026/10/19 7:04:16",
+  "highlights": [
+    "潜在空間で推論しテキストで行動する「Hybrid Reasoning Agents」論文が登場",
+    "LLMに書きにくい言語・書きやすい構文を検証する実験記事が複数話題",
+    "Claude Codeの.env保護設定の実効性やブラウザ操作による自動化など、Claude Code運用知見が豊富",
+    "CVE-2026-99999（PwnEscape）はKVMではなくLinuxネットワークスタックの脆弱性との分析"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Hybrid Reasoning Agents: LLM agents that think in latent space, act through text",
+      "url": "https://arxiv.org/abs/2610.18861",
+      "summary": "人間の言語を超えた形で思考しつつ、外部環境にはテキストで作用するエージェントを作る手法「Hybrid Reasoning Agents」を提案するarXiv論文です。従来のLLMエージェントは推論も対話もテキストで行う一方、潜在空間での推論は効率的ですがツール利用や推論の透明性に欠けるという課題がありました。本研究は両者を橋渡しし、潜在推論とテキストによる行動を組み合わせる枠組みを示しています。",
+      "category": "research",
+      "points": 57,
+      "comments": 23,
+      "author": "allinonai"
+    },
+    {
+      "source": "hackernews",
+      "title": "I built a programming language that LLMs can't use",
+      "url": "https://blog.picheta.me/post/killswitch-lang/",
+      "summary": "LLMのコーディング能力が、真の理解によるものか学習データや文脈内のコード断片の想起によるものかを確かめるため、LLMにとって極力使いにくいプログラミング言語を設計・実装した記事です。人間には使える一方、コーディングエージェントには難しい言語を目指しています。未知の言語での理解力・記述力を試すアプローチです。",
+      "category": "research",
+      "points": 23,
+      "comments": 19,
+      "author": "dom96"
+    },
+    {
+      "source": "hackernews",
+      "title": "Namecheap just seized and disabled all my domains",
+      "url": "https://www.reddit.com/r/sysadmin/comments/1x8cycd/namecheap_just_seized_and_disabled_all_my_domains/",
+      "summary": "本文取得失敗",
+      "category": "other",
+      "points": 304,
+      "comments": 148,
+      "author": "sashk"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Sphinx – A hook that quizzes you on your AI's code before shipping",
+      "url": "https://sphinx-six-theta.vercel.app/",
+      "summary": "Sphinxは、エージェント支援開発向けのGitフックで、コードをプッシュする前にAIが書いたコードの内容について開発者に質問してくる無料のOSSツールです。例えばWebhookのリトライ時の挙動など、変更内容の理解度を確認します。最小限のトークンで動作し、既存のコーディングエージェントやOpenRouter、OpenAI互換エンドポイントを利用できます。「思考は外注できても理解は外注できない」という思想に基づいています。",
+      "category": "devtool",
+      "points": 235,
+      "comments": 77,
+      "author": "critiquebrowser"
+    },
+    {
+      "source": "zenn",
+      "title": "ベクトルDBを使わない「階層ナビゲーション型RAG」を作って、ベクトルDB版RAGと比較してみた",
+      "url": "https://zenn.dev/aiforall/articles/8e1803396534de",
+      "summary": "文書から階層的な目次を自動生成し、LLMが目次を辿って関連文書を選ぶ、ベクトルDB不要の「階層ナビゲーション型RAG」を論文Corpus2Skillを参考に自作して比較した記事です。28文書・20問の比較で正答数はどちらも16問と同等でした。一方、階層型は質問あたりのLLM料金が約1.5倍、レイテンシが約1.3倍でした。失敗は階層を降りる際のグループ選択ミスが中心で、LLM-as-a-Judgeの採点ぶれが手法間の差と同程度だった点も指摘されています。",
+      "category": "research"
+    },
+    {
+      "source": "zenn",
+      "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
+      "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "summary": "年に1〜2冊しか技術書を買わない筆者が、O'Reilly学習プラットフォームのサブスクが割に合うかを検討した記事です。契約方法によって年額が3倍近く違うことを調べ、ACM経由の年$150という契約を選んでいます。O'Reillyが公式に提供するMCPサーバーを使えばClaudeから蔵書を検索できるため、MCP利用可否を契約条件にした点も特徴です。",
+      "category": "product"
+    },
+    {
+      "source": "zenn",
+      "title": "改めて考える、AIエンジニアリングの今",
+      "url": "https://zenn.dev/r_kaga/articles/2fd185c50cea7c",
+      "summary": "『AIエンジニアリング』翻訳者が、発売から約1年を経てAIエンジニアリングの現状を書き直した記事です。ロードマップに共通するのは評価であり、AIエンジニアリングはAIプロダクトの外、つまりAIを使ったソフトウェア開発の現場にも広がったと述べます。人がいない間にAIが動くようになり、AIへの任せ方や結果の確かめ方、責任の所在が重要になったとしています。Andrew NgのAI Engineering Skills Map連載にも触れ、AIエンジニアは職種ではなくスキルセットになったと論じます。",
+      "category": "other"
+    },
+    {
+      "source": "zenn",
+      "title": "コネクタも API も無いサービスを、Claude Code に操作させる",
+      "url": "https://zenn.dev/edash_tech_blog/articles/6250fc61ccf009",
+      "summary": "MCPコネクタもAPIも無いサービスを、Claude CodeにChrome拡張をつないで画面操作させる事例です。ローコードで作られた管理コンソールの運用に3か月使い、設定作成から保存、テスト実行、結果確認までを任せています。人が介入したのは保存確定ダイアログのクリック1回のみでした。何を任せ何を任せなかったかの線引きも解説しています。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "LLMにとって書きやすい構文とは何か：`end` と `end func foo` を1,000回以上比べてみた",
+      "url": "https://zenn.dev/nextbeat/articles/2026-10-syntax-locality-llm",
+      "summary": "プロンプト内で初めて文法を説明される自作言語を使い、ブロックの閉じ方の違いがLLMの生成精度に与える影響を1,000回以上の試行で検証した記事です。単なる end より end func foo のように何を閉じたかを書かせる方が、ネストの深いプログラムを正しく生成できました。深さ8では end のみだと24回中0回、end func foo では24回中24回が正解でした。依存関係の距離が短い構文ほど書きやすいという当初の仮説は、結果と異なる部分があったとしています。",
+      "category": "research"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Side Hustle! $2,550 in Prizes Across 18 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-side-hustle-2550-in-prizes-across-18-winners-55ba?bb=264688",
+      "summary": "DEVが開催するHacktoberfest Open-Source AI Challengeの第2週「Side Hustle」の告知です。5回にわたるDEVチャレンジの2週目が始まり、18名の受賞者に総額$2,550の賞金が用意されています。オープンソースとAIを活用したサイドビジネスをテーマに投稿を募っています。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "softwaredevelopment"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Fine-Tuning Qwen3-8B with Tinker: From 50% to 76% Accuracy, and Burning Through My Budget",
+      "url": "https://dev.to/gramli/fine-tuning-qwen3-8b-with-tinker-from-50-to-76-accuracy-and-burning-through-my-budget-48mh",
+      "summary": "Hacktoberfest Open-Source AI Challengeへの投稿で、Tinkerを用いてQwen3-8Bをファインチューニングし、精度を50%から76%に引き上げた体験記です。精度向上の一方で、試行を重ねるうちに予算を使い切ってしまった点も題名の通り振り返っています。小型モデルの微調整のコストと効果のバランスが示されています。",
+      "category": "model",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Garden I Wait for Every Winter",
+      "url": "https://dev.to/shubhradev/the-garden-i-wait-for-every-winter-8mg",
+      "summary": "庭づくりとソフトウェアアーキテクチャを対比させたエッセイ風の投稿です。10月になりモンスーンが弱まり、冬に向けて庭の見え方が変わるという筆者の実感から始まります。庭の設計をソフトウェア設計になぞらえる内容で、AIそのものの話題ではありません。",
+      "category": "other",
+      "tags": [
+        "watercooler",
+        "discuss",
+        "gardening",
+        "devlive"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI Took Me to Three Stages. I Still Don't Like Public Speaking.",
+      "url": "https://dev.to/earlgreyhot1701d/ai-took-me-to-three-stages-i-still-dont-like-public-speaking-1g38",
+      "summary": "2025年7月からAIで開発を始めた法律関係者が、その1年でAIに関する登壇を3回経験した話です。メッセージを伝えることは好きになったものの、人前で話すこと自体は相変わらず苦手だと振り返っています。AIによって活動の幅が広がったキャリア面の体験談です。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "career",
+        "learning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "10 Prompting Techniques My Deep Learning Exam Taught Me (That I Actually Use Now)",
+      "url": "https://dev.to/dj29/10-prompting-techniques-my-deep-learning-exam-taught-me-that-i-actually-use-now-43h0",
+      "summary": "ディープラーニングの試験勉強で学んだ内容を、日常のプロンプト技術として10個にまとめた初心者向けの記事です。ChatGPTやCursorなどで「このエラーを直して」と打つ日常の行為にも名前のある技法が使われていると説明します。学術的な理論を実践的な開発Tipsに落とし込む構成です。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "promptengineering",
+        "ai",
+        "beginners"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "CVE-2026-99999（PwnEscape）を読み解く──「KVMの脆弱性」ではなく、Linuxネットワークスタックの脆弱性",
+      "url": "https://qiita.com/k2_naka/items/fa87685231377f15e7e3",
+      "summary": "PwnEscapeと呼ばれるCVE-2026-99999について、KVMの脆弱性ではなくLinuxネットワークスタックの脆弱性であるという観点で公開資料を整理した分析記事です。研究者の実験結果、事業者の公表、筆者の分析を区別しており、攻撃の再現試験は行っていません。Debian trixieの修正告知やCISAの追加評価、AWSやさくらのクラウドへの影響などが更新履歴に反映されています。適用判断時は最新の原典を確認するよう注意されています。",
+      "category": "security",
+      "tags": [
+        "PwnEscape",
+        "CVE-2026-99999",
+        "AWS",
+        "さくらのクラウド",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【2026年版】今日から使える AI との会話術 — Claude・Gemini・Codex に指示を守らせる 6 つの原則",
+      "url": "https://qiita.com/songchong/items/351a939e2e1b673c2929",
+      "summary": "Claude Code、Codex、Antigravity CLIを使い、指示ファイルの読まれ方や資料との並べ方、キャッシュの効き方を実験して6つの原則にまとめた総括記事です。AIが指示を守らない原因は文面だけでなく、指示を書く場所、数、会話の長さにもあるとします。第1原則は、毎回守らせたい指示をAGENTS.mdやCLAUDE.mdなど製品が読む指示ファイルに書くことです。詳細な数値は別途guideで公開されています。",
+      "category": "devtool",
+      "tags": [
+        "AIエージェント",
+        "ClaudeCode",
+        "Claude",
+        "Gemini",
+        "codex"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "重要な指示は最初か最後か？ AI 大手 3 社の助言が異なるので、資料→命令→指示の並び方を 8 通り試してみた",
+      "url": "https://qiita.com/songchong/items/542892c6d4c569c9c15f",
+      "summary": "長い資料を渡すとき重要な指示を前後どちらに置くべきか、資料・命令・指示の並びを8通り、4モデルで実験した記事です。資料の途中に書いた指示は、4条件合計36回中28回従われませんでした。並べ方で点が変わったのはClaude Haiku 5.5のみで、Claude Fable 5.1とGeminiの2モデルはどの並びでも8点でした。Haiku 5.5ではツールなしだと資料を最後に置く並びが平均7.8点で、先頭の6.7点より高い結果でした。",
+      "category": "research",
+      "tags": [
+        "プロンプトエンジニアリング",
+        "ClaudeCode",
+        "Claude",
+        "Gemini",
+        "LLM"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Codeの.envを読ませない設定がどこまで効くのか試してみた",
+      "url": "https://qiita.com/yakumo_09/items/5a86ca330b449db0e6bc",
+      "summary": "Claude Codeのpermissions.denyで.envを読ませない設定が実際どこまで有効かを、偽のキーを置いて48回試した検証記事です。公式ドキュメントも止まらないケースがあると記載しています。筆者のMacには平文の.envが6個あり、denyも未設定でした。.env.omniのように名前が.env.*のファイルがdenyパターンに巻き込まれる点や、同一ユーザーで動くため権限600でもトークンが読める点に注意が必要と指摘しています。",
+      "category": "security",
+      "tags": [
+        "ClaudeCode",
+        "AIエージェント",
+        "Security",
+        "AI",
+        "環境構築"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "テーブル定義書・ER図を自動生成して、AIにテーブル構造を答えさせるツールを作ってみた",
+      "url": "https://qiita.com/ebichan_88/items/f7c44c74e437875b1399",
+      "summary": "DBに接続してテーブル一覧、テーブル定義書、ER図をMarkdownで出力し、MCPサーバーでAIにテーブル構造を答えさせるツール「dbxray」の紹介です。PostgreSQLとOracleに対応し、Claude Codeから「従業員まわりのテーブルを探して」などの質問ができます。ER図はMermaid記法で、外部キーの一意性やNOT NULLから多重度を機械的に判定します。外部キー制約が無いDB向けに情報を書き足す機能や、ドキュメントの更新漏れ検知機能もあります。",
+      "category": "devtool",
+      "tags": [
+        "Java",
+        "PostgreSQL",
+        "oracle",
+        "MCP",
+        "個人開発"
+      ]
+    }
+  ]
+}
