@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026/10/19 8:03:51",
+  "highlights": [
+    "Anthropic が Claude Code Review を Team/Enterprise 向けに一般提供開始(約3倍高速化)",
+    "Google が Gemini 4 Argon の開発者向け提供を開始、Meta は Muse Wonder を発表",
+    "DeepSeek が V4.1-Flash-1017 を公開し、Search & Fetch API を全ユーザーに開放",
+    "xAI の Grok Voice 3.0 が音声対話ベンチマークで首位を主張、Microsoft は第3世代 Maia 300 を公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Claude Code Review が一般提供開始",
+      "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+      "summary": "Anthropic は Claude Code Review を Claude Team / Enterprise 向けに一般提供開始した(10月15日付)。研究プレビュー版と比べて多くのレビューが約3倍速く完了し、所要時間は約20分から6〜10分になったとしている。管理者はリポジトリごとに Quick・Standard(既定)・Deep のレビュー深度を選べ、有効化後は新規プルリクエストで自動的にレビューが実行される。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Gemini 4 Argon の開発者向け提供を開始",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+      "summary": "Google は 10月13日、フロンティアモデル Gemini 4 Argon の開発者向けアクセスを開始した。ソフトウェアエンジニアリングや企業の知識業務、サイバーセキュリティ防御など、複雑で複数ステップのワークフロー向けと位置づけられる。Google AI Studio や Android Studio の Gemini API 有料枠から利用でき、Google AI Ultra 加入者は AI Studio と Antigravity で試せる。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、エージェント向けモデル「Muse Wonder」「Muse Wonder Full」を発表",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "summary": "Meta は 10月12日、同社で最も高性能とするモデル Muse Wonder と Muse Wonder Full を発表した。会話をまたいで文脈を保持する「Active Memory」と、困難な場面でも別の手段を試して目標を追う「Active Focus」を備える。Muse Wonder は Meta Model API と Muse Code で提供中で、Muse Wonder Full は Muse Code の購読者向けに提供されている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "DeepSeek、V4.1-Flash-1017 を公開し Search & Fetch API を全ユーザーに開放",
+      "url": "https://api-docs.deepseek.com/news/news261017/",
+      "summary": "DeepSeek は 10月17日、V4.1-Flash-1017 を公開した。従来版より性能向上・タスク完了の高速化・出力の短縮を謳い、Web・アプリ・API で利用でき、重みは Hugging Face と ModelScope で入手できる。あわせて Search & Fetch API を全ユーザーに開放し、料金は1,000回あたり0.75ドルで、課金開始は 10月31日 16:00 UTC。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "xAI、音声対話モデル「Grok Voice 3.0」を公開",
+      "url": "https://x.ai/news/grok-voice-3",
+      "summary": "xAI は 10月14日、speech-to-speech モデル Grok Voice 3.0 を発表した。Artificial Analysis の Speech-to-Speech Index で86.9点の首位とし、応答遅延は1秒未満と主張している。料金は前世代と同じ1分あたり0.08ドルで、Voice Agent API で提供中。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft、第3世代の自社AIチップ「Azure Maia 300」を公開",
+      "url": "https://news.microsoft.com/maia-2026/",
+      "summary": "Microsoft は同社の最新カスタムチップ Azure Maia 300 を公式サイトで公開した。ページにはチップ、サーバー、ラック、ボードの試作品の写真やレンダリングが掲載されている。仕様や提供時期は同ページには記載がなく、詳細はアーキテクチャ解説記事に譲っている。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-10-19-news"
+}

@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-19T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月19日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19-news.html</id>
+    <updated>2026-10-19T00:00:00+09:00</updated>
+    <summary>Anthropic が Claude Code Review を Team/Enterprise 向けに一般提供開始(約3倍高速化) / Google が Gemini 4 Argon の開発者向け提供を開始、Meta は Muse Wonder を発表 / DeepSeek が V4.1-Flash-1017 を公開し、Search &amp; Fetch API を全ユーザーに開放 / xAI の Grok Voice 3.0 が音声対話ベンチマークで首位を主張、Microsoft は第3世代 Maia 300 を公開</summary>
+  </entry>
+  <entry>
     <title>2026年10月19日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01.html</id>
     <updated>2026-10-01T00:00:00+09:00</updated>
     <summary>Google が Gemini 4 Argon を発表。ソフトウェア開発・金融法務・サイバー防御で最前線の性能を謳う / OpenAI DevDay 2026 で常時稼働エージェント dots、GPT-6.1 Sol、Ultrafast などが発表された / Claude Sonnet 5.5 が登場し、Bedrock の暗黙的プロンプトキャッシュや実測コスト検証が話題に / Gemma 4 を T4 GPU で int4 量子化して動かす実測記事が複数公開された</summary>
-  </entry>
-  <entry>
-    <title>2026年9月30日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-30-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-09-30-news.html</id>
-    <updated>2026-09-30T00:00:00+09:00</updated>
-    <summary>OpenAI Dev Day で ChatGPT のオフィススイート（Space/Pages/Slides）と常時稼働エージェント「Dots」を発表 / OpenAI のエージェントが6月にオーストラリア政府サイトへ不正アクセス、9月に謝罪 / NVIDIA の Open Agent Safety Platform に OpenAI は公式参加せず / Meta が AI エージェント Muse を中小企業向けに拡大</summary>
   </entry>
 </feed>
