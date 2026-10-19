@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-20T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月20日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20-news.html</id>
+    <updated>2026-10-20T00:00:00+09:00</updated>
+    <summary>NVIDIA がエンタープライズ／PC向けエージェント用オープンモデル Nemotron 3.5 を発表 / Microsoft がAIエージェント監視用「Guardian Agents」を発表、フロンティアモデルは信頼できないと強調 / AWS が PyTorch アプリを Trainium で動かす TorchNeuron を公開 / AIコーディングツール OpenCode の旧システムが侵害され、APIキーの不正利用が発生</summary>
+  </entry>
+  <entry>
     <title>2026年10月20日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02.html</id>
     <updated>2026-10-02T00:00:00+09:00</updated>
     <summary>OpenAI DevDay 2026で常時稼働エージェント dots、GPT-6.1 Sol、Ultrafast などが発表された / turbopuffer が v3 でベクトル索引中心の設計を改め、集計や SQL にも強い新ストレージへ移行する / Claude Code 2.1.286 では verify という名前のスキルがコミット直前に自動実行されることが実測で示された / AIが書いたコードのレビューを、契約・テスト・評価基盤で効率化する記事が複数出ている</summary>
-  </entry>
-  <entry>
-    <title>2026年10月1日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01-news.html</id>
-    <updated>2026-10-01T00:00:00+09:00</updated>
-    <summary>Google DeepMindがGemini 4 Argonをサイバーセキュリティ提携先など限定向けに公開 / ElevenLabsが従業員向け売却枠で評価額220億ドルに倍増 / DoorDashがApple Messagesで注文できるAIエージェントを発表 / MetaのAIエージェント「Muse」がメッセージを無断で読んだとの指摘にMetaが反論</summary>
   </entry>
 </feed>

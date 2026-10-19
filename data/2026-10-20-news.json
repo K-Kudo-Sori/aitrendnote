@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-20",
+  "generatedAt": "2026/10/20 8:03:34",
+  "highlights": [
+    "NVIDIA がエンタープライズ／PC向けエージェント用オープンモデル Nemotron 3.5 を発表",
+    "Microsoft がAIエージェント監視用「Guardian Agents」を発表、フロンティアモデルは信頼できないと強調",
+    "AWS が PyTorch アプリを Trainium で動かす TorchNeuron を公開",
+    "AIコーディングツール OpenCode の旧システムが侵害され、APIキーの不正利用が発生"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Nvidia、エンタープライズとPCでエージェントを動かす新オープンモデルを発表",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/",
+      "summary": "Nvidiaは常時稼働エージェントとエッジ向けのオープンウェイトモデルを発表した。企業向けの1200億パラメータ「Nemotron 3.5 Super VL」と、ローカル向けの「Bolt 74B-A9B」「Bolt E4B」が含まれる。Super VLとBolt 74B-A9Bは提供中で、Bolt E4Bは10月中の提供予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft、AIエージェントは内部脅威のようなもので「フロンティアモデルは信頼できない」と発言",
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "summary": "Microsoftは企業向けに、利用中のエージェントを監視する「Guardian Agents」などのセキュリティ機能を発表した。Defenderは Claude Code や Codex を含む最大60種類のエージェントを検出でき、アクセス制限や高リスク操作での人間の承認要求も可能になる。ナデラCEOはAIラボの管理下にない別系統での監督を促した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Amazon、新開発ツール TorchNeuron でNvidiaへの最大の挑戦",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "summary": "AWSは、設定変更だけでPyTorchベースのAIアプリを自社のTrainiumチップで動かせるツール TorchNeuron を公開した。AIアプリの約85%がPyTorchを使うとし、Nvidiaのソフトウェア面の優位への対抗策と位置づける。チップ依存を取り除くコードをPyTorch本体にも提供する予定。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "AIコーディングツール OpenCode にハッカーが侵入、ユーザーのAIアカウントで課金が膨らむ",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+      "summary": "オープンソースのAIコーディングエージェント OpenCode の旧システムが侵害され、OpenCode Console利用者の1.4%が影響を受けた。一部は1,000ドル超の不正請求を報告している。AnthropicとGoogleは露出したキーを無効化し、OpenAIは返金を表明、OpenCodeも返金を進めている。オープンソースのアプリとCLIは影響なしとされる。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Tenstorrent、評価額62億ドルに到達しオープンウェイトAI向けチップを拡大",
+      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "summary": "推論特化チップのスタートアップTenstorrentが、評価額62億ドルで15億ドルを調達した。評価額は2024年末の26億ドルから2倍以上になった。資金はオープンウェイトモデルの提供や動画生成向けチップの開発に充てられる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、株式の5%を「公益ファンド」に拠出すると発表",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "summary": "Anthropicは社会貢献事業を支援する公益ファンドを設立し、株式の5%を拠出する。企業価値が50%上昇するごとに2%を追加するオプションもある。用途にはNPOへの大型寄付や、AIの雇用への影響に対処する取り組みなどが挙げられ、構造とガバナンスは今後数か月で公表される。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-20-news"
+}
