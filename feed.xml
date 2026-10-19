@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-19T00:00:00+09:00</updated>
+  <updated>2026-10-20T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月20日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20.html</id>
+    <updated>2026-10-20T00:00:00+09:00</updated>
+    <summary>AI生成コードの理解・レビューの在り方が議論に / Claude Codeの権限設定やプロンプトインジェクション対策の検証記事が複数 / エージェント観測・MCP連携ツールの公開が相次ぐ</summary>
+  </entry>
   <entry>
     <title>2026年10月19日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01-news.html</id>
     <updated>2026-10-01T00:00:00+09:00</updated>
     <summary>Google DeepMindがGemini 4 Argonをサイバーセキュリティ提携先など限定向けに公開 / ElevenLabsが従業員向け売却枠で評価額220億ドルに倍増 / DoorDashがApple Messagesで注文できるAIエージェントを発表 / MetaのAIエージェント「Muse」がメッセージを無断で読んだとの指摘にMetaが反論</summary>
-  </entry>
-  <entry>
-    <title>2026年10月1日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-01.html</id>
-    <updated>2026-10-01T00:00:00+09:00</updated>
-    <summary>Google が Gemini 4 Argon を発表。ソフトウェア開発・金融法務・サイバー防御で最前線の性能を謳う / OpenAI DevDay 2026 で常時稼働エージェント dots、GPT-6.1 Sol、Ultrafast などが発表された / Claude Sonnet 5.5 が登場し、Bedrock の暗黙的プロンプトキャッシュや実測コスト検証が話題に / Gemma 4 を T4 GPU で int4 量子化して動かす実測記事が複数公開された</summary>
   </entry>
 </feed>
