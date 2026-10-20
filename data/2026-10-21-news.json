@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026/10/21 8:05:00",
+  "highlights": [
+    "Anthropicが議会向けAI安全法案の草案を提示（重大リスクのあるモデルのリリース差し止めを可能に）",
+    "GoogleがTorchTPUを公開、AmazonのTorchNeuronに続きNvidia依存の低減を狙う",
+    "OpenAIがバイオ創薬AIのOrchestra Bioを買収、ChatGPTにはロックチャット機能"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、50人以上が死亡し得る場合にモデルを差し止められるAI安全法案を提案",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "summary": "AnthropicがPoliticoの報道どおり、議会にAI安全法案の草案を提示した。「予見可能で差し迫ったリスク」が50人超の死亡または10億ドル超の物的損害につながり得る場合、モデルのリリースを止められる内容。商務省に登録された独立評価者が72時間以内にリスクを指摘し、差し止めにはワシントンD.C.の裁判官の承認が必要となる。閾値はカリフォルニア州SB 53に近いが、ラボが報酬を払う評価者の独立性は不明確とされる。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、バイオ創薬向けAIスタートアップOrchestra Bioを買収",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "summary": "OpenAIは創業4年のOrchestra Bioを買収した。同社は創薬業務向けのエージェントを開発しており、買収額は非公開。チームと技術はOpenAIのライフサイエンス向けモデル「Rosalind」とRosalind Workbenchに統合される予定で、ModernaやNovo Nordiskが顧客に含まれるという。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、TPUでネイティブに動くオープンソース版PyTorch「TorchTPU」を公開",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "summary": "GoogleはTPU上でPyTorchをネイティブ実行できるTorchTPUをオープンソースで公開した。前日のAmazonによるTorchNeuronに続く動きで、既存のPyTorchアプリを設定変更だけでGoogleのチップとクラウドに移行できる。アナリストは、開発者が一斉にNvidiaから離れるわけではないとしつつ、両社がNvidiaの優位性を削ごうとしていると指摘している。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "ChatGPTに会話をロックする「ロックチャット」機能が登場",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "summary": "OpenAIは、4桁PINまたは対応端末のFace ID/Touch IDで会話をロックできる機能を発表した。ロックした会話は通常の履歴や検索に表示されず、専用のメモリを持つ。ただしエンドツーエンド暗号化や保持期間の変更はなく、PINをリセットするとロック内容は完全に削除される。Free、Go、Plus、Pro、Business、Enterprise、Eduに順次提供される。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropicのクラウド提携が難航、S-1流出報道でクラウド容量確保に苦戦",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "summary": "WSJが報じた流出S-1によると、AnthropicはAWS、Google、Microsoftから十分なクラウド容量を確保しづらくなっており、各社は同社を顧客より競合と見なしつつあるという。上半期は売上163億ドルに対し純損失807億ドル、第3四半期売上は168億ドルと報じられ、11月のIPOを目指している。クラウド契約は7,500億ドル超に達し得るとされる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "MetaのAIアプリ「Muse」、40日で米国10Mダウンロードを達成",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "summary": "Sensor Towerによると、MetaのAIコンパニオンアプリMuseは9月のデビューから40日で米国1,020万、全世界1,090万ダウンロードに到達した。この規模に達したアプリは12本のみで、直近はThreads。10月16日時点のDAUは250万人で、ChatGPTやClaude、Grokより定着率が高いとされるが、世界のダウンロード数ではChatGPTが上回った。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-21-news"
+}

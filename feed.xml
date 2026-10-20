@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-21T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月21日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21-news.html</id>
+    <updated>2026-10-21T00:00:00+09:00</updated>
+    <summary>Anthropicが議会向けAI安全法案の草案を提示（重大リスクのあるモデルのリリース差し止めを可能に） / GoogleがTorchTPUを公開、AmazonのTorchNeuronに続きNvidia依存の低減を狙う / OpenAIがバイオ創薬AIのOrchestra Bioを買収、ChatGPTにはロックチャット機能</summary>
+  </entry>
+  <entry>
     <title>2026年10月21日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03.html</id>
     <updated>2026-10-03T00:00:00+09:00</updated>
     <summary>OpenAI DevDay 2026 で常時稼働エージェント dots や GPT-6.1 Sol などが発表 / Claude Code の使用量計算を実測した記事や、Mods によるモデルルーター構築が話題 / Redis 作者のローカル推論エンジン ds4、TPU v5e 上の QAT Gemma 4 など推論基盤の話題 / 日本語推敲スキル yomiyasu が Zenn・Qiita で注目</summary>
-  </entry>
-  <entry>
-    <title>2026年10月2日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02-news.html</id>
-    <updated>2026-10-02T00:00:00+09:00</updated>
-    <summary>Google DeepMindが次世代モデル「Gemini 4 Argon」を発表。安全上の懸念から検証済みのサイバーセキュリティ専門家のみに限定提供 / AWSがAIエージェントのツール呼び出しをポリシーで制御するOSS「Dogwood Local Engine」を公開 / 米政権が連邦政府内の呼称を「AI」から「Super Intelligence」へ改める大統領令に署名 / MetaがUS・カナダ向けに中小企業向けAIエージェント「Muse for Small Business」を提供開始</summary>
   </entry>
 </feed>
