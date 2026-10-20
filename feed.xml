@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-20T00:00:00+09:00</updated>
+  <updated>2026-10-21T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月21日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21.html</id>
+    <updated>2026-10-21T00:00:00+09:00</updated>
+    <summary>AnthropicがClaudeによるサソリ毒向けタンパク質設計の実験結果を公開（211設計中17が基準を満たす） / Claude Code v2.1.299のアイドル圧縮をトークン数の実測で検証した記事が登場 / エージェント運用では指示ファイルの置き方や、リトライの冪等性といった実務の知見が注目された</summary>
+  </entry>
   <entry>
     <title>2026年10月20日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02-news.html</id>
     <updated>2026-10-02T00:00:00+09:00</updated>
     <summary>Google DeepMindが次世代モデル「Gemini 4 Argon」を発表。安全上の懸念から検証済みのサイバーセキュリティ専門家のみに限定提供 / AWSがAIエージェントのツール呼び出しをポリシーで制御するOSS「Dogwood Local Engine」を公開 / 米政権が連邦政府内の呼称を「AI」から「Super Intelligence」へ改める大統領令に署名 / MetaがUS・カナダ向けに中小企業向けAIエージェント「Muse for Small Business」を提供開始</summary>
-  </entry>
-  <entry>
-    <title>2026年10月2日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-02.html</id>
-    <updated>2026-10-02T00:00:00+09:00</updated>
-    <summary>OpenAI DevDay 2026で常時稼働エージェント dots、GPT-6.1 Sol、Ultrafast などが発表された / turbopuffer が v3 でベクトル索引中心の設計を改め、集計や SQL にも強い新ストレージへ移行する / Claude Code 2.1.286 では verify という名前のスキルがコミット直前に自動実行されることが実測で示された / AIが書いたコードのレビューを、契約・テスト・評価基盤で効率化する記事が複数出ている</summary>
   </entry>
 </feed>

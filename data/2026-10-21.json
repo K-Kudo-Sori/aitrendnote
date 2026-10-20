@@ -1,0 +1,220 @@
+{
+  "date": "2026-10-21",
+  "generatedAt": "2026/10/21 7:05:40",
+  "highlights": [
+    "AnthropicがClaudeによるサソリ毒向けタンパク質設計の実験結果を公開（211設計中17が基準を満たす）",
+    "Claude Code v2.1.299のアイドル圧縮をトークン数の実測で検証した記事が登場",
+    "エージェント運用では指示ファイルの置き方や、リトライの冪等性といった実務の知見が注目された"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "On AI writing",
+      "url": "https://www.bolkunov.com/p/on-ai-writing",
+      "summary": "AI生成文が文体の平均化によって書き手の個性や文脈を失わせると論じる個人ブログ。筆者は学士論文で短文から著者を推定した経験から、読み手は語彙だけでなく文構造や語り方からも書き手を感じ取ると述べる。AIは文体を平均化するため書き手の姿が見えにくくなり、共感もしにくくなる。さらに、詳細なプロンプトを与えてもAIは文章をつなぐために仮定を置くので、精度も落ちると指摘している。",
+      "category": "research",
+      "points": 60,
+      "comments": 20,
+      "author": "dbolkunov"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "summary": "Anthropicが、Claudeにサソリ神経毒に対するミニバインダー（標的に強く結合する小型タンパク質）を設計させた実験の報告。プロンプトと4回の追加指示を使い、Citrini Researchと協力して進めた。Adaptyv BioとTwist Bioscienceが211設計を実験検証し、17設計が基準を満たした。全211設計とデータは公開されており、専門家でない人でもAIで創薬課題に挑めるかを検証する取り組みとして位置づけられている。",
+      "category": "research",
+      "points": 61,
+      "comments": 31,
+      "author": "artninja1988"
+    },
+    {
+      "source": "hackernews",
+      "title": "Facebook Pages require paid subscription to post more than two links per month",
+      "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919",
+      "summary": "本文取得失敗（Mastodon投稿ページでJavaScriptが必要なため、本文が取得できませんでした）。タイトルからは、Facebookページで月に2件を超えるリンク投稿をするには有料サブスクリプションが必要になるという話題と推測される。",
+      "category": "other",
+      "points": 388,
+      "comments": 342,
+      "author": "AshleysBrain"
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "url": "https://news.ycombinator.com/item?id=50167583",
+      "summary": "YC W24のRespanが、Rust製のオープンソースAIゲートウェイを発表。プロバイダ、プロトコル（MCP・音声）、モダリティ（画像・動画）、フォールバックやPII削除、スマートルーティングといった機能まですべてをプラグインにする設計で、小さなコアと公開インターフェースだけを提供する。2024年からLiteLLMをベースに構築してきて、現在は数千の組織にサービスを提供している。各組織が必要な機能を、コアを変更せずに追加できる点が売りである。",
+      "category": "infra",
+      "points": 34,
+      "comments": 14,
+      "author": "Andydy25"
+    },
+    {
+      "source": "zenn",
+      "title": "AI時代、配布するPythonコードをどう守るか: 難読化の実験と判断軸",
+      "url": "https://zenn.dev/pksha/articles/0f9c11d1daea2e",
+      "summary": "PyCon JP 2026での発表をもとに、配布するPythonコードをPyarmorなどで難読化する際の実験と判断軸をまとめた記事。難読化は動作を変えず人間が理解するコストだけを上げる変換で、暗号化とは違い「頑張れば読める」ものだと整理している。納品型の受託開発のようにコードが顧客環境に置かれ、守りたい知財がある場合に必要になる。実際に解析してみると意外に多くの情報が取れることから、AI時代にどこまで守れるか、実用上のベストプラクティスは何かを検討している。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "改めて考える、AIエンジニアリングの今",
+      "url": "https://zenn.dev/r_kaga/articles/2fd185c50cea7c",
+      "summary": "オライリー『AIエンジニアリング』の翻訳者が、1年前の記事を書き直した内容。AIエンジニアリングのロードマップに共通するのは評価であり、取り組みはAIプロダクトの外、つまりAIを使った開発現場にも広がったと述べる。Andrew Ngのスキルマップを引き、AIアプリの構築、ソフトウェアの基礎、コーディングエージェントの活用、作るものの形づくりの4つを挙げ、AIエンジニアは職種ではなくスキルセットだと整理している。手元のコーディングエージェントの評価から始められるという。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+      "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+      "summary": "Claude Codeを使い、GitHub ActionsのPR CI待ち時間を18分超から4分台に短縮した事例。計測の結果、Vitestの400秒のうちテスト本体は57秒で、残りはほぼ起動オーバーヘッドだった。原因は、DOM不要なテストも含め全てをjsdom環境で実行していたことと、2CPUランナーでワーカー数が1になり直列実行されていたことの2点。環境の切り分けと並列化などで改善した。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeの会話を55分放っておいたら、272,422トークンが13,522に圧縮されていました ― アイドル圧縮の観測",
+      "url": "https://zenn.dev/ojisan_ai_lab/articles/claude-code-idle-compaction-20261019",
+      "summary": "Claude Codeで約27万トークンの会話を放置すると、55.6分後に13,522トークンまで圧縮されていたという観測記事。v2.1.299で追加された「アイドル圧縮」の機能で、200K超の会話を約54分放置すると、1時間のプロンプトキャッシュが切れる前に圧縮される。公式の発動条件や設定（idleCompaction、閾値の環境変数）と、筆者のPC1台での実測を分けて整理している。既定設定のみの計測で、無効時との比較はしていない。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
+      "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "summary": "年に数冊しか技術書を買わない筆者が、O'Reillyのサブスクが元を取れるかを検討した記事。直契約は年$499（月$49）だが、ACM経由なら初年度$150、2年目以降$174と3倍近く安い。10日間の無料トライアルを使い、料金の違い、日本語書籍の読める量、最安のACM経由でも公式MCPサーバーが使えるかを調べている。セール価格は公式発表ではない点にも注意している。",
+      "category": "product"
+    },
+    {
+      "source": "devto",
+      "title": "Somewhere, Coding Stopped Being Allowed to Be Fun",
+      "url": "https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe",
+      "summary": "コーディングを楽しむことが、効率や採算の前では許されないような空気が最近あると述べるエッセイ。筆者は、機械が4秒で解ける問題に土曜日を費やすのが素朴だと見なされる感覚を語る。Chris Kiehlの「It's Still OK to Enjoy Programming」に触発されたと紹介し、プログラミングを楽しんでよいという主張に共感している。AI時代のキャリアと精神面に触れる内容。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "career",
+        "ai",
+        "mentalhealth"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Generative UI Without the Async Tax: Introducing bloc_signals_genui 1.0",
+      "url": "https://dev.to/gde/generative-ui-without-the-async-tax-introducing-blocsignalsgenui-10-3gge",
+      "summary": "FlutterのBlocSignalシリーズの一環として、生成UI向けパッケージbloc_signals_genui 1.0を紹介する記事。タイトルにある「非同期の税」を避けて、シグナルによる同期的な状態伝播で生成UIを扱う狙いがある。BlocSignalはBLoCの単方向データフローとリアクティブなシグナルを組み合わせたアーキテクチャで、37回に及ぶ連載の一部である。",
+      "category": "devtool",
+      "tags": [
+        "flutter",
+        "dart",
+        "ai",
+        "architecture"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Your agent's retry bug isn't an AI problem. It's a distributed-systems problem with an LLM on top.",
+      "url": "https://dev.to/cyclopt_dimitrisk/your-agents-retry-bug-isnt-an-ai-problem-its-a-distributed-systems-problem-with-an-llm-on-top-1i6k",
+      "summary": "エージェントのリトライ不具合はAIの問題ではなく、LLMを載せた分散システムの問題だと論じる記事。例として、返金API呼び出しがタイムアウトでエラーになったが、決済サービス側では成功していたケースを挙げる。エージェントから見ると失敗、サービスから見ると成功という「判断」と「完了」の隔たりにより、リトライで二重実行が起きうる。本番ではツール呼び出しが無応答になることが現実に起きるため、分散システムの定石で扱うべきと主張している。",
+      "category": "agent",
+      "tags": [
+        "discuss",
+        "ai",
+        "architecture",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "APIC vs Photopea vs Pixlr vs Canva: The Ultimate Browser Photo Editor Showdown (11 Rounds, No Mercy)",
+      "url": "https://dev.to/akhourianmolkumar/apic-vs-photopea-vs-pixlr-vs-canva-the-ultimate-browser-photo-editor-showdown-11-rounds-no-mercy-4hjl",
+      "summary": "ブラウザ上の無料フォトエディタ、APIC、Photopea、Pixlr、Canvaを11ラウンドで比較する記事。プライバシー、AI機能、色彩管理、価格、対応フォーマット、モバイル対応といった観点で評価する。筆者は比較対象の一つであるAPIC（写真をアップロードしない個人開発のエディタ）の作者で、その立場を明示している。",
+      "category": "product",
+      "tags": [
+        "showdev",
+        "webdev",
+        "ai",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Garden I Wait for Every Winter",
+      "url": "https://dev.to/shubhradev/the-garden-i-wait-for-every-winter-8mg",
+      "summary": "秋から冬にかけての庭づくりを楽しみにする個人的なエッセイ。ペチュニアやアリッサムを使い、鉢の準備や植物の組み合わせ、明るい花と落ち着いた緑の配置を考える様子が語られる。庭のデザインをソフトウェアアーキテクチャになぞらえる内容も含まれ、AI技術そのものの記事ではない。",
+      "category": "other",
+      "tags": [
+        "watercooler",
+        "discuss",
+        "gardening",
+        "devlive"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI時代の開発プロセスとチームのあり方を考える",
+      "url": "https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5",
+      "summary": "Claude CodeやCodexをツール開発やPoCに使う中で感じた、開発プロセスとチームの変化を考察した記事。まずAIに作らせて動かし、修正を重ねて、形になってから設計書や仕様を整理する進め方が、試行錯誤の多い開発と相性がよいと述べる。設計書が不要になるのではなく、何をいつどこまで整理するかを見直すことだと強調する。品質や安全性が重要なシステムでは事前の検討が欠かせず、目的に合わせた進め方が必要とする。",
+      "category": "devtool",
+      "tags": [
+        "AI活用",
+        "AI開発",
+        "システム開発",
+        "ツール開発",
+        "プロジェクトマネジメント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Codexでゲームを作っていたら、小さなAI開発組織を回す実験になった",
+      "url": "https://qiita.com/Masato_Iwasaki/items/7e5241176f3eead2a2f5",
+      "summary": "ChatGPT PlusのCodexでブラウザゲーム「Project Ashfall」を作るうち、AIに役割を割り当てて小さな開発組織を回す実験になった体験記。最初は設計を筆者とChatGPT、実装・テスト・自己レビューをCodexが担当していたが、毎回共通ルールを書く手間から、Producer、Directorなど5つの役割を置く体制に発展した。Sprintまで回すようになり、ゲーム制作の横でAIへの仕事の割り振りを試している。",
+      "category": "agent",
+      "tags": [
+        "codex",
+        "ChatGPT",
+        "gamedev",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "今日から使える AI との会話術 — Claude・Gemini・Codex に指示を守らせる 6 つの原則【2026年版】",
+      "url": "https://qiita.com/songchong/items/351a939e2e1b673c2929",
+      "summary": "Claude・Gemini・Codexなどのエージェントに指示を守らせるための6つの原則をまとめた記事。毎回守らせたい指示はAGENTS.mdに書くことが原則1で、実験では、CodexはAGENTS.mdのみ、Antigravity CLIはAGENTS.mdとGEMINI.md、Claude CodeはCLAUDE.mdを優先して読み込んだ。単数形のAGENT.mdはほとんど読まれない。Claude Code向けにはCLAUDE.mdから@AGENTS.mdで参照する方法がある。指示を書く場所、資料との並べ方、指示の数、会話の長さでも守られ方が変わるという。",
+      "category": "agent",
+      "tags": [
+        "AIエージェント",
+        "ClaudeCode",
+        "Claude",
+        "Gemini",
+        "codex"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「地方消滅」は財源幻想が招いた人災だ ― 地方財政の制度設計 : システム設計視点の行動経済学 (44)",
+      "url": "https://qiita.com/maskot1977/items/3b0066bf024070e55c0d",
+      "summary": "ChatGPT、ClaudeなどのAIとの対話ログ形式で書かれた連載「システム設計視点の行動経済学」第44回。地方財政の制度設計を取り上げ、「地方消滅」を財源幻想が招いた人災と論じる。前回の復習では、自己責任論を認知バイアスと制度の構造的欠陥による問題として分析していた。AIの技術的内容ではなく、AIを使った経済・制度論の記事である。",
+      "category": "other",
+      "tags": [
+        "システム設計",
+        "行動経済学",
+        "ChatGPT",
+        "ClaudeCode",
+        "Gemini"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 全30回総復習",
+      "url": "https://qiita.com/maskot1977/items/5a7a61346add83106a30",
+      "summary": "Gemini等との対話形式で、YouTubeのポッドキャスト動画『Pythonで学ぶマクロ経済学入門 全30回総復習』を解説した記事。日米の30年データから、日本の停滞の主因は政府支出の抑制だと論じる。グレンジャー因果性テストで政府支出がGDPを決めるとし、国債を通貨発行者である政府の借り換えが続く仕組みとしてMMT的に捉えている。AI技術そのものではなく、AIを使った経済解説の内容である。",
+      "category": "other",
+      "tags": [
+        "Python",
+        "マクロ経済学",
+        "ChatGPT",
+        "Gemini",
+        "YouTube"
+      ]
+    }
+  ]
+}
