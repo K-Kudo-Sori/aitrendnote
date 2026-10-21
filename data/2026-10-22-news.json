@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026/10/22 8:04:58",
+  "highlights": [
+    "NSAがPHPの重大な脆弱性2件を警告。OpenAIとGoogle傘下のWizがAIツールで発見",
+    "Recursiveが自動研究システムで開発したノートPC向けコーディングモデル「Flint」を無償公開",
+    "WalmartがAIエージェント向けMCPサーバー「Agent Gateway」を発表",
+    "MetaのMuseが1,000万ユーザー超、ショッピングが主要な用途に"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "PHPの「アルマゲドン」：OpenAIとGoogle傘下のWizが古い脆弱性を発見、ネットに動揺",
+      "url": "https://techcrunch.com/2026/10/21/php-armageddon-openai-googles-wiz-find-ancient-holes-panicking-the-internet/",
+      "summary": "米NSAは、PHP 5以来存在する2件の重大な脆弱性により、攻撃者にサーバーのファイルシステムやデータベースへアクセスされる恐れがあると警告し、即時パッチ適用できないサイトはオフラインにするよう助言した。PHP Foundationはパッチを公開済みで、推奨は8.5.12。OpenAIとGoogle傘下のWizがAIツールで攻撃者より先に発見し、実際の悪用は確認されていない。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Recursive、AIが大部分を開発したと主張するノートPC向けコーディングモデル「Flint」を公開",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "summary": "AIスタートアップRecursiveが、一般的なノートPCで動作する無償のコーディングモデルFlintを公開した。自動研究システム「Eureka Machine」が開発のほぼ全段階を支援し、小規模チームが4カ月未満で完成させたという。総パラメータ400億のうち1タスクで25億を活性化し、Apache 2.0でHugging Faceから入手でき、50B未満のモデルではSWE-Bench Verifiedで上回ったと報じられている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Amazonがエージェントを遮断する一方、Walmartは歓迎の姿勢",
+      "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+      "summary": "Walmartは、承認済みAIエージェントが在庫検索や購入を行えるMCPサーバー「Agent Gateway」を発表した。エージェントごとの専用プロフィールで購入を分離し、取引ごとの承認や支出上限を設定でき、機能は来月提供予定。決済情報へのアクセス禁止など、エージェント向けの規約も定めた。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、Museが1,000万ユーザー超と発表、ショッピングが主要な用途に",
+      "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+      "summary": "Metaは第3四半期決算説明会で、Museのユーザーが1,000万人を超えたと述べた。設定したユーザーの約4分の1が毎日利用し、ショッピングが主要な用途で、購入額が平均200ドルを超える利用者も多い。大半のユーザーには無料を維持しつつ、取引の手数料やヘビーユーザーへの課金で収益化する方針。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Blacksmith、Sequoia主導のシリーズCでユニコーン評価額に到達",
+      "url": "https://techcrunch.com/2026/10/21/blacksmith-hits-unicorn-valuation-after-sequoia-leads-series-c/",
+      "summary": "AI生成コードを含むコードの検証ツールを提供するBlacksmithが、Sequoia主導で6,600万ドルのシリーズC調達を行い、評価額10億ドルとなった。年間経常収益は17倍に成長し、これまでに9,000万件超のCIジョブを実行した。2カ月前のシリーズBに続く調達で、累計調達額は1億2,500万ドル。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Blackstone幹部、AI設備投資の債務への懸念は過大と主張",
+      "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+      "summary": "運用資産1.3兆ドルのBlackstoneは、データセンター融資やネオクラウド向け融資を通じてAIに巨額投資しており、Jas Khaira氏は「ハイパースケーラー以外では最大の計算資源の保有者」と述べた。金利上昇や信用スプレッド拡大で市場が不安定化したことは認めつつ、データセンター債務は信用力の高い企業に裏付けられているとして2008年型の信用危機への懸念を否定した。AIのリターンは「まちまち」とも認めた。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-10-22-news"
+}

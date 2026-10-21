@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-22T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月22日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22-news.html</id>
+    <updated>2026-10-22T00:00:00+09:00</updated>
+    <summary>NSAがPHPの重大な脆弱性2件を警告。OpenAIとGoogle傘下のWizがAIツールで発見 / Recursiveが自動研究システムで開発したノートPC向けコーディングモデル「Flint」を無償公開 / WalmartがAIエージェント向けMCPサーバー「Agent Gateway」を発表 / MetaのMuseが1,000万ユーザー超、ショッピングが主要な用途に</summary>
+  </entry>
+  <entry>
     <title>2026年10月22日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04.html</id>
     <updated>2026-10-04T00:00:00+09:00</updated>
     <summary>OpenAI DevDay 2026でGPT-6.1 Sol・dots・Ultrafastなどが発表 / Claude Code Mods・Opus 5.5活用など開発ツールの話題が多数 / 日本語推敲スキルyomiyasuが話題に</summary>
-  </entry>
-  <entry>
-    <title>2026年10月3日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03-news.html</id>
-    <updated>2026-10-03T00:00:00+09:00</updated>
-    <summary>Anthropic が 1 億ドルを投じ、1 万人のエンジニア育成を目指す「Claude Frontier Academy」を発表 / Apple が AI エージェントのリスクを理由に macOS「フルディスクアクセス」の制御を厳格化 / ChatGPT に新画像モデル Images 2.5 を用いた服の仮想試着機能が登場 / OpenAI が安全性チームの研究者 3 名との関係を打ち切ったと WSJ が報道</summary>
   </entry>
 </feed>
