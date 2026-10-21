@@ -1,0 +1,232 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026/10/22 7:05:03",
+  "highlights": [
+    "PyPI上のLiteLLM 1.107.0が侵害され、認証情報窃取とバックドアが仕込まれていたとの報告",
+    "OpenAIのモデルとCodexがGoogle CloudのModel Gardenで利用可能になる提携が発表",
+    "AnthropicがProアクティブなエージェント「Claude Duet」をリサーチプレビューとして公開",
+    "OpenAIがPHPの重大脆弱性対応を含む「Patch the Planet」の協調対応を報告",
+    "Claude CodeでCI待ち時間を18分から4分台へ短縮した事例など、AI駆動開発の実践知見が多数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Compromised LiteLLM 1.107.0 on PyPI Installs a Credential Stealer and Backdoor",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+      "summary": "PyPIで公開されたLiteLLM 1.107.0が侵害され、認証情報を盗むスティーラーとバックドアが含まれていたと報告する記事。cook.pyによる認証情報窃取と、sitecustomize.pyによるバックドアの2つのペイロードが解説されている。リリースへの混入経路、タイムライン、侵害指標（IoC）も整理されている。該当バージョンを導入した環境では、認証情報のローテーションと影響確認が必要になる。",
+      "category": "security",
+      "points": 360,
+      "comments": 118,
+      "author": "abhisek"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Duet",
+      "url": "https://claude.com/product/claude-duet",
+      "summary": "AnthropicがリサーチプレビューとしてClaude Duetを発表した。ユーザーが気にすべきことを把握して先回りで動くプロアクティブなエージェントで、毎朝のブリーフィングや次のアクションの下書きを行う。会議の設定やダッシュボード作成のような大きなタスクも任せられ、ユーザーの不在中も作業を続け、重要な局面では承認を待つ。Opus 5.5を基盤とし、6,000以上のコネクタやプラグインに対応する。米国のPro/Maxプラン向けで、現在はウェイトリスト受付中である。",
+      "category": "product",
+      "points": 215,
+      "comments": 187,
+      "author": "kuberwastaken"
+    },
+    {
+      "source": "hackernews",
+      "title": "Patch the Planet: global response coordination as agents uncover vulnerabilities",
+      "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+      "summary": "OpenAIが、AIエージェントが重大な脆弱性を発見する時代に向けた世界的な対応調整の取り組み「Patch the Planet」を紹介している。過去2か月間、メンテナ、研究者、セキュリティ事業者の連合を率いてPHPの重大な脆弱性に対処した。CalifがGPT-5.6 Solを使って重大な欠陥を特定したという。取り組みは、世界規模の対応の調整、メンテナが対応できる体制とリソースの提供、より安全なソフトウェア基盤の構築という柱で構成される。",
+      "category": "security",
+      "points": 208,
+      "comments": 133,
+      "author": "nr378"
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI models are coming to Google Cloud",
+      "url": "https://openai.com/index/openai-models-google-cloud/",
+      "summary": "OpenAIとGoogle Cloudが提携し、OpenAIのフロンティアモデルとCodexのエージェント型ワークフローをGoogle CloudのModel Gardenで提供する。顧客は大規模で複雑なエージェント型ワークフローを、ネイティブなアクセスで実行できる。Google Cloudのデータガバナンスと高性能なインフラが基盤となる。すでにGoogle Cloudで開発している企業が、既存の環境内でOpenAIのモデルを使えるようになる点が利点である。",
+      "category": "product",
+      "points": 189,
+      "comments": 87,
+      "author": "armcat"
+    },
+    {
+      "source": "hackernews",
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "summary": "OpenAI、PerturbAI、Scripps Researchが、数千のAIエージェントを並列に動かして生物学データから有望な研究の手がかりを探した事例の紹介。対象は数百万個の脳細胞から得られた複雑な実験データである。作業を分割して各エージェントが推論を深め、次に行う価値のある実験を絞り込む流れが説明されている。詳細は公開された論文で読める。",
+      "category": "research",
+      "points": 118,
+      "comments": 63,
+      "author": "raahelb"
+    },
+    {
+      "source": "zenn",
+      "title": "AI時代、配布するPythonコードをどう守るか: 難読化の実験と判断軸",
+      "url": "https://zenn.dev/pksha/articles/0f9c11d1daea2e",
+      "summary": "PyCon JP 2026での発表をもとに、顧客環境へ納品するPythonコードの秘匿方法をまとめた記事。難読化は動作を変えずに人間が理解するコストだけを上げる変換であり、暗号化と違って「頑張れば読める」性質を持つと整理している。pyarmorなどを使った実験を通じて、難読化がどのような仕組みでコードを隠すのかを確認している。AI時代の解析コスト低下も踏まえ、どの手法を選ぶかの判断軸を示す。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+      "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+      "summary": "Next.js（TypeScript）アプリのPR CIが、テスト増加により18分超まで延びた問題を、Claude Codeで4分台に短縮した事例。環境はVitestとGitHub Actions（2 CPUのubuntu-latest）で、最も遅いのはDBセットアップと全テストを1ジョブで回すUnit + Integrationジョブだった。まずClaude Codeに2 CPU環境で実行時間の内訳を計測させ、ボトルネックを特定している。AIエージェントで増えたテストの待ち時間を、AI自身に改善させる実践例である。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "PTCG AI Battle Challenge Simulation振り返り＆反省",
+      "url": "https://zenn.dev/ryyy_my/articles/d35d4c655c63f2",
+      "summary": "Kaggleの「PTCG AI Battle Challenge Simulation」（ポケモンカードのAI対戦コンペ）に参加し、590/6807位で初の銅メダルを獲得した筆者の振り返り。強化学習や模倣学習を試みたが、強化学習のエージェントがすべて山札切れ狙いになってうまくいかなかった。そこでドメイン知識を活かせるルールベースを採用し、公開サンプルのMega Lucario exデッキのエージェントを参考に調整した。山札切れ問題を解けるようになれば一段上のレベルに行けるのではと考察している。",
+      "category": "research"
+    },
+    {
+      "source": "zenn",
+      "title": "技術書を年に数冊しか買わない自分に、O'Reillyのサブスク年$150は割に合うか（ACM経由で契約してMCPまで）",
+      "url": "https://zenn.dev/sonicmoov/articles/oreilly-subscription-acm",
+      "summary": "O'Reillyの読み放題サブスクが、年に1〜2冊しか技術書を買わない人にとって元が取れるかを検証した記事。契約方法によって年額が3倍近く違うため、料金と使える範囲の違いを比較している。日本語の本がどの程度読めるかや、最安のACM経由でもO'Reilly公式のMCPサーバーが使えるかも確認している。料金や提供範囲は2026年10月時点の情報とされている。",
+      "category": "other"
+    },
+    {
+      "source": "zenn",
+      "title": "Nuxt LayersでAI開発の保守性を担保する",
+      "url": "https://zenn.dev/finatext/articles/3b944c5539c446",
+      "summary": "性質の異なる保険商品が同居するアプリで、AIによる開発が共通部分への継ぎ足しコードを生み、改修のたびに意図しないエラーが出ていた課題への対策を紹介している。Nuxt Layersで関心事（共通・商品・マイページ）をレイヤーに分け、互いに干渉しにくい構成にし、境界はESLintで検査している。マイページの商品ごとの差異は、各商品レイヤーのplugins/やapp.config.tsにページやコンポーネントを登録する方式で、分岐を書かずに出し分ける。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Slow and Steady! $2,850 in Prizes Across 21 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-slow-and-steady-2850-in-prizes-across-21-3iee?bb=264735",
+      "summary": "DEVが開催するHacktoberfestの5回のチャレンジのうち、第3週「Open-Source AI Challenge: Slow and Steady」の告知。10月25日まで、オープンソースAIやオープンウェイトモデルを使った新規プロジェクトを作る。21名の入賞者に合計$2,850の賞金が用意されている。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Got Tired of Coming into my Lab to Check the Pressure of my Cryocooler so I Built a Tool to do it for Me",
+      "url": "https://dev.to/pahorton/i-got-tired-of-coming-into-my-lab-to-check-the-pressure-of-my-cryocooler-so-i-built-a-tool-to-do-it-4ob7",
+      "summary": "天体物理学研究室でシステムエンジニアを務める筆者が、極低温冷凍機の圧力を確認するために研究室へ通う手間をなくそうとツールを作った体験談。Hacktoberfest Open-Source AI Challenge第3週への投稿で、タグからTiger DataとGitHub Copilotを使っていることがうかがえる。背景と作った動機が中心に語られている。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "tigerdata",
+        "githubcopilot"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Stuck in the same dev.to topics? An open model fixed it.",
+      "url": "https://dev.to/thomasbnt/stuck-in-the-same-devto-topics-an-open-model-fixed-it-4mbc",
+      "summary": "dev.toのアカウント情報を読み取り、週次のダイジェストをメールで送る小さなOSSスクリプト「devto-digest」を作った投稿。毎日のスクロールの手間を省き、同じトピックに偏りがちな状況を変えるためにオープンモデルを利用している。Hacktoberfest Open-Source AI Challenge第3週への投稿で、AI支援で執筆された旨が記載されている。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "javascript"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I wrote a 10,000-line Windows security suite in one Python file. Here's how the crypto container works, and ₹50 if you can break it",
+      "url": "https://dev.to/akhourianmolkumar/i-wrote-a-10000-line-windows-security-suite-in-one-python-file-heres-how-the-crypto-container-10c2",
+      "summary": "1万行のPython単一ファイルで作ったWindows向けセキュリティスイートATLOCK v5の、暗号コンテナの仕組みを解説する記事。小さな暗号ツールは暗号方式そのものより、誤ったパスワード、改ざんされたヘッダー、巻き戻された状態ファイル、破損したチャンクといった地味な部分で失敗しやすいと指摘する。その部分の設計に時間をかけたと述べている。破れた人には50ルピーを出すという挑戦も付いている。",
+      "category": "security",
+      "tags": [
+        "challenge",
+        "security",
+        "python",
+        "cryptography"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Somewhere, Coding Stopped Being Allowed to Be Fun",
+      "url": "https://dev.to/james_anderson_h/somewhere-coding-stopped-being-allowed-to-be-fun-14pe",
+      "summary": "この数年で「プログラミングを楽しむこと」が許されない空気になってきたと感じる筆者のエッセイ。2026年に自分はプログラミングが好きだと公言したり、機械が解ける問題に土曜日を費やしたりすることに後ろめたさを覚える感覚を語る。コーディングを料理やランニングになぞらえる読者のコメント画像も付いている。AI時代のキャリアやメンタルヘルスに関する議論を促す内容で、AI支援で執筆された旨が記載されている。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "career",
+        "ai",
+        "mentalhealth"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「ドパ資料」の作り方",
+      "url": "https://qiita.com/kikuziro/items/b6a0743b070d7320c36d",
+      "summary": "生成AIで作る図解を「ドーパミンが出る」ほど派手にして、技術記事を読まれやすくするコツを紹介する記事。Naive RAGとGraphRAGの違いをパチンコのリーチ演出風に描くアニメーション図解の指示文を例として示している。ただし全部がその調子だと目が疲れるため、ドパ資料は薄めて使うべきだと述べる。生成AIが量産する「スロップ記事」が溢れる中で、ちょうどよい濃さの図を入れて読んでもらう方法を説明する。",
+      "category": "other",
+      "tags": [
+        "AI",
+        "ドパガキ",
+        "ポエム",
+        "資料作成"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI時代の開発プロセスとチームのあり方を考える",
+      "url": "https://qiita.com/kizuku_tabata/items/6d5b58ad0cb832d2a4c5",
+      "summary": "Claude CodeやCodexをツール開発やPoC、GASによる業務改善に使う中で感じた、開発の考え方の変化をまとめた記事。細かい設計を先に固めず、まずAIに作らせて動かし、修正しながら形になった段階で設計書や仕様を整理する進め方が、試行錯誤の多い開発に合うとする。品質や安全性、既存システムとの整合性が重要な開発では、従来どおり事前の検討が欠かせないとも述べる。実装だけでなく、プロジェクト管理やチームで開発する意味にも考えが及んでいる。",
+      "category": "devtool",
+      "tags": [
+        "AI活用",
+        "AI開発",
+        "システム開発",
+        "ツール開発",
+        "プロジェクトマネジメント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Oracle AI Data Platform(AIDP)：Private Endpointの AI Lakehouseで Knowledge Base・RAG検索してみてみた",
+      "url": "https://qiita.com/shirok/items/8dd19291f959da310c99",
+      "summary": "Oracle AI Data PlatformでKnowledge BaseやAgentを使う際、関連付けるAI LakehouseをPrivate Endpointのみの構成にした場合の動作を検証した記事。公開ドキュメントではこの構成でのAI Compute作成条件が読み取れなかったため、実際に試している。パブリックアクセスを無効にしたまま、AIDPの作成、初期化時のユーザー・スキーマ作成やモデルロード、文書取り込み、RAGツールによる検索と回答生成までを確認した。既存のPrivate Endpointのみのlakehouseを指定したAIDP作成は成功している。",
+      "category": "infra",
+      "tags": [
+        "aidp",
+        "Lakehouse",
+        "rag",
+        "oracle",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "はじめてのインデータベースAI～ベクトル検索・RAGからAIエージェントまで～",
+      "url": "https://qiita.com/yuji-arakawa/items/1df29b844478f9df5960",
+      "summary": "Oracle AI Jam Session #41の内容をまとめた、データベース内でAIを実現する「インデータベースAI」の入門記事。ベクトル検索によるセマンティックサーチ、埋め込みモデルによるベクトル生成、RAG、自然言語によるデータ照会、AIエージェントを一通り紹介する。保守契約など社内データを参照しないと答えられない問い合わせを例に、必要性を説明している。コードや環境構築手順はGitHubリポジトリで公開されている。",
+      "category": "agent",
+      "tags": [
+        "AI",
+        "AIエージェント",
+        "oracle",
+        "Database",
+        "初心者"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI の「直しました」に証拠を付けさせろ！ pstack を Claude Code に入れてみた",
+      "url": "https://qiita.com/kobayashi-fuuki/items/a7fbba06bb158dae0e11",
+      "summary": "Cursorのエンジニアが公開した、エージェントの「直しました」報告に確認の証拠を出させる作業の型の集まり「pstack」をClaude Codeに導入した体験記。入口は /pstack:poteto-mode で、依頼文から23種類のプレイブックを選び、手順をTODOに写して進める。Bug fixなどの型は、完了前に実際のアプリやコマンドで動作確認する手順を含む。ただしエージェントが自力で検証できる環境が必要で、リポジトリごとの検証スキルを最初に作る必要がある。常に500を返していたAPIの修正では、修正前に5組すべてが500を返すことをエージェントが自分で確認した。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "cursor",
+        "AIエージェント",
+        "生成AI",
+        "pstack"
+      ]
+    }
+  ]
+}

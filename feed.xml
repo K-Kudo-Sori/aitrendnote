@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-21T00:00:00+09:00</updated>
+  <updated>2026-10-22T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月22日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22.html</id>
+    <updated>2026-10-22T00:00:00+09:00</updated>
+    <summary>PyPI上のLiteLLM 1.107.0が侵害され、認証情報窃取とバックドアが仕込まれていたとの報告 / OpenAIのモデルとCodexがGoogle CloudのModel Gardenで利用可能になる提携が発表 / AnthropicがProアクティブなエージェント「Claude Duet」をリサーチプレビューとして公開 / OpenAIがPHPの重大脆弱性対応を含む「Patch the Planet」の協調対応を報告 / Claude CodeでCI待ち時間を18分から4分台へ短縮した事例など、AI駆動開発の実践知見が多数</summary>
+  </entry>
   <entry>
     <title>2026年10月21日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03-news.html</id>
     <updated>2026-10-03T00:00:00+09:00</updated>
     <summary>Anthropic が 1 億ドルを投じ、1 万人のエンジニア育成を目指す「Claude Frontier Academy」を発表 / Apple が AI エージェントのリスクを理由に macOS「フルディスクアクセス」の制御を厳格化 / ChatGPT に新画像モデル Images 2.5 を用いた服の仮想試着機能が登場 / OpenAI が安全性チームの研究者 3 名との関係を打ち切ったと WSJ が報道</summary>
-  </entry>
-  <entry>
-    <title>2026年10月3日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-03.html</id>
-    <updated>2026-10-03T00:00:00+09:00</updated>
-    <summary>OpenAI DevDay 2026 で常時稼働エージェント dots や GPT-6.1 Sol などが発表 / Claude Code の使用量計算を実測した記事や、Mods によるモデルルーター構築が話題 / Redis 作者のローカル推論エンジン ds4、TPU v5e 上の QAT Gemma 4 など推論基盤の話題 / 日本語推敲スキル yomiyasu が Zenn・Qiita で注目</summary>
   </entry>
 </feed>
