@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-22T00:00:00+09:00</updated>
+  <updated>2026-10-23T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月23日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23.html</id>
+    <updated>2026-10-23T00:00:00+09:00</updated>
+    <summary>AIエージェントの安全な実行基盤（NVIDIA OpenShell）やMCPなど、エージェント運用の話題が継続 / AIがメモリバグを攻撃に変換できる時代を示すPHP脆弱性の議論が話題 / Claude Codeのトークン削減（約98%）やCI高速化など実運用Tipsが多数 / Hacktoberfest Open-Source AI Challenge第3週が開催中</summary>
+  </entry>
   <entry>
     <title>2026年10月22日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04-news.html</id>
     <updated>2026-10-04T00:00:00+09:00</updated>
     <summary>OpenAIの安全担当幹部が「社内文化は壊れている」として辞任 / MetaがパーソナルAIエージェント「Muse」向けのオープンソースHW施策を開始 / Stability AIが大手レーベルから7,600万ドルを調達し音楽生成に軸足</summary>
-  </entry>
-  <entry>
-    <title>2026年10月4日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04.html</id>
-    <updated>2026-10-04T00:00:00+09:00</updated>
-    <summary>OpenAI DevDay 2026でGPT-6.1 Sol・dots・Ultrafastなどが発表 / Claude Code Mods・Opus 5.5活用など開発ツールの話題が多数 / 日本語推敲スキルyomiyasuが話題に</summary>
   </entry>
 </feed>

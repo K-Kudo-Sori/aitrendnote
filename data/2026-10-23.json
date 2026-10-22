@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026/10/23 7:04:36",
+  "highlights": [
+    "AIエージェントの安全な実行基盤（NVIDIA OpenShell）やMCPなど、エージェント運用の話題が継続",
+    "AIがメモリバグを攻撃に変換できる時代を示すPHP脆弱性の議論が話題",
+    "Claude Codeのトークン削減（約98%）やCI高速化など実運用Tipsが多数",
+    "Hacktoberfest Open-Source AI Challenge第3週が開催中"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "summary": "NVIDIAが公開したOpenShellは、自律型AIエージェントの群れを安全かつプライベートに動かすためのランタイムである。エージェントがファイル操作やパッケージ導入、API呼び出し、認証情報の利用をできるようにしつつ、データや秘密情報、ネットワークへの無制限なアクセスは与えない。ポリシーで許可範囲を宣言し、カーネルレベルでファイルアクセスやシステムコール、ネットワーク接続を実行時に強制する。また形式検証によりポリシー変更が何を許すかを適用前に確認でき、エージェントは実際の認証情報を見ない。0.1.xでは安定したリリース周期や新しい隔離機構、拡張面、APIが追加された。",
+      "category": "security",
+      "points": 222,
+      "comments": 119,
+      "author": "niemandhier"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI and the Enclosure of the Scientific Commons",
+      "url": "https://arxiv.org/abs/2610.27251",
+      "summary": "天体物理学者P. K. G. Williamsによるarxiv論文で、科学文献を「誰のものでもなく皆で共有する情報コモンズ」と捉え直す。中世英国の農地コモンズの歴史と、コモンズを扱う経済・政治の枠組みを概説する。情報コモンズは頑健で非常に価値が高い一方、かつての農地コモンズのように囲い込まれる危険がある点に着目している。AIの普及が科学的コモンズの囲い込みにどう関わるかを論じる。",
+      "category": "research",
+      "points": 75,
+      "comments": 38,
+      "author": "jrepinc"
+    },
+    {
+      "source": "hackernews",
+      "title": "Every AI model has the same \"controversial\" take on humans",
+      "url": "https://www.modelcompare.ai/blog/ai-models-controversial-take-on-humans",
+      "summary": "ModelCompareが12のAIモデルに「人類についての最も物議を醸す意見」を無制限に3回ずつ尋ねた調査記事。35件の回答のうち29件が同じ内容で、「人間は真実より帰属を重んじ、集団の信念を選んでから理由を後付けする」というものだった。10の研究所の全モデルが少なくとも1回はこの答えを出し、12のうち7モデルは毎回そうだった。モデル間で意見が収束することを示す、興味深い観察である。",
+      "category": "research",
+      "points": 112,
+      "comments": 148,
+      "author": "rakannimer"
+    },
+    {
+      "source": "hackernews",
+      "title": "Jailbreaking the Switch 2",
+      "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+      "summary": "最新ファームウェア23.0.1のSwitch 2向けに、ソフトウェアのみのテザード方式ジェイルブレイク「ns2jb」が公開された。通常のsysmoduleおよび組み込みfs sysmoduleとして任意のネイティブコードを実行でき、ホームブリュー実行、ゲームのリバースエンジニアリングやMod、セーブのバックアップ、MMIO経由の周辺機器アクセスが可能になる。著者の知る限りSwitch 2初のエクスプロイトである。デモとして、Codexを使って『マリオカートワールド』にキャラクターを追加するModを作成した。",
+      "category": "security",
+      "points": 650,
+      "comments": 231,
+      "author": "ledoge"
+    },
+    {
+      "source": "hackernews",
+      "title": "Railpass",
+      "url": "https://train.samismith.com/",
+      "summary": "本文取得失敗（本文はほぼ空で、タイトルと作者名のみ）。Railpassという作品がSami Smith氏によって作られたことしか確認できず、内容の要約はできなかった。",
+      "category": "other",
+      "points": 5,
+      "comments": 2,
+      "author": "CharlesW"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code で CI 待ち時間を 18 分から 4 分台に短縮する【GitHub Actions】",
+      "url": "https://zenn.dev/edash_tech_blog/articles/5b90aa33bd8d49",
+      "summary": "e-dashのエンジニアが、Claude Codeを使ってNext.js製アプリのPR CI待ち時間を18分超から4分台へ短縮した事例。Claude Codeに計測させたところ、400秒のうちテスト本体は57秒で、残りは環境起動のオーバーヘッドだった。DOM不要なテストも含め全テストをjsdomで動かしていたこと（起動だけで224秒）と、2CPUランナーでVitestのワーカーが1つに絞られ直列実行になっていたことが原因である。これらを解消し、Unit+Integrationジョブの待ち時間を大幅に削減した。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "AI時代、配布するPythonコードをどう守るか: 難読化の実験と判断軸",
+      "url": "https://zenn.dev/pksha/articles/0f9c11d1daea2e",
+      "summary": "PyCon JP 2026での発表をもとに、顧客環境へ納品するPythonコードの難読化を解説する記事。難読化は動作を変えず人間の解析コストだけを上げる変換で、鍵がないと使えない暗号化とは目的が異なり、頑張れば読めてしまうという前提を押さえる。SaaSならコードはサーバに残るため不要で、受託開発などで知財を含むコードを配布する場合に必要になる。pyarmorなどの難読化ツールを実際に試し、解析されうる点や採用の判断軸を整理している。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "cronのclaude -pが\"ok\"だけで4万トークン——--safe-modeと--tools \"\"で98%削減",
+      "url": "https://zenn.dev/yosiki/articles/claude-p-cron-token-diet",
+      "summary": "cronなどから定期実行する `claude -p \"ok\"` が、認証確認だけの用途なのに1回約4万トークンを消費していた問題の実測記録。個人用CLAUDE.md、SessionStartフックのメモ、MCPサーバ、全ツール定義が毎回読み込まれていたのが原因である。`--safe-mode`で約58%減、`--tools \"\"`を足すと93%減、さらに`--system-prompt`を指定すると737トークンまで下がり、98%の削減になった。`--effort low`で出力側の思考トークンも消えた。計測はClaude Code 2.1.295・haikuで、数字は環境により異なる。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "厳選・セキュリティが心配ならClaude Codeにこの問いかけをコピペするべし20",
+      "url": "https://zenn.dev/yuiseki/articles/54b01670841898",
+      "summary": "「この問いかけをClaude Codeにコピペせよ」として、コーディングAIエージェントにリポジトリのセキュリティ点検をさせる20個のプロンプトを厳選して紹介する記事。認証（サインアップ・JWT・OAuth/OIDCの検証、失効後のセッション継続）、認可（IDOR/BOLA、権限判定に使うユーザー変更可能な値、未認証API）、注入（HTML・SQL・テンプレート・ヘッダ等への外部入力の流入）などの観点を網羅する。記事のURLをエージェントに渡すだけで使えるよう構成されている。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "LLM コストをテナント・案件別に自前で計算した",
+      "url": "https://zenn.dev/explaza/articles/14e4b1310ce3ba",
+      "summary": "マルチテナントWebアプリでOpenAIのLLM費用をテナント・案件・機能別に把握するため、自前でコスト計算した事例。OpenAI側はmetadataでgroup_byできず、Langfuseの推定コストは請求の半分前後にしかならなかった（Web検索・画像生成・キャッシュ書き込み割増・非トレース呼び出しが単純な式に乗らないため）。そこでアプリ側で1リクエスト1行を記録して金額を計算し、請求とリクエスト単位で突き合わせる方式に落ち着いた。単価表の監視も行う。",
+      "category": "infra"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Slow and Steady! $2,850 in Prizes Across 21 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-slow-and-steady-2850-in-prizes-across-21-3iee?bb=264732",
+      "summary": "DEV Teamによる、Hacktoberfest 2026のOpen-Source AI Challenge第3週「Slow and Steady」の告知。10月25日までの1週間でオープンソースAIやオープンウェイトモデルを使った新規プロジェクトを作る企画である。総額2,850ドルの賞金が全体優勝1名と20のパートナー部門の各勝者、計21名に贈られる。第2週を逃した人も、毎回新しいスタートとして同じ条件で参加できる。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Don't Be a Proxy Between Me and Your AI",
+      "url": "https://dev.to/adamthedeveloper/dont-be-a-proxy-between-me-and-your-ai-mcn",
+      "summary": "「自分とあなたのAIの間の中継役にならないでほしい」という議論記事。技術的な質問に対し、整ったバランスの良い長文が返ってくるが、反論すると少し間があって同様に洗練された文章が返ってくるという経験を挙げる。その時点で相手は同僚ではなくチャット画面と話していると感じるという。AIを自分の考えを介さない「伝言の盾」にすることへの違和感を提起し、読者に意見を求めている。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built slothd: A Local-First, Offline-Capable AI Daemon That Patiently Organizes Your Messy Workspace",
+      "url": "https://dev.to/dj29/i-built-slothd-a-local-first-offline-capable-ai-daemon-that-patiently-organizes-your-messy-53e7",
+      "summary": "Hacktoberfest課題への投稿で、ローカル完結・オフライン対応のAIデーモン「slothd」を紹介する。散らかった作業ディレクトリを時間をかけて整理してくれる常駐プロセスである。二段階の予測ファネルで構成され、オープンモデル（Gemma）を使う。35秒のデモ、オフライン用デモフィクスチャ、主要モジュールの説明、8つの賞カテゴリへの対応が記事に含まれる。",
+      "category": "agent",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "opensource",
+        "gemma"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Stuck in the same dev.to topics? An open model fixed it.",
+      "url": "https://dev.to/thomasbnt/stuck-in-the-same-devto-topics-an-open-model-fixed-it-4mbc",
+      "summary": "Hacktoberfest課題への投稿で、dev.toアカウントを読み取り週次ダイジェストをメール送信するオープンソースのスクリプト「devto-digest」を作った話。119のタグをフォローしても、フィードは良くならず騒がしくなるだけで、本当に役立つ記事を見逃していた。そこでオープンモデルを使い、毎日のスクロールを省いて重要な記事だけを拾うようにした。「良い意味で少し怠け者になれる」ツールとして位置づけられている。",
+      "category": "devtool",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "javascript"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Encryption, Explained Properly: AES vs ChaCha20 vs Argon2id (and How to Actually Combine Them)",
+      "url": "https://dev.to/akhourianmolkumar/encryption-explained-properly-aes-vs-chacha20-vs-argon2id-and-how-to-actually-combine-them-4223",
+      "summary": "「AES-256を使えばよい」は最もよく言われるが役に立たない助言だとし、暗号の実装全体を解説するチュートリアル。暗号自体が破られることは稀で、推測可能なパスワード、nonceの再利用、認証されていない暗号文、不適切な鍵導出が問題になる。AES-GCM、ChaCha20-Poly1305、Argon2id、HKDF、HMAC、X25519、Ed25519、Shamirの秘密分散を、仕組み・存在理由・選び方とともに比較表とPythonコード、実例で説明する。",
+      "category": "security",
+      "tags": [
+        "security",
+        "cryptography",
+        "python",
+        "tutorial"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「ドパ資料」の作り方",
+      "url": "https://qiita.com/kikuziro/items/b6a0743b070d7320c36d",
+      "summary": "生成AIで図解を作る際の「ドパ資料」（ドーパミンが出るような派手な資料）の作り方を、ユーモアを交えて紹介する記事。パチンコのリーチ演出風にNaive RAGとGraphRAGを比較するアニメーション図解のプロンプトを例示する。ただし全部がその調子だと疲れるため「薄めて使う」ことを勧める。AI量産の「スロップ記事」が増え、手書きの良記事まで読まれにくい現状で、図を入れて記事をリッチにすることが読んでもらうコツだと述べる。ちょうどいい濃さの作り方も解説する。",
+      "category": "other",
+      "tags": [
+        "AI",
+        "ドパガキ",
+        "ポエム",
+        "資料作成"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【Opus 級？】Jev でエンジニアとプロジェクトをマッチング ― LLM・埋め込みモデルと比較",
+      "url": "https://qiita.com/akimasanishida/items/8d965a85f2aac8ebcb12",
+      "summary": "TypeSafe AIのJevというモデルで、プロジェクトの募集要項とエンジニアのスキルシートのマッチ度を採点し、Claude Opus 5.5の判定を正解として、Claude Haikuや日本語埋め込みモデルと比較した記事。Jevは1ペア182ms・$0.00009で、Haiku 5.5の約1/8の時間・約1/5の費用であり、順位付け精度は同程度以上だった（Haiku 4.5との有意差はなし）。マッチ度の低い19ペアまでは正解で合うペアを含まず除外でき、確信度が低いペアは正解とのずれが約3倍大きく、人の確認対象の目印になった。",
+      "category": "model",
+      "tags": [
+        "TypeSafe",
+        "TypeSafeAI",
+        "Jev",
+        "AI",
+        "LLM"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【2026年版】AIを駆使した開発手法をざっくりまとめてみた",
+      "url": "https://qiita.com/kobori_slj/items/b9683ce90f4c26a6e7ae",
+      "summary": "プロンプト、コンテキスト、ハーネスの各エンジニアリングや、バイブコーディング、仕様駆動開発、AIDD、AI×TDD、評価駆動開発など、増え続けるAI開発手法の用語を整理した記事。筆者は①入力・環境の設計、②開発の進め方、③品質と継続的改善の3層に分ける。「プロンプト ⊂ コンテキスト ⊂ ハーネス」という入れ子で捉え、開発の進め方は構造化・統制の度合いのスペクトラムとして並べられると説明する。分類は筆者独自の整理で、厳密な定義は提唱元を参照するよう断っている。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "生成AI",
+        "AIエージェント",
+        "ClaudeCode",
+        "開発手法"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "MCPサーバーとは？ 仕組みの基本と、Firestore を AIエージェントから調べられるようにした話",
+      "url": "https://qiita.com/sugumura/items/d52a567f7450b5539665",
+      "summary": "MCPの仕組みの基本と、自作Firestoreビューアー「Irori Desk」にMCPサーバーを組み込んだ事例を紹介する記事。MCPはJSON-RPCでツール一覧を渡しAIに呼んでもらう仕組みで、一度作れば対応する各アプリから使える。最新仕様（2026-07-28版）はステートレス化されinitializeが無くなり、ユーザー確認（elicitation）も「入力が必要」と返して再送してもらう形に変わった。AIに任せる範囲と人の承認を挟む箇所を決めること、業務ではEmulatorや検証環境のデータに限ることが要点である。",
+      "category": "agent",
+      "tags": [
+        "MCP",
+        "AIエージェント",
+        "Firestore",
+        "Firebase"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「PHPなんて使ってるやつが悪い」と言っている輩が一番危ない",
+      "url": "https://qiita.com/kotowazaman/items/aab621d31a8501617eb4",
+      "summary": "PHPの緊急脆弱性（通称PHP2Shell、CVE-2026-109618/109619）への反応として、「PHPを使うのが悪い」という論調に反論する記事。本質は、AIがC/C++製ランタイムのメモリバグを実用的な攻撃へ変換できる時代になったことにあるとする。これまでバグの発見から武器化までには熟練研究者が数ヶ月かかる深い谷があり、大量のメモリバグが眠っていたが、AIがその壁を下げた。言語や古いフレームワークを責めるのは的外れで、投資すべきは別の対策だと主張する。",
+      "category": "security",
+      "tags": [
+        "PHP",
+        "AI",
+        "Security"
+      ]
+    }
+  ]
+}
