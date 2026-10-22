@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-23T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月23日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23-news.html</id>
+    <updated>2026-10-23T00:00:00+09:00</updated>
+    <summary>Anthropic がエージェントアプリ「Claude Duet」をリサーチプレビューで公開 / Anthropic が Agent Skills を Linux Foundation 傘下の Agentic AI Foundation へ寄贈 / OpenAI が評価額1.25兆ドルで最大300億ドルの調達を協議中と報じられる / ConnectWise 侵害で AI エージェントを使った攻撃が約2,250組織を標的に</summary>
+  </entry>
+  <entry>
     <title>2026年10月23日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-05.html</id>
     <updated>2026-10-05T00:00:00+09:00</updated>
     <summary>OpenAI DevDay 2026でdotsやGPT-6.1 Solなど25項目が発表 / Claude Modsが正式発表され、解説・活用記事が相次ぐ / AI開発時代のテストの役割や、構造検証と業務検証の違いが議論に</summary>
-  </entry>
-  <entry>
-    <title>2026年10月4日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-04-news.html</id>
-    <updated>2026-10-04T00:00:00+09:00</updated>
-    <summary>OpenAIの安全担当幹部が「社内文化は壊れている」として辞任 / MetaがパーソナルAIエージェント「Muse」向けのオープンソースHW施策を開始 / Stability AIが大手レーベルから7,600万ドルを調達し音楽生成に軸足</summary>
   </entry>
 </feed>

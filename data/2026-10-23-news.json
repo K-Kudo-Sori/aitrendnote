@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026/10/23 8:03:37",
+  "highlights": [
+    "Anthropic がエージェントアプリ「Claude Duet」をリサーチプレビューで公開",
+    "Anthropic が Agent Skills を Linux Foundation 傘下の Agentic AI Foundation へ寄贈",
+    "OpenAI が評価額1.25兆ドルで最大300億ドルの調達を協議中と報じられる",
+    "ConnectWise 侵害で AI エージェントを使った攻撃が約2,250組織を標的に"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Claude Duet アプリは Anthropic のエージェントへの賭け",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "summary": "Anthropic がiOS・Android・Web向けのエージェントアプリ「Claude Duet」をリサーチプレビューとして公開しました。Pro/Max 加入者向けでウェイトリスト制です。Claude Opus 5.5 を基盤に6,000以上のコネクタ・プラグインと連携し、バックグラウンドでのタスク実行や、支払いなど機密性の高い操作での承認確認に対応します。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Agent Skills を Agentic AI Foundation に寄贈",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "summary": "Anthropic は、エージェントに専門知識やワークフローを与えるオープン標準 Agent Skills を、Linux Foundation 傘下の Agentic AI Foundation に寄贈しました。2025年12月の公開以降、ChatGPT、Cursor、VS Code など70以上のプラットフォームが採用しています。今後は Anthropic、Google、OpenAI などのエンジニアが保守し、バージョン管理されたリリースや提案プロセス、セキュリティガイダンスがロードマップに挙げられています。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、IPO を前に評価額1.25兆ドルで300億ドルの新規調達を模索",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "summary": "OpenAI は Coatue や UAE の投資家主導で、プレマネー評価額1.25兆ドル、最大300億ドルの調達を協議していると報じられています。実現すれば非上場企業として過去最大です。1か月前に Bloomberg が報じた1.4兆ドルより低く、条件は変わる可能性があります。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "1Password、AI エージェントがパスワードを見ずにログインできる仕組みを開始",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "summary": "1Password は「1Password for Agents」を発表しました。エージェントは固有のデジタルキーで身元を示し、ユーザーが通知で承認すると、1Password が認証情報を入力するため、エージェントは資格情報を見ません。Anthropic や OpenAI などのエージェントに対応しています。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "中国系ハッカー、ITベンダー ConnectWise を侵害し数千社をスパイ",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "summary": "Microsoft によると、中国国家系とされる攻撃者が ConnectWise のクラウドバックアップを侵害し、顧客の Microsoft 環境と連携する認証情報を窃取しました。オープンソースの ARTEX フレームワークで AI エージェントを使い、約2,250組織を毎分約3,000回のサインイン試行で標的にしたとされます。ConnectWise はクラウドバックアップへのアクセスを停止し、復旧作業を進めています。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Canva、初の画像生成モデル「Canva Craft」を公開",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "summary": "Canva は自社初の画像生成モデル Canva Craft を公開しました。最大2K解像度・30種類のアスペクト比に対応し、写真ではなく自社の人手によるデザインテンプレートで学習したとしています。Dream Lab タブと Canva API から全ユーザーが利用でき、低価格版も予定されています。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft の医療AIが難症例で医師を上回る、Suleyman氏「医療の超知能」を目指す",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "summary": "複数のAIエージェントが医師団のように働く Microsoft の MAI-DxO は、NEJM の複雑症例のシミュレーションで正答率83%を記録し、単独の一般内科医らの36%を上回りました（Science 掲載研究）。改善の大半は基盤モデルによるもので、GPT-5 と GPT-5.5 が最良でした。Microsoft は Beth Israel Deaconess Medical Center と実臨床での評価を計画しています。",
+      "category": "research"
+    }
+  ],
+  "slug": "2026-10-23-news"
+}
