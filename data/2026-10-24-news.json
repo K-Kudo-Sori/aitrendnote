@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026/10/24 8:03:36",
+  "highlights": [
+    "Anthropic が Claude Opus 5.5 ベースのエージェントアプリ「Claude Duet」を研究プレビューで公開",
+    "OpenAI が評価額1.25兆ドルで最大300億ドルの資金調達を交渉中と報道",
+    "OpenAI が低遅延の Decisions API モデルを全顧客に提供開始",
+    "ConnectWise 侵害で中国系グループが AI エージェントを使い約2,250組織を標的に"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Claude Duet アプリは Anthropic のエージェントへの賭け",
+      "url": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "summary": "Anthropic は、専門職や小規模事業者向けにタスクの自動化・管理を支援するエージェントアプリ「Claude Duet」を発表した。Claude Opus 5.5 を基盤とし、日次ブリーフィングやダッシュボードの作成、データに基づく提案を行い、専用の仮想マシン上でバックグラウンド実行して必要時に承認を求める。6,000以上のコネクタに対応し、Stripe の Link や Shopify の Shop Pay で購入も可能（承認制）。iOS・Android・Web で Pro/Max 向けに研究プレビュー提供され、利用にはウェイトリスト登録が必要。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、IPO を前に評価額1.25兆ドルで新たに300億ドルの調達を準備",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "summary": "CNBC の情報筋によると、OpenAI は Coatue や UAE の投資家主導で、プレマネー評価額1.25兆ドル、最大300億ドルの調達を進めている。Bloomberg は1か月前に1.4兆ドルを目標と報じており、条件は交渉中。OpenAI は6月に IPO を非公開で申請済みで、コメントは控えている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、意思決定モデル競争が激化する中で Decisions API モデルを全顧客に提供",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "summary": "OpenAI は9月29日の開発者イベントで発表した Decisions API モデルを全顧客に提供開始した。ChatGPT Luna モデルを再構成し、応答時間を1〜3秒から約100〜180ミリ秒に短縮したという。この分野を開拓した TypeSafe の Jev と競合し、2つの公開ベンチマークでは Jev が上位だが、良い意思決定モデルの基準については専門家の間でも意見が分かれている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "1Password、AI エージェントがパスワードを見ずにユーザー代理でログインできる仕組みを開始",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "summary": "1Password は「1Password for Agents」を発表し、AI エージェントが認証情報を見ることなく個人アカウントにログインできるようにした。エージェントは固有のデジタル鍵で本人確認され、ログイン試行ごとにユーザーへ承認通知が届き、認証情報は 1Password 側が入力する。Anthropic、OpenAI、xAI、Meta などのエージェントに対応する。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "中国系ハッカーが IT 大手 ConnectWise を侵害し、数千社をスパイ",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "summary": "Microsoft の研究者は、ConnectWise の侵害を中国政府系とみられるハッキンググループによるものと分析した。クラウドバックアップサービスからアプリケーション認証情報を盗み、顧客企業の Microsoft 環境でメールやファイルにアクセスしたという。オープンソースの ARTEX フレームワーク上の AI エージェントを用い、約2,250組織を毎分約3,000回のサインイン試行で標的にした。ConnectWise は同バックアップへのアクセスを停止して調査中。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Canva、初の画像生成モデル「Canva Craft」を公開",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "summary": "Canva は自社研究チームが開発した初の画像生成モデル「Canva Craft」を公開した。プロンプトから画像を計画してから生成する2段階方式で、最大2K解像度・30種のアスペクト比に対応する。写真ではなく人手でデザインされたテンプレートで学習しており、Dream Lab タブと Canva API から全ユーザーが利用できる。今後、低コスト版の Craftfast / Craft-ultrafast も提供予定。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "DeepSeek、米国の制限から数日後に150億ドルを調達と報道",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "summary": "Bloomberg によると、DeepSeek は約150億ドル（約1,000億元）を調達した。米国が連邦文民機関に同社技術の撤去を命じた2日後のことで、投資家候補には CATL や Tencent が挙がっている。6月には評価額500億ドルで70億ドル超を調達しており、来年にも中国での IPO の可能性が報じられている。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-24-news"
+}

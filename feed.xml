@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-24T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月24日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24-news.html</id>
+    <updated>2026-10-24T00:00:00+09:00</updated>
+    <summary>Anthropic が Claude Opus 5.5 ベースのエージェントアプリ「Claude Duet」を研究プレビューで公開 / OpenAI が評価額1.25兆ドルで最大300億ドルの資金調達を交渉中と報道 / OpenAI が低遅延の Decisions API モデルを全顧客に提供開始 / ConnectWise 侵害で中国系グループが AI エージェントを使い約2,250組織を標的に</summary>
+  </entry>
+  <entry>
     <title>2026年10月24日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06.html</id>
     <updated>2026-10-06T00:00:00+09:00</updated>
     <summary>Opus 5.5のエージェントが室温磁性半導体の候補を発見し、AIによる材料探索の成果として話題に / ClaudeをAI日記に使った女性がAnthropicの通報で起訴され、AI入力内容とプライバシーの議論に / Claude Code 2.1.287でClaude Mods正式リリース、2.1.288では子フォルダCLAUDE.mdの読込バグ修正 / AIにAPIキーを渡す方法の比較や、モック先行の要件定義など、AI駆動開発の実践知が多数</summary>
-  </entry>
-  <entry>
-    <title>2026年10月5日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-05-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-05-news.html</id>
-    <updated>2026-10-05T00:00:00+09:00</updated>
-    <summary>OpenAIが安全性テストの結果を受け、10月予定だったGPT-6.1 Astraのリリースを中止 / AnthropicのMythosがRejetto HFSの重大な認証バイパス脆弱性を発見、公開から24時間以内に悪用 / GoogleがAI生成の無効なバグ報告の急増を受け、OSS脆弱性報奨金の一部受付を停止</summary>
   </entry>
 </feed>
