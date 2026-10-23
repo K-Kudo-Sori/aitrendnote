@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-23T00:00:00+09:00</updated>
+  <updated>2026-10-24T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月24日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24.html</id>
+    <updated>2026-10-24T00:00:00+09:00</updated>
+    <summary>OpenAIが最先端モデル学習環境の封じ込めをAIレッドチームで強化 / AIがメモリバグを攻撃に変える時代を示すPHP脆弱性が話題 / Claude Codeでの開発コスト・CI短縮の実践事例が複数</summary>
+  </entry>
   <entry>
     <title>2026年10月23日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-05-news.html</id>
     <updated>2026-10-05T00:00:00+09:00</updated>
     <summary>OpenAIが安全性テストの結果を受け、10月予定だったGPT-6.1 Astraのリリースを中止 / AnthropicのMythosがRejetto HFSの重大な認証バイパス脆弱性を発見、公開から24時間以内に悪用 / GoogleがAI生成の無効なバグ報告の急増を受け、OSS脆弱性報奨金の一部受付を停止</summary>
-  </entry>
-  <entry>
-    <title>2026年10月5日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-05.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-05.html</id>
-    <updated>2026-10-05T00:00:00+09:00</updated>
-    <summary>OpenAI DevDay 2026でdotsやGPT-6.1 Solなど25項目が発表 / Claude Modsが正式発表され、解説・活用記事が相次ぐ / AI開発時代のテストの役割や、構造検証と業務検証の違いが議論に</summary>
   </entry>
 </feed>
