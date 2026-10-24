@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-25T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月25日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25-news.html</id>
+    <updated>2026-10-25T00:00:00+09:00</updated>
+    <summary>OpenAIが今後モデルを生のインターネットではなくキャッシュ/擬似ウェブで学習すると発表 / Blockが同時発話・聴取可能な音声モデル「Dessa」を研究プレビューとして公開 / 1Passwordが資格情報を渡さずAIエージェントにログインさせる「1Password for Agents」を開始 / OpenAIが評価額1.25兆ドルで最大300億ドルの調達を交渉中と報道</summary>
+  </entry>
+  <entry>
     <title>2026年10月25日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07.html</id>
     <updated>2026-10-07T00:00:00+09:00</updated>
     <summary>Google「EmbeddingGemma 2」が公開、テキスト・画像・音声・動画を単一空間に埋め込むオンデバイス向けモデル / OpenAIが型付き回答を返す「Decisions API」をパブリックベータ化 / Claude Codeの公式拡張「Claude Mods」が正式リリース（v2.1.287） / AIエージェントへのAPIキーの渡し方・漏洩経路を扱うセキュリティ記事が複数登場 / AIが設計したオープンソースのAIアクセラレータ「openTPU」が話題</summary>
-  </entry>
-  <entry>
-    <title>2026年10月6日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06-news.html</id>
-    <updated>2026-10-06T00:00:00+09:00</updated>
-    <summary>GoogleがGemini 4 Argonを発表。入力$2/出力$10(百万トークン)の導入価格、出力上限100万トークン / 韓国の金融7社でAI系ペンテストツール由来とみられる情報流出（約6.5万人以上） / OpenAIはDevDayでGPT-6.1 Sol・常時稼働エージェントDots・月額$500プランを発表 / AnthropicのClaude Sonnet 5.5は前世代比30%以上高速、多くの作業で最大30%低コスト</summary>
   </entry>
 </feed>
