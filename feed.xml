@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-24T00:00:00+09:00</updated>
+  <updated>2026-10-25T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月25日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25.html</id>
+    <updated>2026-10-25T00:00:00+09:00</updated>
+    <summary>Claude Code をセキュリティ点検・CI高速化に使う実践記事が複数登場 / VS Code 1.142 の Canvases や Microsoft 365 Copilot のスキル対応など、エージェント基盤が進化 / AI生成文の読みにくさを心理言語学で検証する論文が話題</summary>
+  </entry>
   <entry>
     <title>2026年10月24日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06-news.html</id>
     <updated>2026-10-06T00:00:00+09:00</updated>
     <summary>GoogleがGemini 4 Argonを発表。入力$2/出力$10(百万トークン)の導入価格、出力上限100万トークン / 韓国の金融7社でAI系ペンテストツール由来とみられる情報流出（約6.5万人以上） / OpenAIはDevDayでGPT-6.1 Sol・常時稼働エージェントDots・月額$500プランを発表 / AnthropicのClaude Sonnet 5.5は前世代比30%以上高速、多くの作業で最大30%低コスト</summary>
-  </entry>
-  <entry>
-    <title>2026年10月6日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-06.html</id>
-    <updated>2026-10-06T00:00:00+09:00</updated>
-    <summary>Opus 5.5のエージェントが室温磁性半導体の候補を発見し、AIによる材料探索の成果として話題に / ClaudeをAI日記に使った女性がAnthropicの通報で起訴され、AI入力内容とプライバシーの議論に / Claude Code 2.1.287でClaude Mods正式リリース、2.1.288では子フォルダCLAUDE.mdの読込バグ修正 / AIにAPIキーを渡す方法の比較や、モック先行の要件定義など、AI駆動開発の実践知が多数</summary>
   </entry>
 </feed>
