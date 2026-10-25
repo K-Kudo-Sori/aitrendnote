@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-25T00:00:00+09:00</updated>
+  <updated>2026-10-26T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月26日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26.html</id>
+    <updated>2026-10-26T00:00:00+09:00</updated>
+    <summary>最新 LLM は皮膚がん画像診断で10年前の CNN に劣るという検証が話題 / 盗まれた GitHub トークンで secrets を窃取する gheist キャンペーンに注意 / Claude Code のコスト・トークン最適化（DB 設計、キャッシュ、AGENTS.md）の実測記事が複数登場 / Cerebras が3兆パラメータ Kimi K3 を高速推論する構成を公開</summary>
+  </entry>
   <entry>
     <title>2026年10月25日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07-news.html</id>
     <updated>2026-10-07T00:00:00+09:00</updated>
     <summary>Mistral が1兆パラメータの Mistral Large 4 を発表。重みは約3週間後に公開予定 / Reflection が open-weight モデル Beam を発表、今月中に重み公開予定 / OpenAI が EU 向けに ChatGPT/Codex の出力テキストへ透かしを導入 / Anthropic がスタートアップ向けに Claude Team 1年無料＋$1,000 クレジットを提供 / Lambda が IPO 前に最大40億ドルを調達へ</summary>
-  </entry>
-  <entry>
-    <title>2026年10月7日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07.html</id>
-    <updated>2026-10-07T00:00:00+09:00</updated>
-    <summary>Google「EmbeddingGemma 2」が公開、テキスト・画像・音声・動画を単一空間に埋め込むオンデバイス向けモデル / OpenAIが型付き回答を返す「Decisions API」をパブリックベータ化 / Claude Codeの公式拡張「Claude Mods」が正式リリース（v2.1.287） / AIエージェントへのAPIキーの渡し方・漏洩経路を扱うセキュリティ記事が複数登場 / AIが設計したオープンソースのAIアクセラレータ「openTPU」が話題</summary>
   </entry>
 </feed>
