@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026/10/26 8:04:25",
+  "highlights": [
+    "Block が完全双方向（フルデュプレックス）のローカル動作音声モデル「Dessa」を発表",
+    "xAI の Grok が AI 生成映画「Odyssey」の冒頭7分を公開",
+    "Convovo の調査で、強制選択時に Grok は共和党、OpenAI の GPT は民主党を推す傾向が判明",
+    "Apollo のエコノミストは、テック以外の米企業では AI の財務的リターンは「ゼロ」と指摘"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Block の新しい音声モデルは驚くほど人間らしい",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "summary": "ジャック・ドーシー氏率いる Block の研究部門が、ローカルで動作し人間の音声のみで学習した音声モデル「Dessa」を発表した。話しながら同時に聞けるフルデュプレックス方式で、感情表現はモデルに組み込まれているという。一般提供はまだで、Block は音声エージェントが人を欺くリスクなどについて安全性研究者に検証を依頼している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Grok、AI 生成映画「Odyssey」の冒頭7分を公開",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "summary": "イーロン・マスク氏が3か月前に予告した「史実に忠実な」オデュッセイア作品の冒頭7分が、「Odyssey シリーズ第1話」として公開された。Wonder Studios と監督の Dev Walker が制作に参加している。TechCrunch は、最近のマスク氏の AI 動画より出来は良いが、芸術性や人間味に欠けナレーションの背景説明も冗長だと評している。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "強制選択させると Grok は共和党、OpenAI のモデルは民主党を選ぶ",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "summary": "Convovo の調査で、米中間選挙の約500の選挙区について候補者を強制的に選ばせたところ、Grok は92%で共和党、OpenAI の GPT は97%で民主党を推薦し、両者が一致したのは1割未満だった。調査は開発者向け API で実施され、OpenAI は API 設定は一般的な ChatGPT の利用実態を反映しないと述べている。研究者は両モデルに暗黙の傾向があると指摘している。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "AI は大半の企業に「財務的リターンゼロ」をもたらしている、Apollo のエコノミストが指摘",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "summary": "Apollo Global Management のチーフエコノミスト Torsten Slok 氏は、S&P 500 から大手テック7社を除いた「S&P 493」で利益率と従業員1人当たり売上が横ばいで、AI による生産性向上の証拠はないと分析した。AI には判断力・説明責任・信頼が欠けており、安価な AI が収益増につながるか疑わしいと述べている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "テキストメッセージで使える AI エージェント一覧",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "summary": "アプリを追加せず連絡先のようにテキストを送るだけで使える24の AI エージェントを紹介している。文脈の記憶や既存サービス連携により、予約・買い物・スケジュール管理などを行える。料金は Ask Proxy の個人版が1日1ドル、Ollie が月25ドルからなど幅があり、評価額100億ドルの Instinct は非公開ベータ段階にある。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-10-26-news"
+}

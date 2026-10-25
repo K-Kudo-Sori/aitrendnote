@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-26T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月26日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26-news.html</id>
+    <updated>2026-10-26T00:00:00+09:00</updated>
+    <summary>Block が完全双方向（フルデュプレックス）のローカル動作音声モデル「Dessa」を発表 / xAI の Grok が AI 生成映画「Odyssey」の冒頭7分を公開 / Convovo の調査で、強制選択時に Grok は共和党、OpenAI の GPT は民主党を推す傾向が判明 / Apollo のエコノミストは、テック以外の米企業では AI の財務的リターンは「ゼロ」と指摘</summary>
+  </entry>
+  <entry>
     <title>2026年10月26日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08.html</id>
     <updated>2026-10-08T00:00:00+09:00</updated>
     <summary>Anthropic が小型モデル Claude Haiku 5.5 を発表。Haiku 4.5 比で約75%安価、Sonnet 5.5 のキャッシュ読み出しも半額に / Claude Code の拡張機構「Mods」（v2.1.287）に関する活用記事が Zenn で複数登場 / タイムズカーで約660万アカウントの情報漏えい、免許証画像など本人確認書類は約160万件 / AWS の Strands Decider（選択肢から答えを選ぶ小型モデル）のハンズオンが公開</summary>
-  </entry>
-  <entry>
-    <title>2026年10月7日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-07-news.html</id>
-    <updated>2026-10-07T00:00:00+09:00</updated>
-    <summary>Mistral が1兆パラメータの Mistral Large 4 を発表。重みは約3週間後に公開予定 / Reflection が open-weight モデル Beam を発表、今月中に重み公開予定 / OpenAI が EU 向けに ChatGPT/Codex の出力テキストへ透かしを導入 / Anthropic がスタートアップ向けに Claude Team 1年無料＋$1,000 クレジットを提供 / Lambda が IPO 前に最大40億ドルを調達へ</summary>
   </entry>
 </feed>
