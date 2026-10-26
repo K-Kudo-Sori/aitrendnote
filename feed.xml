@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-27T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月27日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27-news.html</id>
+    <updated>2026-10-27T00:00:00+09:00</updated>
+    <summary>Anthropicが米SECにIPOを申請（ティッカー「ANT」）。2026年上期売上は163億ドル / SpaceXがApolloと約400億ドルのGPU調達リース契約を開示 / Blockが同時送受話可能な音声モデル「Dessa」を発表</summary>
+  </entry>
+  <entry>
     <title>2026年10月27日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12.html</id>
     <updated>2026-10-12T00:00:00+09:00</updated>
     <summary>Karpathy氏がLLM能力の認識ギャップが「鋭い漏斗」状に拡大していると指摘 / Claude Haiku 5.5 の登場でサブエージェントのモデル配置を見直す記事が話題 / Claude Code の公式拡張「Claude Mods」(v2.1.287) の導入手順と安全確認 / AI時代の見積もり・レビュー自動化・Claude Code運用設計など実践知見が多数</summary>
-  </entry>
-  <entry>
-    <title>2026年10月8日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08-news.html</id>
-    <updated>2026-10-08T00:00:00+09:00</updated>
-    <summary>OpenAIがGPT-6とともにChatGPTの新インターフェース「Intelligent UI」を公開 / MicrosoftがNvidia RTX Spark搭載のAI PCと、AIエージェントを隔離するWindows 11の新機能を発表 / Google SynthIDの検証サイトが一般公開、Nous Researchは評価額15億ドルで調達</summary>
   </entry>
 </feed>

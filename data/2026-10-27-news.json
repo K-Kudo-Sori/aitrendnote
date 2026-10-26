@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026/10/27 8:04:36",
+  "highlights": [
+    "Anthropicが米SECにIPOを申請（ティッカー「ANT」）。2026年上期売上は163億ドル",
+    "SpaceXがApolloと約400億ドルのGPU調達リース契約を開示",
+    "Blockが同時送受話可能な音声モデル「Dessa」を発表"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、新規株式公開（IPO）を正式に申請",
+      "url": "https://techcrunch.com/2026/10/26/anthropic-officially-files-for-its-public-debut/",
+      "summary": "Anthropicは2026年10月26日にIPOを申請し、ティッカーは「ANT」を予定している。2026年上期の売上高は163億ドル（前年同期は12億ドル）、営業損失は6.93億ドル、純損失は807億ドルで、主に転換社債に関連する非現金の会計調整によるもの。調達額や公募価格は明らかにされていない。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropicの上場申請書類から見える、法人顧客を囲い込む戦略",
+      "url": "https://techcrunch.com/2026/10/26/anthropics-ipo-filing-reveals-its-strategy-for-keeping-enterprise-customers-hooked/",
+      "summary": "年間10万ドル以上を支出する顧客の過半数が、Claude Platformに加えClaude CodeやCoworkなどの自社アプリも併用しており、2025年末の約30%から上昇した。9月30日時点で10万ドル以上の顧客は11,900社超、100万ドル以上は約1,900社、1,000万ドル以上は約250社で、純収益維持率は約900%。Amazon・Google・Microsoftが競合視してコンピュート供給が制限されるリスクなども示されている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "SpaceX、Apolloと約400億ドルのGPU調達契約を確定",
+      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+      "summary": "SpaceXはAI向けチップとデータセンター機器のため約400億ドルの資金調達を規制当局への提出書類で開示し、「最大のコミット型GPUファイナンス」とした。Apollo管理下の事業体が機器を購入し、約5〜5.25年SpaceXにリースする。クローズは年末まで、リース開始は2027年上期の見込み。第3四半期はAI部門が売上146億ドルのうち76億ドルを占め、設備投資は約200億ドルに増加した。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Block、人間のような音声モデル「Dessa」を発表",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "summary": "Blockのリサーチラボがローカル実行可能な音声モデル「Dessa」を発表した。人間の音声のみで学習し、話しながら同時に聞くことができ、感情表現はモデル自体に組み込まれているという。一般公開はまだで、音声エージェントによる欺瞞などのリスクについて安全性研究者に検証を呼びかけている。MacBook M4 Maxなどの高性能ノートPCで動作する。",
+      "category": "model"
+    }
+  ],
+  "slug": "2026-10-27-news"
+}
