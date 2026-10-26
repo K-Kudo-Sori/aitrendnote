@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-26T00:00:00+09:00</updated>
+  <updated>2026-10-27T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月27日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27.html</id>
+    <updated>2026-10-27T00:00:00+09:00</updated>
+    <summary>GPT-6.1 Terraが登場。視覚理解とコンピュータ操作に強く、API価格は先行モデルより50%安い / MCPのツール定義は想像以上にトークンを消費する。15ツールから4ツールへの再設計で削減した実測例 / プロンプトキャッシュの割引は読み込み分のみ。保持時間（約1時間）を過ぎると1ターンのコストが約11倍に / 読みやすいDB設計はAI開発のコストを約半分にする（Claude Codeでの検証、各条件5回） / 複数のコーディングエージェントを併用する運用や、Kimi Codeなど新しい選択肢の使い分け事例が増加</summary>
+  </entry>
   <entry>
     <title>2026年10月26日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08-news.html</id>
     <updated>2026-10-08T00:00:00+09:00</updated>
     <summary>OpenAIがGPT-6とともにChatGPTの新インターフェース「Intelligent UI」を公開 / MicrosoftがNvidia RTX Spark搭載のAI PCと、AIエージェントを隔離するWindows 11の新機能を発表 / Google SynthIDの検証サイトが一般公開、Nous Researchは評価額15億ドルで調達</summary>
-  </entry>
-  <entry>
-    <title>2026年10月8日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-08.html</id>
-    <updated>2026-10-08T00:00:00+09:00</updated>
-    <summary>Anthropic が小型モデル Claude Haiku 5.5 を発表。Haiku 4.5 比で約75%安価、Sonnet 5.5 のキャッシュ読み出しも半額に / Claude Code の拡張機構「Mods」（v2.1.287）に関する活用記事が Zenn で複数登場 / タイムズカーで約660万アカウントの情報漏えい、免許証画像など本人確認書類は約160万件 / AWS の Strands Decider（選択肢から答えを選ぶ小型モデル）のハンズオンが公開</summary>
   </entry>
 </feed>

@@ -1,0 +1,231 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026/10/27 7:05:00",
+  "highlights": [
+    "GPT-6.1 Terraが登場。視覚理解とコンピュータ操作に強く、API価格は先行モデルより50%安い",
+    "MCPのツール定義は想像以上にトークンを消費する。15ツールから4ツールへの再設計で削減した実測例",
+    "プロンプトキャッシュの割引は読み込み分のみ。保持時間（約1時間）を過ぎると1ターンのコストが約11倍に",
+    "読みやすいDB設計はAI開発のコストを約半分にする（Claude Codeでの検証、各条件5回）",
+    "複数のコーディングエージェントを併用する運用や、Kimi Codeなど新しい選択肢の使い分け事例が増加"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "summary": "GPT-6.1 Terraは、視覚理解と正確なコンピュータ操作を組み合わせた高速・高効率なOpenAIの新モデルです。GPT-5.6 Terraから事実性やコーディング能力が大きく向上し、提案書の作成、技術図面の解釈、フォーム入力、動画編集といった日常業務に強いとされています。標準API価格はGPT-5.6 TerraやGPT-6.1 Solより50%安く、請求書の読み取りと会計ソフト入力のような大量業務の自動化を現実的にすることを狙っています。",
+      "category": "model",
+      "points": 410,
+      "comments": 255,
+      "author": "meetpateltech"
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "summary": "本文取得失敗（SEC側が自動アクセスをブロックしたため本文を取得できませんでした）。タイトルはAnthropicのS-1（米証券取引委員会への登録届出書）に関するものですが、内容は確認できていません。",
+      "category": "product",
+      "points": 1379,
+      "comments": 1351,
+      "author": "SiNTEx"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Hob - Open-source, on device alternative to Claude Cowork and ChatGPT",
+      "url": "https://github.com/FrigadeHQ/hob",
+      "summary": "Hobは、自分のPC上でAIを使えるMITライセンスの無料オープンソースアプリで、ClaudeやChatGPTのオンデバイス代替を目指しています。PDFの記入や文書処理などをオフラインかつプライベートに実行できます。PCの性能に合う最良のオープンウェイトモデルを自動で選び、セットアップまで行います。8GB以上のメモリを持つApple Silicon Mac、Windows、Linuxに対応し、開発元はFrigadeです。",
+      "category": "product",
+      "points": 58,
+      "comments": 16,
+      "author": "pancomplex"
+    },
+    {
+      "source": "hackernews",
+      "title": "Blaise Pascal invented fixed route public transport (2024)",
+      "url": "https://humantransit.org/2024/12/one-of-the-greatest-inventions-in-the-history-of-human-transport.html",
+      "summary": "本文取得失敗（Cloudflareのボット対策でJavaScript/Cookie認証を要求され、本文を取得できませんでした）。タイトルからは、ブレーズ・パスカルが定時固定ルートの公共交通を発明したという交通史の話題と推測されますが、AI関連性は低く内容は未確認です。",
+      "category": "other",
+      "points": 245,
+      "comments": 129,
+      "author": "skadamat"
+    },
+    {
+      "source": "hackernews",
+      "title": "Birdwatching rewires the brain and slows cognitive decline",
+      "url": "https://www.bbc.com/future/article/20261019-birdwatching-rewires-the-brain-and-slows-cognitive-decline",
+      "summary": "BBCの記事で、バードウォッチングが脳の老化を遅らせ、認知症患者のセラピーとしても使われ始めていると紹介しています。英国ウェスト・ミッドランズの湖畔で、認知症の高齢者たちが観察小屋から野鳥を探して情報交換する様子が描かれます。記憶が曖昧でも鳥の話題では活発になる例が示されています。AIとは直接関係のない一般科学の話題です。",
+      "category": "other",
+      "points": 480,
+      "comments": 184,
+      "author": "cisc"
+    },
+    {
+      "source": "zenn",
+      "title": "私が5種類のコーディングエージェントを使い分ける理由",
+      "url": "https://zenn.dev/rimon/articles/45c1fd2f015af8",
+      "summary": "筆者はCursor、Claude Code、Codex、OpenCode、Antigravityの5種類のコーディングエージェントを併用しており、窓口をClaude Codeに集約して他をCLIから呼び出しています。理由はモデルごとに得手不得手が異なることと、Claude Max 20xでもトークンが2日弱で尽きることです。Claude Codeは設計・DB設計・デザイン、Codexは画面操作・思考・画像生成、Antigravityは記事や資料の執筆と役割を分けています。主観を含む使い分けの実践例です。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "summary": "AIに箇条書きを作らせると、唐突に否定から入るなど説明不足の文章になりがちという悩みから、筆者は言い直し用のスキル「explain-before-shorten」を作りました。まず口頭で伝わる自然な文章にしてから意味を保ったまま短くする、という手順をSKILL.mdにまとめたものです。説明が不明瞭な文に対して呼び出すと、読みやすい表現に直してくれます。SKILL.mdの全文も記事内で公開されています。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "「読みにくいDB」はAI開発のコストを1.9倍にする――Claude Codeで検証したDB設計の影響",
+      "url": "https://zenn.dev/actbe_tech/articles/8b4a9991d5365d",
+      "summary": "ECサイトを題材に、命名・コメント・外部キー・型・削除方式などを変えた「読みやすいDB」と「読みにくいDB」でClaude Codeの作業コストを比較しました。各条件5回の平均で、コストは$0.21対$0.41と1.9倍、ターン数は1.4倍、所要時間は1.8倍になり、正答も5/5対4/5でした。差は主にAIが実DBを叩いて確認する回数に出ています。AIに読みやすいDBは人間に読みやすいDBとほぼ同じで、従来の良い設計がそのままAIコスト削減になります。ただし各5回なので傾向レベルです。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "UE 5.8のMCPを使いたくて、Meta Quest向けプロジェクトを移植してみた",
+      "url": "https://zenn.dev/agilitizer_ltd/articles/07676169f68e6c",
+      "summary": "Unreal Engine 5.8の実験的機能「Unreal MCP」でAIにゲーム開発を手伝わせたく、Meta Quest向けプロジェクトをUE 5.4から5.8へ移行した記録です。使用中のMeta XRプラグインにUE 5.8対応版が見つからず、手元で移植する必要がありました。ビルド成功後も実機で問題が出て、描画の問題は回避策で対処し、最終的にQuest 3で動作しました。公式対応を示すものではなく、筆者の環境で確認できた範囲の記録です。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "AWS DevOps Agent に障害を調査させたら、仕込んだ脆弱性を特定してくれた話",
+      "url": "https://zenn.dev/secondselection/articles/_aws_devopsagent",
+      "summary": "脆弱性をわざと仕込んだWebアプリを攻撃し、人手なしでGitHub Issueが立つまでをAWS DevOps Agentで構築した事例です。APIが5XXを返したらDevOps Agentが調査を始め、結果をEventBridge経由でLambdaに渡してGitHub Issueに記載します。InspectorやBanditは、DevOps Agentを介さない点や課金範囲の広さから採用しませんでした。ユーザー検索APIの文字列連結によるSQLインジェクションをエージェントが特定し、Issueとして報告できました。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine! $2,850 in Prizes Across 21 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-2850-in-prizes-across-21-3cho",
+      "summary": "DEVの第4週ハロウィン向けチャレンジ「Hacktoberfest Open-Source AI Challenge: Ghost in the Machine!」の告知です。10月31日まで、オープンソースAIやオープンウェイトモデルを使った新規プロジェクトを作ります。21名の入賞者に総額2,850ドルの賞金が用意されています。シリーズ最終回で、各回は新規参加でも同条件で競えます。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Earned a Seat at GitHub Universe. It'll Stay Empty, and That's Not Fair",
+      "url": "https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k",
+      "summary": "GitHub Universeの最高賞を獲得したものの、事情により席が空席のままになってしまう理不尽さを綴った体験記です。筆者は多くの努力を重ねても報われないことがあると述べ、同じように就職や夢で苦労する人に向けて書いたとしています。AI技術そのものの解説ではなく、カンファレンスにまつわる個人的な不公平への思いが中心です。",
+      "category": "other",
+      "tags": [
+        "conference",
+        "github"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "MCP Token Cost: I Cut My MCP Server From 15 Tools to 4",
+      "url": "https://dev.to/aws-builders/mcp-token-cost-i-cut-my-mcp-server-from-15-tools-to-4-cek",
+      "summary": "GitHub公式MCPサーバーは93個のツール定義だけで約55,000トークンを消費し、200Kコンテキストの4分の1超を質問前に使うと指摘しています。筆者はAWS向けMCPサーバーを通常どおり作り、「アカウントの無駄なコストは？」の質問に7回のツール呼び出しが必要でした。そこでAWSのツール設計指針に沿い、同じサーバーを15ツールから4ツールに再設計しました。ツール数を絞ってトークンコストを下げる実測例で、GitHubコードと動画デモも公開されています。",
+      "category": "agent",
+      "tags": [
+        "discuss",
+        "mcp",
+        "aws",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I'm Not on the DEV Team. I Still Debugged Their Missing Badges From Public Code. (And My First Test Was Wrong.)",
+      "url": "https://dev.to/dj29/im-not-on-the-dev-team-i-still-debugged-their-missing-badges-from-public-code-and-my-first-test-18oo",
+      "summary": "DEVチームのメンバーではない筆者が、公開リポジトリforem/foremのコードだけを読み、複数コミットの貢献者バッジが誰にも付与されない原因を突き止めて修正を上流に送り、マージされました。最初に書いたテストは誤っており、通っていても嘘をつくことがあるという教訓を得ています。Ruby on Railsのテストの落とし穴を扱うオープンソース貢献の体験談で、AI支援で書かれた記事です。",
+      "category": "devtool",
+      "tags": [
+        "opensource",
+        "ruby",
+        "rails",
+        "testing"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine! $2,850 in Prizes Across 21 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-2850-in-prizes-across-21-3cho",
+      "summary": "DEVの第4週ハロウィン向けチャレンジ「Hacktoberfest Open-Source AI Challenge: Ghost in the Machine!」の告知です。10月31日まで、オープンソースAIやオープンウェイトモデルを使った新規プロジェクトを作ります。21名の入賞者に総額2,850ドルの賞金が用意されています。シリーズ最終回で、各回は新規参加でも同条件で競えます。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "New Relic AI Knowledge × Autopilot で「怪しいアクティビティ」を検知させてみた",
+      "url": "https://qiita.com/nr-mito/items/eca8767bb68723645e6d",
+      "summary": "New Relic AI Knowledgeに「正常なユーザーIDの基準」や「正規の外部通信先」などの業務文脈を登録し、Autopilot（旧SRE Agent）に怪しいアクティビティを分析させた検証です。PHP/Laravelのサンプルアプリに脆弱性を仕込み、デモ環境へ攻撃リクエストを送って検知できるかを試しました。AIが的確に推論するには、APMのカスタム属性やログから手がかりを渡し、正常の基準を与えることが重要だと説明しています。メトリクスの異常検知を超え、ドメイン文脈を持つセキュリティ分析を狙う内容です。",
+      "category": "security",
+      "tags": [
+        "NewRelic",
+        "生成AI",
+        "Security",
+        "初心者",
+        "PHP"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "実際に試したClaude便利術20選 まとめ",
+      "url": "https://qiita.com/N-Kyo/items/bf4a3a2185db2d28eee5",
+      "summary": "Claude Codeの便利機能20個を、1つのTerraformコードを通して実際に試した記録です。構成図画像から573行のTerraformが生成され、/goalでtrivyのHIGH/CRITICAL指摘を6件から0件にし、3つのサブエージェントに並列レビューさせてもなお設計上の指摘がHigh 3件出ました。CLAUDE.mdは「お願い」で守られないことがあり、permissionsとHooksは「強制」なので、terraform applyなど事故につながるルールは後者に置くべきだと述べています。静的解析とAIレビューの併用を勧めています。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "Claude",
+        "Terraform",
+        "AWS",
+        "生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「コードレビューは死ぬ、ターミナルも消える」——海外著名エンジニアが予測するAI時代のソフトウェア開発の未来",
+      "url": "https://qiita.com/softbase/items/fb72de63c975fcbbd2f6",
+      "summary": "Thorsten Ball氏が2026年9月に公開した「ソフトウェア開発の未来」に関する16の予測を整理し、現場エンジニアの視点で考察した記事です。コードレビューやユニットテストの消滅、ターミナルを人間が操作する時代の終わり、PM・デザイナー・エンジニアの役割分担の崩壊、AIトークンが計算の中心になること、UIのリアルタイム生成などが挙げられます。コードを書く価値は下がっても、ソフトウェアで問題を解決する能力の価値は高まるという主張が軸です。これは将来予測であり、実証済みの事実ではない点も注記されています。",
+      "category": "other",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ソフトウェア開発",
+        "AIエージェント",
+        "エンジニア"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "トークン代 9 割減？プロンプトキャッシュの仕組みと効果の実測 — 保持時間が過ぎるとコスト 11 倍に",
+      "url": "https://qiita.com/songchong/items/7144594b0ad9529a168b",
+      "summary": "プロンプトキャッシュの仕組みと効果を、Claude CodeとAntigravityで実測した記事です。キャッシュ読み込みはClaude Sonnet 5.5で通常入力の0.05倍、OpenAIのGPT-5.6以降やGemini 3.8 Flashで0.1倍と安くなりますが、割引対象は読み込み部分だけです。Claude Codeの2ターン目はトークンの93%がキャッシュから読まれたものの、費用の75%は新規部分のキャッシュ書き込みでした。保持時間（Claude Codeのサブスクリプションは約1時間）を過ぎてから再開すると、1ターンのコストが約11倍になります。",
+      "category": "infra",
+      "tags": [
+        "初心者",
+        "生成AI",
+        "LLM",
+        "Claude",
+        "OpenAI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Kimi Codeは遅い。それでも使い道を感じた理由",
+      "url": "https://qiita.com/Masaki_Cho/items/8a720994a14538883cda",
+      "summary": "Moonshot AIのKimi Code（Vivaceプラン、モデルはKimi K3）を提供を受けて試したPRレビューです。Claude Codeに近い操作感で、仕様設計から実装まで十分使えた一方、処理速度はかなり遅く、対話的な開発では不便でした。それでも利用枠が豊富なため、仕様が明確なタスクを長時間任せ、高速なモデルと役割分担する使い方に可能性を感じたとしています。使用感はすべて筆者個人のものです。",
+      "category": "devtool",
+      "tags": [
+        "Kimi",
+        "KimiCode",
+        "ClaudeCode",
+        "AI駆動開発",
+        "生成AI"
+      ]
+    }
+  ]
+}
