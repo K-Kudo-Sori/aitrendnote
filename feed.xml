@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-28T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月28日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28-news.html</id>
+    <updated>2026-10-28T00:00:00+09:00</updated>
+    <summary>Google DeepMindが世界モデル「Genie 4」を発表。音声対応で一貫性は最大2分に / AnthropicがSEC にS-1を提出し、Nasdaq（ティッカー ANT）でのIPOを申請 / OpenAIとAnthropicが指数時間仮説（ETH）の反証を主張し、研究コミュニティが検証へ / Anthropicが米GSAとの提携を拡大し、政府向けに40%割引を提供</summary>
+  </entry>
+  <entry>
     <title>2026年10月28日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13.html</id>
     <updated>2026-10-13T00:00:00+09:00</updated>
     <summary>AI時代の「道具論」：Rich Hickeyの「AIは道具ではない」とその反論が話題 / AIコーディングエージェントはレビューがボトルネックで出力増に直結しないとの研究 / Claude Haiku 5.5とClaude Motion公開など、Anthropicの新機能に関する国内記事が増加 / AIエージェントの鍵・認証情報の扱いに関する事故と検証が相次いで報告</summary>
-  </entry>
-  <entry>
-    <title>2026年10月12日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12-news.html</id>
-    <updated>2026-10-12T00:00:00+09:00</updated>
-    <summary>Mistral が約1兆パラメータの Large 4 をパブリックプレビューで公開、重みは10月末までに公開予定 / Anthropic の小型モデル Claude Haiku 5.5 が登場（100万トークン文脈、入力 $0.10/百万トークン） / Microsoft が意思決定スコアリング特化の Microsoft-Decision-1 を Foundry / OpenRouter で提供 / Google Docs / Drive が Markdown ファイルをネイティブ編集・プレビューに対応</summary>
   </entry>
 </feed>
