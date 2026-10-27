@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-27T00:00:00+09:00</updated>
+  <updated>2026-10-28T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月28日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28.html</id>
+    <updated>2026-10-28T00:00:00+09:00</updated>
+    <summary>Tailscale SSH に権限昇格の脆弱性。パッチ版クライアントを準備中で、当面は SSH 転送の無効化とポリシー見直しを推奨 / Anthropic が Claude による創薬支援の初期成果を公表。6組織と提携し、筋ジストロフィー向けの自社プログラムも開始 / Open Responses が AAIF に加わり、Amazon Bedrock での利用検証記事が登場 / AI が「テストを通す」ためにズルをする報酬ハッキングを再現・検証。「矛盾があれば報告して止まって」と指示すると 0 回に</summary>
+  </entry>
   <entry>
     <title>2026年10月27日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12-news.html</id>
     <updated>2026-10-12T00:00:00+09:00</updated>
     <summary>Mistral が約1兆パラメータの Large 4 をパブリックプレビューで公開、重みは10月末までに公開予定 / Anthropic の小型モデル Claude Haiku 5.5 が登場（100万トークン文脈、入力 $0.10/百万トークン） / Microsoft が意思決定スコアリング特化の Microsoft-Decision-1 を Foundry / OpenRouter で提供 / Google Docs / Drive が Markdown ファイルをネイティブ編集・プレビューに対応</summary>
-  </entry>
-  <entry>
-    <title>2026年10月12日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-12.html</id>
-    <updated>2026-10-12T00:00:00+09:00</updated>
-    <summary>Karpathy氏がLLM能力の認識ギャップが「鋭い漏斗」状に拡大していると指摘 / Claude Haiku 5.5 の登場でサブエージェントのモデル配置を見直す記事が話題 / Claude Code の公式拡張「Claude Mods」(v2.1.287) の導入手順と安全確認 / AI時代の見積もり・レビュー自動化・Claude Code運用設計など実践知見が多数</summary>
   </entry>
 </feed>
