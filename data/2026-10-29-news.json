@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026/10/29 8:04:31",
+  "highlights": [
+    "Anthropicが米SECにS-1を提出し、Nasdaq上場（ティッカー ANT）を計画",
+    "Google DeepMindが世界モデル Genie 4 を研究プレビューとして公開",
+    "GoogleがGemini/検索を外部アプリに開放する Connected Apps Platform を発表",
+    "NvidiaがオープンなTranscribeモデル Nemotron 3.5 Transcribe を公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、新規株式公開に向けて米SECにForm S-1を提出",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "summary": "Anthropic, PBCは2026年10月26日、Class A普通株式の新規株式公開に向けて米証券取引委員会にForm S-1を提出した。Nasdaqグローバル・セレクト市場にティッカー「ANT」で上場する計画。公募規模と価格帯は未定で、登録届出書はまだ有効ではなく、株式の販売はできない。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "GoogleのGenie 4ワールドモデル、音声・よりリアルな世界・リアルタイム操作に対応",
+      "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
+      "summary": "Google DeepMindは最新のワールドモデル Genie 4 を研究プレビューとして公開した。シミュレーション中にプロンプトで天候やカメラ角度の変更、オブジェクトの追加ができ、音楽・環境音・会話のリアルタイム音声も生成する。シーンの一貫性はGenie 3の2倍の最大2分間保たれる。現在は信頼できるテスターに限定され、数週間以内にGoogle AI Ultra購読者などへ展開予定。長時間での細部のずれなど課題も認めている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AIエージェントがウェブを再編する中、GoogleはGeminiと検索をより多くのアプリに開放",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "summary": "Googleは、企業や開発者が自社サービスをGeminiや検索のAI機能と連携できる「Connected Apps Platform」を開始した。米国の開発者向けにウェイトリスト制のベータ公開で、MCPサーバーまたはAppFunctions経由で統合する。Geminiには既に50以上の連携アプリがあり、今後数週間で検索にも展開される見込み。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "音声AIが注目：Nvidiaが新しいオープン文字起こしモデルを公開",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "summary": "Nvidiaは無償で使える文字起こしモデル Nemotron 3.5 Transcribe と、音声データセット Granary のバージョン2を公開した。数十言語に対応し、1時間の録音や最大8人の話者分離、31言語と英語間の翻訳が可能。ただし録音済み音声のみでライブストリームには非対応。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、企業向けにAI支出の成果を可視化するツールを発表",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "summary": "Anthropicは、管理者がチームの作業内容・成果物・コスト・ワークフローの詰まりを期間指定で確認できるレポートツール群を公開した。データはデフォルトではモデル学習に使わないとしている。あわせて、トークン支出を管理するためのグループ予算のプール機能も追加する。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Opera、ブラウザ内でAIをローカル実行できる新ウェブ標準「WebAI」を導入",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+      "summary": "Operaは、クラウドを介さずブラウザ上でAIモデルをローカル実行できる新標準 WebAI を発表した。GoogleのGemmaなどオープンウェイトモデルに対応し、MacではAppleのオンデバイス基盤モデルもサポートする。Opera Oneで早期プレビュー提供中で、利用にはオプトインが必要。性能は端末のハードウェアに依存する。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft、OpenAIからの収益100億ドルを計上",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "summary": "Microsoftは9月30日締めの四半期に、収益分配を含むOpenAIとの商業取引から100億ドルの収益を計上した。これは四半期総売上923億ドルの約11%にあたる。OpenAIへの出資比率は6月の約25%から9月に約24%へ低下し、両社は独占的な提携を緩めつつ顧客獲得で競合している。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-29-news"
+}

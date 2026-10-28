@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-29T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月29日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29-news.html</id>
+    <updated>2026-10-29T00:00:00+09:00</updated>
+    <summary>Anthropicが米SECにS-1を提出し、Nasdaq上場（ティッカー ANT）を計画 / Google DeepMindが世界モデル Genie 4 を研究プレビューとして公開 / GoogleがGemini/検索を外部アプリに開放する Connected Apps Platform を発表 / NvidiaがオープンなTranscribeモデル Nemotron 3.5 Transcribe を公開</summary>
+  </entry>
+  <entry>
     <title>2026年10月29日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14.html</id>
     <updated>2026-10-14T00:00:00+09:00</updated>
     <summary>Gemini 4 Argon、Chromeの大規模リファクタリングを数か月から数週間に短縮 / AnthropicがAI時代の開発基盤として独自VCS「Scion」を構築、1日のマージは3万件超 / Claude Haiku 5.5が単価1/10で登場、サブエージェント運用を見直す動き / 判断特化モデルJevが日本語校正やLLM-as-a-Judgeで速度・コスト面の優位を示す / Claude Code 2.1.296でShift-JISファイルの文字化け不具合が修正</summary>
-  </entry>
-  <entry>
-    <title>2026年10月13日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13-news.html</id>
-    <updated>2026-10-13T00:00:00+09:00</updated>
-    <summary>Meta が初のフロンティアモデル「Muse Wonder」を発表、API 提供も開始 / Microsoft の Nadella 氏が AI に「緊急ブレーキ」を求め、Brad Smith 氏も規制強化を主張 / AI を使った議事録・建築図面生成スタートアップの資金調達・新製品が相次ぐ</summary>
   </entry>
 </feed>
