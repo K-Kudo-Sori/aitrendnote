@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-28T00:00:00+09:00</updated>
+  <updated>2026-10-29T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月29日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29.html</id>
+    <updated>2026-10-29T00:00:00+09:00</updated>
+    <summary>Google が Gemini 4 Carbon を発表。長期エージェント業務とサイバーセキュリティを強化 / eMudhra の中間CA証明書で秘密鍵が極めて脆弱だった問題が判明 / AIエージェント時代の仕様書の書き方、レビュー、テストの落とし穴に関する実践記事が多数</summary>
+  </entry>
   <entry>
     <title>2026年10月28日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13-news.html</id>
     <updated>2026-10-13T00:00:00+09:00</updated>
     <summary>Meta が初のフロンティアモデル「Muse Wonder」を発表、API 提供も開始 / Microsoft の Nadella 氏が AI に「緊急ブレーキ」を求め、Brad Smith 氏も規制強化を主張 / AI を使った議事録・建築図面生成スタートアップの資金調達・新製品が相次ぐ</summary>
-  </entry>
-  <entry>
-    <title>2026年10月13日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-13.html</id>
-    <updated>2026-10-13T00:00:00+09:00</updated>
-    <summary>AI時代の「道具論」：Rich Hickeyの「AIは道具ではない」とその反論が話題 / AIコーディングエージェントはレビューがボトルネックで出力増に直結しないとの研究 / Claude Haiku 5.5とClaude Motion公開など、Anthropicの新機能に関する国内記事が増加 / AIエージェントの鍵・認証情報の扱いに関する事故と検証が相次いで報告</summary>
   </entry>
 </feed>

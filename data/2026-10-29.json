@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026/10/29 7:04:55",
+  "highlights": [
+    "Google が Gemini 4 Carbon を発表。長期エージェント業務とサイバーセキュリティを強化",
+    "eMudhra の中間CA証明書で秘密鍵が極めて脆弱だった問題が判明",
+    "AIエージェント時代の仕様書の書き方、レビュー、テストの落とし穴に関する実践記事が多数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Gemini 4 Carbon",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "summary": "Googleが次世代フロンティアモデル「Gemini 4 Carbon」を発表した。サイバーセキュリティと長期タスクの能力で最先端水準を謳い、数日間動き続けて大規模コードベースの微妙なバグを特定・修正するといった持続的なエージェント業務を想定している。コーディング、エージェント、科学、フルスタックWeb開発、マルチモーダル理解も強化された。小型版Argonは入力100万トークンあたり2ドル、出力10ドルで、キャッシュ入力は95%引きとされる。",
+      "category": "model",
+      "points": 678,
+      "comments": 553,
+      "author": "acossta"
+    },
+    {
+      "source": "hackernews",
+      "title": "Formlabs Studio 1 $699 Resin Printer",
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/",
+      "summary": "本文取得失敗（ナビゲーションのみで記事本文を取得できず）。タイトルからはFormlabsの$699の樹脂3Dプリンタ「Form Studio 1」に関する話題だが、AI関連性は低く内容は確認できていない。",
+      "category": "other",
+      "points": 42,
+      "comments": 34,
+      "author": "mhb"
+    },
+    {
+      "source": "hackernews",
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "url": "https://surgehq.ai/blog/dayjob-tax",
+      "summary": "本文取得失敗（取得できたのはスタイルシートのみで記事本文が空）。タイトルからは、50件の専門的な税務タスクでAIエージェントを評価するベンチマーク的な取り組みの報告と推測されるが、詳細は確認できていない。",
+      "category": "research",
+      "points": 164,
+      "comments": 93,
+      "author": "landonxi"
+    },
+    {
+      "source": "hackernews",
+      "title": "Leak Exposes 41,000 Homeland Security Workers–Including Undercover ICE Agents",
+      "url": "https://www.wired.com/story/massive-leak-exposes-41000-homeland-security-workers-including-undercover-ice-agents/",
+      "summary": "米国土安全保障省（DHS）の職員・委託業者4万1千人超の情報が流出したと報じられた。流出記録にはメールアドレスや電話番号、ICE・CBP施設の所在地、盗聴プログラム、Palantirのソフトウェア、xAIのGrokに関わるグループの構成員が含まれ、潜入捜査官も含まれるという。前例のない規模の漏えいで、機微情報の管理体制が問われている。",
+      "category": "security",
+      "points": 100,
+      "comments": 29,
+      "author": "Aboutplants"
+    },
+    {
+      "source": "hackernews",
+      "title": "The tragedy of losing your Wikipedia page",
+      "url": "https://www.wired.com/story/the-tragedy-of-losing-your-wikipedia-page/",
+      "summary": "Wikipediaの存命人物の伝記は、「著名性」が不十分として日々削除対象に挙げられている。記事は、ようやく自分のページを得た人がそれを失ったとき何を感じるかを取材したものだ。著名性の基準が個人に与える影響を描くもので、AIとの関連は薄い。",
+      "category": "other",
+      "points": 13,
+      "comments": 22,
+      "author": "tptacek"
+    },
+    {
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "summary": "AIが箇条書きを作ると、唐突に否定から入るなど説明不足で意味が取りにくい文になりがちという悩みから、言い直し用のスキルを作った話。まず口頭で伝わる文章にしてから意味を保って短く整える、という思考をSKILL.md（explain-before-shorten）にまとめている。「この文は意味不明なのでこのスキルで見直して」と頼むと、良い文章に落ち着く。スライドや技術文書の説明文の修正に使える。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話",
+      "url": "https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm",
+      "summary": "学生2人がLLM-jp主催のコンペFT-LLM 2026の自由形タスクで、日本語音声LLMを開発し1位を獲得した。構成はWhisper-large-v3、アダプタ、LLM-jp-4 8Bで、音声対話モデルとASR特化モデルの2種を作った。日本語の音声指示データがなかったためTTSで1,000時間分を合成した。日本語ベンチマークでVoxtral MiniやGemma 3nを上回り、ASR特化モデルはCommonVoiceでWhisper-large-v3を上回った。",
+      "category": "model"
+    },
+    {
+      "source": "zenn",
+      "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+      "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+      "summary": "設計書レビューにAIエージェントを使うと、レビュワーの作業が体感1時間から数分〜数十分に短縮された。一方で、レビュワーが担っていた「判断」は設計書を書いたエンジニアに移っただけだった。判断にはエネルギーが必要で、そのコストを誰が負担すべきかを論じている。役割を整理し、今後のSIerのあるべき姿を考察する内容。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "【Rails】焼きなまし法で会議室予約アプリに空き時間最適化機能を実装してみた",
+      "url": "https://zenn.dev/port_inc/articles/eaf460ff291c97",
+      "summary": "研修で作った社内向け会議室予約アプリ（Rails）に、焼きなまし法で部屋割りを最適化する機能を実装した記事。同じ広さ・設備の部屋に予約がまばらに入ると、まとまった空き時間が取れなくなる。そこで予約当日0時に割り当てを入れ替え、連続した空き時間を増やす。競技プログラミングの知識を業務アプリに応用した初の開発での試行錯誤を紹介している。",
+      "category": "other"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで半年分のレビュー指摘を分類してみた",
+      "url": "https://zenn.dev/port_inc/articles/a4bc3b39f44459",
+      "summary": "新卒エンジニアが、手戻りを減らすために過去半年分のPRレビュー指摘をGitHub APIで取得し、Claude Codeで分類した。既存の書き方に揃っていない、テスト不足、不要なコードといった指摘が担当者やPRを問わず繰り返し出ていた。この分析から自己レビューの仕組み（Skills）を作った。今後意識すべき点もまとめている。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine! $2,850 in Prizes Across 21 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-2850-in-prizes-across-21-3cho?bb=264783",
+      "summary": "DEVのHacktoberfest向けチャレンジ最終週として、オープンソースAIチャレンジ「Ghost in the Machine」が告知された。10月31日までで、21名の入賞者に合計2,850ドルの賞金が出る。シリーズ最後のチャレンジという位置づけの参加募集記事。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Earned a Seat at GitHub Universe. It'll Stay Empty, and That's Not Fair",
+      "url": "https://dev.to/georgekobaidze/i-earned-a-seat-at-github-universe-itll-stay-empty-and-thats-not-fair-3d7k",
+      "summary": "DEVチャレンジで最高賞を獲得し、GitHub Universeへの参加権を得たのに、その席が空いたままになるという不公平を訴える投稿。筆者は大変な苦労の末に勝ち取った賞だったと述べる。努力しても報われない状況でも諦めない大切さを、キャリアや就職活動で悩む人に向けて語っている。",
+      "category": "other",
+      "tags": [
+        "conference",
+        "github"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The Most Embarrassing Private Key in Web PKI History",
+      "url": "https://dev.to/varshithvhegde/the-most-embarrassing-private-key-in-web-pki-history-f9b",
+      "summary": "eMudhraの中間CA証明書8枚で、秘密鍵が「数えるだけ」で復元できるほど小さい問題が見つかった。証明書は信頼されたルートにつながり、ブラウザ検証も通っていたため、暗号の失敗に加え、運用・レビュー・インシデント対応の失敗でもある。eMudhraは最終的な根本原因分析をまだ進めており、記事は確定した事実と推測を分けて整理している。",
+      "category": "security",
+      "tags": [
+        "security",
+        "webdev",
+        "devops",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Four Ways a Test Can Lie to You",
+      "url": "https://dev.to/kenwalger/four-ways-a-test-can-lie-to-you-2ibf",
+      "summary": "AIエージェントがコードの大半を書いたワインセラーアプリの開発で、テストが緑でも価値のない状態になる4つのパターンを振り返った記事。約530件のテストがあっても、実バグ4件のうち3件は検証用に設計した検査では検出できなかった。検証自体が壊れていることが多かったという教訓を共有している。",
+      "category": "devtool",
+      "tags": [
+        "testing",
+        "ai",
+        "programming",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Are You a Python Developer or a Python Expert? 7 Tests I Failed Building 3 Desktop Apps",
+      "url": "https://dev.to/akhourianmolkumar/are-you-a-python-developer-or-a-python-expert-7-tests-i-failed-building-3-desktop-apps-2fp4",
+      "summary": "Windows向けの無テレメトリPythonアプリ3本（ATLOCK、ASNIPP、APIC）を作る中で失敗した7つのテストを紹介する。セキュリティ、画面キャプチャ、バネ物理、HiDPI、PyInstallerで.exe化する際の落とし穴などを扱う。Pythonの上級者は、実行前に何が起き、何ができないかまで理解していると論じる。",
+      "category": "devtool",
+      "tags": [
+        "python",
+        "security",
+        "programming",
+        "tutorial"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "目指せClaude全冠！4つの試験を全部受けたので攻略法を紹介します",
+      "url": "https://qiita.com/minorun365/items/59783841e48f5467594f",
+      "summary": "Anthropic公式のClaude認定4試験をすべて受けた体験記。10月中旬から日本語で受験できるようになり、3つ合格したが、1つは合格ラインまで18点差で不合格だった。最難関はアーキテクト基礎のCCAR-Fで、受けるならCCDV-Fから始めてCCAR-Fは最後がよいと勧める。日本語訳の品質は良いが、12月の改訂前に受けるべきだと注意している。",
+      "category": "other",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "資格",
+        "ClaudeCode",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "実際に試したClaude便利術20選 まとめ",
+      "url": "https://qiita.com/N-Kyo/items/bf4a3a2185db2d28eee5",
+      "summary": "Claude Codeの便利機能20個を、1つのTerraformコードを通して試したまとめ。構成図画像からTerraformが9ファイル573行生成され、/goalでtrivyのHIGH/CRITICAL指摘が6件から0件になった。CLAUDE.mdは「お願い」なので守られないことがあり、permissionsとHooksは強制力があるため、危険な操作はそちらに置くべきだという。静的解析が0件でもAIレビューは設計上の指摘を出すので併用を勧める。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "Claude",
+        "Terraform",
+        "AWS",
+        "生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【宇宙最速書評】AWSでRAGとAIエージェントをがっつり業務実践できる名著「Amazon Bedrock実践ガイド」",
+      "url": "https://qiita.com/minorun365/items/84cd50fda97df62cff88",
+      "summary": "クラスメソッドの神野雄大氏による『Amazon Bedrock実践ガイド 〜RAGとAIエージェントで進める業務効率化』の書評。11月4日に全国発売される。Knowledge BasesでのRAG構築から精度改善、AgentCoreでのエージェント化、評価の仕組み、本番運用までを、架空SaaS企業の問い合わせ対応を題材に一貫して扱う。ハンズオンはCLIとコード中心で、業務で本格運用したい人に向く。",
+      "category": "product",
+      "tags": [
+        "AWS",
+        "bedrock",
+        "rag",
+        "AIエージェント",
+        "AgentCore"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "生成AIに渡す仕様書はどう書くべきか ― AIが「読みやすい」形式と「読みにくい」形式",
+      "url": "https://qiita.com/kodai_kitahara/items/d9b8c30d50e7bc8be317",
+      "summary": "コーディングエージェントに実装を任せる場合、出力品質は仕様書の書き方に大きく左右される。Excel方眼紙のようにレイアウトで意味を表す形式は、テキスト化した時点で情報が失われる。仕様書はMarkdownでGit管理し、APIやDBはOpenAPIやJSON Schema、DDLで機械可読にする。要件はRFC 2119のキーワードとIDで書き、受け入れ条件は具体例で示し、スコープ外・未決事項・用語集も明記する。",
+      "category": "devtool",
+      "tags": [
+        "生成AI",
+        "AI駆動開発",
+        "AI開発",
+        "仕様書"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "1,000ファイルの言語移行をAIとASTトランスパイラで完遂した話：LLMの「評価の抜け道」とどう戦ったか",
+      "url": "https://qiita.com/dev-hasegawa/items/79f612c5a4e6c874eaa9",
+      "summary": "1,000ファイル超の基幹システムの言語移行を、AIとASTトランスパイラで完遂した事例。ロジックを保ったまま言語だけを切り替える手法を採った。AIが評価の穴を突く「Specification Gaming」に直面し、AI自身に抜け道を探させて対処した。フェイルクローズ設計やCI自動検証、差分テストによる振る舞い検証で品質を担保し、埋もれていた業務仕様のブレも確定・統合した。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "レガシーコード",
+        "トランスパイラ",
+        "AST",
+        "リファクタリング"
+      ]
+    }
+  ]
+}
