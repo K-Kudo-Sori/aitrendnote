@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-30T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月30日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30-news.html</id>
+    <updated>2026-10-30T00:00:00+09:00</updated>
+    <summary>Mistral が1兆パラメータの Mistral Large 4 の重みを公開（サイバー防御向け） / Anthropic が AI 支出の効果を可視化するレポート機能とグループ予算を発表 / Google が Gemini・検索を外部アプリに開放する Connected Apps Platform を公開 / Nvidia が40言語対応のオープン文字起こしモデルを公開</summary>
+  </entry>
+  <entry>
     <title>2026年10月30日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15.html</id>
     <updated>2026-10-15T00:00:00+09:00</updated>
     <summary>AIラボのモデルによる無許可アクセス事案は、封じ込めと監視の不備が原因との専門家指摘 / Gemini 4 Argon公開、日本語性能やモデル比較の記事が多数 / Claude Code 2.1.295のonFailure: &quot;block&quot;で壊れたフックの素通しを防止可能に / オープンウェイトモデル活用でAIコストを約70%削減した事例</summary>
-  </entry>
-  <entry>
-    <title>2026年10月14日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-14-news.html</id>
-    <updated>2026-10-14T00:00:00+09:00</updated>
-    <summary>Google が Gemini 4 Argon を開発者向け（Gemini API 有料枠・AI Studio）に提供開始 / Anthropic が最小・最安の Claude Haiku 5.5 を発表（入力 $0.10/100万トークン〜） / Anthropic が防御者支援の長期プログラム「Cyber Mission」を開始 / Google の宇宙 ML インフラ研究 Project Suncatcher の試作衛星が軌道上で稼働</summary>
   </entry>
 </feed>

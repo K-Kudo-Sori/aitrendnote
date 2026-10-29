@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026/10/30 8:03:33",
+  "highlights": [
+    "Mistral が1兆パラメータの Mistral Large 4 の重みを公開（サイバー防御向け）",
+    "Anthropic が AI 支出の効果を可視化するレポート機能とグループ予算を発表",
+    "Google が Gemini・検索を外部アプリに開放する Connected Apps Platform を公開",
+    "Nvidia が40言語対応のオープン文字起こしモデルを公開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Mistral、サイバーセキュリティ向け1兆パラメータモデルの重みを公開",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "summary": "Mistral は1兆パラメータのモデル Mistral Large 4（ML4）の重みを Hugging Face と API で公開した。企業・政府向けの「ソブリンなサイバー防御能力」を打ち出しており、オープンウェイトにより自社インフラへの展開が可能になる。ライセンスの詳細は記事中では明記されていない。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、企業向けにAI支出の成果を可視化するツールを公開",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "summary": "Anthropic は、チームの成果・コスト・ワークフロー内訳を期間指定で確認できるレポート機能を発表した。あわせてトークン支出を管理するためのプール型グループ予算も追加する。データはデフォルトでモデル学習には使わないとしている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、GeminiとSearchをより多くのアプリに開放する「Connected Apps Platform」",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+      "summary": "Google は事業者が自社サービスを検索や Gemini アプリの AI 機能と連携させられる Connected Apps Platform を開始した。Gemini には既に50以上の連携アプリがあり、検索にも数週間かけて追加される。米国の開発者向けにウェイトリスト制の公開プレビューで、一般提供時期は未定。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Nvidia、40言語対応のオープン文字起こしモデル「Nemotron 3.5 Transcribe」を公開",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+      "summary": "Nvidia は無償のオープンウェイト音声認識モデルを、音声データセット Granary v2 とともに公開した。最大40言語に対応し、1時間までの録音と最大8人の話者識別が可能。300億パラメータで単一チップ上で動作し、Open ASR Leaderboard などで競合を上回ると主張している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Deepgram、Pipecat開発元のDailyを買収し音声AIインフラを強化",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "summary": "Deepgram は、オープンソースの音声AIフレームワーク Pipecat を手がける Daily の買収を発表した（金額は非公表）。Pipecat は今後もオープンソースかつベンダー中立で維持される。あわせて Pipecat チームと共同開発したオープンプロトコル「Real-Time Context Standard」も発表した。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Microsoft、OpenAIとの商業契約から四半期で約100億ドルの売上を計上",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "summary": "Microsoft は2026年9月30日締めの四半期で、OpenAI との商業取引（収益分配を含む）から約100億ドルの売上を計上し、これは総売上923億ドルの約11%にあたる。通期では241億ドル、OpenAI への債権は72億ドルに増加した。Microsoft の OpenAI 持株比率は6月の約25%から9月に24%へ低下した。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-10-30-news"
+}
