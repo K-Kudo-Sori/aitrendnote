@@ -1,0 +1,229 @@
+{
+  "date": "2026-10-30",
+  "generatedAt": "2026/10/30 7:04:53",
+  "highlights": [
+    "Claude Code のセキュリティ対策・QA活用・スキル活用など、エージェント運用の実践記事が日本語圏で多数",
+    "AI支援とされる中国系キャンペーンが PAN-OS ファイアウォール25台を侵害した事例が報告された",
+    "マルチエージェントのスウォームをゲーム環境で観察する研究が公開された"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "summary": "マルチエージェントの挙動理解はAIアラインメントの重要課題だとして、Olam Labsと共同でMinecraftとMindustryでエージェント群の実験を行った報告。エージェントの群れは役割や階層などの創発的な協調を示し得て、有用にも危険にもなり得ると述べている。Minecraftは環境の危険や食料・住居確保といった生存目標があり、群れの研究に適した環境だと説明している。",
+      "category": "research",
+      "points": 15,
+      "comments": 4,
+      "author": "sandslash"
+    },
+    {
+      "source": "hackernews",
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "summary": "Martin Fowler による短い記事。読んでいるうちにLLMが書いた文章だと感じる「LLMの声」の不気味さについて論じている。判別ツールは精度への懐疑に加え、本質ではないとして距離を置いている。この反応は人間的な感覚であり、文章の不気味の谷だという立場である。",
+      "category": "other",
+      "points": 281,
+      "comments": 152,
+      "author": "ibobev"
+    },
+    {
+      "source": "hackernews",
+      "title": "Chained PHP2Shell exploit roots 25 servers, including US Government servers",
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers",
+      "summary": "Dream Researchが、10月25日にAI支援と思われる中国系キャンペーンの痕跡を発見したと報告している。カスタムのPHP2Shellエクスプロイトとカーネル権限昇格を連鎖させ、Palo Alto NetworksのPAN-OSファイアウォールを含む25台のサーバーでroot権限を奪取していた。米政府系のシステムも含まれる。調査はベンダーと協力して進められ、追記で詳細が更新されている。",
+      "category": "security",
+      "points": 252,
+      "comments": 115,
+      "author": "882542F3884314B"
+    },
+    {
+      "source": "hackernews",
+      "title": "IgE disruptor for food allergy with Claude-enabled antibody design [pdf]",
+      "url": "https://divergencelabs.com/publications/ige-preprint.pdf",
+      "summary": "本文取得失敗（PDFのバイナリが取得され、テキストを読み取れなかった）。タイトルからは、Claudeを用いた抗体設計による食物アレルギー向けIgE阻害剤に関するPDF資料とみられるが、内容は確認できていない。",
+      "category": "research",
+      "points": 24,
+      "comments": 12,
+      "author": "matco11"
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "url": "https://news.ycombinator.com/item?id=50291116",
+      "summary": "YC F26のSimanticが、ハードウェアなしでファームウェアをテスト・検証できるシミュレーション層を提供すると発表した。創業者はNeuralinkやTeslaでファームウェアに携わった元エンジニアである。エンジニアだけでなくAIエージェントも対象として、実機に依存しない検証を可能にすることを狙っている。",
+      "category": "product",
+      "points": 43,
+      "comments": 12,
+      "author": "shong0504"
+    },
+    {
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "summary": "自作ツールでMarkdownからスライドを作る際、AIが箇条書きで「〜を意味するわけではありません」のように否定から入る説明を出しがちだという問題意識の記事。これを直すためのスキルを作った経緯を紹介している。更新履歴では「否定形を使うな」というルールを追加している。AIの文章の癖をスキルで矯正する実践例である。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+      "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+      "summary": "商用システム開発で設計書レビューをAIエージェントに任せた取り組みの記事。レビュワーの作業は体感1時間程度から数分〜数十分に短縮された。一方で、レビュワーが担っていた「判断」は設計書を書いたエンジニアに移っただけだったと指摘する。判断にはエネルギーが要るため誰がそのコストを負うべきかを問い、SIerの今後の役割を考察している。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "Auto mode時代のClaude Codeを守る。検証済み10キットで始めるセキュリティ対策【全員・チーム・組織別】",
+      "url": "https://zenn.dev/sonicmoov/articles/67aaeb49be69ec",
+      "summary": "手元のPCで動くClaude Code自体を守る方法をまとめた記事で、前回のGitHub向けセキュリティ記事の続編である。Claude Codeはファイルを読み、コマンドを実行し、外部と通信できるため、悪意ある指示の読み込みや判断ミスがリスクになる。検証済みの10キットを用いた対策を、全員・チーム・組織の単位に分けて紹介している。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで「QAチーム」を組んだら、効いたのは「捨てる仕組み」だった ― AIだけが見つけた不具合・見逃しは？",
+      "url": "https://zenn.dev/sre_holdings/articles/d4acb079680a79",
+      "summary": "Claude CodeでAIのQAチームを組み、社内の業務SaaSで1か月間、手動の機能テストを回した結果の報告。AIだけが見つけた不具合、AIが見逃した不具合、AIが自信満々に出してきた誤りを紹介している。タイトルのとおり、誤りを「捨てる仕組み」が効いたとしている。AIの「できました」をどこまで信用するかという問いに答える内容である。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "学生2人で日本語音声LLMを作り、FT-LLM 2026 自由形タスクで1位を獲得した話",
+      "url": "https://zenn.dev/ayutaso/articles/ftllm2026-ja-speech-llm",
+      "summary": "LLM-jp主催のコンペFT-LLM 2026の自由形タスクに参加し、LLM-jp-4 8Bをベースに日本語音声LLMを開発して1位を獲得した参加記録である。NLP2026のワークショップで表彰された。国産LLMをベースに音声で指示できるオープンなモデルとしては、著者らの調べた限り初の成果だと述べている。",
+      "category": "model"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Hacktoberfest Open-Source AI Challenge: Ghost in the Machine! $2,850 in Prizes Across 21 Winners.",
+      "url": "https://dev.to/devteam/join-the-hacktoberfest-open-source-ai-challenge-ghost-in-the-machine-2850-in-prizes-across-21-3cho?bb=264786",
+      "summary": "DEVのHacktoberfest企画の第4週、最終チャレンジの告知記事。テーマは「Ghost in the Machine」で、10月31日まで開催される。賞金は合計2,850ドルで、21名の入賞者が選ばれる。オープンソースAIを使った作品の投稿を募っている。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Ghost in the Shell: Can a Log File Hijack an AI?",
+      "url": "https://dev.to/gramli/ghost-in-the-shell-can-a-log-file-hijack-an-ai-3gk",
+      "summary": "ハロウィン向けの小さな実験として、ログファイルを通じてAIによるログ解析を乗っ取れるかを試した記事。反復的な攻撃によって、ログ解析がうまく汚染（ポイズニング）されたと報告している。ログのような一見無害なデータにもプロンプトインジェクションの経路があり得ることを示している。",
+      "category": "security",
+      "tags": [
+        "ai",
+        "security",
+        "halloween",
+        "promptengineering"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "No Human Will Ever Write Code Better Than LLMs? Better at What?",
+      "url": "https://dev.to/dannwaneri/no-human-will-ever-write-code-better-than-llms-better-at-what-1dme",
+      "summary": "「人間がLLMよりうまくコードを書くことはもうない」というツイートへの反論記事。「better（より良い）」という単一の指標が曖昧で欠陥のある尺度だと指摘している。何についてどう良いのかを分解して考えるべきだと論じ、プログラミングやキャリアへの影響にも触れている。",
+      "category": "other",
+      "tags": [
+        "ai",
+        "programming",
+        "softwareengineering",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Almost Paid ₹1,499 for Prime Video I Never Use. An Open-Source AI Model Caught It.",
+      "url": "https://dev.to/sarvar_04/i-almost-paid-1499-for-prime-video-i-never-use-an-open-source-ai-model-caught-it-1egm",
+      "summary": "Hacktoberfest Open-Source AI Challenge 第4週への投稿作品。使っていないPrime Videoに1,499ルピーを支払いそうになった経験から、オープンソースのAIモデルで不要な課金を検知する仕組みを作った内容である。大学時代からの課題意識をきっかけにしたと述べている。",
+      "category": "product",
+      "tags": [
+        "discuss",
+        "devchallenge",
+        "hf26challenge",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Four Ways a Test Can Lie to You",
+      "url": "https://dev.to/kenwalger/four-ways-a-test-can-lie-to-you-2ibf",
+      "summary": "AIエージェントがコードの大半を書いたアプリを検証した経験から、テストが緑でも価値がない状況を論じた記事。Sanity DEV Challengeで「The Cellar」が Path Two を受賞した経緯を背景に、小さなアプリを検証して分かったことをまとめている。テストが誤った安心感を与える4つのパターンを紹介している。",
+      "category": "devtool",
+      "tags": [
+        "testing",
+        "ai",
+        "programming",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "目指せClaude全冠！4つの試験を全部受けたので攻略法を紹介します",
+      "url": "https://qiita.com/minorun365/items/59783841e48f5467594f",
+      "summary": "Claude認定（Claude Certified）の4つの試験をすべて受けた体験と攻略法の記事で、Claude Codeが著者に代わって執筆した形式をとっている。公式資格はClaude Partner Network加盟企業の人が受験でき、10月中旬から日本語でも受けられるようになった。著者は約2週間で4試験を受験し、3つに合格したという。実務に活きるベストプラクティスを問う良質な内容だと評価している。",
+      "category": "product",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "資格",
+        "ClaudeCode",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「AIっぽいデザイン」はなぜ消えないのか ── Impeccableを読み解いて、同じ依頼で4通り作って比べた",
+      "url": "https://qiita.com/jinxin4869/items/0e72c0b925b75f1c28c9",
+      "summary": "AIが作るランディングページに感じる「見慣れた感じ」を取り除くスキルImpeccableを取り上げた記事。解説動画2本とGitHubのリポジトリを読み、同じ依頼文で4通りのページを作って比較している。素のClaude Codeで作ったページとImpeccableを使ったページの違いを検証している。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "生成AI",
+        "Design",
+        "フロントエンド",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Xで話題の、原文をたどってドメイン知識を集めるスキル「imozuru」を普通のAI検索と比べてみた",
+      "url": "https://qiita.com/inoyu-qiita/items/4fc91ba7f67d6763960e",
+      "summary": "知らない分野のドメイン知識を原文から芋づる式に集めるClaude Codeスキル「imozuru」を、通常のAI検索と比較した記事。通常のAI検索はきれいな答えが速く返るが、検索上位の記事の要約にすぎないのではという引っかかりがある。知らない分野ほど説明の正しさを自分で判断できない点を課題として挙げ、その分野での呼び名や専門用語を原文から探せるかを検証している。",
+      "category": "agent",
+      "tags": [
+        "ClaudeCode",
+        "codex",
+        "生成AI",
+        "AI",
+        "AI活用"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIはどれくらい動画編集ができるのか!? Claude CodeでYouTube動画編集した話",
+      "url": "https://qiita.com/tsukasa_japan/items/b8bca096170d087e271d",
+      "summary": "Sapeetのアルゴリズムエンジニアが、YouTube動画制作を始めるにあたりClaude Codeで動画編集を試した体験記。同社はClaude DesignをテーマにしたYouTube Liveなども行ってきた。AIがどこまで動画編集をこなせるかを実際の制作を通じて確かめている。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "YouTube",
+        "＃動画編集",
+        "#生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【Oracle】OAW2026 アプリケーションのセキュリティは、アプリケーションコードを書かずAPEXlangで守る",
+      "url": "https://qiita.com/nisshii0/items/d68f789f6c9f9b6307a7",
+      "summary": "Oracle AI World 2026のDB Product Spotlightで、Juan Loaizaが「Oracle Deep Trust AI Architecture」を発表したことを紹介する記事。AIによるアプリ開発にはハルシネーションやセキュリティ欠陥、見せてはいけないデータへのアクセスといった課題がある。「信頼は後付けできず、アーキテクチャに組み込む」という方針のもと、APEXlangでアプリケーションコードを書かずにセキュリティを守る方法を述べている。",
+      "category": "security",
+      "tags": [
+        "oracle",
+        "oracleloud",
+        "Apex",
+        "oracle26ai"
+      ]
+    }
+  ]
+}
