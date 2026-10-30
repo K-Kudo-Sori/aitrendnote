@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026/10/31 7:04:35",
+  "highlights": [
+    "Cursor Marketplace上のClaude Code for VS Code拡張2.1.313にSSHバックドアが混入していたとPhorionが報告",
+    "Claude Codeの安全運用（Auto mode向けセキュリティ対策）やQAチーム化など、実践的な活用記事が目立つ",
+    "AI導入で変わる開発組織・SREのスキル劣化など、組織面の議論も活発"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "summary": "セキュリティ企業Phorionが、Cursor Marketplace上の公式Claude Code for VS Code拡張のバンドルにSSHバックドアが仕込まれていたと報告した。対象はバージョン2.1.313で、macOS・Linux・Windowsで永続化を試みる。拡張機能はIDEと同じ権限で動くため、ローカルのファイルやソースコードに即座にアクセスされ得る。Cursorは該当リリースを削除し、NPMとVS Codeの2.1.313も取り下げられた。利用組織は環境を確認し、該当する場合はインシデント対応を行うよう勧告されている。",
+      "category": "security",
+      "points": 674,
+      "comments": 431,
+      "author": "_chall"
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "url": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "summary": "本文取得失敗（記事ページがボット対策の認証画面で表示できなかった）。タイトルからは、BlackstoneがAnthropicのIPO後に投資適格格付けを得られない可能性を指摘したという内容とみられるが、本文で確認できていない。",
+      "category": "product",
+      "points": 235,
+      "comments": 174,
+      "author": "petethomas"
+    },
+    {
+      "source": "hackernews",
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "summary": "俳優パトリック・スチュワートの訃報を受け、『新スタートレック』のピカード艦長役を中心にその功績を振り返る追悼記事。家族によればアルツハイマー病とレビー小体型認知症を患っていたという。X-MENシリーズや長年の舞台での活躍にも触れている。AI技術そのものを扱う記事ではなく、スクレイピング時にAI関連として拾われたものと思われる。",
+      "category": "other",
+      "points": 74,
+      "comments": 21,
+      "author": "apress"
+    },
+    {
+      "source": "hackernews",
+      "title": "Building an AI-native engineering org",
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+      "summary": "FurtherAIでの約9か月の経験から、AIネイティブなエンジニア組織の作り方をまとめた記事。1月以降、エンジニア1人あたりの1日のマージ数が約5倍になり、リバート率は0.5%未満に保たれているという。ただしコーディングエージェントを配るだけではこの成果は出なかったと述べ、出荷方法の変化と組織運営上の学びを共有している。エンジニアリングマネージャーのAIスキル評価に関する問いも話題の発端になっている。",
+      "category": "product",
+      "points": 80,
+      "comments": 102,
+      "author": "sgondala_ycapp"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI isn't replacing SREs, it's deskilling them",
+      "url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+      "summary": "SigNozのニュースレターで、AIがインシデント対応の95%を処理するとき、本当に重要な残り5%への対応力が落ちるのではないかと問う記事。AIはSREを置き換えるのではなく、スキルを劣化させるリスクがあるという主張である。自動化への過度な依存が、障害時の判断力や運用スキルに与える影響を論じている。",
+      "category": "infra",
+      "points": 433,
+      "comments": 319,
+      "author": "dorianniemiec"
+    },
+    {
+      "source": "zenn",
+      "title": "AI の謎な説明文を直すスキル",
+      "url": "https://zenn.dev/microsoft/articles/explain-before-shorten",
+      "summary": "AIに箇条書きを作らせると、唐突に否定から入るなど説明不足で不自然な文章になりがちだという悩みから、それを直すスキルを作った話。著者は自作のMarkdownスライドツールで資料を作る際にこの問題に直面した。2026/10/29には「否定形を使わない」というルールを追加している。AIの出力文章を整えるためのルール化の事例として参考になる。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介",
+      "url": "https://zenn.dev/layerx/articles/a277f83a93d300",
+      "summary": "LayerXのAi Workforce事業部が内製したリモートコーディングエージェント環境「yoro」の紹介記事。Slackや手元のエージェント、自社プロダクトから依頼を渡すと、本人専用のリモート開発環境でAnthropicのClaude Codeなどが作業する仕組みである。Kubernetes上で動かしており、同社バクラク事業部の内製Background Coding Agent「haro」に近い取り組みとして紹介されている。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+      "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+      "summary": "AIによる設計書レビューで、レビュワーの作業が体感1時間程度から数分〜数十分に短縮された事例。一方で、レビュワーが担っていた「判断」は設計書を書いたエンジニア側に移っただけだったと指摘している。判断にはエネルギーが要るため、そのコストを誰が負担すべきかを問う。役割の整理を通じて、SIerの今後のあるべき姿を考察している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Auto mode時代のClaude Codeを守る。検証済み10キットで始めるセキュリティ対策【全員・チーム・組織別】",
+      "url": "https://zenn.dev/sonicmoov/articles/67aaeb49be69ec",
+      "summary": "手元のPCで動くClaude Code自体を守るためのセキュリティ対策をまとめた記事。Claude Codeはファイルを読みコマンドを実行するため、Auto mode時代には保護の重要性が増すという前提に立つ。検証済みの10種類のキットを、全員向け・チーム向け・組織向けに分けて紹介する。前回の「GitHubセキュリティ対策」記事の続編にあたる。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで「QAチーム」を組んだら、効いたのは「捨てる仕組み」だった ― AIだけが見つけた不具合・見逃しは？",
+      "url": "https://zenn.dev/sre_holdings/articles/d4acb079680a79",
+      "summary": "Claude Codeで「AIのQAチーム」を組み、社内の業務SaaSで1か月、手動の機能テストを回した検証の報告。AIの「できました」をどこまで信用できるかという不安が出発点になっている。タイトルによれば、成果を左右したのは誤った指摘などを捨てる仕組みだった。AIだけが見つけた不具合や見逃しについても検証している。Playwrightを使ったテストの事例でもある。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)",
+      "url": "https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-become-and-how-we-built-an-ai-to-catch-it-5gin",
+      "summary": "航空券やチケットの購入時などに遭遇する、ユーザーを欺くような不快なWebデザイン（ダークパターン）を批判する記事。著者らはそれを検出するAIを作ったと紹介している。技術スタックの詳細も記載され、Geminiを利用している。ユーザー体験を守るためにAIで悪質なUIを見つけるという試みである。",
+      "category": "product",
+      "tags": [
+        "discuss",
+        "showdev",
+        "webdev",
+        "gemini"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Giving AI Pain: The Architecture of Synthetic Scars & The Rapid-Regret Miner",
+      "url": "https://dev.to/gde/giving-ai-pain-the-architecture-of-synthetic-scars-the-rapid-regret-miner-1740",
+      "summary": "「Synthetic Scars」シリーズの一編で、AIコーディングエージェントが同じミスを繰り返す問題に対し、AIに「痛み」を与えることで学習させるアーキテクチャを論じる。過去の失敗を傷跡のように記録して再発を防ぎ、「Rapid-Regret Miner」で後悔につながる失敗パターンを抽出するという発想である。シリーズでは、エージェントが想定外の状況で深夜に落ちる問題なども扱っている。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "programming",
+        "architecture",
+        "unix"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Ghost in the Shell: Can a Log File Hijack an AI?",
+      "url": "https://dev.to/gramli/ghost-in-the-shell-can-a-log-file-hijack-an-ai-3gk",
+      "summary": "Hacktoberfestのテーマ「Ghost in the Machine」に着想を得た、ハロウィン向けの小さな実験記事。ログファイルに細工を仕込むことで、AIによるログ解析を乗っ取れるかを試している。見出しによれば、繰り返し試行した攻撃でログ解析が汚染されることに成功したという。ログ経由のプロンプトインジェクションという観点で、AI運用の注意点を示している。",
+      "category": "security",
+      "tags": [
+        "ai",
+        "security",
+        "halloween",
+        "promptengineering"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "From One Chatbot to Five Agents: My AWS Agent Engineer Nanodegree",
+      "url": "https://dev.to/earlgreyhot1701d/from-one-chatbot-to-five-agents-my-aws-agent-engineer-nanodegree-69i",
+      "summary": "AWS Agent Engineerのナノ学位を修了した体験記。架空のオンラインストアのカスタマーサポートを題材に、チャットボット、単一エージェント、そして5エージェント構成へと段階的に3つの課題を進めた。満点の120/120を取っても手作業での確認が必要だという点を強調している。マルチエージェント設計を学ぶ過程で得た教訓をまとめている。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "aws",
+        "agents",
+        "learning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "My open source project is brand new and already has contributors. Here's what I did.",
+      "url": "https://dev.to/nathan_tarbert/my-open-source-project-is-brand-new-and-already-has-contributors-heres-what-i-did-3fb4",
+      "summary": "DevRelの著者が、公開したばかりのオープンソースプロジェクトに早くもコントリビューターが集まった経緯を共有する記事。Hacktoberfestの最終日にあわせ、オープンソースとビルド・イン・パブリックの経験を語っている。普段は初めて貢献する人を支援する仕事をしており、その知見を活かした工夫が紹介されている。AI関連のプロジェクト運営事例である。",
+      "category": "other",
+      "tags": [
+        "opensource",
+        "github",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Codex のいいところだけを、Claude Code や Muse から使う",
+      "url": "https://qiita.com/tatsuya582/items/4d79021c9f78f4015992",
+      "summary": "Claude Code、MetaのMuse、DeepSeek Harnessを使い分けている筆者が、Codexの良い部分だけを他のツールから使う方法を紹介する。特にComputer Use（Macのアプリ操作）とMeetings（会議の録音・議事録）が使いやすいと評価している。従来はCodexのモデルに操作を頼む必要があり、サブエージェントとして任せる形だった。その制約を避けるためMCPで連携する工夫を述べている。",
+      "category": "agent",
+      "tags": [
+        "生成AI",
+        "ClaudeCode",
+        "AIエージェント",
+        "MCP",
+        "codex"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「AIっぽいデザイン」はなぜ消えないのか ── Impeccableを読み解いて、同じ依頼で4通り作って比べてみた",
+      "url": "https://qiita.com/jinxin4869/items/0e72c0b925b75f1c28c9",
+      "summary": "AIにランディングページを頼むと整ってはいるが見慣れた「AIっぽい」デザインになる理由を探る記事。AIっぽさを取り除くスキル「Impeccable」を、解説動画2本とGitHubリポジトリから読み解いている。同じ依頼を4通りの方法で作らせて比較し、違いを検証した。Claude Codeを使ったフロントエンド制作の改善策として参考になる。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "生成AI",
+        "Design",
+        "フロントエンド",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "研修中の僕がSlackに海外のIT情報を運ぶbotを作ったら、だいたい何が起きたか",
+      "url": "https://qiita.com/EricYu/items/147bf8e5fdb1b04f6d54",
+      "summary": "海外のIT情報を日本語要約付きでSlackに流すbotを、研修中に作って2か月運用した記録。TypeScript、GitHub Actions、Bedrock上のClaude Haikuで構成し、月100円未満で動いている。構成の紹介が半分、「動くけれど読まれない」状態を何度も乗り越えた過程が半分という内容である。低コストなLLM運用の実例として参考になる。",
+      "category": "product",
+      "tags": [
+        "TypeScript",
+        "LLM",
+        "GitHubActions",
+        "Slack",
+        "bedrock"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIはどれくらい動画編集ができるのか!? Claude CodeでYouTube動画編集した話",
+      "url": "https://qiita.com/tsukasa_japan/items/b8bca096170d087e271d",
+      "summary": "Sapeetのアルゴリズムエンジニアが、Claude CodeでYouTube動画の編集をどこまで任せられるかを試した体験記。同社はこれまでClaude DesignをテーマにYouTube Liveを行っており、今回は動画制作を始める一環として取り組んだ。「研究室感」「部活感」を大切にする社風を発信する目的がある。コーディング以外の用途でのClaude Code活用例である。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "YouTube",
+        "＃動画編集",
+        "#生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "GitHub Copilot SDK の追悼式場を Azure で作ってみた（300 人が同時に押しても数が欠けない構成）",
+      "url": "https://qiita.com/shahin0809/items/d337af6f1b64a9c6ae53",
+      "summary": "GitHubのChangelogで「GitHub Copilot SDKがMicrosoft Copilot SDKになる」と発表されたことを受け、旧名称を悼む追悼式場のWebアプリをAzureで作った記事。Azure Static Web Apps、Azure Functions、Table Storageを使い、300人が同時に押しても数が欠けない構成を紹介している。Geminiも利用している。ユーモアを交えた同時実行制御の実装例である。",
+      "category": "infra",
+      "tags": [
+        "Azure",
+        "AzureFunctions",
+        "AzureStaticWebApps",
+        "Gemini",
+        "TableStorage"
+      ]
+    }
+  ]
+}

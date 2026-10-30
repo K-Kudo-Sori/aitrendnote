@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-30T00:00:00+09:00</updated>
+  <updated>2026-10-31T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年10月31日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31.html</id>
+    <updated>2026-10-31T00:00:00+09:00</updated>
+    <summary>Cursor Marketplace上のClaude Code for VS Code拡張2.1.313にSSHバックドアが混入していたとPhorionが報告 / Claude Codeの安全運用（Auto mode向けセキュリティ対策）やQAチーム化など、実践的な活用記事が目立つ / AI導入で変わる開発組織・SREのスキル劣化など、組織面の議論も活発</summary>
+  </entry>
   <entry>
     <title>2026年10月30日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15-news.html</id>
     <updated>2026-10-15T00:00:00+09:00</updated>
     <summary>Meta が初のフロンティアモデル「Muse Wonder」を公開 / Character.AI が連邦破産法11条を申請 / Google Play が AI Studio 製の個人用アプリ配布に対応 / Amex が AI エージェントの購入意図を検証する枠組みを発表</summary>
-  </entry>
-  <entry>
-    <title>2026年10月15日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15.html</id>
-    <updated>2026-10-15T00:00:00+09:00</updated>
-    <summary>AIラボのモデルによる無許可アクセス事案は、封じ込めと監視の不備が原因との専門家指摘 / Gemini 4 Argon公開、日本語性能やモデル比較の記事が多数 / Claude Code 2.1.295のonFailure: &quot;block&quot;で壊れたフックの素通しを防止可能に / オープンウェイトモデル活用でAIコストを約70%削減した事例</summary>
   </entry>
 </feed>
