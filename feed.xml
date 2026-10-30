@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-10-31T00:00:00+09:00</updated>
   <entry>
+    <title>2026年10月31日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31-news.html</id>
+    <updated>2026-10-31T00:00:00+09:00</updated>
+    <summary>Mistralが1兆パラメータのMistral Large 4の重みを公開（サイバーセキュリティ向け） / GoogleがGemini 4 Carbonを限定公開、脆弱性検出に特化 / 大手テックのAI設備投資に陰り、Alphabetは1日で12%下落 / Anthropicは上場後に高水準のジャンク格付けとなる見通し（FT報道）</summary>
+  </entry>
+  <entry>
     <title>2026年10月31日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16.html</id>
     <updated>2026-10-16T00:00:00+09:00</updated>
     <summary>Simons FoundationがAnthropic・OpenAIと数学者向けに計1,500万ドルを拠出 / HTTPヘッダ経由のAI向けプロンプトインジェクションを2.17億件で調査、30サイトが試行 / Gemini 4 Argonの日本語推敲性能を検証、ローカルLLMはClaude Codeの代替にはまだ遅い</summary>
-  </entry>
-  <entry>
-    <title>2026年10月15日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-15-news.html</id>
-    <updated>2026-10-15T00:00:00+09:00</updated>
-    <summary>Meta が初のフロンティアモデル「Muse Wonder」を公開 / Character.AI が連邦破産法11条を申請 / Google Play が AI Studio 製の個人用アプリ配布に対応 / Amex が AI エージェントの購入意図を検証する枠組みを発表</summary>
   </entry>
 </feed>

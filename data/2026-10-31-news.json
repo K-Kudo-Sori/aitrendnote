@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026/10/31 8:03:52",
+  "highlights": [
+    "Mistralが1兆パラメータのMistral Large 4の重みを公開（サイバーセキュリティ向け）",
+    "GoogleがGemini 4 Carbonを限定公開、脆弱性検出に特化",
+    "大手テックのAI設備投資に陰り、Alphabetは1日で12%下落",
+    "Anthropicは上場後に高水準のジャンク格付けとなる見通し（FT報道）"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Mistral、サイバーセキュリティ向け1兆パラメータAIモデルの重みを公開",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "summary": "Mistralは1兆パラメータのモデル「Mistral Large 4」の重みを10月29日にHugging FaceとAPIで公開した。脅威検知や分析、インシデント対応のため、企業や政府が自前で最先端AIを運用できる点を訴求している。ライセンスの詳細は記事では明記されていない。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、Gemini 4 Carbonを発表　脆弱性検出率88.2%",
+      "url": "https://af.net/es/realtime/google-launches-gemini-4-carbon-with-88-2-vulnerability-detection-rate/",
+      "summary": "Googleは継続的なソフトウェア開発とセキュリティ作業向けのフロンティアモデルを発表した。SEC-bench Proで88.2%、CWE-benchで71%と報じられているが、いずれも自社報告で第三者検証はない。提供は「Fairwind」プログラム経由の選抜された防御担当者に限られ、公開前に米政府との任意テストを行う。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AI設備投資ブームにほころび　Alphabetは1日で12%下落",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "summary": "Alphabet、Amazon、Meta、Microsoftは今年AI向けに7,400億ドル超の設備投資を計画している。Alphabetは木曜に12%下落して時価総額5,000億ドルを失い、金曜にはNasdaqが2.9%下落した。Alphabet、Amazon、Metaはフリーキャッシュフローがマイナスで、大手5社の2026年の債券発行額は3,260億ドルに上る。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、IPO後に高水準のジャンク格付けとなる見通し（FT報道）",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "summary": "Financial Timesによると、BlackstoneはAnthropicがIPO後にダブルB水準の高いジャンク格付けを受ける見通しだと投資家に伝えた。従来は2027年前に投資適格になると予想していた。格付けが低いと、巨額の計算資源投資に向けた資金調達のコストが上がる。AnthropicとBlackstoneはコメントを控えている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI出資のThrive Holdings、ADTを買収",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "summary": "Thrive Holdingsは1株10ドル、株式価値約76億ドル（企業価値153億ドル）でホームセキュリティ大手ADTを買収する。Thrive Capital発の同社は75社超を保有し、AI活用で事業再生を図る。OpenAIはパートナー兼投資家としてモデルや技術者を提供する。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google初の宇宙データセンター衛星が稼働、Gemma 4で俳句を生成",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "summary": "宇宙データセンターの試作機Suncatcherが地上との通信を確立した。TPUを4基搭載し最大1kWを発電するが、一度に動かせるのは1基で約20分間のみ。搭載のGemma 4が最初のプロンプトに宇宙をテーマにした俳句を返した。熱や放射線への耐性を検証し、2027年に2機を追加予定。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-10-31-news"
+}
