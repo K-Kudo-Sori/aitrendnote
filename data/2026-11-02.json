@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026/11/2 7:04:16",
+  "highlights": [
+    "Claude Code関連の実践事例（ISUCON参加、PRレビュー自動化、compactのトークン節約）が多数",
+    "AI生成コードの検証負担を軽減する試み（Tauto、ADR）が注目",
+    "プロンプトインジェクション制裁やAI共謀検出など、AIの安全性に関する話題も"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Brazilian Court Sanctions Lawyers for Prompt Injection in Court Filing",
+      "url": "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+      "summary": "本文取得に失敗（本文はほぼ空）。タイトルによれば、ブラジルの裁判所が訴状内にプロンプトインジェクションを仕込んだ弁護士らに制裁を科したとのこと。取得できたのはAIリスクのガバナンスに関する広告的な文言のみで、詳細は不明。",
+      "category": "security",
+      "points": 296,
+      "comments": 177,
+      "author": "doodlesdev"
+    },
+    {
+      "source": "hackernews",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "summary": "Nolan Lawson氏によるブログ。Web開発界の判断は「雰囲気」に頼りがちで根拠が乏しいと批判し、これまでDX重視で語られてきたフレームワーク選定が、エージェント時代にコードを人が書かなくなるとどう変わるかを論じ始めている。AIにとってのフレームワークのコストをデータで検証する視点を提示している。",
+      "category": "devtool",
+      "points": 267,
+      "comments": 203,
+      "author": "luu"
+    },
+    {
+      "source": "hackernews",
+      "title": "Frontier Airlines Likely Breached",
+      "url": "https://www.reddit.com/r/frontierairlines/comments/1xl20e8/psa_email_scam/",
+      "summary": "本文取得失敗。タイトルからはFrontier Airlinesで侵害が起きた可能性があるという報道と推測されるが、内容は確認できない。",
+      "category": "security",
+      "points": 145,
+      "comments": 43,
+      "author": "999900000999"
+    },
+    {
+      "source": "hackernews",
+      "title": "Understanding Email Encryption (2025)",
+      "url": "https://www.fastmail.com/blog/email-encryption/",
+      "summary": "Fastmailによる2025年のメール暗号化解説。暗号化には時期や目的の異なる複数の方式があり、それぞれ防げる脅威と欠点が違うと説明する。まず何から守りたいのか（アカウント乗っ取りなど現実的な脅威）を整理した上で選ぶことを勧めている。AIとの関連は薄い。",
+      "category": "security",
+      "points": 117,
+      "comments": 23,
+      "author": "nmjenkins"
+    },
+    {
+      "source": "hackernews",
+      "title": "US Jobs Pickup May Keep Fed on Track to Hike Rates Again",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-31/us-jobs-pickup-may-keep-fed-on-track-to-hike-rates-again",
+      "summary": "本文取得失敗（Bloombergのボット検知ページのみ取得）。タイトルは、米雇用統計の改善によりFRBが再び利上げする路線が続く可能性を示唆する内容だが、詳細は不明。AI関連性も低い。",
+      "category": "other",
+      "points": 30,
+      "comments": 39,
+      "author": "frank_clover"
+    },
+    {
+      "source": "zenn",
+      "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "summary": "カウシェのチーム3人がISUCON2026に参加し、各自のPCで動かすClaude CodeをSlackで連携させて調査・デプロイ・ベンチマーク実行まで任せた体験記。最終スコアは207,039点。記事の下書き自体もSlack・リポジトリ・Meetの自動メモをもとにClaude Codeが作成した。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "yoroによろしくぅ！Ai Workforce 事業部のリモートコーディングエージェント環境 yoro のご紹介",
+      "url": "https://zenn.dev/layerx/articles/a277f83a93d300",
+      "summary": "LayerXのAi Workforce事業部が内製したリモートコーディングエージェント環境「yoro」の紹介。Slackや手元のエージェント、自社プロダクトから依頼すると、本人専用のリモート開発環境がKubernetes上で立ち上がる。同社バクラク事業部のBackground Agent「haro」と並ぶ類似の取り組みである。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "AIエージェントに設計書レビューを任せたらレビュワーは楽になった。でも現場は？？",
+      "url": "https://zenn.dev/nttdata_tech/articles/6a06f484ebfab7",
+      "summary": "NTT DATAのエンジニアによる、AIエージェントに設計書レビューを任せた事例。レビュワーの作業は1時間程度から数分〜数十分に減ったが、レビュワーが担っていた「判断」は設計書を書くエンジニア側に移っただけだと指摘する。判断のコストを誰が負担すべきかを問い、役割整理を論じている。",
+      "category": "product"
+    },
+    {
+      "source": "zenn",
+      "title": "TeamプランのAPIクレジットでClaude CodeがPRレビューする仕組みを作った話",
+      "url": "https://zenn.dev/ncdc/articles/7d36d34031fb2d",
+      "summary": "2026年10月からTeamプランにも組織あたり月最大$500のAPIクレジットが付くようになったことを受け、そのクレジットでGitHub PRをClaude Codeに自動レビューさせる仕組みをGitHub Actionsで構築した事例。レビュー指摘のサンプルも紹介している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "FlutterKaigi 2026 で生字幕を映像に載せて会場スクリーンに投影しました",
+      "url": "https://zenn.dev/hiro_pon/articles/2f3b68ec60ddae",
+      "summary": "FlutterKaigi 2026（10/29・30）で、登壇者の話をリアルタイムに文字起こし・翻訳し、スライドとカメラの合成映像に字幕として焼き込んだ仕組みの解説。英語セッションには日本語、日本語セッションには英語の字幕を表示した。GStreamerやSRT、Amazon Transcribeなどを使っている。",
+      "category": "other"
+    },
+    {
+      "source": "devto",
+      "title": "Every Codebase Has a '// DO NOT TOUCH' File. I Built an AI Necromancer to Summon the Ghost of the Developer Who Wrote It 💀🔮",
+      "url": "https://dev.to/dj29/every-codebase-has-a-do-not-touch-file-i-built-an-ai-necromancer-to-summon-the-ghost-of-the-2no5",
+      "summary": "Hacktoberfestのチャレンジ投稿。コードベースに必ずある「DO NOT TOUCH」ファイルについて、それを書いた開発者の「幽霊」をAIで呼び出して理由を尋ねられるツール「AI死霊術師」を作ったという作品紹介。レガシーコードの意図を履歴から復元するアイデアである。",
+      "category": "devtool",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "opensource",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Are You a Web Developer or a Browser Expert? 7 Tests I Failed Building a Photo Editor That Never Uploads Your Photos",
+      "url": "https://dev.to/akhourianmolkumar/are-you-a-web-developer-or-a-browser-expert-7-tests-i-failed-building-a-photo-editor-that-never-2j97",
+      "summary": "写真を一切アップロードしないフォトエディタ「APIC Web」を単一HTMLで作る中で失敗した7つの教訓。端末上AI、WASMスレッド、目標サイズ圧縮、インペインティング、3D LUTなどブラウザ固有の落とし穴を、実例とともに解説している。",
+      "category": "devtool",
+      "tags": [
+        "webdev",
+        "javascript",
+        "ai",
+        "tutorial"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "My Local AI Invented 162 Python Packages. I Reran Everything From Scratch, and 161 Came Back.",
+      "url": "https://dev.to/soumyadeepdey/my-local-ai-invented-162-python-packages-i-reran-everything-from-scratch-and-161-came-back-4j73",
+      "summary": "ローカルAIが162個のPythonパッケージを「発明」（実在しないものを提案）したが、最初から再実行すると161個が再現されたという検証記事。幻覚と思われた出力が再現性を持つ点を調べ、AIが生成する依存パッケージ名の信頼性とリスクを考察している。",
+      "category": "research",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "halloween"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "A Two-Line Function Caught AI Collusion Better Than the AI Did",
+      "url": "https://dev.to/ayush_singh_9b0d83152be5b/a-two-line-function-caught-ai-collusion-better-than-the-ai-did-3nmd",
+      "summary": "AI同士の共謀（collusion）を検出する研究スプリントの報告。警備員が泥棒2人の共謀を見抜けない例えを用い、LLMは複数エージェントの共同状態の計算を見落とす一方、2行の単純な関数のほうが共謀をより的確に検出できたと述べる。",
+      "category": "research",
+      "tags": [
+        "ai",
+        "agents",
+        "airesearch",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I grepped for @ts-ignore and found zero. Then I grepped for the cast nobody bans",
+      "url": "https://dev.to/chet103cc/i-grepped-for-ts-ignore-and-found-zero-then-i-grepped-for-the-cast-nobody-bans-723",
+      "summary": "TypeScriptチームで@ts-ignoreは0件でも、規約で禁止されていない型キャスト(as)の濫用という抜け穴が残っていることを、610ファイルの実リポジトリのgrep結果で示した記事。AI生成コードを含め、型安全を形骸化させる穴の見つけ方を紹介している。",
+      "category": "devtool",
+      "tags": [
+        "typescript",
+        "ai",
+        "code",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIにありがちな「イマイチなコードコメント」9パターン",
+      "url": "https://qiita.com/jnchito/items/636c519c0b1d347c79b7",
+      "summary": "Rubyの開発者がAI生成コードに多い「イマイチなコードコメント」を9パターンに整理した記事。AIにコードを書かせると、アプリ側コードよりコメントとテストの質が気になることが多いという実感から、コードレビューで見かける典型例を挙げて改善点を説明している。人間が書いた記事とのこと。",
+      "category": "devtool",
+      "tags": [
+        "Ruby",
+        "コメント",
+        "AI",
+        "AIエージェント",
+        "AIではなく人間が書いてます"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIに証明を書かせてセキュアに開発する言語 Tauto をリリースしました！",
+      "url": "https://qiita.com/ryo33/items/3a1a9d1ba2b289b23244",
+      "summary": "AIに証明を書かせて安全に開発するための言語「Tauto」のリリース紹介。AI生成コードの差分を全て読む負担や、「なぜ正しいのか」というAIの説明が正しいか分からない問題に対し、定理証明によって正しさを機械的に検証できるようにする狙いである。",
+      "category": "devtool",
+      "tags": [
+        "定理証明",
+        "Tauto",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "compact の使い方、間違えるとトークン代 2.75 倍？ Claude Code で測ってわかった 5 つの結論【2026年版】",
+      "url": "https://qiita.com/songchong/items/ac9779bb8e8838b546b9",
+      "summary": "Claude Codeでcompactの使い方を実測し、誤るとトークン代が最大2.75倍になりうるとした記事。プロンプトキャッシュは先頭が同じ部分を安く読む仕組みで、Claude Sonnet 5.5ではキャッシュ読み出しが通常入力の0.05倍。測定から得た5つの結論を紹介している。",
+      "category": "infra",
+      "tags": [
+        "AI",
+        "初心者",
+        "生成AI",
+        "ClaudeCode",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "誤ってマルウェアを実行してしまった私が、AIとREA（Reverse Engineer Anything）に救われた話",
+      "url": "https://qiita.com/TOMOSIA-LinhND/items/3dec10762fcc224d9133",
+      "summary": "CxxCxx Proのアクティベーターを装ったマルウェアを誤って実行してしまった筆者の体験談と解析記録。AIとREA（Reverse Engineer Anything）を使って挙動を解析し、被害に対処した経緯を紹介する。本文冒頭で、マルウェアとC2サーバーに関する警告がある。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "reverse_engineering",
+        "Security",
+        "マルウェア",
+        "リバースエンジニアリング"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "ADRを書いて、AIに \"Why\" を理解させよう【Architecture Decision Record】",
+      "url": "https://qiita.com/tetsuro731/items/65590daa94499e705850",
+      "summary": "ADR（Architecture Decision Record）を書き、AIに設計判断の「なぜ」を理解させようという記事。コードだけでは伝わらない意思決定の背景を記録してAIの文脈に与えることで、AI支援開発での判断の一貫性を高める方法を紹介している。",
+      "category": "devtool",
+      "tags": [
+        "AIエージェント",
+        "ADR",
+        "architecture-decision-record",
+        "ClaudeCode"
+      ]
+    }
+  ]
+}

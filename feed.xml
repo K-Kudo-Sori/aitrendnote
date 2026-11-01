@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-10-31T00:00:00+09:00</updated>
+  <updated>2026-11-02T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月2日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02.html</id>
+    <updated>2026-11-02T00:00:00+09:00</updated>
+    <summary>Claude Code関連の実践事例（ISUCON参加、PRレビュー自動化、compactのトークン節約）が多数 / AI生成コードの検証負担を軽減する試み（Tauto、ADR）が注目 / プロンプトインジェクション制裁やAI共謀検出など、AIの安全性に関する話題も</summary>
+  </entry>
   <entry>
     <title>2026年10月31日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16-news.html</id>
     <updated>2026-10-16T00:00:00+09:00</updated>
     <summary>Meta が 8160 億パラメータのオープンウェイト「Muse Spark Open」を公開 / Google が Gemini 4 Argon を Gemini アプリの Pro/Ultra 向けに提供開始 / Black Forest Labs が 8GB VRAM で動く画像モデル FLUX 3 Image Klein を公開</summary>
-  </entry>
-  <entry>
-    <title>2026年10月16日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16.html</id>
-    <updated>2026-10-16T00:00:00+09:00</updated>
-    <summary>Simons FoundationがAnthropic・OpenAIと数学者向けに計1,500万ドルを拠出 / HTTPヘッダ経由のAI向けプロンプトインジェクションを2.17億件で調査、30サイトが試行 / Gemini 4 Argonの日本語推敲性能を検証、ローカルLLMはClaude Codeの代替にはまだ遅い</summary>
   </entry>
 </feed>
