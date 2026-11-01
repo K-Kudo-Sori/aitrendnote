@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026/11/2 8:03:31",
+  "highlights": [
+    "OpenAIが新ラウンドの資金調達目標を300億ドルから200億ドルへ引き下げたと報道",
+    "OpenAIは中間選挙後にPR攻勢を計画、データセンターを「AIコンピュートキャンパス」と呼び替える案も",
+    "xAIのメンフィス・データセンターを巡る大気浄化法訴訟が棄却されず継続",
+    "AppleのTernus CEO「AIのためのAIは出荷しない」"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、新ラウンドの資金調達目標を引き下げと報道",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "summary": "WSJによると、OpenAIは最新の資金調達ラウンドの目標を300億ドルから200億ドルに引き下げた。これまでに110億ドルを確保したが、一部の大口投資家の反応は弱いという。ラウンドはUAEの投資家が主導し、富裕層向けのリテール募集で目標到達を狙う。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、データセンターを「AIコンピュートキャンパス」に呼び替える可能性",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "summary": "Axiosによると、OpenAIは火曜の中間選挙後にPR攻勢を準備している。グローバルアフェアーズ責任者のChris Lehane氏は、中間選挙を2028年選挙の「予告編」と位置づけ、AIの速度制限やAIを個人のエンパワーメント手段として訴える方針を示した。データセンターを「AIコンピュートキャンパス」と呼び替える案も含まれる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "NAACPによるxAIデータセンター汚染訴訟、判事が進行を許可",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "summary": "連邦判事は、xAIによる訴え却下の申し立てを退け、NAACPによる大気浄化法訴訟の継続を認めた。訴状は、メンフィス近郊のColossusデータセンターで少なくとも35基の燃焼タービンが必要な許可なしに稼働していたと主張している。今月初めの司法省による同様の申し立てに続く判断である。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple CEO「AIのためにAIを出荷したくない」",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "summary": "9月初めに就任したJohn Ternus CEOはWiredのインタビューで、AI分野で遅れているとの見方に反論した。新製品でAIを活用する意向を示す一方、「AIのためのAI」は出荷したくないと述べた。AIエージェントでアプリが不要になり得るとしても、製品づくりは本質的に人間的な営みだと語った。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-11-02-news"
+}

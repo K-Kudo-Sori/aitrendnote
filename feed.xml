@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-02T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月2日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02-news.html</id>
+    <updated>2026-11-02T00:00:00+09:00</updated>
+    <summary>OpenAIが新ラウンドの資金調達目標を300億ドルから200億ドルへ引き下げたと報道 / OpenAIは中間選挙後にPR攻勢を計画、データセンターを「AIコンピュートキャンパス」と呼び替える案も / xAIのメンフィス・データセンターを巡る大気浄化法訴訟が棄却されず継続 / AppleのTernus CEO「AIのためのAIは出荷しない」</summary>
+  </entry>
+  <entry>
     <title>2026年11月2日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17.html</id>
     <updated>2026-10-17T00:00:00+09:00</updated>
     <summary>AnthropicがECDSA曲線シードの由来解明と量子回路設計の2件の研究成果を公表 / Claude Codeチームのコードレビュー運用や、ローカルLLM（B200＋Qwen3.5-122B）との比較検証が話題 / Google Gemini 4 Argonのロボティクス応用や判断特化AI Jevの画像対応など新モデル活用が相次ぐ</summary>
-  </entry>
-  <entry>
-    <title>2026年10月16日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-16-news.html</id>
-    <updated>2026-10-16T00:00:00+09:00</updated>
-    <summary>Meta が 8160 億パラメータのオープンウェイト「Muse Spark Open」を公開 / Google が Gemini 4 Argon を Gemini アプリの Pro/Ultra 向けに提供開始 / Black Forest Labs が 8GB VRAM で動く画像モデル FLUX 3 Image Klein を公開</summary>
   </entry>
 </feed>
