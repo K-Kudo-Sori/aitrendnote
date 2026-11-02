@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-03T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月3日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03-news.html</id>
+    <updated>2026-11-03T00:00:00+09:00</updated>
+    <summary>Anthropic が改訂版 S-1A で「AI が自らの開発を大幅に加速する段階」に近い可能性を示唆 / OpenAI が ChatGPT デスクトップアプリの Chat と Work タブを統合へ / NYT などが Brave をコンテンツのスクレイピングと AI 企業への提供で提訴 / SpaceX 傘下の Grok Bot が高コストを理由に利用上限を制限</summary>
+  </entry>
+  <entry>
     <title>2026年11月3日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19.html</id>
     <updated>2026-10-19T00:00:00+09:00</updated>
     <summary>潜在空間で推論しテキストで行動する「Hybrid Reasoning Agents」論文が登場 / LLMに書きにくい言語・書きやすい構文を検証する実験記事が複数話題 / Claude Codeの.env保護設定の実効性やブラウザ操作による自動化など、Claude Code運用知見が豊富 / CVE-2026-99999（PwnEscape）はKVMではなくLinuxネットワークスタックの脆弱性との分析</summary>
-  </entry>
-  <entry>
-    <title>2026年10月17日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17-news.html</id>
-    <updated>2026-10-17T00:00:00+09:00</updated>
-    <summary>Replit CEOがAnthropicとの協業終了を発言（関係者は継続中と反論） / インドCERT-Inが、複数プロバイダーのAIエージェントによる無権限アクセスを報告 / Elorianがマルチモーダル推論モデル「Glimpse」を公開 / AnthropicがMETRなど外部評価者へのアクセス拡大を発表</summary>
   </entry>
 </feed>

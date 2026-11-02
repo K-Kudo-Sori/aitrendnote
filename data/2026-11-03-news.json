@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026/11/3 8:03:36",
+  "highlights": [
+    "Anthropic が改訂版 S-1A で「AI が自らの開発を大幅に加速する段階」に近い可能性を示唆",
+    "OpenAI が ChatGPT デスクトップアプリの Chat と Work タブを統合へ",
+    "NYT などが Brave をコンテンツのスクレイピングと AI 企業への提供で提訴",
+    "SpaceX 傘下の Grok Bot が高コストを理由に利用上限を制限"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、自己構築型AI（RSI）能力に非常に近いと警告",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "summary": "Anthropic の改訂版 S-1A 提出書類によると、同社は内部推定で、責任あるスケーリングポリシーが定める「AIに起因する開発の劇的な加速」の定義に近く到達する可能性があるとしています。現時点でその閾値を超えたと分類されたモデルはありません。過去に能力の飛躍を事後にしか認識できなかったことも認め、人間の十分な監督なしに Claude が後継の最先端モデルを構築させることは想定していないとしています。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、ChatGPT の Chat タブと Work タブをついに統合",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+      "summary": "OpenAI は ChatGPT デスクトップアプリの Chat タブと Work タブを統合します。まず一部ユーザーに提供してフィードバックを得た後、広く展開する予定です。Codex は別の体験として残り、ChatGPT と Codex は同じトークン枠を共有します。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "NYTなど報道機関、ブラウザ Brave をコンテンツのスクレイピング疑惑で提訴",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "summary": "ニューヨーク・タイムズは、Brave が著作権で保護された記事をスクレイピングし、Anthropic、Perplexity、Mistral、xAI、Cohere などの AI 企業に提供したとして、マンハッタンの連邦地裁に提訴しました。同日、Daily News、Chicago Tribune、Orlando Sentinel も同様の訴訟を起こしています。ペイウォール回避機能なども問題視し、差し止めと損害賠償を求めています。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "42AI、ステルスから登場し 6,250 万ドルを調達、「人間の行動を予測する」ワールドモデルを発表",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "summary": "イスラエルのスタートアップ 42AI が、人の行動を推定する「行動ワールドモデル」でシード資金 6,250 万ドルを調達し、ステルスを脱しました。最初の用途は金融ブローカーのトレーダーで、大手10社が流動性・証拠金・ヘッジリスクの管理に利用していると報じられています。資金の大半は創業者と関連投資家グループによるものです。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "マスク氏、運用コストが「持続不可能なほど高い」として Grok Bot の利用上限を制限",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "summary": "ハロウィン週末に一部ユーザーの週間上限が想定外に使い切られた件で、イーロン・マスク氏は SpaceX が意図的に Grok Bot の利用上限を設けたと認めました。同氏は「収益に比べて提供コストが持続不可能なほど高かった」と述べています。今後サブスクライバーへの影響がどうなるかは明らかにされていません。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-11-03-news"
+}
