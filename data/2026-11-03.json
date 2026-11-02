@@ -1,0 +1,224 @@
+{
+  "date": "2026-11-03",
+  "generatedAt": "2026/11/3 7:04:19",
+  "highlights": [
+    "AIエージェント（Claude Code等）を使った開発事例と運用知見の記事が多数",
+    "Agent DXやADRガイドラインなど、AI時代の開発体験の設計に関する話題が目立つ",
+    "ローカルLLM（DeepSeek V4-Flash＋DGX Spark）の業務適用評価が注目"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "summary": "Momentic（YC W24）は、プロンプトから アプリをエンドツーエンドで操作してバグを見つける「AI QAエンジニア」Moを発表した。重要なユーザーフローの検証やPRの検証、テストの自動修復（auto-heal）に対応する。公式ページでは累計7.7万件超のテスト作成、約1.2万件のバグ検出などの実績が示されている。エージェント向けのセットアップも用意されており、AIによるテスト自動化の実用化が進んでいることがうかがえる。",
+      "category": "agent",
+      "points": 97,
+      "comments": 66,
+      "author": "wuweiweiwu"
+    },
+    {
+      "source": "hackernews",
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "summary": "本文取得失敗（ブラウザ確認ページで本文を取得できませんでした）。タイトルからはAI時代の数学研究における「エゴレスな」姿勢を論じた記事と推測される。",
+      "category": "research",
+      "points": 75,
+      "comments": 52,
+      "author": "smilelamp"
+    },
+    {
+      "source": "hackernews",
+      "title": "Oracle files to sell $20B in new stock, bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "summary": "本文取得失敗（アクセス拒否のため本文を取得できませんでした）。タイトルによると、Oracleが AI関連の設備投資を賄うため、新株と債券で合計200億ドルの発行を申請したとの報道。",
+      "category": "product",
+      "points": 104,
+      "comments": 58,
+      "author": "smartmic"
+    },
+    {
+      "source": "hackernews",
+      "title": "LongCat-2.5: Native Multimodality for Agentic Tasks",
+      "url": "https://longcat.ai/blog/longcat-2.5/",
+      "summary": "本文取得失敗（本文がほぼ取得できませんでした）。タイトルによると、エージェントタスク向けにネイティブなマルチモーダル対応を打ち出した「LongCat-2.5」の紹介。",
+      "category": "model",
+      "points": 65,
+      "comments": 21,
+      "author": "pretext"
+    },
+    {
+      "source": "hackernews",
+      "title": "C64 Basic Dungeon Crawler: Stairs, Levels and Levelling Up (Part 11)",
+      "url": "https://retrogamecoders.com/c64-basic-dungeon-part11/",
+      "summary": "Commodore 64のBASICで作るダンジョンクロウラーゲーム連載の第11回。今回は階段による階層移動、レベルアップ要素を追加して進行の手応えを出す方法を解説している。1マップのみだった状態から、プレイが進むにつれて難易度が上がる構造へ発展させる。AIというよりレトロ開発の話題で、AIとの関連は薄い。",
+      "category": "other",
+      "points": 48,
+      "comments": 8,
+      "author": "ibobev"
+    },
+    {
+      "source": "zenn",
+      "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "summary": "カウシェのチームがISUCON2026に、3人それぞれのClaude Codeを Slackでつないで参加し、207,039点を記録した事例。各エージェントは会話履歴を共有せず、Slackチャンネルだけで連絡し、4台のサーバーへのデプロイとベンチマークが重ならないよう調整した。14時ごろからは人間はコードもコマンドも書かず、目標と方針を伝える役に回った。スコアは10時台の数千点から17時台に20万点超へ伸びた。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
+      "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
+      "summary": "AIが書くADR（Architecture Decision Record）が読みづらくなる問題に対し、TOKIUMのチームがガイドラインを作成した事例。AIにADRのドラフトを任せるようになったが、ルールがないと人間が読み返しにくいものが量産された。そこでADRに書くべきこと・書くべきでないことを整理した。具体的な問題と実例を交え、AI駆動開発における意思決定記録の運用知見を共有している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Agent DX 〜 AI時代にフレームワークHonoは必要か",
+      "url": "https://zenn.dev/yusukebe/articles/3d3dc6605ca1b1",
+      "summary": "Honoの作者が、AI向けの開発者体験を測るプロジェクト「Agent DX」を紹介する記事。AIエージェントがHonoを使う際のDXをAI Evalsで測定し、改善する取り組みで、結果は agent-dx.hono.dev で公開されている。3つのカンファレンス登壇の内容をまとめたもの。「AI時代にフレームワークは必要か」を人間の印象ではなくAIの実測で議論しようという主張である。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "FlutterKaigi 2026 で生字幕を映像に載せて会場スクリーンに投影しました",
+      "url": "https://zenn.dev/hiro_pon/articles/2f3b68ec60ddae",
+      "summary": "FlutterKaigi 2026で、登壇者の話をその場で文字起こし・翻訳し、スライドとカメラの合成映像に字幕を焼き込んで会場に投影した仕組みの紹介。各部屋に置いた合成用Macが、DeckLinkで HDMI/SDIを取り込み、GStreamerの1本のパイプラインで合成・字幕焼き込みを行い3か所へ出力する。英語セッションには日本語字幕、日本語セッションには英語字幕を出した。AIそのものより映像配信の構成が中心の記事。",
+      "category": "other"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカルLLMはどんな業務で使えるのか？ DGX Spark + DeepSeek V4-FlashのSlackチャットボットを評価した",
+      "url": "https://zenn.dev/sompojapan_dx/articles/05f34316118943",
+      "summary": "SOMPO Digital Labが、DGX Spark 1台にDeepSeek V4-Flashを載せ、llama-serverで配信するローカルLLMのSlackボットを構築・評価した記事。社内情報を社外APIに出さない選択肢を持つことが動機。推論は手元で完結させ、コード生成のみ人間の承認を挟んでClaude Codeに任せるハイブリッド構成にした。Mastraを使い、Slack・Notion・GitHub・Figma・Jiraと連携し、テストセットで業務適用性を評価している。",
+      "category": "infra"
+    },
+    {
+      "source": "devto",
+      "title": "This is my first HacktoberFest, and I don't know what to feel.",
+      "url": "https://dev.to/francistrdev/this-is-my-first-hacktoberfest-and-i-dont-know-what-to-feel-449f",
+      "summary": "初めてのHacktoberFest参加についての感想を綴った議論記事。ルール面でスパム的なPRが問題視される「SpamtoberFest」への複雑な心境を、批判的な視点も交えて述べている。一方で参加自体は楽しんだという。AIそのものの技術記事ではなくコミュニティ寄りの話題。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "community",
+        "mlh",
+        "hacktoberfest"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Are You a Web Developer or a Browser Expert? 7 Tests I Failed Building a Photo Editor That Never Uploads Your Photos",
+      "url": "https://dev.to/akhourianmolkumar/are-you-a-web-developer-or-a-browser-expert-7-tests-i-failed-building-a-photo-editor-that-never-2j97",
+      "summary": "写真を一切アップロードしないブラウザ完結型のフォトエディタ（APIC Web）を作る中で失敗した7つのテストを振り返る記事。オンデバイスAI、WASMスレッド、目標サイズへの圧縮、インペインティング、3D LUTを1つのHTMLファイルに収めた。モバイルブラウザ特有の落とし穴とWASMによる回避策を実例で紹介している。",
+      "category": "devtool",
+      "tags": [
+        "webdev",
+        "javascript",
+        "ai",
+        "tutorial"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Securing an Angular Firebase AI App with Email/Password Authentication (Part 1: Emulator, AuthService, and Route Guard) [GDE]",
+      "url": "https://dev.to/gde/securing-an-angular-firebase-ai-app-with-emailpassword-authentication-part-1-emulator-4jm",
+      "summary": "Angular製のFirebase AIアプリを、メール/パスワード認証で保護する連載の第1回。公開URLを知っていれば誰でも画像解析や音声合成のトークンを使えてしまい、課金が膨らむ懸念があるため認証を導入する。第1回ではFirebaseエミュレータ、AuthService、ルートガードの実装を扱う。",
+      "category": "security",
+      "tags": [
+        "angular",
+        "firebase",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I built a 3D game about my Nigerian childhood (and I'm not a game developer)",
+      "url": "https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood-and-im-not-a-game-developer-281g",
+      "summary": "ゲーム開発者ではない筆者が、ナイジェリアでの子ども時代を題材にした3Dゲームを作った体験記。「お使い」を頼まれる日常の場面など、自身の原体験をゲーム化している。AIを活用して開発したことがタグから示されている。",
+      "category": "other",
+      "tags": [
+        "showdev",
+        "gamedev",
+        "webdev",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "My Local AI Invented 162 Python Packages. I Reran Everything From Scratch, and 161 Came Back.",
+      "url": "https://dev.to/soumyadeepdey/my-local-ai-invented-162-python-packages-i-reran-everything-from-scratch-and-161-came-back-4j73",
+      "summary": "ローカルLLMが162個のPythonパッケージを「でっち上げた」ものの、ゼロから再実行すると161個が再現された、という検証記事。Hacktoberfest Open-Source AI Challenge「Ghost in the Machine」への投稿で、AIが生成した存在しないパッケージ名（幻覚）の再現性を調べている。AI支援で執筆されたと明記されている。",
+      "category": "research",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "ai",
+        "halloween"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIにありがちな「イマイチなコードコメント」9パターン",
+      "url": "https://qiita.com/jnchito/items/636c519c0b1d347c79b7",
+      "summary": "AIにありがちな「イマイチなコードコメント」を9パターンに整理した記事。コードを読めばわかることをコメントしている、といった例を、Rubyの BAD/GOOD対比で示す。AIが書いたコメントをそのまま採用したと思われるコードレビューでの指摘が元になっている。考え方は他言語にも通じ、テストコードの話は別記事の予定。",
+      "category": "devtool",
+      "tags": [
+        "Ruby",
+        "コメント",
+        "AI",
+        "AIエージェント",
+        "AIではなく人間が書いてます"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【未来を解説】AIでエンジニア格差を生み出す質とスピードの考え方",
+      "url": "https://qiita.com/Sicut_study/items/b9e38c0584d4aa720d31",
+      "summary": "AIエージェント開発が当たり前になる中で、スキルがついた実感が持てない、承認ボタンを押すだけの作業になる、といった問題を論じる記事。速さを求めるほど教育と思考の時間が消え、質が犠牲になる負のループを指摘する。速く出しつつ設計に向き合う人との差が「エンジニア格差」を生むとし、AI時代のスキルの上げ方を質とスピードの観点で考える。",
+      "category": "other",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIに証明を書かせてセキュアに開発できる言語 Tauto をリリースしました！",
+      "url": "https://qiita.com/ryo33/items/3a1a9d1ba2b289b23244",
+      "summary": "AIがコードと一緒に「必ずこの性質を満たす」という証明も書き、人間はその命題だけをレビューする言語「Tauto」のリリース記事。AI生成コードの差分を全部読む負担や、テストでカバーされないケースの不安に応える。証明があることの利点、テストと証明の使い分け、AI時代に人間が確認すべきことを、権限管理などの具体例で説明している。",
+      "category": "devtool",
+      "tags": [
+        "定理証明",
+        "Tauto",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "APEXlangでVibe Coding：画面デザイン集",
+      "url": "https://qiita.com/araidon/items/d38d616dce3b3e3109c0",
+      "summary": "日本オラクルの筆者が、APEXlangを使ってHTMLやCSSでOracle APEXの画面デザインをどこまで変えられるかを試した作品集。Three.jsやWebGLを使った夜景の3D街並みや球場、パズルゲームUI、RPG風マップUI、劇場風クイズUIなどを一覧で紹介している。Vibe Codingで作成した画面デザインを順次追加していく。",
+      "category": "devtool",
+      "tags": [
+        "APEXlang",
+        "Apex",
+        "oci",
+        "Autonomous_AI_Database",
+        "oraclecloud"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 39",
+      "url": "https://qiita.com/maskot1977/items/5184c2ead8309c1095d5",
+      "summary": "GeminiにYouTubeポッドキャスト「Pythonで学ぶマクロ経済学入門 39」の内容を説明させた対話ログ。テーマは「給料が上がらない理由は財源幻想」で、税金は政府支出の財源、国債は将来世代へのツケ、インフレは悪といった思い込みをMMT的な視点で整理する。Pythonシミュレーションに基づく解説とされるが、AI技術自体の記事ではなく、AIを学習補助に使った例である。",
+      "category": "other",
+      "tags": [
+        "Python",
+        "マクロ経済学",
+        "ChatGPT",
+        "Gemini",
+        "YouTube"
+      ]
+    }
+  ]
+}

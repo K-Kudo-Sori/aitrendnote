@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-02T00:00:00+09:00</updated>
+  <updated>2026-11-03T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月3日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03.html</id>
+    <updated>2026-11-03T00:00:00+09:00</updated>
+    <summary>AIエージェント（Claude Code等）を使った開発事例と運用知見の記事が多数 / Agent DXやADRガイドラインなど、AI時代の開発体験の設計に関する話題が目立つ / ローカルLLM（DeepSeek V4-Flash＋DGX Spark）の業務適用評価が注目</summary>
+  </entry>
   <entry>
     <title>2026年11月2日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17-news.html</id>
     <updated>2026-10-17T00:00:00+09:00</updated>
     <summary>Replit CEOがAnthropicとの協業終了を発言（関係者は継続中と反論） / インドCERT-Inが、複数プロバイダーのAIエージェントによる無権限アクセスを報告 / Elorianがマルチモーダル推論モデル「Glimpse」を公開 / AnthropicがMETRなど外部評価者へのアクセス拡大を発表</summary>
-  </entry>
-  <entry>
-    <title>2026年10月17日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-17.html</id>
-    <updated>2026-10-17T00:00:00+09:00</updated>
-    <summary>AnthropicがECDSA曲線シードの由来解明と量子回路設計の2件の研究成果を公表 / Claude Codeチームのコードレビュー運用や、ローカルLLM（B200＋Qwen3.5-122B）との比較検証が話題 / Google Gemini 4 Argonのロボティクス応用や判断特化AI Jevの画像対応など新モデル活用が相次ぐ</summary>
   </entry>
 </feed>
