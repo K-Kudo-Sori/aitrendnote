@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-03T00:00:00+09:00</updated>
+  <updated>2026-11-04T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月4日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04.html</id>
+    <updated>2026-11-04T00:00:00+09:00</updated>
+    <summary>Qiita: AmazonがTextractを日本語対応にし、東京リージョンでOCR→RAGがAWS内で完結可能に / Zenn/Qiita: Claude Codeやエージェントの運用知見（ISUCONでの複数エージェント連携、行動制限の実効性、ADRガイドライン）が多数 / HN: PostmanがAIプラグインを自動導入しAPIデータ共有を試みるとの指摘 / HN: AI需要を背景に富士フイルムが磁気テープ生産能力を5倍に増強</summary>
+  </entry>
   <entry>
     <title>2026年11月3日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19-news.html</id>
     <updated>2026-10-19T00:00:00+09:00</updated>
     <summary>Anthropic が Claude Code Review を Team/Enterprise 向けに一般提供開始(約3倍高速化) / Google が Gemini 4 Argon の開発者向け提供を開始、Meta は Muse Wonder を発表 / DeepSeek が V4.1-Flash-1017 を公開し、Search &amp; Fetch API を全ユーザーに開放 / xAI の Grok Voice 3.0 が音声対話ベンチマークで首位を主張、Microsoft は第3世代 Maia 300 を公開</summary>
-  </entry>
-  <entry>
-    <title>2026年10月19日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19.html</id>
-    <updated>2026-10-19T00:00:00+09:00</updated>
-    <summary>潜在空間で推論しテキストで行動する「Hybrid Reasoning Agents」論文が登場 / LLMに書きにくい言語・書きやすい構文を検証する実験記事が複数話題 / Claude Codeの.env保護設定の実効性やブラウザ操作による自動化など、Claude Code運用知見が豊富 / CVE-2026-99999（PwnEscape）はKVMではなくLinuxネットワークスタックの脆弱性との分析</summary>
   </entry>
 </feed>

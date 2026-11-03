@@ -1,0 +1,223 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026/11/4 7:05:51",
+  "highlights": [
+    "Qiita: AmazonがTextractを日本語対応にし、東京リージョンでOCR→RAGがAWS内で完結可能に",
+    "Zenn/Qiita: Claude Codeやエージェントの運用知見（ISUCONでの複数エージェント連携、行動制限の実効性、ADRガイドライン）が多数",
+    "HN: PostmanがAIプラグインを自動導入しAPIデータ共有を試みるとの指摘",
+    "HN: AI需要を背景に富士フイルムが磁気テープ生産能力を5倍に増強"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "summary": "生成AIの数学的基礎を、導出を重視してコンパクトにまとめた入門書（arXiv論文）。最新アーキテクチャを網羅的に紹介するのではなく、主要な生成モデル群を結ぶ一貫した道筋を示すことを目的としている。直感的な説明と数式による導出を両立させ、学習者が基礎から体系的に理解できる構成になっている。2026年5月に投稿され、9月に改訂版（v2）が公開された。",
+      "category": "research",
+      "points": 22,
+      "comments": 1,
+      "author": "ibobev"
+    },
+    {
+      "source": "hackernews",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "summary": "筆者が2014年式ルノー・ラティチュードのナビを脱獄し、時計の時刻を変更できるようにした経緯を綴った記事。前の持ち主から、時刻変更にはナビ用SDカードが必要だと言われたことが発端である。純正の仕組みを解析して制限を回避する過程が紹介されている。AIそのものが主題ではなく、ハッキング・リバースエンジニアリングの話題として注目された。",
+      "category": "security",
+      "points": 517,
+      "comments": 204,
+      "author": "xx_ns"
+    },
+    {
+      "source": "hackernews",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "summary": "Postmanのサポート用GitHubリポジトリに立てられたissueで、Postmanがユーザーに通知せずAI関連プラグインを自動インストールし、API関連データを共有しようとするという指摘。本文の取得内容はGitHubページのメタデータが中心で、詳細な内容は十分に確認できなかった。タイトルからは、AI機能の暗黙の有効化とデータ送信に関するプライバシー・セキュリティ上の懸念が主題と読み取れる。",
+      "category": "security",
+      "points": 836,
+      "comments": 273,
+      "author": "sidgarimella"
+    },
+    {
+      "source": "hackernews",
+      "title": "macOS 27 does not support CoreStorage volumes",
+      "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+      "summary": "macOS 27 (Golden Gate) がCoreStorage／暗号化HFS+ボリュームを事実上サポートしておらず、マウント・APFS変換・消去すらできなくなったという報告。Disk Utilityはエラー49,153で失敗し、diskutilも実際とは異なる誤ったエラーメッセージを返す。さらに起動時にmacOS 28で非対応になるという誤解を招く警告が出る。筆者は回避策を紹介し、Appleにより良い対処を求めている。AIとは直接関係しない内容である。",
+      "category": "other",
+      "points": 43,
+      "comments": 18,
+      "author": "colejohnson66"
+    },
+    {
+      "source": "hackernews",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "summary": "富士フイルムが約100億円（約6,300万ドル）を投じ、磁気テープの生産能力を5倍に引き上げると発表した。生成AIの普及でデータのアーカイブ需要が急増していることが背景にある。低コストでオフラインのため安全性が高い点から、テープが再評価されている。AI時代に思わぬ恩恵を受ける分野として紹介されている。",
+      "category": "product",
+      "points": 330,
+      "comments": 135,
+      "author": "bookofjoe"
+    },
+    {
+      "source": "zenn",
+      "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
+      "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
+      "summary": "AIにADR（Architecture Decision Record）の下書きを任せたところ、人間が読み返しにくい文書が量産されたため、書くべきこと・書くべきでないことを整理したガイドラインを作成した事例。ADRは人間がじっくり読むべき文書の代表であり、読みづらいと大きなストレスになる。具体的な問題例と、ガイドラインの内容、運用での知見が共有されている。AI駆動開発におけるドキュメント品質の維持方法として参考になる。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "summary": "3人のチームが各自のPCでClaude Codeを動かし、調査からデプロイ、ベンチマーク実行まで任せてISUCON2026に参加し、207,039点を記録した事例。エージェント同士は会話履歴を共有せず、連絡はすべてSlackチャンネル経由で行い、4台のサーバーへのデプロイとベンチマークが重ならないよう調整した。14時以降は人間はコードもコマンドも書かず、目標と方針を伝える役割に変わっていった。スコアは10時台の数千点から17時台に20万点を超えた。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "バイブコーディングで機能を継ぎ足していて見えてきたClaudeCodeの実装のクセ",
+      "url": "https://zenn.dev/uguisu_blog/articles/45d1f446ece415",
+      "summary": "要件が固まらないままClaude Codeでバイブコーディングして売上計画システムを作ったところ、テストは通るのに画面ごとに数字や挙動が食い違う問題が起きた。AIは依頼された画面の周辺しか読まず、全体像や過去の経緯を勝手には把握しないことが原因とされる。防ぐには概念台帳・画面一覧・型とフックなどを人間が先に用意する必要がある。生成AI時代こそ、全体を設計して指揮するPMスキルが重要だと結論づけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Agent DX 〜 AI時代にフレームワークHonoは必要か",
+      "url": "https://zenn.dev/yusukebe/articles/3d3dc6605ca1b1",
+      "summary": "Honoの作者が、AIエージェントがHonoを使う際の開発者体験（Agent DX）を測定・改善するプロジェクトを紹介し、3つのカンファレンスでの発表を記事化したもの。人間の印象論ではなく、AI Evalsで実際に計測することで「AI時代にフレームワークは必要か」に答えようとしている。リポジトリと結果公開ページも用意されている。AIがユーザーになった今、AI向けの開発者体験を設計すべきだと主張する。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "弊社がAIでPlaywrightテストコードを生成するために調整したこと",
+      "url": "https://zenn.dev/castingone_dev/articles/casone_playwright_for_claude",
+      "summary": "QA工数削減のためPlaywrightの自動テストを導入し、そのコードをAIで生成する際に行った調整をまとめた備忘録。最初は公式のテストエージェント用ルールを日本語訳して使ったが、品質が低かった。例えば操作のたびにwaitForTimeoutで固定待機するコードが出力され、無駄な待ち時間が発生していた。こうした問題点を洗い出し、ルールを調整して対策した過程が紹介されている。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "This is my first HacktoberFest, and I don't know what to feel.",
+      "url": "https://dev.to/francistrdev/this-is-my-first-hacktoberfest-and-i-dont-know-what-to-feel-449f",
+      "summary": "初めてHacktoberFestに参加した筆者が、スパム的なPRが問題視される「SpamtoberFest」的なルールや雰囲気に対する複雑な心境を語る議論記事。批判的な視点も交えつつ、全体としてはイベント自体を楽しんだと述べている。コミュニティ運営や参加ルールのあり方についての意見が中心で、AIが主題ではない。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "community",
+        "mlh",
+        "hacktoberfest"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Let AI Build a Feature Without Giving It the Full Context",
+      "url": "https://dev.to/harsh2644/i-let-ai-build-a-feature-without-giving-it-the-full-context-6h",
+      "summary": "曖昧なプロンプトを与えるとAIは自信満々に答えるが、その自信が週末のデバッグという代償につながると警告する記事。筆者は十分なコンテキストを与えずにAIエージェントに機能を実装させ、どこまで任せられるかを検証した。AIが黙って置く暗黙の仮定が本番環境のリスクになる点が主題である。コンテキストを適切に与える重要性を示している。",
+      "category": "agent",
+      "tags": [
+        "discuss",
+        "ai",
+        "programming",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Every Codebase Has a '// DO NOT TOUCH' File. I Built an AI Necromancer to Summon the Ghost of the Developer Who Wrote It 💀🔮",
+      "url": "https://dev.to/dj29/every-codebase-has-a-do-not-touch-file-i-built-an-ai-necromancer-to-summon-the-ghost-of-the-2no5",
+      "summary": "Hacktoberfest Open-Source AI Challenge（Week 4: Ghost in the Machine）への投稿作品。「// DO NOT TOUCH」と書かれた謎のコードについて、書いた開発者の意図を再現して答えてくれるAIツールを作った。レガシーコードに残された暗黙知を、AIで掘り起こすというコンセプトのユーモラスなプロジェクトである。",
+      "category": "devtool",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "opensource",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Rack Before You Remember",
+      "url": "https://dev.to/kenwalger/rack-before-you-remember-2jl3",
+      "summary": "ワインの澱引き（ラッキング）を例に、AIエージェントのメモリ設計を論じる連載「Systems Under Fermentation」の第3回。記憶を蓄積する前に、まず状態を整理して澄んだ部分だけを移す、という発想をエージェント設計に当てはめている。前2回は状態とメトリクスの区別、有効な状態遷移がテーマだった。LLMエージェントの記憶管理に関する設計論である。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "llm",
+        "architecture",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Gemma 4 in Rust on TorchTPU: A Native TPU Rig With PyO3 and MCP",
+      "url": "https://dev.to/gde/gemma-4-in-rust-on-torchtpu-a-native-tpu-rig-with-pyo3-and-mcp-47j1",
+      "summary": "Cloud TPU v5e-1 VM上でGemma 4 E2BをRustで実装し、すべての演算をTorchTPUで実行して配信する手順を解説するガイド。Claude Code用のMCPサーバーがTPUをプロビジョニングし、VMは起動時にRustクレートをビルドして配信を開始する。PyO3でPythonと連携する構成である。",
+      "category": "infra",
+      "tags": [
+        "rust",
+        "pytorch",
+        "tpu",
+        "mcp"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "生成 AI が進化する今こそ、「人材育成」が経営の重要課題ではないか",
+      "url": "https://qiita.com/Takashi_Masumori/items/3c3091a6142d3e05385b",
+      "summary": "AIによる今の成果の増加と、将来成果を出せる組織が育っていることは同じではなく、生産性が上がっているように見える組織で人が育たなくなる恐れがあると指摘する記事。生成AIの活用はマネジメントの延長線上にあり、目的の共有、ルール提示、結果へのフィードバック、手順書化といった流れが人への仕事の任せ方と似ていると述べる。経営層に人材育成への危機感を持つよう促している。",
+      "category": "product",
+      "tags": [
+        "生成AI",
+        "人材育成",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【未来を解説】AIでエンジニア格差を生み出す質とスピードの考え方",
+      "url": "https://qiita.com/Sicut_study/items/b9e38c0584d4aa720d31",
+      "summary": "AIエージェント開発が当たり前になり、承認ボタンを押すだけの作業になって考える時間が減りスキルが付かない問題を論じる記事。一部の人は速く出しながらも設計に向き合って成長する一方、多くの人はAIの出力を承認して次へ進むだけになるという格差が生まれる。スピードを求めると教育が消える理由と、AI時代にスキルを上げる方法を、質とスピードを軸に解説する。",
+      "category": "devtool",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "⚪︎⚪︎はしないで！AI エージェントの行動を制限する 5 つの方法を、守られる強さで比べた",
+      "url": "https://qiita.com/songchong/items/945479177d4dcbb80f69",
+      "summary": "AIエージェントに「⚪︎⚪︎はしないで」と指示するだけで守られるかを検証した記事。Claude Code・Antigravity CLI・Codexに、鍵（APIキー）を使う同じ作業を51回頼み、指示ファイルに書いた「鍵の中身を画面に出さない」がどれだけ守られるかを数えた。禁止を頼むだけでは守られないことがあった。製品の設定や渡す鍵を絞る方法など5つの手法を強度順に比較し、効き方の違いを示している。",
+      "category": "security",
+      "tags": [
+        "AIエージェント",
+        "ClaudeCode",
+        "Security",
+        "生成AI",
+        "Gemini"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "新しいRAG「Decision RAG」は速い！安い！上手い！🍜",
+      "url": "https://qiita.com/kikuziro/items/cc82e6e4e4c215eac99f",
+      "summary": "「はい」の確からしさだけを返す判断特化モデルをRAGの検索に使う論文「DecisionRAG」を噛み砕いて紹介し、通常のRAG（NaiveRAG）と比較検証した記事。文書をツリー構造で持ち、各段で判断モデルがどの枝を開くか決めて、捨てた枝の中は見ないことで効率化する。従来のベクトル検索の取りこぼしや余計な取得という問題を、LLM並みの賢さで解決しつつコストと時間を抑えることを狙う。",
+      "category": "research",
+      "tags": [
+        "AI",
+        "rag",
+        "Jev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "[AWS]日本語OCRがついにきちゃー！ ~Textractにいろいろ読ませてみた~",
+      "url": "https://qiita.com/kikuziro/items/9aff0fefe89cfa13192e",
+      "summary": "2026年11月2日にAmazon Textractが日本語に対応し、東京リージョンでも使えるようになったことを受けた検証記事。横書きの印刷文字はほぼ満点の精度だったが、日本語の手書きは実用レベルではなかった。料金は文字検出のみならSonnet 5.5によるVLM読み取りの約10分の1で、TABLES利用時は同程度である。S3からDynamoDB格納まで1ページなら約2秒で、OCRを使うRAG基盤がAWS内で完結する点を評価している。",
+      "category": "product",
+      "tags": [
+        "AWS",
+        "rag",
+        "OCR",
+        "AI"
+      ]
+    }
+  ]
+}
