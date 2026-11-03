@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026/11/4 8:04:15",
+  "highlights": [
+    "Anthropicがモデルの同一性を暗号的に検証する「FlashProve」を発表",
+    "AI推論基盤のFalが13億ドルを調達し評価額160億ドルに倍増",
+    "AnthropicのS-1更新で、計算コストが売上の58%に上昇",
+    "GoogleとAppleが未成年向けAI利用の制限を強化"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、AIモデルの同一性を証明するシステムを開発中",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "summary": "Anthropicは、AIの出力が主張どおりのモデルから生成されたことを暗号技術で検証する「FlashProve」を開発しています。各ラボが重みを明かさずにモデルのフィンガープリントを公開でき、安価なモデルへの密かな差し替えの検出に役立つ可能性があります。技術仕様と動作するコードはGitHubで公開されましたが、研究は継続中で導入予定は未定です。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AI推論スタートアップFal、需要急増で評価額が倍増の160億ドルに",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "summary": "動画・画像・音声モデルを提供するFalが、Bessemer主導で13億ドルを調達し、評価額は4月の80億ドルから160億ドルになりました。SeriesE・Fの合計は16.5億ドルで、年間換算売上は今年中に8億ドルを超えています。一方、競合のBasetenなどは計算コストの影響で利益率が薄いとされています。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、計算資源の経済性に依然苦慮",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "summary": "9月30日までを対象とするAnthropicのSEC提出書類では、四半期売上が115億ドルから170億ドルに増加しました。一方で計算コストの比率は売上の48%から58%に上昇し、営業損失が拡大しています。短期契約の割高な計算資源に依存しており、自社の計算基盤を構築するまで続く見通しです。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、学校がAIツールを無効化可能に。ただし検索も利用不可に",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "summary": "Googleは来年から、管理者が有効化しない限りK-12の生徒向けにGemini、NotebookLM、Classroom内のGeminiなどのAIツールをオフにします。検索にAI機能が組み込まれているため、AIを完全に制限した学校では検索も使えなくなります。発表は学校向けのGuided Learning提供開始と同時に行われました。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Apple、出会い系アプリとAIコンパニオンを18歳以上に制限",
+      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "summary": "Appleは、性的・恋愛的コンテンツを提供する出会い系アプリやAIコンパニオンの未成年によるアクセスを制限するため、App Storeの規則を強化しました。該当アプリは18歳以上のレーティングが必要で、開発者は11月16日から新しいコンテンツ記述子を追加する必要があります。位置情報を共有するアプリにも開示義務が課されます。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "データセンター、電力待ちの長期化で中古ジェットエンジンを活用",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "summary": "系統接続や新型タービンの待ち時間が長いため、退役したジェットエンジンを天然ガス向けに改造して自家発電するAIデータセンターが出ています。約24か月で電力を確保でき、北バージニアでの100MW系統接続の約7年に比べ速い点が利点です。効率が低く排出も多いため、専門家は短期的な解決策とみています。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-11-04-news"
+}

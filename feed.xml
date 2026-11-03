@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-04T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月4日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04-news.html</id>
+    <updated>2026-11-04T00:00:00+09:00</updated>
+    <summary>Anthropicがモデルの同一性を暗号的に検証する「FlashProve」を発表 / AI推論基盤のFalが13億ドルを調達し評価額160億ドルに倍増 / AnthropicのS-1更新で、計算コストが売上の58%に上昇 / GoogleとAppleが未成年向けAI利用の制限を強化</summary>
+  </entry>
+  <entry>
     <title>2026年11月4日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20.html</id>
     <updated>2026-10-20T00:00:00+09:00</updated>
     <summary>AI生成コードの理解・レビューの在り方が議論に / Claude Codeの権限設定やプロンプトインジェクション対策の検証記事が複数 / エージェント観測・MCP連携ツールの公開が相次ぐ</summary>
-  </entry>
-  <entry>
-    <title>2026年10月19日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-19-news.html</id>
-    <updated>2026-10-19T00:00:00+09:00</updated>
-    <summary>Anthropic が Claude Code Review を Team/Enterprise 向けに一般提供開始(約3倍高速化) / Google が Gemini 4 Argon の開発者向け提供を開始、Meta は Muse Wonder を発表 / DeepSeek が V4.1-Flash-1017 を公開し、Search &amp; Fetch API を全ユーザーに開放 / xAI の Grok Voice 3.0 が音声対話ベンチマークで首位を主張、Microsoft は第3世代 Maia 300 を公開</summary>
   </entry>
 </feed>
