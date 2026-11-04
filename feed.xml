@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-05T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月5日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05-news.html</id>
+    <updated>2026-11-05T00:00:00+09:00</updated>
+    <summary>MetaがAIコーディングスタートアップConductorを買収 / Anthropicが「どのモデルが出力したか」を暗号学的に検証するFlashProveを公開 / AI推論基盤のFalが13億ドルを調達、評価額160億ドルに / GoogleがK-12向けでAIを無効化するとSearchも使えなくなる方針を修正、批判受け / AnthropicのS-1/AがRSI（AIによる加速的進歩）しきい値への接近を示唆</summary>
+  </entry>
+  <entry>
     <title>2026年11月5日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21.html</id>
     <updated>2026-10-21T00:00:00+09:00</updated>
     <summary>AnthropicがClaudeによるサソリ毒向けタンパク質設計の実験結果を公開（211設計中17が基準を満たす） / Claude Code v2.1.299のアイドル圧縮をトークン数の実測で検証した記事が登場 / エージェント運用では指示ファイルの置き方や、リトライの冪等性といった実務の知見が注目された</summary>
-  </entry>
-  <entry>
-    <title>2026年10月20日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20-news.html</id>
-    <updated>2026-10-20T00:00:00+09:00</updated>
-    <summary>NVIDIA がエンタープライズ／PC向けエージェント用オープンモデル Nemotron 3.5 を発表 / Microsoft がAIエージェント監視用「Guardian Agents」を発表、フロンティアモデルは信頼できないと強調 / AWS が PyTorch アプリを Trainium で動かす TorchNeuron を公開 / AIコーディングツール OpenCode の旧システムが侵害され、APIキーの不正利用が発生</summary>
   </entry>
 </feed>

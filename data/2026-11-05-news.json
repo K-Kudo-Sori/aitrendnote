@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026/11/5 8:03:36",
+  "highlights": [
+    "MetaがAIコーディングスタートアップConductorを買収",
+    "Anthropicが「どのモデルが出力したか」を暗号学的に検証するFlashProveを公開",
+    "AI推論基盤のFalが13億ドルを調達、評価額160億ドルに",
+    "GoogleがK-12向けでAIを無効化するとSearchも使えなくなる方針を修正、批判受け",
+    "AnthropicのS-1/AがRSI（AIによる加速的進歩）しきい値への接近を示唆"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Meta、AIコーディングのスタートアップConductorを買収",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "summary": "Metaは、複数のAIエージェントを別々のワークスペースで並走させてソフトウェアを開発できるConductor（2024年創業）を買収した。買収額は非公開。Conductorのクラウドサービスは11月20日に終了し、主要機能は来年初めまで利用できる。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、AIモデルの身元を証明する仕組みを開発中",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "summary": "Anthropicは、暗号学的証明（provable inference）で出力を生成したモデルを検証するオープンソースのFlashProveを開発している。各ラボがモデルの重みを明かさないフィンガープリントを公開する仕組みで、商用モデルやローカル環境でも検証できる。仕様とコードはGitHubで公開されたが研究段階で、導入予定はない。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AI推論スタートアップFal、評価額が倍増の160億ドルに",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "summary": "サンフランシスコのAI推論スタートアップFalが、Series Fで13億ドルを調達した。Bessemer Venture Partnersが主導し、Nvidia、Sound Ventures、T. Rowe Priceが参加。評価額は4月の80億ドルから160億ドルに倍増した。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Google、AIを制限する学校のSearchを止める計画で批判、Gemini等は既定でオフに",
+      "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+      "summary": "GoogleはK-12向けソフトウェアで、AIツールを有効にしない学校はSearchを使えなくなる方針を示し、サンダース上院議員らやリナ・カーン元FTC委員長から批判された。これを受け、Gemini、Gemini Notebook、Searchは既定でオフとなり、学校が個別に有効化できるようになる。生徒向けの「Guided Learning」機能も開発中。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、S-1/AでRSI（AIによる加速的進歩）のしきい値に近づく可能性を示唆",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "summary": "Anthropicの改訂S-1/A提出書類は、責任あるスケーリング方針が定める「AIに起因する劇的に加速した進歩」のしきい値に近づく可能性を示している。現行モデルでこの水準を超えたと指定されたものはない。過去にAI活用で認識できない能力向上があったことも認め、人間による管理を保つための方針更新を検討している。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Uber「AIエージェント経由の配車はほぼ皆無」、ピーク週でも4件",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "summary": "Uberは第3四半期決算会見で、10月のハロウィン週にAIエージェント経由で予約された配車は4件だったと明らかにした。Uber Eatsは約500件で、両サービス合計約3.2億件の利用に対しごくわずか。CEOは「非常に初期で限定的」としつつ、将来の販売チャネルとして楽観的な見方を示した。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-11-05-news"
+}
