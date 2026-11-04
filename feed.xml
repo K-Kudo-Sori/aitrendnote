@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-04T00:00:00+09:00</updated>
+  <updated>2026-11-05T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月5日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05.html</id>
+    <updated>2026-11-05T00:00:00+09:00</updated>
+    <summary>Ricursive IntelligenceがオープンウェイトのRipple-65B Previewを公開 / AnthropicがzkSNARKによる検証可能なLLM推論の進捗を報告 / AIによる脆弱性発見の加速とパッチ急増がセキュリティ運用に影響 / Claude Codeなどエージェントを使った開発・運用事例が多数</summary>
+  </entry>
   <entry>
     <title>2026年11月4日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20-news.html</id>
     <updated>2026-10-20T00:00:00+09:00</updated>
     <summary>NVIDIA がエンタープライズ／PC向けエージェント用オープンモデル Nemotron 3.5 を発表 / Microsoft がAIエージェント監視用「Guardian Agents」を発表、フロンティアモデルは信頼できないと強調 / AWS が PyTorch アプリを Trainium で動かす TorchNeuron を公開 / AIコーディングツール OpenCode の旧システムが侵害され、APIキーの不正利用が発生</summary>
-  </entry>
-  <entry>
-    <title>2026年10月20日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-20.html</id>
-    <updated>2026-10-20T00:00:00+09:00</updated>
-    <summary>AI生成コードの理解・レビューの在り方が議論に / Claude Codeの権限設定やプロンプトインジェクション対策の検証記事が複数 / エージェント観測・MCP連携ツールの公開が相次ぐ</summary>
   </entry>
 </feed>

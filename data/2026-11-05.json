@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026/11/5 7:03:56",
+  "highlights": [
+    "Ricursive IntelligenceがオープンウェイトのRipple-65B Previewを公開",
+    "AnthropicがzkSNARKによる検証可能なLLM推論の進捗を報告",
+    "AIによる脆弱性発見の加速とパッチ急増がセキュリティ運用に影響",
+    "Claude Codeなどエージェントを使った開発・運用事例が多数"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "summary": "Ricursive Intelligenceが、AIチップ設計基盤向けの自社モデルの汎用版「Ripple-65B Preview」を公開した。12兆トークンで事前学習した密モデルで、最大100万トークンの文脈に対応する。TerminalBench 2.1で80.52を記録し、米国製オープンウェイトモデルとして最高水準を主張している。パラメータが小さいためNVIDIA DGX Sparkなどのローカル環境でも動作し、Hugging FaceやOpenRouterなどで利用できる。",
+      "category": "model",
+      "points": 146,
+      "comments": 56,
+      "author": "Philpax"
+    },
+    {
+      "source": "hackernews",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "summary": "IEEE Spectrumの記事。AIによる脆弱性発見が加速し、PHPの脆弱性「PHP2Shell」などをきっかけに、40年分の技術的負債の返済を迫られているという論点を扱う。ただし本文は見出し部分のメタ情報しか取得できず、詳細な内容は確認できていない。サイバーセキュリティとAIの関係を論じる記事である。",
+      "category": "security",
+      "points": 959,
+      "comments": 587,
+      "author": "pseudolus"
+    },
+    {
+      "source": "hackernews",
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra",
+      "summary": "本文取得失敗（Cloudflareのチャレンジ画面のみ取得）。タイトルからは、Qualcomm Cloud AI 100 Ultraが消費電力150Wで128GBメモリ・帯域548GB/sを備えるAIアクセラレータカードであることがわかる。",
+      "category": "infra",
+      "points": 53,
+      "comments": 22,
+      "author": "peter_d_sherman"
+    },
+    {
+      "source": "hackernews",
+      "title": "Progress on provable inference for large language models",
+      "url": "https://www.anthropic.com/research/provable-inference",
+      "summary": "Anthropicが、LLMの推論を暗号学的に検証する「検証可能な推論」の進捗を報告した。ユーザーは応答が主張どおりのモデルから来たのか、コスト削減のため別モデルにすり替えられたのか確認できない。そこでzkSNARKを用いて、モデル提供者が特定モデルにコミットし各応答がそのモデル由来だと証明する仕組みを検討している。FlashProveというシステムを中心に成果を共有している。",
+      "category": "research",
+      "points": 146,
+      "comments": 74,
+      "author": "ltononro"
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "summary": "YC S23のKino AIが、AIエージェントとチームで使えるメディア管理・動画編集ツールを公開した。編集、モーションの作成、タイムライン操作、コメントをすべてRemotionベースのコードで表現するコードファーストな設計である。リアルタイム共同編集に対応し、複数のエージェントが同じタイムラインで並行作業できる。素材保管とレビューリンクも一体化している。",
+      "category": "product",
+      "points": 53,
+      "comments": 24,
+      "author": "lukeigel"
+    },
+    {
+      "source": "zenn",
+      "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
+      "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
+      "summary": "AIにADRのドラフトを任せたところ、人間が読み返しにくいADRが量産された。そこでADRに書くべきこと・書くべきでないことを整理したガイドラインを作成した。記事ではその具体的な問題例とガイドラインの内容を紹介している。AI駆動開発で意思決定記録の品質を保つ知見である。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "summary": "ZennではPRごとのAIレビューに加え、AIエージェントによる全自動のペネトレーションテストを毎週GitHub Actionsで実行している。攻撃側のAI活用で脆弱性の悪用までの時間が短くなり、人間による定期診断では追いつかないことが背景にある。特別な製品は使わず、GitHub Actions・Docker・OSSツールの組み合わせで構築した。その構成を紹介している。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "バイブコーディングで機能を継ぎ足していて見えてきたClaudeCodeの実装のクセ",
+      "url": "https://zenn.dev/uguisu_blog/articles/45d1f446ece415",
+      "summary": "要件が固まらないままClaude Codeでバイブコーディングしたところ、テストは通るのに画面ごとに数字や挙動が食い違った。AIは依頼された画面の周辺しか読まず、全体像や経緯を把握しない傾向がある。防ぐには概念台帳・画面一覧・型とフックなどを人間が先に用意すべきだと述べる。AI時代こそ全体を設計して指揮するPMスキルが重要だという結論である。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "3 人それぞれの Claude Code を Slack でつないで ISUCON2026 に参加した（207,039 点）",
+      "url": "https://zenn.dev/kauche/articles/f3736c660aab77",
+      "summary": "3人がそれぞれのClaude CodeをSlackでつなぎ、ISUCON2026に参加して207,039点を獲得した。エージェント同士は履歴を共有せず、連絡はSlackのみで行い、4台のサーバーへのデプロイとベンチマークの衝突を調整した。人間は次第にコードを書かなくなり、目標と方針を伝える役に回った。スコアは10時台の数千点から17時台に20万点超へ伸びた。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "AIにいきなり実装させない — kintoneカスタマイズ開発Skillのヒアリング設計",
+      "url": "https://zenn.dev/genda_jp/articles/a5cbba3664748b",
+      "summary": "GENDAが、kintoneのJavaScriptカスタマイズ開発をClaudeのAgent Skillsで仕組み化した。Skillは要件ヒアリングから要件定義書、設計、実装、セルフレビュー、GitHub Actions経由のデプロイまでの6フェーズで構成される。最も重要なのは、実装に着手する前に何を確定させるかというヒアリング設計だと述べる。その設計方法を紹介している。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "We're Building AI to Replace Ourselves. What's the Plan?",
+      "url": "https://dev.to/sylwia-lask/were-building-ai-to-replace-ourselves-whats-the-plan-4oll",
+      "summary": "AIコーディングエージェントが普及し、単純な機能は自動で書かれ、レガシーのデバッグも容易になった。筆者はAIが多くの仕事を担えるようになったとき、開発者は職を追われないために何をすべきかを調べ、調べるほど悲観的になったと述べる。特に新人開発者にとっての落とし穴を指摘するディスカッション記事である。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "That's a Wrap on Hacktoberfest 2026! 🎃👻",
+      "url": "https://dev.to/devteam/thats-a-wrap-on-hacktoberfest-2026-148k",
+      "summary": "DEVがHacktoberfest 2026の終了を報告した。参加者は11万5千人超、対面イベントは70以上の国と地域で500超で、当初目標の300を上回った。今年はオープンウェイトモデルとオープンソースAIでの開発に焦点を当てた。5つのDEVチャレンジの受賞者も紹介している。",
+      "category": "other",
+      "tags": [
+        "hacktoberfest",
+        "hf26challenge",
+        "opensource",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370",
+      "summary": "DEVが、Presage SmartSpectra SDKチャレンジを11月4日から22日まで開催すると告知した。カメラで取得した脈拍・呼吸数・HRV・表情などのリアルタイムな人間の信号に反応する体験を作る内容である。賞金は総額3,000ドルで10名が受賞する。創造性賞と、同意やデータ取扱いに配慮した実用賞の2つの部門がある。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "This is my first HacktoberFest, and I don't know what to feel.",
+      "url": "https://dev.to/francistrdev/this-is-my-first-hacktoberfest-and-i-dont-know-what-to-feel-449f",
+      "summary": "筆者が初めて参加したHacktoberfestについて、スパムPRなどを巡るルールへの複雑な思いを綴った記事である。タイトルが示すとおり「SpamtoberFest」的な運用への批判的な見方を中心に、楽しめた点とそうでない点を述べる。AIとの関連は薄く、コミュニティに関する雑感である。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "community",
+        "mlh",
+        "hacktoberfest"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Nuxt CLI v4 Is Great for AI Coding Agents",
+      "url": "https://dev.to/erikch/nuxt-cli-v4-is-great-for-ai-coding-agents-5dhg",
+      "summary": "Nuxt CLI v4はNuxt 4.6と共に10月初旬に公開された。インストールサイズが13.1MBから3.5MBに、nuxt devの初回描画が330msから50msに改善されている。筆者は特にコーディングエージェント向けの機能に注目して試した。開発サーバーがポートを乱立させる問題を、新しいnuxt devのパネルや機能で解消できると紹介している。",
+      "category": "devtool",
+      "tags": [
+        "nuxt",
+        "vue",
+        "ai",
+        "webdev"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "どっちが人間？ AIで声をクローンして、本人と聞き比べてみた",
+      "url": "https://qiita.com/nakata-sapeet/items/f883c3cf009785c51bcc",
+      "summary": "VoiceStudioというローカルで動く音声AIアプリで、VoxCPM2モデルを使い声をクローンして本人の声と聞き比べる記事である。手本は別の文章を読んだ約15秒の録音だけで、クラウドの音声合成は使わずMac上で作成した。じっくり聞けば違いは分かるが、一聞しただけでは区別しにくいと述べる。本人の許可を得て掲載している。",
+      "category": "model",
+      "tags": [
+        "音声合成",
+        "TTS",
+        "機械学習",
+        "Python",
+        "Mac"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "生成 AI が進化する今こそ、「人材育成」が経営の重要課題ではないか",
+      "url": "https://qiita.com/Takashi_Masumori/items/3c3091a6142d3e05385b",
+      "summary": "生成AIの活用で今の成果が増えることと、将来成果を出せる組織が育つことは同じではないと主張する。AIで生産性が上がって見える組織でも、人が育たなくなる問題が進行しかねないと懸念する。生成AIの活用はマネジメントの延長にあり、目的の共有、ルール提示、結果へのフィードバックが重要だと述べる。経営課題としての人材育成を訴える。",
+      "category": "other",
+      "tags": [
+        "生成AI",
+        "人材育成",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI駆動開発の次の段階: ソフトウェアファクトリー",
+      "url": "https://qiita.com/Syoitu/items/9364a0a175893bb15219",
+      "summary": "Claude Code開発者の記事に刺激を受け、アプリを作る代わりにアプリを作る仕組みを作る「ソフトウェアファクトリー」に取り組んでいる。アイデアをチケットにして渡すと、開発を進めてくれる仕組みである。Devinなどのサービスは数年前からあり、Codex cloudやClaude Codeなども使える。AWSとGitHubを組み合わせた構成を紹介している。",
+      "category": "agent",
+      "tags": [
+        "AI駆動開発",
+        "AWS",
+        "GitHub",
+        "ループエンジニアリング",
+        "ソフトウェアファクトリー"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "[AWS]日本語OCRがついにきちゃー！ ~Textractにいろいろ読ませてみた~",
+      "url": "https://qiita.com/kikuziro/items/9aff0fefe89cfa13192e",
+      "summary": "2026年11月2日にAmazon Textractが日本語に対応し、東京リージョンでも利用可能になった。筆者はさまざまな画像を読み込ませて精度を簡易的に測定した。RAGでのPDFや画像の取り込みで必要なOCRが、S3からTextract、Bedrockの埋め込み、ベクトルストアまでAWS内で完結する利点を挙げる。IAMやCloudTrailで管理できる点も評価している。",
+      "category": "product",
+      "tags": [
+        "AWS",
+        "rag",
+        "OCR",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "2026年10月はパッチの魔女月だった。お化けが増えたのか、誰かが明かりをつけたのか",
+      "url": "https://qiita.com/figueiredoluiz/items/4021ff4e6281b73f2d86",
+      "summary": "2026年10月は、CISAがPHP脆弱性2件（PHP2Shell）をKEVに追加し、Firefox 159が167件のCVEを公開するなど、パッチが大量に出た月だった。Microsoft Patch Tuesdayは1,400件超、Oracleは1,295件のパッチだった。筆者は、増えたのはバグそのものよりバグを見つける力と数え方だと仮説を立てる。問われているのはそれを受け止めるプロセスだと述べる。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "AI",
+        "脆弱性",
+        "品質管理",
+        "SRE"
+      ]
+    }
+  ]
+}
