@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-05T00:00:00+09:00</updated>
+  <updated>2026-11-06T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月6日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06.html</id>
+    <updated>2026-11-06T00:00:00+09:00</updated>
+    <summary>Tencentがオープンソースの新LLM「Hy4」を発表。視覚理解に初対応し、重みは数日内に公開予定 / AIコーディング時代の品質担保が話題。自作lint、ADRガイドライン、人間の説明責任など / ZennがAIによる全自動ペネトレーションテストをGitHub Actionsで毎週運用 / WebMCPで悪意あるサイトがAIエージェントを誘導する攻撃の検証デモ</summary>
+  </entry>
   <entry>
     <title>2026年11月5日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21-news.html</id>
     <updated>2026-10-21T00:00:00+09:00</updated>
     <summary>Anthropicが議会向けAI安全法案の草案を提示（重大リスクのあるモデルのリリース差し止めを可能に） / GoogleがTorchTPUを公開、AmazonのTorchNeuronに続きNvidia依存の低減を狙う / OpenAIがバイオ創薬AIのOrchestra Bioを買収、ChatGPTにはロックチャット機能</summary>
-  </entry>
-  <entry>
-    <title>2026年10月21日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21.html</id>
-    <updated>2026-10-21T00:00:00+09:00</updated>
-    <summary>AnthropicがClaudeによるサソリ毒向けタンパク質設計の実験結果を公開（211設計中17が基準を満たす） / Claude Code v2.1.299のアイドル圧縮をトークン数の実測で検証した記事が登場 / エージェント運用では指示ファイルの置き方や、リトライの冪等性といった実務の知見が注目された</summary>
   </entry>
 </feed>
