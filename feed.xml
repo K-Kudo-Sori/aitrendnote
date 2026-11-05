@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-06T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月6日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06-news.html</id>
+    <updated>2026-11-06T00:00:00+09:00</updated>
+    <summary>OpenAI が脆弱性探索向けのセキュリティ特化モデル「ChatGPT Cyber」を限定提供、10億ドルの支援構想も発表 / Anthropic が Claude に家計分析の Personal Finance 機能（ベータ）を追加 / Meta が AI「Muse」とのビデオ通話機能を米国で一般提供 / Dropbox が Tigris Data を3.5億ドルで買収、AIエージェント向けストレージ基盤を強化</summary>
+  </entry>
+  <entry>
     <title>2026年11月6日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22.html</id>
     <updated>2026-10-22T00:00:00+09:00</updated>
     <summary>PyPI上のLiteLLM 1.107.0が侵害され、認証情報窃取とバックドアが仕込まれていたとの報告 / OpenAIのモデルとCodexがGoogle CloudのModel Gardenで利用可能になる提携が発表 / AnthropicがProアクティブなエージェント「Claude Duet」をリサーチプレビューとして公開 / OpenAIがPHPの重大脆弱性対応を含む「Patch the Planet」の協調対応を報告 / Claude CodeでCI待ち時間を18分から4分台へ短縮した事例など、AI駆動開発の実践知見が多数</summary>
-  </entry>
-  <entry>
-    <title>2026年10月21日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-21-news.html</id>
-    <updated>2026-10-21T00:00:00+09:00</updated>
-    <summary>Anthropicが議会向けAI安全法案の草案を提示（重大リスクのあるモデルのリリース差し止めを可能に） / GoogleがTorchTPUを公開、AmazonのTorchNeuronに続きNvidia依存の低減を狙う / OpenAIがバイオ創薬AIのOrchestra Bioを買収、ChatGPTにはロックチャット機能</summary>
   </entry>
 </feed>
