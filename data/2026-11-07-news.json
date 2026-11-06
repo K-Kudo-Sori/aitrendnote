@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026/11/7 8:03:44",
+  "highlights": [
+    "OpenAIがサイバーセキュリティ特化モデル「ChatGPT Cyber」を限定提供",
+    "AnthropicがClaudeに家計分析の「Personal Finance」ベータ機能を追加",
+    "MetaがMuseエージェント向け「Spaces」を公開",
+    "AIエージェント・セキュリティ分野でPalo Alto NetworksがClutch買収交渉と報道"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、サイバーセキュリティ向けモデル「ChatGPT Cyber」をリリース",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "summary": "OpenAIはサイバーセキュリティ特化モデル「ChatGPT Cyber」を、攻撃的セキュリティ研究者向けの最上位プログラム「Daybreak Red」で提供開始した。Linuxカーネルで948件の潜在的問題、Firefoxで81件の新たな脆弱性の発見に使われたという。アクセスは数千人規模の専門家に限定され、今後は組織や独立研究者、OSSメンテナへ拡大する方針。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Claude、新機能「Personal Finance」で支出分析が可能に",
+      "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
+      "summary": "Anthropicは、Claudeに家計分析ツール「Personal Finance」をベータ提供した。米国のPro/Max/Ultraプラン向けで、Plaid経由で銀行・クレジットカードを連携し、支出のカテゴリ分類や重複請求・予期せぬ手数料の検出ができる。アクセスは読み取り専用で、チャットはモデル学習に使われないとしている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、Museエージェントと協働する新機能「Spaces」を発表",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "summary": "MetaはMuseエージェントとトピック別に会話できる「Spaces」を公開した。チャットで案を説明するとトラッカーやプランナー、プロジェクトボードを生成し、外部アプリ連携で情報が自動更新される。前日にはMuse Voice（エージェントとのビデオチャット）も発表されている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "中国製AIハッキングツール「Artex」の公開露出インスタンスが数百件見つかる",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "summary": "Censysの調査で、パスワードなしで到達可能なArtexのデプロイが800件超確認された。7月公開のOSSツールで、韓国の金融機関への攻撃やConnectWise侵害との関連が指摘されている。開発者はクローズドソース化を表明したが、コードの複製は多数残っている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Palo Alto Networks、AIエージェント向けセキュリティのClutchを5億ドルで買収交渉と報道",
+      "url": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
+      "summary": "報道によると、Palo Alto NetworksはAIエージェントの社内システムへのアクセスを管理するClutch Securityを、現金5億ドルと成果連動報酬で買収する交渉をしている。ClutchのARRは約1,000万ドルで、評価額は約50倍にあたる。同社にとって今年7件目の買収となる。The Informationが最初に報じた。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、評価額1.25兆ドルで追加110億ドルを調達と報道",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "Bloombergによると、OpenAIは評価額1.25兆ドルの資金調達ラウンドでこれまでに110億ドルを調達した。ラウンドは未完了で、最終的に約200億ドルになる可能性があるが、9月に報じられた300億ドルの目標には届かない。AnthropicのIPO株の購入希望者は評価額を最大で約1.1兆ドルと見ているとも報じられている。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-11-07-news"
+}

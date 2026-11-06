@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-07T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月7日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07-news.html</id>
+    <updated>2026-11-07T00:00:00+09:00</updated>
+    <summary>OpenAIがサイバーセキュリティ特化モデル「ChatGPT Cyber」を限定提供 / AnthropicがClaudeに家計分析の「Personal Finance」ベータ機能を追加 / MetaがMuseエージェント向け「Spaces」を公開 / AIエージェント・セキュリティ分野でPalo Alto NetworksがClutch買収交渉と報道</summary>
+  </entry>
+  <entry>
     <title>2026年11月7日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23.html</id>
     <updated>2026-10-23T00:00:00+09:00</updated>
     <summary>AIエージェントの安全な実行基盤（NVIDIA OpenShell）やMCPなど、エージェント運用の話題が継続 / AIがメモリバグを攻撃に変換できる時代を示すPHP脆弱性の議論が話題 / Claude Codeのトークン削減（約98%）やCI高速化など実運用Tipsが多数 / Hacktoberfest Open-Source AI Challenge第3週が開催中</summary>
-  </entry>
-  <entry>
-    <title>2026年10月22日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22-news.html</id>
-    <updated>2026-10-22T00:00:00+09:00</updated>
-    <summary>NSAがPHPの重大な脆弱性2件を警告。OpenAIとGoogle傘下のWizがAIツールで発見 / Recursiveが自動研究システムで開発したノートPC向けコーディングモデル「Flint」を無償公開 / WalmartがAIエージェント向けMCPサーバー「Agent Gateway」を発表 / MetaのMuseが1,000万ユーザー超、ショッピングが主要な用途に</summary>
   </entry>
 </feed>
