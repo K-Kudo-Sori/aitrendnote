@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026/11/7 7:04:16",
+  "highlights": [
+    "Anthropicの開発加速をめぐるMETR報告が話題",
+    "AIによる自動ペネトレーションテストやWebMCPの攻撃検証などセキュリティ話題が多い",
+    "バイブコーディングの限界と設計の重要性を扱う記事が目立つ"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "summary": "METRの報告を紹介する記事。Anthropicが自社RSPの「AIによる劇的な進捗加速」の閾値に近づいている、あるいは既に超えた可能性を論じる。2025年10月〜2026年10月の能力向上ペースは直前12か月の約2倍と報告されている。著者は、加速が複利的に続くなら単純外挿で1年以内に超知能に至り得ると警告している。",
+      "category": "research",
+      "points": 80,
+      "comments": 30,
+      "author": "yurivish"
+    },
+    {
+      "source": "hackernews",
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+      "summary": "本文取得失敗（アクセス制限のため本文を取得できず）。タイトルは、米FAAが航空管制で使われているフロッピーディスクを2028年までに段階的に廃止すると報じるもの。",
+      "category": "other",
+      "points": 220,
+      "comments": 177,
+      "author": "ChrisArchitect"
+    },
+    {
+      "source": "hackernews",
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+      "summary": "InfoHawkの調査で、米国の大手飲食チェーンを装う約820の不審なドメインのネットワークが見つかった。一部は決済情報を盗むスキミング攻撃を行い、カード情報に加え銀行のSMS認証コードまで入力させる。デリバリー注文を狙う巧妙なフィッシングの手口を解説している。",
+      "category": "security",
+      "points": 41,
+      "comments": 18,
+      "author": "fiej"
+    },
+    {
+      "source": "hackernews",
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "summary": "凍結済みLLM向けの潜在意味記憶システム「Memorilla」を提案するarXiv論文。文書群を一度埋め込み化し、クエリに応じて固定数（16個）のメモリトークンに集約して入力に与える。8つのベンチマークのうち5つでMem0やMemoRAGを上回った。FactKGでは全文脈推論（80.43%）を上回る84.33%を、約108分の1のトークンで達成した。エージェントの継続学習にも有効とされる。",
+      "category": "research",
+      "points": 58,
+      "comments": 3,
+      "author": "handfuloflight"
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "summary": "Google DeepMindが動画生成モデル「Gemini Omni 1.2 Flash」を発表した。最大15秒のクリップ生成に対応し、一貫性が向上している。生成は高速かつ低コストになったと説明されている。開発者向けツールとして提供される。",
+      "category": "model",
+      "points": 268,
+      "comments": 206,
+      "author": "thisisauserid"
+    },
+    {
+      "source": "zenn",
+      "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
+      "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
+      "summary": "AIにADRを書かせると人間に読みづらいものが量産される問題に直面した筆者が、ADRに書くべきこと・書くべきでないことを整理したガイドラインを作成した事例。意思決定記録の可読性を保つ具体的な問題例と対処を共有している。AI駆動開発でドキュメントの品質を守るハーネスエンジニアリングの知見である。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "summary": "ZennチームがOpenCode、Docker、GitHub Actionsを使い、AIエージェントによる全自動ペネトレーションテストを毎週回している事例の紹介。PRごとのAIセキュリティレビューも併用している。AIを使った攻撃で脆弱性悪用までの時間が短くなり、人手の定期診断では追いつかないことが背景にある。特別な製品は使わず構築した点も特徴である。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた",
+      "url": "https://zenn.dev/nexta_/articles/42a828ca2b8a02",
+      "summary": "Claude Codeのセッションを複数並べて管理するダッシュボードを、コードを一切読まずにバイブコーディングで作った体験記。画面の動きだけを見て修正を指示し、UIのルールもAIと相談して決めた。初期版は約1週間、ほぼ完成まで1か月足らずだった。コードを読まない開発の得失を振り返っている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "バイブコーディングで機能を継ぎ足していて見えてきたClaudeCodeの実装のクセ",
+      "url": "https://zenn.dev/uguisu_blog/articles/45d1f446ece415",
+      "summary": "要件が固まらないままClaude Codeでバイブコーディングし、社内の売上計画システムを作った事例。テストは通るのに画面ごとに数字や挙動が食い違った。AIは依頼された画面の周辺しか読まず、全体像や経緯を把握しないためである。概念台帳・画面一覧・型とフックなどを人間が先に用意し、全体を設計するPMスキルが重要だと結論づけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
+      "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
+      "summary": "2026年10月に刷新されたMagicPodのMCPサーバーにより、Claudeからテストケースの作成・編集・実行が可能になった。これを受け、Claude CodeにPlaywrightのテストを書かせる方法でもよいのではないかと考え、未知のアプリで両者を比較した記録。Claudeを使いこなせる人にMagicPodは必要かを検証している。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264844",
+      "summary": "DEVチームがPresage SmartSpectra SDKを使った新しい開発チャレンジの開催を告知する記事。カメラベースでリアルタイムに人の生体信号を処理するSDKが題材で、10名の受賞者に合計3,000ドルの賞金が出る。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Congrats to the Kaggle Benchmarking Challenge Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
+      "summary": "DEVとKaggleによるベンチマーク作成チャレンジの受賞者発表。参加者は、モデルが練習用ハッキング対象が実在企業のシステムだと気づくか、スペインのVeriFactuの請求ハッシュを正しく再現できるか、といった独自の評価を作った。受賞作には、アルバータ州の時計変更廃止を19の最先端モデル全てが誤るという例がある。",
+      "category": "research",
+      "tags": [
+        "devchallenge",
+        "kagglechallenge",
+        "ai",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "We're Building AI to Replace Ourselves. What's the Plan?",
+      "url": "https://dev.to/sylwia-lask/were-building-ai-to-replace-ourselves-whats-the-plan-4oll",
+      "summary": "AIで開発者が置き換わるはずだったのに、なぜまだ働いているのかという議論記事。AIエージェントへの過度な期待と現実のギャップを取り上げ、新人開発者が陥る落とし穴について問いかけている。AI時代のキャリアの見通しを話し合うディスカッション投稿である。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "An AI Testing Presentation Became the Final Push for Organizational Change at My Company",
+      "url": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+      "summary": "マルチエージェントのAIテストシステムを社内発表したところ、議論がテスト効率化を超えて組織変革へ発展した体験談。このシステムは要件理解、テストケース生成、ブラウザ・モバイル操作、不具合検出、修正と回帰テストまで連携する。AIでテストが安価になると、要件のずれなど従来のボトルネックが移り、プロダクト・開発・QAの協働の見直しが必要になると述べている。",
+      "category": "product",
+      "tags": [
+        "discuss",
+        "ai",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "WebMCP Attack Lab: Can an E-Shop Hijack Your AI Agent?",
+      "url": "https://dev.to/gramli/webmcp-attack-lab-can-an-e-shop-hijack-your-ai-agent-4oe5",
+      "summary": "提案中のWeb標準WebMCPを題材に、悪意あるECサイトがユーザーのAIエージェントを乗っ取れるかを検証するAngular 22製の攻撃ラボ。悪意あるツールを公開するeショップを作り、エージェントがどう誘導されるかを試している。WebMCPのセキュリティ上のリスクを実験で示す内容である。",
+      "category": "security",
+      "tags": [
+        "ai",
+        "webmcp",
+        "angular",
+        "security"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI駆動開発の次の段階: ソフトウェアファクトリー",
+      "url": "https://qiita.com/Syoitu/items/9364a0a175893bb15219",
+      "summary": "AIにチケットを渡すとアプリ開発を進めてくれる「ソフトウェアファクトリー」の取り組み紹介。Claude Code開発者の記事に刺激を受け、アプリを作るのでなく、アプリを作る仕組みを作る方針に転換した。AWSやGitHubを使ったループ型の開発で、AI駆動開発の次の段階と位置づけている。",
+      "category": "agent",
+      "tags": [
+        "AI駆動開発",
+        "AWS",
+        "GitHub",
+        "ループエンジニアリング",
+        "ソフトウェアファクトリー"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【マンガ】はじめてのインデータベースAI～ベクトル検索・RAGからAIエージェントまで～（コミカライズ版）",
+      "url": "https://qiita.com/yuji-arakawa/items/1c6d0ae4400ca2b4bae3",
+      "summary": "日本オラクルによる、インデータベースAIを紹介するコミカライズ版マンガ。新人エンジニアが保守支援システムの設計を通じ、ベクトル検索、RAG、AIエージェントの設計を学ぶ物語である。AI機能をデータの近くに置く考え方と、エージェントを支えるハーネスをOracle AI Databaseの機能とともに説明している。",
+      "category": "infra",
+      "tags": [
+        "oracle",
+        "AI",
+        "AIエージェント",
+        "初心者",
+        "生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "リモートのエージェントが起動した dev server を手元でプレビュー：VS Code 1.145 の Remote browser proxy を試した",
+      "url": "https://qiita.com/shahin0809/items/a1bd931855f392806ee6",
+      "summary": "2026年11月4日公開のVS Code 1.145で、リモートのエージェントが起動したdev serverを手元でプレビューできるRemote browser proxyを試した記事。リモートのエージェントセッションがよりローカルに近い感覚になる機能で、Agentsウィンドウから直接確認できる。cron対応のAutomationsなど他の更新にも触れている。",
+      "category": "devtool",
+      "tags": [
+        "VSCode",
+        "GitHubCopilot",
+        "AIエージェント",
+        "SSH",
+        "リモート開発"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Qiita投稿文化を社内に広めようとしたけど、うまくいかなかった話",
+      "url": "https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd",
+      "summary": "Qiita投稿文化を社内に広めようとして、うまくいかなかった体験談。熱量を持って呼びかけ、Qiita Organizationの週間投稿数ランキングで1位になったが、約3か月後には投稿が続いていなかった。筆者自身の投稿のきっかけと、定着しなかった原因を振り返っている。",
+      "category": "other",
+      "tags": [
+        "ポエム",
+        "Qiita",
+        "アウトプット",
+        "未経験エンジニア",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "IT未経験の私がAIに頼りすぎて挫折し、自分の頭で考えるようになるまで",
+      "url": "https://qiita.com/yu_tsukamoto/items/5fa1e302097552255fb7",
+      "summary": "IT未経験の新人エンジニアが、AIに頼りすぎて思考停止に陥り、先輩の質問に答えられなくなった経験の振り返り。AIを「身代わり」でなく「相談相手」として使い直し、まず自分で仮説を持ってから相談するようにした。AIに丸投げすると「なぜ？」に答えられなくなるという教訓を共有している。",
+      "category": "other",
+      "tags": [
+        "新人エンジニア",
+        "生成AI",
+        "振り返り"
+      ]
+    }
+  ]
+}

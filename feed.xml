@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-06T00:00:00+09:00</updated>
+  <updated>2026-11-07T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月7日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07.html</id>
+    <updated>2026-11-07T00:00:00+09:00</updated>
+    <summary>Anthropicの開発加速をめぐるMETR報告が話題 / AIによる自動ペネトレーションテストやWebMCPの攻撃検証などセキュリティ話題が多い / バイブコーディングの限界と設計の重要性を扱う記事が目立つ</summary>
+  </entry>
   <entry>
     <title>2026年11月6日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22-news.html</id>
     <updated>2026-10-22T00:00:00+09:00</updated>
     <summary>NSAがPHPの重大な脆弱性2件を警告。OpenAIとGoogle傘下のWizがAIツールで発見 / Recursiveが自動研究システムで開発したノートPC向けコーディングモデル「Flint」を無償公開 / WalmartがAIエージェント向けMCPサーバー「Agent Gateway」を発表 / MetaのMuseが1,000万ユーザー超、ショッピングが主要な用途に</summary>
-  </entry>
-  <entry>
-    <title>2026年10月22日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-22.html</id>
-    <updated>2026-10-22T00:00:00+09:00</updated>
-    <summary>PyPI上のLiteLLM 1.107.0が侵害され、認証情報窃取とバックドアが仕込まれていたとの報告 / OpenAIのモデルとCodexがGoogle CloudのModel Gardenで利用可能になる提携が発表 / AnthropicがProアクティブなエージェント「Claude Duet」をリサーチプレビューとして公開 / OpenAIがPHPの重大脆弱性対応を含む「Patch the Planet」の協調対応を報告 / Claude CodeでCI待ち時間を18分から4分台へ短縮した事例など、AI駆動開発の実践知見が多数</summary>
   </entry>
 </feed>
