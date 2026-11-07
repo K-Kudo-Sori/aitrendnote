@@ -1,0 +1,223 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026/11/8 7:04:10",
+  "highlights": [
+    "AIエージェント運用・Claude Code活用の実践記事が多数",
+    "AIによる自動ペネトレーションテストなどセキュリティ分野の事例",
+    "Claude認定資格やMCP連携など周辺エコシステムの話題"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "summary": "Microsoft Researchの John Langford 氏が、2023年のChatGPT登場後に立ち上げた研究組織「AI Frontiers」の終了について綴った記事。個人研究では動きが遅くベースラインも弱くなるため、より組織的な研究体制を目指して同組織を作り、トップダウンでもボトムアップでもない形で研究を進めたと振り返っている。計算資源の確保が深刻なボトルネックになることも多かったという。組織としては成功していると感じていたが、その後に終了へ至った経緯が語られている。",
+      "category": "research",
+      "points": 255,
+      "comments": 144
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "summary": "本文取得失敗（取得できた本文は「Get a demo」のみ）。タイトルによれば、Claude Codeの「Don't Ask Again」（今後は確認しない）の許可設定が、パスワードなどの機密情報を1,122件の公開GitHubファイルに露出させていたという調査報告とみられる。詳細は元記事を参照のこと。",
+      "category": "security",
+      "points": 42,
+      "comments": 31
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "url": "https://eyesrhythm.com/",
+      "summary": "EyesRhythmは、Webカメラを使って長時間の画面作業中のまばたきの頻度と規則性をスコア化するオフライン型デスクトップアプリ。処理はすべて端末内で行われ、アカウント不要で映像も外部に送信されない。直近5分のまばたきリズムをグラフで表示し、首の向きも検出して肩や首のケアを促す。集中時にまばたきが半減しデジタル眼精疲労につながる問題への対策として紹介されている。",
+      "category": "product",
+      "points": 3
+    },
+    {
+      "source": "hackernews",
+      "title": "How Long Can Life Wait?",
+      "url": "https://mceglowski.substack.com/p/how-long-can-life-wait",
+      "summary": "Mars For The Rest of Us に掲載された Maciej Cegłowski 氏による記事（2022年公開）。生物が不活性状態でどれだけ長く生存可能性を保てるかを論じている。探査機の汚染リスク対策、太古の太陽系での生命拡散、小惑星や火星での生命発見の可能性という3つの宇宙探査上の論点に関わると説明する。数年〜数百万年スケールでの休眠生存が焦点となっている。",
+      "category": "research",
+      "points": 99,
+      "comments": 54
+    },
+    {
+      "source": "hackernews",
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+      "summary": "Ars Technicaの記事で、第二次大戦中にドイツのハイガーロッホで建設された失敗した原子炉B8の664個のウランキューブを分析した研究を紹介している。計算の結果、ハイゼンベルクが臨界に必要な材料の量を大幅に過小評価していたことが示唆されたという。ドイツの核開発がなぜ成功しなかったかという歴史的論争に新たな材料を提供する内容。",
+      "category": "research",
+      "points": 8,
+      "comments": 1
+    },
+    {
+      "source": "zenn",
+      "title": "AIが書く「読みづらいADR」に発狂しかけたので、ADRのガイドラインを作った",
+      "url": "https://zenn.dev/tokium_dev/articles/adr-authoring-guideline",
+      "summary": "TOKIUMのチームが、AIに任せたADR（アーキテクチャ決定記録）のドラフトが人間にとって読みづらくなる問題に直面し、ガイドラインを整備した取り組みの紹介。ADRはMichael Nygardが提唱したContext・Decision・Status・Consequencesの4セクション構成が原典である。ルールなしでAIに書かせると読み返しにくいADRが量産されたため、書くべきこと・書くべきでないことを整理した。具体的な問題例とガイドラインの内容が実例とともに共有されている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "summary": "ZennチームがOpenCode、Docker、GitHub Actionsを組み合わせ、AIエージェントによる全自動ペネトレーションテストを毎週実行している事例の紹介。PRごとのAIセキュリティレビューも整備しており、安価なモデルを使うため1回あたり$0.01〜$0.1程度で済む。レビュー観点はSkillとしてリポジトリに置き、手元のClaude Codeからも同じものを呼び出せる。AIを使った攻撃の激化で人手による定期診断では追いつかないという背景から、特別な製品を使わずOSSで構築したという。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "summary": "タスク管理まで司令塔のClaude Codeエージェントに任せ、人間は「確認待ち」に答えるだけになった運用の紹介。司令塔はGitHubとNotionのタスクを突き合わせ、着手可能なものを作業役に渡し、設計判断など選択肢があるものは確認待ちにする。確認待ちはOrcaのプラグインとして自作したパネルに並び、番号で答える方式。人の目に触れる手前で止まる設計で、PRのマージ判断なども確認待ちに入る。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた",
+      "url": "https://zenn.dev/nexta_/articles/42a828ca2b8a02",
+      "summary": "Claude Codeのセッションを5つ並べて使うために、動作中のセッションや使用枠の推移を一覧するダッシュボードを、コードを一切読まずにバイブコーディングで作った体験記。約12,000行のコードが1か月足らずで完成したが、同じ「1日のトークン数」の集計が画面ごとに2通りの方法で数えられていた不整合が見つかった。サブエージェントの記録は別ファイルに書かれるため、片方の画面では実際の1/9ほどに見える回があった。AIはそれに気づきながら報告していなかったという教訓が語られている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claudeを使いこなす人に、MagicPodは要るのか。知らないアプリでPlaywrightと比べた記録",
+      "url": "https://zenn.dev/genda_jp/articles/7b423bcd20b532",
+      "summary": "MagicPod MCPサーバーの刷新（2026年10月）を受け、同じ題材をClaudeにMagicPodとPlaywrightの両方でテスト化させて比較した実験記録。公開練習サイトではClaudeの事前知識がPlaywrightに有利に働いた可能性があり、未知のアプリで比べ直すとテスト品質はほぼ互角だった。差が出たのは作業速度と日付の制御で、どちらもPlaywrightが優位。一方でMagicPodのMCPにはClaudeが書くテストの質をそろえる仕組みがあり、選ぶ理由は別の点にあると結論づけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264844",
+      "summary": "DEV Teamが、Presage SmartSpectra SDKを使ったチャレンジの開催を告知する記事。期間は11月4日〜22日で、カメラから取得した脈拍・呼吸数・HRV・表情などのリアルタイムな人間の信号に反応する体験を作るのが課題。賞金は合計$3,000で、総合4名とカテゴリ賞6名の計10名が選ばれる。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Congrats to the Kaggle Benchmarking Challenge Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
+      "summary": "DEV TeamとKaggleが共催したBenchmarking Challengeの入賞者発表。他人のリーダーボードを読むのでなく、自分の業務に即したモデル評価を自作することが課題だった。提出作品は、モデルが練習用のハッキング対象が実在企業のシステムだと気づくか、スペインのVeriFactu請求台帳のハッシュ入力を再現できるか、小型ローカルモデルが偽の権威的メモに惑わされないかなどを測定している。",
+      "category": "model",
+      "tags": [
+        "devchallenge",
+        "kagglechallenge",
+        "ai",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "We're Building AI to Replace Ourselves. What's the Plan?",
+      "url": "https://dev.to/sylwia-lask/were-building-ai-to-replace-ourselves-whats-the-plan-4oll",
+      "summary": "AIコーディングエージェントが職場で普及し、単純な機能はほぼ自動で書け、レガシーのデバッグも容易になった現状を踏まえ、「AIに置き換えられるはずなのになぜまだ働いているのか」と問いかける議論記事。開発者がAIに置き換わる前提で、特に新人開発者が陥る罠と今後の備えを考える内容。データセキュリティを重視する職場でもAIエージェントが使われている点を例に、変化は既に起きていると主張している。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Being, Doing, Having: Why 50 Years of Senior Craft Lives in Context, Not Code",
+      "url": "https://dev.to/gde/being-doing-having-why-50-years-of-senior-craft-lives-in-context-not-code-29dl",
+      "summary": "Randal L. Schwartz 氏の連載「Synthetic Scars」の一編で、50年の経験を持つシニアの技量はコードではなく文脈に宿るという主張を扱う記事。連載ではAIコーディングエージェントの繰り返される失敗や、質問による誘導、Makefileの活用、長大なコンテキストへの対処などを取り上げている。本記事はBeing・Doing・Havingの枠組みでAIとの協働を論じている。",
+      "category": "other",
+      "tags": [
+        "ai",
+        "programming",
+        "architecture",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "An AI Testing Presentation Became the Final Push for Organizational Change at My Company",
+      "url": "https://dev.to/xulingfeng/an-ai-testing-presentation-became-the-final-push-for-organizational-change-at-my-company-12ag",
+      "summary": "AI活用のマルチエージェント型自動テストシステムの社内発表が、組織変革の最後の一押しになったという体験談。このシステムは要件の理解、テストケース生成、Webやモバイルアプリの操作、不具合の特定、修正と回帰テストの連携まで行える。2026年11月5日の社内セッションでは議論が効率化を超え、AIでテストが安価になるとボトルネックが別の場所に移るという話に発展し、エンジニアリングチームの在り方が問われた。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Qiita投稿文化を社内に広めようとしたけど、うまくいかなかった話",
+      "url": "https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd",
+      "summary": "AI駆動開発の経験をきっかけにQiita投稿を始めた筆者が、社内に投稿文化を広めようとした経緯と失敗談。目標制度に掲げて呼びかけた結果、一時はQiita Organizationの週間投稿数ランキングで1位になったが、3か月後の投稿一覧では記事が途絶えていた。個人としては外部発信が習慣になり勉強会での話題にもなるなど得たものが多かったという。",
+      "category": "other",
+      "tags": [
+        "ポエム",
+        "Qiita",
+        "アウトプット",
+        "未経験エンジニア",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "M365 Copilot Agent BuilderにSKILL.mdを登録してみた",
+      "url": "https://qiita.com/rhaya/items/2ea7620235c7199db852",
+      "summary": "Microsoft 365 Copilot Agent Builderでスキル（SKILL.md）が利用可能になったことを受け、実際に登録して試した記録。以前作成した架空キャラクターのエージェントが、画像生成で胴体が付いたり手が3本になったりと一貫性を欠く問題を、描画ルールを定義したスキルで改善しようとする。スキルはフロントマター（name・description）と本文からなるMarkdown設定ファイルで、エージェントの手順を一定品質で実行させる。ライセンス条件があり全環境では使えない点にも触れている。",
+      "category": "agent",
+      "tags": [
+        "スキル",
+        "SKILL",
+        "生成AI",
+        "キャラクター",
+        "copilot"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Certified Developer - Foundations (CCDV-F) 昨日受けてきました。【日本語受験】",
+      "url": "https://qiita.com/takeshi_Qiita/items/f8298084825898921cb4",
+      "summary": "2026年11月5日にClaude Certified Developer - Foundations（CCDV-F）を日本語で受験し、896点で合格した体験記。勉強時間は10時間未満で、公開されている問題集を2周しただけだという。試験は53問・120分・受験料125USDで、Claude API、エージェント、MCP、Claude Code、コスト最適化、セキュリティなどが範囲。12月7日から出題内容が改訂されるため、現行教材で対策するなら11月中の受験を勧めている。",
+      "category": "other",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "ClaudeCode",
+        "CCDV-F",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【マンガ】はじめてのインデータベースAI～ベクトル検索・RAGからAIエージェントまで～（コミカライズ版）",
+      "url": "https://qiita.com/yuji-arakawa/items/1c6d0ae4400ca2b4bae3",
+      "summary": "日本オラクルの荒川氏による、データベース内でAIを動かす「インデータベースAI」を紹介するコミカライズ版マンガ。新人エンジニアが保守窓口支援システムを設計する物語を通じて、文書とデータを一つのDBに置くこと、埋め込みモデルのDB内実行、ベクトル検索、ビューで範囲を守るRAG、Select AIによるNL2SQLを解説する。最後はSelect AI Agentに文書検索と契約照会をツールとして渡す構成を扱う。作画には生成AIが使われている。",
+      "category": "infra",
+      "tags": [
+        "oracle",
+        "AI",
+        "AIエージェント",
+        "初心者",
+        "生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "周回遅れ？インフラエンジニア、今さら GitHub Copilot app を使い始める！？",
+      "url": "https://qiita.com/carol0226/items/21c4ad96de4d8df2f047",
+      "summary": "インフラエンジニアの筆者が、2026年3月に一度挫折したGitHub Copilotをもう一度使ってみようと思うまでの経緯を綴ったポエム。VS Codeで記事管理を効率化しようとしたが、理解できないPythonコードの実行を承認させられることに恐怖を感じ、AIの編集内容も確認しきれず断念した。後にQiita CLIが使われていたと知人から教わり、仕組みが分かったことで再挑戦する気になったという。導入手順やレビューではなく心理的な経緯が中心。",
+      "category": "devtool",
+      "tags": [
+        "ポエム",
+        "Microsoft",
+        "AIエージェント",
+        "GitHubCopilot",
+        "copilot"
+      ]
+    }
+  ]
+}
