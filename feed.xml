@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-08T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月8日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08-news.html</id>
+    <updated>2026-11-08T00:00:00+09:00</updated>
+    <summary>OpenAIが評価額1.25兆ドルで追加110億ドルを調達（報道） / Meta、Museエージェントと協働する「Spaces」を発表 / AI支出の伸びが鈍化、Anthropicの上場評価額見通しも低下（報道） / 中国製ペンテストツールArtexの公開露出が多数見つかる</summary>
+  </entry>
+  <entry>
     <title>2026年11月8日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24.html</id>
     <updated>2026-10-24T00:00:00+09:00</updated>
     <summary>OpenAIが最先端モデル学習環境の封じ込めをAIレッドチームで強化 / AIがメモリバグを攻撃に変える時代を示すPHP脆弱性が話題 / Claude Codeでの開発コスト・CI短縮の実践事例が複数</summary>
-  </entry>
-  <entry>
-    <title>2026年10月23日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-23-news.html</id>
-    <updated>2026-10-23T00:00:00+09:00</updated>
-    <summary>Anthropic がエージェントアプリ「Claude Duet」をリサーチプレビューで公開 / Anthropic が Agent Skills を Linux Foundation 傘下の Agentic AI Foundation へ寄贈 / OpenAI が評価額1.25兆ドルで最大300億ドルの調達を協議中と報じられる / ConnectWise 侵害で AI エージェントを使った攻撃が約2,250組織を標的に</summary>
   </entry>
 </feed>

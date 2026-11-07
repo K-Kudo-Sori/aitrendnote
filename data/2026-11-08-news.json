@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026/11/8 8:03:09",
+  "highlights": [
+    "OpenAIが評価額1.25兆ドルで追加110億ドルを調達（報道）",
+    "Meta、Museエージェントと協働する「Spaces」を発表",
+    "AI支出の伸びが鈍化、Anthropicの上場評価額見通しも低下（報道）",
+    "中国製ペンテストツールArtexの公開露出が多数見つかる"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、評価額1.25兆ドルで追加110億ドルを調達と報道",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "Bloombergによると、OpenAIは評価額1.25兆ドルの資金調達ラウンドでこれまでに110億ドルを調達した。ラウンドは未完了で、最大約200億ドルになる可能性があり、9月に求めたとされる300億ドルには届かない見込み。自社のIPO計画は延期されているという。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、Museエージェントと協働する新機能「Spaces」を発表",
+      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
+      "summary": "MetaはMuse AIエージェントと専用のサイドバースレッドで作業できる「Spaces」を開始した。チャットで説明したアイデアから、トラッカーやプランナー、プロジェクトボードを生成でき、外部アプリと連携してバックグラウンドで自動更新される。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "AI支出の伸びが鈍化、Anthropic上場を前にRampが指摘",
+      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
+      "summary": "Rampのデータでは、AIトークン支出は7月の42%増から、8〜9月は1.5%増にとどまった。トークン量は増え続けており、OpenAIとAnthropicの値下げや安価なモデル、コスト管理の改善が主因とされる。Anthropicの想定評価額は10月初旬の約2兆ドルから1.2〜1.3兆ドルに下がったと報じられている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "中国製の自動ペンテストツール「Artex」数百件が公開状態で露出",
+      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "summary": "Censysの研究者が、オープンソースのペンテスト自動化ツールArtexの公開デプロイを800件以上確認し、多くがパスワードなしでログインできた。Artexは韓国の金融業界やConnectWiseへの攻撃に関連づけられている。開発者はクローズドソース化を表明しているが、コピーは出回っている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Crusoe、難航したワイオミングのデータセンター事業をGoogleに売却",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "summary": "Crusoeは建設途中のワイオミング州のデータセンター用地をGoogleに売却したと確認した。Googleはコストと工期への懸念から引き継いだと報じられ、同拠点に170億ドルを投資する計画。売却額は非公開。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Underdog、32MBの音声モデル「Woof」をデモで公開",
+      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "summary": "Underdogは、約32MB・パラメータ3100万の音声合成モデルWoofを使ったブラウザゲームを公開した。ネット接続なしで多くの端末上で動作するとされる。同社は音声認識モデルBarkなど、オンデバイスAIを推進している。",
+      "category": "model"
+    }
+  ],
+  "slug": "2026-11-08-news"
+}
