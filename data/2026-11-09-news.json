@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026/11/9 8:03:13",
+  "highlights": [
+    "OpenAIが評価額1.25兆ドルで追加110億ドルを調達（報道）",
+    "米中間選挙でデータセンター計画が各地の住民投票で否決、AIインフラに逆風",
+    "CrusoeがWyomingの未完成データセンターをGoogleへ売却",
+    "NvidiaのCEOを巡る中国情報機関関与の報道を受け取締役会が独立調査を開始"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "OpenAI、評価額1.25兆ドルで追加110億ドルを調達と報道",
+      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "summary": "Bloombergによると、OpenAIは評価額1.25兆ドルの資金調達ラウンドでこれまでに110億ドルを調達した。ラウンドは未完了で、最終的に約200億ドルになる可能性がある。9月に報じられた300億ドルの目標には届いていない。Anthropicの上場予定を巡り、買い手が想定より低い評価額を織り込んでいるとの報道も併せて伝えられた。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "中間選挙後、イーロン・マスクとデータセンターに逆風",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "summary": "今週の中間選挙では、各地の住民投票で数十件のデータセンター計画が否決された。ハイパースケーラーがNDAを使い規模や環境影響の開示を絞ってきたことが、草の根の争点になったと指摘されている。これを受けOpenAIはNDAを求めない「コンピュートキャンパス政策ブループリント」を公表した。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Crusoe、未完成のWyomingデータセンター計画をGoogleに売却",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "summary": "評価額309億ドルのCrusoeが、Wyoming州南東部の未完成のデータセンター用地をGoogleに売却した。Googleはコストや工期への懸念を持っていたとされ、売却額は非公開。Googleは同キャンパスに170億ドルを投じる計画で、長期目標は10GW規模。CrusoeはテキサスのAmarilloでもGoogle向け施設を建設中。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Nvidia、CEOと中国情報機関が関与したとされる人物との関係について調査へ",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "summary": "Nvidiaの取締役会は、独立取締役が社外弁護士と進める独立調査を発表した。米国の政策メモは、Megaspeedの元幹部が中国国家安全部に採用されジェンスン・フアンCEOの情報収集に関与したと主張している。取締役会は国家安全保障や企業秘密が侵害された形跡はないとしている。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-11-09-news"
+}
