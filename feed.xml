@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-08T00:00:00+09:00</updated>
+  <updated>2026-11-09T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月9日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09.html</id>
+    <updated>2026-11-09T00:00:00+09:00</updated>
+    <summary>Goldman SachsがClaude Code等の行員向け利用を制限と報道 / AIによる自動ペンテスト・脆弱性チェックの実運用事例がZennで複数 / ISUCON2026でClaude Codeをほぼ無人運転し38位 / 悪用された脆弱性の日本語情報は英語より中央値4.6日遅い</summary>
+  </entry>
   <entry>
     <title>2026年11月8日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24-news.html</id>
     <updated>2026-10-24T00:00:00+09:00</updated>
     <summary>Anthropic が Claude Opus 5.5 ベースのエージェントアプリ「Claude Duet」を研究プレビューで公開 / OpenAI が評価額1.25兆ドルで最大300億ドルの資金調達を交渉中と報道 / OpenAI が低遅延の Decisions API モデルを全顧客に提供開始 / ConnectWise 侵害で中国系グループが AI エージェントを使い約2,250組織を標的に</summary>
-  </entry>
-  <entry>
-    <title>2026年10月24日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-24.html</id>
-    <updated>2026-10-24T00:00:00+09:00</updated>
-    <summary>OpenAIが最先端モデル学習環境の封じ込めをAIレッドチームで強化 / AIがメモリバグを攻撃に変える時代を示すPHP脆弱性が話題 / Claude Codeでの開発コスト・CI短縮の実践事例が複数</summary>
   </entry>
 </feed>

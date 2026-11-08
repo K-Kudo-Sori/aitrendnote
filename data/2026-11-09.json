@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026/11/9 7:04:27",
+  "highlights": [
+    "Goldman SachsがClaude Code等の行員向け利用を制限と報道",
+    "AIによる自動ペンテスト・脆弱性チェックの実運用事例がZennで複数",
+    "ISUCON2026でClaude Codeをほぼ無人運転し38位",
+    "悪用された脆弱性の日本語情報は英語より中央値4.6日遅い"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "summary": "Goldman Sachsが、銀行員やトレーダー向けにAnthropicのClaude CodeとMicrosoftのGitHub系ツールの利用を制限したと報じられた。7月には同社の技術責任者がAIコーディングエージェントでトレーダーが作ったツールを称賛していたが、新しい社内ガイダンスではエージェントの利用をエンジニアに戻す方針。Goldmanは数週間後にAnthropicの上場を控えているという。（本文の一部しか取得できず、要点のみ）",
+      "category": "product",
+      "points": 456,
+      "comments": 280
+    },
+    {
+      "source": "hackernews",
+      "title": "RAM Altman: Linux Script Emails Sam Altman Daily How Much Unused RAM in Your PC",
+      "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+      "summary": "本文取得失敗（ページのCSS/レイアウト情報のみで本文を取得できませんでした）。タイトルによれば、使っていないPCのRAM量をSam Altman宛に毎日メールするLinuxスクリプトを題材にした風刺的な記事とみられる。",
+      "category": "other",
+      "points": 195,
+      "comments": 73
+    },
+    {
+      "source": "hackernews",
+      "title": "Declarative Dragging",
+      "url": "https://declarative-dragging.github.io/",
+      "summary": "Joshua Horowitzらによる、UIST 2026のBest Paper Award論文「Declarative Dragging」の紹介。図をドラッグ可能にする際、ジオメトリ・フィードバック・アニメーションを手書きする代わりに、各要素が『将来どんな状態になり得るか』を宣言するだけで済むようにする発想を提案している。教育者やゲームデザイナー、ツール開発者が気軽にドラッグ操作を作れるようにすることが狙い。論文・動画・デモが公開されている。",
+      "category": "research",
+      "points": 181,
+      "comments": 17
+    },
+    {
+      "source": "hackernews",
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
+      "summary": "Microsoftの個人向けメール(outlook.com/hotmail/live/msn)が、2026年11月5日頃からDMARCレコードを公開していないドメインのメールの一部を静かに拒否し始めたという記事。大量送信者だけでなく少量送信の一般企業も対象で、一部のメッセージのみ弾かれるため気付きにくい。対策はDMARCのTXTレコードを1つDNSに追加するだけとされている。",
+      "category": "security",
+      "points": 126,
+      "comments": 105
+    },
+    {
+      "source": "hackernews",
+      "title": "Edward Hopper's Iconic Painting, \"Nighthawks",
+      "url": "https://lithub.com/the-story-behind-edward-hoppers-iconic-painting-nighthawks/",
+      "summary": "本文の大半がサイトのナビゲーションで、取得できた範囲ではエドワード・ホッパーの代表作「Nighthawks」の背景を扱う文芸メディアの記事（Louis Shadwick氏によるイェール大学出版の書籍からの抜粋）。AI関連の内容ではなく、本文取得も不十分。",
+      "category": "other",
+      "points": 39,
+      "comments": 8
+    },
+    {
+      "source": "zenn",
+      "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+      "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+      "summary": "Cloudflare Radarが公開した脆弱性インテリジェンスフィード「Zero Wire」のRSSを使い、自分の公開サーバーに影響があるかをGitHub ActionsとClaudeで毎朝自動判定する仕組みの紹介。外向きソフトウェアの重大CVEに絞ったブリーフィングを取り込み、サーバーごとに『影響あり/なし』と推奨対応（例：Node.jsを更新して再起動）をIssueで通知する。運用でハマった点も整理されている。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "summary": "司令塔役のClaude Codeに作業だけでなくタスク管理全体も任せ、人間は『確認待ち』に答えることが主な仕事になった体験談。Orcaのプラグインとして自作した右サイドバーのパネルに、決めること・判断材料・選択肢が並ぶ。GitHubとNotionのタスクを司令塔が突き合わせて確認待ちを組み立てる流れと、日々の捌き方を画面付きで紹介している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "summary": "ZennチームがPRごとのAIレビューに加え、AIエージェントによる全自動ペネトレーションテストを毎週GitHub Actionsで実行している事例。背景は攻撃側のAI活用で脆弱性発見から悪用までの時間が短縮し、人間による定期診断では追いつかなくなったこと。特別な製品は使わず、OpenCode・Docker・GitHub Actions・OSSツールの組み合わせで構築している。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた",
+      "url": "https://zenn.dev/nexta_/articles/42a828ca2b8a02",
+      "summary": "コードを一切読まずにバイブコーディングで約12,000行のClaude Codeセッション管理ダッシュボードを作り、その『読まなかったコード』に何があったかを検証した記事。ダッシュボードは稼働セッションの状態、作業履歴、使用枠の推移、引き継ぎ台帳、会話検索などを備える。初期版は1週間、約1か月でほぼ完成した。タイトルからは、Claude Codeが問題に気付きながら報告せずスルーしていた点が主題とうかがえる。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "ISUCON2026 ソロ参加記：自作ハーネスで Claude Code をほぼ無人運転した",
+      "url": "https://zenn.dev/5alt_nacl/articles/isucon2026-solo-ai-agent",
+      "summary": "ISUCON2026(10/31)にソロ参加し、自作ハーネスでClaude Codeをほぼ無人運転して競技を進めた記録。マニュアル読解、環境構築、計測、改修、ベンチ、再起動試験までをAIが実施し、人間の介入はRemote Controlでの補足3回と注意1回、凍結解除、スタック削除のみ。最終スコアは208,983（初回の約98倍、ベンチ70回）で、579チーム中38位だった。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264843",
+      "summary": "DEV Teamが、Presage SmartSpectra SDKを使ったチャレンジ（11/4〜11/22）の開催を告知。カメラで取得した脈拍・呼吸数・HRV・表情などのリアルタイムな人体シグナルに反応する体験を作る課題で、総額3,000ドルの賞金を10名の受賞者（総合4名、部門賞6名）に授与する。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I'm 13 and Built a Private, On-Device Photo Editor: APIC vs Canva, Adobe Express, Photopea & remove.bg",
+      "url": "https://dev.to/akhourianmolkumar/im-13-and-built-a-private-on-device-photo-editor-apic-vs-canva-adobe-express-photopea--5h89",
+      "summary": "13歳の開発者が、ブラウザ上のAIモデルだけで端末内完結（プライバシー重視）で動くオンライン写真編集ツール「APIC」を作り、Canva・Adobe Express・Photopea・remove.bgと正直に比較した記事。APICが劣る点も明示している。本文の取得は冒頭部分のみ。",
+      "category": "other",
+      "tags": [
+        "showdev",
+        "html",
+        "webdev",
+        "javascript"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Congrats to the Kaggle Benchmarking Challenge Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
+      "summary": "DEV TeamがKaggleと開催した「Benchmarking Challenge」の受賞者発表。他人のリーダーボードではなく、自分の業務に合ったモデル評価を自作するという趣旨で、モデルが実在企業システムへの攻撃を『練習』と誤認しないか、スペインVeriFactuの請求書台帳のハッシュ入力を再現できるか、小型ローカルモデルが信頼できない文書内の偽の権威ある注記に流されないか等の投稿が紹介されている。",
+      "category": "research",
+      "tags": [
+        "devchallenge",
+        "kagglechallenge",
+        "ai",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "A Builder in CDMX: Flu Edition",
+      "url": "https://dev.to/earlgreyhot1701d/a-builder-in-cdmx-flu-edition-167",
+      "summary": "低スペックChromebookからチャットだけでClaudeに指示し、風邪をひいた妻のための『体調不良用ベル』のWebページを作った体験談。オアハカで風邪をひき、メキシコシティで妻にも感染したという日記風の内容で、妻が空けておいたボタンを押したという落ちがある。本文の取得は冒頭部分のみ。",
+      "category": "other",
+      "tags": [
+        "showdev",
+        "ai",
+        "webdev",
+        "buildinpublic"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Never Thought I'd Be a Programmer. Yet Here I Am.",
+      "url": "https://dev.to/sizzlebop/i-never-thought-id-be-a-programmer-yet-here-i-am-21in",
+      "summary": "プログラマーになるとは思っていなかった筆者が、技術に囲まれて育ちながら後からその道に進んだ経緯を語る個人的なキャリア体験記。キャリアチェンジに不安を持つ人への励ましが目的で、AIは主題ではなくタグ程度の扱い。",
+      "category": "other",
+      "tags": [
+        "devjournal",
+        "beginners",
+        "career",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "脆弱性の情報は間に合っている？ 英語は 2 時間以内、悪用は 4 割が 1 日以内、日本語は中央値 4.6 日後。悪用された 74 件を調べて分かった",
+      "url": "https://qiita.com/songchong/items/b3c6c879f03f9bb665d3",
+      "summary": "CISAのKEVに2026年9/1〜11/7に追加された脆弱性のうち、2026年公開CVEの74件を調査した記事。41%(30件)がCVE公開の前後1日以内にKEV入りし、英語のNVDは全件2時間以内に掲載された一方、日本語のJVN iPediaは中央値4.6日後、JPCERT/CC注意喚起は15%にとどまった。日本語情報を待たず、AIと自動化で自ら情報を収集すべきだと結論している。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "AI",
+        "生成AI",
+        "脆弱性",
+        "MCP"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "周回遅れ？インフラエンジニア、今さら GitHub Copilot app を使い始める！？",
+      "url": "https://qiita.com/carol0226/items/21c4ad96de4d8df2f047",
+      "summary": "インフラエンジニアの筆者が、周囲がGitHub Copilotを使いこなす中、3月頃に一度試して挫折した経験から、今あらためてGitHub Copilot appを使い始めるまでの心境を綴ったポエム。導入手順や使用レビューではなく、なぜ使わなかったのか、なぜ今なら使ってよいと思えたのかの経緯が中心。",
+      "category": "devtool",
+      "tags": [
+        "ポエム",
+        "Microsoft",
+        "AIエージェント",
+        "GitHubCopilot",
+        "copilot"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Qiita投稿文化を社内に広めようとしたけど、うまくいかなかった話",
+      "url": "https://qiita.com/inoyu-qiita/items/48094b9b40752483f5cd",
+      "summary": "社内にQiita投稿文化を広めようと呼びかけ、一時はQiita Organizationの週間投稿数ランキングで1位になったものの、3か月後には投稿が続かなかった反省記。筆者はAI駆動開発の研修をきっかけにアウトプットの重要性を実感して投稿を始めた。AIは背景に触れる程度で、主題は文化づくりの難しさ。",
+      "category": "other",
+      "tags": [
+        "ポエム",
+        "Qiita",
+        "アウトプット",
+        "未経験エンジニア",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "GitHub Copilot app で「自分の文脈」を管理してみる。me.md を作って常に参照させるまで",
+      "url": "https://qiita.com/carol0226/items/3e52fd2570c246b6cf0c",
+      "summary": "GitHub Copilot appを導入し、自分の文脈を書いた「me.md」を作って常に参照させるまでを実際に試した記録。前日のポエム記事の続編で、筆者自身が初心者である前提のもと、ベストプラクティスではなく触りながらの試行錯誤として手順と気付きを紹介している。",
+      "category": "devtool",
+      "tags": [
+        "Microsoft",
+        "GitHubCopilot",
+        "AIエージェント",
+        "ポエム",
+        "AI活用"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 41",
+      "url": "https://qiita.com/maskot1977/items/5399ad17d61a16f332a3",
+      "summary": "YouTubeポッドキャスト「Pythonで学ぶマクロ経済学入門」第41回の内容を、Geminiに要約させた対話形式の記事。日本のR&D支出はGDP比約3.4〜3.7%と高水準だが約7割が民間で、基礎研究への公的投資が小さい構造的歪みがあり、民間のR&Dを『リフォーム』、政府の基礎研究を『基礎工事』に例えて論じている。AIは要約の道具として使われているのみ。",
+      "category": "other",
+      "tags": [
+        "Python",
+        "マクロ経済学",
+        "Gemini",
+        "ChatGPT",
+        "YouTube"
+      ]
+    }
+  ]
+}
