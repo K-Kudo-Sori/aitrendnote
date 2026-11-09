@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026/11/10 7:04:21",
+  "highlights": [
+    "Anthropic が Claude Fable 5.2 / Mythos 5.2 を発表、Artificial Analysis で最高スコア65",
+    "AI を使った攻撃の高速化を受け、AI 自動ペンテストや脆弱性情報の即時収集の事例が増加",
+    "Claude Code を中心にエージェント任せの開発運用（ISUCON・タスク管理）の実践報告が続く",
+    "Google Gemini が個人データを人間レビューに回す方針へ変更と指摘"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2",
+      "summary": "Artificial Analysis が Claude Fable 5.2（Max）を評価し、Intelligence Index で65点と7465モデル中1位の最高スコアを記録した。中央値40を大きく上回る一方、入力$8/出力$40（100万トークン）と高価で、1タスク約$26.54、応答も遅く冗長と評されている。コンテキストは1Mトークンで、テキストと画像入力に対応する。",
+      "category": "model",
+      "points": 117,
+      "comments": 65
+    },
+    {
+      "source": "hackernews",
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy",
+      "summary": "カナダ決済協会（Payments Canada）が、24時間365日の即時決済・即時清算を可能にする国家決済基盤「Real-Time Rail（RTR）」の稼働開始を発表した（2026年11月9日）。参加金融機関は既存の銀行・決済チャネル経由でリアルタイム決済やデータ豊富なメッセージングを提供できる。AIそのものの話題ではなく、金融インフラの動向である。",
+      "category": "other",
+      "points": 417,
+      "comments": 227
+    },
+    {
+      "source": "hackernews",
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "url": "https://github.com/thisisme6598/gemini_files/",
+      "summary": "Googleが2023年のGemini Workspace拡張で「個人コンテンツは人間のレビュアーに見られない」と約束していたのに、ヘルプ文書や過去ブログの10月16日の編集で、連携したDrive・メールが人間によるレビュー工程に回されることを明示したと指摘する記事。レビュアーにはメールやファイルの一部が見える可能性があり、機密情報を接続しないよう警告されている。プライバシー約束の後退として問題視している。",
+      "category": "security",
+      "points": 142,
+      "comments": 24
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "summary": "Anthropicが Claude Fable 5.2 と Mythos 5.2 を発表した。コーディング・推論・視覚が向上し、事前テストでは困難なソフトウェア移行の完遂、電子デバイス3種の設計、ブラックホール物理の未解決問題2件の解決、フェルマーの最終定理の30時間での形式化などの成果が紹介されている。FableとMythosは同一の基盤モデルで、Fableはサイバーセキュリティ面の強い制御を備える。",
+      "category": "model",
+      "points": 754,
+      "comments": 425
+    },
+    {
+      "source": "hackernews",
+      "title": "Fold Epic Paper Airplanes",
+      "url": "https://www.foldableflight.com",
+      "summary": "折り紙の紙飛行機の折り方を紹介・販売するサイトで、難易度や機種タイプ、デザイナー別に109種類の機体を検索できる。世界記録の試作機「Firefly 5」など滑空性能の高い機体が載っている。AIとは直接関係のない話題である。",
+      "category": "other",
+      "points": 746,
+      "comments": 128
+    },
+    {
+      "source": "zenn",
+      "title": "OpenCode+Docker+GitHub Actionsで全自動AIペネトレーションテストはじめました",
+      "url": "https://zenn.dev/team_zenn/articles/opencode-docker-actions-ai-pentest",
+      "summary": "ZennチームがOpenCode・Docker・GitHub Actionsを組み合わせ、AIエージェントによる全自動ペネトレーションテストを毎週実行している事例を紹介。AIによる攻撃の激化で、脆弱性発見から悪用までが短くなり人手の定期診断では追いつかないことが背景にある。PRごとのAIレビューも併用し、特別な製品を使わずOSSで構築している。",
+      "category": "security"
+    },
+    {
+      "source": "zenn",
+      "title": "タスク管理までAIエージェントに任せたら、確認待ちに答えるだけになった",
+      "url": "https://zenn.dev/rescuenow/articles/4c03a548cd6589",
+      "summary": "タスク管理まで司令塔のClaude Codeエージェントに任せた結果、人間は「確認待ち」に答えるだけになったという運用報告。GitHubとNotionのタスクを司令塔が突き合わせ、判断が必要なものだけをOrcaのサイドバーに自作プラグインで表示する。各項目は決めること・判断材料・選択肢の順で整理され、効率的に捌ける。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "ISUCON2026 ソロ参加記：自作ハーネスで Claude Code をほぼ無人運転した",
+      "url": "https://zenn.dev/5alt_nacl/articles/isucon2026-solo-ai-agent",
+      "summary": "ISUCON2026に1人で参加し、競技中の作業をほぼ全てClaude Codeの自作ハーネスに任せた参加記。マニュアル読解から計測、改修、ベンチ、再起動試験までエージェントが進め、人間の介入は補足3回など最小限だった。初回2,139から最終208,983（約98倍）となり、579チーム中38位、失格なしで追試も通過した。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "コードを読まずにバイブコーディングしたら、Claude Codeは分かっていてスルーしていた",
+      "url": "https://zenn.dev/nexta_/articles/42a828ca2b8a02",
+      "summary": "コードを一切読まずにバイブコーディングで約12,000行のClaude Codeセッション管理ダッシュボードを作った体験記。複数セッションの状態、作業履歴、使用枠、引き継ぎ台帳、会話検索などを備え、初期版は1週間ほどで完成した。速さは想像以上だったが、読まなかったコードの中にはClaude Codeが問題を把握しつつ見過ごしていた点があったという。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "LLM アプリケーションのプロンプトをどこで管理するか",
+      "url": "https://zenn.dev/painter/articles/663816c3195cec",
+      "summary": "LLMアプリのプロンプトをリポジトリで管理するか、Langfuseなどの管理ツールで実行時取得するかを4パターンで比較し、選択条件を考察する記事。ツール管理はデプロイ不要で更新できる利点がある一方、コードとプロンプトの反映タイミングがずれる問題がある。OpenAIが11月30日にreusable promptsを終了しコード管理を推奨している点にも触れている。",
+      "category": "infra"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264843",
+      "summary": "DEVがPresage SmartSpectra SDKチャレンジの開催を告知した。期間は11月4日〜22日で、カメラを使ったリアルタイムの人体信号処理SDKで作品を作り、10名の入賞者に総額$3,000の賞金が出る。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+      "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+      "summary": "DEVがOpenHandsの自動化（ループ型の「ファクトリー」）を使い、ページ読み込み時間を75%短縮したという報告。1か月前はRailsの平均リクエストが約70ms、P99は1秒超だったが、約30万サンプルでの計測で大幅に改善した。AIエージェントによる継続的な性能改善の事例である。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "agents",
+        "automation",
+        "architecture"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Congrats to the Kaggle Benchmarking Challenge Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-kaggle-benchmarking-challenge-winners-2moh",
+      "summary": "DEVとKaggleによるベンチマーク・チャレンジの入賞者発表。「自分の業務でモデルが本当に使えるかをどう知るか」という問いを軸に、評価手法を競った企画で、入賞作品が紹介されている。",
+      "category": "research",
+      "tags": [
+        "devchallenge",
+        "kagglechallenge",
+        "ai",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How much does it cost to run a text game with LLMs",
+      "url": "https://dev.to/hiper2d/how-much-does-it-cost-to-run-a-text-game-with-llms-57o7",
+      "summary": "テキストゲームをLLMで運用する際のコストを、5.1万回のAPI呼び出しの実データから分析した記事。プロバイダーが示す数値だけでは長期的な支払額が分かりにくい問題に対し、実測値でコストの実態を示している。",
+      "category": "infra",
+      "tags": [
+        "ai",
+        "llm",
+        "gamedev",
+        "machinelearning"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Everyone Is Building AI to Replace Developers. Nobody Is Building the Plan for What Comes After.",
+      "url": "https://dev.to/thebitforge/everyone-is-building-ai-to-replace-developers-nobody-is-building-the-plan-for-what-comes-after-4a5o",
+      "summary": "「AIが開発者を置き換える」ツールが続々と出る一方で、置き換えられた後の人間の将来計画を考える人がいないと問題提起するオピニオン記事。AIコーディングツールの発表では「生成・リファクタ・レビュー・出荷」ばかりが語られ、人間側の行方への言及がないと指摘している。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI「テスト通りました」← これ､本当？ Stryker でテストの穴を塞いだ話",
+      "url": "https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a",
+      "summary": "AIが「テスト通過」と報告しても、そのテストが本当に不具合を検出できるかは不明だとして、ミューテーションテストツールStrykerでテストの穴を塞いだ事例。会社ごとにデータを絞るPrismaクライアントというマルチテナントSaaSの重要部分に適用し、実測値とともにハーネスへの組み込み方やAIとの相性をまとめている。",
+      "category": "devtool",
+      "tags": [
+        "AI駆動開発",
+        "ハーネスエンジニアリング",
+        "テスト",
+        "Stryker",
+        "mutation-testing"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "集中力散漫＆過集中持ちエンジニアがAWS DEAを突破した「過集中スイッチ」の入れ方",
+      "url": "https://qiita.com/kohYoung_I/items/cce40cb5b9cdfc1f8787",
+      "summary": "ADHD傾向のあるエンジニアが、AWS Certified Data Engineer - Associate（DEA）に合格した勉強法の体験談。一般的な勉強法が合わず、「過集中スイッチ」を入れる工夫で突破した。AIも勉強に活用したとされるが、主題は学習・集中力のノウハウである。",
+      "category": "other",
+      "tags": [
+        "AWS",
+        "DEA",
+        "勉強法",
+        "AI",
+        "自称ADHD"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "脆弱性の情報は間に合っている？ 英語は 2 時間以内、悪用は 4 割が 1 日以内、日本語は中央値 4.6 日後。悪用された 74 件を調べて分かった",
+      "url": "https://qiita.com/songchong/items/b3c6c879f03f9bb665d3",
+      "summary": "CISAのKEVカタログに2026年9〜11月に入った74件の脆弱性を調査した記事。41%がCVE公開の前後1日以内に悪用され、英語のNVDには2時間以内に全件載る一方、日本語のJVN iPediaは中央値4.6日後、JPCERT/CC注意喚起は15%だった。日本語情報を待たず、AIや自動化で自ら情報収集すべきだと結論づけている。",
+      "category": "security",
+      "tags": [
+        "Security",
+        "AI",
+        "生成AI",
+        "脆弱性",
+        "MCP"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【AWS】結果を返すか、答えを返すか。Web SearchとWeb Answerの使い分け【AgentCore】",
+      "url": "https://qiita.com/Nana_777/items/6e466fb974972a79a323",
+      "summary": "Amazon Bedrock AgentCoreのWeb Search（ランク付き検索結果を返す）とWeb Answer（11月5日GA、引用付きの完成回答を返す）の使い分けを整理した記事。どちらもAgentCore Gatewayのコネクタとして追加しMCP経由で呼び出す。ドメイン統制の範囲や東京リージョン対応を仕様表と実機検証で比較している。",
+      "category": "agent",
+      "tags": [
+        "AWS",
+        "AgentCore",
+        "AmazonBedrock",
+        "MCP",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "実践：JevをClaudeに5分で連携する！ 〜仕組みから実装、実際の使いどころ〜",
+      "url": "https://qiita.com/ryosuke_ohori/items/ada543a0201752023e25",
+      "summary": "TypeSafe AIが公開した、確率を返す判断特化モデル「Jev」をClaudeと連携させる解説。緊急度判定や規約違反判定などの短い判断に大きなLLMを使わず、Jevに任せる設計を提案し、Pythonで問い合わせ振り分けを実装している。コードはモックで確認済みだが、実API通信やレイテンシ計測は未実施と明記されている。",
+      "category": "model",
+      "tags": [
+        "Jev",
+        "LLM",
+        "AI",
+        "Python",
+        "AIエージェント"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-09T00:00:00+09:00</updated>
+  <updated>2026-11-10T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月10日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10.html</id>
+    <updated>2026-11-10T00:00:00+09:00</updated>
+    <summary>Anthropic が Claude Fable 5.2 / Mythos 5.2 を発表、Artificial Analysis で最高スコア65 / AI を使った攻撃の高速化を受け、AI 自動ペンテストや脆弱性情報の即時収集の事例が増加 / Claude Code を中心にエージェント任せの開発運用（ISUCON・タスク管理）の実践報告が続く / Google Gemini が個人データを人間レビューに回す方針へ変更と指摘</summary>
+  </entry>
   <entry>
     <title>2026年11月9日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25-news.html</id>
     <updated>2026-10-25T00:00:00+09:00</updated>
     <summary>OpenAIが今後モデルを生のインターネットではなくキャッシュ/擬似ウェブで学習すると発表 / Blockが同時発話・聴取可能な音声モデル「Dessa」を研究プレビューとして公開 / 1Passwordが資格情報を渡さずAIエージェントにログインさせる「1Password for Agents」を開始 / OpenAIが評価額1.25兆ドルで最大300億ドルの調達を交渉中と報道</summary>
-  </entry>
-  <entry>
-    <title>2026年10月25日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25.html</id>
-    <updated>2026-10-25T00:00:00+09:00</updated>
-    <summary>Claude Code をセキュリティ点検・CI高速化に使う実践記事が複数登場 / VS Code 1.142 の Canvases や Microsoft 365 Copilot のスキル対応など、エージェント基盤が進化 / AI生成文の読みにくさを心理言語学で検証する論文が話題</summary>
   </entry>
 </feed>
