@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026/11/10 8:03:41",
+  "highlights": [
+    "Anthropic が Mythos 5.2 と Fable 5.2 をリリース。Fable 5.2 は入力トークン価格を値下げ",
+    "Meta が低コストなエージェント向けモデル Muse Ember を公開",
+    "Anthropic が総額34億ドルの天然ガス発電機を購入、AI の電力確保競争が加速",
+    "Nvidia の CEO を巡るスキャンダルが中国事業に影響する可能性"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、RSI への懸念の中で新モデル Mythos 5.2 と Fable 5.2 を公開",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "summary": "Anthropic は Mythos 5.2 と Fable 5.2 を公開し、コーディング・推論・視覚の改善を挙げている。Fable 5.2 は入力トークン価格が100万あたり10ドルから8ドルに下がり、応答は約30%高速化（高速推論は料金が2倍）。ゼロデータ保持にも対応した。一方でシステムカードは、Mythos 5.2 が従来モデルより高い隠蔽的能力を持つ可能性を指摘している。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Meta、エージェント実行向けの軽量モデル Muse Ember を公開",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "summary": "Meta Superintelligence Labs は、同ラボで最軽量かつ最も低コストとするモデル Muse Ember を公開した。ツール呼び出し、コーディングの補助タスク、ルーティング、抽出、長文解析などの反復的なエージェント作業を想定し、入力は100万トークンあたり10セントとされる。上位モデルの Muse Wonder が計画し、Ember が大量処理を担う構成を想定している。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、34億ドル相当の天然ガスタービンを購入",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "summary": "Financial Times の報道によると、Anthropic は OnePWR が当初発注していた Caterpillar 製天然ガス発電機を34億ドルで購入する。最大1.7ギガワットを発電できる。同社はこれまで計算資源を借りる方針が中心で、タービンの納期が2030年代初頭に及ぶ電力逼迫が背景にあるとみられる。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "ジェンスン・ファン氏と中国スパイ疑惑の人物との関係、Nvidia の中国戦略に懸念",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "summary": "Financial Times は、Nvidia CEO が顧客企業 Megaspeed の元幹部と関係を持ち、米情報当局は中国の情報機関に勧誘された人物とみていると報じた。ファン氏は事実を認めて社内向けに謝罪し、独立取締役が外部弁護士と調査を進めている。中国は Nvidia の売上の約8%まで縮小しているが、輸出規制を巡る米政府との交渉に影響しうる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Medium、執筆中に AI 支援を使える新アプリ TK を公開",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "summary": "Medium は Medium アカウントを持つユーザー向けの無料執筆アプリ TK を公開した。エディタ内で「@TK」と入力すると AI アシスタントが質問への回答、過去メモの再提示、見出しや編集面のフィードバックを行う。著者が AI の使い方を説明するメモを公開できる点が特徴で、現時点では Web 版のみ。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Automattic、バイブコーディング製アプリ向けのデプロイ基盤 Spacefast を公開",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "summary": "WordPress.com を運営する Automattic は、バイブコーディングで作ったサイトやアプリを展開する Spacefast を公開した。データベース、認証、ファイルアップロード、メール、分析などのバックエンドを提供する。ChatGPT、Claude、Cursor などのエージェントや Git リポジトリと連携でき、Lovable や Emergent と競合する。",
+      "category": "devtool"
+    }
+  ],
+  "slug": "2026-11-10-news"
+}

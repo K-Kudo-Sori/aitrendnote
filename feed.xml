@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-10T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月10日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10-news.html</id>
+    <updated>2026-11-10T00:00:00+09:00</updated>
+    <summary>Anthropic が Mythos 5.2 と Fable 5.2 をリリース。Fable 5.2 は入力トークン価格を値下げ / Meta が低コストなエージェント向けモデル Muse Ember を公開 / Anthropic が総額34億ドルの天然ガス発電機を購入、AI の電力確保競争が加速 / Nvidia の CEO を巡るスキャンダルが中国事業に影響する可能性</summary>
+  </entry>
+  <entry>
     <title>2026年11月10日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26.html</id>
     <updated>2026-10-26T00:00:00+09:00</updated>
     <summary>最新 LLM は皮膚がん画像診断で10年前の CNN に劣るという検証が話題 / 盗まれた GitHub トークンで secrets を窃取する gheist キャンペーンに注意 / Claude Code のコスト・トークン最適化（DB 設計、キャッシュ、AGENTS.md）の実測記事が複数登場 / Cerebras が3兆パラメータ Kimi K3 を高速推論する構成を公開</summary>
-  </entry>
-  <entry>
-    <title>2026年10月25日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-25-news.html</id>
-    <updated>2026-10-25T00:00:00+09:00</updated>
-    <summary>OpenAIが今後モデルを生のインターネットではなくキャッシュ/擬似ウェブで学習すると発表 / Blockが同時発話・聴取可能な音声モデル「Dessa」を研究プレビューとして公開 / 1Passwordが資格情報を渡さずAIエージェントにログインさせる「1Password for Agents」を開始 / OpenAIが評価額1.25兆ドルで最大300億ドルの調達を交渉中と報道</summary>
   </entry>
 </feed>
