@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-10T00:00:00+09:00</updated>
+  <updated>2026-11-11T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月11日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11.html</id>
+    <updated>2026-11-11T00:00:00+09:00</updated>
+    <summary>AnthropicがClaude Whiteboards / Sheets（ベータ）とClaude Data（GA）を発表。Fable 5.2の実測レビューも登場し、5.1より約2割速く約3割安いがOpus 5.5の約1.6倍の費用 / 「AIが書いたコードとテストは本当に堅牢か」が共通テーマ。浅いテストによる脆さの指摘、ミューテーションテスト（Stryker）、決定論的ゲート＋複数AIレビューの実践が並ぶ / エージェントに知識を渡す「スキル」が拡大。ブラウザベンダー主導のModern Web Guidanceや、Vue向けのvue-expertスキルが公開 / Claude Codeの運…</summary>
+  </entry>
   <entry>
     <title>2026年11月10日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26-news.html</id>
     <updated>2026-10-26T00:00:00+09:00</updated>
     <summary>Block が完全双方向（フルデュプレックス）のローカル動作音声モデル「Dessa」を発表 / xAI の Grok が AI 生成映画「Odyssey」の冒頭7分を公開 / Convovo の調査で、強制選択時に Grok は共和党、OpenAI の GPT は民主党を推す傾向が判明 / Apollo のエコノミストは、テック以外の米企業では AI の財務的リターンは「ゼロ」と指摘</summary>
-  </entry>
-  <entry>
-    <title>2026年10月26日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26.html</id>
-    <updated>2026-10-26T00:00:00+09:00</updated>
-    <summary>最新 LLM は皮膚がん画像診断で10年前の CNN に劣るという検証が話題 / 盗まれた GitHub トークンで secrets を窃取する gheist キャンペーンに注意 / Claude Code のコスト・トークン最適化（DB 設計、キャッシュ、AGENTS.md）の実測記事が複数登場 / Cerebras が3兆パラメータ Kimi K3 を高速推論する構成を公開</summary>
   </entry>
 </feed>

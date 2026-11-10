@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026/11/11 7:04:29",
+  "highlights": [
+    "AnthropicがClaude Whiteboards / Sheets（ベータ）とClaude Data（GA）を発表。Fable 5.2の実測レビューも登場し、5.1より約2割速く約3割安いがOpus 5.5の約1.6倍の費用",
+    "「AIが書いたコードとテストは本当に堅牢か」が共通テーマ。浅いテストによる脆さの指摘、ミューテーションテスト（Stryker）、決定論的ゲート＋複数AIレビューの実践が並ぶ",
+    "エージェントに知識を渡す「スキル」が拡大。ブラウザベンダー主導のModern Web Guidanceや、Vue向けのvue-expertスキルが公開",
+    "Claude Codeの運用知見が充実。モデル×Effortの工程別使い分けで利用枠を節約、/btw・Artifacts・Mods、並列作業のためのgit worktree",
+    "データ基盤・RAGでは、人とAIが同じ指標定義・権限境界を通る設計（PKSHA）や、DynamoDBのベクトル検索を使った低コストRAG構成が紹介された"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "AI usage generates a fragile codebase",
+      "url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+      "summary": "AI利用がコードベースを脆くすると論じるエッセイ。筆者はMetaで終盤コードの9割以上、現職では100%をAIで生成しているが、同僚のAI依存コードには長期的な技術的負債につながる脆さが目立ったと振り返る。AIはコンテキストウィンドウに収まる問題はよく解くが、その枠外の長期的課題には無頓着だと指摘。脆くなる4つの典型の筆頭として、getter/setterのような自明な箇所ばかりを検証し、既存ケースしかなぞらない「浅いテスト」を挙げ、カバレッジに見えない穴が生じると述べている。",
+      "category": "devtool",
+      "points": 288,
+      "comments": 355,
+      "author": "plun9"
+    },
+    {
+      "source": "hackernews",
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/",
+      "summary": "LWN.netの記事。DisplayLinkチップセット搭載ドックのLinuxでの性能に不満を持った開発者Mike Lothian氏が、Claudeの支援を受けてRust製の新ドライバ「Vino」の開発に取り組んだ。解決できない問題についてSynaptics（2022年にDisplayLinkを買収）の開発者に助力を求めたところ、同社法務部門から特許侵害の主張と実装中止の要求、高額な法的制裁の警告が返ってきた。公式のLinux向けソフトはx86向けバイナリのみの提供で、独自の圧縮技術DL3が非公開の理由とされる。当面、Linuxユーザーは他プラットフォーム並みの機能を得られない状況が続きそうだ。",
+      "category": "other",
+      "points": 208,
+      "comments": 90,
+      "author": "speckx"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance",
+      "summary": "「Modern Web Guidance」は、Webプラットフォームの専門知識・ベストプラクティス・ブラウザ互換性データをコーディングエージェントに組み込むスキル集。LLMの学習データにはレガシーコードが大量に含まれるため、エージェントは古いパターンや肥大化したJavaScriptを生成しがちで、それを最新のWeb標準APIへ誘導するのが狙い。Chrome・Edge・Firefox・MDNの各チームとコミュニティが運営し、npxコマンドでインストール、ガイド検索、レガシーパターンのスキャンができる。ガイドはevalでモデルが既に知っている内容を削り、トークン効率を高めている。View Transitions、コンテナクエリ、INP診断などを幅広くカバーする。",
+      "category": "devtool",
+      "points": 185,
+      "comments": 53,
+      "author": "paulirish"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Valencia, Spain in Sim City/Isometric View",
+      "url": "https://tinyvalencia.com/",
+      "summary": "スペイン・バレンシア市全域をSimCity風のアイソメトリックなピクセルアートで描いた地図「Tiny València」の紹介。実在の建物を含む3D都市データを固定のアイソメトリックカメラでレンダリングし、手選びのピクセルアート調で学習させた画像モデルがタイルごとに描き直している。各タイルは描画済みの隣接タイルを引き継ぐため、街全体が継ぎ目なくつながる。ドラッグやズーム、検索で探索でき、データは地籍情報・IGN・OpenStreetMapなどの公開データを利用している。",
+      "category": "other",
+      "points": 152,
+      "comments": 38,
+      "author": "leugim"
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Whiteboards, Claude Sheets, and Claude Data",
+      "url": "https://claude.com/resources/articles/sheets-whiteboards-data",
+      "summary": "AnthropicがClaude WhiteboardsとClaude Sheetsをベータ公開し、Claude DashboardsをClaude Dataとして一般提供すると発表した。Whiteboardsはチームで Claude とブレインストーミングできる共有ボードで、雑多な計画をタイムライン化したり、振り返りのメモをテーマ別に整理してアクション項目を起こしたりできる。SheetsはClaudeがタブ・数式・書式付きのスプレッドシートを生成・編集する機能で、xlsxやCSVへの書き出しにも対応する。Claude Dataにはデータストーリー、認定クエリ、ライブ共有が加わった。いずれも全有料プランで利用でき、成果物はLucidやMiroなどパートナーのツールへ持ち出せる。",
+      "category": "product",
+      "points": 116,
+      "comments": 89,
+      "author": "Yorothegoat"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "summary": "Claude Code関連書籍の著者Oikon氏が、最近重宝しているTipsを5つ紹介する記事。取り上げるのは/btwコマンド、HTMLレポートとArtifacts、Claude Mods、マルチエージェントパターン、Remote Control。/btwは会話履歴に残さず作業を中断せずに質問でき、進捗確認や/compact用の指示文づくりに便利だという。エージェントの作業量が人の把握できる量を超えつつあるため、レポートはMarkdownよりも図表やインタラクティブUIを入れられるHTML形式が主流になると見ている。Claude ModsはJS/TSのフックでClaude Codeの見た目や動作を変えられるプラグインとして紹介されている。",
+      "category": "devtool",
+      "points": 74,
+      "author": "Oikon"
+    },
+    {
+      "source": "zenn",
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "summary": "Meta製パーソナルAIエージェント「Muse」にコーディングを任せる使い方の紹介。無料版の中身であるMuse Spark 1.3はコードがそれなりに書け、「Space」機能で作ったアプリをエージェントのVM上で起動してそのまま使える。筆者はMuseにSign in with ChatGPTで週次上限の30%を割り当て、軽量なPi Coding Agentを持たせて実装を委任している。VMの定期再起動に備えた永続化の指示、ghコマンドを使わせるルール、gitのconfig設定などのTipsも挙げる。生活の用事と同じ画面・同じノリでアプリを作れる点が既存のコーディングツールとの違いだと述べている。",
+      "category": "agent",
+      "points": 73,
+      "author": "watany"
+    },
+    {
+      "source": "zenn",
+      "title": "週間制限に3日で到達していたClaudeが、ModelとEffortの使い分けで5日持つようになった話",
+      "url": "https://zenn.dev/sun_asterisk/articles/1d1c65b1fe409a",
+      "summary": "Claude Codeの週間制限に3日で達していた筆者が、モデルとEffortを工程ごとに使い分けて5日持つようになった事例。以前はモデルをdefault（TeamプランではOpus 5.5）のままEffortを常にhighにしており、全工程に重い設定をかけていた。消費は「モデルの重さ×思考量×コンテキスト量」で効き、思考トークンは折りたたまれていても出力として全量カウントされる。現在は設計・調査をOpus/medium、実装をSonnet/high、レビューをOpus/xhighに分け、実装で節約した分の品質リスクをレビューで回収している。この分け方は公式ドキュメントの推奨とも一致するという。",
+      "category": "devtool",
+      "points": 23,
+      "author": "Asutin"
+    },
+    {
+      "source": "zenn",
+      "title": "AIですぐに作れる時代に、何と向き合うか",
+      "url": "https://zenn.dev/peoplex_blog/articles/2611-what-to-face-when-ai-builds-fast",
+      "summary": "PeopleXでAI面接を開発するエンジニアが、AIですぐに作れる時代に何と向き合うかを論じる記事。筆者はこの1年コードを手で書かなくなり、レビューの重心は作り直しやすいアプリコードから、後戻りしにくいDB設計やアーキテクチャに移ったという。Claudeに設計とレビュー、Codexに実装を任せると新機能が数時間でPRになるため、ボトルネックは実装ではなく「何を作るか」の決定になった。AIを使うこと自体は差にならず、エンジニアの差はオーナーシップで生まれると主張する。出荷ではなく顧客の成果にコミットするプロダクトエンジニア像を提示している。",
+      "category": "product",
+      "points": 21,
+      "author": "サカツ | PeopleX AIプロダクトエンジニア"
+    },
+    {
+      "source": "zenn",
+      "title": "AI ネイティブなデータ分析基盤を作った話（後編）",
+      "url": "https://zenn.dev/pksha/articles/laplace-build-guide",
+      "summary": "PKSHA Technologyのデータ分析基盤「Laplace」の設計を解説する後編。基盤は共用・データは別々、入口はBigQueryのraw、変換はdbt、指標定義はセマンティックレイヤーに1か所、権限はLightdashでPIIは分離、という5つの契約を先に定めた。それを守るために人・プロダクト・権限・AIの4つの境界を引いている。人がBIで見る場合もAIがMCPで引く場合も同じ定義と同じ権限境界を通る設計が特徴。認証は長期鍵を発行しない方針で、Workload Identity Federationなどを使い、例外のSAキーも読み出し権限を持たないロールに絞っている。",
+      "category": "infra",
+      "points": 5,
+      "author": "Shogun"
+    },
+    {
+      "source": "devto",
+      "title": "Django 6.1's FETCH_PEERS against my own select_related",
+      "url": "https://dev.to/remdore/django-61s-fetchpeers-against-my-own-selectrelated-4cp9",
+      "summary": "Django 6.1で追加されたフェッチモードFETCH_PEERSが、手書きのselect_relatedをどこまで代替できるかを実測した記事。筆者は6,635件のテストを持つ自作サイトのAPIで、リクエストごとのSQLクエリ数を数えるミドルウェアを入れて6パターンを比較した。select_relatedを無効化すると増えた16,946クエリのうち、FETCH_PEERSは約69%を取り戻した。ただしルート単位で見ると、select_relatedが効いていた179ルートのうち手動チューニングの水準に戻ったものはなく、115ルートでは効果がなかった。オンにするだけで得られる改善としては大きいが、手動最適化の完全な代替にはならないという結論である。",
+      "category": "other",
+      "points": 7,
+      "comments": 2,
+      "author": "Remdore",
+      "tags": [
+        "django",
+        "python",
+        "performance",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Once Upon Agentic AI (Part 1): Create your own agent and forge its tools with Strands Agents",
+      "url": "https://dev.to/aws/once-upon-agentic-ai-part-1-create-your-own-agent-and-forge-its-tools-with-strands-agents-22mo",
+      "summary": "AWSによる連載「Once Upon Agentic AI」の第1回で、オープンソースSDKのStrands Agentsを使って最初のエージェントを作るチュートリアル。エージェントはモデル・システムプロンプト・ツールの3要素からなり、モデルがツール呼び出しを判断して結果を読み次の行動を決める「エージェントループ」をStrandsが実行する。ファンタジー冒険仕立てで、既成ツールを装備させたあと、ルールAPIで呪文を調べるツールやサイコロを振る自作ツールを実装していく。実行にはPython、uv、Amazon Bedrockにアクセスできる AWS 認証情報が必要。第2回はMCP、第3回はRAG・A2A・構造化出力を扱う予定だ。",
+      "category": "agent",
+      "points": 22,
+      "comments": 3,
+      "author": "TheWitcherish",
+      "tags": [
+        "ai",
+        "agents",
+        "aws",
+        "mcp"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Google AI Classroom Part 4: Defeating Proxy Attendance & Lab Keyloggers with WebAuthn Passkeys, Rotating HMAC QRs & GCIP Blocking Functions",
+      "url": "https://dev.to/gde/google-ai-classroom-part-4-defeating-proxy-attendance-lab-keyloggers-with-webauthn-passkeys-2gc0",
+      "summary": "香港の教育機関HKIITでの実習授業・試験における、なりすまし出席や鍵盤入力盗聴への対策をまとめた記事。パスワードを同級生に渡して代理ログインさせる手口、投影した出席QRコードをチャットグループへ転送する代理出席、共用PCのキーロガーという3つの問題は、パスワード認証やキャンパスIP制限では防げない。対策としてWebAuthnパスキー、HMACで定期的に切り替わるQRコード、GCIP（Google Cloud Identity Platform）のブロッキング関数を組み合わせている。講師の特権アカウントは高クォータのGeminiによる動画解析などを起動できるため、保護の重要性が特に高いとしている。",
+      "category": "security",
+      "points": 10,
+      "comments": 0,
+      "author": "Cyrus Wong",
+      "tags": [
+        "authentication",
+        "cybersecurity",
+        "google",
+        "security"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "A Word List Tied the Model",
+      "url": "https://dev.to/kenwalger/a-word-list-tied-the-model-213o",
+      "summary": "筆者が自分のDEV記事へのコメントのうち「重要なもの」をAIモデルで仕分けようとした実験「Afterword」の報告（第1回）。コードを書く前に十数個の主張とその反証条件を「主張台帳」として記録し、設計が実装によって書き換えられないようにした。システムは注意を整理するだけでコメントを隠したり削除したりせず、低優先のものは折りたたむだけという原則を置いている。「単純なヒューリスティックがモデルと同程度ならモデルは不要」という反証条件を設けており、タイトルのとおり単語リストがモデルと並ぶ結果になった。最大の成果は、自分が間違っていた点の一覧だと述べている。",
+      "category": "research",
+      "points": 1,
+      "comments": 0,
+      "author": "Ken W Alger",
+      "tags": [
+        "ai",
+        "machinelearning",
+        "python",
+        "devjournal"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Vue.js Is My Workhorse. Now It's an Agent Skill.",
+      "url": "https://dev.to/playfulprogramming/vuejs-is-my-workhorse-now-its-an-agent-skill-1pfk",
+      "summary": "Vue.jsを10年近く使ってきた筆者が、その知見をエージェントスキル「vue-expert」としてまとめた話。SKILL.mdと参照ファイルで構成され、Composition APIと<script setup>、型付きprops/emits、composable、Pinia、Viteといった Vue 3 / Nuxt の規約をエンコードしている。プロジェクトがVue 3を使っている場合のみオンデマンドで読み込まれ、分析から設計・実装・検証・最適化・テストまでの6段階ワークフローを定める。Options APIやVuexを使わない、propsを変更しないなどのMUST / MUST NOTの制約も明記。公式ドキュメントからは得られない、出荷経験に基づく判断を込めることがスキルの価値だとしている。",
+      "category": "devtool",
+      "points": 6,
+      "comments": 3,
+      "author": "Domenico Tenace",
+      "tags": [
+        "ai",
+        "webdev",
+        "opensource",
+        "vue"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI「テスト通りました」← これ､本当？  Stryker でテストの穴を塞いだ話",
+      "url": "https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a",
+      "summary": "AIが書いたテストが本当に何かを検証しているのかを、ミューテーションテストツールStrykerで確かめた記事。ミューテーションテストは実装をわざと少し壊し（変異）、テストが落ちるかを見て「テストの強さ」を測る手法で、カバレッジでは分からない穴が見つかる。題材はマルチテナントSaaSで会社ごとにデータを自動で絞り込むPrismaクライアントで、誤ると他社データが見えてしまう仕組みである。AIに頼めばカバレッジは簡単に上がるため、「壊れたら気づけるか」で測る歯止めが必要だと指摘する。Thoughtworks Technology Radarでも2026年11月にAdoptになったと紹介している。",
+      "category": "devtool",
+      "author": "Dingu-suke"
+    },
+    {
+      "source": "qiita",
+      "title": "ひとりで作るOSSを、チームの基準でレビューする（Codex・Claude・CodeRabbit）",
+      "url": "https://qiita.com/figueiredoluiz/items/1a043190d8f00d2ebda6",
+      "summary": "Rust製のテスト重複検出ツール2つをひとりでメンテナンスする筆者が、Codex・Claude・CodeRabbitを使いチーム並みの基準でレビューする体制を紹介。2026年9〜11月にPR 571件・マージ548件、CodeRabbitの行コメント200件のうち82%が修正につながった。fmt/clippy、3 OSでのテスト、フィクスチャや再現率のゲートなど決定論的な品質ゲートを先に通し、コストの高いAIレビューはゲート通過後のコードにだけ実行する。PRテンプレートでは「修正前に失敗し修正後に通る回帰テスト」を必須としている。開発はひとりでも、検証をひとつの視点に頼る必要はないというのが全体の考え方だ。",
+      "category": "devtool",
+      "author": "figueiredoluiz"
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code を新しい Fable 5.2 に切り替えると速く安くなるのか。36回測ったら、Fable 5.1 より2割速く3割安く、費用は Opus 5.5 の1.6倍だった",
+      "url": "https://qiita.com/suwa_nobu/items/a6a104575596915dac2e",
+      "summary": "新しく発表されたClaude Fable 5.2をClaude Codeで使うと速く安くなるのかを、Fable 5.1・Opus 5.5と同じ課題で計36回実行して比較した記事。Fable 5.2は所要時間の中央値が24.1秒で5.1より約2割短く、1秒あたりの出力トークンは1.32倍だった。費用は5.1より約3割安いが、Opus 5.5の約1.6倍かかった。一方、発表にある「少ないトークンで」は確認できず、出力トークンは5.1より約1割多かった。4つの易しめの課題では3モデルとも全テストを通過して正しさに差はなく、発表が言う難しい仕事は検証していないと断っている。",
+      "category": "model",
+      "author": "suwa_nobu"
+    },
+    {
+      "source": "qiita",
+      "title": "【AWS】RAG小、新機能全マシ、IAMカタメ、予算スクナメで",
+      "url": "https://qiita.com/kikuziro/items/eb28e7084445ff060783",
+      "summary": "今年AWSに追加されたRAG向けの新機能6つを「全部載せ」にして、書類を仕分けして検索できる小さなシステムを作った記事。夜間バッチでTextract（東京リージョン・日本語対応）が文字起こしし、小型の判定モデルStrands Decider 2Bが書類種別を判定、ベクトル化してDynamoDBのベクトル検索へBulk Put Itemsで一括投入する。質問はLambda Web Functionsが受け、BedrockのClaude Haiku 5.5がストリーミングで回答する。取り込みは1万件で約38ドルで、その半分はCPU推論で遅いDeciderのLambda費用だった。IAM認証とCloudFront OAC、WAFのIP制限でアクセスを固めている。",
+      "category": "infra",
+      "author": "kikuziro"
+    },
+    {
+      "source": "qiita",
+      "title": "AIエージェントのための git worktree の使い方",
+      "url": "https://qiita.com/sf-12/items/34ddfb7d7f245085fb2b",
+      "summary": "AIエージェントを複数セッションで並列に動かす際のgit worktreeの使い方をまとめた記事。同じファイルを複数エージェントが編集すると変更が上書きされるが、worktreeで作業ディレクトリを物理的に分ければ衝突を避けられる。各worktreeはコミット履歴・ブランチ・リモート設定を元の.gitと共有するため、pushしなくてもコミットが互いに見え、作業後はそのままマージできる。同じブランチを2つのworktreeで同時にチェックアウトできない点や、.envなどgit管理外のファイルはコピーされない点に注意が必要だ。git cloneを増やす場合に比べ、作成が速く履歴を共有できる利点がある。",
+      "category": "devtool",
+      "author": "sf-12"
+    }
+  ]
+}
