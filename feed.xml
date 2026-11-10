@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-11T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月11日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11-news.html</id>
+    <updated>2026-11-11T00:00:00+09:00</updated>
+    <summary>Google が最上位モデル「Gemini 4 Carbon」を一般提供開始。アプリでは AI Ultra 限定、API は Argon と同額 / Anthropic が IPO 価格レンジを1株70〜78ドルに設定（想定評価額 最大1.404兆ドル）。同日に会議参加型の「Claude Meetings」も発表 / ニューヨーク州の AI 安全法 RAISE Act が2027年初の施行に向け登録ポータルを開設 / Google は第8世代 TPU に機密処理向け「8tx」と大容量推論向け「8i Max」を追加 / Adobe の MCP 公開、NotebookLM の API／MCP サ…</summary>
+  </entry>
+  <entry>
     <title>2026年11月11日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27.html</id>
     <updated>2026-10-27T00:00:00+09:00</updated>
     <summary>GPT-6.1 Terraが登場。視覚理解とコンピュータ操作に強く、API価格は先行モデルより50%安い / MCPのツール定義は想像以上にトークンを消費する。15ツールから4ツールへの再設計で削減した実測例 / プロンプトキャッシュの割引は読み込み分のみ。保持時間（約1時間）を過ぎると1ターンのコストが約11倍に / 読みやすいDB設計はAI開発のコストを約半分にする（Claude Codeでの検証、各条件5回） / 複数のコーディングエージェントを併用する運用や、Kimi Codeなど新しい選択肢の使い分け事例が増加</summary>
-  </entry>
-  <entry>
-    <title>2026年10月26日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-26-news.html</id>
-    <updated>2026-10-26T00:00:00+09:00</updated>
-    <summary>Block が完全双方向（フルデュプレックス）のローカル動作音声モデル「Dessa」を発表 / xAI の Grok が AI 生成映画「Odyssey」の冒頭7分を公開 / Convovo の調査で、強制選択時に Grok は共和党、OpenAI の GPT は民主党を推す傾向が判明 / Apollo のエコノミストは、テック以外の米企業では AI の財務的リターンは「ゼロ」と指摘</summary>
   </entry>
 </feed>
