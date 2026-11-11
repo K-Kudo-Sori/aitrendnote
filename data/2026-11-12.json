@@ -1,0 +1,228 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026/11/12 7:04:37",
+  "highlights": [
+    "United航空がAIエージェントによる航空券予約を禁止。セキュリティと連邦規則を理由に、エージェント経由の取引に業界側が線を引き始めた",
+    "GoogleがGemini Decisions APIを発表。生成ではなく選択肢スコアリングに特化し、最大1,000問を1パスで判定、出力トークン課金ゼロ",
+    "Apple研究者がICML 2026でMIPS（最大内積探索）を学習済み小型NNで高速化する手法を発表。RAGの検索効率改善に寄与",
+    "Claude Codeの実践Tips・ModelとEffortの使い分けによる利用枠節約など、国内でコーディングエージェント運用ノウハウの記事が充実",
+    "DEV（Forem）はOpenHandsの自律ループで475件のPRをマージしページ読込時間を75%短縮。「エージェント工場」運用の事例が増加"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "summary": "United航空は、旅行者の代わりにAIエージェントが航空券を予約することを禁止すると発表した。MetaのMuseやOpenAIのdotsなどのエージェントに認証情報や決済情報を渡すと機密情報漏えいや意図しない購入・マイル利用につながるおそれがあると説明している。またエージェントによるチェックインは、手荷物に危険物がないことを本人が確認する連邦規則に抵触する可能性があるという。同社は自社のデジタル基盤や旅行代理店・アグリゲーター経由でも、未承認エージェントの利用を制限する措置を進める。",
+      "category": "product",
+      "points": 32,
+      "comments": 15
+    },
+    {
+      "source": "hackernews",
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "summary": "Google DeepMindは、新モデルGemini Decision 1を基盤とするGemini Decisions APIを発表した。テキスト・画像・音声・動画・PDFを含む最大256Kトークンの入力に対し、Yes/No・選択式・ルーブリック採点など最大1,000問を1回のフォワードパスで評価し、確率と信頼度スコアを返す。トークンを逐次生成しないため150〜250msの低遅延で、入力100万トークンあたり0.10ドル・出力トークン課金なしという価格設定となっている。ツール選択、ポリシーチェック、モデルルーティング、コンテキスト評価などの用途を想定し、ベンチマークでは最も低いキャリブレーション誤差を示したとしている。",
+      "category": "model",
+      "points": 142,
+      "comments": 45
+    },
+    {
+      "source": "hackernews",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "summary": "Appleの研究者がICML 2026で発表した、最大内積探索（MIPS）を高速化する手法「Amortizing Maximum Inner Product Search with Learned Support Functions」の紹介記事である。従来のMIPSはキー集合の幾何構造に基づくクラスタリングや量子化に頼り、短い質問文と長い文書というRAG特有のクエリとキーの分布差を考慮していなかった。本手法は固定されたキーのデータベースに対し、オフラインで一度だけ小型ニューラルネットを学習させ、典型的なクエリを最適なクラスタへルーティングする方法を学ばせる。事前の償却コストと引き換えに、推論時の検索をより速く正確にでき、RAGや推薦・検索システムの効率化が期待される。",
+      "category": "research",
+      "points": 116,
+      "comments": 22
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+      "url": "https://news.ycombinator.com/item?id=50455811",
+      "summary": "YC F26採択のPomeradoが、任意のWebサイトをエージェント向けのMCP／APIに変換するサービスをLaunch HNで公開した。航空会社や銀行、保険、行政サイトなどAPIを持たないシステムに対し、エージェントは低速で不安定なブラウザ操作やComputer Useに頼っており、多くの企業ではセキュリティ上禁止されている点を課題としている。Pomeradoはサイトを決定論的かつ自己修復するAPIへ数分でセルフサービス変換できるとしている。創業者は元McKinseyとScale AIで、レガシー業界でのエージェント導入時の最大のボトルネックがこの接続部分だったと述べている。",
+      "category": "agent",
+      "points": 38,
+      "comments": 32
+    },
+    {
+      "source": "hackernews",
+      "title": "My AI agents found an unmapped Maya site",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "summary": "考古学者ではない筆者が、複数のAIエージェント（Gemini、ChatGPT、Claude、Grok）と協力してNASAのLiDARデータを解析し、メキシコの公式登録にないマヤ遺跡を72時間以内に見つけた体験記である。ペルー旅行中の思いつきからエージェントとブレインストーミングし、森林の下の地形を捉えられるLiDARが有効だと判断してデータ探索を進めた。発見後はメキシコ政府から公式な返答も得たという。ただし追記で、この遺跡は2025年の論文で既に記録されており、エージェントが文献調査で見落とした「再発見」だったと訂正している。",
+      "category": "agent",
+      "points": 884,
+      "comments": 318
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "summary": "Claude Code関連書籍の著者が、最近特に重宝しているClaude Codeの5つのTipsを紹介する記事である。/btwコマンドは会話履歴に残さずセッションについて質問でき、長時間自走するエージェントの進捗確認や/compact用プロンプトの生成に便利だと説明している。また、出力量が増えたことからMarkdownではなくHTMLレポートやArtifacts機能で図表を含めて情報共有してもらう運用を勧めている。そのほかClaude Mods、マルチエージェントパターン、Remote Controlの活用法も取り上げている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "summary": "MetaのパーソナルAIエージェントMuseにコーディングエージェントを持たせて活用する方法を紹介する記事である。無料版の中身であるMuse Spark 1.3はコードもそれなりに書け、Space機能で作ったアプリをエージェントのVM上で無料で動かせる点を魅力として挙げている。筆者は「Sign in with ChatGPT」で週次上限の30%をMuseに割り当て、軽量なPi Coding Agentをハーネスとして与える構成を採用した。DAWアプリの作成と作曲のような無茶振りにも応えてくれるなど、余ったAI契約を有効活用する運用例を示している。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "AI ネイティブなデータ分析基盤を作った話（後編）",
+      "url": "https://zenn.dev/pksha/articles/laplace-build-guide",
+      "summary": "PKSHA TechnologyのSREが、社内データ分析基盤Laplaceの設計思想を解説する後編記事である。「基盤は共用・データは別々」「入口はBigQueryのraw」「変換はdbt」「指標定義はセマンティックレイヤーで1か所」「権限はLightdashで管理しPIIは分離」という5つの契約を定めている。そのうえで人・プロダクト・権限・AIの4つの境界を引き、人間がBIで見る場合もAIがMCP経由で引く場合も同じ定義と権限境界を通る構成にした。CI/CDの権限を自プロダクトのnamespaceに絞るなど、ツールを置き換えても残る判断を中心にまとめている。",
+      "category": "infra"
+    },
+    {
+      "source": "zenn",
+      "title": "週間制限に3日で到達していたClaudeが、ModelとEffortの使い分けで5日持つようになった話",
+      "url": "https://zenn.dev/sun_asterisk/articles/1d1c65b1fe409a",
+      "summary": "Claude Codeの週間利用制限に約3日で到達していた筆者が、モデルとEffortを工程ごとに使い分けることで5日持つようになった経緯をまとめた記事である。以前はdefaultモデル（TeamプランではOpus 5.5）でEffortを常にhighにしており、デフォルトのmediumより重い設定を全作業にかけていた。消費量はモデルの重さ・思考量・コンテキスト量の掛け算で決まり、思考トークンは表示されなくても出力トークンとして課金される点を公式ドキュメントから確認した。単純なファイル探索や定型修正には軽い設定を使うなど、作業の性質に応じた設定が鍵だと結論づけている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Cloudflare Zero Wire × GitHub Actions × Claude で公開サーバーの脆弱性チェックを自動化",
+      "url": "https://zenn.dev/tomipetit/articles/zero-wire-github-actions",
+      "summary": "2026年11月に公開されたCloudflare Radarの脆弱性フィード「Zero Wire」のRSSをGitHub Actionsで取得し、自分の公開サーバーへの影響をClaudeに毎朝判定させる仕組みを紹介している。SSHで読み取り専用の棚卸しを行い、OSやランタイム、パッケージのバージョンを収集する。導入バージョンが修正版かどうかはコードで機械的に確定させ、影響条件や露出状況の解釈だけをClaudeに任せる構成とした。対応が必要な場合はIssueを自動作成し、当初すべてをClaudeに任せてうまくいかなかった経験や、nvm管理のNode.jsが検出されないなどのハマりどころも共有している。",
+      "category": "security"
+    },
+    {
+      "source": "devto",
+      "title": "Kent C. Dodds Hasn't Looked at His Code All Year",
+      "url": "https://dev.to/dailycontext/kent-c-dodds-hasnt-looked-at-his-code-all-year-gd5?bb=264901",
+      "summary": "Reactの教育者として知られるKent C. Doddsが、今年ほとんど自分でコードを見ていないという働き方の変化を紹介するインタビュー記事である。年初にコーディングエージェントへ「Fix this.」と指示しただけで課題が解決したことが転機となり、講座の売上減少など実存的な危機も経験したという。現在は一人で約150万行のプロダクトを有料ユーザー向けに運営し、直近30日でエージェントが約1,300件のPRをマージした。各エージェントは変更後に「摩擦レポート」を提出し、別のエージェントが夜間にそれを修正する仕組みを回している。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "agents",
+        "career",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Detecting Flaky Tests and Finding Their Root Causes with Strands Agents and Gemini",
+      "url": "https://dev.to/m4rri4nne/detecting-flaky-tests-and-finding-their-root-causes-with-strands-agents-and-gemini-4kan",
+      "summary": "QAエンジニアの筆者が、不安定なテスト（Flaky Test）を検出し、その根本原因をAIで分析するツールを構築した記事である。AIによりテスト自動化のコストは下がった一方、コードやテストに変更がなくても成否が揺らぐFlaky Testが新たな課題になっていると指摘している。Flaky Testが信頼性を損なう理由を説明したうえで、Strands AgentsとGeminiを組み合わせて検出と一次分析を行う仕組みを紹介している。コメント欄ではコミットのグルーピングロジックへの指摘も出ている。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "testing",
+        "python",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "We Keep Hearing About AI Productivity. The QA Group Chat Told a Different Story.",
+      "url": "https://dev.to/xulingfeng/we-keep-hearing-about-ai-productivity-the-qa-group-chat-told-a-different-story-2nma",
+      "summary": "AIテストの取り組みに関する記事が反響を呼んだ筆者が、QAエンジニアのグループチャットで行った匿名アンケートや議論をもとに、AI生産性の裏側を考察している。コメントでは古いPRD、同じバグを繰り返し報告するエージェント、隔離されたテスト環境など現場の混乱が共有された。製造業の読者からは、自動化によって人が暗黙に埋めていた引き継ぎの穴が露呈するという共通点も指摘された。AIブームで誰が利益を得ているのか、求職市場の厳しさといった不都合な問いも提起している。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Ask More of Your UI",
+      "url": "https://dev.to/dailycontext/ask-more-of-your-ui-2nf7",
+      "summary": "DEV創設者のBen Halpernが、AIツールを取り巻くUIの創造性の乏しさを問題提起する記事である。前回の記事で紹介したOpenHands上の自律ループは1か月で351件のPRを出荷し、Railsのリクエスト時間を70msから16msに短縮した。人が実行ループから離れると、自走する「工場」の状態をどう把握するかが新たな課題になると述べている。チャット欄とJSONのツール呼び出しログが並ぶだけの現状は会話には向くが計器盤としては不十分で、AIに対してより豊かなUIを求めるべきだと主張している。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "agents",
+        "webdev",
+        "architecture"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Our Looping Factory Cut DEV Page Load Time by 75% and Counting",
+      "url": "https://dev.to/dailycontext/our-looping-factory-cut-dev-page-load-time-by-75-and-counting-1hnf",
+      "summary": "DEV（Forem）が、OpenHandsを用いた自律的なフィードバックループによってページの読み込み時間を75%短縮した事例を紹介している。1日約30万件のサンプルで、Rails内の平均リクエスト時間は約70msから16msへ、DB時間は39msから12ms未満、ビュー描画は12msから2.6ms、Redis時間は7msから1.3msに改善した。直近30日でForemには475件のPRがマージされ、優先度を上げにくかった性能改善を進められたという。人が日々の作業から離れ、エージェントが改善を回し続ける仕組みを設計したことが成果につながったとしている。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "agents",
+        "automation",
+        "architecture"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "集中力散漫＆過集中持ちエンジニアがAWS DEAを突破した「過集中スイッチ」の入れ方",
+      "url": "https://qiita.com/kohYoung_I/items/cce40cb5b9cdfc1f8787",
+      "summary": "注意力散漫と過集中の特性を持つエンジニアが、AWS Certified Data Engineer - Associate（DEA）に合格した学習法を紹介する記事である。参考書・講義動画・問題集という王道の学習ステップが合わず、何度も資格勉強に挫折してきた経験を語っている。未知の単語で思考が止まる、楽しくないと後回しにするなど自身の「4つのバグ」を整理し、それを逆手に取って意図的に過集中を引き起こす仕組みを作った。AIの活用も含めた「脳ハックルーティーン」を、同じ悩みを持つ人へのヒントとして共有している。",
+      "category": "other",
+      "tags": [
+        "AWS",
+        "DEA",
+        "勉強法",
+        "AI",
+        "自称ADHD"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI「テスト通りました」← これ､本当？ Stryker でテストの穴を塞いだ話",
+      "url": "https://qiita.com/Dingu-suke/items/b5318ef2040a9f59224a",
+      "summary": "AIが書いたテストが本当にバグを検出できるのかを確かめるため、ミューテーションテストツールStrykerを使った事例を紹介している。題材はマルチテナントSaaSで会社ごとにデータを自動で絞り込むPrismaクライアントで、誤れば他社データが見えてしまう重要な部分である。Strykerは比較演算子の反転や条件の固定、ブロックの削除などで実装をわざと壊し、テストが落ちるかどうかでmutation scoreを算出する。カバレッジでは分からないテストの穴を可視化でき、AI駆動開発のハーネスへの組み込み方やAIとの相性も実際の数値とともにまとめている。",
+      "category": "devtool",
+      "tags": [
+        "AI駆動開発",
+        "ハーネスエンジニアリング",
+        "テスト",
+        "Stryker",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Fable 5.2でGTA 6 Osaka Cityを作ってみた",
+      "url": "https://qiita.com/7mpy/items/5710fef43ba0e59204c6",
+      "summary": "Claude Fable 5.2を使い、大阪を舞台にブラウザで動く3Dオープンワールドゲーム「VELA BAY」を作った事例である。OpenStreetMap由来の道路3,699区間・建物4,519棟や国土地理院の標高データと航空写真を使い、新世界・天王寺・阿倍野周辺の約1.5km四方を再現した。車やヘリへの乗車、歩行者と交通AI、手配度に応じた警察の追跡、ミッションや天候の変化などを実装している。公式作品ではなく、車・人物・建物モデルや音声はすべてコードから生成したオリジナルだと明記している。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "ClaudeCode",
+        "生成AI",
+        "AIエージェント",
+        "LLM"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "PRの脆弱性をAIが直す「CodeMender」を見て、新卒が基礎を学ぶ理由を考えた",
+      "url": "https://qiita.com/N-Kyo/items/23697fc1e92c288b426b",
+      "summary": "Google CloudがブログでGitHubのPRにCodeMenderを組み込む構成を紹介したことを受け、新卒エンジニアが考えたことをまとめた記事である。CodeMenderはPR作成時に脆弱性をスキャンし、/verifyで隔離環境での攻撃検証、/fixで修正PRの作成、/approveでコミットを行うGoogleのAIエージェントである。現時点では一部顧客限定のプレビューで精度も非公開であり、AIの修正は必ず人間がレビューする必要があるため、人の作業量はむしろ増える可能性があると指摘している。ブランチ保護の未設定やフォーク・DependabotのPRがスキャンされない点などの注意点を挙げ、AIに頼るほど自分で判断する基礎力が重要だと結論づけている。",
+      "category": "security",
+      "tags": [
+        "GoogleCloud",
+        "CodeMender",
+        "Security",
+        "新卒",
+        "初心者"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "システム設計視点の行動経済学 全60回 総復習",
+      "url": "https://qiita.com/maskot1977/items/d811bfa98fd0ee273bb2",
+      "summary": "「システム設計視点の行動経済学」連載の第1回から第60回までを、Claude Codeとの対話形式で振り返る総復習記事である。「制度はコードだ」という視点を軸に、認知バイアス、財源幻想、人材・移民政策、沈黙の螺旋などのテーマを7つのArcで扱ってきた。Arc VIIでは財源幻想と差別レッテルという2種類の沈黙の螺旋が互いを強化する「二重ロック」を解体する構造分析を行っている。勇気や善意に依存しない「Security by Design」の制度設計を処方箋として示し、全60回の一覧表も掲載している。",
+      "category": "other",
+      "tags": [
+        "システム設計",
+        "行動経済学",
+        "ClaudeCode",
+        "ChatGPT",
+        "Gemini"
+      ]
+    }
+  ]
+}

@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-11T00:00:00+09:00</updated>
+  <updated>2026-11-12T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月12日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-12.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-12.html</id>
+    <updated>2026-11-12T00:00:00+09:00</updated>
+    <summary>United航空がAIエージェントによる航空券予約を禁止。セキュリティと連邦規則を理由に、エージェント経由の取引に業界側が線を引き始めた / GoogleがGemini Decisions APIを発表。生成ではなく選択肢スコアリングに特化し、最大1,000問を1パスで判定、出力トークン課金ゼロ / Apple研究者がICML 2026でMIPS（最大内積探索）を学習済み小型NNで高速化する手法を発表。RAGの検索効率改善に寄与 / Claude Codeの実践Tips・ModelとEffortの使い分けによる利用枠節約など、国内でコーディングエージェント運用ノウハウの記事が充実 / DEV…</summary>
+  </entry>
   <entry>
     <title>2026年11月11日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27-news.html</id>
     <updated>2026-10-27T00:00:00+09:00</updated>
     <summary>Anthropicが米SECにIPOを申請（ティッカー「ANT」）。2026年上期売上は163億ドル / SpaceXがApolloと約400億ドルのGPU調達リース契約を開示 / Blockが同時送受話可能な音声モデル「Dessa」を発表</summary>
-  </entry>
-  <entry>
-    <title>2026年10月27日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-27.html</id>
-    <updated>2026-10-27T00:00:00+09:00</updated>
-    <summary>GPT-6.1 Terraが登場。視覚理解とコンピュータ操作に強く、API価格は先行モデルより50%安い / MCPのツール定義は想像以上にトークンを消費する。15ツールから4ツールへの再設計で削減した実測例 / プロンプトキャッシュの割引は読み込み分のみ。保持時間（約1時間）を過ぎると1ターンのコストが約11倍に / 読みやすいDB設計はAI開発のコストを約半分にする（Claude Codeでの検証、各条件5回） / 複数のコーディングエージェントを併用する運用や、Kimi Codeなど新しい選択肢の使い分け事例が増加</summary>
   </entry>
 </feed>
