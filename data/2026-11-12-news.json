@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026/11/12 8:04:19",
+  "highlights": [
+    "Google が最強モデル「Gemini 4 Carbon」を一般提供。CursorBench 4.0 などで首位、導入価格は入力 $2/M トークン",
+    "Anthropic が Nasdaq 上場（ティッカー ANT）に向けた IPO ロードショーを開始。想定価格は 1株 70〜78ドル",
+    "Claude に Sheets・Whiteboards・インタラクティブコネクタが登場し、業務ツール化が加速",
+    "Adobe が Creative Cloud をチャットボットから操作できるローカル MCP を発表",
+    "Railway の侵害で盗まれた AI キーが悪用され約74万ドルの不正利用が発生"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Gemini 4 Carbon が利用可能に",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "summary": "Google は Gemini 4 Carbon を開発者・企業・一般向けに提供開始しました。CursorBench 4.0、Perplexity の WANDR、Zapier の AutomationBench で首位とされ、API の導入価格は入力 100万トークンあたり 2ドル・出力 10ドル（11月30日以降は 4ドル／20ドル）です。Google Antigravity では、1つのプロンプトから複数エージェントを協調させる「/swarm」のプレビューも公開されました。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、新規株式公開（IPO）に向けたロードショーを開始",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "summary": "Anthropic は Class A 普通株式 8億2,500万株の IPO に向けたロードショーを開始し、想定価格帯を 1株 70〜78ドルとしました。Nasdaq Global Select Market への上場をティッカー「ANT」で申請しています。SEC への登録届出書はまだ効力が発生しておらず、現時点で株式は販売できません。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Claude との新しい働き方：Sheets、Whiteboards、インタラクティブコネクタ",
+      "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors",
+      "summary": "Anthropic は、チームと Claude が共同でスプレッドシートを作成・編集できる Claude Sheets と、共有ホワイトボードの Claude Whiteboards を発表しました。Snowflake や Salesforce と接続してダッシュボードを作る Claude Data（旧 Dashboards）や、Adobe・Atlassian などのアプリを Claude 内に埋め込めるインタラクティブコネクタも加わりました。会議に参加してタスクを進める Claude Meetings は近日提供予定とされています。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Adobe、Photoshop・Premiere・Firefly に AI エージェントと新しいクリエイティブツールを導入",
+      "url": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+      "summary": "Adobe は MAX イベントで、Photoshop・Premiere・Illustrator・InDesign への AI 機能追加と Firefly の拡張を発表しました。ChatGPT・Claude・Gemini などのチャットボットから Creative Cloud の機能を使えるローカル MCP（Model Context Protocol）も公開します。Firefly には Figma と競合するプロトタイピングツール「Builder」がプライベートベータで加わります。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Railway の侵害により 74万ドルの不正な AI 利用料金が発生",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "summary": "クラウドホスティングの Railway は、ビルド基盤の脆弱性を突かれて顧客の認証シークレットが盗まれ、約74万ドル分の不正な AI 利用が発生したとするインシデント報告を公開しました。攻撃者は主に AI プロバイダの認証情報を狙っており、環境変数が復号された可能性があるのは最大で全ワークスペースの1.85%（約10万件）とされています。Railway は影響を受けた顧客への補償を進めています。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Gemini for healthcare の提供開始",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-healthcare",
+      "summary": "Google Cloud は、医療機関や保険者の臨床・財務・事務システムを横断して業務を連携させる「Gemini for healthcare」を米国でプレビュー提供開始しました。Epic や Oracle Health などの EHR への読み取り専用コネクタと、医療記録の要約や事前承認書類の作成などを担うスキルを備えています。HCA Healthcare や Northwell Health などが早期導入企業として挙げられています。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-11-12-news"
+}
