@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-13T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月13日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-13-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-13-news.html</id>
+    <updated>2026-11-13T00:00:00+09:00</updated>
+    <summary>Google DeepMindがAlphaProof Codeを発表、AIエージェントでSignalプロトコル実装の形式検証を約4週間で実施 / Google DeepMindがAlphaGenome 2を発表、細胞種ごとのDNA変異の影響予測を大幅に改善 / GoogleがGemini Decisions APIを公開、入力100万トークンあたり0.10ドルの高速・確率付き判定API / AlibabaのQwenがQwen4-Max-Previewを期間限定で提供開始（11月25日まで） / CoreWeaveが顧客前払い・短期契約で資金調達へ、Databricksは常時稼働型エージェント…</summary>
+  </entry>
+  <entry>
     <title>2026年11月13日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-13.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-13.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29.html</id>
     <updated>2026-10-29T00:00:00+09:00</updated>
     <summary>Google が Gemini 4 Carbon を発表。長期エージェント業務とサイバーセキュリティを強化 / eMudhra の中間CA証明書で秘密鍵が極めて脆弱だった問題が判明 / AIエージェント時代の仕様書の書き方、レビュー、テストの落とし穴に関する実践記事が多数</summary>
-  </entry>
-  <entry>
-    <title>2026年10月28日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-28-news.html</id>
-    <updated>2026-10-28T00:00:00+09:00</updated>
-    <summary>Google DeepMindが世界モデル「Genie 4」を発表。音声対応で一貫性は最大2分に / AnthropicがSEC にS-1を提出し、Nasdaq（ティッカー ANT）でのIPOを申請 / OpenAIとAnthropicが指数時間仮説（ETH）の反証を主張し、研究コミュニティが検証へ / Anthropicが米GSAとの提携を拡大し、政府向けに40%割引を提供</summary>
   </entry>
 </feed>

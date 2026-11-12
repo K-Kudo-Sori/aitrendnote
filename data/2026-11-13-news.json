@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026/11/13 8:04:54",
+  "highlights": [
+    "Google DeepMindがAlphaProof Codeを発表、AIエージェントでSignalプロトコル実装の形式検証を約4週間で実施",
+    "Google DeepMindがAlphaGenome 2を発表、細胞種ごとのDNA変異の影響予測を大幅に改善",
+    "GoogleがGemini Decisions APIを公開、入力100万トークンあたり0.10ドルの高速・確率付き判定API",
+    "AlibabaのQwenがQwen4-Max-Previewを期間限定で提供開始（11月25日まで）",
+    "CoreWeaveが顧客前払い・短期契約で資金調達へ、Databricksは常時稼働型エージェントGenieを発表"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "AlphaProof Codeの紹介：複雑なソフトウェアを深く検証するブレークスルー",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "summary": "Google DeepMindは、人間の専門家が証明すべき性質を決め、複数のLLMエージェントが証明を実行する形式検証フレームワーク「AlphaProof Code」を11月10日に発表した。Signalプロトコルの実コードについて主要なセキュリティ特性を証明し、Gemini Carbon搭載エージェントが600万行超のLean証明を生成、作業期間は約4週間だった。過去に修正済みのバグ2件を再導入した検証では、いずれも安全でないことを機械検証済みの証明で示した。検証成果物はオープンソース化する予定としている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AlphaGenome 2：細胞がDNAをどう読むかを解読し、疾患の理解を深める",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "summary": "Google DeepMindは、DNA配列や変異が特定のヒト細胞種に与える影響を予測する次世代モデル「AlphaGenome 2」を11月11日に発表した。対象の細胞種・状態を入力とする条件付き設計で、68組織・1億超の単一細胞プロファイルで学習し、DNAメチル化の予測も追加した。TenK10K免疫細胞データでは因果変異の特定率が初代の16%から約30%に向上した。AlphaGenome API経由で非商用研究向けに提供され、臨床・診断用途は対象外。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Gemini Decisions API：高速でキャリブレーションされたマルチモーダル判定",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "summary": "Googleは、ツール選択・ポリシーチェック・モデルルーティング・採点などの閉集合の判定に特化したGemini APIのエンドポイントを公開した。Gemini Decision 1モデルがテキストを生成せず1回の順伝播で選択肢をスコアリングし、確率と信頼度を返す。レイテンシは約150〜250msで、1リクエストあたり最大1,000問を扱える。価格は入力100万トークンあたり0.10ドル、出力は無料で、Google AI Studioには無料枠もある。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "最新モデル：Qwen4-Max-Preview",
+      "url": "https://docs.qwencloud.com/developer-guides/getting-started/latest-model",
+      "summary": "QwenCloudは、フラッグシップモデル「Qwen4-Max-Preview」をプレビュー提供している。提供期間は2026年11月11日から11月25日（UTC+8）までで、終了後は退役する。思考モードを既定で有効にした推論、画像・動画理解、ツール呼び出し、構造化出力に対応し、コンテキスト長は100万トークン。OpenAI Chat Completions/ResponsesおよびAnthropic Messages APIと互換で、Token Plan経由でのみ利用できる。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "CoreWeave、AI成長の資金源として顧客の前払いと短期契約に軸足",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "summary": "CoreWeaveの第3四半期決算は売上高36.6億ドル（前年同期比168%増）、純損失7.09億ドル、受注残1,325億ドルだった。今後3カ月で約90億ドルの前払い金・預託金を見込み、無担保債での資金調達は現在の利回りでは行わない方針を示した。短期契約の容量は年間1メガワットあたり4,000万ドル超で販売されているという。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Databricksの新AIエージェント、CEOアリ・ゴドシに率直な真実を告げる",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+      "summary": "Databricksは、AIエージェント「Genie」の改訂版を発表し、「ビジネスリーダー向けの常時稼働エージェント」と位置付けた。顧客がDatabricks上に保存するデータから文脈を得る独自のオントロジーを用い、長時間かかる多段階のタスクを監督なしで完了できるとしている。Unity Gatewayで利用上限の設定や安価なオープンウェイトモデルへの置き換えも可能。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-11-13-news"
+}
