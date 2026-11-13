@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-13T00:00:00+09:00</updated>
+  <updated>2026-11-14T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月14日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-14.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-14.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <summary>Perplexityが分類特化の「Decider v1.3 / Flash v1.3」をApacheライセンスで公開 / AIがゲーデルの速記ノート解読を支援し、未発表の定理群が明らかに / Claude Codeの実践Tips・トークン削減・クラウドエージェント基盤など国内事例が充実 / Claude Fable 5.2とOpus 5.5の単価・1タスク当たりコスト比較が話題</summary>
+  </entry>
   <entry>
     <title>2026年11月13日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-13-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29-news.html</id>
     <updated>2026-10-29T00:00:00+09:00</updated>
     <summary>Anthropicが米SECにS-1を提出し、Nasdaq上場（ティッカー ANT）を計画 / Google DeepMindが世界モデル Genie 4 を研究プレビューとして公開 / GoogleがGemini/検索を外部アプリに開放する Connected Apps Platform を発表 / NvidiaがオープンなTranscribeモデル Nemotron 3.5 Transcribe を公開</summary>
-  </entry>
-  <entry>
-    <title>2026年10月29日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29.html</id>
-    <updated>2026-10-29T00:00:00+09:00</updated>
-    <summary>Google が Gemini 4 Carbon を発表。長期エージェント業務とサイバーセキュリティを強化 / eMudhra の中間CA証明書で秘密鍵が極めて脆弱だった問題が判明 / AIエージェント時代の仕様書の書き方、レビュー、テストの落とし穴に関する実践記事が多数</summary>
   </entry>
 </feed>
