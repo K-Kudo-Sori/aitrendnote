@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026/11/14 8:03:45",
+  "highlights": [
+    "Google が高速・低コストの主力モデル「Gemini 4 Hydrogen」を発表（入力$1.50/出力$7.50 per 1Mトークン）",
+    "NVIDIA の Jensen Huang 氏が CEO を辞任、CFO の Colette Kress 氏が暫定CEOに",
+    "OpenAI がセキュリティ製品「Daybreak Red Team / Defense Factory」を発表、同日に非営利団体が大手AI5社を提訴",
+    "Fireworks AI への侵害で Notion AI 顧客のチャット記録が流出",
+    "Anthropic が製造業向けプラグイン「Claude for Manufacturing」を提供開始"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Gemini 4 Hydrogen の紹介",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "summary": "Google は日常的なコーディングやエージェント作業向けの高速・効率重視モデル「Gemini 4 Hydrogen」を発表した。価格は100万トークンあたり入力1.50ドル・出力7.50ドルで、100万トークンのコンテキスト全体で一律。Terminal-Bench 4.1 で57%（Gemini 3.8 Flash は18.2%）などを記録し、新たな xhigh を含む4段階の思考レベルを備える。Gemini API・AI Studio・Gemini アプリ・Google 検索などで提供される。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "NVIDIA、CEO の交代を発表",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "summary": "NVIDIA は Jensen Huang 氏が社長兼CEOおよび取締役を即日辞任したと発表した。EVP兼CFOの Colette Kress 氏が CFO を兼務しつつ暫定CEOに就任し、取締役会は社内外から後任を探す。Harvey C. Jones 氏が同社初の取締役会議長に任命され、事業や製品ロードマップは中断なく継続するとしている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI がセキュリティ製品を発表、使わなければ組織は破滅すると主張",
+      "url": "https://www.theregister.com/security/2026/11/12/openai-launches-security-products-tells-orgs-theyre-doomed-if-they-dont-use-them/5309500",
+      "summary": "OpenAI はセキュリティ基盤 Daybreak の新製品として、Web アプリの脆弱性を検査・検証する「Daybreak Red Team」（アーリーアクセス）と、GPT-6 Cyber ベースのエージェントで脆弱性を発見・修正する「Daybreak Defense Factory」を発表した。修正はエンジニアの承認を経て適用される。同日、4つの非営利団体が OpenAI・Anthropic・Google・Meta・SpaceX の AI 事業に対し、現行最上位を超えるモデルの開発・展開停止を求める訴訟をサンフランシスコ上級裁判所に起こした。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Fireworks AI へのサイバー攻撃で、ハッカーが Notion 顧客のチャット記録にアクセス",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
+      "summary": "オープンモデルの推論基盤 Fireworks AI が、クラウドプロバイダ経由で開発システムに侵入され、請求情報や一部データセットが盗まれたことを認めた。影響を受けた Notion では約1%の顧客が対象で、Notion AI の「Insights」機能のチャット記録が流出した。攻撃者は不正に得た LLM トークンの転売（LLMjacking）を狙った金銭目的とみられ、Fireworks にとって2か月で2度目の侵害となる。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Claude for Manufacturing の紹介",
+      "url": "https://claude.com/resources/articles/claude-for-manufacturing",
+      "summary": "Anthropic は製造業向けプラグイン「Claude for Manufacturing」を Team・Enterprise プランで提供開始した。17のスキルと Autodesk Fusion・Infor・Microsoft 365・Oracle NetSuite の4コネクタを備え、見積作成、検査不合格の調査、故障診断、代替調達などを支援する。ワークフローは人のレビューで締めくくられ、設備の直接操作は行わない。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "LLMON：LLM ネイティブなマークアップ言語、Granite 4.1 3B・8B に搭載",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "summary": "IBM は、プロンプトの構造部分を予約特殊トークンで区切る XML 風マークアップ言語「LLMON」と、それに対応した Granite 4.1 3B/8B の実験的プレビューモデルを公開した。OPI ベンチマークでは間接プロンプトインジェクションをほぼすべて回避し、一般性能は Granite 4.1 Instruct と同等と報告している。本番利用向けではない実験版と位置づけられている。",
+      "category": "research"
+    }
+  ],
+  "slug": "2026-11-14-news"
+}

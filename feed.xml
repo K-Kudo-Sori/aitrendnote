@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-14T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月14日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-14-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-14-news.html</id>
+    <updated>2026-11-14T00:00:00+09:00</updated>
+    <summary>Google が高速・低コストの主力モデル「Gemini 4 Hydrogen」を発表（入力$1.50/出力$7.50 per 1Mトークン） / NVIDIA の Jensen Huang 氏が CEO を辞任、CFO の Colette Kress 氏が暫定CEOに / OpenAI がセキュリティ製品「Daybreak Red Team / Defense Factory」を発表、同日に非営利団体が大手AI5社を提訴 / Fireworks AI への侵害で Notion AI 顧客のチャット記録が流出 / Anthropic が製造業向けプラグイン「Claude for Manufa…</summary>
+  </entry>
+  <entry>
     <title>2026年11月14日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-14.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-14.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30.html</id>
     <updated>2026-10-30T00:00:00+09:00</updated>
     <summary>Claude Code のセキュリティ対策・QA活用・スキル活用など、エージェント運用の実践記事が日本語圏で多数 / AI支援とされる中国系キャンペーンが PAN-OS ファイアウォール25台を侵害した事例が報告された / マルチエージェントのスウォームをゲーム環境で観察する研究が公開された</summary>
-  </entry>
-  <entry>
-    <title>2026年10月29日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-29-news.html</id>
-    <updated>2026-10-29T00:00:00+09:00</updated>
-    <summary>Anthropicが米SECにS-1を提出し、Nasdaq上場（ティッカー ANT）を計画 / Google DeepMindが世界モデル Genie 4 を研究プレビューとして公開 / GoogleがGemini/検索を外部アプリに開放する Connected Apps Platform を発表 / NvidiaがオープンなTranscribeモデル Nemotron 3.5 Transcribe を公開</summary>
   </entry>
 </feed>
