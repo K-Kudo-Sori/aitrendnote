@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-15T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月15日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-15-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-15-news.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <summary>OpenAI が「ChatGPT Wallet」を提供開始。エージェント（dots）がトークン化カードで代理購入し、購入ごとに生体認証で承認 / Cloudflare が AI エージェント向けブラウザエンジン「Kitesurf」を Apache 2.0 でオープンソース化 / 非営利団体4者が OpenAI・Google・Anthropic・Meta・SpaceX の AI 部門を提訴、フロンティア AI 開発の差し止めを求める / LangChain が 3億ドルのシリーズCで評価額30億ドルに。Google は Gemini 搭載スマートグラスの予約受付を開始</summary>
+  </entry>
+  <entry>
     <title>2026年11月15日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-15.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-15.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31.html</id>
     <updated>2026-10-31T00:00:00+09:00</updated>
     <summary>Cursor Marketplace上のClaude Code for VS Code拡張2.1.313にSSHバックドアが混入していたとPhorionが報告 / Claude Codeの安全運用（Auto mode向けセキュリティ対策）やQAチーム化など、実践的な活用記事が目立つ / AI導入で変わる開発組織・SREのスキル劣化など、組織面の議論も活発</summary>
-  </entry>
-  <entry>
-    <title>2026年10月30日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30-news.html</id>
-    <updated>2026-10-30T00:00:00+09:00</updated>
-    <summary>Mistral が1兆パラメータの Mistral Large 4 の重みを公開（サイバー防御向け） / Anthropic が AI 支出の効果を可視化するレポート機能とグループ予算を発表 / Google が Gemini・検索を外部アプリに開放する Connected Apps Platform を公開 / Nvidia が40言語対応のオープン文字起こしモデルを公開</summary>
   </entry>
 </feed>

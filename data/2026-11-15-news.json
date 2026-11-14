@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026/11/15 8:04:15",
+  "highlights": [
+    "OpenAI が「ChatGPT Wallet」を提供開始。エージェント（dots）がトークン化カードで代理購入し、購入ごとに生体認証で承認",
+    "Cloudflare が AI エージェント向けブラウザエンジン「Kitesurf」を Apache 2.0 でオープンソース化",
+    "非営利団体4者が OpenAI・Google・Anthropic・Meta・SpaceX の AI 部門を提訴、フロンティア AI 開発の差し止めを求める",
+    "LangChain が 3億ドルのシリーズCで評価額30億ドルに。Google は Gemini 搭載スマートグラスの予約受付を開始"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "ChatGPT の新しい Wallet で、AI エージェントが代わりに買い物・決済まで行えるように",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "summary": "OpenAI は、同社のエージェント「dots」が商品選びから購入完了までを代行できる「ChatGPT Wallet」を公開した。まずは米国の一部 ChatGPT Pro 会員（18歳以上、米国発行の Visa・Mastercard・American Express カード保有者）向けに提供される。決済はトークン経由で行われ、エージェントも加盟店も実際のカード番号を見ることはなく、購入ごとに Face ID や指紋で承認する。今後は支出上限やカテゴリ・期間ごとのルール設定にも対応する予定。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Kitesurf がオープンソースに",
+      "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-kitesurf-open-source/",
+      "summary": "Cloudflare は AI エージェント向けのブラウザエンジン「Kitesurf」のソースを Apache 2.0 ライセンスで GitHub に公開した。Cloudflare Workers 上だけで動作し、ブラウザコンテナなしで HTML の解析、CSS 適用、JavaScript 実行、スクリーンショット描画を行う。Chrome DevTools Protocol に対応し Puppeteer などから接続できる。実験段階のプロジェクトで、認証機能を持たないため Cloudflare Access などでの保護が推奨されている。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "非営利団体が OpenAI・Google・Anthropic・Meta・SpaceX の AI 部門を提訴、フロンティア AI 開発の停止を求める",
+      "url": "https://cryptobriefing.com/nonprofits-sue-ai-labs-halt-frontier-development/",
+      "summary": "Public Citizen、Heat Initiative、Alliance for Secure AI、Irreplaceable Education Fund の4団体が11月12日、サンフランシスコ上級裁判所に提訴した。現在のフロンティアシステムより高性能な AI モデルの開発を差し止める命令を求めている。カリフォルニア州の不正競争防止法に基づき、AI 能力の向上を違法行為、生じるシステムを公的不法妨害（public nuisance）と主張している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "AI エージェントのスタートアップ LangChain、評価額30億ドルに到達",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "summary": "LangChain は CapitalG 主導のシリーズCで3億ドルを調達し、評価額は約1年前の12.5億ドルから倍以上の30億ドルとなった。GIC、DFJ Growth、IVP、Sapphire Ventures も参加した。同社は LangSmith の顧客が7,000社に上り、Harvey、Rippling、Nvidia、Toyota、Salesforce などが含まれるとしている。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "インテリジェント アイウェアのラインナップを公開、予約受付を開始",
+      "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+      "summary": "Google は Warby Parker、Gentle Monster と共同デザインし Samsung が設計した Gemini 搭載スマートグラスの予約受付を米国と韓国で開始した。価格は Warby Parker モデルが395ドルから、Gentle Monster モデルが449ドルからで、店頭・オンライン販売は12月10日から。「Hey Gemini」でのハンズフリー支援、Google マップの音声ナビ、70以上の言語のリアルタイム音声翻訳、視覚障がい者向けの音声説明などに対応する。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "ElevenLabs の新アプリ、チーム向けに会議メモと音声入力を統合",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "summary": "ElevenLabs はニューヨークでの 11/11 Summit で、会議メモ、音声入力、エージェント連携を組み合わせた実験的アプリ「ElevenAI」をプレビュー公開した。複数の会議をまたいだデータ検索や会話中のライブ支援ができ、ElevenAgent と連携してメモからのメール下書きなどのフォローアップも行える。音声入力は90以上の言語に対応し、任意のアプリで整形済みテキストに変換する。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-11-15-news"
+}
