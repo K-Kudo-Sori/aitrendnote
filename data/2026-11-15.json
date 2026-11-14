@@ -1,0 +1,223 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026/11/15 7:04:31",
+  "highlights": [
+    "Lovable製アプリで個人情報20万件超の露出が判明、AI生成アプリのセキュリティ責任が改めて問われる",
+    "Claude Duetを日本のTeamプランで試した実地レポートや、Claude Code並列運用・Tips記事が多数",
+    "Ubieのクラウドエージェント基盤やagweb・terminal-macなど、エージェント実行環境の整備が進む",
+    "AI脆弱性診断の指摘の多くがOWASP ASVS L1で防げたという分析も"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "summary": "ドイツの調査チームがHandelsblattと共同で、AIでWebアプリを生成するLovable上の約15.9万件のプロジェクトを調査した。その結果、ログインなしで個人情報や機密情報にアクセスできるアプリが多数見つかり、パスポート情報や20万件超の私的メッセージが露出していた。Lovableは専門知識不要を強調する一方、利用規約ではデータ保護の責任を利用者に負わせており、その間のギャップが問題視されている。AI生成アプリでも機微データの扱いには従来どおりのセキュリティ対策が必要だと指摘している。",
+      "category": "security",
+      "points": 487,
+      "comments": 176
+    },
+    {
+      "source": "hackernews",
+      "title": "Seagate's new hybrid drive raises some old questions",
+      "url": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/",
+      "summary": "SeagateがHDDとユーザー持ち込みのNVMe SSDを組み合わせるハイブリッドストレージ「FireCuda Forge」を発表した。8TB（699ドル）と20TB（899ドル）の構成で、SSDは同梱されず最大1TBのPCIe Gen3以上のM.2ドライブが必要となる。新しいストレージ管理基盤「Alkemi」で制御され、USB4接続で読み込み2,500MB/s・書き込み2,000MB/sをうたう。かつてのハイブリッドドライブと同様、価格や実効性能に関する古い疑問が再び浮上していると論じている。",
+      "category": "product",
+      "points": 51,
+      "comments": 21
+    },
+    {
+      "source": "hackernews",
+      "title": "Generative AI uses more energy on non-English text",
+      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
+      "summary": "本文取得失敗（アクセス制限ページのため本文を取得できず）。タイトルによれば、ミシガン大学の研究として、生成AIは英語以外のテキストを処理する際により多くのエネルギーを消費するという内容。",
+      "category": "research",
+      "points": 156,
+      "comments": 89
+    },
+    {
+      "source": "hackernews",
+      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
+      "url": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "summary": "Meta・Googleのスマートグラス、Apple WatchのAudio Intelligence、AmazonのBeeなど、周囲を常時記録・文字起こしするAIデバイスが増えていることを取り上げた記事。プライバシーは本来チームスポーツだが、こうした機器によって他人の選択が周囲の人々のプライバシーを直接左右するようになったと指摘する。テック企業は所有者に責任ある利用や周知を求めるが、それは現実的な同意の仕組みとは言えないと批判している。企業がプライバシーの概念を再び都合よく変えようとしていると警鐘を鳴らしている。",
+      "category": "security",
+      "points": 390,
+      "comments": 151
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
+      "url": "https://github.com/paul-nameless/agweb",
+      "summary": "macOS向けにWebKitベースで作られた、コーディングエージェント用ブラウザ「agweb」の紹介。フォーカスを奪わない単一ウィンドウで複数エージェントがシェルコマンドから操作でき、ダッシュボードで全タブをライブ監視できる。アイドルタブは停止され、5ページ時のメモリはPlaywright Chromeの1.6GBに対し590MBと軽量。エージェントごとのワークスペース、共有ログインプロファイル、ネイティブ入力イベント、秘密情報をトランスクリプトに出さない入力機能なども備える。",
+      "category": "agent",
+      "points": 76,
+      "comments": 21
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "summary": "Claude Code書籍の著者が、最近重宝しているClaude CodeのTipsを5つ紹介している。会話履歴に残さず進捗確認や/compact用プロンプト生成ができる/btwコマンド、大量の成果を図表で共有できるHTMLレポートやArtifacts機能を取り上げる。さらにClaude Mods、マルチエージェントパターン、Remote Controlの活用法も解説している。長時間自走するエージェントの状況把握とコンテキストを汚さない工夫が中心テーマとなっている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+      "summary": "Ubie CTOが、全社業務をAI-Native化するために内製しているクラウドエージェント基盤「Remoco」とエンジニアリングエージェント「Uvin」を紹介している。RemocoはWeb UI・Slack・cron・Webhook・MCPなどから呼び出せ、長時間実行ループ、サンドボックス、サブエージェント、アクセス制御、複数モデル対応などを備える。Google CloudとTemporalを中心に構成され、エージェントハーネスの外からサンドボックスをツールとして呼ぶ「Sandbox-as-a-tool」方式を採用している。これにより耐障害性・スケーラビリティ・コスト面で利点があると説明している。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "summary": "MetaのパーソナルAIエージェント「Muse」の使い方を紹介する記事。無料のMuse Spark 1.3でもコードが書け、VM上で自作アプリを動かすSpace機能によりローカルLLMを使ったアプリなども無料で動かせるという。さらに「Sign in with ChatGPT」で予算上限を割り当てたうえで、MuseにPi Coding Agentを持たせてコーディングを任せる運用を試している。DAWアプリの作成や作曲など、雑な依頼でもMuseが積極的にこなす様子を紹介している。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "AIで膨らみ続けるテストケースを、リスクベースドテストで選んで回すまでの記録",
+      "url": "https://zenn.dev/pivotmedia/articles/risk-based-testing-for-uat",
+      "summary": "PIVOTのQAエンジニアが、AIでテストケースを書くようになりUATの件数が膨らんだ課題に対し、リスクベースドテスト（RBT）を導入した記録。テストケースを仕様書の正本として残しつつ、リリースごとの実行記録上で回すケースだけを選ぶ方式をとった。「影響度×発生確率」の原則のもと、機能単位の影響度付けやケース種別ごとの配分を試し、過去5回のリリースで不具合を拾えたかを検証している。削った理由を説明可能な形で残すことの重要性を強調している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "【2026/11/13時点】Claude Duet を Team プランで触ってみた（組織で使うときの注意点つき）",
+      "url": "https://zenn.dev/canly/articles/e2bd67c9a4c18b",
+      "summary": "2026年11月13日にClaude TeamプランのAdmin画面に現れた「Claude Duet（ベータ）」を組織で有効化して試したレポート。Duetはクラウド上のVMで動き、接続アプリを定期的に確認して先回りで動くエージェントで、公式には米国のPro/Max/Ultra向けだが、TeamでONにすると日本からも利用できたという。既存のコネクタやスキルを引き継ぎ、初回からSlackやカレンダーを読んで提案してくる点が印象的だったと述べる。使用量上限の共有や送信前確認の仕様など、組織利用時の注意点もまとめている。",
+      "category": "product"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264840",
+      "summary": "DEVで開催される「Presage SmartSpectra SDK Challenge」の告知記事。カメラから取得した脈拍・呼吸数・HRV・表情などのリアルタイムな人間の信号に反応する体験を、Presage SmartSpectra SDKで構築することが課題となっている。期間は11月4日から22日までで、総額3,000ドルの賞金が10名（総合4名・部門賞6名）に贈られる。応募テンプレートや部門賞の条件についても説明している。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Congrats to the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-week-4-ghost-in-the-machine-winners-nok",
+      "summary": "DEVのHacktoberfest Open-Source AI Challenge最終週「Ghost in the Machine」の受賞作品発表。オープンウェイトモデルやオープンソースAIを使い、不気味なものや死者の日にちなんで過去を偲ぶものを作るというテーマだった。デジタルなオフレンダや忘れられたリポジトリの幽霊、デッドコードの降霊会などユニークな作品が集まった。総合優勝は、小さなAIに日記を与えて一晩ずつ脳を停止させていく作品だった。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "MCP Is Dead Simple. And That's Exactly the Problem",
+      "url": "https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811",
+      "summary": "MCPの基本概念は非常に単純で数分で実装できるが、本番運用に持ち込むと多くの問題が出てくると論じる記事。前回のAIエージェントに関する記事の続編として、MCPの仕組みを改めて解説している。安全性や冪等性など、本番環境で見落とされがちなギャップを具体的に取り上げている。シンプルさゆえに、実運用で必要な考慮が軽視されやすい点が問題だと指摘している。",
+      "category": "agent",
+      "tags": [
+        "mcp",
+        "ai",
+        "agents",
+        "typescript"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Dev Opportunity Radar #25: $120K+ Atlassian Hackathon, MLH Fellowship, and INSEAD AI Founder Sprint",
+      "url": "https://dev.to/devengers/dev-opportunity-radar-25-120k-atlassian-hackathon-mlh-fellowship-and-insead-ai-founder-sprint-m96",
+      "summary": "開発者向けの機会を紹介する連載「Dev Opportunity Radar」の第25回。賞金12万ドル超のAtlassianハッカソン、MLH Fellowship、INSEADのAI Founder Sprintなどを取り上げている。シリーズではこれまでもAnthropic FellowsやOpenAI関連のプログラム、AIフェローシップなどを紹介してきた。AI分野を中心としたハッカソンや助成金、育成プログラムの情報をまとめて把握できる内容となっている。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "community",
+        "opportunities",
+        "resources"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "One Month After the Hackathon: Why My 4-Service App Stopped Working (and What @mansio Caught in the Verifiers)",
+      "url": "https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-service-app-stopped-working-and-what-mansio-caught-in-the-3i8h",
+      "summary": "ハッカソンで作ったREADMEとリポジトリの不一致を検証するアプリ「README Clew 2」が、1か月後に全スキャン失敗となった原因を振り返る記事。決定論的な検証器やエージェント自体に問題はなく、30日で期限切れになったGitHubトークン、Vercelで開発環境にしかスコープされていなかったClaude Haikuのキー、部分文字列判定のバグという3つの運用上の罠が重なっていた。部分文字列バグは他のDEV執筆者がPRで発見・修正してくれた。ハッカソン後の運用で起きやすい認証まわりの落とし穴を詳しく解説している。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "javascript",
+        "buildinpublic",
+        "opensource"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "ちょっと見ない間にClaude APIが進化してた！",
+      "url": "https://qiita.com/moritalous/items/9e7c02b749037238b2bc",
+      "summary": "久しぶりにClaude APIを触ったら機能が大きく進化していたことを、Python SDKの実例付きで紹介する記事。uvでプロジェクトを作り、APIキーを使わずanthropic-cliのant auth loginで認証する方法から始めている。基本のメッセージ呼び出しやシステムプロンプトの指定に加え、ユーザーメッセージの後にシステムプロンプトを追記してプロンプトキャッシュを維持したまま指示を変える機能などを試している。思考ブロックが返る場合のレスポンス処理にも触れている。",
+      "category": "devtool",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "ClaudeAPI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「利上げできない」も「利上げしすぎる」も日本では成立しない——金利チャネル神話とDomar条件 : システム設計視点の行動経済学 (62)",
+      "url": "https://qiita.com/maskot1977/items/dcd3c5a7ed7d0bcc0dc7",
+      "summary": "「システム設計視点の行動経済学」連載の第62回で、日本における金利チャネルとDomar条件をテーマにした記事。ChatGPT・Claude・Geminiなど生成AIとの対話形式で、前回の「財源幻想の三層防衛構造」を復習するところから始まる。制度をコードとみなし、社会課題をインセンティブ構造の設計バグとして工学的に分析するアプローチをとっている。「利上げできない」「利上げしすぎる」という両方の主張が日本では成立しないと論じている。",
+      "category": "other",
+      "tags": [
+        "システム設計",
+        "行動経済学",
+        "ChatGPT",
+        "ClaudeCode",
+        "Gemini"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Codeを並列で回すとsettings.jsonが壊れる問題を、mkdirロックとアトミック書き込みで止める",
+      "url": "https://qiita.com/joinclass/items/8c40b05a48487aa588c0",
+      "summary": "launchdから17本以上のジョブでClaude Codeを並列運用する企業が、settings.jsonやメモリファイルが同時書き込みで壊れる問題への対策を紹介している。読み→書き換え→書きの競合で設定が消えたり、書き込み途中のファイルを読んでJSONパースに失敗したりすると、権限やフックが静かに効かなくなる。対策として、macOSにflockがないためmkdirのアトミック性を使った排他ロックと、一時ファイルに書いてmvで差し替えるアトミック置換を実装している。git commitなど待って実行したい処理はリトライ付きでロックを取得する方法も示している。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "AI",
+        "自動化",
+        "Bash",
+        "jq"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "claude codeにMacを1台まるごと渡してチェスをさせてみた【terminal-mac】",
+      "url": "https://qiita.com/hiroshi_ito9854/items/a3ea4d3db0d45f12f500",
+      "summary": "macOSのVMをターミナル内で動かし、AIエージェント専用のMacを用意できるツール「terminal-mac」を使い、Claude Codeに標準チェスアプリで対局させた検証記事。Apple純正のVirtualization.frameworkを使ったSwift製ツールで、MCPサーバーまたはCLIからスクリーンショット・クリック・入力などの操作を送れる。ホストとVMはネットワークではなく共有フォルダ経由でやり取りし、画面収録などの権限もVM内だけに閉じるため安全にcomputer useを試せる。操作の様子や対局結果、ホスト側の負荷についても紹介している。",
+      "category": "agent",
+      "tags": [
+        "macOS",
+        "ClaudeCode",
+        "computer-use"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI 診断で出た緊急・高21件中6件は OWASP ASVS の1項目だった。せめて L1 は要件に入れたい話（2026年版）",
+      "url": "https://qiita.com/ntaka329/items/012ad27328ecaae1c469",
+      "summary": "Claude Codeのサブエージェントでホワイトボックス脆弱性診断を行い、緊急・高の指摘21件をOWASP ASVS 5.0と突き合わせた記録。21件中6件がデータごとの認可（IDOR/BOLA）を定めた8.2.2の1項目に該当し、L1要件だけで12件（57%）、L2まで含めると18件（86%）をカバーできた。この結果から、要件定義で準拠ガイドラインを決め、ASVSは最低でもL1、機微情報やマルチテナントを扱うならL2まで指定すべきと提言している。AWSについてはSecurity Hub CSPMのFSBPを前提に、Well-Architectedで補う方針を示している。",
+      "category": "security",
+      "tags": [
+        "ASVS",
+        "要件定義",
+        "Security",
+        "AWS",
+        "owasp"
+      ]
+    }
+  ]
+}

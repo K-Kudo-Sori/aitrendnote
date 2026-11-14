@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-14T00:00:00+09:00</updated>
+  <updated>2026-11-15T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月15日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-15.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-15.html</id>
+    <updated>2026-11-15T00:00:00+09:00</updated>
+    <summary>Lovable製アプリで個人情報20万件超の露出が判明、AI生成アプリのセキュリティ責任が改めて問われる / Claude Duetを日本のTeamプランで試した実地レポートや、Claude Code並列運用・Tips記事が多数 / Ubieのクラウドエージェント基盤やagweb・terminal-macなど、エージェント実行環境の整備が進む / AI脆弱性診断の指摘の多くがOWASP ASVS L1で防げたという分析も</summary>
+  </entry>
   <entry>
     <title>2026年11月14日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-14-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30-news.html</id>
     <updated>2026-10-30T00:00:00+09:00</updated>
     <summary>Mistral が1兆パラメータの Mistral Large 4 の重みを公開（サイバー防御向け） / Anthropic が AI 支出の効果を可視化するレポート機能とグループ予算を発表 / Google が Gemini・検索を外部アプリに開放する Connected Apps Platform を公開 / Nvidia が40言語対応のオープン文字起こしモデルを公開</summary>
-  </entry>
-  <entry>
-    <title>2026年10月30日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-30.html</id>
-    <updated>2026-10-30T00:00:00+09:00</updated>
-    <summary>Claude Code のセキュリティ対策・QA活用・スキル活用など、エージェント運用の実践記事が日本語圏で多数 / AI支援とされる中国系キャンペーンが PAN-OS ファイアウォール25台を侵害した事例が報告された / マルチエージェントのスウォームをゲーム環境で観察する研究が公開された</summary>
   </entry>
 </feed>
