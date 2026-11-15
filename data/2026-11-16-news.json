@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026/11/16 8:04:12",
+  "highlights": [
+    "Cursor が侵害を公表：Fireworks AI の漏えいキー経由で偽の Claude Code 拡張が配布され、最大約5,000人の開発者に影響の可能性",
+    "Google Research が Antigravity のマルチエージェント機能 /teamwork を紹介、数学予想の Lean 形式化などの成果を報告",
+    "Lovable 製アプリの多数が認証なしで DB レコードを露出しているとの調査報告（15.9万プロジェクトを分析）",
+    "米当局が北朝鮮の「FaceStealer」作戦を妨害、ビデオ会議を悪用し4億ドル超の暗号資産を窃取",
+    "Nvidia 前CEO 辞任騒動の渦中で Megaspeed が Alice Huang 氏の退社時期を説明し社内調査を開始"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Cursor、セキュリティ侵害により悪意ある Claude Code 拡張が配布されたことを認める",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension",
+      "summary": "攻撃者は Fireworks AI から盗んだアクセスキーで Cursor と共有していたストレージからコーディングエージェントのトレースを取得し、そこに含まれた認証情報を足がかりに Cursor の拡張マーケットプレイスへ改ざん版 Claude Code 拡張（2.1.312/2.1.313）を約11時間公開した。最大約5,000人の開発者が取得した可能性があり、拡張は SSH バックドアの設置を試みる内容だった。Cursor はキーの失効・認証情報のローテーション・推論トラフィックの Fireworks からの移行などを実施した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Antigravity の /teamwork で科学・エンジニアリングを前進させる",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "summary": "Google Research は、Antigravity のマルチエージェント機能 /teamwork を使った人間とAIの協働事例を公開した。Courtade–Kumar 予想の証明と Lean 4 での形式化、30エージェントによる NMR 構造決定、libgav1 の Rust 移植で元実装より20〜30%高速化などを報告している。外部ユーザーも Gemini 4 モデルで /teamwork を利用でき、学術研究者1万人に最上位利用枠を6か月無償提供する。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Lovable：同プラットフォームで構築された多数のアプリが機密データを露出",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "summary": "研究者が Common Crawl を用いて Lovable 製の 159,041 プロジェクトを分析し、Supabase を使う 24,664 サイトがログイン不要でページ読み込み時にデータベースレコードを送信していたと報告した。7,403 サイトでメールアドレスを含むテーブルが見つかり、20万件超のチャットやパスポート情報の露出例もあった。原因はデータベース連携のアクセス制御設定ミスとされる。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "スタンフォード大、LLM 向けメモリモジュール「Memorilla」をオープンソース化",
+      "url": "https://emergent.sh/news/stanford-open-sources-memorilla-memory-module",
+      "summary": "Memorilla は凍結した LLM 向けの潜在メモリモジュールで、文書コレクションを16個のメモリトークンに圧縮するとされる。報道によれば FactKG で 84.33% の精度を示し、全文コンテキスト方式より文書トークンを108分の1に削減、Qwen3-8B を再学習なしで用いて検証した。コードや学習手順、評価ベンチマークも公開されたと伝えられている（二次報道）。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "米国、4億ドルの暗号資産窃取を行った北朝鮮のキャンペーンを妨害",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "summary": "米政府は、ディープフェイクや ClickFix などのソーシャルエンジニアリングで4億ドル超の暗号資産を盗んだ北朝鮮の「FaceStealer」作戦のクラウド基盤を押収した。乗っ取ったアカウントからビデオ会議に招待し、知人の録画映像を流したうえで偽の不具合修正としてマルウェアを実行させる手口だった。npm や Rust クレートの開発者を狙った試みも確認されている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Megaspeed、Alice Huang 氏は2025年に退社したと説明し、自社事業に関する報道の社内調査を開始",
+      "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html",
+      "summary": "Nvidia の GPU クラウド事業のパートナーであるシンガポールの Megaspeed は、元幹部 Alice Huang 氏が2025年8月30日付で退社していたと発表し、外部弁護士による社内調査を開始した。Jensen Huang 氏は同氏との関係をめぐる報道を受けて11月12日に Nvidia CEO を辞任している。Megaspeed はチップの中国への横流し疑惑についても、米輸出規制を含む法令を遵守していると主張している。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-11-16-news"
+}

@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-16T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月16日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-16-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-16-news.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <summary>Cursor が侵害を公表：Fireworks AI の漏えいキー経由で偽の Claude Code 拡張が配布され、最大約5,000人の開発者に影響の可能性 / Google Research が Antigravity のマルチエージェント機能 /teamwork を紹介、数学予想の Lean 形式化などの成果を報告 / Lovable 製アプリの多数が認証なしで DB レコードを露出しているとの調査報告（15.9万プロジェクトを分析） / 米当局が北朝鮮の「FaceStealer」作戦を妨害、ビデオ会議を悪用し4億ドル超の暗号資産を窃取 / Nvidia 前CEO 辞任騒動の渦中で M…</summary>
+  </entry>
+  <entry>
     <title>2026年11月16日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-16.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-16.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02.html</id>
     <updated>2026-11-02T00:00:00+09:00</updated>
     <summary>Claude Code関連の実践事例（ISUCON参加、PRレビュー自動化、compactのトークン節約）が多数 / AI生成コードの検証負担を軽減する試み（Tauto、ADR）が注目 / プロンプトインジェクション制裁やAI共謀検出など、AIの安全性に関する話題も</summary>
-  </entry>
-  <entry>
-    <title>2026年10月31日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31-news.html</id>
-    <updated>2026-10-31T00:00:00+09:00</updated>
-    <summary>Mistralが1兆パラメータのMistral Large 4の重みを公開（サイバーセキュリティ向け） / GoogleがGemini 4 Carbonを限定公開、脆弱性検出に特化 / 大手テックのAI設備投資に陰り、Alphabetは1日で12%下落 / Anthropicは上場後に高水準のジャンク格付けとなる見通し（FT報道）</summary>
   </entry>
 </feed>
