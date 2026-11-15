@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-15T00:00:00+09:00</updated>
+  <updated>2026-11-16T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月16日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-16.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-16.html</id>
+    <updated>2026-11-16T00:00:00+09:00</updated>
+    <summary>Claude Duet が Team プランの管理画面に登場、組織利用時の権限・注意点を実地検証したレポート / MCP の本番運用課題（安全性・冪等性）と、agentgateway による MCP 通信の集中管理が話題に / Ubie が全社業務を AI-Native にするクラウドエージェント基盤 Remoco の構成（Sandbox-as-a-tool）を公開 / Sebastian Raschka が RoPE など LLM の位置埋め込み手法を2026年のオープンモデルと合わせて解説 / AI エージェントがハッカブルなデバイスを選ぶ時代、という消費者ハードウェアの展望</summary>
+  </entry>
   <entry>
     <title>2026年11月15日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-15-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31-news.html</id>
     <updated>2026-10-31T00:00:00+09:00</updated>
     <summary>Mistralが1兆パラメータのMistral Large 4の重みを公開（サイバーセキュリティ向け） / GoogleがGemini 4 Carbonを限定公開、脆弱性検出に特化 / 大手テックのAI設備投資に陰り、Alphabetは1日で12%下落 / Anthropicは上場後に高水準のジャンク格付けとなる見通し（FT報道）</summary>
-  </entry>
-  <entry>
-    <title>2026年10月31日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-10-31.html</id>
-    <updated>2026-10-31T00:00:00+09:00</updated>
-    <summary>Cursor Marketplace上のClaude Code for VS Code拡張2.1.313にSSHバックドアが混入していたとPhorionが報告 / Claude Codeの安全運用（Auto mode向けセキュリティ対策）やQAチーム化など、実践的な活用記事が目立つ / AI導入で変わる開発組織・SREのスキル劣化など、組織面の議論も活発</summary>
   </entry>
 </feed>

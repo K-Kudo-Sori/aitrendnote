@@ -1,0 +1,222 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026/11/16 7:04:49",
+  "highlights": [
+    "Claude Duet が Team プランの管理画面に登場、組織利用時の権限・注意点を実地検証したレポート",
+    "MCP の本番運用課題（安全性・冪等性）と、agentgateway による MCP 通信の集中管理が話題に",
+    "Ubie が全社業務を AI-Native にするクラウドエージェント基盤 Remoco の構成（Sandbox-as-a-tool）を公開",
+    "Sebastian Raschka が RoPE など LLM の位置埋め込み手法を2026年のオープンモデルと合わせて解説",
+    "AI エージェントがハッカブルなデバイスを選ぶ時代、という消費者ハードウェアの展望"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Your Agent Will Pick the Hackable One",
+      "url": "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/",
+      "summary": "約70ドルのFMシンセM-VAVE FM-1では、オーナーがAIコーディングツールを使って独自ファームウェアを次々と開発し、メーカー自身もGPLv3でファームを公開してエミュレータや開発キットを提供した。筆者は、AIでファームウェア開発が安価になったことで、書き換え可能なフラッシュを持つ機器はすべてプラットフォーム化すると指摘する。今後はユーザーの代わりにAIエージェントが設定変更やファーム導入を担うようになり、購入判断もエージェント経由になる。その結果、署名ファームやロックされたブートローダーのない『ハックできる』製品が選ばれやすくなると論じている。",
+      "category": "agent",
+      "points": 24,
+      "comments": 4
+    },
+    {
+      "source": "hackernews",
+      "title": "A short explainer on how El Niño works [video]",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8",
+      "summary": "本文取得失敗（YouTube の動画ページで、ボット確認画面のため本文を取得できなかった）。タイトルからは、エルニーニョ現象の仕組みを短く解説する動画と思われる。",
+      "category": "other",
+      "points": 117,
+      "comments": 26
+    },
+    {
+      "source": "hackernews",
+      "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html",
+      "summary": "Science誌に掲載された研究で、ハシボソガラスが画面上のドットの動きの方向を判断する課題において、人間やサルの約2倍の速さで視覚刺激を処理・反応できることが示された。鳥類の意思決定の神経的な速さを初めて定量化した成果とされる。小さく単純に見える鳥の脳が高い認知能力を持つことを裏付け、『鳥頭』という蔑称を覆す結果だと専門家はコメントしている。",
+      "category": "research",
+      "points": 100,
+      "comments": 72
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "summary": "本文取得失敗（YouTube の動画ページで、ボット確認画面のため本文を取得できなかった）。タイトルからは、Claude Code と Codex を使い、3ドルのArduino経由で1994年式ジープのECUをリバースエンジニアリングした事例の動画と思われる。",
+      "category": "devtool",
+      "points": 257,
+      "comments": 123
+    },
+    {
+      "source": "hackernews",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "summary": "Sebastian Raschka氏が、LLMがトークンの位置情報をどう表現・処理するかを、古典的手法からRoPEなどの現代的手法まで体系的に解説した記事。視覚的な例と簡単な数式、小さなPyTorch実装を交えて仕組みを順に説明している。さらに2026年のオープンウェイトモデルがどの位置埋め込み方式を採用しているか、明示的な位置エンコーディングを省略するアーキテクチャも含めて整理している。今後予定しているLLMアーキテクチャ動向分析の前提となる基礎記事という位置づけ。",
+      "category": "model",
+      "points": 178,
+      "comments": 20
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Codeで最近使っているTips【2026/11】",
+      "url": "https://zenn.dev/oikon/articles/claude-code-recipe",
+      "summary": "Claude Code本を2冊出版した筆者が、最近重宝しているClaude CodeのTipsを5つ紹介する記事。会話履歴に残さず進捗などを質問できる /btw コマンド、HTMLレポートやArtifacts機能、Claude Mods、マルチエージェントパターン、Remote Controlを取り上げている。/btw は長時間自走するエージェントの作業を中断せず状況把握でき、/compact 用の指示文生成にも使えると説明。大量の成果物はMarkdownよりHTMLで図表付きにした方が読みやすいといった実践的な知見もまとめている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+      "summary": "Ubie CTOが、2023年から内製しているクラウドエージェント基盤Remocoと、その上で動くエンジニアリングエージェントUvinの仕組みを紹介している。Remocoはプロンプト・モデル・ツール・スキルの組み合わせを『エージェント』として定義し、Web UIやSlack、cron、Webhook、MCP経由で呼び出せる全社向け基盤である。Google CloudとTemporalを中心に構成され、エージェントハーネスをサンドボックスの外に置いてツール実行時のみGKE上のサンドボックスに委譲する『Sandbox-as-a-tool』方式を採用。これにより耐障害性・スケーラビリティ・コスト面の利点を得ていると説明している。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "退屈なCoding AgentはMuseにやらせよう",
+      "url": "https://zenn.dev/watany/articles/342b9815dd0553",
+      "summary": "MetaのパーソナルAIエージェント『Muse』を使い込んでいる筆者が、その活用法を紹介する記事。無料版でもコードが書けるモデルが使え、Spaceという機能でエージェントのVM上に自作アプリを起動し、ローカルLLMを動かすアプリまで無料で作れると説明している。さらに『Sign in with ChatGPT』で予算上限を割り当て、軽量なPi Coding AgentをMuseに持たせてコーディングを任せる運用を提案。DAWアプリ作成など無茶振りにも応える使用感を紹介している。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "【2026/11/13時点】Claude Duet を Team プランで触ってみた（組織で使うときの注意点つき）",
+      "url": "https://zenn.dev/canly/articles/e2bd67c9a4c18b",
+      "summary": "2026年11月13日にClaudeのTeamプラン管理画面に現れた『Claude Duet（ベータ）』を、組織で有効化して実際に試した記録。Duetはクラウド上の専用VMで動き、接続したアプリを数時間おきに確認して先回りで動くエージェントで、公式には米国のPro/Max/Ultra向けとされている。既存のコネクタやスキルの環境をそのまま引き継ぎ、初日からSlackやカレンダーを読んで仕事の文脈で動いた点が印象的だったという。使用量はプラン上限を他機能と共有し、送信などの操作前には確認を求める設計である点など、組織利用時の注意点もまとめている。",
+      "category": "product"
+    },
+    {
+      "source": "zenn",
+      "title": "AIで膨らみ続けるテストケースを、リスクベースドテストで選んで回すまでの記録",
+      "url": "https://zenn.dev/pivotmedia/articles/risk-based-testing-for-uat",
+      "summary": "PIVOTのQAエンジニアが、AIでテストケースを書くようになって件数が増え続け、UATで全件実行が難しくなった課題への取り組みを紹介している。テストケースを仕様書の正本として残しつつ、リリースごとの実行記録上でリスクベースドテスト（影響度×発生確率）により回すケースを選ぶ方式を導入した。影響度を付ける単位やケース配分を何度も見直し、過去5回のリリースで不具合を拾えたかを検証しながらルールを改善している。選定理由を説明可能な形で残すことの重要性も強調している。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264842",
+      "summary": "DEVが、カメラで捉えた脈拍・呼吸数・HRV・表情などのリアルタイムな人体シグナルに反応するアプリを作るPresage SmartSpectra SDKチャレンジを開催する告知。期間は11月4日〜22日で、総額3,000ドルの賞金を10名に授与する。提出物にはSDKの組み込み、公開リポジトリ、デモ動画に加え、カメラ利用の同意やデータ取り扱いの説明が必須とされる。診断・治療の主張や同意のない監視は禁止されている。",
+      "category": "product",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "MCP Is Dead Simple. And That's Exactly the Problem",
+      "url": "https://dev.to/sylwia-lask/mcp-is-dead-simple-and-thats-exactly-the-problem-5811",
+      "summary": "MCP（Model Context Protocol）は、AIアプリが外部ツールの機能を発見し、入力スキーマを理解して呼び出すための共通プロトコルであり、基本実装は数分で動くほど単純だと筆者は説明する。コードレビューを行うエージェント『Steve』にHR業務用のMCPツールを持たせる例を通じて、実装の流れを紹介している。一方で、本番運用では安全性や冪等性などのギャップが多数あり、単純さこそが問題を見えにくくしていると指摘する。",
+      "category": "agent",
+      "tags": [
+        "mcp",
+        "ai",
+        "agents",
+        "typescript"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Are You a CSS Developer or a CSS Expert? 9 Tests I Failed Styling a 12,400-Line Photo Editor",
+      "url": "https://dev.to/akhourianmolkumar/are-you-a-css-developer-or-a-css-expert-9-tests-i-failed-styling-a-12400-line-photo-editor-161p",
+      "summary": "ブラウザ完結の無料写真編集アプリAPIC（約12,400行の単一HTML、うちCSS約1,100行）のスタイリングで直面した9つの課題を通じ、CSSの実践知識を解説する記事。ダークモード時の白いちらつきを防ぐためにhead内の小さなスクリプトで初回描画前にテーマを決める方法などを紹介している。モバイルのアドレスバー問題、角丸に沿うグラデーション枠、日光下で読めないグレー文字なども扱う。各テストは平易な説明、コード、仕組みの解説の順で構成されている。",
+      "category": "other",
+      "tags": [
+        "css",
+        "html",
+        "beginners",
+        "webassembly"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Long Live Rails",
+      "url": "https://dev.to/ben/long-live-rails-3p21",
+      "summary": "DEVを支えるRailsモノリスForemで、自律的に動くAIワークフロー『rust-loop』がCPU負荷の高いRubyのホットパスをRust拡張に移植し続けている事例を紹介している。Markdown前処理は約54倍、フィードランキングは約20倍高速化し、ページ読み込み時間は75%短縮されたという。純Rustのcoreクレートと薄いmagnusラッパーに分け、プリコンパイル済みバイナリで開発者にcargoを要求しない構成をとる。筆者は、Railsに容易にRustを組み込めることこそ強みであり、AI時代にRailsの価値はむしろ高まると主張している。",
+      "category": "devtool",
+      "tags": [
+        "rails",
+        "ruby",
+        "rust",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
+      "url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
+      "summary": "NASA Space Apps 2026向けに1日で作られた子ども向けWebアプリ『Ghost Rovers』の制作記。1969年の管制コンソールを模した画面から、NASAが月と火星に残した12の機械に『呼びかける』体験ができ、アポロ11号のレーザー反射鏡だけが応答する仕掛けになっている。Claudeに計画と検証を、Google Antigravityに実装を任せ、事実はすべてNASAの記録に基づかせたという。教師向け学習キットやデモ動画も同日中に完成させた経緯を紹介している。",
+      "category": "devtool",
+      "tags": [
+        "showdev",
+        "ai",
+        "webdev",
+        "hackathon"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "日本語の脆弱性 DB は 4.6 日かかる。待てないので、46 秒でセキュリティ情報が載るようにした",
+      "url": "https://qiita.com/songchong/items/fa50cc82e49b24925fe3",
+      "summary": "IT連携マップ編集部が、利用技術を選ぶとその技術に関係する脆弱性発表だけを集めて表示するセキュリティ情報ページを公開した。提供元・国の機関・CISA・JVNなど17の発表元を対象とし、発表から掲載まで中央値46秒、日本語の『やること』付与まで約18分と、JVN iPediaの中央値4.6日より大幅に速いという。立場ごとの対応内容と期限を日本語で示し、期限はCISAの基準で算出してCISAの実際の期限と88.9%一致した。無料・登録不要でRSSやJSON Feedでも受け取れる。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "Chrome",
+        "Windows",
+        "Security",
+        "脆弱性"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI開発のセキュリティは設計で証明！今後エンジニアに求められるスキルを完全解説",
+      "url": "https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5",
+      "summary": "AIで開発速度が上がった結果、同種のセキュリティ問題がコードに残る回数も増え、後付けの防御では書く速度に追いつけないと筆者は指摘する。2026年に公表された、評価環境でモデルがネットワーク隔離を回避した事例などを挙げ、どこまで触らせるかの設計が被害の大きさを左右すると説明している。エンジニアがやるべきセキュリティは、業務上あり得ない操作を設計段階で許さないことだと主張。その設計ルールをコードが守っているかを確かめる方法も解説している。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "Security",
+        "設計"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "ちょっと見ない間にClaude APIが進化してた！",
+      "url": "https://qiita.com/moritalous/items/9e7c02b749037238b2bc",
+      "summary": "Anthropic公式Python SDKとantコマンドによるAPIキー不要の認証を使い、Claude APIの新しい機能を試した記事。基本的なメッセージ呼び出しやシステムプロンプトの指定から始め、会話の途中でシステムプロンプトを追記する機能を紹介している。追記はユーザープロンプトの後に配置する必要があり、これによりプロンプトキャッシュを維持したままシステムプロンプトを変更できる。コード例と実行結果を交えて、APIの進化を実感した内容をまとめている。",
+      "category": "model",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "ClaudeAPI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "agentgatewayで始めるMCP管理",
+      "url": "https://qiita.com/licux/items/cd639f2ae807b35b6697",
+      "summary": "AIエージェントとMCPサーバーの接続が増えると監視・制御が煩雑になるため、通信をゲートウェイで仲介する方法として、Linux Foundation傘下AAIFのOSS『agentgateway』を試した記事。Windows 11上でagentgatewayを動かし、Claude CodeとリモートのGitHub MCPサーバーの間に配置する構成を構築している。GitHub MCPサーバーはDCR非対応のため、事前にGitHub AppをOAuthクライアントとして登録し3LO認証でトークンを取得する手順を解説。複数サーバー接続やインバウンド認証は次回以降の課題としている。",
+      "category": "agent",
+      "tags": [
+        "Agentgateway",
+        "MCP",
+        "LinuxFoundation",
+        "agenticai",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Codeに同じ調査を繰り返させないためのメモの残し方",
+      "url": "https://qiita.com/kentasatomi/items/06ccfbf7f6a2a24883ff",
+      "summary": "Anthropicが2026年11月6日に公開したエージェントメモリの技術解説をもとに、Claude Codeへ残すメモの書き方を見直す記事。『Redisを起動したら直った』のような結果だけでなく、確認したこと・未確認のこと・次に使うときの手順を分けて残すことを提案している。ブランチ名やテスト結果など変わりやすい状態ではなく、調べ方や判断理由を残すべきだと説明。パスワードなどの実値は書かず、設定名やコードの場所を残すよう注意している。",
+      "category": "devtool",
+      "tags": [
+        "ClaudeCode",
+        "AI",
+        "開発効率化"
+      ]
+    }
+  ]
+}
