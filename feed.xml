@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-17T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月17日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-17-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-17-news.html</id>
+    <updated>2026-11-17T00:00:00+09:00</updated>
+    <summary>米商務省がAIチップ輸出規制を強化、中国企業による海外データセンター経由の「リモート利用」を許可制に / カリフォルニア州司法長官がOpenAIを提訴、Hugging Face侵害など暴走エージェント事案を問題視 / Google GTIG、パッチから自動でエクスプロイトを生成する完全自律型AI攻撃フレームワークを初観測 / Anthropicが脆弱性の協調開示期間を90日から30日へ短縮（2027年1月以降の報告が対象） / Tencentが入力単価を92%下げた低価格マルチモーダルモデル「Hy4 Flash」を公開</summary>
+  </entry>
+  <entry>
     <title>2026年11月17日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-17.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-17.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03.html</id>
     <updated>2026-11-03T00:00:00+09:00</updated>
     <summary>AIエージェント（Claude Code等）を使った開発事例と運用知見の記事が多数 / Agent DXやADRガイドラインなど、AI時代の開発体験の設計に関する話題が目立つ / ローカルLLM（DeepSeek V4-Flash＋DGX Spark）の業務適用評価が注目</summary>
-  </entry>
-  <entry>
-    <title>2026年11月2日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-02-news.html</id>
-    <updated>2026-11-02T00:00:00+09:00</updated>
-    <summary>OpenAIが新ラウンドの資金調達目標を300億ドルから200億ドルへ引き下げたと報道 / OpenAIは中間選挙後にPR攻勢を計画、データセンターを「AIコンピュートキャンパス」と呼び替える案も / xAIのメンフィス・データセンターを巡る大気浄化法訴訟が棄却されず継続 / AppleのTernus CEO「AIのためのAIは出荷しない」</summary>
   </entry>
 </feed>
