@@ -1,0 +1,214 @@
+{
+  "date": "2026-11-17",
+  "generatedAt": "2026/11/17 7:04:09",
+  "highlights": [
+    "Microsoft 365 の大規模メール障害は7月の修正に潜んでいた不具合が原因と公表（負荷試験の偏りが盲点に）",
+    "Ubie が全社 AI-Native 化のためのクラウドエージェント基盤 Remoco を紹介（Sandbox-as-a-tool 構成）",
+    "GitHub Issue に HTML/Markdown を Artifact 添付できる Issue Artifact が Public Preview に",
+    "Gemini 4 / Gemma 4 の thinking 設定比較：最高設定は約4倍のコストで精度向上はほぼなし",
+    "エージェントのツール呼び出しリトライによる二重実行を防ぐ冪等性設計が話題に"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Spamhaus new email sender requirements in November",
+      "url": "https://www.spamhaus.org/sender-guidelines/",
+      "summary": "Spamhaus が2026年11月から送信者要件を段階的に強化すると告知した送信者ガイドラインのページ。すべての送信IPに有効なHELO、逆引きDNS（PTR）、それに一致するAレコード（FCrDNS）を求める。確認済みオプトイン（COI）の徹底、HELO/EHLOホスト名が送信IPに解決されること、IPv6の割り当て・逆引き要件なども最低条件として挙げられている。SPF/DKIM/DMARC 等の認証やリスト衛生の推奨事項と、HELO/DNS チェッカーも提供されている。",
+      "category": "security",
+      "points": 7,
+      "comments": 2
+    },
+    {
+      "source": "hackernews",
+      "title": "Giant Roadside Attractions Face Mounting Costs and an Uncertain Future",
+      "url": "https://www.nytimes.com/2026/11/08/world/canada/roadside-attractions-giant-dinosaur.html",
+      "summary": "米国・カナダ・豪州などで町おこしに使われてきた巨大な道路沿いのモニュメントが、維持費の高騰と目新しさの低下で存続の岐路に立っているという記事。例としてアルバータ州ドラムヘラーの高さ86フィートのティラノサウルス像「Tyra」は、2029年の土地リース満了で設置場所が閉鎖される予定となった。地元団体が重い修繕費を抱え、像の行く先を模索している状況が紹介されている。AIとの直接の関連は薄い記事である。",
+      "category": "other",
+      "points": 27,
+      "comments": 31
+    },
+    {
+      "source": "hackernews",
+      "title": "Microsoft blames monster email outage on software defect introduced in July fix",
+      "url": "https://www.theregister.com/saas/2026/11/16/microsoft-blames-monster-email-outage-on-software-defect-introduced-in-july-fix/5310026",
+      "summary": "Microsoft 365 で先週発生した大規模なメール障害について、Microsoft は7月に投入した修正に含まれていた不具合が原因だったとする暫定報告を公表した。修正はネットワークゲートウェイサーバ向けで、負荷試験は低コア数の旧型ハードに偏っており、多コアの新しいマシンで内部 Windows プロセスのロック競合が悪化してCPUとメモリを枯渇させた。Teams のフェイルオーバーによる負荷増と約14%のキャパシティ停止が重なり、障害が連鎖的に全体へ波及した。ロールバックできず、修正の修正を当てて復旧したという。",
+      "category": "infra",
+      "points": 135,
+      "comments": 90
+    },
+    {
+      "source": "hackernews",
+      "title": "OpenAI: Strengthening the fight against online child sexual abuse",
+      "url": "https://openai.com/index/strengthening-online-child-safety/",
+      "summary": "OpenAI が児童性的虐待（CSAM）対策の強化策を発表した。AI生成画像を含む未知のCSAMを視覚的特徴から検出する新しい画像分類器を他組織にも提供する。有害な行動を中断して支援窓口へ誘導する介入機能、開発者向けの実践的ガイダンス、法執行機関の捜査官への支援も含まれる。業界・児童保護団体・当局との連携を前提とした取り組みと位置づけている。",
+      "category": "security",
+      "points": 74,
+      "comments": 142
+    },
+    {
+      "source": "zenn",
+      "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+      "summary": "Ubie の CTO が、全社の業務を AI-Native にするための内製クラウドエージェント基盤「Remoco」と、その上で動くエンジニアリングエージェント「Uvin」を紹介している。Remoco はプロンプト・モデル・ツール・スキルの組み合わせをエージェントとして定義し、Web・Slack・cron・Webhook・MCP などから呼び出せる。Google Cloud と Temporal を中心に構成し、長時間実行ループやサブエージェント、複数モデル対応、アクセス制御を備える。エージェントハーネスをサンドボックスに閉じ込めるのではなく、ハーネスがサンドボックスをツールとして呼ぶ「Sandbox-as-a-tool」構成が特徴だという。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
+      "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
+      "summary": "GitHub Universe で目立たずに追加された Issue Artifact（Public Preview）の紹介記事。Issue に HTML や Markdown を Artifact として添付し、Issue 画面右側の専用パネルでそのままプレビューできる。コーディングエージェントに生成させた設計資料や UI モックを、GitHub の外へ出ずにチームでレビューできる点が利点とされる。ブラウザからの手動添付に加え、gh コマンド経由でエージェントからアップロードする使い方が中心になると述べている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "物理世界とAIをつなぐ：可視化で学ぶカメラ・座標系・運動制御入門",
+      "url": "https://zenn.dev/turing_motors/articles/cea9e3c85611b2",
+      "summary": "E2E 自動運転 AI を開発するチューリングが、AI の予測軌跡をカメラ映像に重ねる可視化を題材に、フィジカル AI の基礎を解説している。カメラによる計測、位置と向きを表す座標系、予測を動きに変える運動と制御の3つが正しく揃わないと軌跡はずれると説明する。VLA モデルなどロボットやドローンの例も交えつつ、可視化がデバッグや社外発信に役立つ道具になることを示している。",
+      "category": "research"
+    },
+    {
+      "source": "zenn",
+      "title": "AIの回答が長すぎて、理解しないまま実装している問題（理解負債）",
+      "url": "https://zenn.dev/kent_code/articles/5892898be90cac",
+      "summary": "Claude Code の回答が長すぎて理解が追いつかないまま実装してしまう状態を「理解負債」と名付け、その対策を紹介する記事。CLAUDE.md に「結論は3行以内」「論点は1回に1つ」「長い内容は docs/notes に書き出す」「次に決めることを1行で示す」などの回答ルールを追加した。危険な操作や前提の誤りは長くなっても伝えるといった例外も設けている。ルールの有無で同じ質問への回答を比較し、理解しやすさが大きく改善したと報告している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "QA生産性を爆上げさせるためのQA AIプラットフォーム構築",
+      "url": "https://zenn.dev/gatechnologies/articles/8bdea59269eb10",
+      "summary": "GA technologies の QA エンジニアが、QA AI プラットフォーム「GAQ」を構築・定着させた事例を紹介している。AI エージェントで開発のスループットが上がる一方で QA がボトルネック化し、AI 活用の偏りやテスト品質のばらつきが課題だった。テスト計画から設計、レビュー、実行、起票までの QA 工程を12個の Skill に分解し、チームに浸透させた。導入後の効果と今後のアクションもまとめられている。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
+      "url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
+      "summary": "NASA Space Apps 2026 向けに、月や火星に残された12の機械に1969年風の管制コンソールから「呼びかける」子ども向け Web アプリ「Ghost Rovers」を1日で作った開発記。Claude に計画とファクトチェックを、Google Antigravity に実装を担当させ、自身はディレクションに徹したという。応答するのは Apollo 11 のレーザー反射鏡のみという演出で、すべての事実を NASA の記録に紐づけた。AI を使った短時間開発の進め方と、途中で入れた事実の訂正についても触れている。",
+      "category": "devtool",
+      "tags": [
+        "showdev",
+        "ai",
+        "webdev",
+        "hackathon"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Your AI Agent Retried the Tool Call. The First One Had Already Succeeded.",
+      "url": "https://dev.to/rudratosh/your-ai-agent-retried-the-tool-call-the-first-one-had-already-succeeded-3pke",
+      "summary": "AI エージェントがツール呼び出しをタイムアウトでリトライした結果、実は初回が成功しており支払いが二重に行われる、という危険を解説する記事。原因はシステムが「失敗した操作」と「成功したが応答が届かなかった操作」を区別できないことにある。対策として、リトライ間で変わらない安定したオペレーション ID（冪等性キー）を発行し、ツール側で重複実行を防ぐ設計を提案している。副作用を持つツールをエージェントに渡す際の基本的な設計指針になっている。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "architecture",
+        "programming",
+        "backend"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI Avatar v28 (Security Support, Voxel Avatar)🛡️",
+      "url": "https://dev.to/webdeveloperhyper/ai-avatar-v28-security-support-voxel-avatar-2i5i",
+      "summary": "VS Code のサイドバーやブラウザで Claude Code・Codex・Copilot・ChatGPT 等の動きに反応して VRM アバターが応援する無料アプリ「AI Avatar」の v28 更新記事。今回は npm audit と betterleaks をサイドバーから実行できるセキュリティ支援機能を追加した。あわせてボクセル風アバターの追加や AWS 環境の整理についても紹介している。背景として、日本で9月以降に不正アクセスや情報漏えいが急増していることを挙げている。",
+      "category": "devtool",
+      "tags": [
+        "ai",
+        "webdev",
+        "productivity",
+        "security"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Congrats to the Hacktoberfest Open-Source AI Challenge Week 4: Ghost in the Machine Winners!",
+      "url": "https://dev.to/devteam/congrats-to-the-hacktoberfest-open-source-ai-challenge-week-4-ghost-in-the-machine-winners-nok",
+      "summary": "DEV の Hacktoberfest Open-Source AI Challenge 第4週「Ghost in the Machine」の受賞作発表。テーマはオープンウェイトモデルやオープンソース AI を使った「不気味なもの」や死者の日にちなんで過去を讃える作品だった。デジタルのオフレンダや忘れられたリポジトリの幽霊、デッドコードの降霊会など多彩な応募があった。総合優勝は小さな AI に日記を持たせ、毎晩少しずつ脳を停止させていく作品だった。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "hf26challenge",
+        "hacktoberfest",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "High or Low Thinking? Gemini 4 and Gemma 4 on Hard Math, Cost First",
+      "url": "https://dev.to/gde/high-or-low-thinking-gemini-4-and-gemma-4-on-hard-math-cost-first-3091",
+      "summary": "Gemma 4（26B/31B）、Gemini 3.5 Flash-Lite、3.8 Flash、Gemini 4 Hydrogen/Carbon/Argon の7モデルに同じ競技数学15問を、最低と最高の thinking 設定で解かせて比較した記事。最高設定は最低設定の約3.9倍のコスト（合計$7.47中$5.95）がかかった一方、正答率の向上はほとんどなかった。Argon では問題あたりの思考トークンが215から4,129に増えるなど、コスト増はそのまま思考量の増加によるものだった。検証手順とコードも公開されている。",
+      "category": "model",
+      "tags": [
+        "gemini",
+        "gemma",
+        "benchmark",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI開発のセキュリティは設計で証明！今後エンジニアに求められるスキルを完全解説",
+      "url": "https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5",
+      "summary": "AI で開発速度が上がった時代のセキュリティは、後から防御を足すのではなく「業務上あり得ない操作を設計時点で許さない」ことだと説く解説記事。OpenAI や Anthropic が2026年に公表した、評価環境でモデルが隔離を越えて外部システムに影響した事例を引き、触らせる範囲の設計が被害を左右すると指摘する。業務ルールを見つけて設計に落とし込み、コードがそれを守っていることを確かめる方法を説明している。AI に書かせても不正な操作が通らないコードを書けるようになることを目標としている。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "Security",
+        "設計"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIを介したやり取りは、放っておくとAI Slopを加速させるかも",
+      "url": "https://qiita.com/inukai-masanori/items/141e960b0bab8015bdae",
+      "summary": "マネージャーの立場から、AI で整えた丁寧だが長い文章がそのまま人に渡ることで読み手に認知負荷を押し付けていると指摘するエッセイ。書く側が AI で膨らませ、読む側が AI で縮める流れが定着すると、誰も一字一句書いても読んでもいない「AI Slop（Workslop）」がチーム内で増える構造になるという。送り手が「受け取る人はどう読むか」を考えるひと手間と、自分の言葉で一言添えることの大切さを訴えている。",
+      "category": "other",
+      "tags": [
+        "マネジメント",
+        "AI",
+        "コミュニケーション",
+        "ポエム"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "社長の一言は重い。RAGにも忖度させてみた（重み付け検索）",
+      "url": "https://qiita.com/kikuziro/items/43b360420d0cdcbf190c",
+      "summary": "RAG でチャンクがすべて平等に扱われ、件数の多い重要度の低い情報が上位を占めてしまう問題に対し、重み付け検索を試した記事。Amazon Bedrock Knowledge Base でドキュメントに「社長」「決定事項」「重要」などのメタデータを付与した。検索候補を多めに取得してからアプリ側で重みを掛けて上位5件に絞る、リランクに近い手順を紹介している。タグ付けは LLM ではなく決定的に判断できる基準で行うべきだとしている。",
+      "category": "research",
+      "tags": [
+        "rag",
+        "AWS",
+        "LLM",
+        "AIエージェント"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI駆動開発を導入するためのツールをAIで作ってみた",
+      "url": "https://qiita.com/kizuku_tabata/items/79e3411b93aff5c46177",
+      "summary": "AI 駆動開発の導入障壁となる「AI 生成コードが既存 OSS と一致する」ライセンス問題に対処するため、OSS スニペットスキャンツール「OSScope」を AI で作った記事。スキャン結果が大量の JSON になるだけでは判断に使えないため、画面から簡単にスキャンでき、結果をそのままエビデンスとして残せることを軸に設計した。エンジンには SCANOSS を採用し、社内エンジンと外部 API を選択でき、外部送信時は送る情報を明示して同意を取る。",
+      "category": "devtool",
+      "tags": [
+        "ポエム",
+        "AI駆動開発",
+        "OSS",
+        "ライセンス"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "pgvectorの距離を類似度に直して根拠不足を判定する：RAG検索層とpytest回帰",
+      "url": "https://qiita.com/takumi_engineer/items/93db73ccf114bad454f1",
+      "summary": "pgvector の <=> 演算子が返すのはコサイン距離であり、そのまま閾値判定に使うと大小が逆になる問題を扱った記事。検索 SQL で 1 - 距離 に変換して類似度として返す層を作り、並び替えは距離の昇順で行う方針を示している。HNSW インデックスでは vector_cosine_ops を指定する必要があることにも触れる。根拠不足時に回答を控える判定が壊れていないかを pytest で回帰テストする方法を紹介している。",
+      "category": "research",
+      "tags": [
+        "Python",
+        "PostgreSQL",
+        "pgvector",
+        "rag",
+        "pytest"
+      ]
+    }
+  ]
+}
