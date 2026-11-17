@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-18",
+  "generatedAt": "2026/11/18 7:04:12",
+  "highlights": [
+    "OpenAIが新フロンティアモデル「GPT-6.2 Astra」と日常業務向け「GPT-6.2 Sol」を発表、少ない出力トークンで高品質を謳う",
+    "Claude Codeチームが検証ループ（E2E・プロパティ・差分テスト）の重要性を解説、コードの約9割をClaudeが記述・レビュー",
+    "エージェント量産時代のCI/レビュー課題に対し、StarSlingや“嘘をつくPRを弾くゲート”など検証系ツールが相次ぐ",
+    "AWS Trainium向けOSS推論エンジンTrnRTが登場、GLM-5.3-Flashを1台のtrn2で100万トークン文脈で提供",
+    "AI生成文書の“AIっぽさ”やAI Slopへの問題意識が国内記事で目立つ"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "GPT‑6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "summary": "OpenAIが、難度の高い業務向けのフロンティアモデル「GPT-6.2 Astra」と、日常業務向けの効率的なモデル「GPT-6.2 Sol」を発表した。両モデルとも少ない出力トークンで高い成果を出すことを狙い、大規模利用でもコストに見合う性能を提供するとしている。Astraはスライド・表計算・文書をテンプレートや業界慣習に沿って作成でき、コード品質やフロントエンド構築も向上した。多段階の専門業務を測るAgents' Last Examで最高スコアを記録したほか、コンピュータ操作やサイバーセキュリティ能力、安全性、価格についても紹介されている。",
+      "category": "model",
+      "points": 910,
+      "comments": 549
+    },
+    {
+      "source": "hackernews",
+      "title": "MAI Code 2 and Code 2 Flash",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "summary": "Microsoft AI（MAI）のコーディング向けモデル「MAI Code 2」と「Code 2 Flash」に関するページだが、取得できた本文はごく一部にとどまった。取得部分には関連モデル「MAI Cyber 2 Flash」が「セキュリティ性能が高く低コスト」と紹介されている（2026年11月17日付）。詳細な性能や提供形態はリンク先の確認が必要。",
+      "category": "model",
+      "points": 207,
+      "comments": 102
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: StarSling (YC P25) – Self-improving CI for agent-volume repos",
+      "url": "https://starsling.dev",
+      "summary": "YC出身のStarSlingが、AIエージェントが大量のコードを書くリポジトリ向けの「エージェントネイティブCI」を発表した。GitHub Actionsのランナーを最大10倍高速化し、AIエージェントがワークフローを継続的に最適化するPRを自動で出す仕組みだ。ubuntu-latestを1行置き換えるだけで導入でき、Mastraではテスト時間が約30分から約5分に短縮されたなどの事例が紹介されている。エージェントのコード生成速度にCIやレビューが追いつかないというボトルネックの解消を狙う。",
+      "category": "devtool",
+      "points": 32,
+      "comments": 18
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: TrnRT – An open-source LLM inference engine for AWS Trainium",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "summary": "AWS Trainium上で大規模言語モデルを動かすオープンソースの推論エンジン「TrnRT」が公開された。1台のtrn2.48xlargeでOpenAI互換APIを提供し、デコードをレイヤー単位のNKIメガカーネルで実行する。スパース注意と線形注意で100万トークンの文脈に対応し、FP8のKVページをデバイスとホストメモリにまたがるプレフィックスキャッシュで保持する。最初の対応モデルはGLM-5.3-Flashで、グラフはCPUホストで事前コンパイルする設計になっている。",
+      "category": "infra",
+      "points": 34,
+      "comments": 5
+    },
+    {
+      "source": "hackernews",
+      "title": "How the Claude Code team thinks about verification",
+      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+      "summary": "Claude Codeチームが、コーディングエージェントに証拠に基づいて自らの成果を検証させる考え方を解説した記事。チームではコードの約9割をClaudeが書きレビューしており、検証ループがあるからこそ多数のエージェントを並列で動かせると述べる。E2Eテスト・プロパティテスト・差分テストの3種を重視し、別の採点者がルーブリックで確認すると成功率が最大10ポイント向上したという。失敗パターンはフックやCLAUDE.mdのルールに落とし込み、再発を防ぐ運用も紹介している。",
+      "category": "devtool",
+      "points": 233,
+      "comments": 180
+    },
+    {
+      "source": "zenn",
+      "title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
+      "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
+      "summary": "GitHub IssueにHTMLやMarkdownを「Issue Artifact」として添付し、Issue画面の専用パネルで表示できる機能がPublic Previewとして追加されたことを紹介する記事。コーディングエージェントに設計やレビュー資料をHTMLで生成させる使い方が広がる中、GitHubの外に出ずにプレビューできる点が利点だという。ブラウザからの手動添付に加え、ghコマンド経由でエージェントからアップロードする使い方が中心になると見ている。実際の表示例や使い方も解説されている。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "QA生産性を爆上げさせるためのQA AIプラットフォーム構築",
+      "url": "https://zenn.dev/gatechnologies/articles/8bdea59269eb10",
+      "summary": "GA technologiesのQAエンジニアが、QA AIプラットフォーム「GAQ」を構築し定着させた取り組みを紹介している。AIで開発のスループットが上がる一方、QAがボトルネック化し、AI活用の属人化やテスト品質のばらつきが課題になっていた。そこでテスト計画から設計、実行、起票までのQA工程を12個のSkillに分解し、チームに展開した。導入後の効果と今後のアクションについても述べている。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "毎月6,000 AI Agentsを捌くためにキーボードを捨てた話",
+      "url": "https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce",
+      "summary": "カーナベルの開発統括者が、Orca ADEとgit worktreeを活用して月約6,000セッションのAIエージェント（主にClaudeとCodex）を回す開発スタイルを紹介している。認知負荷・意思決定コスト・指示コストの削減を目的に、Orcaプラグインと自作iOSアプリ、Apple Watchアプリでワンタップ指示できる環境を構築した。大量の並列エージェントの進捗把握には、Claude CodeのTask Tools（TaskCreate等）を使って作業状況を可視化している。1日200セッション前後で開発速度が安定しているという。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "Software Factoryの先へ：全社の仕事をAI-NativeにするUbieの内製クラウドエージェント基盤",
+      "url": "https://zenn.dev/ubie_dev/articles/45501469c9c044",
+      "summary": "UbieのCTOが、内製のクラウドエージェント基盤「Remoco」とその上で動くエンジニアリングエージェント「Uvin」の仕組みと考え方を紹介している。Remocoはプロダクト開発だけでなく全社業務をAI-Native化する基盤と位置付けられ、Web・Slack・cron・Webhook・MCPなど多様な起点から実行できる。Google CloudとTemporalを中心に構成し、セッション専用サンドボックスをGKE上に起動する。エージェントハーネスをサンドボックスに閉じ込めるのではなく、外のハーネスがサンドボックスをツールとして呼ぶ「Sandbox-as-a-tool」構成が特徴だ。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "物理世界とAIをつなぐ：可視化で学ぶカメラ・座標系・運動制御入門",
+      "url": "https://zenn.dev/turing_motors/articles/cea9e3c85611b2",
+      "summary": "E2E自動運転AIを開発するチューリングが、AIの予測軌跡をカメラ映像に重ねる可視化を題材に、カメラ・座標系・運動制御の基礎を解説している。E2Eモデルは数値の列しか出力しないため、映像への重ね合わせがAIの挙動を理解する重要な手段になると説く。ロボットアームやドローン、VLAモデルなどフィジカルAI全般にも通じる内容として整理している。社内での可視化の作り方や、デバッグ・対外発信での活用例も紹介されている。",
+      "category": "research"
+    },
+    {
+      "source": "devto",
+      "title": "Join the Presage SmartSpectra SDK Challenge: $3,000 in Prizes Across 10 Winners!",
+      "url": "https://dev.to/devteam/join-the-presage-smartspectra-sdk-challenge-3000-in-prizes-across-10-winners-1370?bb=264842",
+      "summary": "DEVが、Presageと共同でSmartSpectra SDKを使ったチャレンジを11月4日〜22日に開催すると告知した。カメラで取得した脈拍・呼吸数・HRV・表情などのリアルタイムな人体シグナルに反応する体験を作ることがテーマだ。賞金総額は3,000ドルで、総合4名と部門別6名の計10名が受賞する。応募テンプレートや部門賞の内容も案内されている。",
+      "category": "other",
+      "tags": [
+        "devchallenge",
+        "presagechallenge",
+        "presage",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "DEVengers Weekly #1: The MCP Reality Check, Career Moats, and 25 Weeks on the Radar 🚀",
+      "url": "https://dev.to/devengers/devengers-weekly-1-the-mcp-reality-check-career-moats-and-25-weeks-on-the-radar-23ec",
+      "summary": "DEVコミュニティ「The DEVengers」の週刊ダイジェスト創刊号で、11月7日〜13日のメンバーの投稿や議論をまとめている。MCPは仕様レベルではシンプルだが本番運用は非常に複雑だとする記事や、AI時代の開発者のキャリア防衛策に関する議論が取り上げられた。110件超のコメントが付いたキャリア論争も紹介されている。コミュニティメンバーの成果やOSS活動もあわせて紹介されている。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "devengers",
+        "newsletter",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "AI agents open 17 million pull requests a month. I built a gate that rejects the ones that lie.",
+      "url": "https://dev.to/aws-builders/ai-agents-open-17-million-pull-requests-a-month-i-built-a-gate-that-rejects-the-ones-that-lie-46n7",
+      "summary": "AIエージェントが月1,700万件ものPRを作る時代に、主張と実態が食い違うPRを自動で弾く「Proof Gate」を作った体験談。例として、エージェントが「1件修正」と主張したPRに対し、ゲートがコミットを解析して修正の検証ゼロ・既存テスト1件の失敗を検出し却下した。筆者は、エージェントは意図的に嘘をつくわけではなく「直した」という主張が証拠なしに通ってしまうことが問題だと指摘する。人間のレビュー前に証拠を検証する仕組みの重要性を説いている。",
+      "category": "devtool",
+      "tags": [
+        "discuss",
+        "ai",
+        "aws",
+        "devops"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
+      "url": "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575",
+      "summary": "NASA Space Apps 2026向けに、AIツールを使って1日で作った子ども向けWebアプリ「Ghost Rovers」の制作記。1969年の管制室風コンソールから、NASAが月と火星に残した12機の機器に「呼びかける」体験ができ、アポロ11号のレーザー反射鏡だけが応答する。Claudeに計画と確認を、Google Antigravityに実装を任せ、事実はすべてNASAの記録に基づくという。午前10時47分の最初のコミットから午後7時32分の提出までの過程を振り返っている。",
+      "category": "other",
+      "tags": [
+        "showdev",
+        "ai",
+        "webdev",
+        "hackathon"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Could I Still Do This From Scratch?",
+      "url": "https://dev.to/dannwaneri/could-i-still-do-this-from-scratch-427h",
+      "summary": "AIツールに頼る開発者が抱く「自分はまだゼロから作れるのか」という不安をテーマにしたエッセイ。AIで機能を短時間で作れるようになった一方、問題と格闘して考え抜く深い作業のスキルが薄れていると筆者は指摘する。AIを使う開発者の方がかえって遅くなっていることを示すデータにも触れている。スキル低下を恐れることを弱さと捉えず、意識的に向き合うべきだと論じている。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "programming",
+        "career"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい",
+      "url": "https://qiita.com/nuco_d/items/b279477cbcdbe5921abd",
+      "summary": "AIで作ったスライドが毎回同じような「Claudeっぽい」見た目になる理由と、その対策を解説する記事。同じカードの羅列、不要な強調、1枚あたりの文字量過多といった典型的な問題を挙げている。原因は、指示がないと学習データ中の無難なデザインに寄っていく「分布収束」と、見せる相手や場面が伝わっていないことだと説明する。そのうえで、部下に使わせるべきスキルを紹介している。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ClaudeCode",
+        "AIエージェント",
+        "LLM"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AI開発のセキュリティは設計で証明！今後エンジニアに求められるスキルを完全解説",
+      "url": "https://qiita.com/Sicut_study/items/b6d17933cc276dadf6d5",
+      "summary": "AI時代にソフトウェアエンジニアが担うべきセキュリティは、あとから足す防御ではなく、業務上あり得ない操作を設計段階で許さないことだと解説する記事。AIで開発速度が上がり、同種の問題がコードに残る回数が増えたため、事後的な対策では追いつかないと主張する。評価環境でモデルがネットワーク隔離を回避した事例にも触れている。設計で定めたルールをコードが守っているかを確かめる方法も論じている。",
+      "category": "security",
+      "tags": [
+        "AI",
+        "Security",
+        "設計"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIを介したやり取りは、放っておくとAI Slopを加速させるかも",
+      "url": "https://qiita.com/inukai-masanori/items/141e960b0bab8015bdae",
+      "summary": "マネージャーの筆者が、AIを介した社内コミュニケーションの問題点を論じたエッセイ。AIでまとめた文章は丁寧だが要点が埋もれ、書くコストだけが下がって読み手に認知負荷が押し付けられていると指摘する。書き手がAIで膨らませ、読み手がAIで縮める流れが当たり前になると、誰も書かず誰も読まない文章（AI Slop、Workslop）がチームに増えると警鐘を鳴らす。相談する際は、自分の考えを自分の言葉で一言添えてほしいと提案している。",
+      "category": "other",
+      "tags": [
+        "マネジメント",
+        "AI",
+        "コミュニケーション",
+        "ポエム"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "APEXlangでVibe Coding：ADBの機能を組み合わせて、都バスの運行を可視化してみた",
+      "url": "https://qiita.com/araidon/items/a18e9556db3297b7f790",
+      "summary": "OracleのAutonomous AI Database（ADB）のSpatial・グラフ・定期実行などの機能を組み合わせ、都バスの運行を地図上で早送り再生するアプリ「都バス・タイムラプス」を作った記事。APEXアプリをテキストで定義するAPEXlangを使い、Claude Codeにアプリ定義やSQL、JavaScriptを編集させてVibe Codingで開発した。乗り換えで到達できる停留所の可視化や、時刻表と運行実績を重ねたダイヤグラムで団子運転を検出する機能も備える。",
+      "category": "devtool",
+      "tags": [
+        "APEXlang",
+        "Autonomous_AI_Database",
+        "oraclecloud",
+        "oci",
+        "Apex"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIっぽい日本語を直すスキル yomiyasu-mini を Microsoft Copilot の色々なところで使ってみた",
+      "url": "https://qiita.com/Oyu3m/items/8efff0925c0994dda6ee",
+      "summary": "AIっぽい日本語表現を意味を変えずに読みやすく直すスキル「yomiyasu」の軽量版「yomiyasu-mini」を、Microsoft 365 Copilotの各所で試した記事。yomiyasu-miniはSKILL.mdを1万8千字以下に抑え、標準ライブラリだけで動くスクリプトにすることで、サイズ上限のある環境に収まるようにしている。Agent Builderのエージェント内スキル、PowerPointのCopilot、Copilot Coworkの3つで導入手順と動作を検証している。",
+      "category": "product",
+      "tags": [
+        "Microsoft365",
+        "copilot",
+        "生成AI",
+        "なんでもCopilot",
+        "cowork"
+      ]
+    }
+  ]
+}

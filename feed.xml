@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-17T00:00:00+09:00</updated>
+  <updated>2026-11-18T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月18日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-18.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-18.html</id>
+    <updated>2026-11-18T00:00:00+09:00</updated>
+    <summary>OpenAIが新フロンティアモデル「GPT-6.2 Astra」と日常業務向け「GPT-6.2 Sol」を発表、少ない出力トークンで高品質を謳う / Claude Codeチームが検証ループ（E2E・プロパティ・差分テスト）の重要性を解説、コードの約9割をClaudeが記述・レビュー / エージェント量産時代のCI/レビュー課題に対し、StarSlingや“嘘をつくPRを弾くゲート”など検証系ツールが相次ぐ / AWS Trainium向けOSS推論エンジンTrnRTが登場、GLM-5.3-Flashを1台のtrn2で100万トークン文脈で提供 / AI生成文書の“AIっぽさ”やAI Slo…</summary>
+  </entry>
   <entry>
     <title>2026年11月17日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-17-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03-news.html</id>
     <updated>2026-11-03T00:00:00+09:00</updated>
     <summary>Anthropic が改訂版 S-1A で「AI が自らの開発を大幅に加速する段階」に近い可能性を示唆 / OpenAI が ChatGPT デスクトップアプリの Chat と Work タブを統合へ / NYT などが Brave をコンテンツのスクレイピングと AI 企業への提供で提訴 / SpaceX 傘下の Grok Bot が高コストを理由に利用上限を制限</summary>
-  </entry>
-  <entry>
-    <title>2026年11月3日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03.html</id>
-    <updated>2026-11-03T00:00:00+09:00</updated>
-    <summary>AIエージェント（Claude Code等）を使った開発事例と運用知見の記事が多数 / Agent DXやADRガイドラインなど、AI時代の開発体験の設計に関する話題が目立つ / ローカルLLM（DeepSeek V4-Flash＋DGX Spark）の業務適用評価が注目</summary>
   </entry>
 </feed>
