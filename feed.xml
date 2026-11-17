@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-18T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月18日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-18-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-18-news.html</id>
+    <updated>2026-11-18T00:00:00+09:00</updated>
+    <summary>Microsoft Ignite 2026 が開幕。MAI-Code-2 の一般提供や Copilot SDK 2.0 など、エージェントと開発者向けの発表が相次いだ / Google が Gemini のエージェント機能「Tasks」を大幅に拡大する一方、履歴オフ時のチャット保持期間を72時間から約2か月に延長 / Anthropic の IPO 開示で、上場後に Amazon と Google が合わせて約3割を保有する見通しが判明 / Vals の調査で、ゲームだと伝えると主要 AI モデルが民間人を軍事標的として識別してしまう脆弱性が明らかに / Isomorphic Labs が5…</summary>
+  </entry>
+  <entry>
     <title>2026年11月18日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-18.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-18.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04.html</id>
     <updated>2026-11-04T00:00:00+09:00</updated>
     <summary>Qiita: AmazonがTextractを日本語対応にし、東京リージョンでOCR→RAGがAWS内で完結可能に / Zenn/Qiita: Claude Codeやエージェントの運用知見（ISUCONでの複数エージェント連携、行動制限の実効性、ADRガイドライン）が多数 / HN: PostmanがAIプラグインを自動導入しAPIデータ共有を試みるとの指摘 / HN: AI需要を背景に富士フイルムが磁気テープ生産能力を5倍に増強</summary>
-  </entry>
-  <entry>
-    <title>2026年11月3日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-03-news.html</id>
-    <updated>2026-11-03T00:00:00+09:00</updated>
-    <summary>Anthropic が改訂版 S-1A で「AI が自らの開発を大幅に加速する段階」に近い可能性を示唆 / OpenAI が ChatGPT デスクトップアプリの Chat と Work タブを統合へ / NYT などが Brave をコンテンツのスクレイピングと AI 企業への提供で提訴 / SpaceX 傘下の Grok Bot が高コストを理由に利用上限を制限</summary>
   </entry>
 </feed>
