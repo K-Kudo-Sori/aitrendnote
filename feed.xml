@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-19T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月19日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-19-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-19-news.html</id>
+    <updated>2026-11-19T00:00:00+09:00</updated>
+    <summary>OpenAIがGPT-6.2 Astra/Solを公開。システムカードでは両モデルがサイバーセキュリティでCritical評価 / Microsoftが Ignite 2026 で低コストのコーディングモデル MAI Code 2 / Code 2 Flash を発表、GitHub Copilotで利用可能に / Googleが Gemini の自律タスク実行機能「Tasks」を日本を含む6カ国で無料提供 / NVIDIAの第3四半期売上高は1,158億ドル（前年比103%増）。中国向けデータセンター売上は見通しに含めず / Anthropicが1株83ドルでIPO価格を決定と報道、11月1…</summary>
+  </entry>
+  <entry>
     <title>2026年11月19日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-19.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-19.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05.html</id>
     <updated>2026-11-05T00:00:00+09:00</updated>
     <summary>Ricursive IntelligenceがオープンウェイトのRipple-65B Previewを公開 / AnthropicがzkSNARKによる検証可能なLLM推論の進捗を報告 / AIによる脆弱性発見の加速とパッチ急増がセキュリティ運用に影響 / Claude Codeなどエージェントを使った開発・運用事例が多数</summary>
-  </entry>
-  <entry>
-    <title>2026年11月4日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-04-news.html</id>
-    <updated>2026-11-04T00:00:00+09:00</updated>
-    <summary>Anthropicがモデルの同一性を暗号的に検証する「FlashProve」を発表 / AI推論基盤のFalが13億ドルを調達し評価額160億ドルに倍増 / AnthropicのS-1更新で、計算コストが売上の58%に上昇 / GoogleとAppleが未成年向けAI利用の制限を強化</summary>
   </entry>
 </feed>

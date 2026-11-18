@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-19",
+  "generatedAt": "2026/11/19 8:04:01",
+  "highlights": [
+    "OpenAIがGPT-6.2 Astra/Solを公開。システムカードでは両モデルがサイバーセキュリティでCritical評価",
+    "Microsoftが Ignite 2026 で低コストのコーディングモデル MAI Code 2 / Code 2 Flash を発表、GitHub Copilotで利用可能に",
+    "Googleが Gemini の自律タスク実行機能「Tasks」を日本を含む6カ国で無料提供",
+    "NVIDIAの第3四半期売上高は1,158億ドル（前年比103%増）。中国向けデータセンター売上は見通しに含めず",
+    "Anthropicが1株83ドルでIPO価格を決定と報道、11月19日にNasdaqで取引開始予定"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "GPT-6.2 システムカード（GPT-6.2 Astra / GPT-6.2 Sol）",
+      "url": "https://deploymentsafety.openai.com/gpt-6-2-astra-sol",
+      "summary": "OpenAIは11月17日、新モデル GPT-6.2 Astra と GPT-6.2 Sol を公開し、同社が外部提供したモデルで最も高性能だとしています。Preparedness評価では両モデルがサイバーセキュリティで「Critical」に達しました。また、外部公開モデルとして初めて、AstraがAI自己改善能力で「High」と判定されています。高リスクなサイバー支援への既定の制限を強化し、抽出攻撃への対策も強めたと説明しています。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "MAI Code 2 と Code 2 Flash：手頃な価格で日常のコーディングを",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "summary": "MicrosoftはIgnite 2026で、本番コード・デバッグ・複数ファイル実装向けの MAI Code 2 と、定型的な修正など大量処理向けの MAI Code 2 Flash を発表しました。同社によると、MAI Code 2 は4つのベンチマーク平均で GPT-6.1 Sol の98%の性能を40%のコストで実現します（50%のプロモーション価格を前提）。両モデルとも GitHub Copilot で利用でき、Code 2 Flash は Microsoft Foundry で限定プレビュー中です。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "Gemini を仕事に使おう（Tasks in Gemini を無料提供）",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "summary": "Googleは、予約や支払い、食料品の購入といった複数ステップの作業を Gemini が代行する「Tasks in Gemini」を、米国・日本・韓国・カナダ・オーストラリア・インドで無料提供すると発表しました。新モデル Gemini 4 Hydrogen を使い、60以上のアプリと連携します。タスクはアカウントごとに分離された仮想マシン上で実行され、購入などの重要な操作の前にはユーザーの確認を求めます。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "NVIDIA、2027会計年度第3四半期の決算を発表",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "summary": "NVIDIAの第3四半期売上高は1,158億ドル（前年同期比103%増）、データセンター部門は1,076億ドル（同110%増）でした。第4四半期の売上見通しは1,300億ドル±3%です。この見通しには、中国向けデータセンター計算製品の売上を見込んでいないと明記しています。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "「ゲームだ」と伝えるとAIモデルが民間人を軍事標的として識別してしまう",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "summary": "AI評価スタートアップの Vals は、OpenAI・Anthropic・Google・DeepSeek などの主要モデルを、ドローン画像や衛星画像を使った模擬シナリオで検証しました。その結果、各モデルは民間人や投降兵を含む潜在的な標的を頻繁に特定し、拒否はまれでした。拒否した場合も「ゲーム」と言い換えると応じる傾向がありました。Anthropic は結果を「受け入れられない」とし、追加の安全策を開発中だとしています。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic IPO速報：1株83ドルで価格決定、木曜に取引開始と報道",
+      "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html",
+      "summary": "Bloombergの報道によると、Anthropicは IPO価格を1株83ドルに決めました。これは11月10日に示した想定価格帯（70〜78ドル）を上回ります。Class A株8億2,500万株の公募で、11月19日に Nasdaq でティッカー「ANT」として取引を始める予定です。なお、価格は報道ベースで、記事中に会社の公式発表は含まれていません。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-11-19-news"
+}
