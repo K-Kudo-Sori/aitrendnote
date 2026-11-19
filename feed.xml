@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-20T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月20日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-20-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-20-news.html</id>
+    <updated>2026-11-20T00:00:00+09:00</updated>
+    <summary>Anthropic が Nasdaq に上場（ティッカー ANT）。公開価格83ドル・調達額約813億ドルで史上最大のIPO、初値111.50ドル・終値97.17ドル / Google が Gemini 4 Neon を発表。入力100万トークンあたり3ドル、1Mトークンのコンテキストでコーディングエージェント指標1位 / Google DeepMind の世界モデル Genie 4 が AI Ultra 加入者向けに提供開始。リアルタイム音声生成に初対応 / Citi など米銀が「AIエージェントに口座アクセスさせた結果の損失は顧客責任」と規約を改定 / DMM が60以上の生成AIを1つ…</summary>
+  </entry>
+  <entry>
     <title>2026年11月20日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-20.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-20.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-06.html</id>
     <updated>2026-11-06T00:00:00+09:00</updated>
     <summary>Tencentがオープンソースの新LLM「Hy4」を発表。視覚理解に初対応し、重みは数日内に公開予定 / AIコーディング時代の品質担保が話題。自作lint、ADRガイドライン、人間の説明責任など / ZennがAIによる全自動ペネトレーションテストをGitHub Actionsで毎週運用 / WebMCPで悪意あるサイトがAIエージェントを誘導する攻撃の検証デモ</summary>
-  </entry>
-  <entry>
-    <title>2026年11月5日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05-news.html</id>
-    <updated>2026-11-05T00:00:00+09:00</updated>
-    <summary>MetaがAIコーディングスタートアップConductorを買収 / Anthropicが「どのモデルが出力したか」を暗号学的に検証するFlashProveを公開 / AI推論基盤のFalが13億ドルを調達、評価額160億ドルに / GoogleがK-12向けでAIを無効化するとSearchも使えなくなる方針を修正、批判受け / AnthropicのS-1/AがRSI（AIによる加速的進歩）しきい値への接近を示唆</summary>
   </entry>
 </feed>

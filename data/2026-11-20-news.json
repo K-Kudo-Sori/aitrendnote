@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026/11/20 8:03:56",
+  "highlights": [
+    "Anthropic が Nasdaq に上場（ティッカー ANT）。公開価格83ドル・調達額約813億ドルで史上最大のIPO、初値111.50ドル・終値97.17ドル",
+    "Google が Gemini 4 Neon を発表。入力100万トークンあたり3ドル、1Mトークンのコンテキストでコーディングエージェント指標1位",
+    "Google DeepMind の世界モデル Genie 4 が AI Ultra 加入者向けに提供開始。リアルタイム音声生成に初対応",
+    "Citi など米銀が「AIエージェントに口座アクセスさせた結果の損失は顧客責任」と規約を改定",
+    "DMM が60以上の生成AIを1つのAPIで切り替えられる「DMM AI Router」を提供開始"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Anthropic、初日終値は1株97.17ドル——AIにとって画期的な瞬間（IPOライブ更新）",
+      "url": "https://cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "summary": "Anthropic は11月19日、ティッカー「ANT」で Nasdaq に上場した。公開価格は1株83ドルで、9億8,000万株の売り出しにより約813億ドルを調達し、史上最大のIPOとなった。初値は111.50ドル、終値は97.17ドル（公開価格比約17%高）で、完全希薄化後の時価総額は約1.8兆ドル。目論見書によると9月末までの9か月の売上高は約332億ドルだった。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Nasdaq の取引開始の鐘で、Anthropic CEO が AI 開発のペース配分を改めて約束",
+      "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+      "summary": "上場初日の式典で Dario Amodei CEO は、ビジネスや政治の圧力に屈せず、安全性に確信が持てるまで AI システムの訓練と展開のペースを調整すると述べた。リスクとして個人・国家による悪用、経済的混乱、AI の制御喪失を挙げ、安全策によって回避可能だとした。同氏は9月にもペース配分の構想を示しており、他社トップも賛意を示したが具体的な約束は少ないと記事は指摘している。",
+      "category": "other"
+    },
+    {
+      "source": "websearch",
+      "title": "Gemini 4 Neon を発表",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "summary": "Google は11月18日、新モデル Gemini 4 Neon を発表した。Artificial Analysis Coding Agent Index で1位（58.6）、Terminal-Bench 4.1 で65.2% などの成績を示している。料金は入力100万トークンあたり3ドル・出力15ドルで、コンテキスト長は100万トークン。Gemini API（Google AI Studio）、法人向け Gemini、Gemini アプリ（AI Pro/Ultra）で利用できる。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "Genie 4 が利用可能に",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+      "summary": "Google は世界モデル Genie 4 を、Project Genie の新体験として対象の Google AI Ultra 加入者向けに提供開始した（AI Pro はウェイトリスト）。セッション中にプロンプトで天候やキャラクターを変更でき、シーンに合わせたリアルタイムのネイティブ音声を初めて生成する。会話で世界を構築するエージェントやコミュニティギャラリーも追加され、生成物には SynthID 透かしが入る。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AIエージェントを使う顧客は自己責任——ハッキングされた場合でも、とする銀行が増加",
+      "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+      "summary": "Citibank はオンライン利用規約を改定し、第三者の AI ツールに口座アクセスを与えた顧客はそのエージェントの行為に責任を負うとした。AI ツール経由で認証情報が漏えい・侵害された場合の損失も顧客負担となる。JPMorgan と Bank of America も前月に同様の方針を示し、PNC も規約を変更した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "GPTやGeminiを1つのAPIで、DMMが60以上の生成AIを切り替える新サービス",
+      "url": "https://news.mynavi.jp/techplus/article/20261119-5360562",
+      "summary": "DMM.com と Algomatic Dynamics は、GPT・Gemini・Kimi など60以上の生成AIモデルを1つのAPIから利用できる共通ゲートウェイ「DMM AI Router」の提供を開始した。用途別にモデルを使い分けるルール設定や、エラー・遅延時に別モデルへ自動で切り替える機能を備える。今後はマルチモーダル対応や予算上限などのガードレール、権限管理機能を追加する予定。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-11-20-news"
+}
