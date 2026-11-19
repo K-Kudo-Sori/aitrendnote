@@ -1,0 +1,227 @@
+{
+  "date": "2026-11-20",
+  "generatedAt": "2026/11/20 7:04:27",
+  "highlights": [
+    "Anthropic の研究ブログで、Claude がブラックホール物理（Hawking-Page 転移・モジュラーブートストラップ）の未解決問題2件を解いたと発表",
+    "Claude Code / Codex を数十〜数千セッション並列で回す運用（Orca・Claude Desktop・自律改善ハーネス）の実践記事が相次ぐ",
+    "人間がボトルネックになった時代のエージェント設計や、AIコーディングのコスト・成果を測る「AIトークノミクス」が話題に",
+    "Gemini 4 Neon を含む Gemini/Gemma 8モデルのコスト・速度比較、GitHub Issue Artifact のパブリックプレビューなどツール面の更新も"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Anthropic hits $2T in Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "summary": "本文取得失敗（アクセス先が CAPTCHA ページを返したため本文を取得できませんでした）。タイトルからは、Anthropic が Nasdaq 上場初日に時価総額2兆ドルに達したことを伝える記事とみられます。",
+      "category": "product",
+      "points": 684,
+      "comments": 1211
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude solves two open problems in the physics of black holes",
+      "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+      "summary": "Anthropic は、Claude が量子重力とブラックホールに関する理論物理の未解決問題2件を解いたと発表しました。1件目では20年以上前に定式化されながら解かれていなかった計算を完遂し、ブラックホール形成に伴う Hawking-Page 転移が時空が明確な形を持たない領域でも持続することを示しました。2件目では、量子重力の候補理論を検証するモジュラーブートストラップ手法の最も単純な版について厳密な限界を求めました。記事では成果を平易な説明と技術的詳細の両面から解説し、Claude の取り組み方にも触れ、プレプリントも公開しています。",
+      "category": "research",
+      "points": 295,
+      "comments": 124
+    },
+    {
+      "source": "hackernews",
+      "title": "Garage Door Spam",
+      "url": "https://blog.harrison.page/garage-door-spam/",
+      "summary": "筆者は Chamberlain 製ガレージドア開閉器の myQ アプリが、開閉通知に広告を混ぜるようになったことに強く憤っています。メーカーは2023年にサードパーティ API を遮断しており、筆者は ESPHome/HomeKit 対応のオープンソース基板 ratgdo32 を導入して、クラウドを介さずローカルネットワークで制御する方法に切り替えました。HomeKit 連携で Siri からの操作も可能になり、通知の信頼性を取り戻したと述べています。AI とは直接関係の薄い、IoT のベンダーロックインと通知の質をめぐる記事です。",
+      "category": "other",
+      "points": 675,
+      "comments": 278
+    },
+    {
+      "source": "hackernews",
+      "title": "The 98% Slot Machine: How Paid Advertising Became an Extraction Tax",
+      "url": "https://globalcommercegraph.com/writing/the-ninety-eight-percent-slot-machine",
+      "summary": "Google 広告や Meta 広告の運用を、98% の還元率に調整されたスロットマシンにたとえ、小規模事業者が少額の赤字を「あと一歩」と錯覚して広告費を投じ続ける構造を批判するエッセイです。ダッシュボードはインプレッションや CTR の改善といった緑色の指標を並べ、実際の損失をニアミスとして見せていると指摘します。筆者は有料広告を、獲得チャネルではなくハイパースケーラーによる「搾取税」だと位置づけています。広告プラットフォームのビジネス構造を論じた記事で、AI の話題は主題ではありません。",
+      "category": "other",
+      "points": 112,
+      "comments": 62
+    },
+    {
+      "source": "hackernews",
+      "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+      "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
+      "summary": "本文取得失敗（YouTube 動画ページのため、プレーヤーのスクリプトしか取得できませんでした）。タイトルからは、政府がフロンティア AI の開発を減速させるべきかを Jacob Coxon 氏と Robin Hanson 氏が討論する動画とみられます。",
+      "category": "security",
+      "points": 38,
+      "comments": 67
+    },
+    {
+      "source": "zenn",
+      "title": "毎月6,000 AI Agentsを捌くためにキーボードを捨てた話",
+      "url": "https://zenn.dev/andoshin11/articles/ba68b39ef9a8ce",
+      "summary": "カーナベルの開発統括である筆者が、Orca ADE と git worktree を活用し、Claude と Codex で毎月約6,000セッションを動かす開発スタイルを紹介しています。課題は数十の Agent の進捗を把握する「今なにやってたっけ」の確認コストで、Claude Code の Task Tools（CLAUDE_CODE_ENABLE_TODO_TOOLS=1 で有効化）による進捗の可視化で対応しています。さらに Orca プラグインと iOS・Apple Watch アプリを自作し、ワンタップで AI に指示できる環境を構築しました。認知負荷・意思決定コスト・指示コストの3つを極限まで減らすことが狙いだと述べています。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカルLLM入門",
+      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+      "summary": "ポート株式会社が大学で行ったゲスト講義をもとに、LLM を手元の PC やブラウザで動かす仕組みを整理した入門記事です。モデルの実体は重みファイルであること、置き場所（クラウド API・オンプレ・ローカル）による違い、オープンウェイトモデルがクローズドモデルに約4か月差まで迫っている現状を解説しています。生成速度は計算性能よりメモリ帯域で決まること、量子化でどの程度のモデルが動くかも説明しています。さらに WebGPU・WebLLM・wllama によるブラウザ実行や、小型モデルを判定用途に使う工夫にも触れています。",
+      "category": "model"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Desktop 開発のすゝめ",
+      "url": "https://zenn.dev/peoplex_blog/articles/vscode-to-claude-desktop",
+      "summary": "PeopleX のエンジニアが、VS Code から Claude Desktop の Code タブに開発環境を移した経緯と運用を紹介しています。以前は VS Code を4分割し、自作の通知やモニターで数セッションを回していましたが、いまは自作の仕組みなしで5〜10セッションを並行して進めています。親セッションにエピックを任せる進め方や、Codex を Claude Code の中から CLI で呼ぶ使い方、サイドバーのアイコンや OS 通知で完了に気づく運用などを具体的に解説しています。Claude Desktop を試すか迷っている CLI・VS Code ユーザー向けの記事です。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "GitHub IssueにArtifactとしてHTMLとMarkdownを添付できるようになった",
+      "url": "https://zenn.dev/kesin11/articles/20261114_github_issue_artifact",
+      "summary": "GitHub Universe の陰で、Issue に HTML や Markdown を「Issue Artifact」として添付し、専用パネルでプレビューできる機能がパブリックプレビューになったことを紹介する記事です。コーディングエージェントとの設計やレビューで HTML を生成して視覚的に確認する使い方が広がる一方、Claude の Artifact は GitHub の外にあるという課題がありました。各 Issue に Add artifact ボタンが追加されており、実際には gh コマンドを使ってエージェントからアップロードする使い方が中心になると予想しています。Markdown と HTML それぞれの表示例も示しています。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス",
+      "url": "https://zenn.dev/nttdata_tech/articles/9562962cc181a1",
+      "summary": "NTT DATA の筆者が、Claude Code と Codex で共通の規約と記録を読ませ、自分の代わりに自律的に仕事を進めさせる個人ハーネスを約4か月運用した知見をまとめています。賢いプロンプトよりも、フォルダや概念の置き場を決めて Agent が自分で読み書き・検査できる構造にすることが重要だと主張しています。一度の訂正を次回の前提にする仕組みや、Agent がチームを組んで調査と検証を分担し、人の判断が要る点だけで止まる運用を紹介しています。開発だけでなく調査や資料作成も並行して任せられるようになったと述べています。",
+      "category": "agent"
+    },
+    {
+      "source": "devto",
+      "title": "Is Coding with AI Actually Faster and Cheaper?",
+      "url": "https://dev.to/sylwia-lask/is-coding-with-ai-actually-faster-and-cheaper-2810",
+      "summary": "AI コーディングで本当に速く・安くなったのかを、体感ではなく実際の研究データから検証しようとする記事です。ベルリンの AI Coding Summit でのパネル討論に向けて、筆者が関連する科学的研究を調べてまとめています。コーディングエージェントによる生産性向上の主張と、研究が示す実態とのギャップをユーモアを交えて論じています。参照した研究へのリンクは記事末尾にまとめられています。",
+      "category": "research",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "The CodeNewbie Podcast is Back for Season 28!",
+      "url": "https://dev.to/codenewbie/the-codenewbie-podcast-is-back-for-season-28-2484",
+      "summary": "CodeNewbie Podcast がシーズン28で再開し、新ホストの Lauren Lee 氏が就任したことを告知する記事です。今シーズンは AI を使ったアプリ開発（バイブコーディング）に重点を置きます。初回は12月2日（水）配信で、以後隔週水曜に新エピソードが公開され、DEV にも毎回投稿されます。リスナーに、いま作っているものや解説してほしいことをコメントで募っています。",
+      "category": "other",
+      "tags": [
+        "codenewbie",
+        "ai",
+        "podcast",
+        "vibecoding"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Stratagems #36: They Finished Their Coffee. The AI Still Has No Answer.",
+      "url": "https://dev.to/xulingfeng/stratagems-36-they-finished-their-coffee-the-ai-still-has-no-answer-4igh",
+      "summary": "「AI, Ego & the 36 Stratagems」という全42回シリーズの1本で、兵法三十六計になぞらえて AI 導入現場の人間模様を描く物語形式の記事です。ベンチマーク監査や AI ダッシュボード、コンプライアンス対応など、これまでの回では AI が出す数字と現場の実態とのずれが描かれてきました。今回は、コーヒーを飲み終えても AI がまだ答えを出せないという場面を軸に、AI への過信と人間の判断の役割を問いかけています。キャリアや組織論寄りの読み物です。",
+      "category": "other",
+      "tags": [
+        "discuss",
+        "ai",
+        "career",
+        "programming"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Publishing Markdown to a LinkedIn Article from an Agent Skill",
+      "url": "https://dev.to/gde/publishing-markdown-to-a-linkedin-article-from-an-agent-skill-1hbj",
+      "summary": "Claude Code・Codex・Antigravity 向けのエージェントスキル publishing-kit を使い、1つの Markdown ファイルを LinkedIn 記事として公開する手順を解説しています。LinkedIn の記事エディタは貼り付けた HTML の一部しか保持しないため、何が残り何が落ちるかを検証し、それに合わせて変換しています。公開後に LinkedIn が保存した内容を再読み込みし、コードブロック・リンク・見出し・文字を元の原稿と照合する仕組みになっています。dev.to・Medium・Substack などに続く新しい出力先として追加されました。",
+      "category": "devtool",
+      "tags": [
+        "linkedin",
+        "writing",
+        "devtools",
+        "ai"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Which Gemini Model Should You Use? Neon, Argon, Hydrogen, Carbon, Flash or Gemma. It Depends.",
+      "url": "https://dev.to/gde/which-gemini-model-should-you-use-neon-argon-hydrogen-carbon-flash-or-gemma-it-depends-ano",
+      "summary": "11月18日発表の Gemini 4 Neon を含む8モデル（Gemma 4 26B/31B、Gemini 3.5 Flash-Lite、3.8 Flash、Gemini 4 Hydrogen/Carbon/Argon）を同一の問題と採点方法で比較し、コスト・思考量・速度からモデルの選び方を示しています。今回のテストでは Gemini 4 の4モデルは精度が横並びで、その中ではコストと速度で選び、ティアはタスクの難しさで選ぶべきだと結論づけています。無料やセルフホストが必要なら Gemma 4 31B（GSM8K 0.9735、BFCL 0.9675）を推奨しています。簡単な質問や単純な関数呼び出しには、最安・最速の 3.5 Flash-Lite を推奨しています。",
+      "category": "model",
+      "tags": [
+        "gemini",
+        "gemma",
+        "benchmark",
+        "ai"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "部下がClaudeっぽいスライドしか出してこなくてウンザリしてる上司はこれを使わせなさい",
+      "url": "https://qiita.com/nuco_d/items/b279477cbcdbe5921abd",
+      "summary": "AI が作るスライドがどれも似た「Claudeっぽい」見た目になる理由と対策を解説する記事です。原因として、指示がないと無難な平均的デザインに寄る「分布収束」と、公式の pptx スキルに書かれたグリッド配置・大きな数字・アイコン付きカードといった定番レシピを挙げています。見せる相手や場面を伝えないと原稿を1枚に詰め込みがちな点も指摘しています。そのうえで、量産型にならないよう部下に使わせるべきスキルを紹介しています。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "生成AI",
+        "ClaudeCode",
+        "AIエージェント",
+        "LLM"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【AI × PDF】 紙派だった私が、技術書を電子で買うようになった理由",
+      "url": "https://qiita.com/Dingu-suke/items/7d474c38cd597869049e",
+      "summary": "もともと紙派だった筆者が、AI と一緒に読めることを理由に技術書を電子（PDF）で買うようになった経緯と、その読み方を紹介しています。分からない1文や図など必要な箇所だけを AI に渡して噛み砕いてもらい、Obsidian でノートや図解を作る方法を説明しています。著作権への配慮として、全文を渡さない、学習をオフにする、PDF やノートを非公開で管理するといったルールを明示しています。「紙のほうが頭に入る」という主張や、AI を学習に使う際の落とし穴についての考察も含みます。",
+      "category": "other",
+      "tags": [
+        "AI",
+        "技術書",
+        "学習方法",
+        "勉強法",
+        "ポエム"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "人間がボトルネックになった時代のAIエージェント設計",
+      "url": "https://qiita.com/Syoitu/items/5bb47c01a8513e52d1b5",
+      "summary": "モデルが賢くなった結果、複数のエージェントを並行させたときのボトルネックは、見張り・切り替え・記憶を担う人間の注意力に移ったと論じる記事です。セッション単位のエージェントには「ブロックする・混ざる・止まる・待つ」の4つの制約があると整理しています。DeepSeek Harness チームが提唱する、継続的・生産的・能動的・持続的な「スーパーエージェント」の考え方を紹介しています。設計の要点を5つのパターンにまとめ、Mastra などを使ったプロトタイプで一部を実演しています。",
+      "category": "agent",
+      "tags": [
+        "AIエージェント",
+        "Mastra",
+        "AI",
+        "AWS",
+        "ClaudeCode"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIトークノミクスは観測から始めよう - AIコーディングのコスト・無駄・成果を測る",
+      "url": "https://qiita.com/kobadain/items/7ff26c584cd9b83f7a5a",
+      "summary": "AI コーディングのコストが膨らむなか、トークン支出を管理して ROI を示す「AIトークノミクス」の考え方を紹介する記事です。New Relic が OSS（Apache 2.0）として公開している Preflight は、Claude Code などのツール呼び出しとトークン数を記録します。モデル別・サブエージェント別・タスク別のコストやキャッシュによる節約額に加え、やり直しや同じファイルの繰り返し読み込みといった無駄、バグ修正や機能追加といった成果を作業単位で可視化できます。VS Code 拡張版の Claude Code で実際に計測した結果も紹介しています。",
+      "category": "infra",
+      "tags": [
+        "NewRelic",
+        "AI",
+        "preflight",
+        "ClaudeCode",
+        "observability"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "【朗報】Microsoft 365 CopilotがOneDriveのファイルを直接編集できるようになってた！CoworkなしでGitHub Copilotみたいに使える件",
+      "url": "https://qiita.com/yuyanz/items/c3bb4801c105d96fa79d",
+      "summary": "Microsoft 365 Copilot が OneDrive 上で、任意フォルダへのファイル作成、既存ファイルの編集、フォルダ作成、さらに .git の作成と Git コミットまで行えるようになっていたことを検証した記事です。筆者の環境では GPT 系モデルでは承認後に編集できた一方、Claude 系モデルではうまく操作できませんでした。SharePoint でも編集はできたものの、動作は不安定だったと報告しています。Copilot の「プロジェクト」機能の指示に OneDrive の作業フォルダとルールを書くことで、GitHub Copilot のようにフォルダを作業領域として使う方法を紹介しています。",
+      "category": "product",
+      "tags": [
+        "Microsoft",
+        "copilot",
+        "Microsoft365",
+        "AI",
+        "OneDrive"
+      ]
+    }
+  ]
+}

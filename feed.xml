@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-19T00:00:00+09:00</updated>
+  <updated>2026-11-20T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月20日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-20.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-20.html</id>
+    <updated>2026-11-20T00:00:00+09:00</updated>
+    <summary>Anthropic の研究ブログで、Claude がブラックホール物理（Hawking-Page 転移・モジュラーブートストラップ）の未解決問題2件を解いたと発表 / Claude Code / Codex を数十〜数千セッション並列で回す運用（Orca・Claude Desktop・自律改善ハーネス）の実践記事が相次ぐ / 人間がボトルネックになった時代のエージェント設計や、AIコーディングのコスト・成果を測る「AIトークノミクス」が話題に / Gemini 4 Neon を含む Gemini/Gemma 8モデルのコスト・速度比較、GitHub Issue Artifact のパブリック…</summary>
+  </entry>
   <entry>
     <title>2026年11月19日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-19-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05-news.html</id>
     <updated>2026-11-05T00:00:00+09:00</updated>
     <summary>MetaがAIコーディングスタートアップConductorを買収 / Anthropicが「どのモデルが出力したか」を暗号学的に検証するFlashProveを公開 / AI推論基盤のFalが13億ドルを調達、評価額160億ドルに / GoogleがK-12向けでAIを無効化するとSearchも使えなくなる方針を修正、批判受け / AnthropicのS-1/AがRSI（AIによる加速的進歩）しきい値への接近を示唆</summary>
-  </entry>
-  <entry>
-    <title>2026年11月5日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-05.html</id>
-    <updated>2026-11-05T00:00:00+09:00</updated>
-    <summary>Ricursive IntelligenceがオープンウェイトのRipple-65B Previewを公開 / AnthropicがzkSNARKによる検証可能なLLM推論の進捗を報告 / AIによる脆弱性発見の加速とパッチ急増がセキュリティ運用に影響 / Claude Codeなどエージェントを使った開発・運用事例が多数</summary>
   </entry>
 </feed>
