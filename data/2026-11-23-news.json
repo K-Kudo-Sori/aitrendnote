@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-23",
+  "generatedAt": "2026/11/23 8:05:44",
+  "highlights": [
+    "OpenAI が社内のパープレキシティ（事前学習損失）を初公開し、業界共通の「越えない上限」を提案",
+    "Lean/Mathlib コミュニティが Claude 支援のリーマン予想証明を「正しい」と公式確認",
+    "Dragos の調査で AI 推論プロバイダ3社の侵害が判明し、OpenRouter が ZDR 対象から除外",
+    "Signal が OS 組み込み AI エージェントへの対抗策としてモバイルのスクリーンショットを制限",
+    "Perplexity が定期ウェブ監視の Monitor API を公開、Sarvam は 105B オープンウェイトを更新"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "パープレキシティと知能（OpenAI 公式ブログ）",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "summary": "OpenAI のチーフサイエンティスト Jakub Pachocki 氏が、事前学習の進捗をパープレキシティ（交差エントロピー損失）で追うことが AI の進歩を理解する鍵だと論じ、社内の測定値を初めて公開した。対数パープレキシティは GPT-3.5 で約0.99、GPT-4 で約0.91、その後のモデルでは0.8を下回り、約0.76のモデルが未解決の数学問題で注目すべき成果を出し始めたという。開発各社が評価規範や透明性基準を共有し、監視体制が整うまで越えない「共通の上限」を合意することを提案している。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Lean と Mathlib のコミュニティ、Levent Alpöge 氏によるリーマン予想の証明が正しいと公式に確認",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "summary": "11月20日に公開された、Claude を活用したリーマン予想の証明について、Lean と Mathlib のコミュニティが「証明が正しいと完全に確信している」と表明した。証明は Lean で書かれた約1,700万行のコードで、数十人が独立に実行して同じ結果を得たという。Metaculus の予測（2035年5月）よりはるかに早い解決となった。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenRouter、AI ホスティング企業で数か月にわたるプロンプト窃取が研究者に見つかり3プロバイダを除外",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "summary": "Dragos は、約200万件のプロンプトに固有のリンクや認証情報を仕込んで監視し、3つの AI 推論プロバイダ内部で数か月にわたりデータが盗まれていたことを突き止めた。一部は Zero Data Retention 指定のリクエストで、仕込んだ AWS キーが盗まれ IAM ユーザー追加などが試みられた。OpenRouter は3プロバイダと125エンドポイントを ZDR 対象から外し、自社は侵害されていないと説明している。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Signal、AI 監視の「存亡に関わる脅威」に直面しモバイルのスクリーンショットを制限",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "summary": "Signal は Android と iOS アプリでスクリーンショットの撮影を制限し始めた。画面内容を読み取る OS レベルの AI エージェントが、アプリ単体でのプライバシー保証を損なうことへの対応だとメレディス・ウィテカー代表は説明する。ユーザーは制限を解除できるが、その場合はプライバシー保証が崩れるとし、対策自体も「不完全」だと認めている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Perplexity の新しい Monitor API、ウェブ検索を一回限りのクエリから常時監視へ",
+      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "summary": "Perplexity は、検索をスケジュール実行し、関連する変化を Webhook でアプリや AI エージェントに通知する Monitor API を公開した。検索クエリを定期実行する Web モニターと、最大10ページの差分を返すページモニターの2方式があり、自然言語で設定した目的に照らして判定モデルが通知の要否を決める。料金は成功した実行1,000回（またはページ取得1,000件）あたり1ドル。",
+      "category": "agent"
+    },
+    {
+      "source": "websearch",
+      "title": "Sarvam AI、企業向けエージェント用に 105B のオープンウェイト・チェックポイントを公開",
+      "url": "https://www.unite.ai/sarvam-ai-releases-open-weight-105b-checkpoint-for-enterprise-agents/",
+      "summary": "インドの Sarvam AI が、総105B・アクティブ約10.3B パラメータの MoE モデルを更新した Sarvam-105B-1711 を公開した。ツール利用・指示追従・エージェントタスク・インド諸語向けの事後学習を強化し、約65GB の4ビット NVFP4 版は96GB の GPU 1枚で動くという。コンテキストは160K トークンに拡張され、ベンチマークはいずれも同社の自己測定値。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "AI の進歩は、新システムの安全性を専門家が確実に検証できる速度を上回っていると METR が警告",
+      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "summary": "METR は、現在の公開データでは今後数年の AI 研究の急加速を否定できず、人間が新システムの破局的リスクを理解・評価・対応できなくなる恐れがあると警告した。モデルが扱えるタスクの長さは約3.6か月ごとに倍増しているという。一方で、即時のフィードバックがない開かれた問題は依然苦手で、一般的なテストは実世界の性能を過大評価しうるとしている。",
+      "category": "research"
+    }
+  ],
+  "slug": "2026-11-23-news"
+}
