@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026/11/24 7:04:16",
+  "highlights": [
+    "Z.ai が Loop Transformer 採用の GLM-5.4 を発表。共有層の反復で 2T〜3T 級に匹敵する性能を主張",
+    "コンピュータ操作エージェントは「スクリーンショットのみ」か「アクセシビリティツリー併用」か、7モデルで比較検証",
+    "AI が書きAI がレビューしたコードでも mutation テストで 3 回に 1 回はバグが残存したという実測報告",
+    "Docker Sandboxes・MCP ゲートウェイ・Agent Substrate など、エージェントを安全かつ大規模に動かす基盤の話題が充実"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+      "url": "https://z.ai/blog/glm-5.4",
+      "summary": "Z.ai は、共有された層ブロックを複数回反復実行する Loop Transformer アーキテクチャを初めて採用したフラッグシップモデル GLM-5.4 を発表しました。パラメータを増やさずに推論を深められるため、2T〜3T パラメータ級のモデルに匹敵する知能水準に達したとしています。コードをあらゆるタスク解決の基盤とする「Generalized Coding」の始まりと位置づけ、大規模ソフトウェア開発やセキュリティ、3D モデリングなど長い推論連鎖が必要な領域を狙います。一方で、過度に長い「マラソン思考」ループに陥りやすいという制約も認めています。",
+      "category": "model",
+      "points": 974,
+      "comments": 322
+    },
+    {
+      "source": "hackernews",
+      "title": "Kagi Mail (public beta)",
+      "url": "https://blog.kagi.com/kagi-mail-public-beta",
+      "summary": "検索エンジン Kagi が、プライバシー重視のメール・カレンダーサービス Kagi Mail のパブリックベータを公開しました。@kagimail.com アドレスまたは独自ドメインで利用でき、監視・広告なし、オープン標準、ロックインなしを掲げています。60日間の無料トライアル後は年額99ドルで、Kagi Ultimate には同梱されます。対応が必要なメールを前面に出し、それ以外を静かに処理する AI 機能も備え、既存の利用枠（Allowance）から消費されます。",
+      "category": "product",
+      "points": 272,
+      "comments": 212
+    },
+    {
+      "source": "hackernews",
+      "title": "How should an LLM see a computer?",
+      "url": "https://www.greptile.com/blog/trex-computer-use",
+      "summary": "Claude Code や Codex のようなコンピュータ操作エージェントが、画面をスクリーンショットで見るべきか、アクセシビリティツリー（画面要素のテキスト記述）を併用すべきかを検証した記事です。アクセシビリティ API の歴史を振り返りつつ、OSWorld の同一172タスクで7モデルを「スクショのみ」「ツリー＋座標クリック」「ツリー＋ID クリック」の条件で比較しました。モデルの世代が進むにつれスクリーンショットのみでのスコアが大きく向上していることを示し、その結果を自社 QA エージェント TREX の画面認識方式の設計判断に用いています。",
+      "category": "agent",
+      "points": 33,
+      "comments": 19
+    },
+    {
+      "source": "hackernews",
+      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
+      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "summary": "Windows PC 上に Unsloth Desktop を使って、家庭内で共有できる無料のプライベート ChatGPT 代替環境を構築する初心者向けガイドです。クラウド LLM の利用制限・コスト・プライバシーへの不満から、Qwen や Inkling といったオープンウェイトモデルのローカル運用を勧めています。手順は、GPU の VRAM に収まる量子化モデルをダウンロードし、コンテキスト長を設定して LAN アクセスを有効にするというもので、ハードウェアがあれば10〜15分程度で完了するとしています。",
+      "category": "model",
+      "points": 731,
+      "comments": 291
+    },
+    {
+      "source": "zenn",
+      "title": "自分の代わりに動くAgentへ。Claude CodeとCodexで作る自律改善ハーネス",
+      "url": "https://zenn.dev/nttdata_tech/articles/9562962cc181a1",
+      "summary": "NTT DATA の筆者が、Claude Code と Codex を自分の代わりに自律的に動かすための個人用ハーネスを約4か月運用した知見をまとめた記事です。肝は賢いプロンプトではなく、フォルダと概念の置き場を決め、Agent が規約や記録を自ら読み書き・検査できる構造にすることだと述べています。一度の訂正を次回の前提に変える仕組みや、Agent がチームを組んで調査を分担し人間の判断が必要な点だけ止まって待つ運用例を、実際の Markdown ファイルや設定とともに紹介しています。",
+      "category": "agent"
+    },
+    {
+      "source": "zenn",
+      "title": "寝てる間に自動で動くAIエージェントを誰でも作れる：10分でわかる pstack 実践ガイド",
+      "url": "https://zenn.dev/canly/articles/ca6875cd79539f",
+      "summary": "Cursor 公式のスキル集 pstack（作者 Lauren Tan 氏、MIT ライセンス）を Claude Code に導入し、指示1回・約10分・人手なしで設計からツール実装、自動テスト14件、わざとコードを壊すテスト検証まで完走させた実践記事です。pstack は作業スキル34個・原則スキル24個と22本のプレイブックから成り、「コンパイルが通った」を証拠にせず実際の出力で確かめることを重視します。インストール手順や poteto-mode の使い方、指示の組み立て方と人が決めるべき点を実行ログから解説しています。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "【TLA+】AIにテストケースを書かせるな。ルールを書け",
+      "url": "https://zenn.dev/karamage/articles/73027ee36796dc",
+      "summary": "AI が実装もテストも書くと、同じ誤解を引き継いだ「自作自演の満点」になりやすいというテストオラクル問題を指摘する記事です。別エージェントによる敵対レビューも同じ教科書で学んだ隣の生徒に問題を作らせるようなもので、本命のバグを見逃した経験を紹介しています。結論として、人間はテストケースではなく「守るべきルール（不変条件）」を書き、ケース生成は機械に任せるべきだと主張し、TLA+ 系言語 Quint の小さなサンプルでその手法を解説しています。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "ローカルLLM入門",
+      "url": "https://zenn.dev/port_inc/articles/ff974c7456f4db",
+      "summary": "大学でのゲスト講義を基に、LLM を手元の PC やブラウザで動かす仕組みを整理した入門記事です。モデルの実体は重みファイルであり、クラウド API・オンプレ・ローカルの3つの置き場所の違い（入力の行き先、費用、性能）を比較しています。生成速度を決めるのは計算性能よりメモリ帯域であること、量子化による必要メモリの削減、WebGPU・WebLLM・wllama によるブラウザ実行、小型モデルを判定用途に使う工夫などを解説し、オープンモデルとクローズドモデルの差が約4か月まで縮まったことにも触れています。",
+      "category": "model"
+    },
+    {
+      "source": "zenn",
+      "title": "AI が書いて AI がレビューしたコードでも、3 回に 1 回はバグが残っていた",
+      "url": "https://zenn.dev/beyond/articles/92657b461ebcb4",
+      "summary": "実装もレビューもすべて AI エージェントに任せている個人開発者が、AI による mutation テストを「最終検査」として約1か月半運用した結果を報告しています。197回の検査で入れた5,348個の変異のうち、挙動が変わるのにテストが通ったものが23%あり、182回で「壊しても気づかれない箇所」が見つかりました。さらにレビュー通過後の実装の35%に本番に影響しうるバグが残っていたとし、AI に変更意図を読ませて壊れると困る箇所に変異を入れる手法の有効性を示しています。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Proofreader vs. Rewriter vs. Prompt API: Test the Task, Not the Demo",
+      "url": "https://dev.to/gde/proofreader-vs-rewriter-vs-prompt-api-test-the-task-not-the-demo-pi9",
+      "summary": "Chrome のブラウザ内蔵 AI である Proofreader API・Rewriter API・Prompt API を、デモではなくタスク定義に基づいて比較評価する方法を解説した記事です。「文章を良くする」には誤字修正、トーン変更、短縮などの異なるタスクが含まれ、それぞれ評価基準が違うと指摘しています。何を変えてよく何を保持すべきか（金額や承認条件など）を明文化し、校正と Prompt API の制約付きベースライン、フォーマル化と別ベースラインという公平な比較を行う小さな評価ハーネスを示しています。",
+      "category": "devtool",
+      "tags": [
+        "webdev",
+        "ai",
+        "typescript",
+        "testing"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Made My RAG Safer. It Got Worse Under Load",
+      "url": "https://dev.to/ayush_singh_9b0d83152be5b/i-made-my-rag-safer-it-got-worse-under-load-3olm",
+      "summary": "引用元パッセージに照らして全文を検証してからユーザーに返すよう RAG システムを作り直した筆者が、その負荷時の挙動を報告しています。最初の文が表示されるまでの時間は短縮され、未検証の文は一切表示されなくなりましたが、Groq の無料枠で高負荷をかけると配信成功率が旧版の67.4%から62.8%に低下しました。原因は自らの安全機能によるモデル呼び出しの増加とレート制限で、「RAG は死んだ」論に対して本当の問いは「誰が回答を検証するのか」だと論じています。",
+      "category": "infra",
+      "tags": [
+        "discuss",
+        "ai",
+        "rag",
+        "productivity"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Netlify Isn't Just a Static CDN: How Atomic Deploys, Edge Isolates, and Content-Addressed Storage Actually Work Under the Hood",
+      "url": "https://dev.to/smtahosin/netlify-isnt-just-a-static-cdn-how-atomic-deploys-edge-isolates-and-content-addressed-storage-5136",
+      "summary": "Netlify を「S3 と CloudFront のラッパー」とみなす通説に対し、その内部の仕組みを解説した記事です。S3 sync によるデプロイ中に新旧ファイルが混在して壊れる「Asset Drift」問題を例に、アトミックデプロイがそれを防ぐ仕組みを説明しています。あわせてコンテンツアドレス型ストレージやエッジでの分離実行（Edge Isolates）の構造にも触れています。AI に直接関するものではなく、Web インフラのアーキテクチャ解説です。",
+      "category": "infra",
+      "tags": [
+        "netlify",
+        "webdev",
+        "architecture",
+        "devops"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "8 Best MCP Gateways",
+      "url": "https://dev.to/varshithvhegde/8-best-mcp-gateways-4ddf",
+      "summary": "複数のエージェントと多数の MCP サーバーを本番運用する際に必要となる MCP ゲートウェイを8つ比較紹介する記事です。ゲートウェイはエージェントと MCP サーバーの間に立ち、単一エンドポイントへの集約、上流への認証処理、呼び出し元ごとのツール可視性・実行権限の制御、監査ログを担います。「どのエージェントが誰の認証情報でどのツールを呼べ、後からそれを証明できるか」という問いに答えるためのセキュリティ層として重要性を説いています。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "programming",
+        "productivity",
+        "webdev"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Why millions of agents don't need millions of VMs on Agent Substrate",
+      "url": "https://dev.to/googlecloud/why-millions-of-agents-dont-need-millions-of-vms-on-agent-substrate-2ech",
+      "summary": "Google Cloud の筆者が、11月5日に 1.0 に到達した Agent Substrate を使って数千〜数百万のエージェントを効率的に運用する方法を解説しています。ユーザーごとに VM を割り当てる方式ではアイドル時もコストがかかりスケールしないという課題を出発点にしています。Substrate はエージェントの待機中にメモリとファイルを保持したまま共有ワーカープールの枠を解放（suspend）し、500ms 未満で再開できるため、大量のエージェントを少ないリソースで動かせると説明しています。",
+      "category": "infra",
+      "tags": [
+        "agents",
+        "ai",
+        "architecture",
+        "infrastructure"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "手書きをやめた途端、ブログが全部AI臭くなったあなたへ！ マシにする方法教えます",
+      "url": "https://qiita.com/minorun365/items/faa50b7662b86e1df29c",
+      "summary": "ブログのほとんどを Claude Code に書かせている筆者が、AI 臭さを抑えて人に出せる品質に仕上げる方法を紹介しています。準備として高性能なハーネスとモデルを使い、太字の箇条書きや表、Mermaid 図などの AI にありがちな表現をスキルで原則禁止にしておきます。執筆時はネタ・構成を案から選び、検証を先に済ませ、Qiita 風プレビューを見ながら音声で修正指示を出し、AI 臭い文はその場で指摘して学習させるという流れを実例で解説しています。",
+      "category": "devtool",
+      "tags": [
+        "AI",
+        "ClaudeCode",
+        "技術ブログ",
+        "文章術",
+        "生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "登壇時、画面共有時にモザイクをかける方法について",
+      "url": "https://qiita.com/Takashi_Masumori/items/ffaa4a7e8008481a1d14",
+      "summary": "登壇や画面共有の際に見せたくない情報へモザイクをかける方法を紹介した記事です。ブラウザ上の特定文字列を自動でぼかす Edge アドオン Text Blurrer と、範囲指定でモザイクをかけられる ZoomIt、Windows の Snipping Tool を使い分けています。デモ動画のモザイク処理は Copilot Cowork に動画を渡して依頼しており、社外情報を含まない一般的なものには Claude Code も使うなど、生成 AI で動画のモザイク加工も容易になったと述べています。",
+      "category": "other",
+      "tags": [
+        "tips",
+        "生成AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "コードを書くコストが下がった今、ソフトウェアエンジニアリングの価値はどこにあるのか",
+      "url": "https://qiita.com/figueiredoluiz/items/1d6751643b84db67812e",
+      "summary": "AI でコードを書くコストが下がった時代のソフトウェアエンジニアリングの価値を、最近の研究を基に考察した記事です。NBER の研究では自律型エージェント利用でコミット数は240%増えた一方、リリース数の増加は30%にとどまり、新規アプリが増えても利用量の合計は増えなかったと紹介しています。また完了タスク26%増という RCT と、熟練者で作業時間が19%延びた METR の実験を対比し、「誰が何をどの指標で測ったか」を揃える必要性と、設計・レビュー・品質といった後工程の重要性を論じています。",
+      "category": "research",
+      "tags": [
+        "生成AI",
+        "AIエージェント",
+        "コードレビュー",
+        "AI駆動開発",
+        "CodeRabbit"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Claude Code を安全に「自走」させるなら、もう Docker Sandboxes 一択でよくない？と思った話。",
+      "url": "https://qiita.com/yamac_tech/items/2f1d598288990c381f2d",
+      "summary": "Claude Code や Codex などの AI コーディングエージェントを隔離環境で安全に自走させる手段として、Docker 社の Docker Sandboxes（sbx）を Windows で導入・検証した記事です。sbx は通常のコンテナより強い MicroVM でカーネルごと隔離し、Docker Desktop 不要で商用利用含めローカル実行は無料だと紹介しています。ファイアウォールやプロキシ設定などの面倒なセキュリティ設計が標準装備されている点を評価しつつ、認証情報の扱いなど企業利用時のチェックポイントもまとめています。",
+      "category": "security",
+      "tags": [
+        "Docker",
+        "ClaudeCode",
+        "Windows",
+        "codex",
+        "sandbox"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "耳で聞く！Python で学ぶ マクロ経済学 入門 全50回総復習",
+      "url": "https://qiita.com/maskot1977/items/0f5b6d826adc699f0f8e",
+      "summary": "YouTube の「Pythonで学ぶマクロ経済学入門（全50回）」総復習動画の内容を、Gemini との対話形式で要約した記事です。政府は「通貨の発行者」であり支出が先で税は後から回収するもの、税の役割はインフレの調整弁であるといった主張を、水循環のたとえで説明しています。「政府の赤字＝民間の黒字」という会計恒等式や1997年以降の日本の経済政策の検証にも触れており、AI 技術そのものではなく生成 AI を学習補助に使ったマクロ経済学の解説です。",
+      "category": "other",
+      "tags": [
+        "Python",
+        "マクロ経済学",
+        "Gemini",
+        "ChatGPT",
+        "YouTube"
+      ]
+    }
+  ]
+}

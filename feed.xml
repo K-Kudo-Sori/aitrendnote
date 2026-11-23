@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-23T00:00:00+09:00</updated>
+  <updated>2026-11-24T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月24日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-24.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-24.html</id>
+    <updated>2026-11-24T00:00:00+09:00</updated>
+    <summary>Z.ai が Loop Transformer 採用の GLM-5.4 を発表。共有層の反復で 2T〜3T 級に匹敵する性能を主張 / コンピュータ操作エージェントは「スクリーンショットのみ」か「アクセシビリティツリー併用」か、7モデルで比較検証 / AI が書きAI がレビューしたコードでも mutation テストで 3 回に 1 回はバグが残存したという実測報告 / Docker Sandboxes・MCP ゲートウェイ・Agent Substrate など、エージェントを安全かつ大規模に動かす基盤の話題が充実</summary>
+  </entry>
   <entry>
     <title>2026年11月23日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-23-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07-news.html</id>
     <updated>2026-11-07T00:00:00+09:00</updated>
     <summary>OpenAIがサイバーセキュリティ特化モデル「ChatGPT Cyber」を限定提供 / AnthropicがClaudeに家計分析の「Personal Finance」ベータ機能を追加 / MetaがMuseエージェント向け「Spaces」を公開 / AIエージェント・セキュリティ分野でPalo Alto NetworksがClutch買収交渉と報道</summary>
-  </entry>
-  <entry>
-    <title>2026年11月7日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07.html</id>
-    <updated>2026-11-07T00:00:00+09:00</updated>
-    <summary>Anthropicの開発加速をめぐるMETR報告が話題 / AIによる自動ペネトレーションテストやWebMCPの攻撃検証などセキュリティ話題が多い / バイブコーディングの限界と設計の重要性を扱う記事が目立つ</summary>
   </entry>
 </feed>
