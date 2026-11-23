@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-24T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月24日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-24-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-24-news.html</id>
+    <updated>2026-11-24T00:00:00+09:00</updated>
+    <summary>OpenAIのチーフサイエンティストが、パープレキシティを共通指標とし、各社で開発上限を設ける案を提言 / NVIDIA取締役会がジェンセン・フアン氏をCEOに復帰させ、国家安全保障・輸出管理委員会を新設 / OpenRouterが推論プロバイダーでのデータ処理インシデントを公表。3社を外し、125エンドポイントのZDR適格を取り消し / CrowdStrikeがZscalerを約439億ドルで買収すると発表。AIを使ったサイバー攻撃の増加を背景に業界再編が進む</summary>
+  </entry>
+  <entry>
     <title>2026年11月24日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-24.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-24.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08.html</id>
     <updated>2026-11-08T00:00:00+09:00</updated>
     <summary>AIエージェント運用・Claude Code活用の実践記事が多数 / AIによる自動ペネトレーションテストなどセキュリティ分野の事例 / Claude認定資格やMCP連携など周辺エコシステムの話題</summary>
-  </entry>
-  <entry>
-    <title>2026年11月7日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-07-news.html</id>
-    <updated>2026-11-07T00:00:00+09:00</updated>
-    <summary>OpenAIがサイバーセキュリティ特化モデル「ChatGPT Cyber」を限定提供 / AnthropicがClaudeに家計分析の「Personal Finance」ベータ機能を追加 / MetaがMuseエージェント向け「Spaces」を公開 / AIエージェント・セキュリティ分野でPalo Alto NetworksがClutch買収交渉と報道</summary>
   </entry>
 </feed>

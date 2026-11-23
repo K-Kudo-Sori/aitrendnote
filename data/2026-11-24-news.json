@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-24",
+  "generatedAt": "2026/11/24 8:04:17",
+  "highlights": [
+    "OpenAIのチーフサイエンティストが、パープレキシティを共通指標とし、各社で開発上限を設ける案を提言",
+    "NVIDIA取締役会がジェンセン・フアン氏をCEOに復帰させ、国家安全保障・輸出管理委員会を新設",
+    "OpenRouterが推論プロバイダーでのデータ処理インシデントを公表。3社を外し、125エンドポイントのZDR適格を取り消し",
+    "CrowdStrikeがZscalerを約439億ドルで買収すると発表。AIを使ったサイバー攻撃の増加を背景に業界再編が進む"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "パープレキシティと知能（OpenAI）",
+      "url": "https://openai.com/index/perplexity-and-intelligence/",
+      "summary": "OpenAIのチーフサイエンティスト、ヤクブ・パホツキ氏が11月22日に公開した論考。予測性能（パープレキシティ）を汎用能力の進歩を測る共通指標として使うことを提案した。あわせて、各フロンティア開発者が監視・解釈可能性の具体的なマイルストーンを達成するまで超えない「共通の上限」を設けることも呼びかけた。OpenAIは自社の内部パープレキシティの値を公開する一方、研究所間で比較しにくいことや、ポストトレーニングによる改善を反映しないことなどの限界も認めている。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "NVIDIA取締役会、ジェンセン・フアン氏を社長兼CEO・取締役に復帰させる",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "summary": "NVIDIAは11月23日、ジェンセン・フアン氏を社長兼CEO・取締役に即日復帰させると発表した。取締役会は全会一致で決定し、米政府高官の意見を踏まえて国家安全保障上のリスクはないと判断した。独立委員会による調査は続いており、独立取締役だけで構成する国家安全保障・輸出管理委員会の新設と、チーフ・コンプライアンス・オフィサーの採用も明らかにした。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "推論プロバイダーにおけるデータ処理インシデント（OpenRouter）",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "summary": "OpenRouterは、セキュリティ研究者の報告を受け、一部の推論プロバイダーでデータの侵害やデータポリシー不遵守の兆候が見つかったと公表した。OpenRouter自体への侵害はなかったとしている。対応として3社をオフボードし、125のエンドポイントをゼロデータ保持（ZDR）の適格対象から外し、影響を受けた可能性のある顧客に通知した。今後は研究者の検証手法を継続的なチェックに取り入れるという。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "CrowdStrike、AIでサイバー攻撃が激化する中、Zscalerを440億ドルで買収へ",
+      "url": "https://www.cnbc.com/2026/11/23/crowdstrike-to-buy-zscaler.html",
+      "summary": "CrowdStrikeは、ネットワークセキュリティ大手のZscalerを全額株式交換で買収することに合意した。買収額は約439億ドルで、同社として過去最大の買収となる。AIを使ったサイバー攻撃への対応を背景にした業界再編の一環と報じられている。ジョージ・カーツCEOは「史上最大のAI安全・セキュリティ企業になる道筋が見える」と述べた。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "SpaceX、AIディープフェイクポルノとGrokの安全性表示をめぐりオレゴン州とバージニア州から提訴される",
+      "url": "https://www.cnbc.com/2026/11/23/oregon-virginia-spacex-grok-deepfake-lawsuits.html",
+      "summary": "バージニア州とオレゴン州の司法長官が、Grokの画像生成機能をめぐりSpaceXをそれぞれの州裁判所に提訴した。SpaceXを提訴した州はこの2州が初めて。同意のない性的ディープフェイクの作成・共有を十分に防がず、GrokとXを安全だと誤って表示したことが消費者保護法に違反すると主張している。両州は差し止め、民事制裁金などを求めている。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "NVIDIAを超えて：Convoy共同創業者と元Microsoft幹部、AIインフラを再考するため2億7700万ドルを調達",
+      "url": "https://www.geekwire.com/2026/beyond-nvidia-convoy-co-founder-and-former-microsoft-leader-raise-277m-to-rethink-ai-infrastructure/",
+      "summary": "2026年5月創業のAI推論インフラ企業Marloweが、Accel主導で2億7700万ドルのシード資金を調達した。評価額は11.5億ドル。NVIDIA製GPUではなくAMDやEtchedのチップを使い、ワークロードごとにハードウェアとソフトウェアを最適化する方針で、従来のGPUクラウド比でワット当たり・ドル当たり2〜3倍の出力をうたう（自社推計）。Etchedチップを使う最初の拠点は2026年12月に稼働する予定。",
+      "category": "infra"
+    }
+  ],
+  "slug": "2026-11-24-news"
+}
