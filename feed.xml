@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-24T00:00:00+09:00</updated>
+  <updated>2026-11-25T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月25日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-25.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-25.html</id>
+    <updated>2026-11-25T00:00:00+09:00</updated>
+    <summary>PrismMLが5.9GBの3値量子化モデル「Ternary Bonsai 2.5 27B」を公開し、SWE-bench Verifiedで75.6を記録 / GreyNoiseがCheck Point管理サーバーを狙う侵入キャンペーン（22組織が被害）を報告 / Claude Codeの /ship スキルやpstackなど、PR作成から監視まで任せる自律開発の実践記事が続出 / Google Workspace CLI（gwscli）とWorkspace MCPが一般提供、AWSもエージェントによるアカウント作成に対応 / Gemini 4 Neon・Claude Opus 5.5・GP…</summary>
+  </entry>
   <entry>
     <title>2026年11月24日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-24-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08-news.html</id>
     <updated>2026-11-08T00:00:00+09:00</updated>
     <summary>OpenAIが評価額1.25兆ドルで追加110億ドルを調達（報道） / Meta、Museエージェントと協働する「Spaces」を発表 / AI支出の伸びが鈍化、Anthropicの上場評価額見通しも低下（報道） / 中国製ペンテストツールArtexの公開露出が多数見つかる</summary>
-  </entry>
-  <entry>
-    <title>2026年11月8日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-08.html</id>
-    <updated>2026-11-08T00:00:00+09:00</updated>
-    <summary>AIエージェント運用・Claude Code活用の実践記事が多数 / AIによる自動ペネトレーションテストなどセキュリティ分野の事例 / Claude認定資格やMCP連携など周辺エコシステムの話題</summary>
   </entry>
 </feed>
