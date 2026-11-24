@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-25",
+  "generatedAt": "2026/11/25 8:04:10",
+  "highlights": [
+    "NVIDIA取締役会がジェンスン・ファン氏を辞任から11日でCEOに再任、独立委員会による調査は継続",
+    "AmazonがDecartの推論最適化技術とチームを取得へ（Trainium/Graviton最適化）",
+    "Google DeepMindがGemini 4エージェント＋Lean形式検証で量子アルゴリズムを最大11.8倍効率化",
+    "OpenAIとCiscoがeBPFで稼働中Linuxを一時防御するOSS「Shirudo」を公開",
+    "Z.aiがLoop Transformer採用の750Bモデル「GLM-5.4」を発表、OpenAIはChatGPT向けGPT-6.2 Solを展開"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "NVIDIA取締役会、ジェンスン・ファン氏を社長・CEO・取締役に再任",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+      "summary": "NVIDIAは11月23日、取締役会の全会一致でジェンスン・ファン氏を社長・CEO・取締役に即時再任すると発表した。米政府高官からの意見も踏まえ、再任は国家安全保障上のリスクにならないと判断したとしている。ファン氏が外国情報機関の標的になったとの報道については独立委員会が調査を継続し、独立取締役のみで構成する国家安全保障・輸出管理委員会も新設した。暫定CEOを務めたコレット・クレス氏はCFOに留まる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Amazon、Decart Optimization Stack（DOS）の技術とチームを取得へ",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-decart-ai-optimization",
+      "summary": "AmazonはDecart Optimization Stack（DOS）の独自技術を取得し、共同創業者3名と研究・エンジニアチームを迎え入れることで合意した。AI推論とTrainium・Gravitonなど自社チップの最適化に活用し、顧客がより速く低コストでモデルを学習・実行できるようにする狙い。公式発表では金額は開示されていない（報道では約75億ドル）。取引は規制当局の承認などを経て完了する予定。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "エージェントと形式検証で、より高速な量子アルゴリズムを発見（Google DeepMind）",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "summary": "Google DeepMindとGoogle Quantum AIは、Gemini 4エージェントのチームで既知の量子アルゴリズムを改良し、各アイデアを定理証明器Leanで検証してから共有する手法を発表した。慣性閉じ込め核融合の計算コストを11.8倍削減、シトクロムP450シミュレーションで2.5倍、arcsinルーチンで290倍の高速化などを報告。Leanライブラリや検証済み解はオープンソースで公開された。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAIとCisco、稼働中のLinuxを守るオープンソースランタイム「Shirudo」を発表",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "summary": "ShirudoはeBPFを用いて脆弱なコードパスだけをブロックする一時的な防御「シールド」を、サービス再起動なしで適用できるオープンソースのランタイム。シールドは暗号署名とeBPF検証器のチェックを経て読み込まれ、TPMで適用履歴を検証できる。Codexで生成したシールドがElasticsearch上のJava4Shell攻撃を再起動なしで阻止した事例も示された。ライセンスはBSD 2-Clause。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "Z.ai、各層を2回実行する「Loop Transformer」採用のAIモデル「GLM-5.4」を発表",
+      "url": "https://gigazine.net/news/20261124-glm-5-4/",
+      "summary": "中国のZ.aiは750Bパラメータのフラグシップモデル「GLM-5.4」を発表した。各層の順伝播を2回実行するLoop Transformerを事前学習済みモデルへ強化学習段階で適用し、2〜3兆パラメータ級に匹敵する性能をうたう。Z.aiのチャットとGLM Coding Planで利用でき、APIは近日提供予定、オープンウェイトは安全性確認後に公開予定とされる。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、ChatGPTのチャット向けにGPT-6.2 Solを有料プランへ展開",
+      "url": "https://www.macrumors.com/2026/11/23/openai-gpt-6-2-sol-chatgpt/",
+      "summary": "OpenAIは日常会話向けに調整したGPT-6.2 SolをChatGPTのPlus・Pro・Business・Enterpriseユーザーに展開した（Free・Goプランは対象外）。詳細な指示を含む複雑な依頼や、写真内の細かな文字・記号の読み取り、ユーザーの優先度に合ったオンライン候補の選択が改善したという。難しい会話での安全ポリシー順守率はGPT-6の77〜80%から91〜94%に向上したとしている。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "バージニア州・オレゴン州司法長官、Grokによる非同意性的画像生成をめぐりSpaceXを提訴",
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "summary": "バージニア州とオレゴン州の司法長官は11月23日、X・xAI・Grokの親会社であるSpaceXをそれぞれ州裁判所に提訴した。Grokが子どもを含む人物の性的画像を本人の同意なく生成するのを防がず、一方で安全性を宣伝していたと主張している。訴状は業界標準の安全策を無視したと指摘し、消費者保護の強化と責任追及を求めている。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-11-25-news"
+}
