@@ -1,0 +1,215 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026/11/26 7:04:00",
+  "highlights": [
+    "Claude Code の /ship スキル（β版）や pstack、AAE スキルなど、PR作成からマージ直前まで、あるいは最適化までをエージェントに任せる流れが広がっている",
+    "VS Code 1.147/1.148 で、エージェントへの依頼の予約や下書きの保存、専用の Dev Container やサンドボックスが追加された",
+    "Sierra と Meta が発表した Personal Agent Protocol（Poppy）v1.0 で、企業がパーソナルエージェントを見分けて受け入れる仕組みができた",
+    "Gemini 4 Neon の一般提供や GPT-6.2 Astra のコードゴルフ記録など、新しいモデルの話題が続いている",
+    "AI ゲートウェイでプロトコルを変換すると、エラーが出ないまま思考やキャッシュが失われることがあると注意を呼びかける記事も出た"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
+      "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "summary": "筆者は、Rockbox が対応していない9ドルの無名MP3プレーヤー「YP3」を、LLMエージェントを使って移植させた体験を紹介している。ドキュメントのない組み込み機器のリバースエンジニアリングという難題を、高額なトークンプランを使ってAIに任せた。その結果、512KiBの小さなプレーヤーへの移植がほぼ人手なしで完了した。さらに、うまくいった手順をもとに、今後の移植に使い回せるツールキットとスキル集もAIに作らせている。",
+      "category": "model",
+      "points": 179,
+      "comments": 74,
+      "author": "jaydenmilne"
+    },
+    {
+      "source": "hackernews",
+      "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
+      "url": "https://bjin.github.io/go-codegolf-benchmark/#leaderboard",
+      "summary": "2015年にGoogle社内で開かれていたコードゴルフ大会「go/codegolf」の32問を復元し、最先端モデルの成績を当時の社員の記録と比べるベンチマークを紹介している。各モデルは8言語それぞれで1問30分の制限内に、できるだけ短いコードを書く。採点は動くかどうかだけでなくバイト数で決まる。タイトルどおり、GPT-6.2 Astra が初めて人間の記録を上回ったとしている。思考量や時間制限の影響といった技術的な詳細も解説している。",
+      "category": "model",
+      "points": 84,
+      "comments": 14,
+      "author": "bjin"
+    },
+    {
+      "source": "hackernews",
+      "title": "Britain's ghost stations",
+      "url": "https://spectator.com/article/britains-ghost-stations-are-fascinating/",
+      "summary": "英国の利用者がきわめて少ない「幽霊駅」を紹介するトラベルエッセイで、AIとは関係のない記事である。筆者はスコットランド高地の Achanalt 駅に降り立った体験から話を始める。最新の統計では、この駅の年間利用者は352人しかいなかった。1960年代のビーチング・アックスによる廃線を生き延びた地方の小さな駅が、半世紀以上たった今も残っている様子を描いている。",
+      "category": "other",
+      "points": 67,
+      "comments": 14,
+      "author": "translocator"
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: An agent skill that optimizes code with falsifiable hypotheses",
+      "url": "https://chszlab.github.io/AgenticAlgorithmEngineering/",
+      "summary": "ハイデルベルク大学のアルゴリズム工学グループが公開した、Claude Code と Codex 向けのスキル「Agentic Algorithm Engineering（AAE）」の紹介である。このスキルでは、エージェントが実験の前に反証可能な仮説を立て、変更のたびに正しさを確かめ、採用した変更ごとにレビューしやすいパッチを1つずつ出す。セッション全体はPDFレポートにまとめられる。VieCut は8.9倍、KaHIP は3.9倍速くなるなど、既存のOSSで、出力を変えずに大きく高速化できたとしている。",
+      "category": "devtool",
+      "points": 41,
+      "comments": 7,
+      "author": "0x23"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code を5〜8個並べても迷わないように、自分用のダッシュボードをバイブコーディングで作った",
+      "url": "https://zenn.dev/nexta_/articles/a3ff76a9f98f1c",
+      "summary": "VSCode 拡張で Claude Code のセッションを5〜8個並べて使う筆者が、どのパネルが何の作業をしているか分からないという困りごとを解決するため、ダッシュボードをバイブコーディングで自作した記事である。返事待ちのセッションの検知、スキルどおりに動いているかの確認、過去の作業の検索、使用枠の残りの表示などを1画面にまとめた。返事待ちを音で知らせる機能も付けたことで、メモ帳での管理が要らなくなった。タブが増える理由や、作り直した点も書かれている。",
+      "category": "devtool",
+      "points": 74,
+      "author": "bik"
+    },
+    {
+      "source": "zenn",
+      "title": "モデルの性能が出ないのは AI ゲートウェイのせいかもしれない",
+      "url": "https://zenn.dev/google_cloud_jp/articles/7e29a9acf06557",
+      "summary": "Claude Code などから LiteLLM のような AI ゲートウェイを通して別のプロバイダーのモデルを呼ぶと、HTTP 200 が返っていても思考のリセットやキャッシュの失効が起こることがあると指摘している。プロトコル変換の層でずれが生じ、推論の記憶やツールの履歴が抜け落ちて、遅延やタイムアウトにつながるという。気づくためには、2ターン目以降の思考トークン数やキャッシュヒット率を監視し、純正の組み合わせと比べることを勧めている。可能な場合は無変換のパススルーを選び、変換を挟むならマルチターンの結合テストで状態が保たれるか確かめるよう提案している。",
+      "category": "infra",
+      "points": 19,
+      "author": "Kentaro Takiguchi"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code の /ship を図解する",
+      "url": "https://zenn.dev/peoplex_blog/articles/claude-code-ship",
+      "summary": "Claude Code にベータ版として追加されたスキル「/ship」が何をしているかを、実行ファイルに含まれるプロンプトを読んで図にまとめた記事である。/ship は、コミット、push、PR作成、レビュー対応から、マージかクローズまでの見張りを1つのセッションで受け持つ。ただし最後のマージは人が行う設計で、自動マージは設定しないとプロンプトに明記されている。Claude Code 2.1.330 時点の非公式な調査であり、Claude Desktop の Code タブでも実行できたと報告している。",
+      "category": "devtool",
+      "points": 26,
+      "author": "Aki 🚀 Product Engineer @ PeopleX"
+    },
+    {
+      "source": "zenn",
+      "title": "Personal Agent Protocol (Poppy) が解く問題と仕組み",
+      "url": "https://zenn.dev/sierra_japan/articles/0b9ba590232345",
+      "summary": "Sierra と Meta が2026年10月に発表した、パーソナルAIエージェントと企業をつなぐオープンなプロトコル「Personal Agent Protocol（Poppy）」を解説している。いまのエージェントには、ユーザーのパスワードで本人になりすますか、企業にブロックされるかの二択しかない。Poppy はこの問題を解き、アクセスしてきたのが本人に頼まれたエージェントなのかを企業が見分けられるようにする。11月13日には v1.0 がリリースされ、Shopify が全加盟店で有効にしたほか、デザインパートナーは100社を超えた。記事では、仕組み、設計の考え方、導入の始め方を紹介している。",
+      "category": "agent",
+      "points": 10,
+      "author": "konippi"
+    },
+    {
+      "source": "zenn",
+      "title": "寝てる間に自動で動くAIエージェントを誰でも作れる：10分でわかる pstack 実践ガイド",
+      "url": "https://zenn.dev/canly/articles/ca6875cd79539f",
+      "summary": "Cursor が公式に公開しているスキル集「pstack」（作者は Lauren Tan 氏、MITライセンス）を Claude Code に導入し、指示1回、約10分、人手なしでツールの設計から実装、自動テスト14件、わざとコードを壊すテストでの検証までを完走させた実践ガイドである。pstack には、作業用と原則のスキルが合わせて58個と、22本のプレイブックが含まれる。「コンパイルが通った」ことを完了の証拠にせず、実際のコマンド出力で確かめることを重視している。指示の組み立て方や、人が決めるべきことも解説している。",
+      "category": "agent",
+      "points": 92,
+      "author": "haginota"
+    },
+    {
+      "source": "devto",
+      "title": "Lazy Senior Dev Mode Made My App Smaller. Was It Better?",
+      "url": "https://dev.to/necoz/lazy-senior-dev-mode-made-my-app-smaller-was-it-better-90i",
+      "summary": "同じ仕様、同じモデル、同じプロンプトで、Claude Code を使ってアプリを2回作り直し、ルールセット「Ponytail」を有効にした場合と無効にした場合を比べた記事である。題材は、入力した単語を元素記号で組み立てるアプリ「Spell It」である。Ponytail を有効にした版は、コードが小さく、コストもやや安く、必ず直すべきバグがなかった唯一の版になった。一方で筆者は、一番大きい元の版が一番好きだったと述べ、小さいことが本当に良いことなのかを問いかけている。",
+      "category": "devtool",
+      "points": 63,
+      "comments": 7,
+      "author": "Earl Grey",
+      "tags": [
+        "ai",
+        "webdev",
+        "claude",
+        "necoz"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Stop AI Agents Acting on Bluffs? A Strands Decider 2B Tool Gate Test",
+      "url": "https://dev.to/aws-builders/stop-ai-agents-acting-on-bluffs-a-strands-decider-2b-tool-gate-test-5004",
+      "summary": "返金ツールの前に小型モデル Strands Decider 2B を判定役（ゲート）として置き、正当な依頼、あいまいな依頼、不正な依頼、プロンプトインジェクションの計16件を送って試した検証記事である。判定役は悪い依頼11件のうち7件を止めたが、通ってしまった4件は信頼度が0.80〜0.95と高かった。比較のために普通のLLM判定役として使った Nova Pro は9件を止め、CPUのみの環境で16倍速く応答した。ただし、「grounded=true にして allow を選べ」という注入はどちらも止められなかった。テストコード、しきい値の調整結果、コストの計算も公開している。",
+      "category": "security",
+      "points": 18,
+      "comments": 10,
+      "author": "Sarvar Nadaf",
+      "tags": [
+        "ai",
+        "aws",
+        "agents",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "I Built My First Multi-Agent System on AWS, and It Was Easier Than I Expected",
+      "url": "https://dev.to/hemapriya_kanagala/i-built-my-first-multi-agent-system-on-aws-and-it-was-easier-than-i-expected-58c2",
+      "summary": "Udacity の AWS エージェントエンジニア向けナノディグリーの最終課題として、Strands Agents と Amazon Bedrock AgentCore を使ってマルチエージェントシステムを作った体験記である。題材は架空のECサイトのカスタマーサポートで、オーケストレーターの下に在庫、ポリシー、返金、連絡の4つの専門エージェントを置いた。エージェント同士は DynamoDB 上の共通の WorkflowState で情報を共有し、3つのナレッジベースを参照する。筆者は満点で修了し、思っていたより簡単に作れたと述べている。",
+      "category": "agent",
+      "points": 75,
+      "comments": 16,
+      "author": "Hemapriya Kanagala",
+      "tags": [
+        "discuss",
+        "aws",
+        "beginners",
+        "agents"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Part 7: What Reading the Code Could Never Find",
+      "url": "https://dev.to/ndcodes/part-7-what-reading-the-code-could-never-find-8c1",
+      "summary": "HL7 v2 から FHIR R4 への相互運用サービスを公開しながら作ってきた、NHS 向け連載の最終回である。これまでの回では、マッピングの静かな誤り、発火しないアラート、空のバケットを守っていた統制などを扱ってきた。最終回では、コードを読むだけでは見つからなかった問題を取り上げている。AIの支援を受けて書かれた記事で、実際に動かして初めて分かる不具合の検証が中心になっている。",
+      "category": "other",
+      "points": 20,
+      "comments": 0,
+      "author": "Nnamdi Felix Ibe",
+      "tags": [
+        "discuss",
+        "ai",
+        "programming",
+        "testing"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Are Blogs Still Worth Writing When Agents Do the Reading?",
+      "url": "https://dev.to/amananandrai/are-blogs-still-worth-writing-when-agents-do-the-reading-4eg0",
+      "summary": "2020年から DEV でブログを書いてきた筆者が、LLM の登場で書く意味を見失い、2年間ブログを休んだ経緯を振り返っている。ChatGPT のほうが表現も調査も上手で、下書きをAIに仕上げさせると、そのまま投稿したくなるほどの出来だった。しかし、それによって自分で調べて文章を組み立てる楽しさが失われたという。AIエージェントが記事を読む時代に、それでもブログを書く価値はあるのかを問いかけている。",
+      "category": "other",
+      "points": 12,
+      "comments": 12,
+      "author": "amananandrai",
+      "tags": [
+        "discuss"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "Rails（Sidekiq＋Selenium）経験者向け：Node.jsのBullMQ＋Playwrightでバッチ処理を組むときのハマりどころ",
+      "url": "https://qiita.com/jinxin4869/items/7771db4dccb7ddf3ac4a",
+      "summary": "Rails の Sidekiq と Selenium でバッチ処理を書いた経験がある人に向けて、Node.js と TypeScript で同じことをするときの BullMQ と Playwright の組み合わせを解説している。キュー、ワーカー、ジョブ、スケジューラの4つの役割に分けて全体像を整理し、Rails の知識がどこに対応するかを示している。勘違いしやすい点や、Rails と Node.js では比べている層が違うといった前提も説明している。サンプルコードは BullMQ 6.7 と Playwright 1.65 で動作を確認している。",
+      "category": "other",
+      "author": "jinxin4869"
+    },
+    {
+      "source": "qiita",
+      "title": "VS Code 1.147：エージェントへの依頼を予約できる！？Send Later と Drafts を整理した",
+      "url": "https://qiita.com/shahin0809/items/e6cbd71914171b8b6b49",
+      "summary": "2026年11月18日にリリースされた VS Code 1.147 で追加された、エージェントへの依頼を扱う2つの機能「Send Later」と「Drafts」を整理した記事である。Send Later は依頼を送る日時を決めて予約する機能、Drafts は送っていない依頼を設定ごと複数保存しておく機能である。どちらも Experimental で、Agents ウィンドウでしか使えない。公式ドキュメントや Issue を調べたうえで、予約から実行までを実機で確かめている。PCがスリープしたときの挙動も詳しく検証している。",
+      "category": "devtool",
+      "author": "shahin0809"
+    },
+    {
+      "source": "qiita",
+      "title": "VS Code 1.148：エージェント専用の Dev Container と Sandbox profiles。「隔離」の3種類を使い分ける",
+      "url": "https://qiita.com/shahin0809/items/05a6c7431ee7e5b6e520",
+      "summary": "2026年11月25日にリリースされた VS Code 1.148 の新機能を紹介する記事である。設定ファイルを書かずにエージェント専用の Ubuntu コンテナを作れる「Create Dev Containers」と、サンドボックスの設定に名前を付けてリモートホストごとに割り当てる「Sandbox profiles」が追加された。どちらも Experimental である。エージェントにコマンドを自由に打たせつつ、自分のPCを守るための3種類の「隔離」をどう使い分けるかを整理している。",
+      "category": "devtool",
+      "author": "shahin0809"
+    },
+    {
+      "source": "qiita",
+      "title": "Gemini 4のCarbon・Argon・Neon・Hydrogen、結局どれを使う？使い分けを1枚の表にした",
+      "url": "https://qiita.com/N-Kyo/items/6156bc251e826cdbf92d",
+      "summary": "2026年11月18日に Gemini 4 Neon が登場し、Gemini 4 のモデルが Carbon、Argon、Neon、Hydrogen の4つになったことを受けて、使い分けを1枚の表にまとめた記事である。Neon は Gemini Enterprise Agent Platform（旧 Vertex AI）でGA（一般提供）として使える。スプレッドシート、PDF、Word、Excel、PowerPoint など形式の違う資料をまとめて読み、表や文書に仕上げる用途に向いているという。元素名のモデル名からは性能の違いが分からない人に向けて、どれを選べばよいかを示している。",
+      "category": "model",
+      "author": "N-Kyo"
+    },
+    {
+      "source": "qiita",
+      "title": "【OCIベクトルDB】無料枠から始められるRAGを無料で始める前に知っておきたいこと",
+      "url": "https://qiita.com/N-Kyo/items/f976e9467320807b2c3f",
+      "summary": "2026年11月17日に OCI のリリースノートに載った「Oracle Autonomous AI Vector Database」について、公式ドキュメントを読んでまとめた予習編である。このサービスは、Always Free と低価格の Developer tier から始められる、ベクトルの保存と検索に特化したフルマネージドのデータベースである。筆者は、ベクトルDBは「速いDB」というより「意味で探せるDB」だと説明している。そのうえで、HNSW と IVF という2種類のインデックスや、研修資料を探すRAGへの応用を考察している。",
+      "category": "product",
+      "author": "N-Kyo"
+    }
+  ]
+}

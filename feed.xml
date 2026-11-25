@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-25T00:00:00+09:00</updated>
+  <updated>2026-11-26T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月26日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-26.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-26.html</id>
+    <updated>2026-11-26T00:00:00+09:00</updated>
+    <summary>Claude Code の /ship スキル（β版）や pstack、AAE スキルなど、PR作成からマージ直前まで、あるいは最適化までをエージェントに任せる流れが広がっている / VS Code 1.147/1.148 で、エージェントへの依頼の予約や下書きの保存、専用の Dev Container やサンドボックスが追加された / Sierra と Meta が発表した Personal Agent Protocol（Poppy）v1.0 で、企業がパーソナルエージェントを見分けて受け入れる仕組みができた / Gemini 4 Neon の一般提供や GPT-6.2 Astra のコー…</summary>
+  </entry>
   <entry>
     <title>2026年11月25日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-25-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09-news.html</id>
     <updated>2026-11-09T00:00:00+09:00</updated>
     <summary>OpenAIが評価額1.25兆ドルで追加110億ドルを調達（報道） / 米中間選挙でデータセンター計画が各地の住民投票で否決、AIインフラに逆風 / CrusoeがWyomingの未完成データセンターをGoogleへ売却 / NvidiaのCEOを巡る中国情報機関関与の報道を受け取締役会が独立調査を開始</summary>
-  </entry>
-  <entry>
-    <title>2026年11月9日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09.html</id>
-    <updated>2026-11-09T00:00:00+09:00</updated>
-    <summary>Goldman SachsがClaude Code等の行員向け利用を制限と報道 / AIによる自動ペンテスト・脆弱性チェックの実運用事例がZennで複数 / ISUCON2026でClaude Codeをほぼ無人運転し38位 / 悪用された脆弱性の日本語情報は英語より中央値4.6日遅い</summary>
   </entry>
 </feed>
