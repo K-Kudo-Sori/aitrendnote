@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-26",
+  "generatedAt": "2026/11/26 8:04:12",
+  "highlights": [
+    "OpenAI、GPT-6系モデルが専用生物モデルなしでタンパク質設計能力を示したと発表（ミニバインダー命中率10.9%）",
+    "Anthropic、Claudeのアーティファクトを Mac/Windows のデスクトップアプリとしてインストールできる機能をベータ公開",
+    "Anthropic、社内Claude研究モデルが VP ≠ VNP（Valiant予想）を証明したと主張する論文とLean 4証明を公開（人間の検証は未了）",
+    "Dell の第3四半期売上が前年比2倍超の549億ドル、AIサーバー受注残は1,323億ドルに",
+    "英NCSC、9月以降AI駆動のサイバー攻撃が「顕著に増加」と警告"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "GPT-6モデルが本来備えるタンパク質設計能力を実証",
+      "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+      "summary": "OpenAIは、GPT-6系モデルが専用の生物学モデルを呼び出さず、推論とコードでタンパク質の形状とアミノ酸配列を設計できたとする研究を公開した。GPT-6.2の設計に基づく322個のミニバインダーのうち35個（10.9%）が標的に結合し、PoseBustersのドッキングでは93%（DiffDock-Lは50%）を記録した。一方、配列の割り当てや候補選別には専用モデルも使われており、構造予測（TM-score 0.38）は依然弱点だと著者自身が認めている。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "アーティファクトをMac・Windowsアプリに変える",
+      "url": "https://claude.com/resources/articles/install-as-app",
+      "summary": "Anthropicは、Claudeのアーティファクトを独自のアイコンとウィンドウを持つデスクトップアプリとして実行できる「Install as app」機能をMac/Windows向けにベータ公開した。権限はブラウザ相当・アプリ権限（通知やグローバルショートカット等）・フルコンピュータアクセスの3段階で、更新のたびに再承認が必要。全プランで順次提供され、Teamはフルアクセス既定オフ、Enterpriseはオーナーが有効化するまでオフとなる。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Anthropic、ClaudeがVP ≠ VNPを証明したと発表、47年来のValiant予想に挑む",
+      "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture",
+      "summary": "Anthropicは、社内のClaude研究モデルがP対NP問題の代数版であるValiant予想（VP ≠ VNP）を解決したとする70ページの論文とLean 4による形式証明をGitHubで公開した。論文はパーマネントを計算する算術回路に超多項式下界を示すと主張している。ただし人間の数学者によるレビューはまだで、Lean の自動検査通過は形式的な命題が論文の結論と完全に一致することまでは保証しないため、結果は未確認とされる。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "Dell、AI好調で決算が予想を上回り、250億ドルの自社株買いを承認",
+      "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+      "summary": "Dellの2027会計年度第3四半期売上高は549.4億ドルと前年の2倍超で、市場予想の493.2億ドルを上回った。AI最適化サーバーの売上は前年比291%増の220億ドル、AIサーバー受注残は1,323億ドルに達した。通期のAIサーバー見通しを780億ドルに引き上げ、250億ドルの自社株買いも承認した。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "英国、AI駆動のサイバー攻撃が長年の脆弱なセキュリティを露呈させていると警告",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "summary": "英国家サイバーセキュリティセンター（NCSC）は、9月以降、自律型ハッキングツールが関与する侵入やダウンタイムが複数発生し、AI駆動の攻撃が「顕著に増加」していると報告した。攻撃者は新たな脆弱性ではなく、既知で未修正の弱点を、ArtexやCairnといった無料のオープンソース自律ペンテストツールで高速に突いている。NCSCは基本的な防御で防げるとし、AIは既存のセキュリティ対策を時代遅れにしないと強調した。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "MetaはInstagramを使い、パーソナルAIエージェント「Muse」で広告を押し上げている",
+      "url": "https://www.cnbc.com/2026/11/24/meta-instagram-muse-ad-revenue.html",
+      "summary": "CNBCによると、広告なしのMeta製AIエージェント「Muse」は、Instagramの保存投稿をMuseで整理させる導線を通じて広告主のコンバージョンを高め、広告事業に貢献している。Forter Intelligenceの集計では、11月22日までの週のAIエージェント経由の注文のうちMuseが51%を占め、xAIのGrok（24%）、OpenAIのChatGPT（22%）を上回った。Metaは将来的にMuseへの広告導入も見込まれている。",
+      "category": "agent"
+    }
+  ],
+  "slug": "2026-11-26-news"
+}

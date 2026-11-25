@@ -7,6 +7,13 @@
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
   <updated>2026-11-26T00:00:00+09:00</updated>
   <entry>
+    <title>2026年11月26日 のWeb速報</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-26-news.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-26-news.html</id>
+    <updated>2026-11-26T00:00:00+09:00</updated>
+    <summary>OpenAI、GPT-6系モデルが専用生物モデルなしでタンパク質設計能力を示したと発表（ミニバインダー命中率10.9%） / Anthropic、Claudeのアーティファクトを Mac/Windows のデスクトップアプリとしてインストールできる機能をベータ公開 / Anthropic、社内Claude研究モデルが VP ≠ VNP（Valiant予想）を証明したと主張する論文とLean 4証明を公開（人間の検証は未了） / Dell の第3四半期売上が前年比2倍超の549億ドル、AIサーバー受注残は1,323億ドルに / 英NCSC、9月以降AI駆動のサイバー攻撃が「顕著に増加」と警告</summary>
+  </entry>
+  <entry>
     <title>2026年11月26日 のAIトレンド</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-26.html" />
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-26.html</id>
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10.html</id>
     <updated>2026-11-10T00:00:00+09:00</updated>
     <summary>Anthropic が Claude Fable 5.2 / Mythos 5.2 を発表、Artificial Analysis で最高スコア65 / AI を使った攻撃の高速化を受け、AI 自動ペンテストや脆弱性情報の即時収集の事例が増加 / Claude Code を中心にエージェント任せの開発運用（ISUCON・タスク管理）の実践報告が続く / Google Gemini が個人データを人間レビューに回す方針へ変更と指摘</summary>
-  </entry>
-  <entry>
-    <title>2026年11月9日 のWeb速報</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09-news.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-09-news.html</id>
-    <updated>2026-11-09T00:00:00+09:00</updated>
-    <summary>OpenAIが評価額1.25兆ドルで追加110億ドルを調達（報道） / 米中間選挙でデータセンター計画が各地の住民投票で否決、AIインフラに逆風 / CrusoeがWyomingの未完成データセンターをGoogleへ売却 / NvidiaのCEOを巡る中国情報機関関与の報道を受け取締役会が独立調査を開始</summary>
   </entry>
 </feed>
