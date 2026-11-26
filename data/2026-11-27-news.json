@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-27",
+  "generatedAt": "2026/11/27 8:04:03",
+  "highlights": [
+    "Anthropic が Claude エージェントを使い Messages API を Python から Rust へ移行、リクエストあたり CPU 約70%削減",
+    "OpenAI が ChatGPT の Chat と Work の利用枠を統合、ヘビーユーザーは上限到達が早まる可能性",
+    "米国の遠隔アクセス規制強化を受け、Nvidia チップ販売側がネオクラウドに中国企業への貸し出し排除を要求",
+    "Ant Group がマルチモーダルモデル Ling-3.2-air を MIT ライセンスで公開",
+    "FCC が SpaceX の軌道上 AI データセンター衛星群 Starmind（最大100万基）を承認"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Messages API を Rust に移行（Anthropic）",
+      "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "summary": "Anthropic は Claude への主要な入口である Messages API を Python から Rust へ全面移行した経緯を公開した。Claude エージェントが中核のリクエスト経路を約1週間で書き上げ、本番の Python 実装をオラクルとするシャドーイングで差分を検証し、一致率を99.6%まで高めた。結果としてリクエストあたりの CPU 使用量は約70%、メモリは80%以上削減され、初トークンまでの時間の中央値は約20%短縮された。検証がボトルネックとなり、人間のレビューは依然必要だったとしている。",
+      "category": "devtool"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI、Chat と Work の統合に伴いヘビーな ChatGPT ユーザーは上限に早く達する可能性があると説明",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "summary": "OpenAI は ChatGPT の Chat と Work を統合した体験を一部の Pro 契約者向けに展開し始めた。両者は1つの利用枠を共有し、Instant モデルとの会話は枠に数えられず上限到達後も利用できる。同社は大半のユーザーには影響しないが、ごく一部のヘビーユーザーは上限に早く達する可能性があるとし、12月により多くのユーザーへ共有枠を広げる予定。",
+      "category": "product"
+    },
+    {
+      "source": "websearch",
+      "title": "Nvidia チップの購入者、GPU 購入に際し中国の借り手を排除するよう求められる（関係者）",
+      "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+      "summary": "Nvidia チップの販売側が、計算資源を貸し出す「ネオクラウド」に対し、中国企業へ容量を貸す場合はチップを供給しないと伝えていると CNBC が関係者の話として報じた。背景には、米商務省 BIS が11月19日に施行した、中国企業による先端計算資源への遠隔アクセスを締め付ける暫定最終規則がある。海外データセンター経由で中国企業が最先端チップを借りる抜け道を塞ぐ狙いで、販売側は新たな買い手を探しているという。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "Ant、マルチモーダルモデル Ling-3.2-air を MIT ライセンスで公開",
+      "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/",
+      "summary": "Ant Group はテキスト・画像・動画を扱うマルチモーダルモデル Ling-3.2-air の重みを MIT ライセンスで公開した。ハイブリッド線形アテンションの MoE 構成で、言語部は総パラメータ1240億・トークンあたり有効55億。ツール利用エージェントや業務ワークフロー向けで、AutomationBench-AA のタスク完了率は前世代 Ling-3.0-flash-VL の15.7%から61%に向上したという。SGLang・vLLM 向けのデプロイガイドも付属する。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "米当局、SpaceX の AI データセンター衛星を承認——100万基すべて",
+      "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526",
+      "summary": "米連邦通信委員会（FCC）は、軌道上で AI ワークロードを処理する SpaceX の衛星群「Starmind」を最大100万基まで打ち上げることを承認した。軌道上データセンターの衛星群全体が承認されるのは初めてで、太陽光発電とレーザー通信で接続される計画。2033年11月までに最初の運用衛星、2040年までに全基の配備が条件で、天文学への干渉や軌道の持続可能性を懸念する声も出ている。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "ニューヨーク州のホークル知事、AI 玩具禁止法に署名",
+      "url": "https://www.nbcnews.com/tech/tech-news/new-york-governor-kathy-hochul-sign-ai-toy-ban-law-rcna610962",
+      "summary": "ニューヨーク州のキャシー・ホークル知事は、AI チャットボットで動作する玩具の製造・販売を5年間禁止する法案に署名した。法律は2月に施行される。同様の禁止を制定した州はカリフォルニア州に次いで2例目となる。",
+      "category": "security"
+    }
+  ],
+  "slug": "2026-11-27-news"
+}
