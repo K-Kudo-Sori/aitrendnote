@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-26T00:00:00+09:00</updated>
+  <updated>2026-11-27T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月27日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-27.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-27.html</id>
+    <updated>2026-11-27T00:00:00+09:00</updated>
+    <summary>GoogleがWorkspaceのMCPサーバーをGA化し、2027年2月からAIエージェントはMCP経由のアクセスが義務に。GmailのMCPは送信不可 / OpenAIのAstra 6.2 / Sol 6.2は推論・出力トークンが有意に減っており、コスト削減チューニングの疑い / Claude Codeの/shipスキル解説、セキュリティのベストプラクティス、AIゲートウェイ経由での性能劣化など開発ツール周りの記事が充実 / SierraとMetaのPersonal Agent Protocol（Poppy）がv1.0に。Shopifyが全加盟店で有効化</summary>
+  </entry>
   <entry>
     <title>2026年11月26日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-26-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10-news.html</id>
     <updated>2026-11-10T00:00:00+09:00</updated>
     <summary>Anthropic が Mythos 5.2 と Fable 5.2 をリリース。Fable 5.2 は入力トークン価格を値下げ / Meta が低コストなエージェント向けモデル Muse Ember を公開 / Anthropic が総額34億ドルの天然ガス発電機を購入、AI の電力確保競争が加速 / Nvidia の CEO を巡るスキャンダルが中国事業に影響する可能性</summary>
-  </entry>
-  <entry>
-    <title>2026年11月10日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-10.html</id>
-    <updated>2026-11-10T00:00:00+09:00</updated>
-    <summary>Anthropic が Claude Fable 5.2 / Mythos 5.2 を発表、Artificial Analysis で最高スコア65 / AI を使った攻撃の高速化を受け、AI 自動ペンテストや脆弱性情報の即時収集の事例が増加 / Claude Code を中心にエージェント任せの開発運用（ISUCON・タスク管理）の実践報告が続く / Google Gemini が個人データを人間レビューに回す方針へ変更と指摘</summary>
   </entry>
 </feed>
