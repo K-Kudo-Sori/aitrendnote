@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026/11/28 8:04:32",
+  "highlights": [
+    "Tencent が疎アテンション LLM 向け推測デコーダー DFly2 を公開、最大約4.6倍のデコード高速化",
+    "Sber が 708B パラメータのオープンウェイト MoE「GigaChat 4」を MIT ライセンスで公開",
+    "Google Research のマルチエージェント「Cogentic」が人手を介さず数学論文6本を生成（未査読）",
+    "スイス政府が AI エージェントを使ったサイバー攻撃5件を確認、SAP も開発基盤への攻撃を認める",
+    "OpenAI が Apple を逆提訴、営業秘密の窃取とサプライヤーへの圧力を主張"
+  ],
+  "items": [
+    {
+      "source": "websearch",
+      "title": "Tencent、疎アテンション LLM 向け推測デコーディング用ドラフター「DFly2」を AngelSpec で公開",
+      "url": "https://github.com/Tencent/AngelSpec",
+      "summary": "Tencent は、疎アテンション型のターゲットモデル（Hy4、Hy4 flash、DeepSeek-V4.1-Flash、GLM-5.3-Flash）向けのブロック並列型推測デコーディング・ドラフター「DFly2」を、学習フレームワーク AngelSpec とともに公開した。同時実行数1の条件で、貪欲な自己回帰デコードに対し Hy4 flash で最大約4.6倍のデコード高速化、エンドツーエンドで最大約2.5倍の改善を報告している。ドラフトの重みは Hugging Face で公開され、vLLM ベースの学習設定も提供される。",
+      "category": "infra"
+    },
+    {
+      "source": "websearch",
+      "title": "GigaChat 4 登場：MIT ライセンスの 708B オープンウェイトモデル、ただし細則に注意",
+      "url": "https://dev.to/paullovelace/gigachat-4-is-here-a-708b-open-weight-model-under-mit-but-read-the-fine-print-4dn0",
+      "summary": "ロシアの Sber は11月26日、AI Journey カンファレンスでオープンウェイトモデル GigaChat 4 を発表した。708B パラメータの旗艦モデル（GigaChat4-708B-A41B）と 37B の小型モデルの2種で、いずれも約100万トークンのコンテキストに対応する。MIT ライセンスが適用されるのは 708B モデルのみで、37B モデルは非商用ライセンス。ベンチマークは Sber 自社によるもので、独立検証はされていない。",
+      "category": "model"
+    },
+    {
+      "source": "websearch",
+      "title": "GoogleのAIが人間の介入なしに6本の数学論文を生成、素因数分解など数十年停滞していた分野に光",
+      "url": "https://gigazine.net/news/20261126-cogentic-6-research-papers",
+      "summary": "Google Research は、Gemini 4 をベースとするマルチエージェントシステム「Cogentic」が生成した数学論文6本を GitHub で公開した。人間が関与したのは最初の指示のみだったとされる。素因数分解の計算量に関する保証や、離散対数問題で準多項式時間をわずかに上回るアルゴリズムを示したとする研究が含まれるが、いずれも未査読で、証明の計算機検証用の提出物は後日公開予定としている。",
+      "category": "research"
+    },
+    {
+      "source": "websearch",
+      "title": "スイス政府、AI エージェントが5件のサイバー攻撃に使われたと発表",
+      "url": "https://www.globalbankingandfinance.com/ai-agents-used-five-cyber-attacks-switzerland-government/",
+      "summary": "スイス連邦サイバーセキュリティ庁（BACS）は、企業や重要インフラ事業者を狙った最近の攻撃5件で AI エージェントが使われたと報告した。5件のうち4件でシステムが侵害された。標的のうち3件は電力・水道・通信の重要インフラ事業者で、攻撃者については明らかにしていない。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "SAP がサイバー攻撃を認める、ソースコードが侵害されたとの報道",
+      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "summary": "SAP は開発インフラを狙ったセキュリティインシデントを調査中であることを認め、現時点で顧客の業務データへの不正アクセスの証拠はないとした。Der Spiegel によれば、攻撃者は盗んだ従業員の認証トークンで GitHub 上のソースコードをコピー・改変したとされる。SAP は署名鍵の差し替えや GitHub アクセスの制限を行った。AI の関与を示唆する情報もあるが確認されていない。",
+      "category": "security"
+    },
+    {
+      "source": "websearch",
+      "title": "OpenAI が Apple を逆提訴、営業秘密の窃取とサプライヤーへの脅しを主張",
+      "url": "https://9to5mac.com/2026/11/27/openai-countersues-apple-alleging-trade-secret-theft-and-supplier-threats/",
+      "summary": "OpenAI はカリフォルニア州の裁判所で、Apple が営業秘密を盗み、OpenAI のハードウェア開発に関わるサプライヤーを脅したとして反訴を起こした。これは Apple が7月に OpenAI、io Products、元 Apple 社員を相手取って起こした機密情報流用をめぐる訴訟への対抗で、OpenAI は Apple 側の主張を否定している。Apple の訴訟は2027年7月19日に公判予定。",
+      "category": "product"
+    }
+  ],
+  "slug": "2026-11-28-news"
+}
