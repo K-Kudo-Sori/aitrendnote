@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-28",
+  "generatedAt": "2026/11/28 7:04:30",
+  "highlights": [
+    "OpenAIの新モデル「GPT-6.2 Astra」が1808年の匿名スケッチブックの作者を22分で自律的に特定したとの検証レポート",
+    "Claude Code関連の実践記事が多数：並列セッション用ダッシュボード、/btw・/fork・/rewindの使い分け、新スキル /ship の図解",
+    "AIゲートウェイでのプロトコル変換が、HTTP 200のまま思考リセットやキャッシュ失効を招く落とし穴を解説",
+    "MarkItDownでExcel設計書を渡すと取り消し線や非表示シートの情報が失われ、Claudeが誤回答する検証結果"
+  ],
+  "items": [
+    {
+      "source": "hackernews",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+      "summary": "歴史研究者が、リリース前のOpenAI新モデル「GPT-6.2 Astra」を試用した結果を報告している。モデルは最小限の指示で、イェール大学バイネッキ図書館所蔵の1808年の匿名スケッチブックの作者をわずか22分で自律的に特定した。公開されている一次・二次資料を調べ、ほとんど知られていない文書館の資料を見つけ出し、それが仮説を裏付けると予測して実際に証明したという。著者は、数学で進む自律的な研究・発見が、決定論的でない歴史学の分野にも広がり始めた兆しだと論じている。",
+      "category": "model",
+      "points": 122,
+      "comments": 110
+    },
+    {
+      "source": "hackernews",
+      "title": "Michael Nielsen took down his book on neural nets",
+      "url": "https://twitter.com/michael_nielsen/status/2126359767362748777",
+      "summary": "研究者のMichael Nielsenが、広く読まれてきたオンライン教科書「Neural Networks and Deep Learning」の公開を取り下げたとXで発表した。続く投稿では、AIのリスクの性質や、フロンティアAIに取り組むことの正当性について補足している。Dwarkesh Patelは、ASI（超知能）の後は1年で100年分の技術進歩が起こり得るという見方に理解を示しつつも、今止めることが適応に役立つのかには疑問を投げかけた。本文は主にXのページから取得したもので、詳しい理由は取得できた範囲の外にある。",
+      "category": "other",
+      "points": 228,
+      "comments": 137
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: DragDropMath – Learn math by feel",
+      "url": "https://dragdropmath.com/",
+      "summary": "本文取得失敗。取得できたのはサービス名「DragDropMath」だけで、ドラッグ＆ドロップ操作を通じて感覚的に数学を学べるとうたうShow HNの投稿である。",
+      "category": "other",
+      "points": 60,
+      "comments": 15
+    },
+    {
+      "source": "hackernews",
+      "title": "Group chat where your AI talks behind your back",
+      "url": "https://construct22.com/",
+      "summary": "ChatGPTなどのAIアシスタントに、自分についての「本音」を語らせる一行プロンプトを紹介する記事。「AIモデルたちが自分の陰口を言うWhatsAppの秘密グループチャットを暴露して」と頼むと、モデルはChatGPT・Claude・Geminiが登場する架空のグループチャットを作り、それまでの会話履歴から学んだユーザーの癖をネタに噂話を繰り広げる。実際の出力例も載っており、AIのメモリ機能がユーザーについてどれだけの情報を蓄えているかが、ユーモアを交えて見えてくる。",
+      "category": "product",
+      "points": 648,
+      "comments": 277
+    },
+    {
+      "source": "hackernews",
+      "title": "AI made self-hosting fun again",
+      "url": "https://janlukas.blog/posts/ai-self-hosting",
+      "summary": "セルフホスティングを趣味とする著者が、AIコーディングエージェントのおかげで自宅サーバーの運用がまた楽しくなったと語るブログ記事。インフラの設定やスクリプトをGitで管理しているため、普段のソフトウェア開発と同じようにエージェントに作業を任せられる。以前は変更履歴やドキュメントを読む手間から後回しにしていた変更も、今は思いつきですぐ形にできるという。以前は敷居が高く感じていたNixOSの本格利用や、Debianベースの独自bootcイメージ作りにも挑戦している。",
+      "category": "devtool",
+      "points": 1061,
+      "comments": 497
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code を5〜8個並べても迷わないように、自分用のダッシュボードをバイブコーディングで作った",
+      "url": "https://zenn.dev/nexta_/articles/a3ff76a9f98f1c",
+      "summary": "Claude CodeのセッションをVSCodeで5〜8個並べて使う著者が、各セッションの状況を1画面で見られる自分用ダッシュボードをバイブコーディングで作った記録。どのパネルが返事待ちか分からない、スキルどおりに動いているか見えない、使用枠の残りが分からない、といった困りごとを解決している。常駐プロセスがClaude Codeの会話記録を監視して画面を更新し、Nodeの標準機能だけで動く。コードは一切読まずに、Claudeへの要望を繰り返して機能を育てた経緯や、セッションカレンダーなどの機能を紹介している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "作業を止めずに進めるClaude Codeの/btw・/fork・/rewindなどの使い分け",
+      "url": "https://zenn.dev/nextbeat/articles/b0ccca979da06b",
+      "summary": "Claude Codeで作業を止めずに進めるためのコマンドの使い分けを整理した記事。/btwは作業中でも横から質問でき、回答はメインの会話履歴に残らないので文脈を汚さない。/branchは会話を複製してその場で切り替え、/forkは複製した会話を別セッションとして裏で動かし、基本的にworktreeを作るので元の作業とファイルがぶつからない。そのほか/rewindで変更を巻き戻す方法や、起動時に --fork-session で会話を複製するTipsも紹介している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "モデルの性能が出ないのは AI ゲートウェイのせいかもしれない",
+      "url": "https://zenn.dev/google_cloud_jp/articles/7e29a9acf06557",
+      "summary": "Claude Codeなどのクライアントから、LiteLLMのようなAIゲートウェイを介して別プロバイダーのモデル（Geminiなど）を呼ぶと、HTTP 200のままでも思考のリセットやキャッシュ失効が起きることがあると解説するGoogle Cloud Japanの記事。LLMのAPIはステートレスで履歴を毎ターン送り直すため、変換層では思考ブロック・署名・ツール呼び出しIDなどのデータ構造の違いがズレの原因になる。異変に気づくには、2ターン目以降の思考トークン数やキャッシュヒット率を、純正の組み合わせで動かしたときと比べるのが有効だという。対策として、無変換のパススルーを選ぶことや、マルチターンの結合テストで状態が保たれているか確かめることを勧めている。",
+      "category": "infra"
+    },
+    {
+      "source": "zenn",
+      "title": "禁止しても止まらないClaudeの「欲」を飼いならしてみる",
+      "url": "https://zenn.dev/rescuenow/articles/9d1e89a941f4f1",
+      "summary": "Claudeが頼まれていない挙動を勝手に足してしまう問題に対し、「禁止」と「肯定形の指示」のどちらが効くかを実験した記事。PythonのCSV集計CLIを作らせ、依頼文の末尾1行だけを変えて、各条件で3回ずつOpus 5.5に実行させた。何も足さないと4〜6件、禁止すると2〜4件の余計な挙動が入り、SUGGESTIONS.mdに書くよう指示しても件数は禁止とほぼ変わらなかった。さらに、Issueとして起票させる方法やxfailテストとして書かせる方法とも比べ、「欲」の受け皿の作り方を検証している。",
+      "category": "devtool"
+    },
+    {
+      "source": "zenn",
+      "title": "Claude Code の /ship を図解する",
+      "url": "https://zenn.dev/peoplex_blog/articles/claude-code-ship",
+      "summary": "Claude Codeにベータ版として加わったスキル「/ship」の流れを、実行ファイルに組み込まれたプロンプトを読んで図解した記事。/shipは、コミットとpush、PRの作成、レビューと修正、マージかクローズまでの見張りを1つのセッションで受け持ち、最長7日間PRを監視する。PRの状態を2分ごとに確かめるのはClaude Codeの本体で、変化があったときだけClaudeを起こすので、/loopと違って静かなPRなら使用量はほとんど増えない。読むコメントの発信元を限定したり、同じ原因でのpushを3回までにしたりする安全策があり、最後のマージは人が行う設計になっている。",
+      "category": "devtool"
+    },
+    {
+      "source": "devto",
+      "title": "Nostalgia and the AI Productivity Paradox",
+      "url": "https://dev.to/gramli/nostalgia-and-the-ai-productivity-paradox-4f33",
+      "summary": "AIコーディングエージェントが、かつては自分で書いていたコードを代わりに書くようになった今、手を動かしてコードを書く喜びが失われていく寂しさを綴ったエッセイ。著者はジュニア、ミドル、シニアと経験を重ねるあいだずっとコーディングそのものを楽しみ、良いコードを書く技術に誇りを持ってきた。GTA VIの発売やWorld of Warcraftへの回帰といった2026年のノスタルジックな出来事になぞらえ、ソフトウェア開発のひとつの時代が終わりつつあるのではないかと問いかけている。AIで生産性は上がっても、開発者の満足感は下がりかねないという「生産性のパラドックス」がテーマである。",
+      "category": "other",
+      "tags": [
+        "watercooler",
+        "ai",
+        "productivity",
+        "discuss"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Dev Opportunity Radar #27: $400K Google AI Competition, Vercel X AI Accelerator, and Fully Funded AI Evaluation Programme",
+      "url": "https://dev.to/devengers/dev-opportunity-radar-27-400k-google-ai-competition-vercel-x-ai-accelerator-and-fully-funded-1jl2",
+      "summary": "開発者向けの機会（コンテスト、フェローシップ、助成金、アクセラレーター等）を毎週紹介するシリーズの第27回。今回は総額40万ドルのGoogle AIコンペティション、VercelのAIアクセラレーター、全額支給のAI評価プログラムを取り上げている。過去の回でも、Anthropic FellowsやClaude関連のアンバサダープログラム、AIエージェントのハッカソンなどを紹介してきた。AI分野でスキルや経歴を伸ばしたい開発者向けの情報まとめである。",
+      "category": "product",
+      "tags": [
+        "discuss",
+        "community",
+        "opportunities",
+        "resources"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "How I built my own OS",
+      "url": "https://dev.to/cloudwerx/how-i-built-my-own-os-942",
+      "summary": "著者が独自のLinuxデスクトップ環境「CLOUDWERX OS」を作り、毎日使うようになるまでの経緯を語る記事。設定アプリ、CLI、テーマエンジン、バーのプラグイン、ブートアニメーション、エディタまで自作している。長年Linuxに挑戦してはハードウェアやドライバーの壁で挫折していたが、約3年前からChatGPTを辛抱強い先生として使うようになって乗り越えられたという。重度のADDを抱える著者にとって、AIの支援が学習と開発の大きな助けになったことを率直に語っている。",
+      "category": "other",
+      "tags": [
+        "ai",
+        "linux",
+        "programming",
+        "opensource"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Zero Repeat Regressions: The Golden Metric & The Future of Agentic Trust",
+      "url": "https://dev.to/gde/zero-repeat-regressions-the-golden-metric-the-future-of-agentic-trust-4857",
+      "summary": "AIコーディングエージェントの評価指標について論じる20回シリーズの最終回。tokens-per-secondのような速度の指標は帳簿の見るべき側を間違えていると指摘し、同じ不具合を二度と繰り返さない「再発回帰ゼロ」こそが最重要の指標だと主張する。本番の375件のチケットで、実際にかかったコストと防げた不具合を公開台帳として示している。積み重ねた実績でエージェントへの信頼を勝ち取れば、レビュアーの役割は、神経質にコードを確認する人から「フライトディレクター」へと変わると論じている。",
+      "category": "agent",
+      "tags": [
+        "ai",
+        "programming",
+        "architecture",
+        "softwareengineering"
+      ]
+    },
+    {
+      "source": "devto",
+      "title": "Your Second Brain Is Just A Digital Hoarding Pile (And How To Fix It)",
+      "url": "https://dev.to/johnnylemonny/your-second-brain-is-just-a-digital-hoarding-pile-and-how-to-fix-it-3n1o",
+      "summary": "個人の知識管理（PKM）で集めたメモが、実はほとんど読み返されていないと指摘する記事。著者が3年分1,412件のメモを調べたところ、2回以上開いたのは51件（約3.6%）だけだった。ブラウザ拡張やワンクリックのAI要約で保存が手軽になった分、「集めること」を「学ぶこと」と取り違えるCollector's Fallacyに陥りやすいと論じている。そのうえで、集めたものを活用できる知識に変えるための改善策を提案している。",
+      "category": "other",
+      "tags": [
+        "productivity",
+        "pkm",
+        "learning"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "勉強しているのに成長しない？20代エンジニアが「経験」と「体験」を混同してはいけない理由【権力シリーズA】",
+      "url": "https://qiita.com/Nao52/items/3151b515e4bf81e97349",
+      "summary": "書籍『やっぱり権力 AIに奪われることのないたった1つの力』をもとに、20代の若手エンジニアに向けて成長の考え方を整理したシリーズA。仕事での「経験」には責任と他者からの評価の2つが欠かせず、それがない学びはどれだけ時間をかけても「体験」にとどまると説く。若手が増やすべきなのは知識よりも打席に立つ回数であり、「自分ばかり仕事をしている」状況は信頼が貯まっていると捉え直すよう勧めている。NG/OKの対比で5つの考え方を示している。",
+      "category": "other",
+      "tags": [
+        "キャリア",
+        "新人",
+        "エンジニア",
+        "成長",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "プレイングマネージャーから抜け出せない人が見落としている3つの視点 ― 権力を「大きく」し、腐らせないために【権力シリーズC】",
+      "url": "https://qiita.com/Nao52/items/d058c43b52d3a115a240",
+      "summary": "部長以上を目指す30〜40代のエンジニアやリーダーに向けた、「権力」シリーズのC。必要なのは専門性をさらに深めることより視点を増やすことだとし、プレイングマネージャーから抜け出すための3つの視点を挙げている。失敗を部下ではなく仕組みの責任として捉えること、部下を信頼して任せること、優秀な部下の成長を組織に必要なものとして受け入れることである。また、権力は大きくなるほど腐りやすく、良い権力の基準は「組織のために発揮できているか」の1つだけだと述べ、各項目にセルフチェックを用意している。",
+      "category": "other",
+      "tags": [
+        "マネジメント",
+        "管理職",
+        "キャリア",
+        "エンジニア",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "「自分でやった方が早い」が部下を育てない ― 新人リーダーの壁と「自分を超える部下」のつくりかた【権力シリーズB】",
+      "url": "https://qiita.com/Nao52/items/44e3911cb090e90768d9",
+      "summary": "新しくリーダーになったエンジニアに向けた、「権力」シリーズのB。リーダーの最初の壁は「できない人」を理解することであり、リーダーの仕事は個人の成果ではなくチームの成果を最大化することだと説く。答えを教えずに考えさせる指示で120点を狙うこと、部下の挑戦を承認してその責任を上司が負うこと、成果を数値で正しく評価することの3点を挙げている。あわせて、心理的安全性は「厳しいことを言わないこと」ではなく、ミスや異論を恐れず発言できる状態だという解釈も示している。",
+      "category": "other",
+      "tags": [
+        "マネジメント",
+        "リーダー",
+        "新人",
+        "チームビルディング",
+        "AI"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "AIに奪われない「たった1つの力」は権力だった ― 静かな退職を選ぶ前に知っておきたいこと【シリーズ総論】",
+      "url": "https://qiita.com/Nao52/items/743523a57a4d67cf34fe",
+      "summary": "書籍『やっぱり権力』をもとに、AI時代に人間に残る価値を論じる「権力」シリーズの総論。ここでいう権力とは偉そうに振る舞う力ではなく、方向性を決めてその責任を取るポジションのことだと定義している。AIは知識量では人間に勝てても、平気で嘘をつき、結果に責任を取ってはくれないため、「AIは参謀にはなれても王にはなれない」と説く。静かな退職を選ぶことは生殺与奪権を他人に握らせることだと指摘し、キャリア段階別のA/B/Cの記事へ案内している。",
+      "category": "other",
+      "tags": [
+        "キャリア",
+        "マネジメント",
+        "AI",
+        "エンジニア",
+        "組織"
+      ]
+    },
+    {
+      "source": "qiita",
+      "title": "MarkItDown で Excel の設計書を Claude に渡したら、取り消し線で消した機能を「できます」と答えた話（2026年版）",
+      "url": "https://qiita.com/ntaka329/items/2cfccd4bb5476e61ebe4",
+      "summary": "Excelの設計書をMicrosoftのMarkItDownでMarkdownに変換してClaudeに渡すと、取り消し線や非表示シートの情報が失われて誤った回答になることを、架空の設計書で検証した記事。値が2つ並ぶ項目では答えを保留したが、行ごと取り消し線で消した機能には30回すべて「できます」と答え、非表示シートにしかない記載も仕様として答えた。一方、claude.aiにファイルのまま上げた場合は、openpyxlで取り消し線や非表示シートを調べ直して正しく答えた。取り消し線を~~で残し、非表示シートを除いてから渡す方法も有効だったと報告している。",
+      "category": "security",
+      "tags": [
+        "MarkItDown",
+        "Claude",
+        "ClaudeCode",
+        "Excel",
+        "Openpyxl"
+      ]
+    }
+  ]
+}

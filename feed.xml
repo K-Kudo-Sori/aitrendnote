@@ -5,7 +5,14 @@
   <link href="https://k-kudo-sori.github.io/aitrendnote/feed.xml" rel="self" />
   <link href="https://k-kudo-sori.github.io/aitrendnote/" />
   <id>https://k-kudo-sori.github.io/aitrendnote/</id>
-  <updated>2026-11-27T00:00:00+09:00</updated>
+  <updated>2026-11-28T00:00:00+09:00</updated>
+  <entry>
+    <title>2026年11月28日 のAIトレンド</title>
+    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-28.html" />
+    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-28.html</id>
+    <updated>2026-11-28T00:00:00+09:00</updated>
+    <summary>OpenAIの新モデル「GPT-6.2 Astra」が1808年の匿名スケッチブックの作者を22分で自律的に特定したとの検証レポート / Claude Code関連の実践記事が多数：並列セッション用ダッシュボード、/btw・/fork・/rewindの使い分け、新スキル /ship の図解 / AIゲートウェイでのプロトコル変換が、HTTP 200のまま思考リセットやキャッシュ失効を招く落とし穴を解説 / MarkItDownでExcel設計書を渡すと取り消し線や非表示シートの情報が失われ、Claudeが誤回答する検証結果</summary>
+  </entry>
   <entry>
     <title>2026年11月27日 のWeb速報</title>
     <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-27-news.html" />
@@ -208,12 +215,5 @@
     <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11-news.html</id>
     <updated>2026-11-11T00:00:00+09:00</updated>
     <summary>Google が最上位モデル「Gemini 4 Carbon」を一般提供開始。アプリでは AI Ultra 限定、API は Argon と同額 / Anthropic が IPO 価格レンジを1株70〜78ドルに設定（想定評価額 最大1.404兆ドル）。同日に会議参加型の「Claude Meetings」も発表 / ニューヨーク州の AI 安全法 RAISE Act が2027年初の施行に向け登録ポータルを開設 / Google は第8世代 TPU に機密処理向け「8tx」と大容量推論向け「8i Max」を追加 / Adobe の MCP 公開、NotebookLM の API／MCP サ…</summary>
-  </entry>
-  <entry>
-    <title>2026年11月11日 のAIトレンド</title>
-    <link href="https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11.html" />
-    <id>https://k-kudo-sori.github.io/aitrendnote/notes/2026-11-11.html</id>
-    <updated>2026-11-11T00:00:00+09:00</updated>
-    <summary>AnthropicがClaude Whiteboards / Sheets（ベータ）とClaude Data（GA）を発表。Fable 5.2の実測レビューも登場し、5.1より約2割速く約3割安いがOpus 5.5の約1.6倍の費用 / 「AIが書いたコードとテストは本当に堅牢か」が共通テーマ。浅いテストによる脆さの指摘、ミューテーションテスト（Stryker）、決定論的ゲート＋複数AIレビューの実践が並ぶ / エージェントに知識を渡す「スキル」が拡大。ブラウザベンダー主導のModern Web Guidanceや、Vue向けのvue-expertスキルが公開 / Claude Codeの運…</summary>
   </entry>
 </feed>
